@@ -562,7 +562,7 @@
       btn.innerHTML = night ? `${icon("day")}<span>Day edition</span>` : `${icon("night")}<span>Night edition</span>`;
       btn.setAttribute("aria-pressed", String(night));
       btn.setAttribute("aria-label", night ? "Switch to the day edition" : "Switch to the night edition");
-      document.querySelector('meta[name="theme-color"]').setAttribute("content", night ? "#1A1B26" : "#F2EFE7");
+      document.querySelector('meta[name="theme-color"]').setAttribute("content", night ? "#191E1B" : "#EDF0EA");
     };
     btn.addEventListener("click", () => {
       const night = document.documentElement.getAttribute("data-theme") !== "night";

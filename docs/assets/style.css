@@ -1,37 +1,37 @@
 /* Attention Span: a broadsheet for AI news. Flat colour, no gradients. */
-/* Two editions share one layout:
-   - Day edition (default): black ink on newsprint, yellow only as a highlighter.
-   - Night edition: Tokyo Night navy, warm paper ink, yellow highlighter. */
+/* Two editions share one layout, both on a soft sage that is easy on the eyes:
+   - Day edition (default): green-black ink on sage-grey paper, yellow only as a highlighter.
+   - Night edition: pale sage ink on deep green-black, yellow highlighter. */
 :root {
-  --bg: #F2EFE7;
-  --panel: #E9E5DA;
-  --rule: #1B1B1B;
-  --rule-soft: #CFCABD;
-  --ink: #161616;
-  --ink-2: #45423C;
-  --ink-3: #6E6A62;
-  --accent: #161616;
+  --bg: #EDF0EA;
+  --panel: #E2E7DF;
+  --rule: #1F2420;
+  --rule-soft: #C7CEC5;
+  --ink: #1F2420;
+  --ink-2: #4A524B;
+  --ink-3: #646C65;
+  --accent: #1F2420;
   --yellow: #FBBF24;
-  --wash: rgba(251, 191, 36, 0.45);
-  --link: #161616;
+  --wash: rgba(251, 191, 36, 0.42);
+  --link: #1F2420;
   --serif: "Newsreader", Georgia, "Times New Roman", serif;
   --mono: "IBM Plex Mono", ui-monospace, Consolas, monospace;
-  --nameplate: "UnifrakturMaguntia", "Newsreader", Georgia, serif;
+  --nameplate: "Bodoni Moda", "Newsreader", Georgia, serif;
   --measure: 70ch;
   --gutter: clamp(16px, 4vw, 40px);
   color-scheme: light;
 }
 :root[data-theme="night"] {
-  --bg: #1A1B26;
-  --panel: #20222F;
-  --rule: #343849;
-  --rule-soft: #282A38;
-  --ink: #E4E0D5;
-  --ink-2: #A9A59B;
-  --ink-3: #77746D;
+  --bg: #191E1B;
+  --panel: #212823;
+  --rule: #3A443D;
+  --rule-soft: #2A322C;
+  --ink: #E1E7DF;
+  --ink-2: #A6B0A7;
+  --ink-3: #87918A;
   --accent: #FBBF24;
-  --wash: rgba(251, 191, 36, 0.16);
-  --link: #89DDFF;
+  --wash: rgba(251, 191, 36, 0.18);
+  --link: #B5DCCB;
   color-scheme: dark;
 }
 
@@ -315,8 +315,9 @@ body { background: var(--bg); }
 .ear b { display: block; color: var(--ink); font-weight: 600; font-size: 0.92rem; }
 .ear.right { justify-self: end; text-align: right; }
 .brand { text-align: center; }
-.brand h1 { font-family: var(--nameplate); font-weight: 400; font-size: clamp(2.8rem, 8.5vw, 5.6rem);
-  letter-spacing: 0; line-height: 1; }
+.brand h1 { font-family: var(--nameplate); font-weight: 700; font-size: clamp(2.6rem, 7.6vw, 5.2rem);
+  letter-spacing: -0.012em; line-height: 1; font-variation-settings: "opsz" 96; }
+.brand h1::selection, .brand::selection { background: var(--wash); }
 .brand .cursor { display: none; }
 .tagline { margin: 4px 0 10px; font-size: 1rem; }
 .folio { border-top: 3px solid var(--rule); border-bottom: 1px solid var(--rule); margin-top: 10px; }
@@ -369,12 +370,12 @@ aside.rail-box { border-left: 1px solid var(--rule); padding-left: 22px; }
 :root:not([data-theme="night"]) .chip { border-color: var(--ink-3); color: var(--ink); }
 :root:not([data-theme="night"]) .contents a:hover,
 :root:not([data-theme="night"]) .term a.name:hover { background: var(--wash); text-decoration: none; }
-:root:not([data-theme="night"]) .letter-group > h3 { color: var(--ink); font-family: var(--nameplate); font-weight: 400; }
+.letter-group > h3 { color: var(--ink); font-family: var(--nameplate); font-weight: 700; }
 :root:not([data-theme="night"]) .lineage-self { border-color: var(--ink); background: var(--wash); }
 :root:not([data-theme="night"]) .layer-band.data { background: var(--wash); }
 :root:not([data-theme="night"]) .era > header { border-bottom-color: var(--rule); }
 :root:not([data-theme="night"]) select, :root:not([data-theme="night"]) input[type="search"] { background: #FBF9F4; }
-:root:not([data-theme="night"]) .monogram { font-family: var(--nameplate); font-weight: 400; font-size: 1.6rem; }
+.monogram { font-family: var(--nameplate); font-weight: 700; font-size: 1.45rem; }
 .era > header h3 { font-variation-settings: "opsz" 60; font-weight: 700; }
 footer.site { border-top: 3px double var(--rule); }
 
