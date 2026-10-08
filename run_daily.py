@@ -151,6 +151,9 @@ def main():
     elif published:
         store.save_edition(day, published, stats)
         pending = store.add_pending_terms(day, published, [c["term"] for c in concepts])
+        sys.path.insert(0, str(ROOT / "tools"))
+        from bundle_data import bundle
+        bundle()
         log(f"   edition {day}: {len(published)} stories written to docs/data/editions/")
         log(f"   {len(pending)} new terms waiting for review (python tools/review_terms.py)")
     else:

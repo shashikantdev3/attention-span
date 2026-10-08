@@ -178,6 +178,9 @@ def build():
     status_counts = {}
     for e in entries:
         status_counts[e["check"]["status"]] = status_counts.get(e["check"]["status"], 0) + 1
+    sys.path.insert(0, str(ROOT / "tools"))
+    from bundle_data import bundle
+    bundle()
     print(f"OK: {len(entries)} timeline entries, {len(concepts_out)} concepts, {len(people_out)} people")
     print(f"    entry checks: {status_counts}")
     print(f"    concepts not yet used by any timeline entry: {len(orphan)}")

@@ -19,7 +19,21 @@
   };
   const longDate = (d) => new Date(d + "T12:00:00Z").toLocaleDateString("en-GB",
     { weekday: "long", day: "numeric", month: "long", year: "numeric", timeZone: "UTC" });
+  // Opened straight from disk (file://), browsers block fetch, so read the offline copy instead.
+  const OFFLINE = location.protocol === "file:";
+  const offlineReady = !OFFLINE ? Promise.resolve() : new Promise((resolve, reject) => {
+    const s = document.createElement("script");
+    s.src = "data/offline.js";
+    s.onload = resolve;
+    s.onerror = () => reject(new Error("data/offline.js is missing; run python tools/bundle_data.py"));
+    document.head.appendChild(s);
+  });
   const getJSON = async (path) => {
+    if (OFFLINE) {
+      await offlineReady;
+      if (window.AS_DATA && window.AS_DATA[path]) return window.AS_DATA[path];
+      throw new Error(`${path} is not in the offline copy`);
+    }
     const r = await fetch(path, { cache: "no-cache" });
     if (!r.ok) throw new Error(`${path}: ${r.status}`);
     return r.json();
@@ -585,7 +599,7 @@
     window.addEventListener("hashchange", route);
     route();
   }).catch((err) => {
-    view.innerHTML = `<p class="notice">The data did not load (${esc(err.message)}). If you opened index.html straight from disk,
-      serve the folder instead: run <code>python -m http.server -d docs</code> and open http://localhost:8000.</p>`;
+    view.innerHTML = `<p class="notice">The data did not load (${esc(err.message)}). Try reloading the page. On your own computer you can
+      also run <code>python -m http.server -d docs</code> and open http://localhost:8000.</p>`;
   });
 })();
