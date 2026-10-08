@@ -1,0 +1,135 @@
+[
+ {
+  "term": "effort controls",
+  "definition": "Controls that let you tune cost against intelligence for each task instead of picking one setting for an entire workload.",
+  "first_seen": "2026-10-08",
+  "story": "2026-10-08-claude-haiku-5-5-released-on-amazon-bedrock",
+  "source": "https://aws.amazon.com/blogs/machine-learning/introducing-claude-haiku-5-5-on-aws/"
+ },
+ {
+  "term": "Microsoft Execution Containers",
+  "definition": "Microsoft Execution Containers (MXC) help secure interactive and non-interactive agentic coding sessions.",
+  "first_seen": "2026-10-08",
+  "story": "2026-10-08-github-copilot-brings-on-device-ai-coding-to-new-windows-pcs",
+  "source": "https://commandline.microsoft.com/local-models-sandboxed-tools-github-windows/"
+ },
+ {
+  "term": "False front operations",
+  "definition": "Operations that use false entities and personas to launder geopolitical messaging into target audiences.",
+  "first_seen": "2026-10-08",
+  "story": "2026-10-08-openai-disrupts-ai-enabled-false-front-operations-from-russi",
+  "source": "https://openai.com/index/disrupting-ai-enabled-false-front-operations"
+ },
+ {
+  "term": "Breakout Scale",
+  "definition": "A scale that rates influence operations from 1, which is the lowest, to 6, which is the highest.",
+  "first_seen": "2026-10-08",
+  "story": "2026-10-08-openai-disrupts-ai-enabled-false-front-operations-from-russi",
+  "source": "https://openai.com/index/disrupting-ai-enabled-false-front-operations"
+ },
+ {
+  "term": "Long-WAM",
+  "definition": "Long-WAM is a model-system framework for scaling the context of causal world-action models under real-time control constraints.",
+  "first_seen": "2026-10-08",
+  "story": "2026-10-08-long-wam-scales-context-for-world-action-models-in-real-time",
+  "source": "https://arxiv.org/abs/2610.10528"
+ },
+ {
+  "term": "UNREAL",
+  "definition": "UNifying REtrieval And Long-Context with a Single Model is a model-native evidence selection framework to span corpus retrieval and long-context inference.",
+  "first_seen": "2026-10-08",
+  "story": "2026-10-08-unreal-framework-unifies-retrieval-and-long-context-inferenc",
+  "source": "https://arxiv.org/abs/2610.08463"
+ },
+ {
+  "term": "Seesaw Effect in Context Extension",
+  "definition": "Linear attention hybrids benefit more from long-context continual pretraining, whereas sliding-window attention hybrids perform better under length extrapolation.",
+  "first_seen": "2026-10-08",
+  "story": "2026-10-08-mechanics-of-long-context-hybrid-models-part-1-1-published",
+  "source": "https://arxiv.org/abs/2610.10114"
+ },
+ {
+  "term": "Sliding-Window Linear Attention",
+  "definition": "A proposed attention method achieving 16times training-free length extrapolation while maintaining 100 percent accuracy on NIAH-SK1 in 64k context length.",
+  "first_seen": "2026-10-08",
+  "story": "2026-10-08-mechanics-of-long-context-hybrid-models-part-1-1-published",
+  "source": "https://arxiv.org/abs/2610.10114"
+ },
+ {
+  "term": "speculative decoding",
+  "definition": "Speculative decoding trades additional working memory for higher decode throughput and lower end-to-end latency.",
+  "first_seen": "2026-10-08",
+  "story": "2026-10-08-github-copilot-brings-on-device-ai-coding-to-new-windows-pcs",
+  "source": "https://commandline.microsoft.com/local-models-sandboxed-tools-github-windows/"
+ },
+ {
+  "term": "world-action models",
+  "definition": "Models that combine world representations with robot actions for physical task execution.",
+  "first_seen": "2026-10-08",
+  "story": "2026-10-08-long-wam-scales-context-for-real-time-robot-control",
+  "source": "https://arxiv.org/abs/2610.10528"
+ },
+ {
+  "term": "streaming observation encoding",
+  "definition": "A system technique that processes visual observations in real time for robotic control.",
+  "first_seen": "2026-10-08",
+  "story": "2026-10-08-long-wam-scales-context-for-real-time-robot-control",
+  "source": "https://arxiv.org/abs/2610.10528"
+ },
+ {
+  "term": "LLM Deception Diamond framework",
+  "definition": "A framework that characterizes four external conditions that may induce deception, including pressure, incentive, opportunity, and conflict.",
+  "first_seen": "2026-10-08",
+  "story": "2026-10-08-decepeval-benchmark-measures-deception-in-llm-agents",
+  "source": "https://arxiv.org/abs/2610.07967"
+ },
+ {
+  "term": "model-native evidence selection",
+  "definition": "A framework that uses internal model representations to span corpus retrieval and long-context inference.",
+  "first_seen": "2026-10-08",
+  "story": "2026-10-08-unreal-unifies-retrieval-and-long-context-with-a-single-mode",
+  "source": "https://arxiv.org/abs/2610.08463"
+ },
+ {
+  "term": "adjustable effort setting",
+  "definition": "An adjustable effort setting means users can decide whether to optimize for cost or intelligence.",
+  "first_seen": "2026-10-08",
+  "story": "2026-10-08-anthropic-releases-claude-haiku-5-5-and-aws-integration",
+  "source": "https://www.anthropic.com/claude-haiku-5-5"
+ },
+ {
+  "term": "false front",
+  "definition": "A fake entity used to launder geopolitical or conflict-related messaging into target audiences.",
+  "first_seen": "2026-10-08",
+  "story": "2026-10-08-openai-bans-russian-and-iranian-ai-enabled-influence-operati",
+  "source": "https://openai.com/index/disrupting-ai-enabled-false-front-operations"
+ },
+ {
+  "term": "IO Breakout Scale",
+  "definition": "A scale that rates influence operations from 1 to 6 based on their potential reach and impact.",
+  "first_seen": "2026-10-08",
+  "story": "2026-10-08-openai-bans-russian-and-iranian-ai-enabled-influence-operati",
+  "source": "https://openai.com/index/disrupting-ai-enabled-false-front-operations"
+ },
+ {
+  "term": "Intelligent UI",
+  "definition": "A capability that allows ChatGPT to answer quickly with fully interactive user interfaces that make everyday answers more visual.",
+  "first_seen": "2026-10-08",
+  "story": "2026-10-08-openai-introduces-gpt-6-and-intelligent-ui-for-chatgpt",
+  "source": "https://openai.com/index/gpt-6-for-everyone/"
+ },
+ {
+  "term": "Hybrid Intelligence",
+  "definition": "A system where AI agents can run securely across local PCs and the cloud, using local models and PC context alongside cloud capabilities.",
+  "first_seen": "2026-10-08",
+  "story": "2026-10-08-microsoft-updates-copilot-on-windows-with-hybrid-intelligenc",
+  "source": "https://www.linkedin.com/feed/update/urn:li:activity:7513685659505750016/"
+ },
+ {
+  "term": "MXC containment",
+  "definition": "A containment method used to help agents run securely across local PCs and the cloud on Windows.",
+  "first_seen": "2026-10-08",
+  "story": "2026-10-08-microsoft-updates-copilot-on-windows-with-hybrid-intelligenc",
+  "source": "https://www.linkedin.com/feed/update/urn:li:activity:7513685659505750016/"
+ }
+]

@@ -1,0 +1,360 @@
+[
+ {
+  "id": "sam-altman",
+  "name": "Sam Altman",
+  "role": "CEO, OpenAI",
+  "role_as_of": "2026-10",
+  "role_source": {
+   "title": "OpenAI announces leadership transition (and return)",
+   "url": "https://openai.com/index/openai-announces-leadership-transition/"
+  },
+  "known_for": "Leads OpenAI through GPT-3, ChatGPT, GPT-4 and GPT-5, and sets much of the industry's pace.",
+  "labs": [
+   "openai"
+  ],
+  "concepts": [
+   "llm",
+   "agi",
+   "chatbot"
+  ],
+  "aliases": [
+   "Altman"
+  ],
+  "feeds": [
+   {
+    "kind": "blog",
+    "url": "https://blog.samaltman.com/posts.atom"
+   }
+  ],
+  "links": [
+   {
+    "title": "Blog",
+    "url": "https://blog.samaltman.com/"
+   }
+  ],
+  "entries": [
+   "openai-founded-2015",
+   "chatgpt-2022",
+   "openai-board-2023",
+   "gpt5-2025",
+   "steinberger-openai-2026"
+  ]
+ },
+ {
+  "id": "dario-amodei",
+  "name": "Dario Amodei",
+  "role": "Co-founder and CEO, Anthropic",
+  "role_as_of": "2026-10",
+  "role_source": {
+   "title": "Introducing Claude",
+   "url": "https://www.anthropic.com/news/introducing-claude"
+  },
+  "known_for": "Co-authored scaling laws and RLHF research at OpenAI, then co-founded Anthropic. Writes long essays on AI's future.",
+  "labs": [
+   "anthropic"
+  ],
+  "concepts": [
+   "scaling-laws",
+   "rlhf",
+   "constitutional-ai",
+   "ai-safety"
+  ],
+  "aliases": [
+   "Amodei"
+  ],
+  "feeds": [],
+  "links": [
+   {
+    "title": "Essays",
+    "url": "https://darioamodei.com/"
+   }
+  ],
+  "entries": [
+   "rlhf-2017",
+   "scaling-laws-2020",
+   "gpt3-2020",
+   "constitutional-ai-2022",
+   "claude-2023",
+   "claude3-2024"
+  ]
+ },
+ {
+  "id": "demis-hassabis",
+  "name": "Demis Hassabis",
+  "role": "Co-founder and CEO, Google DeepMind",
+  "role_as_of": "2026-10",
+  "role_source": {
+   "title": "The Nobel Prize in Chemistry 2024",
+   "url": "https://www.nobelprize.org/prizes/chemistry/2024/summary/"
+  },
+  "known_for": "Led DeepMind to AlphaGo and AlphaFold; shared the 2024 Nobel Prize in Chemistry.",
+  "labs": [
+   "google"
+  ],
+  "concepts": [
+   "reinforcement-learning",
+   "deep-learning",
+   "agi"
+  ],
+  "aliases": [
+   "Hassabis"
+  ],
+  "feeds": [],
+  "links": [
+   {
+    "title": "Google DeepMind",
+    "url": "https://deepmind.google/"
+   }
+  ],
+  "entries": [
+   "dqn-2013",
+   "alphago-2016",
+   "alphafold2-2021",
+   "gemini-2023",
+   "nobel-chemistry-2024",
+   "gemini25-2025"
+  ]
+ },
+ {
+  "id": "andrew-ng",
+  "name": "Andrew Ng",
+  "role": "Founder, DeepLearning.AI",
+  "role_as_of": "2026-10",
+  "role_source": {
+   "title": "DeepLearning.AI",
+   "url": "https://www.deeplearning.ai/"
+  },
+  "known_for": "Co-founded Google Brain and Coursera, and taught machine learning to millions. Writes The Batch newsletter.",
+  "labs": [
+   "google",
+   "academia"
+  ],
+  "concepts": [
+   "deep-learning",
+   "gpu",
+   "agent"
+  ],
+  "aliases": [
+   "Andrew Ng"
+  ],
+  "feeds": [],
+  "links": [
+   {
+    "title": "The Batch",
+    "url": "https://www.deeplearning.ai/the-batch/"
+   }
+  ],
+  "entries": [
+   "gpu-training-2009",
+   "google-brain-cat-2011"
+  ]
+ },
+ {
+  "id": "andrej-karpathy",
+  "name": "Andrej Karpathy",
+  "role": "Pretraining team, Anthropic (reported May 2026)",
+  "role_as_of": "2026-05",
+  "role_source": {
+   "title": "exchange4media: Andrej Karpathy joins Anthropic",
+   "url": "https://www.exchange4media.com/people-movement-news/andrej-karpathy-joins-anthropic-154782.html"
+  },
+  "known_for": "OpenAI founding member and former Tesla AI director. The best-known explainer of how LLMs work; coined 'vibe coding'.",
+  "labs": [
+   "anthropic",
+   "openai"
+  ],
+  "concepts": [
+   "llm",
+   "pretraining",
+   "vibe-coding"
+  ],
+  "aliases": [
+   "Karpathy"
+  ],
+  "feeds": [
+   {
+    "kind": "blog",
+    "url": "https://karpathy.bearblog.dev/feed/"
+   }
+  ],
+  "links": [
+   {
+    "title": "Blog",
+    "url": "https://karpathy.bearblog.dev/"
+   },
+   {
+    "title": "GitHub",
+    "url": "https://github.com/karpathy"
+   }
+  ],
+  "entries": [
+   "vibe-coding-2025",
+   "karpathy-anthropic-2026"
+  ]
+ },
+ {
+  "id": "geoffrey-hinton",
+  "name": "Geoffrey Hinton",
+  "role": "Professor emeritus, University of Toronto",
+  "role_as_of": "2026-10",
+  "role_source": {
+   "title": "The Nobel Prize in Physics 2024",
+   "url": "https://www.nobelprize.org/prizes/physics/2024/summary/"
+  },
+  "known_for": "Backpropagation, deep belief nets and AlexNet. Left Google in 2023 to speak freely about AI risk; 2024 Nobel Prize in Physics.",
+  "labs": [
+   "academia"
+  ],
+  "concepts": [
+   "backpropagation",
+   "deep-learning",
+   "ai-safety"
+  ],
+  "aliases": [
+   "Hinton"
+  ],
+  "feeds": [],
+  "links": [],
+  "entries": [
+   "backprop-1986",
+   "deep-belief-2006",
+   "alexnet-2012",
+   "dropout-2014",
+   "moe-2017",
+   "nobel-physics-2024"
+  ]
+ },
+ {
+  "id": "yann-lecun",
+  "name": "Yann LeCun",
+  "role": "Founder of a new AI startup after leaving Meta (2026)",
+  "role_as_of": "2026-10",
+  "role_source": {
+   "title": "Bloomberg Law: LeCun's new AI startup raises $1 billion seed",
+   "url": "https://news.bloomberglaw.com/private-equity/yann-lecuns-new-ai-startup-raises-1-billion-in-seed-funding"
+  },
+  "known_for": "Pioneer of convolutional networks, long-time Meta chief AI scientist, and advocate of world models and open research.",
+  "labs": [
+   "meta",
+   "academia"
+  ],
+  "concepts": [
+   "cnn",
+   "world-model",
+   "open-weight-model"
+  ],
+  "aliases": [
+   "LeCun"
+  ],
+  "feeds": [],
+  "links": [],
+  "entries": [
+   "lecun-cnn-1989",
+   "lenet-1998"
+  ]
+ },
+ {
+  "id": "ilya-sutskever",
+  "name": "Ilya Sutskever",
+  "role": "Co-founder, Safe Superintelligence (SSI)",
+  "role_as_of": "2026-10",
+  "role_source": {
+   "title": "Safe Superintelligence Inc.",
+   "url": "https://ssi.inc/"
+  },
+  "known_for": "Co-author of AlexNet and sequence-to-sequence learning, OpenAI co-founder and chief scientist, now building SSI.",
+  "labs": [
+   "ssi",
+   "openai"
+  ],
+  "concepts": [
+   "deep-learning",
+   "ai-safety",
+   "agi"
+  ],
+  "aliases": [
+   "Sutskever"
+  ],
+  "feeds": [],
+  "links": [],
+  "entries": [
+   "alexnet-2012",
+   "dropout-2014",
+   "seq2seq-2014",
+   "openai-founded-2015",
+   "gpt1-2018",
+   "openai-board-2023",
+   "ssi-2024"
+  ]
+ },
+ {
+  "id": "fei-fei-li",
+  "name": "Fei-Fei Li",
+  "role": "Co-founder and CEO, World Labs",
+  "role_as_of": "2026-10",
+  "role_source": {
+   "title": "World Labs",
+   "url": "https://www.worldlabs.ai/"
+  },
+  "known_for": "Created ImageNet, co-directs Stanford's Human-Centered AI institute, and works on spatial intelligence.",
+  "labs": [
+   "academia",
+   "other"
+  ],
+  "concepts": [
+   "dataset",
+   "world-model"
+  ],
+  "aliases": [
+   "Fei-Fei Li"
+  ],
+  "feeds": [],
+  "links": [],
+  "entries": [
+   "imagenet-2009"
+  ]
+ },
+ {
+  "id": "peter-steinberger",
+  "name": "Peter Steinberger",
+  "role": "OpenAI (personal agents), creator of OpenClaw",
+  "role_as_of": "2026-02",
+  "role_source": {
+   "title": "Fortune: Who is Peter Steinberger",
+   "url": "https://fortune.com/2026/02/19/openclaw-who-is-peter-steinberger-openai-sam-altman-anthropic-moltbook"
+  },
+  "known_for": "Built the viral open-source personal agent OpenClaw, then joined OpenAI to work on personal agents.",
+  "labs": [
+   "openai",
+   "other"
+  ],
+  "concepts": [
+   "personal-agent",
+   "agent"
+  ],
+  "aliases": [
+   "Steinberger",
+   "steipete",
+   "OpenClaw"
+  ],
+  "feeds": [
+   {
+    "kind": "blog",
+    "url": "https://steipete.me/rss.xml"
+   }
+  ],
+  "links": [
+   {
+    "title": "Blog",
+    "url": "https://steipete.me/"
+   },
+   {
+    "title": "GitHub",
+    "url": "https://github.com/steipete"
+   }
+  ],
+  "entries": [
+   "steinberger-openai-2026"
+  ]
+ }
+]

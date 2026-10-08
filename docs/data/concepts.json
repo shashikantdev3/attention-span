@@ -1,0 +1,1834 @@
+[
+ {
+  "id": "activation-function",
+  "term": "Activation function",
+  "layer": "math",
+  "definition": "The non-linear function applied to a neuron's sum, such as ReLU or sigmoid, which lets networks model curves, not just lines.",
+  "eli5": "A switch that decides how loudly a neuron speaks, so the network can learn bendy shapes, not only straight lines.",
+  "evolved_from": [
+   "artificial-neuron"
+  ],
+  "aka": [],
+  "led_to": [],
+  "entries": [],
+  "letter": "A"
+ },
+ {
+  "id": "a2a",
+  "term": "Agent2Agent protocol (A2A)",
+  "layer": "building",
+  "definition": "An open protocol for AI agents built by different vendors to discover each other and work together.",
+  "eli5": "A common language so robots from different companies can team up on a job.",
+  "evolved_from": [
+   "agent",
+   "mcp"
+  ],
+  "aka": [
+   "A2A"
+  ],
+  "led_to": [],
+  "entries": [
+   "a2a-2025"
+  ],
+  "letter": "A"
+ },
+ {
+  "id": "agent",
+  "term": "AI agent",
+  "layer": "building",
+  "definition": "A system where a model plans and takes multi-step actions with tools toward a goal, with little human input per step.",
+  "eli5": "Not just answering 'how do I book a train' but actually going and booking it.",
+  "evolved_from": [
+   "react-pattern",
+   "tool-use"
+  ],
+  "aka": [],
+  "led_to": [
+   "a2a",
+   "computer-use",
+   "personal-agent",
+   "vibe-coding"
+  ],
+  "entries": [
+   "react-2022",
+   "computer-use-2024",
+   "mcp-2024",
+   "claude-code-2025",
+   "a2a-2025",
+   "build-2025",
+   "claude4-2025",
+   "steinberger-openai-2026"
+  ],
+  "letter": "A"
+ },
+ {
+  "id": "coding-assistant",
+  "term": "AI coding assistant",
+  "layer": "building",
+  "definition": "Tools that suggest, write or edit code with LLMs, from autocomplete to autonomous coding agents.",
+  "eli5": "A helper sitting next to you who finishes your sentences, but in code.",
+  "evolved_from": [
+   "llm"
+  ],
+  "aka": [],
+  "led_to": [
+   "vibe-coding"
+  ],
+  "entries": [
+   "github-copilot-2021",
+   "claude35-2024",
+   "vibe-coding-2025",
+   "claude-code-2025",
+   "claude4-2025"
+  ],
+  "letter": "A"
+ },
+ {
+  "id": "ai-governance",
+  "term": "AI governance",
+  "layer": "safety",
+  "definition": "How organisations decide who controls powerful AI and how decisions about it are made.",
+  "eli5": "Deciding who gets the keys to the car and what rules they must follow.",
+  "evolved_from": [
+   "ai-safety"
+  ],
+  "aka": [],
+  "led_to": [],
+  "entries": [
+   "openai-board-2023"
+  ],
+  "letter": "A"
+ },
+ {
+  "id": "ai-regulation",
+  "term": "AI regulation",
+  "layer": "safety",
+  "definition": "Laws and rules governing how AI is built and used, such as the EU AI Act.",
+  "eli5": "Road rules, but for AI.",
+  "evolved_from": [],
+  "aka": [],
+  "led_to": [],
+  "entries": [
+   "bletchley-2023",
+   "eu-ai-act-2024"
+  ],
+  "letter": "A"
+ },
+ {
+  "id": "ai-safety",
+  "term": "AI safety",
+  "layer": "safety",
+  "definition": "Research and practice aimed at preventing AI systems from causing accidental or deliberate harm.",
+  "eli5": "Putting guard rails on a powerful machine so it helps and does not hurt.",
+  "evolved_from": [
+   "alignment"
+  ],
+  "aka": [],
+  "led_to": [
+   "ai-governance"
+  ],
+  "entries": [
+   "bletchley-2023",
+   "ssi-2024"
+  ],
+  "letter": "A"
+ },
+ {
+  "id": "ai-winter",
+  "term": "AI winter",
+  "layer": "safety",
+  "definition": "A period when AI funding and interest collapse after promises are not met. The main ones were in the 1970s and late 1980s.",
+  "eli5": "When everyone gets bored of a toy that did not do what the advert said, and stops buying it for a while.",
+  "evolved_from": [
+   "symbolic-ai"
+  ],
+  "aka": [],
+  "led_to": [],
+  "entries": [
+   "lighthill-1973"
+  ],
+  "letter": "A"
+ },
+ {
+  "id": "alignment",
+  "term": "Alignment",
+  "layer": "safety",
+  "definition": "Making AI systems do what their designers and users actually intend, and avoid harmful behaviour.",
+  "eli5": "Making sure the genie grants the wish you meant, not the one you accidentally said.",
+  "evolved_from": [],
+  "aka": [],
+  "led_to": [
+   "ai-safety"
+  ],
+  "entries": [
+   "instructgpt-2022",
+   "constitutional-ai-2022"
+  ],
+  "letter": "A"
+ },
+ {
+  "id": "agi",
+  "term": "Artificial general intelligence (AGI)",
+  "layer": "models",
+  "definition": "AI that matches or beats humans across most cognitive tasks. There is no agreed definition or test.",
+  "eli5": "A robot that could learn to do almost any job a person can.",
+  "evolved_from": [],
+  "aka": [
+   "AGI"
+  ],
+  "led_to": [],
+  "entries": [
+   "openai-founded-2015",
+   "ssi-2024"
+  ],
+  "letter": "A"
+ },
+ {
+  "id": "artificial-neuron",
+  "term": "Artificial neuron",
+  "layer": "math",
+  "definition": "A unit that multiplies its inputs by weights, adds them up and passes the result through a simple function.",
+  "eli5": "Like a tiny judge that listens to several friends, trusts some more than others, and shouts yes if the total is big enough.",
+  "evolved_from": [],
+  "aka": [],
+  "led_to": [
+   "activation-function",
+   "hopfield-network",
+   "perceptron"
+  ],
+  "entries": [
+   "mcculloch-pitts-1943"
+  ],
+  "letter": "A"
+ },
+ {
+  "id": "attention",
+  "term": "Attention",
+  "layer": "architectures",
+  "definition": "A mechanism that lets each part of the input look at every other part and weigh what matters most.",
+  "eli5": "While reading 'it was too tired', you glance back to check what 'it' means. Attention does that glance.",
+  "evolved_from": [
+   "rnn"
+  ],
+  "aka": [],
+  "led_to": [
+   "kv-cache",
+   "transformer"
+  ],
+  "entries": [
+   "bahdanau-attention-2014",
+   "transformer-2017"
+  ],
+  "letter": "A"
+ },
+ {
+  "id": "backpropagation",
+  "term": "Backpropagation",
+  "layer": "math",
+  "definition": "An efficient way to compute how much each weight in a multi-layer network contributed to the error, using the chain rule.",
+  "eli5": "After a team loses, working backwards to find how much each player was to blame, so each one practises the right thing.",
+  "evolved_from": [
+   "gradient-descent",
+   "perceptron"
+  ],
+  "aka": [],
+  "led_to": [
+   "cnn",
+   "deep-learning",
+   "deep-learning-framework",
+   "rnn"
+  ],
+  "entries": [
+   "backprop-1986",
+   "lecun-cnn-1989",
+   "nobel-physics-2024"
+  ],
+  "letter": "B"
+ },
+ {
+  "id": "benchmark",
+  "term": "Benchmark",
+  "layer": "safety",
+  "definition": "A standard test set for comparing models, such as ImageNet, MMLU or SWE-bench.",
+  "eli5": "The same exam given to every student so you can compare scores.",
+  "evolved_from": [
+   "dataset"
+  ],
+  "aka": [],
+  "led_to": [],
+  "entries": [
+   "imagenet-2009"
+  ],
+  "letter": "B"
+ },
+ {
+  "id": "chain-of-thought",
+  "term": "Chain of thought",
+  "layer": "building",
+  "definition": "Getting a model to write out intermediate reasoning steps before its answer.",
+  "eli5": "Showing your working in a maths test, which helps you get the right answer.",
+  "evolved_from": [
+   "prompt-engineering"
+  ],
+  "aka": [
+   "CoT"
+  ],
+  "led_to": [
+   "react-pattern",
+   "reasoning-model",
+   "test-time-compute"
+  ],
+  "entries": [
+   "cot-2022",
+   "palm-2022",
+   "o1-2024"
+  ],
+  "letter": "C"
+ },
+ {
+  "id": "chatbot",
+  "term": "Chatbot",
+  "layer": "building",
+  "definition": "A program you talk to in natural language. From ELIZA's rules to today's LLM assistants.",
+  "eli5": "A computer pen pal that writes back.",
+  "evolved_from": [],
+  "aka": [],
+  "led_to": [],
+  "entries": [
+   "eliza-1966",
+   "chatgpt-2022"
+  ],
+  "letter": "C"
+ },
+ {
+  "id": "computer-use",
+  "term": "Computer use",
+  "layer": "building",
+  "definition": "An agent that operates software like a person, by reading screenshots and controlling the mouse and keyboard.",
+  "eli5": "A helper who can use your laptop the same way you do, by looking and clicking.",
+  "evolved_from": [
+   "agent",
+   "multimodal-model"
+  ],
+  "aka": [],
+  "led_to": [
+   "personal-agent"
+  ],
+  "entries": [
+   "computer-use-2024"
+  ],
+  "letter": "C"
+ },
+ {
+  "id": "constitutional-ai",
+  "term": "Constitutional AI",
+  "layer": "training",
+  "definition": "Anthropic's method of training with AI feedback guided by a written list of principles.",
+  "eli5": "Giving the model a rulebook of good manners and letting it mark its own homework against it.",
+  "evolved_from": [
+   "rlhf"
+  ],
+  "aka": [],
+  "led_to": [],
+  "entries": [
+   "constitutional-ai-2022",
+   "claude-2023"
+  ],
+  "letter": "C"
+ },
+ {
+  "id": "context-window",
+  "term": "Context window",
+  "layer": "building",
+  "definition": "The maximum number of tokens a model can consider at once, including the prompt and its answer.",
+  "eli5": "How many pages of notes you can keep open on your desk at the same time.",
+  "evolved_from": [
+   "tokens",
+   "transformer"
+  ],
+  "aka": [],
+  "led_to": [],
+  "entries": [],
+  "letter": "C"
+ },
+ {
+  "id": "cnn",
+  "term": "Convolutional neural network (CNN)",
+  "layer": "architectures",
+  "definition": "A network that slides small learned filters across an image, so the same feature detector works everywhere.",
+  "eli5": "Looking at a picture through a small window and moving it around, checking each spot for edges and shapes.",
+  "evolved_from": [
+   "backpropagation",
+   "perceptron"
+  ],
+  "aka": [
+   "ConvNet"
+  ],
+  "led_to": [
+   "residual-connection",
+   "vision-transformer"
+  ],
+  "entries": [
+   "lecun-cnn-1989",
+   "lenet-1998",
+   "alexnet-2012",
+   "resnet-2015"
+  ],
+  "letter": "C"
+ },
+ {
+  "id": "copilot",
+  "term": "Copilot (Microsoft)",
+  "layer": "building",
+  "definition": "Microsoft's brand for LLM assistants embedded in its products, grounded in the user's data.",
+  "eli5": "A helper built into the apps you already use at work.",
+  "evolved_from": [
+   "llm",
+   "rag"
+  ],
+  "aka": [],
+  "led_to": [
+   "copilot-in-power-bi"
+  ],
+  "entries": [
+   "m365-copilot-2023"
+  ],
+  "letter": "C"
+ },
+ {
+  "id": "copilot-in-power-bi",
+  "term": "Copilot in Power BI",
+  "layer": "data",
+  "definition": "An LLM assistant inside Power BI that drafts report pages, writes DAX and summarises data from natural language.",
+  "eli5": "Asking 'show me sales by region' and the report builds itself.",
+  "evolved_from": [
+   "copilot",
+   "semantic-model"
+  ],
+  "aka": [],
+  "led_to": [],
+  "entries": [
+   "fabric-2023"
+  ],
+  "letter": "C"
+ },
+ {
+  "id": "dataset",
+  "term": "Dataset",
+  "layer": "data",
+  "definition": "A collection of examples used to train or test models. Its size and quality often matter more than the model.",
+  "eli5": "The pile of flashcards a model studies from.",
+  "evolved_from": [],
+  "aka": [],
+  "led_to": [
+   "benchmark",
+   "onelake"
+  ],
+  "entries": [
+   "imagenet-2009"
+  ],
+  "letter": "D"
+ },
+ {
+  "id": "deep-learning",
+  "term": "Deep learning",
+  "layer": "learning",
+  "definition": "Machine learning with neural networks of many layers, each learning more abstract features.",
+  "eli5": "A tower of judges: the bottom ones spot lines, the middle ones spot shapes, the top ones spot faces.",
+  "evolved_from": [
+   "backpropagation",
+   "machine-learning"
+  ],
+  "aka": [],
+  "led_to": [
+   "transfer-learning"
+  ],
+  "entries": [
+   "deep-belief-2006",
+   "google-brain-cat-2011",
+   "alexnet-2012",
+   "dqn-2013",
+   "alphago-2016",
+   "alphafold2-2021",
+   "nobel-chemistry-2024"
+  ],
+  "letter": "D"
+ },
+ {
+  "id": "deep-learning-framework",
+  "term": "Deep learning framework",
+  "layer": "infra",
+  "definition": "Software such as TensorFlow and PyTorch that computes gradients automatically and runs networks on GPUs.",
+  "eli5": "A kitchen with all the tools ready, so you just cook instead of building the oven.",
+  "evolved_from": [
+   "gpu",
+   "backpropagation"
+  ],
+  "aka": [],
+  "led_to": [],
+  "entries": [
+   "tensorflow-2015"
+  ],
+  "letter": "D"
+ },
+ {
+  "id": "diffusion-model",
+  "term": "Diffusion model",
+  "layer": "architectures",
+  "definition": "A generative model that learns to reverse a noising process, building images from random noise step by step.",
+  "eli5": "Starting with TV static and cleaning it a little at a time until a picture appears.",
+  "evolved_from": [
+   "vae",
+   "generative-model"
+  ],
+  "aka": [],
+  "led_to": [],
+  "entries": [
+   "ddpm-2020",
+   "stable-diffusion-2022"
+  ],
+  "letter": "D"
+ },
+ {
+  "id": "dpo",
+  "term": "Direct preference optimisation (DPO)",
+  "layer": "training",
+  "definition": "A simpler alternative to RLHF that learns from preference pairs directly, without a reward model.",
+  "eli5": "Skipping the referee and learning straight from 'this answer is better than that one'.",
+  "evolved_from": [
+   "rlhf"
+  ],
+  "aka": [
+   "DPO"
+  ],
+  "led_to": [],
+  "entries": [
+   "dpo-2023"
+  ],
+  "letter": "D"
+ },
+ {
+  "id": "discriminative-model",
+  "term": "Discriminative model",
+  "layer": "architectures",
+  "definition": "A model that learns to tell classes apart, predicting a label from an input, such as spam or not spam.",
+  "eli5": "Someone who can sort cats from dogs but cannot draw either one.",
+  "evolved_from": [],
+  "aka": [],
+  "led_to": [
+   "gan",
+   "generative-model"
+  ],
+  "entries": [],
+  "letter": "D"
+ },
+ {
+  "id": "distillation",
+  "term": "Distillation",
+  "layer": "training",
+  "definition": "Training a small 'student' model to copy a large 'teacher' model's outputs.",
+  "eli5": "A top student writes simple notes so a younger student can learn the same things faster.",
+  "evolved_from": [
+   "llm"
+  ],
+  "aka": [],
+  "led_to": [
+   "small-language-model"
+  ],
+  "entries": [
+   "deepseek-r1-2025"
+  ],
+  "letter": "D"
+ },
+ {
+  "id": "dropout",
+  "term": "Dropout",
+  "layer": "training",
+  "definition": "Randomly turning off neurons during training so the network cannot rely on any single one.",
+  "eli5": "Practising football with random teammates sitting out, so everyone learns to play every role.",
+  "evolved_from": [],
+  "aka": [],
+  "led_to": [],
+  "entries": [
+   "dropout-2014"
+  ],
+  "letter": "D"
+ },
+ {
+  "id": "embedding",
+  "term": "Embedding",
+  "layer": "architectures",
+  "definition": "A vector of numbers representing any item (text, image, product) so that similar items sit close together.",
+  "eli5": "A map address for anything, so similar things end up in the same neighbourhood.",
+  "evolved_from": [
+   "word-embedding"
+  ],
+  "aka": [],
+  "led_to": [
+   "rag",
+   "vector-database"
+  ],
+  "entries": [
+   "rag-2020",
+   "clip-2021"
+  ],
+  "letter": "E"
+ },
+ {
+  "id": "expert-system",
+  "term": "Expert system",
+  "layer": "learning",
+  "definition": "A symbolic AI program that encodes a human expert's knowledge as if-then rules for one narrow domain.",
+  "eli5": "A rulebook written by a doctor, so a computer can follow the same steps the doctor would.",
+  "evolved_from": [
+   "symbolic-ai"
+  ],
+  "aka": [],
+  "led_to": [],
+  "entries": [],
+  "letter": "E"
+ },
+ {
+  "id": "few-shot",
+  "term": "Few-shot learning",
+  "layer": "learning",
+  "definition": "Learning a task from just a handful of examples.",
+  "eli5": "Seeing two examples of a new game and then playing it yourself.",
+  "evolved_from": [
+   "transfer-learning"
+  ],
+  "aka": [],
+  "led_to": [
+   "in-context-learning"
+  ],
+  "entries": [
+   "gpt3-2020"
+  ],
+  "letter": "F"
+ },
+ {
+  "id": "fine-tuning",
+  "term": "Fine-tuning",
+  "layer": "training",
+  "definition": "Continuing training of a pre-trained model on a smaller, specific dataset.",
+  "eli5": "After general school, doing a short course to become a chef.",
+  "evolved_from": [
+   "pretraining",
+   "transfer-learning"
+  ],
+  "aka": [],
+  "led_to": [
+   "instruction-tuning",
+   "lora"
+  ],
+  "entries": [
+   "gpt1-2018",
+   "bert-2018",
+   "lora-2021",
+   "qlora-2023"
+  ],
+  "letter": "F"
+ },
+ {
+  "id": "foundation-model",
+  "term": "Foundation model",
+  "layer": "models",
+  "definition": "A large model trained on broad data that many products are built on top of, by prompting or fine-tuning.",
+  "eli5": "A strong base of a building that many different shops can be built on.",
+  "evolved_from": [
+   "llm",
+   "transfer-learning"
+  ],
+  "aka": [],
+  "led_to": [],
+  "entries": [],
+  "letter": "F"
+ },
+ {
+  "id": "gan",
+  "term": "Generative adversarial network (GAN)",
+  "layer": "architectures",
+  "definition": "Two networks trained against each other: a generator makes fakes and a discriminator tries to catch them.",
+  "eli5": "A forger and a detective who both get better because they keep trying to beat each other.",
+  "evolved_from": [
+   "generative-model",
+   "discriminative-model"
+  ],
+  "aka": [
+   "GAN"
+  ],
+  "led_to": [],
+  "entries": [
+   "gan-2014"
+  ],
+  "letter": "G"
+ },
+ {
+  "id": "generative-model",
+  "term": "Generative model",
+  "layer": "architectures",
+  "definition": "A model that learns what the data looks like so it can produce new examples of it.",
+  "eli5": "Someone who has seen so many cats they can draw a brand new one.",
+  "evolved_from": [
+   "discriminative-model"
+  ],
+  "aka": [],
+  "led_to": [
+   "diffusion-model",
+   "gan",
+   "vae",
+   "world-model"
+  ],
+  "entries": [
+   "vae-2013",
+   "gan-2014",
+   "ddpm-2020",
+   "dalle-2021"
+  ],
+  "letter": "G"
+ },
+ {
+  "id": "gpu",
+  "term": "GPU",
+  "layer": "infra",
+  "definition": "A processor with thousands of small cores, built for graphics and ideal for the matrix maths of neural networks.",
+  "eli5": "Thousands of small helpers doing easy sums at the same time, instead of one genius doing them one by one.",
+  "evolved_from": [],
+  "aka": [],
+  "led_to": [
+   "deep-learning-framework"
+  ],
+  "entries": [
+   "gpu-training-2009",
+   "alexnet-2012"
+  ],
+  "letter": "G"
+ },
+ {
+  "id": "gradient-descent",
+  "term": "Gradient descent",
+  "layer": "math",
+  "definition": "Repeatedly nudging each weight in the direction that reduces the loss.",
+  "eli5": "Walking downhill in fog by always taking a small step where the ground slopes down most.",
+  "evolved_from": [
+   "loss-function"
+  ],
+  "aka": [],
+  "led_to": [
+   "backpropagation"
+  ],
+  "entries": [
+   "backprop-1986",
+   "adam-2014"
+  ],
+  "letter": "G"
+ },
+ {
+  "id": "hallucination",
+  "term": "Hallucination",
+  "layer": "safety",
+  "definition": "When a model states something false or made up with confidence.",
+  "eli5": "Like a kid confidently telling you a made-up fact because it sounds right.",
+  "evolved_from": [
+   "llm"
+  ],
+  "aka": [],
+  "led_to": [],
+  "entries": [],
+  "letter": "H"
+ },
+ {
+  "id": "hopfield-network",
+  "term": "Hopfield network",
+  "layer": "architectures",
+  "definition": "A recurrent network that stores patterns as stable states and recalls a full pattern from part of it.",
+  "eli5": "Hearing the first notes of a song and your brain filling in the rest.",
+  "evolved_from": [
+   "artificial-neuron"
+  ],
+  "aka": [],
+  "led_to": [],
+  "entries": [
+   "hopfield-1982",
+   "nobel-physics-2024"
+  ],
+  "letter": "H"
+ },
+ {
+  "id": "in-context-learning",
+  "term": "In-context learning",
+  "layer": "building",
+  "definition": "A model picking up a new task from examples or instructions inside the prompt, with no weight updates.",
+  "eli5": "Learning a new card game just from the rules card on the table.",
+  "evolved_from": [
+   "few-shot",
+   "llm"
+  ],
+  "aka": [],
+  "led_to": [
+   "prompt-engineering"
+  ],
+  "entries": [
+   "gpt3-2020"
+  ],
+  "letter": "I"
+ },
+ {
+  "id": "inference",
+  "term": "Inference",
+  "layer": "infra",
+  "definition": "Running a trained model to get outputs. Most AI cost in production is inference, not training.",
+  "eli5": "Using what you studied to answer questions, rather than studying again.",
+  "evolved_from": [],
+  "aka": [],
+  "led_to": [
+   "kv-cache",
+   "quantization"
+  ],
+  "entries": [],
+  "letter": "I"
+ },
+ {
+  "id": "instruction-tuning",
+  "term": "Instruction tuning",
+  "layer": "training",
+  "definition": "Fine-tuning on examples of instructions and good responses so a model follows requests.",
+  "eli5": "Teaching a clever kid to actually answer the question you asked.",
+  "evolved_from": [
+   "fine-tuning"
+  ],
+  "aka": [],
+  "led_to": [
+   "rlhf"
+  ],
+  "entries": [
+   "instructgpt-2022"
+  ],
+  "letter": "I"
+ },
+ {
+  "id": "kv-cache",
+  "term": "KV cache",
+  "layer": "infra",
+  "definition": "Saving the attention keys and values of earlier tokens so each new token does not recompute them.",
+  "eli5": "Keeping your rough notes so you do not redo the same working for the next line.",
+  "evolved_from": [
+   "attention",
+   "inference"
+  ],
+  "aka": [],
+  "led_to": [],
+  "entries": [],
+  "letter": "K"
+ },
+ {
+  "id": "language-model",
+  "term": "Language model",
+  "layer": "models",
+  "definition": "A model that predicts the probability of the next word or token given the previous ones.",
+  "eli5": "A very good guesser of what word comes next in a sentence.",
+  "evolved_from": [],
+  "aka": [],
+  "led_to": [
+   "llm",
+   "word-embedding"
+  ],
+  "entries": [
+   "neural-lm-2003"
+  ],
+  "letter": "L"
+ },
+ {
+  "id": "llm",
+  "term": "Large language model (LLM)",
+  "layer": "models",
+  "definition": "A transformer language model with billions of parameters trained on huge text collections, able to follow instructions and write.",
+  "eli5": "A giant autocomplete that read most of the internet, so its guesses become surprisingly useful answers.",
+  "evolved_from": [
+   "language-model",
+   "transformer",
+   "pretraining"
+  ],
+  "aka": [
+   "LLM"
+  ],
+  "led_to": [
+   "coding-assistant",
+   "copilot",
+   "distillation",
+   "foundation-model",
+   "hallucination",
+   "in-context-learning",
+   "multimodal-model",
+   "natural-language-query",
+   "open-weight-model",
+   "rag",
+   "reasoning-model",
+   "scaling-laws",
+   "small-language-model",
+   "tool-use"
+  ],
+  "entries": [
+   "gpt1-2018",
+   "gpt2-2019",
+   "gpt3-2020",
+   "github-copilot-2021",
+   "palm-2022",
+   "chatgpt-2022",
+   "msft-openai-2023",
+   "llama-2023",
+   "claude-2023",
+   "gpt4-2023",
+   "m365-copilot-2023",
+   "gemini-2023",
+   "claude3-2024",
+   "claude35-2024",
+   "gpt5-2025"
+  ],
+  "letter": "L"
+ },
+ {
+  "id": "lora",
+  "term": "LoRA",
+  "layer": "training",
+  "definition": "Low-rank adaptation: training small add-on matrices while the base model stays frozen.",
+  "eli5": "Instead of rewriting a whole book, sticking a few small notes on its pages.",
+  "evolved_from": [
+   "fine-tuning"
+  ],
+  "aka": [
+   "low-rank adaptation"
+  ],
+  "led_to": [],
+  "entries": [
+   "lora-2021",
+   "qlora-2023"
+  ],
+  "letter": "L"
+ },
+ {
+  "id": "loss-function",
+  "term": "Loss function",
+  "layer": "math",
+  "definition": "A number that measures how wrong the model's output is. Training tries to make it smaller.",
+  "eli5": "A score of how far your dart landed from the bullseye. Training is trying to lower that score.",
+  "evolved_from": [],
+  "aka": [],
+  "led_to": [
+   "gradient-descent"
+  ],
+  "entries": [],
+  "letter": "L"
+ },
+ {
+  "id": "lstm",
+  "term": "LSTM",
+  "layer": "architectures",
+  "definition": "A recurrent network with gates that decide what to keep, forget and output, so it remembers over long sequences.",
+  "eli5": "A notebook with an eraser: you choose what to write down, what to rub out, and what to read aloud.",
+  "evolved_from": [
+   "rnn"
+  ],
+  "aka": [
+   "long short-term memory"
+  ],
+  "led_to": [],
+  "entries": [
+   "lstm-1997",
+   "seq2seq-2014"
+  ],
+  "letter": "L"
+ },
+ {
+  "id": "machine-learning",
+  "term": "Machine learning",
+  "layer": "learning",
+  "definition": "Getting computers to improve at a task from data or experience, instead of being explicitly programmed.",
+  "eli5": "Instead of writing the rules, you show lots of examples and the computer works out the rules itself.",
+  "evolved_from": [
+   "symbolic-ai"
+  ],
+  "aka": [],
+  "led_to": [
+   "deep-learning",
+   "reinforcement-learning",
+   "supervised-learning",
+   "unsupervised-learning"
+  ],
+  "entries": [
+   "samuel-checkers-1959"
+  ],
+  "letter": "M"
+ },
+ {
+  "id": "microsoft-fabric",
+  "term": "Microsoft Fabric",
+  "layer": "data",
+  "definition": "Microsoft's unified analytics platform combining data engineering, warehousing, real-time analytics and Power BI on OneLake.",
+  "eli5": "One big workshop where data gets cleaned, stored and turned into reports, without moving between buildings.",
+  "evolved_from": [
+   "onelake",
+   "semantic-model"
+  ],
+  "aka": [],
+  "led_to": [],
+  "entries": [
+   "fabric-2023"
+  ],
+  "letter": "M"
+ },
+ {
+  "id": "mixture-of-experts",
+  "term": "Mixture of experts (MoE)",
+  "layer": "architectures",
+  "definition": "A model split into many expert sub-networks with a router that sends each token to only a few of them.",
+  "eli5": "A hospital where a receptionist sends you to the right two doctors instead of seeing all of them.",
+  "evolved_from": [
+   "transformer"
+  ],
+  "aka": [
+   "MoE"
+  ],
+  "led_to": [],
+  "entries": [
+   "moe-2017",
+   "mixtral-2023",
+   "deepseek-v3-2024",
+   "qwen3-2025"
+  ],
+  "letter": "M"
+ },
+ {
+  "id": "mcp",
+  "term": "Model Context Protocol (MCP)",
+  "layer": "building",
+  "definition": "An open standard for connecting AI apps to tools and data sources through one common interface.",
+  "eli5": "Like USB-C for AI: one plug shape so any tool fits any AI app.",
+  "evolved_from": [
+   "tool-use"
+  ],
+  "aka": [
+   "MCP"
+  ],
+  "led_to": [
+   "a2a"
+  ],
+  "entries": [
+   "mcp-2024",
+   "build-2025"
+  ],
+  "letter": "M"
+ },
+ {
+  "id": "multimodal-model",
+  "term": "Multimodal model",
+  "layer": "models",
+  "definition": "A model that understands or produces more than one kind of data, such as text, images and audio.",
+  "eli5": "A friend who can read, look at photos and listen, all at once.",
+  "evolved_from": [
+   "llm",
+   "vision-transformer"
+  ],
+  "aka": [],
+  "led_to": [
+   "computer-use"
+  ],
+  "entries": [
+   "dalle-2021",
+   "clip-2021",
+   "gpt4-2023",
+   "gemini-2023",
+   "claude3-2024",
+   "gpt4o-2024"
+  ],
+  "letter": "M"
+ },
+ {
+  "id": "natural-language-query",
+  "term": "Natural language to query",
+  "layer": "data",
+  "definition": "Turning a plain-English question into SQL, DAX or another query language with an LLM.",
+  "eli5": "Asking your data a question in normal words and getting the right formula written for you.",
+  "evolved_from": [
+   "llm",
+   "semantic-model"
+  ],
+  "aka": [
+   "text-to-SQL",
+   "NL2SQL"
+  ],
+  "led_to": [],
+  "entries": [],
+  "letter": "N"
+ },
+ {
+  "id": "normalization",
+  "term": "Normalisation (batch and layer norm)",
+  "layer": "training",
+  "definition": "Rescaling activations inside a network to keep numbers in a stable range during training.",
+  "eli5": "Turning every singer's volume to the same level so nobody drowns the others out.",
+  "evolved_from": [],
+  "aka": [],
+  "led_to": [],
+  "entries": [
+   "batchnorm-2015"
+  ],
+  "letter": "N"
+ },
+ {
+  "id": "onelake",
+  "term": "OneLake",
+  "layer": "data",
+  "definition": "Microsoft Fabric's single, organisation-wide data lake, often described as 'OneDrive for data'.",
+  "eli5": "One big shared cupboard where every team keeps its data, so nobody makes copies.",
+  "evolved_from": [
+   "dataset"
+  ],
+  "aka": [],
+  "led_to": [
+   "microsoft-fabric"
+  ],
+  "entries": [
+   "fabric-2023"
+  ],
+  "letter": "O"
+ },
+ {
+  "id": "open-weight-model",
+  "term": "Open-weight model",
+  "layer": "models",
+  "definition": "A model whose trained weights are published so anyone can download, run and fine-tune it. Not always fully open source.",
+  "eli5": "A recipe book you can take home and cook from, even if the shop did not tell you how they invented the recipes.",
+  "evolved_from": [
+   "llm"
+  ],
+  "aka": [],
+  "led_to": [],
+  "entries": [
+   "stable-diffusion-2022",
+   "llama-2023",
+   "llama2-2023",
+   "mistral7b-2023",
+   "mixtral-2023",
+   "llama3-2024",
+   "deepseek-v3-2024",
+   "deepseek-r1-2025",
+   "qwen3-2025",
+   "gpt-oss-2025"
+  ],
+  "letter": "O"
+ },
+ {
+  "id": "perceptron",
+  "term": "Perceptron",
+  "layer": "math",
+  "definition": "A single layer of artificial neurons with a rule to adjust weights after each mistake.",
+  "eli5": "A judge who changes how much they trust each friend every time they get an answer wrong.",
+  "evolved_from": [
+   "artificial-neuron"
+  ],
+  "aka": [],
+  "led_to": [
+   "backpropagation",
+   "cnn"
+  ],
+  "entries": [
+   "perceptron-1958"
+  ],
+  "letter": "P"
+ },
+ {
+  "id": "personal-agent",
+  "term": "Personal agent",
+  "layer": "building",
+  "definition": "An always-on agent that acts for one person across their apps, messages and files.",
+  "eli5": "A helper that knows your stuff and does your chores while you are busy.",
+  "evolved_from": [
+   "agent",
+   "computer-use"
+  ],
+  "aka": [],
+  "led_to": [],
+  "entries": [
+   "steinberger-openai-2026"
+  ],
+  "letter": "P"
+ },
+ {
+  "id": "pretraining",
+  "term": "Pre-training",
+  "layer": "training",
+  "definition": "The first, most expensive training stage where a model learns general knowledge from huge unlabelled data.",
+  "eli5": "Going to school for many years to learn a bit of everything before choosing a job.",
+  "evolved_from": [
+   "self-supervised-learning",
+   "transfer-learning"
+  ],
+  "aka": [],
+  "led_to": [
+   "fine-tuning",
+   "llm"
+  ],
+  "entries": [
+   "elmo-2018",
+   "gpt1-2018",
+   "bert-2018",
+   "t5-2019",
+   "karpathy-anthropic-2026"
+  ],
+  "letter": "P"
+ },
+ {
+  "id": "probability-calibration",
+  "term": "Probability calibration",
+  "layer": "math",
+  "definition": "A model is calibrated when its confidence matches reality: things it says are 80 percent likely happen about 80 percent of the time.",
+  "eli5": "If a weather app says 'rain 70 percent' on ten days, it should rain on about seven of them.",
+  "evolved_from": [],
+  "aka": [],
+  "led_to": [],
+  "entries": [],
+  "letter": "P"
+ },
+ {
+  "id": "prompt-engineering",
+  "term": "Prompt engineering",
+  "layer": "building",
+  "definition": "Writing and structuring inputs to get better outputs from a model.",
+  "eli5": "Asking a question in the clearest way so you get the answer you need.",
+  "evolved_from": [
+   "in-context-learning"
+  ],
+  "aka": [],
+  "led_to": [
+   "chain-of-thought"
+  ],
+  "entries": [
+   "cot-2022"
+  ],
+  "letter": "P"
+ },
+ {
+  "id": "q-learning",
+  "term": "Q-learning",
+  "layer": "learning",
+  "definition": "A reinforcement learning method that learns the long-term value of taking each action in each situation.",
+  "eli5": "Keeping a scorecard of how good each move turned out to be in each spot, and picking the best-scoring move.",
+  "evolved_from": [
+   "reinforcement-learning"
+  ],
+  "aka": [],
+  "led_to": [],
+  "entries": [
+   "q-learning-1992",
+   "dqn-2013"
+  ],
+  "letter": "Q"
+ },
+ {
+  "id": "quantization",
+  "term": "Quantisation",
+  "layer": "infra",
+  "definition": "Storing model weights with fewer bits, such as 4-bit instead of 16-bit, to save memory and speed up inference.",
+  "eli5": "Rounding numbers so they take less space, like writing 3.14 instead of 3.14159265.",
+  "evolved_from": [
+   "inference"
+  ],
+  "aka": [],
+  "led_to": [],
+  "entries": [
+   "qlora-2023"
+  ],
+  "letter": "Q"
+ },
+ {
+  "id": "react-pattern",
+  "term": "ReAct pattern",
+  "layer": "building",
+  "definition": "An agent loop that alternates reasoning, acting with a tool, and observing the result.",
+  "eli5": "Think, try, look, think again, like solving a puzzle one move at a time.",
+  "evolved_from": [
+   "chain-of-thought",
+   "tool-use"
+  ],
+  "aka": [],
+  "led_to": [
+   "agent"
+  ],
+  "entries": [
+   "react-2022"
+  ],
+  "letter": "R"
+ },
+ {
+  "id": "reasoning-model",
+  "term": "Reasoning model",
+  "layer": "models",
+  "definition": "A model trained to think step by step before answering, spending more compute on harder questions.",
+  "eli5": "A student who works the problem out on rough paper before writing the final answer.",
+  "evolved_from": [
+   "chain-of-thought",
+   "reinforcement-learning",
+   "llm"
+  ],
+  "aka": [],
+  "led_to": [],
+  "entries": [
+   "o1-2024",
+   "deepseek-r1-2025",
+   "claude-code-2025",
+   "gemini25-2025",
+   "qwen3-2025",
+   "gpt-oss-2025",
+   "gpt5-2025"
+  ],
+  "letter": "R"
+ },
+ {
+  "id": "rnn",
+  "term": "Recurrent neural network (RNN)",
+  "layer": "architectures",
+  "definition": "A network that reads a sequence one step at a time, carrying a memory forward.",
+  "eli5": "Reading a story one word at a time and keeping a running note in your head.",
+  "evolved_from": [
+   "backpropagation"
+  ],
+  "aka": [],
+  "led_to": [
+   "attention",
+   "lstm",
+   "state-space-model"
+  ],
+  "entries": [
+   "lstm-1997",
+   "bahdanau-attention-2014",
+   "seq2seq-2014"
+  ],
+  "letter": "R"
+ },
+ {
+  "id": "red-teaming",
+  "term": "Red teaming",
+  "layer": "safety",
+  "definition": "Deliberately attacking a model to find harmful or unwanted behaviour before release.",
+  "eli5": "Hiring friendly burglars to test your locks.",
+  "evolved_from": [],
+  "aka": [],
+  "led_to": [],
+  "entries": [],
+  "letter": "R"
+ },
+ {
+  "id": "reinforcement-learning",
+  "term": "Reinforcement learning",
+  "layer": "learning",
+  "definition": "Learning by trial and error from rewards and penalties.",
+  "eli5": "Like training a puppy with treats: good moves get a treat, so it does them more.",
+  "evolved_from": [
+   "machine-learning"
+  ],
+  "aka": [
+   "RL"
+  ],
+  "led_to": [
+   "q-learning",
+   "reasoning-model",
+   "rlhf"
+  ],
+  "entries": [
+   "samuel-checkers-1959",
+   "q-learning-1992",
+   "td-gammon-1995",
+   "dqn-2013",
+   "alphago-2016",
+   "ppo-2017"
+  ],
+  "letter": "R"
+ },
+ {
+  "id": "residual-connection",
+  "term": "Residual connection",
+  "layer": "architectures",
+  "definition": "A shortcut that adds a layer's input to its output, so very deep networks stay trainable.",
+  "eli5": "A lift beside the stairs, so the message can skip floors instead of getting lost on the way.",
+  "evolved_from": [
+   "cnn"
+  ],
+  "aka": [
+   "skip connection"
+  ],
+  "led_to": [
+   "transformer"
+  ],
+  "entries": [
+   "resnet-2015"
+  ],
+  "letter": "R"
+ },
+ {
+  "id": "rag",
+  "term": "Retrieval-augmented generation (RAG)",
+  "layer": "building",
+  "definition": "Fetching relevant documents first and giving them to the model, so answers are grounded in real sources.",
+  "eli5": "An open-book exam: look up the right page first, then write the answer.",
+  "evolved_from": [
+   "embedding",
+   "llm"
+  ],
+  "aka": [
+   "RAG"
+  ],
+  "led_to": [
+   "copilot"
+  ],
+  "entries": [
+   "rag-2020"
+  ],
+  "letter": "R"
+ },
+ {
+  "id": "rlhf",
+  "term": "RLHF",
+  "layer": "training",
+  "definition": "Reinforcement learning from human feedback: humans rank outputs, a reward model learns their taste, and the LLM is tuned to score well.",
+  "eli5": "People pick which of two answers is better, and the model learns to give the kind people pick.",
+  "evolved_from": [
+   "reinforcement-learning",
+   "instruction-tuning"
+  ],
+  "aka": [
+   "reinforcement learning from human feedback"
+  ],
+  "led_to": [
+   "constitutional-ai",
+   "dpo"
+  ],
+  "entries": [
+   "rlhf-2017",
+   "instructgpt-2022",
+   "chatgpt-2022",
+   "constitutional-ai-2022",
+   "dpo-2023"
+  ],
+  "letter": "R"
+ },
+ {
+  "id": "scaling-laws",
+  "term": "Scaling laws",
+  "layer": "training",
+  "definition": "Empirical rules showing performance improves predictably with more parameters, data and compute.",
+  "eli5": "The more you practise and the bigger your brain, the better you get, in a way you can predict on a chart.",
+  "evolved_from": [
+   "llm"
+  ],
+  "aka": [],
+  "led_to": [],
+  "entries": [
+   "scaling-laws-2020",
+   "chinchilla-2022"
+  ],
+  "letter": "S"
+ },
+ {
+  "id": "self-supervised-learning",
+  "term": "Self-supervised learning",
+  "layer": "learning",
+  "definition": "Creating labels from the data itself, such as hiding a word and predicting it. It is how large language models are pre-trained.",
+  "eli5": "Covering a word in a sentence with your finger and guessing it, millions of times, with no teacher needed.",
+  "evolved_from": [
+   "unsupervised-learning",
+   "supervised-learning"
+  ],
+  "aka": [],
+  "led_to": [
+   "pretraining"
+  ],
+  "entries": [],
+  "letter": "S"
+ },
+ {
+  "id": "semantic-model",
+  "term": "Semantic model",
+  "layer": "data",
+  "definition": "In Power BI and Fabric, the curated layer of tables, relationships, measures and business names that reports and Copilot read from.",
+  "eli5": "A well-labelled map of your data, so both people and AI know what each number means.",
+  "evolved_from": [],
+  "aka": [],
+  "led_to": [
+   "copilot-in-power-bi",
+   "microsoft-fabric",
+   "natural-language-query"
+  ],
+  "entries": [],
+  "letter": "S"
+ },
+ {
+  "id": "small-language-model",
+  "term": "Small language model (SLM)",
+  "layer": "models",
+  "definition": "A compact language model, usually under about 10 billion parameters, that runs on laptops or phones.",
+  "eli5": "A pocket dictionary: less than the big library, but it fits in your bag and works offline.",
+  "evolved_from": [
+   "llm",
+   "distillation"
+  ],
+  "aka": [
+   "SLM"
+  ],
+  "led_to": [],
+  "entries": [
+   "mistral7b-2023"
+  ],
+  "letter": "S"
+ },
+ {
+  "id": "state-space-model",
+  "term": "State space model",
+  "layer": "architectures",
+  "definition": "A sequence model that updates a compact hidden state, handling very long inputs in linear time. Mamba is the best known.",
+  "eli5": "Keeping a small, smart summary as you read, instead of re-reading the whole book for every new word.",
+  "evolved_from": [
+   "rnn"
+  ],
+  "aka": [
+   "SSM",
+   "Mamba"
+  ],
+  "led_to": [],
+  "entries": [
+   "mamba-2023"
+  ],
+  "letter": "S"
+ },
+ {
+  "id": "structured-outputs",
+  "term": "Structured outputs",
+  "layer": "building",
+  "definition": "Constraining a model to return data in an exact format, such as JSON matching a schema.",
+  "eli5": "Filling in a form with fixed boxes instead of writing a free essay.",
+  "evolved_from": [
+   "tool-use"
+  ],
+  "aka": [
+   "JSON mode"
+  ],
+  "led_to": [],
+  "entries": [],
+  "letter": "S"
+ },
+ {
+  "id": "supervised-learning",
+  "term": "Supervised learning",
+  "layer": "learning",
+  "definition": "Learning from examples that come with the right answer (labels), such as photos marked cat or dog.",
+  "eli5": "Learning with an answer key: practise, check the answer, fix your mistake.",
+  "evolved_from": [
+   "machine-learning"
+  ],
+  "aka": [],
+  "led_to": [
+   "self-supervised-learning"
+  ],
+  "entries": [
+   "perceptron-1958",
+   "svm-1995",
+   "random-forests-2001"
+  ],
+  "letter": "S"
+ },
+ {
+  "id": "symbolic-ai",
+  "term": "Symbolic AI",
+  "layer": "learning",
+  "definition": "AI built from hand-written rules and logic over symbols, rather than learned from data. Dominant until the 1990s.",
+  "eli5": "Teaching a robot by writing a giant rulebook: if this, then that.",
+  "evolved_from": [],
+  "aka": [
+   "GOFAI",
+   "good old-fashioned AI"
+  ],
+  "led_to": [
+   "ai-winter",
+   "expert-system",
+   "machine-learning"
+  ],
+  "entries": [
+   "dartmouth-1955",
+   "deep-blue-1997"
+  ],
+  "letter": "S"
+ },
+ {
+  "id": "system-1-system-2",
+  "term": "System 1 and System 2 thinking",
+  "layer": "models",
+  "definition": "Daniel Kahneman's split between fast intuitive thinking (System 1) and slow deliberate thinking (System 2), now used to describe fast models versus reasoning models.",
+  "eli5": "Catching a ball without thinking is System 1. Doing long division is System 2.",
+  "evolved_from": [],
+  "aka": [],
+  "led_to": [],
+  "entries": [],
+  "letter": "S"
+ },
+ {
+  "id": "test-time-compute",
+  "term": "Test-time compute",
+  "layer": "training",
+  "definition": "Spending more computation when answering, for example by reasoning longer or trying several answers.",
+  "eli5": "Taking more time to think on a hard exam question instead of answering instantly.",
+  "evolved_from": [
+   "chain-of-thought"
+  ],
+  "aka": [
+   "inference-time scaling"
+  ],
+  "led_to": [],
+  "entries": [
+   "o1-2024"
+  ],
+  "letter": "T"
+ },
+ {
+  "id": "tokens",
+  "term": "Tokens",
+  "layer": "building",
+  "definition": "The chunks of text a model reads and writes, often parts of words. Pricing and limits are counted in tokens.",
+  "eli5": "Lego bricks of text: models build sentences out of these small pieces.",
+  "evolved_from": [],
+  "aka": [],
+  "led_to": [
+   "context-window"
+  ],
+  "entries": [],
+  "letter": "T"
+ },
+ {
+  "id": "tool-use",
+  "term": "Tool use (function calling)",
+  "layer": "building",
+  "definition": "A model outputting structured calls to external functions or APIs, then using the results.",
+  "eli5": "A smart kid who knows when to grab a calculator or a dictionary instead of guessing.",
+  "evolved_from": [
+   "llm"
+  ],
+  "aka": [
+   "function calling"
+  ],
+  "led_to": [
+   "agent",
+   "mcp",
+   "react-pattern",
+   "structured-outputs"
+  ],
+  "entries": [
+   "react-2022",
+   "toolformer-2023",
+   "mcp-2024"
+  ],
+  "letter": "T"
+ },
+ {
+  "id": "transfer-learning",
+  "term": "Transfer learning",
+  "layer": "learning",
+  "definition": "Reusing what a model learned on one task as a head start on another.",
+  "eli5": "If you can ride a bicycle, learning a scooter is much faster.",
+  "evolved_from": [
+   "deep-learning"
+  ],
+  "aka": [],
+  "led_to": [
+   "few-shot",
+   "fine-tuning",
+   "foundation-model",
+   "pretraining",
+   "zero-shot"
+  ],
+  "entries": [
+   "t5-2019"
+  ],
+  "letter": "T"
+ },
+ {
+  "id": "transformer",
+  "term": "Transformer",
+  "layer": "architectures",
+  "definition": "A network built from attention layers that processes all tokens in parallel. The architecture behind modern LLMs.",
+  "eli5": "A classroom where every word can talk to every other word at once, instead of passing notes down the row.",
+  "evolved_from": [
+   "attention",
+   "residual-connection"
+  ],
+  "aka": [],
+  "led_to": [
+   "context-window",
+   "llm",
+   "mixture-of-experts",
+   "vision-transformer"
+  ],
+  "entries": [
+   "transformer-2017",
+   "bert-2018",
+   "vit-2020"
+  ],
+  "letter": "T"
+ },
+ {
+  "id": "turing-test",
+  "term": "Turing test",
+  "layer": "safety",
+  "definition": "Turing's 1950 proposal: if a judge cannot reliably tell a machine from a human in text chat, the machine passes.",
+  "eli5": "A guessing game: are you chatting with a person or a computer?",
+  "evolved_from": [],
+  "aka": [],
+  "led_to": [],
+  "entries": [
+   "turing-1950"
+  ],
+  "letter": "T"
+ },
+ {
+  "id": "unsupervised-learning",
+  "term": "Unsupervised learning",
+  "layer": "learning",
+  "definition": "Finding structure in data without labels, such as grouping similar customers.",
+  "eli5": "Sorting a box of mixed buttons into piles without anyone telling you the groups.",
+  "evolved_from": [
+   "machine-learning"
+  ],
+  "aka": [],
+  "led_to": [
+   "self-supervised-learning"
+  ],
+  "entries": [
+   "deep-belief-2006",
+   "google-brain-cat-2011"
+  ],
+  "letter": "U"
+ },
+ {
+  "id": "vae",
+  "term": "Variational autoencoder (VAE)",
+  "layer": "architectures",
+  "definition": "A network that compresses data into a smooth space and can decode new samples from it.",
+  "eli5": "Squeezing a picture into a tiny recipe, then cooking new pictures from slightly changed recipes.",
+  "evolved_from": [
+   "generative-model"
+  ],
+  "aka": [
+   "VAE"
+  ],
+  "led_to": [
+   "diffusion-model"
+  ],
+  "entries": [
+   "vae-2013"
+  ],
+  "letter": "V"
+ },
+ {
+  "id": "vector-database",
+  "term": "Vector database",
+  "layer": "building",
+  "definition": "A database that stores embeddings and finds the most similar ones quickly. The search engine behind RAG.",
+  "eli5": "A library where books are shelved by meaning, so similar books sit together.",
+  "evolved_from": [
+   "embedding"
+  ],
+  "aka": [],
+  "led_to": [],
+  "entries": [
+   "rag-2020"
+  ],
+  "letter": "V"
+ },
+ {
+  "id": "vibe-coding",
+  "term": "Vibe coding",
+  "layer": "building",
+  "definition": "Building software mainly by describing what you want to an AI and accepting its code, with little manual review.",
+  "eli5": "Telling a builder robot 'make me a cool treehouse' and trusting what it builds.",
+  "evolved_from": [
+   "coding-assistant",
+   "agent"
+  ],
+  "aka": [],
+  "led_to": [],
+  "entries": [
+   "vibe-coding-2025"
+  ],
+  "letter": "V"
+ },
+ {
+  "id": "vision-transformer",
+  "term": "Vision transformer (ViT)",
+  "layer": "architectures",
+  "definition": "A transformer applied to images by cutting them into patches and treating each patch like a word.",
+  "eli5": "Cutting a photo into jigsaw pieces and letting the pieces talk to each other to work out the picture.",
+  "evolved_from": [
+   "transformer",
+   "cnn"
+  ],
+  "aka": [
+   "ViT"
+  ],
+  "led_to": [
+   "multimodal-model"
+  ],
+  "entries": [
+   "vit-2020"
+  ],
+  "letter": "V"
+ },
+ {
+  "id": "word-embedding",
+  "term": "Word embedding",
+  "layer": "architectures",
+  "definition": "A list of numbers representing a word, where words with similar meaning get similar numbers.",
+  "eli5": "Giving every word a home on a map, so 'cat' lives next door to 'kitten' and far from 'car'.",
+  "evolved_from": [
+   "language-model"
+  ],
+  "aka": [],
+  "led_to": [
+   "embedding"
+  ],
+  "entries": [
+   "neural-lm-2003",
+   "word2vec-2013",
+   "elmo-2018"
+  ],
+  "letter": "W"
+ },
+ {
+  "id": "world-model",
+  "term": "World model",
+  "layer": "models",
+  "definition": "A model that learns how an environment works, so it can predict what happens next and plan. Championed by Yann LeCun.",
+  "eli5": "Knowing that if you push a cup off the table it falls, without having to try it.",
+  "evolved_from": [
+   "generative-model"
+  ],
+  "aka": [],
+  "led_to": [],
+  "entries": [],
+  "letter": "W"
+ },
+ {
+  "id": "zero-shot",
+  "term": "Zero-shot learning",
+  "layer": "learning",
+  "definition": "A model doing a task it was never explicitly trained or shown examples for, from the instruction alone.",
+  "eli5": "Doing a puzzle the first time just from reading the rules.",
+  "evolved_from": [
+   "transfer-learning"
+  ],
+  "aka": [],
+  "led_to": [],
+  "entries": [
+   "gpt2-2019",
+   "clip-2021"
+  ],
+  "letter": "Z"
+ }
+]

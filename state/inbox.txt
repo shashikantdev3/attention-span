@@ -1,0 +1,2 @@
+# Links the feeds miss (for example X posts). One per line: URL | short note
+# They are added to the next nightly run. Lines starting with # are ignored.

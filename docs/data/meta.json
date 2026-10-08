@@ -1,0 +1,279 @@
+{
+ "site": "Attention Span",
+ "tagline": "Today's AI news, traced back to its roots.",
+ "types": [
+  {
+   "id": "paper",
+   "name": "Paper",
+   "blurb": "A research result, usually on arXiv or in a journal."
+  },
+  {
+   "id": "model",
+   "name": "Model",
+   "blurb": "A trained model released or announced."
+  },
+  {
+   "id": "product",
+   "name": "Product",
+   "blurb": "Something people can use: an app, API, tool or feature."
+  },
+  {
+   "id": "event",
+   "name": "Event",
+   "blurb": "A moment: a match, a launch, a law, a prize, a deal."
+  },
+  {
+   "id": "person",
+   "name": "Person",
+   "blurb": "A move or milestone of a person who shapes the field."
+  },
+  {
+   "id": "concept",
+   "name": "Concept",
+   "blurb": "An idea or technique with a name."
+  }
+ ],
+ "eras": [
+  {
+   "id": "foundations",
+   "name": "Foundations",
+   "from": 1943,
+   "to": 1969,
+   "blurb": "Artificial neurons, the Turing test and a summer workshop that named the field."
+  },
+  {
+   "id": "winters",
+   "name": "Winters and expert systems",
+   "from": 1970,
+   "to": 1992,
+   "blurb": "Funding cuts, hand-written rules, and backpropagation quietly arriving."
+  },
+  {
+   "id": "statistical",
+   "name": "Statistical learning",
+   "from": 1993,
+   "to": 2011,
+   "blurb": "Learning from data beats writing rules. Big datasets and GPUs appear."
+  },
+  {
+   "id": "deep-learning",
+   "name": "Deep learning",
+   "from": 2012,
+   "to": 2016,
+   "blurb": "AlexNet wins ImageNet and deep neural networks take over vision, speech and games."
+  },
+  {
+   "id": "transformers",
+   "name": "Transformers and scale",
+   "from": 2017,
+   "to": 2021,
+   "blurb": "Attention replaces recurrence, and bigger models keep getting better."
+  },
+  {
+   "id": "generative",
+   "name": "Generative boom",
+   "from": 2022,
+   "to": 2023,
+   "blurb": "ChatGPT reaches the public. Every company ships a chatbot."
+  },
+  {
+   "id": "agents",
+   "name": "Agents and reasoning",
+   "from": 2024,
+   "to": 9999,
+   "blurb": "Models think before answering, use tools, and act on computers."
+  }
+ ],
+ "layers": [
+  {
+   "id": "math",
+   "name": "Math and neurons",
+   "blurb": "The arithmetic underneath: neurons, gradients, probability."
+  },
+  {
+   "id": "learning",
+   "name": "Learning methods",
+   "blurb": "How a system learns: from labels, from rewards, from raw data."
+  },
+  {
+   "id": "architectures",
+   "name": "Architectures",
+   "blurb": "The shape of the network: convolutions, recurrence, attention."
+  },
+  {
+   "id": "models",
+   "name": "Models",
+   "blurb": "Trained systems and families of them."
+  },
+  {
+   "id": "training",
+   "name": "Training and alignment",
+   "blurb": "Making models capable, then making them helpful and safe."
+  },
+  {
+   "id": "building",
+   "name": "Building with AI",
+   "blurb": "Prompts, RAG, tools, agents and protocols that turn models into products."
+  },
+  {
+   "id": "safety",
+   "name": "Evaluation and safety",
+   "blurb": "Measuring what models can do and keeping them in bounds."
+  },
+  {
+   "id": "infra",
+   "name": "Infrastructure",
+   "blurb": "Chips, serving and compression that make it all run."
+  },
+  {
+   "id": "data",
+   "name": "Data and BI",
+   "blurb": "Where AI meets analytics: semantic models, Fabric, Copilot in Power BI."
+  }
+ ],
+ "labs": [
+  {
+   "id": "openai",
+   "name": "OpenAI",
+   "kind": "lab",
+   "founded": 2015,
+   "blurb": "Maker of GPT, ChatGPT, DALL-E and the o-series reasoning models."
+  },
+  {
+   "id": "anthropic",
+   "name": "Anthropic",
+   "kind": "lab",
+   "founded": 2021,
+   "blurb": "Maker of Claude. Known for Constitutional AI and the Model Context Protocol."
+  },
+  {
+   "id": "google",
+   "name": "Google and DeepMind",
+   "kind": "lab",
+   "founded": 1998,
+   "blurb": "Transformer, BERT, AlphaGo, AlphaFold and Gemini."
+  },
+  {
+   "id": "microsoft",
+   "name": "Microsoft and GitHub",
+   "kind": "lab",
+   "founded": 1975,
+   "blurb": "ResNet, LoRA, GitHub Copilot, Microsoft 365 Copilot, Fabric and Power BI."
+  },
+  {
+   "id": "meta",
+   "name": "Meta",
+   "kind": "lab",
+   "founded": 2004,
+   "blurb": "FAIR research, PyTorch and the open-weight Llama family."
+  },
+  {
+   "id": "mistral",
+   "name": "Mistral AI",
+   "kind": "lab",
+   "founded": 2023,
+   "blurb": "Paris lab known for small, efficient open-weight models."
+  },
+  {
+   "id": "deepseek",
+   "name": "DeepSeek",
+   "kind": "lab",
+   "founded": 2023,
+   "blurb": "Chinese lab whose open R1 model matched frontier reasoning at low cost."
+  },
+  {
+   "id": "qwen",
+   "name": "Qwen (Alibaba)",
+   "kind": "lab",
+   "founded": 2023,
+   "blurb": "Alibaba's open-weight model family, widely used for local and fine-tuned models."
+  },
+  {
+   "id": "nvidia",
+   "name": "NVIDIA",
+   "kind": "company",
+   "founded": 1993,
+   "blurb": "GPUs and CUDA, the hardware layer most AI runs on."
+  },
+  {
+   "id": "ibm",
+   "name": "IBM",
+   "kind": "company",
+   "founded": 1911,
+   "blurb": "Deep Blue, Watson, and early machine learning research."
+  },
+  {
+   "id": "stability",
+   "name": "Stability AI",
+   "kind": "lab",
+   "founded": 2019,
+   "blurb": "Released Stable Diffusion openly in 2022."
+  },
+  {
+   "id": "ssi",
+   "name": "Safe Superintelligence",
+   "kind": "lab",
+   "founded": 2024,
+   "blurb": "Ilya Sutskever's lab, focused on one goal: safe superintelligence."
+  },
+  {
+   "id": "academia",
+   "name": "Academia",
+   "kind": "group",
+   "founded": null,
+   "blurb": "Universities and independent researchers, where most foundations came from."
+  },
+  {
+   "id": "government",
+   "name": "Governments",
+   "kind": "group",
+   "founded": null,
+   "blurb": "Laws, summits and public funding that shape the field."
+  },
+  {
+   "id": "other",
+   "name": "Others",
+   "kind": "group",
+   "founded": null,
+   "blurb": "Everyone else: startups, open-source projects and independent builders."
+  }
+ ],
+ "topics": [
+  {
+   "id": "models",
+   "name": "Models"
+  },
+  {
+   "id": "agents",
+   "name": "Agents"
+  },
+  {
+   "id": "research",
+   "name": "Research"
+  },
+  {
+   "id": "dev-tools",
+   "name": "Dev tools"
+  },
+  {
+   "id": "products",
+   "name": "Products"
+  },
+  {
+   "id": "microsoft",
+   "name": "Microsoft"
+  },
+  {
+   "id": "data-bi",
+   "name": "Data and BI"
+  },
+  {
+   "id": "policy",
+   "name": "Policy and safety"
+  },
+  {
+   "id": "industry",
+   "name": "Industry"
+  }
+ ]
+}

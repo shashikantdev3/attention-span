@@ -1,0 +1,268 @@
+{
+ "_about": "Daily sources. weight: how much one item from here counts toward buzz (official posts weigh most). kind: rss | hn | hf_papers | hf_models | github | inbox. filter_ai: true means keep only items that look AI-related. lab/person tag items from that feed. tools/check_feeds.py tests every entry; set enabled=false for any that keep failing.",
+ "sources": [
+  {
+   "id": "openai",
+   "name": "OpenAI News",
+   "kind": "rss",
+   "url": "https://openai.com/news/rss.xml",
+   "weight": 3,
+   "lab": "openai",
+   "original": true
+  },
+  {
+   "id": "anthropic",
+   "name": "Anthropic News",
+   "kind": "rss",
+   "url": "https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_anthropic_news.xml",
+   "weight": 3,
+   "lab": "anthropic",
+   "original": true,
+   "note": "Anthropic has no official RSS; this is a community-built mirror of anthropic.com/news"
+  },
+  {
+   "id": "google-ai",
+   "name": "Google AI Blog",
+   "kind": "rss",
+   "url": "https://blog.google/technology/ai/rss/",
+   "weight": 3,
+   "lab": "google",
+   "original": true
+  },
+  {
+   "id": "deepmind",
+   "name": "Google DeepMind Blog",
+   "kind": "rss",
+   "url": "https://deepmind.google/blog/rss.xml",
+   "weight": 3,
+   "lab": "google",
+   "original": true
+  },
+  {
+   "id": "google-dev",
+   "name": "Google Developers Blog",
+   "kind": "rss",
+   "url": "https://developers.googleblog.com/feeds/posts/default",
+   "weight": 2,
+   "lab": "google",
+   "original": true,
+   "filter_ai": true
+  },
+  {
+   "id": "ms-ai",
+   "name": "Microsoft Source (news)",
+   "kind": "rss",
+   "url": "https://news.microsoft.com/source/feed/",
+   "weight": 3,
+   "lab": "microsoft",
+   "original": true,
+   "filter_ai": true
+  },
+  {
+   "id": "ms-blogs",
+   "name": "Official Microsoft Blog",
+   "kind": "rss",
+   "url": "https://blogs.microsoft.com/feed/",
+   "weight": 3,
+   "lab": "microsoft",
+   "original": true,
+   "filter_ai": true
+  },
+  {
+   "id": "azure-foundry",
+   "name": "Azure AI Foundry Blog",
+   "kind": "rss",
+   "url": "https://devblogs.microsoft.com/foundry/feed/",
+   "weight": 2,
+   "lab": "microsoft",
+   "original": true
+  },
+  {
+   "id": "ms-research",
+   "name": "Microsoft Research",
+   "kind": "rss",
+   "url": "https://www.microsoft.com/en-us/research/feed/",
+   "weight": 2,
+   "lab": "microsoft",
+   "original": true,
+   "filter_ai": true
+  },
+  {
+   "id": "powerbi",
+   "name": "Power BI Blog",
+   "kind": "rss",
+   "url": "https://powerbi.microsoft.com/en-us/blog/feed/",
+   "weight": 2,
+   "lab": "microsoft",
+   "original": true,
+   "topic": "data-bi"
+  },
+  {
+   "id": "fabric",
+   "name": "Microsoft Fabric Blog",
+   "kind": "rss",
+   "url": "https://blog.fabric.microsoft.com/en-us/blog/feed/",
+   "weight": 2,
+   "lab": "microsoft",
+   "original": true,
+   "topic": "data-bi"
+  },
+  {
+   "id": "github-ai",
+   "name": "GitHub Blog: AI and ML",
+   "kind": "rss",
+   "url": "https://github.blog/ai-and-ml/feed/",
+   "weight": 2,
+   "lab": "microsoft",
+   "original": true
+  },
+  {
+   "id": "meta-ai",
+   "name": "Meta Engineering",
+   "kind": "rss",
+   "url": "https://engineering.fb.com/feed/",
+   "weight": 2,
+   "lab": "meta",
+   "original": true,
+   "filter_ai": true
+  },
+  {
+   "id": "mistral",
+   "name": "Mistral AI News",
+   "kind": "rss",
+   "url": "https://mistral.ai/rss.xml",
+   "weight": 3,
+   "lab": "mistral",
+   "original": true
+  },
+  {
+   "id": "qwen",
+   "name": "Qwen Blog",
+   "kind": "rss",
+   "url": "https://qwenlm.github.io/blog/index.xml",
+   "weight": 3,
+   "lab": "qwen",
+   "original": true
+  },
+  {
+   "id": "nvidia",
+   "name": "NVIDIA Blog",
+   "kind": "rss",
+   "url": "https://blogs.nvidia.com/feed/",
+   "weight": 2,
+   "lab": "nvidia",
+   "original": true,
+   "filter_ai": true
+  },
+  {
+   "id": "hf-blog",
+   "name": "Hugging Face Blog",
+   "kind": "rss",
+   "url": "https://huggingface.co/blog/feed.xml",
+   "weight": 2,
+   "original": true
+  },
+  {
+   "id": "aws-ml",
+   "name": "AWS Machine Learning Blog",
+   "kind": "rss",
+   "url": "https://aws.amazon.com/blogs/machine-learning/feed/",
+   "weight": 1,
+   "original": true
+  },
+  {
+   "id": "simonw",
+   "name": "Simon Willison",
+   "kind": "rss",
+   "url": "https://simonwillison.net/atom/entries/",
+   "weight": 2,
+   "filter_ai": true
+  },
+  {
+   "id": "techcrunch-ai",
+   "name": "TechCrunch AI",
+   "kind": "rss",
+   "url": "https://techcrunch.com/category/artificial-intelligence/feed/",
+   "weight": 1
+  },
+  {
+   "id": "verge-ai",
+   "name": "The Verge AI",
+   "kind": "rss",
+   "url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
+   "weight": 1
+  },
+  {
+   "id": "ars-ai",
+   "name": "Ars Technica AI",
+   "kind": "rss",
+   "url": "https://arstechnica.com/ai/feed/",
+   "weight": 1
+  },
+  {
+   "id": "venturebeat-ai",
+   "name": "VentureBeat AI",
+   "kind": "rss",
+   "url": "https://venturebeat.com/category/ai/feed/",
+   "weight": 1,
+   "enabled": false,
+   "note": "Disabled: returns HTTP 429 to automated readers."
+  },
+  {
+   "id": "mit-tr-ai",
+   "name": "MIT Technology Review AI",
+   "kind": "rss",
+   "url": "https://www.technologyreview.com/topic/artificial-intelligence/feed",
+   "weight": 1
+  },
+  {
+   "id": "techmeme",
+   "name": "Techmeme",
+   "kind": "rss",
+   "url": "https://www.techmeme.com/feed.xml",
+   "weight": 1,
+   "filter_ai": true,
+   "timeout": 15
+  },
+  {
+   "id": "hn",
+   "name": "Hacker News",
+   "kind": "hn",
+   "weight": 1,
+   "min_points": 40,
+   "filter_ai": true
+  },
+  {
+   "id": "hf-papers",
+   "name": "Hugging Face Daily Papers",
+   "kind": "hf_papers",
+   "weight": 1,
+   "min_upvotes": 10,
+   "topic": "research"
+  },
+  {
+   "id": "hf-models",
+   "name": "Hugging Face Trending Models",
+   "kind": "hf_models",
+   "weight": 1,
+   "max_age_days": 4,
+   "topic": "models"
+  },
+  {
+   "id": "github",
+   "name": "GitHub new AI repos",
+   "kind": "github",
+   "weight": 1,
+   "min_stars": 150,
+   "max_age_days": 4,
+   "topic": "dev-tools"
+  },
+  {
+   "id": "inbox",
+   "name": "Editor's inbox",
+   "kind": "inbox",
+   "path": "state/inbox.txt",
+   "weight": 2
+  }
+ ]
+}
