@@ -541,6 +541,34 @@
     document.title = `${titles[name] || "Attention Span"}: Attention Span`;
   }
 
+  function setupTheme() {
+    const btn = document.getElementById("theme-toggle");
+    const paint = () => {
+      const night = document.documentElement.getAttribute("data-theme") === "night";
+      btn.innerHTML = night ? `${icon("day")}<span>Day edition</span>` : `${icon("night")}<span>Night edition</span>`;
+      btn.setAttribute("aria-pressed", String(night));
+      btn.setAttribute("aria-label", night ? "Switch to the day edition" : "Switch to the night edition");
+      document.querySelector('meta[name="theme-color"]').setAttribute("content", night ? "#1A1B26" : "#F2EFE7");
+    };
+    btn.addEventListener("click", () => {
+      const night = document.documentElement.getAttribute("data-theme") !== "night";
+      if (night) document.documentElement.setAttribute("data-theme", "night");
+      else document.documentElement.removeAttribute("data-theme");
+      try { localStorage.setItem("as-theme", night ? "night" : "day"); } catch (e) { /* private mode: choice lasts this visit */ }
+      paint();
+    });
+    paint();
+  }
+
+  function folio() {
+    const n = D.index.editions.length, latest = D.index.latest;
+    const ed = latest && D.editions[latest];
+    document.getElementById("folio").innerHTML = `
+      <span>${latest ? `<b>Edition No. ${n}</b>` : "<b>First edition coming</b>"}</span>
+      <span class="mid">${latest ? esc(longDate(latest)) : ""}</span>
+      <span>${ed ? `${plural(ed.stories.length, "story")}, ` : ""}${plural(D.timeline.length, "moment")} of history, ${plural(D.concepts.length, "concept")}</span>`;
+  }
+
   function mastheadMeta() {
     const n = D.index.editions.length;
     const latest = D.index.latest;
@@ -549,8 +577,10 @@
       : `<strong>${plural(D.timeline.length, "moment")} of history</strong>${plural(D.concepts.length, "concept")}`;
   }
 
+  setupTheme();
   load().then(() => {
     mastheadMeta();
+    folio();
     setupSearch();
     window.addEventListener("hashchange", route);
     route();

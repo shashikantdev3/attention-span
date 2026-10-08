@@ -7,11 +7,19 @@
 <meta name="description" content="A daily AI news bulletin with a source-checked history of AI from 1943 to today, a glossary with lineage, and the people and labs behind it.">
 <meta property="og:title" content="Attention Span">
 <meta property="og:description" content="Today's AI news, traced back to its roots. Every fact source-linked and checked.">
-<meta name="theme-color" content="#1A1B26">
+<meta name="theme-color" content="#F2EFE7">
+<script>
+  // pick the edition before the page paints: a saved choice, else the reader's system setting
+  try {
+    var t = localStorage.getItem("as-theme");
+    if (!t) t = matchMedia("(prefers-color-scheme: dark)").matches ? "night" : "day";
+    if (t === "night") document.documentElement.setAttribute("data-theme", "night");
+  } catch (e) {}
+</script>
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%231A1B26'/%3E%3Ctext x='5' y='24' font-family='Georgia' font-size='22' font-weight='700' fill='%23E4E0D5'%3EA%3C/text%3E%3Crect x='20' y='21' width='8' height='3' fill='%23FBBF24'/%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;0,6..72,700;1,6..72,400&family=UnifrakturMaguntia&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
@@ -29,6 +37,8 @@
   <symbol id="i-link" viewBox="0 0 24 24"><path d="M10 14l9-9M14 5h5v5M19 14v6H4V5h6"/></symbol>
   <symbol id="i-spot" viewBox="0 0 24 24"><path d="M12 19a7 7 0 1 0 0-14 7 7 0 0 0 0 14zM12 2v4M12 18v4M2 12h4M18 12h4M12 13a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/></symbol>
   <symbol id="i-eli5" viewBox="0 0 24 24"><path d="M4 9l8-4 8 4-8 4zM4 9v6l8 4 8-4V9M12 13v6"/></symbol>
+  <symbol id="i-day" viewBox="0 0 24 24"><path d="M12 16a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM12 2v3M12 19v3M2 12h3M19 12h3M4.9 4.9l2.1 2.1M17 17l2.1 2.1M4.9 19.1L7 17M17 7l2.1-2.1"/></symbol>
+  <symbol id="i-night" viewBox="0 0 24 24"><path d="M20 14.5A8 8 0 0 1 9.5 4 8 8 0 1 0 20 14.5z"/></symbol>
   <symbol id="i-plus" viewBox="0 0 24 24"><path d="M12 6v12M6 12h12"/></symbol>
   <symbol id="i-minus" viewBox="0 0 24 24"><path d="M6 12h12"/></symbol>
 </svg>
@@ -36,12 +46,15 @@
 <a class="sr-only" href="#main">Skip to content</a>
 <header class="masthead">
   <div class="wrap">
+    <div class="ear"><b>Every fact sourced</b>Each story is fact-checked against the posts it came from.</div>
     <a class="brand" href="#/today">
       <h1>Attention Span<span class="cursor" aria-hidden="true"></span></h1>
       <p class="tagline">Today's AI news, traced back to its roots.</p>
     </a>
-    <div class="edition-meta" id="edition-meta"></div>
+    <div class="ear right"><b>Free, every night</b>Open data, written from the last 24 hours.</div>
   </div>
+  <div class="folio"><div class="wrap" id="folio"><span>&nbsp;</span></div></div>
+  <div class="edition-meta" id="edition-meta"></div>
 </header>
 <nav class="nav" aria-label="Sections">
   <div class="wrap" id="nav">
@@ -55,6 +68,7 @@
     <button class="search-btn" id="search-open" type="button" aria-haspopup="dialog">
       <svg class="icon"><use href="#i-search"/></svg><span>Search</span> <kbd>/</kbd>
     </button>
+    <button class="theme-btn" id="theme-toggle" type="button" aria-pressed="false"></button>
   </div>
 </nav>
 
