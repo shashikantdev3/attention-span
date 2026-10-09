@@ -204,8 +204,9 @@
           <p class="stat-line"><b>${ed.stories.length}</b> published after a separate fact-check.</p>
           <p class="stat-line"><b>${st.dropped ?? 0}</b> dropped because a claim was not in the sources.</p>
           <br><h4>Past editions</h4>
-          <ul class="archive">${D.index.editions.slice(0, 30).map((e) => `<li><a href="#/today/${e.date}" ${e.date === day ? 'aria-current="true"' : ""}>
+          <ul class="archive">${D.index.editions.slice(0, 7).map((e) => `<li><a href="#/today/${e.date}" ${e.date === day ? 'aria-current="true"' : ""}>
             <time>${esc(fmtDate(e.date))}</time>${esc(e.lead)}</a></li>`).join("")}</ul>
+          <p class="stat-line"><a href="#/archive">The full archive</a></p>
         </aside>
       </div>`;
     bindStoryToggles(view, rest);
@@ -219,6 +220,33 @@
     if (btn && btn.getAttribute("aria-expanded") !== "true") btn.click();
     card.scrollIntoView({ block: "start" });
     window.scrollBy(0, -60);
+  }
+
+  function pageArchive() {
+    const eds = D.index.editions;
+    if (!eds.length) {
+      view.innerHTML = `<div class="page-head"><h2>Archive</h2></div><p class="notice">No editions yet.</p>`;
+      return;
+    }
+    const months = {};
+    eds.forEach((e) => (months[e.date.slice(0, 7)] = months[e.date.slice(0, 7)] || []).push(e));
+    const total = eds.reduce((n, e) => n + e.count, 0);
+    const monthName = (m) => new Date(m + "-15T12:00:00Z").toLocaleDateString("en-GB", { month: "long", year: "numeric", timeZone: "UTC" });
+    view.innerHTML = `
+      <div class="page-head"><h2>Archive</h2><p>${plural(eds.length, "edition")} and ${plural(total, "story")} so far. Nothing is ever removed.</p></div>
+      ${Object.entries(months).map(([m, list]) => `
+        <section class="arch-month"><h3>${esc(monthName(m))}</h3>
+        ${list.map((e) => {
+          const ed = D.editions[e.date];
+          const titles = ed ? ed.stories.map((s) => `<li><a href="#/today/${e.date}/${esc(s.id)}">${esc(s.title)}</a>
+            <span class="asof">${esc(topicName(s.topic))}</span></li>`).join("") : "";
+          return `<article class="arch-day">
+            <a class="arch-date" href="#/today/${e.date}"><time datetime="${e.date}">${esc(longDate(e.date))}</time></a>
+            <div><a class="arch-lead" href="#/today/${e.date}">${esc(e.lead)}</a>
+              <p class="asof">${plural(e.count, "story")}${e.spotlight ? `, ${e.spotlight} in the spotlight` : ""}</p>
+              <details><summary>All stories in this edition</summary><ol>${titles}</ol></details></div>
+          </article>`;
+        }).join("")}</section>`).join("")}`;
   }
 
   function entryRow(e) {
@@ -543,6 +571,7 @@
     document.querySelectorAll("#nav a[data-route]").forEach((a) => { if (a.dataset.route !== name) a.removeAttribute("aria-current"); else a.setAttribute("aria-current", "page"); });
     const pages = {
       today: () => { pageToday(params[0]); if (params[1]) setTimeout(() => openStory(params[1]), 0); },
+      archive: pageArchive,
       timeline: () => pageTimeline(params),
       concepts: () => (params[0] ? pageConcept(params[0]) : pageConcepts()),
       labs: () => (params[0] ? pageLab(params[0]) : pageLabs()),
@@ -551,7 +580,7 @@
     };
     (pages[name] || notFound)();
     if (!params[1] && !(name === "timeline" && params[0])) window.scrollTo(0, 0);
-    const titles = { today: "Today", timeline: "Timeline", concepts: "Concepts", labs: "Labs", people: "People", stack: "Stack map", about: "About" };
+    const titles = { today: "Today", archive: "Archive", timeline: "Timeline", concepts: "Concepts", labs: "Labs", people: "People", stack: "Stack map", about: "About" };
     document.title = `${titles[name] || "Attention Span"}: Attention Span`;
   }
 
@@ -559,7 +588,7 @@
     const btn = document.getElementById("theme-toggle");
     const paint = () => {
       const night = document.documentElement.getAttribute("data-theme") === "night";
-      btn.innerHTML = night ? `${icon("day")}<span>Day edition</span>` : `${icon("night")}<span>Night edition</span>`;
+      btn.innerHTML = night ? `${icon("day")}<span>Day</span>` : `${icon("night")}<span>Night</span>`;
       btn.setAttribute("aria-pressed", String(night));
       btn.setAttribute("aria-label", night ? "Switch to the day edition" : "Switch to the night edition");
       document.querySelector('meta[name="theme-color"]').setAttribute("content", night ? "#191E1B" : "#EDF0EA");

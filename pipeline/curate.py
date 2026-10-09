@@ -177,7 +177,7 @@ def writer(src_text, meta, concept_ids, people, topic_hint, feedback=None):
 {src_text}
 {fix}
 Write JSON with these fields:
-- "title": factual headline, at most 12 words.
+- "title": factual headline, at most 12 words. If the news is a claim, allegation or report, the title must say so.
 - "one_liner": the news in one sentence, at most 25 words.
 - "summary": 50 to 110 words. What happened and the key specifics. Only facts from SOURCE TEXT.
 - "eli5": one or two sentences explaining the idea to a 5-year-old with a simple everyday analogy. The analogy must not
@@ -208,7 +208,8 @@ DRAFT:
 {json.dumps(fields, ensure_ascii=False, indent=1)}
 
 List every factual claim in the DRAFT that SOURCE TEXT does not support (wrong numbers, names, dates, invented details,
-overstated certainty). The eli5 field may use an analogy, but it must not add new facts. "why_it_matters" may give a
+overstated certainty). Check the title and eli5 as strictly as the summary. An allegation, a claim by one party, a report
+or a rumour in SOURCE TEXT must stay attributed ("allegedly", "says", "reportedly"); stating it as plain fact is unsupported. The eli5 field may use an analogy, but it must not add new facts. "why_it_matters" may give a
 reasonable implication but must not state new facts.
 Return JSON: {{"supported": true or false, "unsupported": ["claim 1", "..."]}}"""
     result, _ = ask_json(system, user, max_tokens=800, temperature=0.0, tag="checker")

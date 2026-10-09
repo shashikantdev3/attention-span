@@ -131,5 +131,26 @@
   "first_seen": "2026-10-08",
   "story": "2026-10-08-microsoft-updates-copilot-on-windows-with-hybrid-intelligenc",
   "source": "https://www.linkedin.com/feed/update/urn:li:activity:7513685659505750016/"
+ },
+ {
+  "term": "Virtual Biology Initiative",
+  "definition": "An initiative to create the technologies and multi-modal datasets needed to build predictive models of life.",
+  "first_seen": "2026-10-09",
+  "story": "2026-10-09-global-coalition-commits-1-8-billion-for-ai-ready-biological",
+  "source": "https://biohub.org/news/virtual-biology-initiative-expansion/"
+ },
+ {
+  "term": "Genesis Mission",
+  "definition": "A cross-agency initiative led by the Department of Energy focused on fundamental cell research, data collection, AI analytics, and computation.",
+  "first_seen": "2026-10-09",
+  "story": "2026-10-09-global-coalition-commits-1-8-billion-for-ai-ready-biological",
+  "source": "https://biohub.org/news/virtual-biology-initiative-expansion/"
+ },
+ {
+  "term": "groupwise agentic grading",
+  "definition": "Groupwise agentic grading yields more accurate reward signals for long-horizon tasks and steers the model towards shorter, more token-efficient solutions.",
+  "first_seen": "2026-10-09",
+  "story": "2026-10-09-mimo-v2-6-introduces-scaled-reinforcement-learning-for-model",
+  "source": "https://arxiv.org/abs/2610.11959"
  }
 ]

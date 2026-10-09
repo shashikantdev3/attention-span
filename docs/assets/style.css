@@ -398,3 +398,23 @@ footer.site { border-top: 3px double var(--rule); }
   .nav, .span, aside.rail-box, footer.site, .more { display: none; }
   body { background: #fff; color: #000; }
 }
+
+/* archive */
+.arch-month { margin-bottom: 30px; }
+.arch-month > h3 { font-size: 1.6rem; font-weight: 700; margin: 0 0 4px; border-bottom: 3px solid var(--rule); padding-bottom: 6px;
+  font-variation-settings: "opsz" 60; }
+.arch-day { display: grid; grid-template-columns: 230px minmax(0, 1fr); gap: 18px; padding: 14px 0; border-bottom: 1px solid var(--rule-soft); }
+.arch-date { text-decoration: none; color: var(--ink-2); font-style: italic; }
+.arch-lead { font-weight: 700; font-size: 1.22rem; line-height: 1.25; text-decoration: none; }
+.arch-lead:hover, .arch-day li a:hover { background: var(--wash); }
+.arch-day p.asof { margin: 2px 0 6px; }
+.arch-day details summary { cursor: pointer; color: var(--ink-2); font-size: 0.95rem; }
+.arch-day details ol { margin: 8px 0 0; padding-left: 22px; }
+.arch-day li { margin: 4px 0; }
+.arch-day li a { text-decoration: none; }
+.arch-day li .asof { margin-left: 6px; }
+@media (max-width: 680px) { .arch-day { grid-template-columns: 1fr; gap: 4px; } }
+
+/* keep the section bar on one line at laptop widths */
+.nav a { padding: 12px 9px 10px; gap: 6px; }
+.arch-date time { font-family: var(--serif); font-size: 1rem; }

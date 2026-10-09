@@ -70,7 +70,22 @@ git commit -m "Edition 2026-10-08"
 git push
 ```
 
-Options: `--hours 48` after a missed night, `--max 12` stories, `--dry-run` to test without writing.
+By default it looks back to the previous edition (at least 24 hours, at most 72), so a missed night is caught up
+automatically. A run before 06:00 is filed under the day that just ended.
+
+Options: `--hours 48` to set the look-back yourself, `--max 12` stories, `--date 2026-10-09` to set the edition date,
+`--dry-run` to test without writing.
+
+### Run it automatically every night (Windows)
+
+```
+powershell -ExecutionPolicy Bypass -File tools\schedule_nightly.ps1
+```
+
+This registers a Task Scheduler job that runs `tools\nightly.bat` at 23:45 each night. If the laptop is asleep at
+23:45, it runs when the laptop wakes. It writes the edition and appends to `state\reports\nightly.log`, but never
+commits or pushes. Change the end date at the top of the script. To remove it:
+`Unregister-ScheduledTask -TaskName "Attention Span nightly" -Confirm:$false`
 
 **Add a link the feeds missed** (for example an X post): put it in `state/inbox.txt`, one per line, as `URL | short note`.
 

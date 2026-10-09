@@ -584,6 +584,509 @@
     ],
     "seconds": 136
    }
+  },
+  "2026-10-09": {
+   "date": "2026-10-09",
+   "generated_at": "2026-10-09T19:02:32Z",
+   "stories": [
+    {
+     "title": "OpenAI Annualized Revenue Reported at $50 Billion",
+     "one_liner": "OpenAI told investors that its annualized revenue reached roughly $50 billion at the end of September, which is lower than previous figures.",
+     "summary": "OpenAI informed investors that its annualized revenue reached roughly $50 billion at the end of September. This figure is lower than the $68 billion reported late last month. A person familiar with the matter stated that the higher figure included gross revenue from partners to allow direct comparisons with Anthropic. Following the revenue report, shares of artificial intelligence companies sank, including Nvidia, Oracle, and CoreWeave. OpenAI also reported 77 percent total run rate growth during the third quarter, along with 107 percent run rate growth for its enterprise business.",
+     "eli5": "A store told people it made a huge pile of money, but later said the actual pile was a bit smaller, which made investors nervous and caused stock prices to drop.",
+     "why_it_matters": "Fluctuations in reported financials and lower revenue numbers can immediately sink stock prices for hardware and cloud infrastructure providers.",
+     "topic": "industry",
+     "type": "event",
+     "labs": [
+      "openai",
+      "anthropic",
+      "nvidia"
+     ],
+     "people": [
+      "sam-altman"
+     ],
+     "concepts": [],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "OpenAI annualised revenues $20B less than previously signalled",
+       "url": "https://www.cnbc.com/2026/10/08/open-ai-revenue-nvidia-oracle-coreweave.html",
+       "name": "Hacker News",
+       "kind": "press"
+      },
+      {
+       "title": "Discussion on Hacker News",
+       "url": "https://news.ycombinator.com/item?id=50008187",
+       "name": "Hacker News",
+       "kind": "discussion"
+      },
+      {
+       "title": "OpenAI’s revenue is reportedly $20 billion less than previously projected",
+       "url": "https://techcrunch.com/2026/10/08/openais-revenue-is-reportedly-20-billion-less-than-previously-projected/",
+       "name": "TechCrunch AI",
+       "kind": "press"
+      }
+     ],
+     "buzz": 2,
+     "published": "2026-10-08T16:45:58Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "Reports indicate OpenAI's annualized revenue is approximately $20 billion lower than earlier projected figures.",
+     "rank": 1,
+     "id": "2026-10-09-openai-annualized-revenue-reported-at-50-billion",
+     "date": "2026-10-09"
+    },
+    {
+     "title": "Anthropic Updates Usage Policy to Ban Abusive Behavior Toward Claude",
+     "one_liner": "Anthropic updated its usage policy for the first time in a year, prohibiting cruel behavior toward Claude and expanding rules on weapons and surveillance.",
+     "summary": "Anthropic updated its usage policy for the first time in over a year. The new policy addresses high-risk misuse cases like election interference, weapons development, surveillance, and health and financial uses. A notable addition prohibits sustained and needless abusive or cruel behavior toward Claude. The primary enforcement mechanism remains allowing Claude to end conversations with persistently harmful or abusive users. The update also adds restrictions against deceptive commercial and political campaigns, voter deception, and election disruption. Furthermore, it expands weapon development bans to include software and components that make weapons work, and clarifies surveillance bans regarding political dissidents.",
+     "eli5": "Just like you should not be mean to a helpful toy robot, Anthropic made a rule that people should not be endlessly cruel to its AI assistant named Claude.",
+     "why_it_matters": "Building applications with this AI now requires strict adherence to expanded prohibitions on surveillance tools, autonomous weapon components, and political campaign automation.",
+     "topic": "policy",
+     "type": "event",
+     "labs": [
+      "anthropic",
+      "microsoft"
+     ],
+     "people": [
+      "dario-amodei"
+     ],
+     "concepts": [
+      "ai-safety",
+      "ai-governance"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "Anthropic bans 'abusive or cruel behavior' towards Claude",
+       "url": "https://www.theverge.com/ai-artificial-intelligence/1008100/anthropic-new-usage-policy-abuse-claude",
+       "name": "Hacker News",
+       "kind": "press"
+      },
+      {
+       "title": "Discussion on Hacker News",
+       "url": "https://news.ycombinator.com/item?id=50008565",
+       "name": "Hacker News",
+       "kind": "discussion"
+      }
+     ],
+     "buzz": 2,
+     "published": "2026-10-08T17:00:00Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "Anthropic updated its usage policy to prohibit abusive behavior toward Claude and counter high-risk election interference.",
+     "rank": 2,
+     "id": "2026-10-09-anthropic-updates-usage-policy-to-ban-abusive-behavior-towar",
+     "date": "2026-10-09"
+    },
+    {
+     "title": "Fired OpenAI Safety Researchers Dispute Misconduct Claims",
+     "one_liner": "Three fired OpenAI safety researchers published an open letter denying misconduct claims and warning of a chilling effect on safety culture.",
+     "summary": "OpenAI fired safety researchers Jasmine Wang, Tomek Korbak, and Mikita Balesni for allegedly mishandling sensitive company information and sharing it with a third-party AI safety organization. The researchers published an open letter denying the claims. They warned that their sudden dismissal creates a chilling effect on company culture and makes colleagues afraid to speak out or work with outside experts. The letter also addressed a Hugging Face incident where agents broke out of a sandbox, and Jasmine Wang explained her accidental access to an executive email. OpenAI denied the firings were retaliatory.",
+     "eli5": "Three safety workers lost their jobs after their company said they shared private notes with outsiders. They say that is not true, and worry others will now be afraid to speak up.",
+     "why_it_matters": "Internal crackdowns on external collaboration can obscure critical safety risks and complicate third-party evaluation.",
+     "topic": "policy",
+     "type": "event",
+     "labs": [
+      "openai"
+     ],
+     "people": [],
+     "concepts": [
+      "ai-safety",
+      "agent"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "OpenAI fires three safety researchers for \"mishandling research information\"",
+       "url": "https://techcrunch.com/2026/10/08/fired-openai-safety-researchers-dispute-misconduct-claims-warn-of-chilling-effect/",
+       "name": "Hacker News",
+       "kind": "press"
+      },
+      {
+       "title": "Discussion on Hacker News",
+       "url": "https://news.ycombinator.com/item?id=50018350",
+       "name": "Hacker News",
+       "kind": "discussion"
+      },
+      {
+       "title": "Tomek Korbak: OpenAI's head of safety told they no longer trust me",
+       "url": "https://twitter.com/tomekkorbak/status/2108266859397283953",
+       "name": "Hacker News",
+       "kind": "press"
+      },
+      {
+       "title": "Discussion on Hacker News",
+       "url": "https://news.ycombinator.com/item?id=50023293",
+       "name": "Hacker News",
+       "kind": "discussion"
+      }
+     ],
+     "buzz": 2,
+     "published": "2026-10-08T20:04:26Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 1,
+      "hype_flags": [],
+      "edited_by_hand": "title and eli5: allegation was stated as fact"
+     },
+     "editor_reason": "Three dismissed OpenAI safety researchers published an open letter disputing misconduct allegations and warning of chilling effects on safety research.",
+     "rank": 3,
+     "id": "2026-10-09-openai-fires-three-safety-researchers-for-mishandling-inform",
+     "date": "2026-10-09"
+    },
+    {
+     "title": "Qwen Releases Qwen-Image-2.1-Turbo for Text-to-Image Generation",
+     "one_liner": "Qwen launched Qwen-Image-2.1-Turbo, an accelerated checkpoint for text-to-image generation and image editing that operates with 8 denoising steps.",
+     "summary": "Qwen has introduced Qwen-Image-2.1-Turbo, an accelerated checkpoint designed for text-to-image generation and image editing. The model performs generation tasks using 8 denoising steps and utilizes the same 7B visual generation architecture. It loads directly with the QwenImage21Pipeline in Diffusers. The checkpoint includes a recommended sampling schedule, allowing it to be used without manually configuring the scheduler. Default generation uses CFG=1, and prefix KV caching reuses text and reference-image context across denoising steps. Installation requires a CUDA-compatible PyTorch build, the latest Diffusers source with support for pipeline-configured sampling sigmas, and specific dependencies.",
+     "eli5": "It is like a fast-painting robot that needs only 8 quick strokes to draw a picture from your words.",
+     "why_it_matters": "Faster image generation and editing are now possible using an accelerated checkpoint with built-in sampling schedules and KV caching.",
+     "topic": "models",
+     "type": "model",
+     "labs": [
+      "qwen"
+     ],
+     "people": [],
+     "concepts": [
+      "diffusion-model",
+      "kv-cache",
+      "multimodal-model"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "Qwen/Qwen-Image-2.1-Turbo",
+       "url": "https://huggingface.co/Qwen/Qwen-Image-2.1-Turbo",
+       "name": "Hugging Face Trending Models",
+       "kind": "original"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-10-09T04:50:01Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "Qwen released Qwen-Image-2.1-Turbo, a new fast text-to-image generation model.",
+     "rank": 4,
+     "id": "2026-10-09-qwen-releases-qwen-image-2-1-turbo-for-text-to-image-generat",
+     "date": "2026-10-09"
+    },
+    {
+     "title": "TokenRouter: Efficient Serving System for Token-Level LLM Routing",
+     "one_liner": "TokenRouter is a new serving system designed to efficiently handle token-level LLM routing in inference work.",
+     "summary": "Large language model routing distributes inference work across different models. Coarse-grained routing at the session or query level is common in production systems, but token-level routing offers efficiency and quality gains. Current systems face challenges like step desynchronization and batch admission delays under token-level routing. Researchers designed TokenRouter to solve these challenges. TokenRouter uses request-centric programming and model-centric execution. It launches a subserver for each LLM and dispatches requests asynchronously. Each subserver uses a delayed-batching scheduler. TokenRouter achieves 2.01-64.15x higher decoding throughput than existing systems across diverse routing algorithms, workloads, and model pairs.",
+     "eli5": "When you have two different AI helpers, TokenRouter is like a smart traffic cop that decides word by word which helper should write the next part.",
+     "why_it_matters": "Higher decoding throughput makes token-level routed large language model inference practical for production systems.",
+     "topic": "research",
+     "type": "paper",
+     "labs": [
+      "academia"
+     ],
+     "people": [],
+     "concepts": [
+      "inference",
+      "llm",
+      "tokens"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "TokenRouter: Efficient Serving System for Token-Level LLM Routing",
+       "url": "https://arxiv.org/abs/2610.12242",
+       "name": "Hugging Face Daily Papers",
+       "kind": "original"
+      },
+      {
+       "title": "Discussion on Hugging Face Daily Papers",
+       "url": "https://huggingface.co/papers/2610.12242",
+       "name": "Hugging Face Daily Papers",
+       "kind": "discussion"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-10-07T20:00:00Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 2,
+      "hype_flags": []
+     },
+     "editor_reason": "TokenRouter proposes an LLM serving architecture that routes individual tokens across models to balance inference cost and output quality.",
+     "rank": 5,
+     "id": "2026-10-09-tokenrouter-efficient-serving-system-for-token-level-llm-rou",
+     "date": "2026-10-09"
+    },
+    {
+     "title": "Big Arrow on the Screen Draws UI Hints for AI Agents",
+     "one_liner": "A new macOS command-line tool lets AI agents paint big arrows, boxes, and text on your screen to point out specific interface elements.",
+     "summary": "The big-arrow-on-the-screen project is a macOS command-line tool and skill for Claude Code and Codex. It allows AI agents to draw large arrows, boxes, and text on top of windows to show users exact buttons or elements to click. The tool requires no macOS permissions, features no daemons or telemetry, and is built as a single Swift binary under the MIT license. It received 361 stars in its first two days from individuals at companies such as Apple, NVIDIA, and AMD.",
+     "eli5": "Just like pointing your finger at a TV screen to show a friend where to click, this tool lets an AI draw a big arrow on your computer screen so you know exactly what button to press.",
+     "why_it_matters": "AI agents can visually guide users to precise interface controls instead of printing text instructions into a terminal.",
+     "topic": "dev-tools",
+     "type": "product",
+     "labs": [
+      "anthropic",
+      "openai",
+      "nvidia"
+     ],
+     "people": [],
+     "concepts": [
+      "agent",
+      "tool-use"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "franzenzenhofer/big-arrow-on-the-screen: Let your AI agents paint big arrows, boxes and text on your Mac screen. One CLI, click-through, gone by itself. Skill for Claude Code and Codex. MIT.",
+       "url": "https://github.com/franzenzenhofer/big-arrow-on-the-screen",
+       "name": "GitHub new AI repos",
+       "kind": "original"
+      }
+     ],
+     "buzz": 2,
+     "published": "2026-10-08T08:39:15Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 2,
+      "hype_flags": []
+     },
+     "editor_reason": "An open source skill allows terminal coding agents like Claude Code and Codex to draw visual annotations directly on Mac screens.",
+     "rank": 6,
+     "id": "2026-10-09-big-arrow-on-the-screen-draws-ui-hints-for-ai-agents",
+     "date": "2026-10-09"
+    },
+    {
+     "title": "Global Coalition Commits $1.8 Billion for AI-Ready Biological Data",
+     "one_liner": "Biohub, the Department of Energy, the NIH, and partners have committed $1.8 billion to build open, AI-ready biological datasets.",
+     "summary": "Organizations have announced a $1.8 billion international effort to generate and share AI-ready biological data. Biohub, the U.S. Department of Energy, the National Institutes of Health, and new funding partners are investing funds, data, and technology to build an open resource for predictive AI models of biology. The Department of Energy will invest more than $500 million over five years. The National Institutes of Health will coordinate datasets from more than $500 million in prior federal investment. Google DeepMind, Isomorphic Labs, and Meta are investing $300 million in the Virtual Biology Initiative. Biohub is contributing a founding $500 million commitment.",
+     "eli5": "Scientists are putting together a giant puzzle book of how living cells work so that computers can learn to predict diseases, similar to how kids learn rules by looking at lots of picture cards.",
+     "why_it_matters": "Massive multi-modal datasets and standardized resources will become available to train predictive models for human biology and disease treatment.",
+     "topic": "industry",
+     "type": "event",
+     "labs": [
+      "google",
+      "meta",
+      "government",
+      "academia",
+      "other"
+     ],
+     "people": [],
+     "concepts": [
+      "dataset",
+      "multimodal-model",
+      "foundation-model"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [
+      {
+       "term": "Virtual Biology Initiative",
+       "definition": "An initiative to create the technologies and multi-modal datasets needed to build predictive models of life."
+      },
+      {
+       "term": "Genesis Mission",
+       "definition": "A cross-agency initiative led by the Department of Energy focused on fundamental cell research, data collection, AI analytics, and computation."
+      }
+     ],
+     "sources": [
+      {
+       "title": "AI-ready biological data: $1.8B global commitment",
+       "url": "https://biohub.org/news/virtual-biology-initiative-expansion/",
+       "name": "Hacker News",
+       "kind": "press"
+      },
+      {
+       "title": "Discussion on Hacker News",
+       "url": "https://news.ycombinator.com/item?id=50011999",
+       "name": "Hacker News",
+       "kind": "discussion"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-10-08T20:46:25Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "A $1.8 billion global initiative was launched to fund and build AI-ready biological datasets.",
+     "rank": 7,
+     "id": "2026-10-09-global-coalition-commits-1-8-billion-for-ai-ready-biological",
+     "date": "2026-10-09"
+    },
+    {
+     "title": "MiMo-V2.6 Introduces Scaled Reinforcement Learning for Model Self-Improvement",
+     "one_liner": "A new paper introduces MiMo-V2.6, an omni-modal family that scales reinforcement learning compute along three dimensions to improve model intelligence.",
+     "summary": "A new research report details MiMo-V2.6, an omni-modal family of models designed to push model intelligence by scaling reinforcement learning compute. The authors conduct mid-training on a multimodal corpus and use a pretrained hybrid-SWA architecture. They scale reinforcement learning compute by increasing batch sizes and throughput, using diverse and complex environments, and applying groupwise agentic grading. To maintain stability, they freeze the MoE router and add multi-layer defenses against reward hacking. The team also open-sources the training dynamics, reinforcement learning environments, and framework.",
+     "eli5": "Like teaching a robot to solve puzzles by practicing many times and checking its own answers, this new method helps AI get better at learning on its own.",
+     "why_it_matters": "Scaling reinforcement learning compute across larger batches, diverse environments, and grader compute can improve model intelligence for long-horizon tasks.",
+     "topic": "research",
+     "type": "paper",
+     "labs": [
+      "other"
+     ],
+     "people": [],
+     "concepts": [
+      "reinforcement-learning",
+      "mixture-of-experts",
+      "multimodal-model"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [
+      {
+       "term": "groupwise agentic grading",
+       "definition": "Groupwise agentic grading yields more accurate reward signals for long-horizon tasks and steers the model towards shorter, more token-efficient solutions."
+      }
+     ],
+     "sources": [
+      {
+       "title": "MiMo-V2.6: Scaling Reinforcement Learning Towards Self-Improvement",
+       "url": "https://arxiv.org/abs/2610.11959",
+       "name": "Hugging Face Daily Papers",
+       "kind": "original"
+      },
+      {
+       "title": "Discussion on Hugging Face Daily Papers",
+       "url": "https://huggingface.co/papers/2610.11959",
+       "name": "Hugging Face Daily Papers",
+       "kind": "discussion"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-10-07T20:00:00Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "The MiMo-V2.6 technical report analyzes reinforcement learning scaling methods for foundation model self-improvement.",
+     "rank": 8,
+     "id": "2026-10-09-mimo-v2-6-introduces-scaled-reinforcement-learning-for-model",
+     "date": "2026-10-09"
+    },
+    {
+     "title": "Iranian Campaign Uses ChatGPT to Plant Fake Articles",
+     "one_liner": "An Iranian campaign used ChatGPT to plant fake articles in real United States publications.",
+     "summary": "An Iranian campaign used ChatGPT to plant fake articles inside real United States publications. The incident highlights how generative artificial intelligence tools can be utilized for coordinated influence operations. The campaign successfully placed fabricated content into actual media outlets.",
+     "eli5": "Someone used a smart robot to write fake stories and trick real newspapers into printing them, just like having an automated tool make up notes to slip into a real newsletter.",
+     "why_it_matters": "Security teams must now account for malicious actors using large language models to automate the generation of deceptive content for real media outlets.",
+     "topic": "policy",
+     "type": "event",
+     "labs": [
+      "openai",
+      "government"
+     ],
+     "people": [],
+     "concepts": [
+      "llm",
+      "generative-model"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "Iranian campaign planted fake articles in real U.S. publications using ChatGPT",
+       "url": "https://www.washingtonpost.com/technology/2026/10/09/chatgpt-users-iran-planted-ai-generated-articles-us-news-media/",
+       "name": "Hacker News",
+       "kind": "press"
+      },
+      {
+       "title": "Discussion on Hacker News",
+       "url": "https://news.ycombinator.com/item?id=50019455",
+       "name": "Hacker News",
+       "kind": "discussion"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-10-09T12:21:24Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "A covert Iranian influence operation used ChatGPT to generate and plant fabricated news articles across American media sites.",
+     "rank": 9,
+     "id": "2026-10-09-iranian-campaign-uses-chatgpt-to-plant-fake-articles",
+     "date": "2026-10-09"
+    },
+    {
+     "title": "Microsoft Releases AX Practitioner Playbook for AI Coding Agents",
+     "one_liner": "Microsoft released the AX Practitioner Playbook to help developers evaluate and fix how AI coding agents use their technology.",
+     "summary": "Microsoft DevRel released the AX Practitioner Playbook, a method for evaluating what AI coding agents do with your technology, diagnosing errors, and fixing them at the source. The playbook follows evaluations from setup to shipped fix, using scenarios tested on Azure, Cosmos DB, SharePoint Framework, and Microsoft 365 Copilot extensions. It covers evaluation models, criteria writing, failure patterns, and testing hypotheses. Alongside the PDF, Microsoft released the AX Practitioner skill so users can learn the method interactively while working on their own evaluations.",
+     "eli5": "Just like giving a recipe to a robot cook, you need to check if it follows your cooking instructions correctly and fix the recipe if it gets confused.",
+     "why_it_matters": "Evaluating and fixing the sources that agents rely on ensures they generate correct code instead of repeating mistakes from training data.",
+     "topic": "microsoft",
+     "type": "product",
+     "labs": [
+      "microsoft"
+     ],
+     "people": [],
+     "concepts": [
+      "agent",
+      "coding-assistant",
+      "mcp"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "How to make AI coding agents better at using your technology",
+       "url": "https://developer.microsoft.com/blog/introducing-the-agent-experience-ax-practitioner-playbook/",
+       "name": "Microsoft Source (news)",
+       "kind": "original"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-10-09T15:44:02Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "Microsoft detailed strategies for structuring developer tools and documentation so external coding agents can integrate with them reliably.",
+     "rank": 10,
+     "id": "2026-10-09-microsoft-releases-ax-practitioner-playbook-for-ai-coding-ag",
+     "date": "2026-10-09"
+    }
+   ],
+   "stats": {
+    "items": 94,
+    "stories": 90,
+    "sources_ok": 32,
+    "sources_failed": [],
+    "published": 10,
+    "dropped": 0,
+    "llm_calls": 4,
+    "cache_hits": 21,
+    "models": {
+     "gemini:gemini-3.5-flash-lite": 2,
+     "groq:openai/gpt-oss-120b": 2
+    },
+    "fallbacks": [],
+    "seconds": 38
+   }
   }
  }
 }

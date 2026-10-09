@@ -44,15 +44,34 @@ DATA = ROOT / "docs" / "data"
 
 
 def edition_today():
+    """The edition date in local time. A run before 06:00 belongs to the day that just ended,
+    so a nightly run that slips past midnight is still filed under the right day."""
     off = os.getenv("EDITION_UTC_OFFSET", "+05:30")
     sign = -1 if off.startswith("-") else 1
     h, m = off.lstrip("+-").split(":")
-    return (datetime.now(timezone.utc) + sign * timedelta(hours=int(h), minutes=int(m))).date().isoformat()
+    local = datetime.now(timezone.utc) + sign * timedelta(hours=int(h), minutes=int(m))
+    if local.hour < 6:
+        local -= timedelta(days=1)
+    return local.date().isoformat()
+
+
+def hours_since_last_edition(default=24, cap=72):
+    """Look back to the previous edition, so a missed night is caught up (at most 3 days)."""
+    try:
+        index = json.loads((DATA / "editions" / "index.json").read_text(encoding="utf-8"))
+        last = index["editions"][0]
+        month = json.loads((DATA / "editions" / last["file"]).read_text(encoding="utf-8"))
+        made = datetime.fromisoformat(month["editions"][last["date"]]["generated_at"].replace("Z", "+00:00"))
+        gap = (datetime.now(timezone.utc) - made).total_seconds() / 3600 + 1
+        return int(min(cap, max(default, round(gap))))
+    except (FileNotFoundError, KeyError, IndexError, ValueError):
+        return default
 
 
 def main():
     ap = argparse.ArgumentParser(description="Attention Span nightly run")
-    ap.add_argument("--hours", type=int, default=24)
+    ap.add_argument("--hours", type=int, default=None,
+                    help="how far back to look; default: since the last edition, at least 24 and at most 72")
     ap.add_argument("--max", type=int, default=12)
     ap.add_argument("--date", default=None)
     ap.add_argument("--dry-run", action="store_true")
@@ -64,6 +83,8 @@ def main():
         sys.exit("No API keys found. Put GEMINI_API_KEY and GROQ_API_KEY in the .env file.")
 
     t0 = time.time()
+    if args.hours is None:
+        args.hours = hours_since_last_edition()
     day = args.date or edition_today()
     lines = [f"# Attention Span run for {day}", ""]
 
