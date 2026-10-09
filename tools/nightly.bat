@@ -11,7 +11,16 @@ if not exist "state\reports" mkdir "state\reports"
 echo. >> "state\reports\nightly.log"
 echo ==== %date% %time% ==== >> "state\reports\nightly.log"
 
-python run_daily.py >> "state\reports\nightly.log" 2>&1
+rem Find a real Python. The bare "python" command can be the Microsoft Store shortcut, which does nothing.
+set "PY="
+for /d %%D in ("%LOCALAPPDATA%\Programs\Python\Python3*") do if exist "%%D\python.exe" set "PY=%%D\python.exe"
+if not defined PY (
+  where py >nul 2>&1 && set "PY=py -3"
+)
+if not defined PY set "PY=python"
+echo Using %PY% >> "state\reports\nightly.log"
+
+%PY% run_daily.py >> "state\reports\nightly.log" 2>&1
 if errorlevel 1 (
   echo Run did not finish. If it stopped part way, run: python run_daily.py --resume >> "state\reports\nightly.log"
   exit /b 1

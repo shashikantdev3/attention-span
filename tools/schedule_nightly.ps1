@@ -20,8 +20,11 @@ $Repo = Split-Path -Parent $PSScriptRoot
 $Bat  = Join-Path $PSScriptRoot "nightly.bat"
 if (-not (Test-Path $Bat)) { throw "Cannot find $Bat" }
 
-$python = (Get-Command python -ErrorAction SilentlyContinue)
-if (-not $python) { throw "python is not on PATH. Install Python 3.12, then run this again." }
+$real = Get-ChildItem "$env:LOCALAPPDATA\Programs\Python\Python3*\python.exe" -ErrorAction SilentlyContinue | Select-Object -Last 1
+if (-not $real -and -not (Get-Command py -ErrorAction SilentlyContinue)) {
+  throw "Cannot find Python 3 under $env:LOCALAPPDATA\Programs\Python. Install Python 3.12, then run this again."
+}
+if ($real) { Write-Host "Python found: $($real.FullName)" }
 
 $action  = New-ScheduledTaskAction -Execute "cmd.exe" -Argument "/c `"$Bat`"" -WorkingDirectory $Repo
 $trigger = New-ScheduledTaskTrigger -Daily -At $Start
