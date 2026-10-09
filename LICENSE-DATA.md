@@ -6,7 +6,7 @@ The data and written content of Attention Span are licensed under the
 Full legal text: https://creativecommons.org/licenses/by-nc/4.0/legalcode
 Summary: https://creativecommons.org/licenses/by-nc/4.0/
 
-Copyright (c) 2026 Shashikant (DevWithData)
+Copyright (c) 2026 Shashikant
 
 ## What this covers
 
@@ -18,7 +18,7 @@ Copyright (c) 2026 Shashikant (DevWithData)
 ## What you can do
 
 - Share and adapt the data for **non-commercial** purposes, with credit.
-- Credit line: **"Attention Span by DevWithData (https://devwithdata.com), CC BY-NC 4.0"**, with a link to this repository.
+- Credit line: **"Attention Span by Shashikant, CC BY-NC 4.0"**, with a link to this repository.
 
 ## Commercial use
 

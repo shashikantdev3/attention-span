@@ -11,5 +11,5 @@ A commercial licence is available for uses such as:
 - republishing the timeline or glossary on a commercial site
 - training or evaluating AI models on the dataset
 
-To ask for a commercial licence, email **business@devwithdata.com** with your company name, what you want to use,
+To ask for a commercial licence, contact **Shashikant** through [github.com/shashikantdev3](https://github.com/shashikantdev3) with your company name, what you want to use,
 and how you plan to use it.

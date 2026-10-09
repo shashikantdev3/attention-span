@@ -102,8 +102,8 @@ All data is plain JSON in `docs/data/`.
 
 - **Code**: [MIT](LICENSE). Use it for anything, including commercial work.
 - **Data and written content**: [CC BY-NC 4.0](LICENSE-DATA.md). Free for non-commercial use with credit:
-  "Attention Span by DevWithData, CC BY-NC 4.0".
+  "Attention Span by Shashikant, CC BY-NC 4.0".
 - **Commercial use of the data**: needs permission, see [COMMERCIAL.md](COMMERCIAL.md).
 - Linked articles and papers belong to their publishers and are not covered by either licence.
 
-Built by [DevWithData](https://devwithdata.com).
+Built by [Shashikant](https://github.com/shashikantdev3).

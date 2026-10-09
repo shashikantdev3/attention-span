@@ -480,11 +480,11 @@
       </ul>
       <h3>Use the data</h3>
       <p>All data is plain JSON in this site's <code>data</code> folder. It is free for non-commercial use with credit under
-        <a href="https://creativecommons.org/licenses/by-nc/4.0/" rel="license">CC BY-NC 4.0</a>: "Attention Span by DevWithData".
-        For commercial use, email <a href="mailto:business@devwithdata.com">business@devwithdata.com</a>.
+        <a href="https://creativecommons.org/licenses/by-nc/4.0/" rel="license">CC BY-NC 4.0</a>: "Attention Span by Shashikant".
+        For commercial use, contact Shashikant through <a href="https://github.com/shashikantdev3">GitHub</a>.
         The code is MIT-licensed. Linked articles and papers belong to their publishers.</p>
       <p>Built with free AI tiers (Google Gemini and Groq) and run once a night on a laptop.</p>
-      <p class="colophon">Made by <a href="https://devwithdata.com">DevWithData</a>. Set in Newsreader and IBM Plex Mono.</p>
+      <p class="colophon">Made by <a href="https://github.com/shashikantdev3">Shashikant</a>. Set in Bodoni Moda, Newsreader and IBM Plex Mono.</p>
     </div>`;
   }
 
