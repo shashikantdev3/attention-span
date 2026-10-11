@@ -416,5 +416,58 @@ footer.site { border-top: 3px double var(--rule); }
 @media (max-width: 680px) { .arch-day { grid-template-columns: 1fr; gap: 4px; } }
 
 /* keep the section bar on one line at laptop widths */
-.nav a { padding: 12px 9px 10px; gap: 6px; }
+.nav a { padding: 12px 7px 10px; gap: 5px; font-size: 1rem; }
+.nav .theme-btn { margin-left: 4px; }
 .arch-date time { font-family: var(--serif); font-size: 1rem; }
+
+/* ---------------- Attention Heads ---------------- */
+.filters .chip { cursor: pointer; font-size: 0.92rem; }
+.filters .chip.on { background: var(--ink); color: var(--bg); border-color: var(--ink); }
+.heads-day > h3 { font-size: 1.05rem; font-weight: 600; font-style: italic; color: var(--ink-2); margin: 22px 0 0;
+  padding-bottom: 6px; border-bottom: 1px solid var(--rule); }
+.dispatch { padding: 18px 0 16px; border-bottom: 1px solid var(--rule-soft); }
+.dispatch header { display: flex; align-items: center; gap: 12px; }
+.dispatch .who b { display: block; font-size: 1.12rem; line-height: 1.2; }
+.dispatch .who b a { text-decoration: none; }
+.dispatch .who b a:hover { background: var(--wash); }
+.monogram.sm { width: 40px; height: 40px; font-size: 1.05rem; display: inline-grid; place-items: center; flex: none;
+  border: 1px solid var(--rule); }
+.dispatch blockquote { margin: 12px 0 0; padding: 2px 0 2px 18px; border-left: 3px solid var(--ink); max-width: var(--measure); }
+.dispatch blockquote p { margin: 0; font-size: 1.12rem; line-height: 1.5; white-space: pre-line; overflow-wrap: anywhere;
+  font-variation-settings: "opsz" 24; }
+.dispatch .ctx { display: flex; gap: 8px; align-items: baseline; margin: 10px 0 0 21px; color: var(--ink-2); font-size: 0.93rem;
+  max-width: var(--measure); }
+.dispatch .ctx .icon { width: 16px; height: 16px; vertical-align: -2px; }
+.dispatch .means { margin: 14px 0 0; padding: 10px 14px; border: 1px solid var(--rule); border-left: 6px solid var(--yellow);
+  max-width: var(--measure); }
+.dispatch .means h4 { margin: 0 0 2px; font-size: 0.95rem; font-variant: small-caps; letter-spacing: 0.04em; }
+.dispatch .means p { margin: 0; }
+.dispatch footer { display: flex; flex-wrap: wrap; gap: 6px 18px; align-items: center; margin-top: 10px; font-size: 0.93rem;
+  color: var(--ink-2); }
+.dispatch footer .tags { margin: 0; }
+.board { list-style: none; padding: 0; margin: 6px 0 12px; }
+.board li { position: relative; display: grid; grid-template-columns: 26px minmax(0, 1fr) auto; gap: 8px; align-items: baseline;
+  padding: 6px 0 9px; border-bottom: 1px solid var(--rule-soft); }
+.board .n { font-family: var(--mono); font-size: 0.78rem; color: var(--ink-3); }
+.board .who a { text-decoration: none; }
+.board .who a:hover { background: var(--wash); }
+.board .count { font-family: var(--mono); font-size: 0.85rem; }
+.board .bar { position: absolute; left: 34px; bottom: 3px; height: 3px; background: var(--ink); max-width: calc(100% - 34px); }
+:root[data-theme="night"] .board .bar { background: var(--yellow); }
+.roster { margin: 22px 0; }
+.roster > h3 { font-size: 1.35rem; font-weight: 700; margin: 0 0 6px; font-variation-settings: "opsz" 60; }
+.roster .profiles a { margin-right: 10px; }
+.roster .ledger { table-layout: fixed; }
+.roster th:nth-child(1) { width: 24%; }
+.roster th:nth-child(3) { width: 15%; }
+.roster th:nth-child(4) { width: 10%; }
+.roster .show-sm { display: none; }
+@media (max-width: 680px) {
+  .roster .show-sm { display: block; }
+  .roster th:nth-child(1) { width: auto; }
+  .roster th:nth-child(3) { width: 28%; }
+  .roster th:nth-child(4) { width: 18%; }
+  .dispatch blockquote { padding-left: 12px; }
+  .dispatch .ctx { margin-left: 15px; }
+}
+@media (max-width: 1320px) { .search-btn span { display: none; } }

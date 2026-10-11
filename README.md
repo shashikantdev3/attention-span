@@ -10,6 +10,8 @@ free AI tiers and publishes as a static site on GitHub Pages.
 - **Timeline**: 103 moments from 1943 to 2026 in seven eras. 91 dates are machine-checked against arXiv, Crossref or the source page.
 - **Concepts**: 97 terms as an A to Z index, each with its layer in the AI stack, a plain definition and what it evolved from and led to.
 - **Labs**: one page per lab with its dated releases and news.
+- **Attention Heads**: what 51 people who shape AI posted in the last 7 days, quoted in full, each with a plain
+  "What it means" note and a "Most active this week" board. Free sources only: Bluesky's public API and X links you paste.
 - **People**: ten people who shape the field, with their history and news mentions.
 - **Stack map**: nine layers from math and neurons to data and BI.
 
@@ -38,8 +40,12 @@ Every record (news story, history entry, concept, person) uses the same tags, so
 5. **Fact-check** with a different model family (Groq gpt-oss-120b) and with code: every number must appear in the
    sources. A failing story is rewritten once, then dropped.
 6. **Save** to cumulative JSON in `docs/data/editions/`. Nothing is deleted.
+7. **Attention Heads**: read the new public Bluesky posts of the people in `seed/heads.py`, plus any links in
+   `state/heads_inbox.txt`; keep the posts about AI or data; write a short note on each from the post alone; check every
+   note with a second model and every number with code. Saved to `docs/data/heads.json`. A failure here never stops the edition.
 
-Free tiers used: Gemini (Flash for the editor, Flash-Lite for writing) and Groq. A night uses about 25 to 35 calls.
+Free tiers used: Gemini (Flash for the editor, Flash-Lite for writing) and Groq. A night uses about 25 to 40 calls.
+Attention Heads needs no extra keys: Bluesky's public API and X's embed service are free and open.
 Answers are cached in `state/cache/`, so an interrupted run can resume without spending quota twice.
 
 ## Setup (once)
@@ -65,7 +71,7 @@ It takes about 4 to 8 minutes. If it stops part way (network drop), run `python 
 Then read the report in `state/reports/<date>.md`. To publish:
 
 ```
-git add docs/data state/seen.json state/pending_terms.json
+git add docs/data state/seen.json state/pending_terms.json state/heads_skipped.json
 git commit -m "Edition 2026-10-08"
 git push
 ```
@@ -86,6 +92,10 @@ This registers a Task Scheduler job that runs `tools\nightly.bat` at 23:45 each 
 23:45, it runs when the laptop wakes. It writes the edition and appends to `state\reports\nightly.log`, but never
 commits or pushes. Change the end date at the top of the script. To remove it:
 `Unregister-ScheduledTask -TaskName "Attention Span nightly" -Confirm:$false`
+
+**Add an X post to Attention Heads**: X's API is paid, so X posts are never fetched automatically. Paste the post link
+into `state/heads_inbox.txt`, one per line, as `URL | optional note`. Bluesky post links work too. Only posts by the 51
+people in `seed/heads.py` are used. To update only this section: `python run_daily.py --heads-only`.
 
 **Add a link the feeds missed** (for example an X post): put it in `state/inbox.txt`, one per line, as `URL | short note`.
 

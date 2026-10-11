@@ -1,0 +1,955 @@
+{
+ "updated_at": "2026-10-11T09:06:18Z",
+ "window_days": 7,
+ "groups": [
+  {
+   "id": "leaders",
+   "label": "Lab leaders"
+  },
+  {
+   "id": "researchers",
+   "label": "Researchers"
+  },
+  {
+   "id": "pioneers",
+   "label": "Pioneers and teachers"
+  },
+  {
+   "id": "builders",
+   "label": "Builders"
+  },
+  {
+   "id": "explainers",
+   "label": "Explainers and critics"
+  },
+  {
+   "id": "microsoft-data",
+   "label": "Microsoft and data"
+  }
+ ],
+ "people": [
+  {
+   "id": "sam-altman",
+   "name": "Sam Altman",
+   "group": "leaders",
+   "known_for": "Co-founded OpenAI and led the launch of ChatGPT",
+   "x": "sama",
+   "bsky": null,
+   "bsky_check": null
+  },
+  {
+   "id": "dario-amodei",
+   "name": "Dario Amodei",
+   "group": "leaders",
+   "known_for": "Co-founded Anthropic, the maker of Claude",
+   "x": "DarioAmodei",
+   "bsky": null,
+   "bsky_check": null
+  },
+  {
+   "id": "demis-hassabis",
+   "name": "Demis Hassabis",
+   "group": "leaders",
+   "known_for": "Co-founded DeepMind; AlphaGo, AlphaFold and a 2024 Nobel Prize",
+   "x": "demishassabis",
+   "bsky": null,
+   "bsky_check": null
+  },
+  {
+   "id": "sundar-pichai",
+   "name": "Sundar Pichai",
+   "group": "leaders",
+   "known_for": "Led Google and Alphabet into the Gemini era",
+   "x": "sundarpichai",
+   "bsky": null,
+   "bsky_check": null
+  },
+  {
+   "id": "satya-nadella",
+   "name": "Satya Nadella",
+   "group": "leaders",
+   "known_for": "Led Microsoft's bet on OpenAI and Copilot",
+   "x": "satyanadella",
+   "bsky": null,
+   "bsky_check": null
+  },
+  {
+   "id": "mustafa-suleyman",
+   "name": "Mustafa Suleyman",
+   "group": "leaders",
+   "known_for": "Co-founded DeepMind and Inflection AI; wrote The Coming Wave",
+   "x": "mustafasuleyman",
+   "bsky": "mustafasuleymanai.bsky.social",
+   "bsky_check": "profile-match"
+  },
+  {
+   "id": "jensen-huang",
+   "name": "Jensen Huang",
+   "group": "leaders",
+   "known_for": "Co-founded NVIDIA, whose GPUs train most AI models",
+   "x": null,
+   "bsky": null,
+   "bsky_check": null
+  },
+  {
+   "id": "mark-zuckerberg",
+   "name": "Mark Zuckerberg",
+   "group": "leaders",
+   "known_for": "Founded Facebook; backs Meta's open Llama models",
+   "x": "finkd",
+   "bsky": null,
+   "bsky_check": null
+  },
+  {
+   "id": "arthur-mensch",
+   "name": "Arthur Mensch",
+   "group": "leaders",
+   "known_for": "Co-founded Mistral AI",
+   "x": "arthurmensch",
+   "bsky": "arthurmensch.bsky.social",
+   "bsky_check": "profile-match"
+  },
+  {
+   "id": "aravind-srinivas",
+   "name": "Aravind Srinivas",
+   "group": "leaders",
+   "known_for": "Co-founded Perplexity",
+   "x": "AravSrinivas",
+   "bsky": "aravindsrinivas.bsky.social",
+   "bsky_check": "profile-match"
+  },
+  {
+   "id": "greg-brockman",
+   "name": "Greg Brockman",
+   "group": "leaders",
+   "known_for": "Co-founded OpenAI",
+   "x": "gdb",
+   "bsky": null,
+   "bsky_check": null
+  },
+  {
+   "id": "ilya-sutskever",
+   "name": "Ilya Sutskever",
+   "group": "leaders",
+   "known_for": "Co-authored AlexNet; co-founded OpenAI and Safe Superintelligence",
+   "x": "ilyasut",
+   "bsky": null,
+   "bsky_check": null
+  },
+  {
+   "id": "jack-clark",
+   "name": "Jack Clark",
+   "group": "leaders",
+   "known_for": "Co-founded Anthropic; writes the Import AI newsletter",
+   "x": "jackclarkSF",
+   "bsky": null,
+   "bsky_check": null
+  },
+  {
+   "id": "chris-olah",
+   "name": "Chris Olah",
+   "group": "researchers",
+   "known_for": "Pioneer of neural network interpretability; co-founded Anthropic",
+   "x": "ch402",
+   "bsky": "colah.bsky.social",
+   "bsky_check": "profile-match"
+  },
+  {
+   "id": "jan-leike",
+   "name": "Jan Leike",
+   "group": "researchers",
+   "known_for": "Alignment researcher; co-led OpenAI's Superalignment team",
+   "x": "janleike",
+   "bsky": null,
+   "bsky_check": null
+  },
+  {
+   "id": "mark-chen",
+   "name": "Mark Chen",
+   "group": "researchers",
+   "known_for": "Led research at OpenAI; worked on Codex and DALL-E",
+   "x": "markchen90",
+   "bsky": null,
+   "bsky_check": null
+  },
+  {
+   "id": "noam-brown",
+   "name": "Noam Brown",
+   "group": "researchers",
+   "known_for": "Built the poker AIs Libratus and Pluribus; reasoning research at OpenAI",
+   "x": "polynoamial",
+   "bsky": "polynoamial.bsky.social",
+   "bsky_check": "profile-match"
+  },
+  {
+   "id": "john-schulman",
+   "name": "John Schulman",
+   "group": "researchers",
+   "known_for": "Co-founded OpenAI; created the PPO training method",
+   "x": "johnschulman2",
+   "bsky": null,
+   "bsky_check": null
+  },
+  {
+   "id": "jeff-dean",
+   "name": "Jeff Dean",
+   "group": "researchers",
+   "known_for": "Co-designed MapReduce and TensorFlow; long-time Google AI lead",
+   "x": "JeffDean",
+   "bsky": "jeffdean.bsky.social",
+   "bsky_check": "verified"
+  },
+  {
+   "id": "oriol-vinyals",
+   "name": "Oriol Vinyals",
+   "group": "researchers",
+   "known_for": "Co-authored sequence-to-sequence learning; led AlphaStar",
+   "x": "OriolVinyalsML",
+   "bsky": null,
+   "bsky_check": null
+  },
+  {
+   "id": "lilian-weng",
+   "name": "Lilian Weng",
+   "group": "researchers",
+   "known_for": "Writes the Lil'Log explainers; co-founded Thinking Machines Lab",
+   "x": "lilianweng",
+   "bsky": null,
+   "bsky_check": null
+  },
+  {
+   "id": "jason-wei",
+   "name": "Jason Wei",
+   "group": "researchers",
+   "known_for": "First author of the chain-of-thought prompting paper",
+   "x": "_jasonwei",
+   "bsky": null,
+   "bsky_check": null
+  },
+  {
+   "id": "andrej-karpathy",
+   "name": "Andrej Karpathy",
+   "group": "pioneers",
+   "known_for": "Founding member of OpenAI; led Tesla Autopilot AI; coined vibe coding",
+   "x": "karpathy",
+   "bsky": "karpathy.bsky.social",
+   "bsky_check": "profile-match"
+  },
+  {
+   "id": "yann-lecun",
+   "name": "Yann LeCun",
+   "group": "pioneers",
+   "known_for": "Convolutional networks pioneer; 2018 Turing Award",
+   "x": "ylecun",
+   "bsky": "yann-lecun.bsky.social",
+   "bsky_check": "profile-match"
+  },
+  {
+   "id": "geoffrey-hinton",
+   "name": "Geoffrey Hinton",
+   "group": "pioneers",
+   "known_for": "Deep learning pioneer; 2018 Turing Award and 2024 Nobel Prize",
+   "x": "geoffreyhinton",
+   "bsky": null,
+   "bsky_check": null
+  },
+  {
+   "id": "fei-fei-li",
+   "name": "Fei-Fei Li",
+   "group": "pioneers",
+   "known_for": "Created ImageNet; co-founded World Labs",
+   "x": "drfeifei",
+   "bsky": "drfeifei.bsky.social",
+   "bsky_check": "profile-match"
+  },
+  {
+   "id": "andrew-ng",
+   "name": "Andrew Ng",
+   "group": "pioneers",
+   "known_for": "Co-founded Google Brain and Coursera; teaches millions through DeepLearning.AI",
+   "x": "AndrewYNg",
+   "bsky": null,
+   "bsky_check": null
+  },
+  {
+   "id": "francois-chollet",
+   "name": "François Chollet",
+   "group": "pioneers",
+   "known_for": "Created Keras and the ARC-AGI benchmark",
+   "x": "fchollet",
+   "bsky": null,
+   "bsky_check": null
+  },
+  {
+   "id": "percy-liang",
+   "name": "Percy Liang",
+   "group": "pioneers",
+   "known_for": "Stanford professor behind the HELM benchmark and foundation model research",
+   "x": "percyliang",
+   "bsky": null,
+   "bsky_check": null
+  },
+  {
+   "id": "peter-steinberger",
+   "name": "Peter Steinberger",
+   "group": "builders",
+   "known_for": "Founded PSPDFKit; created the OpenClaw personal agent",
+   "x": "steipete",
+   "bsky": "steipete.me",
+   "bsky_check": "own-domain"
+  },
+  {
+   "id": "boris-cherny",
+   "name": "Boris Cherny",
+   "group": "builders",
+   "known_for": "Created Claude Code at Anthropic",
+   "x": "bcherny",
+   "bsky": "bcherny.bsky.social",
+   "bsky_check": "verified"
+  },
+  {
+   "id": "logan-kilpatrick",
+   "name": "Logan Kilpatrick",
+   "group": "builders",
+   "known_for": "Product lead for Google AI Studio and the Gemini API",
+   "x": "OfficialLoganK",
+   "bsky": null,
+   "bsky_check": null
+  },
+  {
+   "id": "kevin-weil",
+   "name": "Kevin Weil",
+   "group": "builders",
+   "known_for": "Led product at OpenAI",
+   "x": "kevinweil",
+   "bsky": null,
+   "bsky_check": null
+  },
+  {
+   "id": "clem-delangue",
+   "name": "Clem Delangue",
+   "group": "builders",
+   "known_for": "Co-founded Hugging Face",
+   "x": "ClementDelangue",
+   "bsky": "clem.hf.co",
+   "bsky_check": "own-domain"
+  },
+  {
+   "id": "thomas-wolf",
+   "name": "Thomas Wolf",
+   "group": "builders",
+   "known_for": "Co-founded Hugging Face; led the Transformers library",
+   "x": "Thom_Wolf",
+   "bsky": "thomwolf.bsky.social",
+   "bsky_check": "profile-match"
+  },
+  {
+   "id": "harrison-chase",
+   "name": "Harrison Chase",
+   "group": "builders",
+   "known_for": "Created LangChain",
+   "x": "hwchase17",
+   "bsky": null,
+   "bsky_check": null
+  },
+  {
+   "id": "jerry-liu",
+   "name": "Jerry Liu",
+   "group": "builders",
+   "known_for": "Created LlamaIndex",
+   "x": "jerryjliu0",
+   "bsky": null,
+   "bsky_check": null
+  },
+  {
+   "id": "amjad-masad",
+   "name": "Amjad Masad",
+   "group": "builders",
+   "known_for": "Founded Replit",
+   "x": "amasad",
+   "bsky": null,
+   "bsky_check": null
+  },
+  {
+   "id": "guillermo-rauch",
+   "name": "Guillermo Rauch",
+   "group": "builders",
+   "known_for": "Founded Vercel; created v0",
+   "x": "rauchg",
+   "bsky": "rauchg.blue",
+   "bsky_check": "own-domain"
+  },
+  {
+   "id": "jim-fan",
+   "name": "Jim Fan",
+   "group": "builders",
+   "known_for": "Robotics and embodied AI research at NVIDIA",
+   "x": "DrJimFan",
+   "bsky": null,
+   "bsky_check": null
+  },
+  {
+   "id": "simon-willison",
+   "name": "Simon Willison",
+   "group": "explainers",
+   "known_for": "Co-created Django; builds Datasette and the llm tool; writes daily about AI",
+   "x": "simonw",
+   "bsky": "simonwillison.net",
+   "bsky_check": "verified"
+  },
+  {
+   "id": "ethan-mollick",
+   "name": "Ethan Mollick",
+   "group": "explainers",
+   "known_for": "Wharton professor; wrote Co-Intelligence",
+   "x": "emollick",
+   "bsky": "emollick.bsky.social",
+   "bsky_check": "verified"
+  },
+  {
+   "id": "swyx",
+   "name": "swyx",
+   "group": "explainers",
+   "known_for": "Popularised the term AI engineer; co-hosts Latent Space",
+   "x": "swyx",
+   "bsky": "swyx.io",
+   "bsky_check": "own-domain"
+  },
+  {
+   "id": "gary-marcus",
+   "name": "Gary Marcus",
+   "group": "explainers",
+   "known_for": "Cognitive scientist and AI's best-known sceptic",
+   "x": "GaryMarcus",
+   "bsky": "garymarcus.bsky.social",
+   "bsky_check": "verified"
+  },
+  {
+   "id": "arvind-narayanan",
+   "name": "Arvind Narayanan",
+   "group": "explainers",
+   "known_for": "Princeton professor; co-wrote AI Snake Oil",
+   "x": "random_walker",
+   "bsky": "randomwalker.bsky.social",
+   "bsky_check": "profile-match"
+  },
+  {
+   "id": "amanda-askell",
+   "name": "Amanda Askell",
+   "group": "explainers",
+   "known_for": "Philosopher who shapes Claude's character at Anthropic",
+   "x": "AmandaAskell",
+   "bsky": null,
+   "bsky_check": null
+  },
+  {
+   "id": "nathan-lambert",
+   "name": "Nathan Lambert",
+   "group": "explainers",
+   "known_for": "RLHF researcher; writes Interconnects",
+   "x": "natolambert",
+   "bsky": "natolambert.bsky.social",
+   "bsky_check": "profile-match"
+  },
+  {
+   "id": "sebastian-raschka",
+   "name": "Sebastian Raschka",
+   "group": "explainers",
+   "known_for": "Wrote Build a Large Language Model (From Scratch)",
+   "x": "rasbt",
+   "bsky": "rasbt.bsky.social",
+   "bsky_check": "profile-match"
+  },
+  {
+   "id": "kevin-scott",
+   "name": "Kevin Scott",
+   "group": "microsoft-data",
+   "known_for": "Microsoft's CTO; a key voice on the OpenAI partnership",
+   "x": "kevin_scott",
+   "bsky": null,
+   "bsky_check": null
+  },
+  {
+   "id": "amir-netz",
+   "name": "Amir Netz",
+   "group": "microsoft-data",
+   "known_for": "Microsoft Technical Fellow behind Power BI and Fabric",
+   "x": "AmirNetz",
+   "bsky": null,
+   "bsky_check": null
+  },
+  {
+   "id": "marco-russo",
+   "name": "Marco Russo",
+   "group": "microsoft-data",
+   "known_for": "Co-founded SQLBI; the DAX and Power BI author",
+   "x": "marcorus",
+   "bsky": "marcorus.bsky.social",
+   "bsky_check": "profile-match"
+  }
+ ],
+ "posts": [
+  {
+   "id": "bsky-natolambert.bsky.social-3mxjv24xzzo2z",
+   "person": "nathan-lambert",
+   "platform": "bluesky",
+   "url": "https://bsky.app/profile/natolambert.bsky.social/post/3mxjv24xzzo2z",
+   "posted_at": "2026-10-10T16:13:51Z",
+   "text": "We've been monitoring a decline in HuggingFace downloads across the top open LLMs we track for interconnects. It looks like there was a slight change in counting of downloads, as we saw a ~30% download rate drop for many top models, but this is continuing over time. \ndashboard.interconnects.ai",
+   "context": null,
+   "likes": 23,
+   "reposts": 2,
+   "via": "feed",
+   "meaning": "Lambert notes a sustained decline in HuggingFace downloads across top open LLMs, initially linked to counting changes but continuing over time.",
+   "concepts": [
+    "open-weight-model",
+    "llm"
+   ],
+   "story": null,
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "groq:qwen/qwen3.8-27b",
+   "added": "2026-10-11",
+   "links": [
+    {
+     "text": "dashboard.interconnects.ai",
+     "url": "https://dashboard.interconnects.ai/"
+    }
+   ]
+  },
+  {
+   "id": "bsky-natolambert.bsky.social-3mxhwx5ydch2t",
+   "person": "nathan-lambert",
+   "platform": "bluesky",
+   "url": "https://bsky.app/profile/natolambert.bsky.social/post/3mxhwx5ydch2t",
+   "posted_at": "2026-10-09T21:42:40Z",
+   "text": "I’m more bought into AI becoming far more efficient, which is a massive lever on diffusion, than I am on AI models making massive breakthroughs that result in eliminating all the known weaknesses of LLMs.\nwww.interconnects.ai/p/i-expect-r...",
+   "context": null,
+   "likes": 44,
+   "reposts": 2,
+   "via": "feed",
+   "meaning": "Lambert argues that AI becoming more efficient is a much larger lever than models making massive breakthroughs that eliminate all known weaknesses of LLMs.",
+   "concepts": [
+    "llm",
+    "scaling-laws"
+   ],
+   "story": null,
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "groq:qwen/qwen3.8-27b",
+   "added": "2026-10-11",
+   "links": [
+    {
+     "text": "www.interconnects.ai/p/i-expect-r...",
+     "url": "https://www.interconnects.ai/p/i-expect-rapid-progress-but-not-towards"
+    }
+   ]
+  },
+  {
+   "id": "bsky-emollick.bsky.social-3mxhfe5axps2o",
+   "person": "ethan-mollick",
+   "platform": "bluesky",
+   "url": "https://bsky.app/profile/emollick.bsky.social/post/3mxhfe5axps2o",
+   "posted_at": "2026-10-09T16:27:48Z",
+   "text": "Randomized trials with GPT-4o: \"AI access raises test scores, and a smaller gain persists a week later. Gains remain for students who use AI as a tutor (“augmentation”) and fade for students who have AI write for them (“automation”)\"\n\nAcross all experiments, positive effects arxiv.org/abs/2607.08849",
+   "context": null,
+   "likes": 65,
+   "reposts": 12,
+   "via": "feed",
+   "meaning": "Mollick shares that randomized trials show AI access raises test scores, with gains persisting when used as a tutor but fading when the AI writes for the student.",
+   "concepts": [],
+   "story": null,
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "groq:qwen/qwen3.8-27b",
+   "added": "2026-10-11",
+   "links": [
+    {
+     "text": "arxiv.org/abs/2607.08849",
+     "url": "https://arxiv.org/abs/2607.08849"
+    }
+   ]
+  },
+  {
+   "id": "bsky-simonwillison.net-3mxh2nlvc7s26",
+   "person": "simon-willison",
+   "platform": "bluesky",
+   "url": "https://bsky.app/profile/simonwillison.net/post/3mxh2nlvc7s26",
+   "posted_at": "2026-10-09T13:16:14Z",
+   "text": "I built a new feature for my blog entirely by voice with Codex Desktop, while I was cooking dinner simonwillison.net/2026/Oct/9/b...",
+   "context": {
+    "kind": "link",
+    "url": "https://simonwillison.net/2026/Oct/9/built-using-my-voice/",
+    "title": "A new feature for my blog, built using my voice",
+    "text": "I shipped a new feature for my blog today: the Newsletters page, which offers an index of all of the newsletters I’ve sent out, both my free weekly Substack and …"
+   },
+   "likes": 59,
+   "reposts": 3,
+   "via": "feed",
+   "meaning": "Willison built a new feature for his blog entirely by voice using Codex Desktop while cooking dinner.",
+   "concepts": [
+    "coding-assistant"
+   ],
+   "story": null,
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "groq:qwen/qwen3.8-27b",
+   "added": "2026-10-11",
+   "links": [
+    {
+     "text": "simonwillison.net/2026/Oct/9/b...",
+     "url": "https://simonwillison.net/2026/Oct/9/built-using-my-voice/"
+    }
+   ]
+  },
+  {
+   "id": "bsky-emollick.bsky.social-3mxg56pvsvc2c",
+   "person": "ethan-mollick",
+   "platform": "bluesky",
+   "url": "https://bsky.app/profile/emollick.bsky.social/post/3mxg56pvsvc2c",
+   "posted_at": "2026-10-09T04:28:56Z",
+   "text": "From The Lancet: in an urgent care setting, the advice of the obsolete Gemini 2.5 Pro & Gemini 2.5 Flash (without access to patient medical records) were rated of similar quality to doctors by other physicians. There was no safety issues spotted.\n\nModels have gotten significantly better since.",
+   "context": null,
+   "likes": 105,
+   "reposts": 16,
+   "via": "feed",
+   "meaning": "Mollick highlights a Lancet study where urgent care advice from older Gemini models without patient records was rated of similar quality to doctors by other physicians.",
+   "concepts": [
+    "multimodal-model"
+   ],
+   "story": null,
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "groq:qwen/qwen3.8-27b",
+   "added": "2026-10-11",
+   "links": []
+  },
+  {
+   "id": "bsky-natolambert.bsky.social-3mxerqsbr5s2t",
+   "person": "nathan-lambert",
+   "platform": "bluesky",
+   "url": "https://bsky.app/profile/natolambert.bsky.social/post/3mxerqsbr5s2t",
+   "posted_at": "2026-10-08T15:31:38Z",
+   "text": "The fact that all the AI news is so bizarre, kids vibe hacking with claude code, governments vibe governing, all massively increases the uncertainty of what's coming with AI. The meme-est AI timeline is also one of the scariest.",
+   "context": null,
+   "likes": 37,
+   "reposts": 2,
+   "via": "feed",
+   "meaning": "Lambert comments that bizarre AI news and informal usage increase uncertainty and make the current timeline feel scary.",
+   "concepts": [],
+   "story": null,
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "groq:qwen/qwen3.8-27b",
+   "added": "2026-10-11",
+   "links": []
+  },
+  {
+   "id": "bsky-emollick.bsky.social-3mxeh745nhk2x",
+   "person": "ethan-mollick",
+   "platform": "bluesky",
+   "url": "https://bsky.app/profile/emollick.bsky.social/post/3mxeh745nhk2x",
+   "posted_at": "2026-10-08T12:22:47Z",
+   "text": "As a researcher who did early some work on the productivity impacts of AI chatbots using RCTs, I’d note a lack of similar studies since the dawn of true agents last fall\n\nPartially that is newness & partially research design challenges, but I suspect we are missing some large & important effects",
+   "context": null,
+   "likes": 47,
+   "reposts": 1,
+   "via": "feed",
+   "meaning": "Mollick notes a lack of recent randomized controlled trials studying the productivity impacts of true AI agents compared to early chatbot studies.",
+   "concepts": [
+    "agent"
+   ],
+   "story": null,
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "groq:qwen/qwen3.8-27b",
+   "added": "2026-10-11",
+   "links": []
+  },
+  {
+   "id": "bsky-emollick.bsky.social-3mxd2yu3fnc2h",
+   "person": "ethan-mollick",
+   "platform": "bluesky",
+   "url": "https://bsky.app/profile/emollick.bsky.social/post/3mxd2yu3fnc2h",
+   "posted_at": "2026-10-07T23:11:53Z",
+   "text": "Anyhow, I think we are now done with the last round of skeptical responses to AI after Navier-Stokes. Yes, AI is now capable of producing novel proofs to hard problems that have eluded us\n\nThe next line will be that this is only constrained to math because of RL training. I suspect not, we will see.",
+   "context": null,
+   "likes": 100,
+   "reposts": 6,
+   "via": "feed",
+   "meaning": "Mollick claims AI is now capable of producing novel proofs to hard problems, suggesting skepticism regarding math constraints is ending.",
+   "concepts": [
+    "reinforcement-learning",
+    "reasoning-model"
+   ],
+   "story": null,
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "groq:qwen/qwen3.8-27b",
+   "added": "2026-10-11",
+   "links": []
+  },
+  {
+   "id": "bsky-emollick.bsky.social-3mxczf26uy22h",
+   "person": "ethan-mollick",
+   "platform": "bluesky",
+   "url": "https://bsky.app/profile/emollick.bsky.social/post/3mxczf26uy22h",
+   "posted_at": "2026-10-07T22:42:54Z",
+   "text": "Some early first-hand accounts of the experience of encountering a narrow superhuman intelligence as mathematicians grapple with the hundreds of big AI proofs released by OpenAI.\n\nProblems solved in inhuman ways that make us wonder what it means to actually know things... scottaaronson.blog?p=10169",
+   "context": null,
+   "likes": 99,
+   "reposts": 15,
+   "via": "feed",
+   "meaning": "Mollick shares early accounts of mathematicians grappling with hundreds of major AI-generated proofs solved in inhuman ways.",
+   "concepts": [
+    "reasoning-model"
+   ],
+   "story": null,
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "groq:qwen/qwen3.8-27b",
+   "added": "2026-10-11",
+   "links": [
+    {
+     "text": "scottaaronson.blog?p=10169",
+     "url": "https://scottaaronson.blog/?p=10169"
+    }
+   ]
+  },
+  {
+   "id": "bsky-simonwillison.net-3mxctkjruk22c",
+   "person": "simon-willison",
+   "platform": "bluesky",
+   "url": "https://bsky.app/profile/simonwillison.net/post/3mxctkjruk22c",
+   "posted_at": "2026-10-07T20:58:36Z",
+   "text": "Pelicans and a bunch of notes on the pricing of the new Claude Haiku 5.5 simonwillison.net/2026/Oct/7/c...",
+   "context": {
+    "kind": "link",
+    "url": "https://simonwillison.net/2026/Oct/7/claude-haiku-5-5/",
+    "title": "Introducing Claude Haiku 5.5",
+    "text": "As previously promised, here’s Anthropic’s new fast, low cost model: Introducing Claude Haiku 5.5. The previous Haiku, 4.5, was very much showing its age. It came out almost a year …"
+   },
+   "likes": 78,
+   "reposts": 4,
+   "via": "feed",
+   "meaning": "Willison shares notes and pricing details on the newly released Claude Haiku 5.5 model from Anthropic, highlighting its low cost and speed compared to its predecessor.",
+   "concepts": [
+    "llm",
+    "foundation-model"
+   ],
+   "story": "2026-10-08-anthropic-releases-claude-haiku-5-5-and-aws-integration",
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "groq:qwen/qwen3.8-27b",
+   "added": "2026-10-11",
+   "links": [
+    {
+     "text": "simonwillison.net/2026/Oct/7/c...",
+     "url": "https://simonwillison.net/2026/Oct/7/claude-haiku-5-5/"
+    }
+   ]
+  },
+  {
+   "id": "bsky-emollick.bsky.social-3mxbcxh52gs2c",
+   "person": "ethan-mollick",
+   "platform": "bluesky",
+   "url": "https://bsky.app/profile/emollick.bsky.social/post/3mxbcxh52gs2c",
+   "posted_at": "2026-10-07T06:28:56Z",
+   "text": "When people talk about AI easily replacing workers, I think about this ethnography of copier repair technicians in the 1990s.\n\nReading it, you see how work is complicated and improvised by workers and informal and badly documented.\n\n(But eventually technology did largely eliminate this job)",
+   "context": null,
+   "likes": 67,
+   "reposts": 4,
+   "via": "feed",
+   "meaning": "Mollick compares AI workplace replacement fears to historical studies of copier repair technicians, noting that while work is often improvised and poorly documented, technology eventually eliminates those jobs.",
+   "concepts": [],
+   "story": null,
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "groq:qwen/qwen3.8-27b",
+   "added": "2026-10-11",
+   "links": []
+  },
+  {
+   "id": "bsky-emollick.bsky.social-3mxasq2guls2c",
+   "person": "ethan-mollick",
+   "platform": "bluesky",
+   "url": "https://bsky.app/profile/emollick.bsky.social/post/3mxasq2guls2c",
+   "posted_at": "2026-10-07T01:38:28Z",
+   "text": "After a brief but institution-eroding slop science era, it increasingly looks like we are going to have 2 revolutions from AI:\n1) Everything ever published will be re-read and re-judged in ways that human scientists never anticipated\n2) Novel discoveries will start to come faster than we can absorb",
+   "context": null,
+   "likes": 163,
+   "reposts": 11,
+   "via": "feed",
+   "meaning": "Mollick argues that AI will drive two major revolutions: enabling the re-evaluation of all published science in unforeseen ways, and accelerating novel discoveries past our capacity to absorb them.",
+   "concepts": [],
+   "story": null,
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "groq:qwen/qwen3.8-27b",
+   "added": "2026-10-11",
+   "links": []
+  },
+  {
+   "id": "bsky-simonwillison.net-3mxap2pofos2t",
+   "person": "simon-willison",
+   "platform": "bluesky",
+   "url": "https://bsky.app/profile/simonwillison.net/post/3mxap2pofos2t",
+   "posted_at": "2026-10-07T00:32:51Z",
+   "text": "I released an LLM plugin for sending prompts to OpenAI's new Jev-clone decision model that's based on GPT-6 Luna simonwillison.net/2026/Oct/6/l...",
+   "context": {
+    "kind": "link",
+    "url": "https://simonwillison.net/2026/Oct/6/llm-openai-decisions/",
+    "title": "Release: llm-openai-decisions 0.1a0",
+    "text": "LLM plugin for the OpenAI Decisions API"
+   },
+   "likes": 39,
+   "reposts": 3,
+   "via": "feed",
+   "meaning": "Willison released an LLM plugin to send prompts to OpenAI's new decision model based on GPT-6 Luna.",
+   "concepts": [
+    "llm"
+   ],
+   "story": null,
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "groq:qwen/qwen3.8-27b",
+   "added": "2026-10-11",
+   "links": [
+    {
+     "text": "simonwillison.net/2026/Oct/6/l...",
+     "url": "https://simonwillison.net/2026/Oct/6/llm-openai-decisions/"
+    }
+   ]
+  },
+  {
+   "id": "bsky-emollick.bsky.social-3mx7q4lupt22f",
+   "person": "ethan-mollick",
+   "platform": "bluesky",
+   "url": "https://bsky.app/profile/emollick.bsky.social/post/3mx7q4lupt22f",
+   "posted_at": "2026-10-06T15:19:08Z",
+   "text": "I think most people who have been closely watching AI for the past few years are likely surprised by how relatively rare terrible AI incidents have been, given a billion users overall and hundreds of millions of corporate users. Doesn’t mean that will continue, but still its surprising.",
+   "context": null,
+   "likes": 179,
+   "reposts": 11,
+   "via": "feed",
+   "meaning": "Mollick expresses surprise that relatively few terrible AI incidents have occurred given the hundreds of millions of corporate and consumer users.",
+   "concepts": [],
+   "story": null,
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "groq:qwen/qwen3.8-27b",
+   "added": "2026-10-11",
+   "links": []
+  },
+  {
+   "id": "bsky-natolambert.bsky.social-3mx7n6zwwus2z",
+   "person": "nathan-lambert",
+   "platform": "bluesky",
+   "url": "https://bsky.app/profile/natolambert.bsky.social/post/3mx7n6zwwus2z",
+   "posted_at": "2026-10-06T14:26:48Z",
+   "text": "Too many people are analyzing the cyber risks of open models in a narrow lens, assuming China doesn't care about safety, and fear mongering about private information on open-weight cyber attacks. The public information we have paints a very different picture.\nwww.interconnects.ai/p/the-cyber-...",
+   "context": {
+    "kind": "link",
+    "url": "https://www.interconnects.ai/p/the-cyber-risk-discourse-is-broken",
+    "title": "The Cyber Risk Discourse is Broken",
+    "text": "Open-weights, ideology, and acknowledging trade-offs."
+   },
+   "likes": 23,
+   "reposts": 5,
+   "via": "feed",
+   "meaning": "Lambert argues that current public discussions around the cyber risks of open-weight models rely on narrow assumptions and fear-mongering, and points to his article for a broader analysis.",
+   "concepts": [
+    "open-weight-model",
+    "ai-safety"
+   ],
+   "story": null,
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "groq:qwen/qwen3.8-27b",
+   "added": "2026-10-11",
+   "links": [
+    {
+     "text": "www.interconnects.ai/p/the-cyber-...",
+     "url": "https://www.interconnects.ai/p/the-cyber-risk-discourse-is-broken"
+    }
+   ]
+  },
+  {
+   "id": "bsky-emollick.bsky.social-3mx63cx3bjs2o",
+   "person": "ethan-mollick",
+   "platform": "bluesky",
+   "url": "https://bsky.app/profile/emollick.bsky.social/post/3mx63cx3bjs2o",
+   "posted_at": "2026-10-05T23:34:13Z",
+   "text": "Big swing happening from this summer's trend to have AI running on virtual machines on your own computer (Claude and ChatGPT apps) to moving them back into you having a dedicated VM the cloud (Claude Cowork just announced they were doing this, also Grok Bot, Dot, and others). Cloud is mostly better.",
+   "context": null,
+   "likes": 64,
+   "reposts": 4,
+   "via": "feed",
+   "meaning": "Mollick highlights a trend of AI applications shifting from running locally on virtual machines back to dedicated cloud virtual machines.",
+   "concepts": [],
+   "story": null,
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "groq:qwen/qwen3.8-27b",
+   "added": "2026-10-11",
+   "links": []
+  },
+  {
+   "id": "bsky-natolambert.bsky.social-3mx5sodby3b26",
+   "person": "nathan-lambert",
+   "platform": "bluesky",
+   "url": "https://bsky.app/profile/natolambert.bsky.social/post/3mx5sodby3b26",
+   "posted_at": "2026-10-05T20:59:31Z",
+   "text": "Reflection joins the list of Nvidia and Thinking Machines who have tried to release their strongest models and come up behind Chinese counterparts. There's a lot of ways people will overthink this, but the clearest takeaway should be that the Chinese are very very good at building LLMs.",
+   "context": null,
+   "likes": 82,
+   "reposts": 8,
+   "via": "feed",
+   "meaning": "Lambert notes that several labs have released strong models that fall behind Chinese counterparts, demonstrating that Chinese developers are exceptionally skilled at building LLMs.",
+   "concepts": [
+    "llm"
+   ],
+   "story": null,
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "groq:qwen/qwen3.8-27b",
+   "added": "2026-10-11",
+   "links": []
+  },
+  {
+   "id": "bsky-emollick.bsky.social-3mx5qe4df2k2c",
+   "person": "ethan-mollick",
+   "platform": "bluesky",
+   "url": "https://bsky.app/profile/emollick.bsky.social/post/3mx5qe4df2k2c",
+   "posted_at": "2026-10-05T20:18:01Z",
+   "text": "AI policy right now, especially from the Labs, makes me think of this poem.\n\nIf you believe superintelligence is near, you don't need to make hard decisions about how to build AI to make the world better. Just wait for ASI & it will decide for us, for better or worse. But if that doesn't happen...",
+   "context": null,
+   "likes": 61,
+   "reposts": 5,
+   "via": "feed",
+   "meaning": "Mollick criticizes current AI lab policies, suggesting that belief in near-term superintelligence lets labs avoid making hard present-day decisions about building better AI.",
+   "concepts": [
+    "agi"
+   ],
+   "story": null,
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "groq:qwen/qwen3.8-27b",
+   "added": "2026-10-11",
+   "links": []
+  },
+  {
+   "id": "bsky-emollick.bsky.social-3mx2prvytik2c",
+   "person": "ethan-mollick",
+   "platform": "bluesky",
+   "url": "https://bsky.app/profile/emollick.bsky.social/post/3mx2prvytik2c",
+   "posted_at": "2026-10-04T15:29:51Z",
+   "text": "\"create the ultimate brutalist city builder. you should have lots of controls over buildings in ways that are delightful and intuitive to people...\"\n\nHere is Fable 5.1, a little over a year since GPT-5 below & a single shot (compared with many rounds with GPT-5.6)\n\nQuite good: brut-city.netlify.app",
+   "context": {
+    "kind": "quote",
+    "url": "",
+    "title": "Quoted post by @emollick.bsky.social",
+    "text": "When GPT-5 came out, I created a procedural brutalist city builder as a demo (you can see it at the video's start)\n\nI used GPT-5.6 Sol in Codex to do the same thing, touching no code.\n\nLess than a year...\n\nPlay with it (its fun, if you like architecture): monument-brutalist-city-builder.netlify.app"
+   },
+   "likes": 64,
+   "reposts": 7,
+   "via": "feed",
+   "meaning": "Mollick demonstrates how a coding assistant built a brutalist city builder app in a single shot using newer models compared to older versions, showcasing rapid yearly progress.",
+   "concepts": [
+    "coding-assistant"
+   ],
+   "story": null,
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "groq:qwen/qwen3.8-27b",
+   "added": "2026-10-11",
+   "links": [
+    {
+     "text": "brut-city.netlify.app",
+     "url": "https://brut-city.netlify.app/"
+    }
+   ]
+  }
+ ]
+}

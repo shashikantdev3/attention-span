@@ -8,6 +8,7 @@ What it does:
   3. an AI editor picks the stories that matter
   4. each story is written from its fetched source text, then fact-checked by a separate AI call and by code
   5. the edition is appended to docs/data/editions/ (cumulative JSON) and a report goes to state/reports/
+  6. Attention Heads: new AI posts by the people in seed/heads.py (Bluesky + state/heads_inbox.txt)
 
 It never commits or pushes. Review the report, then commit yourself.
 
@@ -17,6 +18,8 @@ Options:
   --date 2026-10-08  edition date (default: today in EDITION_UTC_OFFSET, default +05:30)
   --dry-run          do everything but do not write the edition
   --resume           continue an interrupted run with the same items (no quota spent twice)
+  --heads-only       only update Attention Heads (people's posts), not the news edition
+  --no-heads         skip the Attention Heads step
 """
 import argparse
 import json
@@ -68,6 +71,23 @@ def hours_since_last_edition(default=24, cap=72):
         return default
 
 
+def heads_step(log, dry_run=False):
+    """People's posts. Never stops the nightly run: a failure here is logged and the edition is kept."""
+    if dry_run:
+        log("   dry run: Attention Heads not updated")
+        return None
+    try:
+        from pipeline import heads
+        result = heads.update(log=log)
+        sys.path.insert(0, str(ROOT / "tools"))
+        from bundle_data import bundle
+        bundle()
+        return result
+    except Exception as exc:  # noqa: BLE001
+        log(f"   Attention Heads skipped this time: {type(exc).__name__}: {str(exc)[:160]}")
+        return {"error": str(exc)[:160]}
+
+
 def main():
     ap = argparse.ArgumentParser(description="Attention Span nightly run")
     ap.add_argument("--hours", type=int, default=None,
@@ -77,10 +97,17 @@ def main():
     ap.add_argument("--dry-run", action="store_true")
     ap.add_argument("--resume", action="store_true",
                     help="reuse the items collected by the last run (after an interruption); cached AI answers are reused too")
+    ap.add_argument("--heads-only", action="store_true", help="only update Attention Heads")
+    ap.add_argument("--no-heads", action="store_true", help="skip the Attention Heads step")
     args = ap.parse_args()
 
     if not (os.getenv("GEMINI_API_KEY") or os.getenv("GROQ_API_KEY")):
         sys.exit("No API keys found. Put GEMINI_API_KEY and GROQ_API_KEY in the .env file.")
+
+    if args.heads_only:
+        print("Attention Heads")
+        heads_step(print, args.dry_run)
+        return
 
     t0 = time.time()
     if args.hours is None:
@@ -180,6 +207,10 @@ def main():
     else:
         log("   nothing passed the checks, so no edition was written")
 
+    if not args.no_heads:
+        log("6. Attention Heads")
+        stats["heads"] = heads_step(log, args.dry_run)
+
     log("")
     log("## Dropped stories")
     for d in dropped:
@@ -192,7 +223,7 @@ def main():
     print(f"\nDone in {stats['seconds']}s. Report: state/reports/{day}.md")
     if published and not args.dry_run:
         print("\nTo publish, review the report, then run:\n"
-              f'  git add docs/data state/seen.json state/pending_terms.json\n  git commit -m "Edition {day}"\n  git push')
+              f'  git add docs/data state/seen.json state/pending_terms.json state/heads_skipped.json\n  git commit -m "Edition {day}"\n  git push')
 
 
 if __name__ == "__main__":

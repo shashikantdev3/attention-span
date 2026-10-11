@@ -2,8 +2,9 @@
 (() => {
   "use strict";
 
-  const D = { meta: null, timeline: [], concepts: [], people: [], index: { editions: [] }, editions: {}, stories: [] };
-  const by = { concept: {}, person: {}, lab: {}, layer: {}, era: {}, type: {}, entry: {}, topic: {} };
+  const D = { meta: null, timeline: [], concepts: [], people: [], index: { editions: [] }, editions: {}, stories: [],
+    heads: { people: [], posts: [], groups: [], window_days: 7 } };
+  const by = { concept: {}, person: {}, lab: {}, layer: {}, era: {}, type: {}, entry: {}, topic: {}, head: {}, group: {}, story: {} };
   const view = document.getElementById("view");
   const MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
 
@@ -77,6 +78,11 @@
       for (const [date, ed] of Object.entries(m.editions)) D.editions[date] = ed;
     }
     D.stories = Object.values(D.editions).flatMap((ed) => ed.stories);
+    try { D.heads = await getJSON("data/heads.json"); } catch (e) { /* no Attention Heads data yet */ }
+    D.heads.people = D.heads.people || []; D.heads.posts = D.heads.posts || []; D.heads.groups = D.heads.groups || [];
+    D.heads.people.forEach((h) => (by.head[h.id] = h));
+    D.heads.groups.forEach((g) => (by.group[g.id] = g));
+    D.stories.forEach((s) => (by.story[s.id] = s));
     meta.labs.forEach((l) => (by.lab[l.id] = l));
     meta.layers.forEach((l, i) => (by.layer[l.id] = { ...l, level: i + 1 }));
     meta.eras.forEach((e) => (by.era[e.id] = e));
@@ -451,6 +457,7 @@
     if (!p) return notFound();
     const entries = p.entries.map((e) => by.entry[e]).filter(Boolean).sort((a, b) => b.date.localeCompare(a.date));
     const news = D.stories.filter((s) => (s.people || []).includes(id)).sort((a, b) => b.date.localeCompare(a.date));
+    const posted = D.heads.posts.filter((x) => x.person === id);
     view.innerHTML = `<div class="concept-page"><p><a href="#/people">People</a></p><h2>${esc(p.name)}</h2>
       <p class="def">${esc(p.role)}. <span class="asof">Source for this role:
         <a href="${esc(p.role_source.url)}" target="_blank" rel="noopener">${esc(p.role_source.title)}</a></span></p>
@@ -458,7 +465,153 @@
       <div class="tags">${chipsConcepts(p.concepts)}${chipsLabs(p.labs)}</div>
       ${p.links.length ? `<p style="margin-top:14px">${p.links.map((l) => `<a href="${esc(l.url)}" target="_blank" rel="noopener">${esc(l.title)}</a>`).join(", ")}</p>` : ""}
       <h3 class="section-title">In the news</h3>${miniStories(news)}
+      ${by.head[id] ? `<h3 class="section-title">What they posted</h3>${posted.length ? posted.slice(0, 5).map((x) => postCard(x, { noName: true })).join("")
+        + (posted.length > 5 ? `<p><a href="#/heads/${esc(id)}">All ${posted.length} posts</a></p>` : "") : `<p class="empty">No AI posts collected yet.</p>`}` : ""}
       <h3 class="section-title">In history</h3>${miniEntries(entries)}</div>`;
+  }
+
+
+  // ------------------------------------------------------------ Attention Heads
+  const IST = 330 * 60000;
+  const istDay = (iso) => new Date(new Date(iso).getTime() + IST).toISOString().slice(0, 10);
+  const istTime = (iso) => new Date(new Date(iso).getTime() + IST).toISOString().slice(11, 16);
+  const platformName = (p) => (p === "x" ? "X" : "Bluesky");
+  const weekPosts = () => {
+    const days = D.heads.window_days || 7;
+    const since = Date.now() - days * 86400000;
+    return D.heads.posts.filter((p) => new Date(p.posted_at).getTime() >= since);
+  };
+  const headLink = (h) => `<a href="#/heads/${esc(h.id)}">${esc(h.name)}</a>`;
+
+  // the post text with its links made clickable; everything else is escaped
+  function richText(text, links) {
+    let out = "", rest = text;
+    for (const l of links || []) {
+      const i = rest.indexOf(l.text);
+      if (i < 0 || !/^https?:\/\//.test(l.url)) continue;
+      out += esc(rest.slice(0, i)) + `<a href="${esc(l.url)}" target="_blank" rel="noopener nofollow">${esc(l.text)}</a>`;
+      rest = rest.slice(i + l.text.length);
+    }
+    return out + esc(rest);
+  }
+
+  function postCard(p, opts = {}) {
+    const h = by.head[p.person] || { id: p.person, name: p.person, group: "" };
+    const ctx = p.context;
+    const story = p.story && by.story[p.story];
+    const when = p.date_only ? fmtDate(istDay(p.posted_at)) : `${fmtDate(istDay(p.posted_at))}, ${istTime(p.posted_at)} IST`;
+    return `<article class="dispatch" data-group="${esc(h.group)}">
+      <header>
+        ${opts.noName ? "" : `<span class="monogram sm" aria-hidden="true">${esc(monogram(h.name))}</span>`}
+        <div class="who">${opts.noName ? "" : `<b>${headLink(h)}</b>`}
+          <span class="asof">${opts.noName ? "" : `${esc((by.group[h.group] || {}).label || "")}, `}on ${platformName(p.platform)}, <time datetime="${esc(p.posted_at)}">${esc(when)}</time></span></div>
+      </header>
+      <blockquote cite="${esc(p.url)}"><p>${richText(p.text, p.links)}</p></blockquote>
+      ${ctx && (ctx.title || ctx.text) ? `<p class="ctx">${icon("link")}<span>${ctx.kind === "quote" ? "" : "Linked: "}${ctx.url
+        ? `<a href="${esc(ctx.url)}" target="_blank" rel="noopener">${esc(ctx.title || ctx.url)}</a>` : esc(ctx.title)}${ctx.kind === "quote" && ctx.text ? `: "${esc(ctx.text.slice(0, 220))}"` : ""}</span></p>` : ""}
+      ${p.meaning ? `<div class="means"><h4>What it means</h4><p>${esc(p.meaning)}</p></div>` : ""}
+      ${p.note ? `<p class="asof">Editor's note: ${esc(p.note)}</p>` : ""}
+      <footer>
+        <a href="${esc(p.url)}" target="_blank" rel="noopener">Read the full post on ${platformName(p.platform)}</a>
+        ${story ? `<span>In the news: <a href="#/today/${esc(story.date)}/${esc(story.id)}">${esc(story.title)}</a></span>` : ""}
+        ${(p.concepts || []).length ? `<span class="tags">${chipsConcepts(p.concepts)}</span>` : ""}
+      </footer>
+    </article>`;
+  }
+
+  function activeBoard(posts, limit = 10) {
+    const n = {};
+    posts.forEach((p) => (n[p.person] = (n[p.person] || 0) + 1));
+    const rows = Object.entries(n).sort((a, b) => b[1] - a[1] || (by.head[a[0]] || {}).name?.localeCompare((by.head[b[0]] || {}).name)).slice(0, limit);
+    if (!rows.length) return `<p class="empty">No posts this week yet.</p>`;
+    const max = rows[0][1];
+    return `<ol class="board">${rows.map(([id, c], i) => {
+      const h = by.head[id] || { id, name: id };
+      return `<li><span class="n">${String(i + 1).padStart(2, "0")}</span><span class="who">${headLink(h)}</span>
+        <span class="count">${c}</span><span class="bar" style="width:${Math.max(6, Math.round((c / max) * 100))}%"></span></li>`;
+    }).join("")}</ol>`;
+  }
+
+  function pageHeads() {
+    const H = D.heads;
+    const week = weekPosts();
+    const onBsky = H.people.filter((h) => h.bsky).length;
+    const groups = H.groups.filter((g) => H.people.some((h) => h.group === g.id));
+    view.innerHTML = `
+      <div class="page-head"><h2>Attention Heads</h2>
+        <p>What ${H.people.length} people who shape AI posted this week, quoted in full, with a plain note on what each post means.</p></div>
+      <div class="today-grid">
+        <div>
+          <div class="filters" role="group" aria-label="Show posts from">
+            <button type="button" class="chip on" data-g="">Everyone</button>
+            ${groups.map((g) => `<button type="button" class="chip" data-g="${esc(g.id)}">${esc(g.label)}</button>`).join("")}
+          </div>
+          <div id="feed"></div>
+        </div>
+        <aside class="rail-box" aria-label="This week">
+          <h4>Most active this week</h4>
+          ${activeBoard(week)}
+          <p class="stat-line"><b>${week.length}</b> AI posts in the last ${H.window_days || 7} days from <b>${new Set(week.map((p) => p.person)).size}</b> people.</p>
+          <br><h4>How posts get here</h4>
+          <p class="stat-line">Every night the public Bluesky posts of the ${onBsky} people with a checked Bluesky account are read
+            automatically. Replies and reposts are left out, and so is anything not about AI or data.</p>
+          <p class="stat-line">X charges for its API, so X posts are added by hand: an editor pastes the link and X's free embed service supplies the text.</p>
+          <p class="stat-line">Each note is written only from the post and checked by a second AI model. Opinions stay with the person who posted them.</p>
+          <br><h4>Who is followed</h4>
+          <p class="stat-line"><a href="#/heads/all">All ${H.people.length} people, by group</a></p>
+        </aside>
+      </div>`;
+    const draw = (g) => {
+      const list = week.filter((p) => !g || (by.head[p.person] || {}).group === g);
+      if (!list.length) { $("#feed").innerHTML = `<p class="empty">No posts from this group in the last ${H.window_days || 7} days.</p>`; return; }
+      const days = {};
+      list.forEach((p) => (days[istDay(p.posted_at)] = days[istDay(p.posted_at)] || []).push(p));
+      $("#feed").innerHTML = Object.entries(days).sort((a, b) => b[0].localeCompare(a[0])).map(([d, ps]) =>
+        `<section class="heads-day"><h3>${esc(longDate(d))}</h3>${ps.map((p) => postCard(p)).join("")}</section>`).join("");
+    };
+    view.querySelectorAll("[data-g]").forEach((b) => b.addEventListener("click", () => {
+      view.querySelectorAll("[data-g]").forEach((x) => { x.classList.toggle("on", x === b); x.setAttribute("aria-pressed", String(x === b)); });
+      draw(b.dataset.g);
+    }));
+    draw("");
+  }
+
+  function pageHeadsAll() {
+    const H = D.heads;
+    const counts = {};
+    weekPosts().forEach((p) => (counts[p.person] = (counts[p.person] || 0) + 1));
+    view.innerHTML = `<div class="page-head"><h2>Who is followed</h2>
+        <p><a href="#/heads">Attention Heads</a> follows ${H.people.length} people. A Bluesky account is used only when it is verified by Bluesky,
+        on the person's own web domain, or a profile that clearly matches the person. X profiles are linked for reference.</p></div>
+      ${H.groups.map((g) => {
+        const ps = H.people.filter((h) => h.group === g.id);
+        if (!ps.length) return "";
+        return `<section class="roster"><h3>${esc(g.label)}</h3>
+          <table class="ledger"><thead><tr><th>Person</th><th class="hide-sm">Known for</th><th>Profiles</th><th class="num">This week</th></tr></thead>
+          <tbody>${ps.map((h) => `<tr><td>${headLink(h)}<span class="blurb show-sm">${esc(h.known_for)}</span></td>
+            <td class="hide-sm">${esc(h.known_for)}</td>
+            <td class="profiles">${h.x ? `<a href="https://x.com/${esc(h.x)}" target="_blank" rel="noopener">X</a>` : ""}
+              ${h.bsky ? `<a href="https://bsky.app/profile/${esc(h.bsky)}" target="_blank" rel="noopener">Bluesky</a>` : ""}</td>
+            <td class="num">${counts[h.id] || ""}</td></tr>`).join("")}</tbody></table></section>`;
+      }).join("")}`;
+  }
+
+  function pageHead(id) {
+    if (id === "all") return pageHeadsAll();
+    const h = by.head[id];
+    if (!h) return notFound();
+    const posts = D.heads.posts.filter((p) => p.person === id);
+    const bskyCheck = { verified: "verified by Bluesky", "own-domain": "on their own domain", "profile-match": "profile checked by hand" };
+    view.innerHTML = `<div class="concept-page"><p><a href="#/heads">Attention Heads</a>, ${esc((by.group[h.group] || {}).label || "")}</p>
+      <h2>${esc(h.name)}</h2>
+      <p class="def">${esc(h.known_for)}</p>
+      <p>${h.x ? `<a href="https://x.com/${esc(h.x)}" target="_blank" rel="noopener">@${esc(h.x)} on X</a>` : ""}
+        ${h.x && h.bsky ? ", " : ""}${h.bsky ? `<a href="https://bsky.app/profile/${esc(h.bsky)}" target="_blank" rel="noopener">@${esc(h.bsky)} on Bluesky</a>
+        <span class="asof">(${esc(bskyCheck[h.bsky_check] || "")})</span>` : ""}
+        ${by.person[id] ? `<br><a href="#/people/${esc(id)}">Profile, history and news mentions</a>` : ""}</p>
+      <h3 class="section-title">Posts</h3>
+      ${posts.length ? posts.map((p) => postCard(p, { noName: true })).join("") : `<p class="empty">No AI posts collected yet.${h.bsky ? "" : " This person is not followed on Bluesky, so their posts appear only when an editor adds an X link."}</p>`}
+    </div>`;
   }
 
   function pageStack() {
@@ -494,6 +647,10 @@
           A story that fails is rewritten once, then dropped if it still fails.</li>
         <li>The edition is added to open JSON files. Nothing is deleted, so the archive grows every night.</li>
       </ol>
+      <h3>Attention Heads</h3>
+      <p><a href="#/heads">Attention Heads</a> follows what ${D.heads.people.length || "fifty"} people who shape AI post. Public Bluesky posts are read
+        each night through Bluesky's open API; X posts are added by hand through X's free embed service, because X's API is paid.
+        Each post is quoted in full with a short note on what it means, written only from the post and checked by a second model.</p>
       <h3>How the history is checked</h3>
       <p>Every timeline entry links an original source: the paper, the journal DOI or the lab's own announcement.
         A script checks dates against the arXiv API and Crossref, and looks for the date on other pages.
@@ -528,6 +685,9 @@
       ...D.timeline.map((e) => ({ g: "History", t: e.title, d: `${fmtDate(e.date)}. ${e.one_liner}`, h: `#/timeline/${e.id}`, k: `${e.title} ${e.one_liner}` })),
       ...D.concepts.map((c) => ({ g: "Concepts", t: c.term, d: c.definition, h: `#/concepts/${c.id}`, k: `${c.term} ${(c.aka || []).join(" ")} ${c.definition}`, boost: 2 })),
       ...D.people.map((p) => ({ g: "People", t: p.name, d: p.role, h: `#/people/${p.id}`, k: `${p.name} ${p.aliases.join(" ")} ${p.known_for}`, boost: 2 })),
+      ...D.heads.posts.map((p) => ({ g: "Attention Heads", t: `${(by.head[p.person] || {}).name || p.person}: ${p.text.slice(0, 80)}`,
+        d: `${fmtDate(istDay(p.posted_at))}. ${p.meaning || ""}`, h: `#/heads/${p.person}`, k: `${(by.head[p.person] || {}).name || ""} ${p.text} ${p.meaning || ""}` })),
+      ...D.heads.people.filter((h) => !by.person[h.id]).map((h) => ({ g: "People", t: h.name, d: h.known_for, h: `#/heads/${h.id}`, k: `${h.name} ${h.known_for}`, boost: 1 })),
       ...D.meta.labs.map((l) => ({ g: "Labs", t: l.name, d: l.blurb, h: `#/labs/${l.id}`, k: `${l.name} ${l.blurb}`, boost: 1 })),
     ];
   }
@@ -576,11 +736,12 @@
       concepts: () => (params[0] ? pageConcept(params[0]) : pageConcepts()),
       labs: () => (params[0] ? pageLab(params[0]) : pageLabs()),
       people: () => (params[0] ? pagePerson(params[0]) : pagePeople()),
+      heads: () => (params[0] ? pageHead(params[0]) : pageHeads()),
       stack: pageStack, about: pageAbout,
     };
     (pages[name] || notFound)();
     if (!params[1] && !(name === "timeline" && params[0])) window.scrollTo(0, 0);
-    const titles = { today: "Today", archive: "Archive", timeline: "Timeline", concepts: "Concepts", labs: "Labs", people: "People", stack: "Stack map", about: "About" };
+    const titles = { today: "Today", archive: "Archive", timeline: "Timeline", concepts: "Concepts", labs: "Labs", people: "People", heads: "Attention Heads", stack: "Stack map", about: "About" };
     document.title = `${titles[name] || "Attention Span"}: Attention Span`;
   }
 

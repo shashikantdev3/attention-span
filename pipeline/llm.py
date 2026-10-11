@@ -1,6 +1,6 @@
 """Free-tier LLM calls with a fallback chain, pacing, JSON output and a response cache.
 
-Each step (editor, writer, checker) has a chain of provider:model pairs; the first that answers wins.
+Each step (editor, writer, checker, heads) has a chain of provider:model pairs; the first that answers wins.
 See CHAINS below; override any of them in .env.
 Every response is cached in state/cache/ by a hash of the prompt, so a run that stops
 half way can simply be started again and will not spend quota twice.
@@ -31,6 +31,9 @@ CHAINS = {
                "groq:openai/gpt-oss-120b,groq:qwen/qwen3.8-27b"),
     "editor": ("gemini:gemini-3.8-flash,gemini:gemini-3.5-flash,gemini:gemini-3.5-flash-lite,"
                "groq:openai/gpt-oss-120b"),
+    # short notes for Attention Heads posts: the lite models have the largest free daily quota
+    "heads": ("gemini:gemini-3.5-flash-lite,gemini:gemini-3.1-flash-lite,groq:openai/gpt-oss-120b,"
+              "groq:qwen/qwen3.8-27b"),
     "checker": ("groq:openai/gpt-oss-120b,groq:qwen/qwen3.8-27b,gemini:gemini-3.1-flash-lite,"
                 "gemini:gemini-3.5-flash-lite"),
 }
