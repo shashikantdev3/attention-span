@@ -1,6 +1,13 @@
 {
  "editions": [
   {
+   "date": "2026-10-10",
+   "file": "2026-10.json",
+   "count": 9,
+   "spotlight": 0,
+   "lead": "TypeSafe AI Raises $870 Million at $7.5 Billion Valuation"
+  },
+  {
    "date": "2026-10-09",
    "file": "2026-10.json",
    "count": 10,
@@ -15,6 +22,6 @@
    "lead": "Anthropic Releases Claude Haiku 5.5 and AWS Integration"
   }
  ],
- "latest": "2026-10-09",
- "updated": "2026-10-09T19:02:33Z"
+ "latest": "2026-10-10",
+ "updated": "2026-10-11T07:34:48Z"
 }

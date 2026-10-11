@@ -152,5 +152,40 @@
   "first_seen": "2026-10-09",
   "story": "2026-10-09-mimo-v2-6-introduces-scaled-reinforcement-learning-for-model",
   "source": "https://arxiv.org/abs/2610.11959"
+ },
+ {
+  "term": "non-text AI model",
+  "definition": "A model that does not output text, but instead produces probabilities, or what the company calls calibrated decisions.",
+  "first_seen": "2026-10-10",
+  "story": "2026-10-10-typesafe-ai-raises-870-million-at-7-5-billion-valuation",
+  "source": "https://techcrunch.com/2026/10/09/the-maker-of-non-text-ai-model-jev-valued-at-7-5b-just-weeks-after-launch/"
+ },
+ {
+  "term": "decoding-aware pruning",
+  "definition": "A principled pruning framework tailored for accurate and efficient LLM decoding by aligning the pruning objective with decoding activations.",
+  "first_seen": "2026-10-10",
+  "story": "2026-10-10-sparsedecoding-proposes-decoding-aware-pruning-for-llm-infer",
+  "source": "https://arxiv.org/abs/2610.12327"
+ },
+ {
+  "term": "verbal critic framework",
+  "definition": "A framework that treats each correction as a persistent note, followed until the diagnosed problem is resolved.",
+  "first_seen": "2026-10-10",
+  "story": "2026-10-10-researchers-present-opera-verbal-critic-framework-for-coding",
+  "source": "https://arxiv.org/abs/2609.33987"
+ },
+ {
+  "term": "typed operators",
+  "definition": "Tools used by the Opera framework to diagnose issues in long-horizon coding agents.",
+  "first_seen": "2026-10-10",
+  "story": "2026-10-10-researchers-present-opera-verbal-critic-framework-for-coding",
+  "source": "https://arxiv.org/abs/2609.33987"
+ },
+ {
+  "term": "service binding",
+  "definition": "A connection that forwards requests from a Pages Function directly to an agent Worker without using a public URL.",
+  "first_seen": "2026-10-10",
+  "story": "2026-10-10-talorys-launches-as-a-self-hosted-personal-ai-agent-on-cloud",
+  "source": "https://github.com/rociiu/talorys"
  }
 ]

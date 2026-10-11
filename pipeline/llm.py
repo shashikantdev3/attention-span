@@ -66,6 +66,15 @@ def _parse_json(text):
         raise
 
 
+def _as_object(result):
+    """Every step expects one JSON object. Some models wrap it in a list; unwrap that, reject anything else."""
+    if isinstance(result, list) and len(result) == 1 and isinstance(result[0], dict):
+        result = result[0]
+    if not isinstance(result, dict):
+        raise ValueError(f"expected a JSON object, got {type(result).__name__}")
+    return result
+
+
 def ask_json(system, user, max_tokens=1500, temperature=0.2, tag="call", reasoning="low"):
     """Return (parsed_json, model_used). Raises RuntimeError if every provider fails."""
     # the key includes the step's model chain, so changing models never reuses an older answer
@@ -73,9 +82,13 @@ def ask_json(system, user, max_tokens=1500, temperature=0.2, tag="call", reasoni
     CACHE.mkdir(parents=True, exist_ok=True)
     cached = CACHE / f"{key}.json"
     if cached.exists():
-        STATS["cache_hits"] += 1
-        data = json.loads(cached.read_text(encoding="utf-8"))
-        return data["result"], data["model"]
+        try:
+            data = json.loads(cached.read_text(encoding="utf-8"))
+            result = _as_object(data["result"])
+            STATS["cache_hits"] += 1
+            return result, data["model"]
+        except (ValueError, KeyError, json.JSONDecodeError):
+            cached.unlink(missing_ok=True)  # a bad answer was cached by an older version: ask again
 
     errors = []
     for entry in chain(tag):
@@ -104,7 +117,7 @@ def ask_json(system, user, max_tokens=1500, temperature=0.2, tag="call", reasoni
             if r.status_code == 200:
                 try:
                     content = r.json()["choices"][0]["message"]["content"]
-                    result = _parse_json(content)
+                    result = _as_object(_parse_json(content))
                 except Exception as exc:
                     errors.append(f"{entry}: bad JSON ({type(exc).__name__})")
                     continue

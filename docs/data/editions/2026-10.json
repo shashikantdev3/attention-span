@@ -1087,6 +1087,427 @@
     "fallbacks": [],
     "seconds": 38
    }
+  },
+  "2026-10-10": {
+   "date": "2026-10-10",
+   "generated_at": "2026-10-11T07:34:48Z",
+   "stories": [
+    {
+     "title": "TypeSafe AI Raises $870 Million at $7.5 Billion Valuation",
+     "one_liner": "TypeSafe AI raised $870 million at a $7.5 billion valuation for its non-text AI model, Jev.",
+     "summary": "TypeSafe AI has raised $870 million at a $7.5 billion valuation for its new AI model called Jev. Andreessen Horowitz led the funding round, with participation from Sequoia and existing investor DCVC. Jev launched on September 15 and went viral instantly. The startup claims that a third of Fortune 500 companies are already using the model. Jev uses a transformer architecture but does not output text. Instead, it produces probabilities or calibrated decisions. The company was founded in 2024 by Diogo Almeida, Sasha Sheng, and Erik Gafni.",
+     "eli5": "Instead of writing long stories with words, this computer program quickly gives you straight answers and choices to help get work done faster.",
+     "why_it_matters": "Using a non-text model that outputs probabilities provides an alternative way to automate tasks without relying on large language models.",
+     "topic": "models",
+     "type": "product",
+     "labs": [
+      "meta",
+      "openai",
+      "other"
+     ],
+     "people": [],
+     "concepts": [
+      "transformer",
+      "llm",
+      "probability-calibration"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [
+      {
+       "term": "non-text AI model",
+       "definition": "A model that does not output text, but instead produces probabilities, or what the company calls calibrated decisions."
+      }
+     ],
+     "sources": [
+      {
+       "title": "The maker of non-text AI model Jev valued at $7.5B just weeks after launch",
+       "url": "https://techcrunch.com/2026/10/09/the-maker-of-non-text-ai-model-jev-valued-at-7-5b-just-weeks-after-launch/",
+       "name": "TechCrunch AI",
+       "kind": "press"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-10-09T21:41:29Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 2,
+      "hype_flags": []
+     },
+     "editor_reason": "TypeSafe reached a 7.5 billion dollar valuation for Jev, a non-text model reported to run faster and consume fewer tokens than standard LLMs.",
+     "rank": 1,
+     "id": "2026-10-10-typesafe-ai-raises-870-million-at-7-5-billion-valuation",
+     "date": "2026-10-10"
+    },
+    {
+     "title": "Ukrainian Drones Knock Out Data Centers Belonging to Yandex",
+     "one_liner": "Ukrainian drone strikes knocked out two Yandex data centers, leaving the Russian tech giant struggling to maintain its online services.",
+     "summary": "Ukrainian drone strikes have knocked out two of five data centers belonging to the Russian tech giant Yandex. Known as Russia’s Google because it operates the country's most popular search engine, Yandex is now struggling to maintain its AI chatbot and other online services. The strikes hit data centers in the Sasovo and Kaluga regions on October 8 and October 9, according to Reuters. The action was a direct response to Russian drone strikes targeting Ukraine’s data centers. Ukrainian President Volodymyr Zelenskyy confirmed the symmetrical response in a post on X.",
+     "eli5": "Just like breaking a computer tower makes it hard to play your favorite game, hitting these giant computer buildings makes it hard to run online programs and chatbots.",
+     "why_it_matters": "Physical attacks on critical infrastructure can directly disrupt the operation of large-scale AI chatbots and online services.",
+     "topic": "industry",
+     "type": "event",
+     "labs": [],
+     "people": [],
+     "concepts": [
+      "chatbot"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "Ukraine’s drones knock out AI data center belonging to \"Russia’s Google\"",
+       "url": "https://arstechnica.com/gadgets/2026/10/ukraines-drones-knock-out-ai-data-center-belonging-to-russias-google/",
+       "name": "Ars Technica AI",
+       "kind": "press"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-10-09T22:04:07Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 2,
+      "hype_flags": []
+     },
+     "editor_reason": "Drone strikes disabled two Yandex data centers in Russia, hitting compute infrastructure that supports the company's AI services.",
+     "rank": 2,
+     "id": "2026-10-10-ukrainian-drones-knock-out-data-centers-belonging-to-yandex",
+     "date": "2026-10-10"
+    },
+    {
+     "title": "US Senate Investigation Says Some Hyperscalers Misled the Public",
+     "one_liner": "A US Senate investigation led by Senators Warren, Van Hollen, and Blumenthal says some hyperscalers misled the public about AI data centers.",
+     "summary": "A US Senate investigation led by Senators Warren, Van Hollen, and Blumenthal says some hyperscalers misled the public about AI data centers' costs and benefits. The world's biggest technology companies are racing to build data centers across the country to power an AI boom. This is an archive page from Techmeme showing how the site appeared at 11:05 AM ET on October 10, 2026. The report comes from a Time article written by Nik Popli.",
+     "eli5": "Some people in charge checked on big tech companies building huge computer houses and said those companies did not tell the truth about how much they cost and what they do.",
+     "why_it_matters": "Scrutiny over infrastructure costs and public benefits may increase regulatory pressure on large technology companies building AI data centers.",
+     "topic": "policy",
+     "type": "event",
+     "labs": [
+      "government",
+      "other"
+     ],
+     "people": [],
+     "concepts": [
+      "ai-governance",
+      "ai-regulation"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "A US Senate investigation led by Senators Warren, Van Hollen, and Blumenthal says some hyperscalers misled the public about AI data centers' costs and benefits (Nik Popli/Time)",
+       "url": "https://www.techmeme.com/261010/p1#a261010p1",
+       "name": "Techmeme",
+       "kind": "press"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-10-10T05:05:00Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 2,
+      "hype_flags": []
+     },
+     "editor_reason": "A US Senate inquiry led by three senators concluded that major hyperscalers misled the public on the environmental footprint of their AI data centers.",
+     "rank": 3,
+     "id": "2026-10-10-us-senate-investigation-says-some-hyperscalers-misled-the-pu",
+     "date": "2026-10-10"
+    },
+    {
+     "title": "Report: CMS Runs 1,700-Member Slack With Tech Companies",
+     "one_liner": "A CBS News report looks at a 1,700-member Slack run by Medicare agency CMS where companies help shape policy.",
+     "summary": "CBS News published a report about a 1,700-member Slack workspace run by Medicare agency CMS. Companies including Microsoft and OpenAI participate in the Slack. The participants help shape policy on artificial intelligence apps and medical records access. A cadre of elite techies, financiers, and high-level Trump administration officials spent a year quietly charting this initiative. The information is available in a Techmeme archive page dated October 10, 2026.",
+     "eli5": "It is like a giant group chat where important people and companies talk about the rules for computer programs and medical records, similar to a school club discussing playground guidelines.",
+     "why_it_matters": "External technology companies and officials shape the policy rules for artificial intelligence applications and medical records access through a shared messaging platform.",
+     "topic": "policy",
+     "type": "event",
+     "labs": [
+      "microsoft",
+      "openai",
+      "government"
+     ],
+     "people": [],
+     "concepts": [
+      "ai-governance",
+      "ai-regulation"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "A look at a 1,700-member Slack run by Medicare agency CMS where Microsoft, OpenAI, and other companies help shape policy on AI apps and medical records access (CBS News)",
+       "url": "https://www.techmeme.com/261010/p14#a261010p14",
+       "name": "Techmeme",
+       "kind": "press"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-10-10T16:50:11Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 2,
+      "hype_flags": []
+     },
+     "editor_reason": "A large CMS Slack group shows Microsoft and OpenAI working directly with US healthcare regulators to shape clinical AI rules.",
+     "rank": 4,
+     "id": "2026-10-10-report-cms-runs-1-700-member-slack-with-tech-companies",
+     "date": "2026-10-10"
+    },
+    {
+     "title": "Report Details Differing Revenue Calculations for Anthropic and OpenAI",
+     "one_liner": "Anthropic and OpenAI use differing revenue calculations as Anthropic books gross sales through cloud partners and OpenAI records only its net share.",
+     "summary": "A Bloomberg report highlights differing revenue calculations between artificial intelligence leaders Anthropic and OpenAI. Investors face a problem when measuring the race between the two companies. Anthropic books gross sales through cloud partners, while OpenAI records only its net share. The details were published in an archive snapshot from October 10, 2026.",
+     "eli5": "Two lemonade stands count their money differently. One stand counts all the money it collects, while the other stand counts only the money it keeps after paying helpers.",
+     "why_it_matters": "Different revenue calculation methods make it harder to compare the financial scale of competing artificial intelligence providers.",
+     "topic": "industry",
+     "type": "event",
+     "labs": [
+      "anthropic",
+      "openai"
+     ],
+     "people": [],
+     "concepts": [],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "A look at differing revenue calculations of Anthropic and OpenAI, as Anthropic books gross sales through cloud partners, while OpenAI records only its net share (Bloomberg)",
+       "url": "https://www.techmeme.com/261010/p8#a261010p8",
+       "name": "Techmeme",
+       "kind": "press"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-10-10T06:35:01Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "Financial reports reveal Anthropic and OpenAI account for cloud revenue differently, with Anthropic booking gross figures while OpenAI records net sales.",
+     "rank": 5,
+     "id": "2026-10-10-report-details-differing-revenue-calculations-for-anthropic",
+     "date": "2026-10-10"
+    },
+    {
+     "title": "Synopsys Explores Partnerships with Chinese AI Labs",
+     "one_liner": "Chip design software leader Synopsys is exploring partnerships with Chinese AI labs to build AI-powered chip design tools.",
+     "summary": "Chip design software leader Synopsys stated it is exploring partnerships with Chinese artificial intelligence labs. The goal is to develop artificial intelligence-powered chip design tools specifically for the Chinese market. According to Yifan Yu of Nikkei Asia, the Palo Alto, California based company is looking to help Chinese companies develop chips faster. The announcement appeared on Techmeme on October 10, 2026.",
+     "eli5": "Synopsys makes digital blueprints for building computer chips. They want to team up with groups in China to build smart tools that make designing chips much faster, like using digital helpers to build toy blocks.",
+     "why_it_matters": "Partnerships between software leaders and labs can change how quickly new hardware is built for local markets.",
+     "topic": "industry",
+     "type": "event",
+     "labs": [],
+     "people": [],
+     "concepts": [],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "Chip design software leader Synopsys says it is exploring partnerships with Chinese AI labs to develop AI-powered chip design tools for the Chinese market (Yifan Yu/Nikkei Asia)",
+       "url": "https://www.techmeme.com/261010/p6#a261010p6",
+       "name": "Techmeme",
+       "kind": "press"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-10-10T06:15:00Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "Synopsys is exploring partnerships with Chinese AI research groups to build automated chip design software.",
+     "rank": 6,
+     "id": "2026-10-10-synopsys-explores-partnerships-with-chinese-ai-labs",
+     "date": "2026-10-10"
+    },
+    {
+     "title": "SparseDecoding Proposes Decoding-Aware Pruning for LLM Inference",
+     "one_liner": "SparseDecoding is a decoding-aware pruning framework designed to improve accurate and efficient large language model inference.",
+     "summary": "Large language model inference suffers from significant latency during the decoding stage because of its memory-bound nature. Layer-wise training-free network pruning guided by the Hessian is a known solution, but typical methods compute the Hessian using pre-collected natural sequences. This creates a distribution shift from self-generated tokens. SparseDecoding addresses this by constructing calibration matrices from layer-wise activations collected during dense-model autoregressive generation, excluding prefill. This aligns the pruning objective with decoding activations.",
+     "eli5": "Pruning a language model is like trimming unneeded branches off a tree to make it lighter, and SparseDecoding makes sure you trim the right parts by watching how the tree actually grows.",
+     "why_it_matters": "Aligning pruning objectives with actual decoding activations reduces performance loss during efficient large language model inference.",
+     "topic": "research",
+     "type": "paper",
+     "labs": [
+      "academia"
+     ],
+     "people": [],
+     "concepts": [
+      "inference",
+      "llm",
+      "machine-learning"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [
+      {
+       "term": "decoding-aware pruning",
+       "definition": "A principled pruning framework tailored for accurate and efficient LLM decoding by aligning the pruning objective with decoding activations."
+      }
+     ],
+     "sources": [
+      {
+       "title": "SparseDecoding: Decoding-Aware Pruning for Accurate and Efficient LLM Inference",
+       "url": "https://arxiv.org/abs/2610.12327",
+       "name": "Hugging Face Daily Papers",
+       "kind": "original"
+      },
+      {
+       "title": "Discussion on Hugging Face Daily Papers",
+       "url": "https://huggingface.co/papers/2610.12327",
+       "name": "Hugging Face Daily Papers",
+       "kind": "discussion"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-10-07T20:00:00Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "SparseDecoding presents a training-free pruning technique designed to reduce memory bottlenecks and inference latency during the decoding phase.",
+     "rank": 7,
+     "id": "2026-10-10-sparsedecoding-proposes-decoding-aware-pruning-for-llm-infer",
+     "date": "2026-10-10"
+    },
+    {
+     "title": "Researchers Present Opera Verbal Critic Framework for Coding Agents",
+     "one_liner": "Opera is a verbal critic framework that treats corrections as persistent notes to improve long-horizon coding agents.",
+     "summary": "Long-horizon coding agents need timely corrections, but feedback often misjudges work or misses underlying problems. Researchers present Opera, a verbal critic framework that treats each correction as a persistent note until the diagnosed problem is resolved. Opera decides when to review through periodic and event-driven triggers, diagnoses issues with typed operators, audits feedback against visible evidence, and tracks subsequent actions. As a test-time critic, Opera improves resolve rates on Terminal-Bench 2.1, a SWE-Bench Pro subset, and DeepSWE v1.1. Opera-guided rollouts also provide on-policy training data to fine-tune Qwen3.5-9B.",
+     "eli5": "Coding agents sometimes need someone to check their work, so this new tool acts like a careful coach that writes down notes and checks back later to see if the computer actually fixed the bug.",
+     "why_it_matters": "Using a persistent verbal critic framework during test time and for rollouts improves resolve rates for coding agents.",
+     "topic": "research",
+     "type": "paper",
+     "labs": [
+      "academia"
+     ],
+     "people": [],
+     "concepts": [
+      "agent",
+      "benchmark",
+      "fine-tuning"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [
+      {
+       "term": "verbal critic framework",
+       "definition": "A framework that treats each correction as a persistent note, followed until the diagnosed problem is resolved."
+      },
+      {
+       "term": "typed operators",
+       "definition": "Tools used by the Opera framework to diagnose issues in long-horizon coding agents."
+      }
+     ],
+     "sources": [
+      {
+       "title": "Opera: A Verbal Critic Framework for Long-horizon Coding Agents",
+       "url": "https://arxiv.org/abs/2609.33987",
+       "name": "Hugging Face Daily Papers",
+       "kind": "original"
+      },
+      {
+       "title": "Discussion on Hugging Face Daily Papers",
+       "url": "https://huggingface.co/papers/2609.33987",
+       "name": "Hugging Face Daily Papers",
+       "kind": "discussion"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-10-07T20:00:00Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "Opera introduces a verbal critic framework to supply targeted feedback and reduce drift in long-horizon coding tasks.",
+     "rank": 8,
+     "id": "2026-10-10-researchers-present-opera-verbal-critic-framework-for-coding",
+     "date": "2026-10-10"
+    },
+    {
+     "title": "Talorys Launches as a Self-Hosted Personal AI Agent on Cloudflare",
+     "one_liner": "Talorys is a free, open-source personal AI assistant that runs entirely inside your own Cloudflare account.",
+     "summary": "Talorys is a free and open-source personal AI assistant that runs entirely inside a single Cloudflare account. It includes features for chatting, memory, tasks, notes, projects, and scheduled automations. The system uses a SQLite-backed Durable Object and Workers AI for streaming responses and tool calling. Users can deploy the agent using a single command with Node.js. It operates without any server, database, or account managed by the Talorys developers, and it is designed to fit within Cloudflare's free tier quotas.",
+     "eli5": "It is like having your own personal robot helper that lives inside your own digital clubhouse instead of someone else's server. You give it simple tasks and reminders, and it remembers what you tell it.",
+     "why_it_matters": "Running a private AI assistant inside personal cloud infrastructure removes reliance on third-party servers and databases.",
+     "topic": "dev-tools",
+     "type": "product",
+     "labs": [
+      "other"
+     ],
+     "people": [],
+     "concepts": [
+      "agent",
+      "chatbot",
+      "personal-agent"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [
+      {
+       "term": "service binding",
+       "definition": "A connection that forwards requests from a Pages Function directly to an agent Worker without using a public URL."
+      }
+     ],
+     "sources": [
+      {
+       "title": "Talorys – A self-hosted personal AI agent on Cloudflare's free tier",
+       "url": "https://github.com/rociiu/talorys",
+       "name": "github.com",
+       "kind": "original"
+      },
+      {
+       "title": "Discussion on Hacker News",
+       "url": "https://news.ycombinator.com/item?id=50031614",
+       "name": "Hacker News",
+       "kind": "discussion"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-10-10T10:52:09Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "Talorys lets developers deploy a self-hosted personal AI agent entirely within Cloudflare's free service tier.",
+     "rank": 9,
+     "id": "2026-10-10-talorys-launches-as-a-self-hosted-personal-ai-agent-on-cloud",
+     "date": "2026-10-10"
+    }
+   ],
+   "stats": {
+    "items": 49,
+    "stories": 47,
+    "sources_ok": 32,
+    "sources_failed": [],
+    "published": 9,
+    "dropped": 1,
+    "llm_calls": 1,
+    "cache_hits": 30,
+    "models": {
+     "groq:qwen/qwen3.8-27b": 1
+    },
+    "fallbacks": [
+     {
+      "tag": "checker",
+      "used": "groq:qwen/qwen3.8-27b",
+      "after": [
+       "groq:openai/gpt-oss-120b: HTTP 400 {\"error\":{\"message\":\"Failed to validate JSON. Please adjust your prompt. See 'failed_generation' for more details.\",\"type\":\"invalid_request_error\",\"code\":\"json_validate_failed\",\"failed_generation\":\"\"}"
+      ]
+     }
+    ],
+    "seconds": 20
+   }
   }
  }
 }
