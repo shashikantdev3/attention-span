@@ -55,3 +55,130 @@ Traceback (most recent call last):
                          ^^^^^^^^^
 AttributeError: 'list' object has no attribute 'get'
 Run did not finish. If it stopped part way, run: python run_daily.py --resume 
+ 
+==== 11-10-2026 23:45:02.27 ==== 
+Using C:\Users\debna\AppData\Local\Programs\Python\Python312\python.exe 
+1. Collecting the last 24 hours
+  anthropic                    ok   0  (1.0s)
+  azure-foundry                ok   0  (1.0s)
+  deepmind                     ok   0  (1.0s)
+  ms-ai                        ok   0  (1.1s)
+  ms-blogs                     ok   0  (1.1s)
+  openai                       ok   0  (1.4s)
+  google-ai                    ok   0  (1.6s)
+  github-ai                    ok   0  (0.9s)
+  meta-ai                      ok   0  (1.2s)
+  mistral                      ok   0  (1.1s)
+  google-dev                   ok   0  (3.0s)
+  qwen                         ok   0  (3.6s)
+  hf-blog                      ok   0  (3.2s)
+  techcrunch-ai                ok   4  (0.5s)
+  nvidia                       ok   0  (3.8s)
+  verge-ai                     ok   1  (0.4s)
+  mit-tr-ai                    ok   0  (0.7s)
+  aws-ml                       ok   0  (4.3s)
+  fabric                       ok   0  (6.3s)
+  simonw                       ok   0  (4.4s)
+  hf-papers                    ok   0  (0.6s)
+  inbox                        ok   0  (0.0s)
+  ars-ai                       ok   0  (2.0s)
+  hf-models                    ok   3  (0.6s)
+  techmeme                     ok   6  (2.2s)
+  person-andrej-karpathy-0     ok   0  (0.6s)
+  person-sam-altman-0          ok   0  (1.1s)
+  powerbi                      ok   0  (7.7s)
+  hn                           ok   10  (2.6s)
+  person-peter-steinberger-0   ok   0  (1.3s)
+  github                       ok   5  (1.9s)
+  ms-research                  ok   0  (10.0s)
+   29 items from 32 sources (0 failed: none)
+2. Grouping into stories
+   28 stories, 2 already published on an earlier day
+3. Editor picks
+  editor (gemini:gemini-3.8-flash): 8 picks, 2 merges
+4. Writing and fact-checking
+    dropped c25: still unsupported after rewrite: ['The news was reported by Achint Srivastava for Command Line on a Techmeme archive page from October 11, 2026.']
+    ok  Reports Say Nvidia Is in Talks to Acquire Reflection AI  (2 sources)
+    ok  Microsoft CEO Satya Nadella Says AI Models Are Compromised  (2 sources)
+    ok  Anthropic Updates Usage Policy to Ban Cruelty to Claude  (1 sources)
+    ok  Apple discloses deal to hire team and license tech from Huxe  (1 sources)
+    dropped c27: still unsupported after rewrite: ["The summary states that the games were ported 'overnight', whereas the source text says they were ported 'in recent weeks' and mentions 'overnight' only in the context of the Kotaku headline/blurb."]
+    ok  PitchBook reports robotics and physical AI companies raised ~$48B YTD  (1 sources)
+    ok  Agent Chrome Relay Repository on GitHub by Alexey Indeev  (1 sources)
+5. Saving
+   edition 2026-10-11: 6 stories written to docs/data/editions/
+   29 new terms waiting for review (python tools/review_terms.py)
+6. Attention Heads
+   Bluesky: 28 posts in 7 days from 22 of 22 accounts
+   inbox: 0 post links read
+   2 new posts to explain
+   2 posts added; 20 in the last 7 days; 21 kept in total
+
+## Dropped stories
+- {'cid': 'c25', 'title': 'Microsoft unveils Microsoft-Decision-1, a fast decision-scoring model trained on Qwen3.5-9B, and says it will soon rebase it on MAI, OpenAI, and other models (Achint Srivastava/Command Line)', 'reason': ['The news was reported by Achint Srivastava for Command Line on a Techmeme archive page from October 11, 2026.']}
+- {'cid': 'c27', 'title': 'Hundreds of old games were decompiled and ported to run on browsers in recent weeks, driven by Claude Opus 5.5; titles like GTA: Vice City and Halo: CE run well (Lewis Parker/Kotaku)', 'reason': ["The summary states that the games were ported 'overnight', whereas the source text says they were ported 'in recent weeks' and mentions 'overnight' only in the context of the Kotaku headline/blurb."]}
+
+## Stats
+{
+ "items": 29,
+ "stories": 28,
+ "sources_ok": 32,
+ "sources_failed": [],
+ "published": 6,
+ "dropped": 2,
+ "llm_calls": 23,
+ "cache_hits": 0,
+ "models": {
+  "gemini:gemini-3.8-flash": 1,
+  "gemini:gemini-3.5-flash-lite": 12,
+  "groq:openai/gpt-oss-120b": 10,
+  "groq:qwen/qwen3.8-27b": 1,
+  "gemini:gemini-3.1-flash-lite": 1
+ },
+ "fallbacks": [
+  {
+   "tag": "editor",
+   "used": "gemini:gemini-3.8-flash",
+   "after": [
+    "gemini:gemini-3.8-flash: HTTP 503 [{\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n]"
+   ]
+  },
+  {
+   "tag": "checker",
+   "used": "groq:qwen/qwen3.8-27b",
+   "after": [
+    "groq:openai/gpt-oss-120b: HTTP 400 {\"error\":{\"message\":\"Failed to validate JSON. Please adjust your prompt. See 'failed_generation' for more details.\",\"type\":\"invalid_request_error\",\"code\":\"json_validate_failed\",\"failed_generation\":\"\"}"
+   ]
+  },
+  {
+   "tag": "checker",
+   "used": "gemini:gemini-3.1-flash-lite",
+   "after": [
+    "groq:openai/gpt-oss-120b: HTTP 400 {\"error\":{\"message\":\"Failed to generate JSON. Please adjust your prompt. See 'failed_generation' for more details.\",\"type\":\"invalid_request_error\",\"code\":\"json_validate_failed\",\"failed_generation\":\"ma",
+    "groq:qwen/qwen3.8-27b: HTTP 400 {\"error\":{\"message\":\"Failed to generate JSON. Please adjust your prompt. See 'failed_generation' for more details.\",\"type\":\"invalid_request_error\",\"code\":\"json_validate_failed\",\"failed_generation\":\"ma"
+   ]
+  },
+  {
+   "tag": "checker",
+   "used": "groq:openai/gpt-oss-120b",
+   "after": [
+    "groq:openai/gpt-oss-120b: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m4e2y3jzet7vqfgnag5gc2as` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 5665, Req"
+   ]
+  }
+ ],
+ "seconds": 146,
+ "heads": {
+  "added": 2,
+  "week": 20,
+  "total": 21,
+  "bsky_failed": []
+ }
+}
+
+Done in 146s. Report: state/reports/2026-10-11.md
+
+To publish, review the report, then run:
+  git add docs/data state/seen.json state/pending_terms.json state/heads_skipped.json
+  git commit -m "Edition 2026-10-11"
+  git push
+Finished. Review state\reports, then publish with git. 

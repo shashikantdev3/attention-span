@@ -1,6 +1,13 @@
 {
  "editions": [
   {
+   "date": "2026-10-11",
+   "file": "2026-10.json",
+   "count": 6,
+   "spotlight": 0,
+   "lead": "Reports Say Nvidia Is in Talks to Acquire Reflection AI"
+  },
+  {
    "date": "2026-10-10",
    "file": "2026-10.json",
    "count": 9,
@@ -22,6 +29,6 @@
    "lead": "Anthropic Releases Claude Haiku 5.5 and AWS Integration"
   }
  ],
- "latest": "2026-10-10",
- "updated": "2026-10-11T07:34:48Z"
+ "latest": "2026-10-11",
+ "updated": "2026-10-11T18:17:29Z"
 }

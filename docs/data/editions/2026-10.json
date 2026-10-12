@@ -1508,6 +1508,346 @@
     ],
     "seconds": 20
    }
+  },
+  "2026-10-11": {
+   "date": "2026-10-11",
+   "generated_at": "2026-10-11T18:17:29Z",
+   "stories": [
+    {
+     "title": "Reports Say Nvidia Is in Talks to Acquire Reflection AI",
+     "one_liner": "Nvidia is reportedly in talks to acquire or invest more into US open-weights AI startup Reflection AI.",
+     "summary": "According to reports, Nvidia is in talks to acquire or invest more into Reflection AI. Reflection AI is a US open-weights AI startup. The potential deal could be an acquihire intended to avoid antitrust scrutiny. Donald Trump's administration hopes that the company will serve as a rival to cheap Chinese alternatives such as DeepSeek.",
+     "eli5": "A big company is looking to join forces with a smaller team to build helpful computer brains together. Think of it like a large toy store teaming up with a small workshop to make new building blocks.",
+     "why_it_matters": "More consolidation among hardware and model startups can change how open-weights technologies are funded and deployed.",
+     "topic": "industry",
+     "type": "event",
+     "labs": [
+      "nvidia",
+      "deepseek"
+     ],
+     "people": [],
+     "concepts": [
+      "open-weight-model",
+      "llm"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "Nvidia in talks to acquire US 'open' model startup Reflection AI",
+       "url": "https://www.ft.com/content/052610c5-22b4-4dd4-932e-b7f9f0628b6a",
+       "name": "Hacker News",
+       "kind": "press"
+      },
+      {
+       "title": "Discussion on Hacker News",
+       "url": "https://news.ycombinator.com/item?id=50035886",
+       "name": "Hacker News",
+       "kind": "discussion"
+      },
+      {
+       "title": "Sources: Nvidia is in talks to acquire or invest more into US open-weights AI startup Reflection AI; the deal may be an acquihire to avoid antitrust scrutiny (Financial Times)",
+       "url": "https://www.techmeme.com/261010/p16#a261010p16",
+       "name": "Techmeme",
+       "kind": "press"
+      }
+     ],
+     "buzz": 2,
+     "published": "2026-10-10T18:48:35Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "Nvidia is in talks to invest in or acquire open-weights startup Reflection AI.",
+     "rank": 1,
+     "id": "2026-10-11-reports-say-nvidia-is-in-talks-to-acquire-reflection-ai",
+     "date": "2026-10-11"
+    },
+    {
+     "title": "Satya Nadella Says to Assume Every AI Model Is Compromised",
+     "one_liner": "Microsoft CEO Satya Nadella wrote that we must assume all AI models are compromised and add an emergency brake to stop them.",
+     "summary": "In posts on Saturday, Microsoft CEO Satya Nadella stated that we must assume all artificial intelligence models are compromised from the start. He called for putting an emergency brake on artificial intelligence. Nadella wrote that it is time to assess the trust architecture of artificial intelligence. He wants to move away from black boxes where we simply accept advice. He called for transparent systems with containment, independent audits, timely incident disclosure, and tamper-proof human readable evidence. He also said authorized people must be able to pause or shut down a model mid-task.",
+     "eli5": "Just like having a big red stop button on a toy robot, we need a special emergency brake to pause artificial intelligence models right in the middle of what they are doing.",
+     "why_it_matters": "Systems must now include containment technology and an emergency brake so authorized personnel can pause or shut down models mid-task.",
+     "topic": "microsoft",
+     "type": "event",
+     "labs": [
+      "microsoft"
+     ],
+     "people": [],
+     "concepts": [
+      "ai-safety",
+      "ai-governance"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "Satya Nadella says we should assume all AI models are 'compromised'",
+       "url": "https://www.theverge.com/ai-artificial-intelligence/1009337/satya-nadella-says-we-should-assume-all-ai-models-are-compromised",
+       "name": "Hacker News",
+       "kind": "press"
+      },
+      {
+       "title": "Discussion on Hacker News",
+       "url": "https://news.ycombinator.com/item?id=50039627",
+       "name": "Hacker News",
+       "kind": "discussion"
+      },
+      {
+       "title": "Microsoft’s Satya Nadella says AI models need an ‘emergency brake’",
+       "url": "https://techcrunch.com/2026/10/10/microsofts-satya-nadella-says-ai-models-need-an-emergency-brake/",
+       "name": "TechCrunch AI",
+       "kind": "press"
+      }
+     ],
+     "buzz": 2,
+     "published": "2026-10-10T21:47:51Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "Satya Nadella argued that developers must assume models are compromised and build emergency brakes into AI systems.",
+     "rank": 2,
+     "id": "2026-10-11-microsoft-ceo-satya-nadella-says-ai-models-are-compromised",
+     "date": "2026-10-11"
+    },
+    {
+     "title": "Anthropic Updates Usage Policy to Ban Cruelty to Claude",
+     "one_liner": "Anthropic updated its usage policy to ban sustained and needless cruel behavior toward Claude models, effective November 12, 2026.",
+     "summary": "Starting November 12, 2026, Anthropic's usage policy bars sustained and needless abusive or cruel behavior toward its Claude models. The rule applies only in extreme cases where users repeatedly act cruelly toward models with no discernible purpose. It explicitly exempts common frustrations, pushback, dark creative themes, and research testing. Enforcement uses a conversation-ending tool given to Claude Opus models in August 2025. Anthropic notes that testing found models showed an aversion to harm and a tendency to end such chats. The update also includes expanded bans on software for weapons and unauthorized surveillance.",
+     "eli5": "Anthropic made a rule saying people should not be mean to its AI models over and over again for no reason, and the AI now has the power to hang up on rude users.",
+     "why_it_matters": "Usage policies now govern not just what AI creates, but also how users treat the models during interactions.",
+     "topic": "policy",
+     "type": "event",
+     "labs": [
+      "anthropic",
+      "microsoft"
+     ],
+     "people": [
+      "dario-amodei"
+     ],
+     "concepts": [
+      "ai-safety",
+      "constitutional-ai"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "Anthropic asks users to stop being mean to Claude",
+       "url": "https://www.theregister.com/ai-and-ml/2026/10/09/anthropic-asks-users-to-stop-being-mean-to-claude/5302218",
+       "name": "Hacker News",
+       "kind": "press"
+      },
+      {
+       "title": "Discussion on Hacker News",
+       "url": "https://news.ycombinator.com/item?id=50038865",
+       "name": "Hacker News",
+       "kind": "discussion"
+      },
+      {
+       "title": "Anthropic Bans Cruelty to Claude, Still Won't Say What It Protects",
+       "url": "https://rews.cc/a/anthropic-bans-cruelty-to-claude-still-won-t-say-what-it-pro-bd99f6",
+       "name": "Hacker News",
+       "kind": "press"
+      },
+      {
+       "title": "Discussion on Hacker News",
+       "url": "https://news.ycombinator.com/item?id=50038383",
+       "name": "Hacker News",
+       "kind": "discussion"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-10-11T00:08:31Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "Anthropic updated its policies to prohibit cruelty toward Claude.",
+     "rank": 3,
+     "id": "2026-10-11-anthropic-updates-usage-policy-to-ban-cruelty-to-claude",
+     "date": "2026-10-11"
+    },
+    {
+     "title": "Apple discloses deal to hire team and license tech from Huxe",
+     "one_liner": "Apple reached a reverse acqui-hire agreement to bring on team members and license technology from personalized audio startup Huxe.",
+     "summary": "Apple disclosed in a regulatory filing with the European Commission that it reached an agreement to make employment offers to certain employees of Huxe AI. Apple will also receive a non-exclusive license to Huxe intellectual property rights. Huxe was a personalized audio startup founded by developers who previously worked on AI-generated podcast features in NotebookLM. Huxe announced on May 21 that it was shutting down its app and halting service. Apple notified the European Commission of its deal on June 9.",
+     "eli5": "Apple is hiring the builders and borrowing the toys from a maker of custom audio shows that had to close its doors.",
+     "why_it_matters": "Larger companies can acquire startup talent and technology through licensing and hiring agreements without buying the entire company.",
+     "topic": "industry",
+     "type": "event",
+     "labs": [
+      "google"
+     ],
+     "people": [],
+     "concepts": [
+      "generative-model"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [
+      {
+       "term": "reverse acqui-hires",
+       "definition": "A way for larger companies to hire key team members and license technology from startups without acquiring the startups outright."
+      }
+     ],
+     "sources": [
+      {
+       "title": "Apple discloses deal to hire team and license tech from personalized podcast startup Huxe",
+       "url": "https://techcrunch.com/2026/10/10/apple-discloses-deal-to-hire-team-and-license-tech-from-personalized-podcast-startup-huxe/",
+       "name": "TechCrunch AI",
+       "kind": "press"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-10-10T19:50:00Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "Apple agreed to license technology and hire staff from personalized podcast maker Huxe.",
+     "rank": 4,
+     "id": "2026-10-11-apple-discloses-deal-to-hire-team-and-license-tech-from-huxe",
+     "date": "2026-10-11"
+    },
+    {
+     "title": "PitchBook reports robotics and physical AI companies raised ~$48B YTD",
+     "one_liner": "PitchBook reports that robotics and physical AI companies have raised approximately $48 billion year-to-date by gathering human task training data.",
+     "summary": "PitchBook reports that robotics and physical AI companies have raised roughly $48 billion year-to-date. These physical AI developers are placing cameras in homes, offices, and factories. They are gathering training data from people completing tasks in these locations to fill a gap in the training material of robotics.",
+     "eli5": "Robot makers are collecting videos of people doing chores in homes and offices so the robots can learn how to do those tasks themselves.",
+     "why_it_matters": "Collecting real-world human task data from homes, offices, and factories is becoming a major focus and funding driver for physical AI and robotics development.",
+     "topic": "industry",
+     "type": "event",
+     "labs": [],
+     "people": [],
+     "concepts": [
+      "dataset"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [
+      {
+       "term": "physical AI",
+       "definition": "Developers are putting cameras in homes, offices and factories to fill a gap in the training material of robotics."
+      }
+     ],
+     "sources": [
+      {
+       "title": "PitchBook: robotics and physical AI companies have raised ~$48B YTD, as they gather training data from people completing tasks in factories, offices, and homes (Rafe Rosner-Uddin/Financial Times)",
+       "url": "https://www.techmeme.com/261011/p6#a261011p6",
+       "name": "Techmeme",
+       "kind": "press"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-10-11T13:00:51Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "PitchBook data indicates robotics and physical AI firms have raised roughly 48 billion dollars year to date.",
+     "rank": 5,
+     "id": "2026-10-11-pitchbook-reports-robotics-and-physical-ai-companies-raised",
+     "date": "2026-10-11"
+    },
+    {
+     "title": "Agent Chrome Relay Repository on GitHub by Alexey Indeev",
+     "one_liner": "Alexey Indeev created a GitHub repository for agent-chrome-relay, letting coding agents use Chrome in background tabs.",
+     "summary": "Alexey Indeev published agent-chrome-relay on GitHub. The tool lets coding agents like Claude Code, Codex, Cursor, and Paseo use everyday Google Chrome through the command line in background tabs. It runs at approximately 0.15s per command without taking focus or showing dialogs. The setup requires macOS, Google Chrome, Go 1.25+, and agent-browser. It features an audit trail, background tabs, and optional integrations with 1Password and Secure Enclave passkeys. The repository has 251 stars and uses the Go language.",
+     "eli5": "It is like giving your robot assistant its own invisible browser window so it can look up things for you without taking over your screen.",
+     "why_it_matters": "Coding agents can perform browser tasks directly in the background using existing user logins and session states.",
+     "topic": "dev-tools",
+     "type": "product",
+     "labs": [],
+     "people": [],
+     "concepts": [
+      "agent",
+      "coding-assistant",
+      "tool-use"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "aindeev/agent-chrome-relay: Let your AI agents use your Chrome, signed in as you, in background tabs. By Alexey Indeev · blog: read.aindeev.com · X: @AlexeyIndeev",
+       "url": "https://github.com/aindeev/agent-chrome-relay",
+       "name": "GitHub new AI repos",
+       "kind": "original"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-10-10T07:38:27Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 2,
+      "hype_flags": []
+     },
+     "editor_reason": "Agent-chrome-relay provides an open source tool for running automated agents inside authenticated user browser tabs.",
+     "rank": 6,
+     "id": "2026-10-11-agent-chrome-relay-repository-on-github-by-alexey-indeev",
+     "date": "2026-10-11"
+    }
+   ],
+   "stats": {
+    "items": 29,
+    "stories": 28,
+    "sources_ok": 32,
+    "sources_failed": [],
+    "published": 6,
+    "dropped": 2,
+    "llm_calls": 23,
+    "cache_hits": 0,
+    "models": {
+     "gemini:gemini-3.8-flash": 1,
+     "gemini:gemini-3.5-flash-lite": 11,
+     "groq:openai/gpt-oss-120b": 9,
+     "groq:qwen/qwen3.8-27b": 1,
+     "gemini:gemini-3.1-flash-lite": 1
+    },
+    "fallbacks": [
+     {
+      "tag": "editor",
+      "used": "gemini:gemini-3.8-flash",
+      "after": [
+       "gemini:gemini-3.8-flash: HTTP 503 [{\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n]"
+      ]
+     },
+     {
+      "tag": "checker",
+      "used": "groq:qwen/qwen3.8-27b",
+      "after": [
+       "groq:openai/gpt-oss-120b: HTTP 400 {\"error\":{\"message\":\"Failed to validate JSON. Please adjust your prompt. See 'failed_generation' for more details.\",\"type\":\"invalid_request_error\",\"code\":\"json_validate_failed\",\"failed_generation\":\"\"}"
+      ]
+     },
+     {
+      "tag": "checker",
+      "used": "gemini:gemini-3.1-flash-lite",
+      "after": [
+       "groq:openai/gpt-oss-120b: HTTP 400 {\"error\":{\"message\":\"Failed to generate JSON. Please adjust your prompt. See 'failed_generation' for more details.\",\"type\":\"invalid_request_error\",\"code\":\"json_validate_failed\",\"failed_generation\":\"ma",
+       "groq:qwen/qwen3.8-27b: HTTP 400 {\"error\":{\"message\":\"Failed to generate JSON. Please adjust your prompt. See 'failed_generation' for more details.\",\"type\":\"invalid_request_error\",\"code\":\"json_validate_failed\",\"failed_generation\":\"ma"
+      ]
+     },
+     {
+      "tag": "checker",
+      "used": "groq:openai/gpt-oss-120b",
+      "after": [
+       "groq:openai/gpt-oss-120b: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m4e2y3jzet7vqfgnag5gc2as` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 5665, Req"
+      ]
+     }
+    ],
+    "seconds": 146
+   }
   }
  }
 }

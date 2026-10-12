@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-11T09:06:18Z",
+ "updated_at": "2026-10-11T18:17:29Z",
  "window_days": 7,
  "groups": [
   {
@@ -490,6 +490,32 @@
  ],
  "posts": [
   {
+   "id": "bsky-marcorus.bsky.social-3mxlikvqqpn2w",
+   "person": "marco-russo",
+   "platform": "bluesky",
+   "url": "https://bsky.app/profile/marcorus.bsky.social/post/3mxlikvqqpn2w",
+   "posted_at": "2026-10-11T07:35:55Z",
+   "text": "𝗖𝗼𝗱𝗲 𝗮𝘀 𝗮 𝗵𝗼𝗯𝗯𝘆\n​\nThere are two types of developers, hyper-logical and hyper-creative, who feel very differently about AI writing their code.\n​It seems to me that how you feel about AI writing code depends on why you write code.\n​\nRead my thoughts:",
+   "links": [],
+   "context": {
+    "kind": "link",
+    "url": "https://marcorusso.com/writing/code-as-a-hobby/",
+    "title": "Code as a hobby — marcorusso.com",
+    "text": "There are two types of developers, hyper-logical and hyper-creative, who feel very differently about AI writing their code."
+   },
+   "likes": 2,
+   "reposts": 0,
+   "via": "feed",
+   "meaning": "Russo observes that developer attitudes toward AI coding assistants depend on whether they view coding as a hyper-logical or hyper-creative hobby.",
+   "concepts": [
+    "coding-assistant"
+   ],
+   "story": null,
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "groq:openai/gpt-oss-120b",
+   "added": "2026-10-11"
+  },
+  {
    "id": "bsky-natolambert.bsky.social-3mxjv24xzzo2z",
    "person": "nathan-lambert",
    "platform": "bluesky",
@@ -497,7 +523,7 @@
    "posted_at": "2026-10-10T16:13:51Z",
    "text": "We've been monitoring a decline in HuggingFace downloads across the top open LLMs we track for interconnects. It looks like there was a slight change in counting of downloads, as we saw a ~30% download rate drop for many top models, but this is continuing over time. \ndashboard.interconnects.ai",
    "context": null,
-   "likes": 23,
+   "likes": 27,
    "reposts": 2,
    "via": "feed",
    "meaning": "Lambert notes a sustained decline in HuggingFace downloads across top open LLMs, initially linked to counting changes but continuing over time.",
@@ -551,7 +577,7 @@
    "posted_at": "2026-10-09T16:27:48Z",
    "text": "Randomized trials with GPT-4o: \"AI access raises test scores, and a smaller gain persists a week later. Gains remain for students who use AI as a tutor (“augmentation”) and fade for students who have AI write for them (“automation”)\"\n\nAcross all experiments, positive effects arxiv.org/abs/2607.08849",
    "context": null,
-   "likes": 65,
+   "likes": 67,
    "reposts": 12,
    "via": "feed",
    "meaning": "Mollick shares that randomized trials show AI access raises test scores, with gains persisting when used as a tutor but fading when the AI writes for the student.",
@@ -720,7 +746,7 @@
     "title": "Introducing Claude Haiku 5.5",
     "text": "As previously promised, here’s Anthropic’s new fast, low cost model: Introducing Claude Haiku 5.5. The previous Haiku, 4.5, was very much showing its age. It came out almost a year …"
    },
-   "likes": 78,
+   "likes": 79,
    "reposts": 4,
    "via": "feed",
    "meaning": "Willison shares notes and pricing details on the newly released Claude Haiku 5.5 model from Anthropic, highlighting its low cost and speed compared to its predecessor.",
@@ -858,6 +884,30 @@
      "url": "https://www.interconnects.ai/p/the-cyber-risk-discourse-is-broken"
     }
    ]
+  },
+  {
+   "id": "bsky-marcorus.bsky.social-3mx76lefq5u2l",
+   "person": "marco-russo",
+   "platform": "bluesky",
+   "url": "https://bsky.app/profile/marcorus.bsky.social/post/3mx76lefq5u2l",
+   "posted_at": "2026-10-06T10:05:16Z",
+   "text": "Defining the right contract is a key activity for a DAX developer using AI.\nIn this article and video, we introduce the concept of a contract through simple examples.\n\nhttps://www.sqlbi.com/articles/understanding-dax-contracts-when-using-ai/\n\n#dax #ai",
+   "links": [
+    {
+     "text": "https://www.sqlbi.com/articles/understanding-dax-contracts-when-using-ai/",
+     "url": "https://www.sqlbi.com/articles/understanding-dax-contracts-when-using-ai/"
+    }
+   ],
+   "context": null,
+   "likes": 1,
+   "reposts": 0,
+   "via": "feed",
+   "meaning": "Russo explains that defining the right contract is a key activity when using AI for DAX development, sharing examples in a new article and video.",
+   "concepts": [],
+   "story": null,
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "groq:openai/gpt-oss-120b",
+   "added": "2026-10-11"
   },
   {
    "id": "bsky-emollick.bsky.social-3mx63cx3bjs2o",
