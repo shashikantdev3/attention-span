@@ -97,6 +97,9 @@ commits or pushes. Change the end date at the top of the script. To remove it:
 into `state/heads_inbox.txt`, one per line, as `URL | optional note`. Bluesky post links work too. Only posts by the 51
 people in `seed/heads.py` are used. To update only this section: `python run_daily.py --heads-only`.
 
+**Add a story the nightly run missed to a past edition**: `python tools/add_story.py URL --date 2026-10-10 --rank 2`.
+Put the maker's own post first. It goes through the same writer and fact-checker, and is marked as added by the editor.
+
 **Add a link the feeds missed** (for example an X post): put it in `state/inbox.txt`, one per line, as `URL | short note`.
 
 **Approve new glossary terms** proposed by the writer: `python tools/review_terms.py`, then `python seed/build_seed.py`.

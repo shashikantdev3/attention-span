@@ -143,7 +143,7 @@
       {
        "title": "GitHub Copilot brings on-device AI coding to new Windows PCs",
        "url": "https://commandline.microsoft.com/local-models-sandboxed-tools-github-windows/",
-       "name": "Microsoft Source (news)",
+       "name": "Microsoft Command Line",
        "kind": "original"
       }
      ],
@@ -1140,6 +1140,58 @@
      "date": "2026-10-10"
     },
     {
+     "title": "Microsoft Introduces Microsoft-Decision-1 for Fast Decision-Scoring",
+     "one_liner": "Microsoft introduced Microsoft-Decision-1, a new model for fast decision-scoring designed for routing, classification, prioritization, verification, and workflow control.",
+     "summary": "Microsoft introduced Microsoft-Decision-1, a decision-scoring model available in Microsoft Foundry and through OpenRouter. The model is built by post-training Qwen3.5-9B for single-pass decision scoring, and Microsoft plans to rebase it on other models including Microsoft AI and OpenAI. It supports yes/no, multiple-choice, rating options, and rubric-based grading through a simple structured API call. In Microsoft’s own benchmarks, Microsoft-Decision-1 had the highest accuracy and outperformed both large language models and other decision models, including being 35 times quicker than GPT-6 Sol and 2.5 times quicker than H2O-Lightning-4B v1.1.",
+     "eli5": "This new computer model acts like a fast multiple-choice test grader that immediately tells you the exact chance of each answer being right.",
+     "why_it_matters": "Decision models deliver structured outputs at very low cost with high performance to help software agents act immediately.",
+     "topic": "models",
+     "type": "model",
+     "labs": [
+      "microsoft",
+      "qwen",
+      "openai"
+     ],
+     "people": [],
+     "concepts": [
+      "benchmark",
+      "structured-outputs",
+      "probability-calibration"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [
+      {
+       "term": "decision model",
+       "definition": "Decision models are purpose-built to deliver structured outputs that software can immediately act on."
+      },
+      {
+       "term": "single-pass decision scoring",
+       "definition": "Single-pass decision scoring is a method built by post-training Qwen3.5-9B to provide calibrated probability scores for fixed answer options."
+      }
+     ],
+     "sources": [
+      {
+       "title": "Microsoft-Decision-1: Our model for fast decision-making",
+       "url": "https://commandline.microsoft.com/microsoft-decision-1-model-foundry/",
+       "name": "Microsoft Command Line",
+       "kind": "original"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-10-10T01:35:51Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "Added by the editor after the nightly run missed it.",
+     "added_by_editor": "2026-10-12",
+     "id": "2026-10-10-microsoft-introduces-microsoft-decision-1-for-fast-decision",
+     "date": "2026-10-10",
+     "rank": 2
+    },
+    {
      "title": "Ukrainian Drones Knock Out Data Centers Belonging to Yandex",
      "one_liner": "Ukrainian drone strikes knocked out two Yandex data centers, leaving the Russian tech giant struggling to maintain its online services.",
      "summary": "Ukrainian drone strikes have knocked out two of five data centers belonging to the Russian tech giant Yandex. Known as Russia’s Google because it operates the country's most popular search engine, Yandex is now struggling to maintain its AI chatbot and other online services. The strikes hit data centers in the Sasovo and Kaluga regions on October 8 and October 9, according to Reuters. The action was a direct response to Russian drone strikes targeting Ukraine’s data centers. Ukrainian President Volodymyr Zelenskyy confirmed the symmetrical response in a post on X.",
@@ -1171,7 +1223,7 @@
       "hype_flags": []
      },
      "editor_reason": "Drone strikes disabled two Yandex data centers in Russia, hitting compute infrastructure that supports the company's AI services.",
-     "rank": 2,
+     "rank": 3,
      "id": "2026-10-10-ukrainian-drones-knock-out-data-centers-belonging-to-yandex",
      "date": "2026-10-10"
     },
@@ -1211,7 +1263,7 @@
       "hype_flags": []
      },
      "editor_reason": "A US Senate inquiry led by three senators concluded that major hyperscalers misled the public on the environmental footprint of their AI data centers.",
-     "rank": 3,
+     "rank": 4,
      "id": "2026-10-10-us-senate-investigation-says-some-hyperscalers-misled-the-pu",
      "date": "2026-10-10"
     },
@@ -1252,7 +1304,7 @@
       "hype_flags": []
      },
      "editor_reason": "A large CMS Slack group shows Microsoft and OpenAI working directly with US healthcare regulators to shape clinical AI rules.",
-     "rank": 4,
+     "rank": 5,
      "id": "2026-10-10-report-cms-runs-1-700-member-slack-with-tech-companies",
      "date": "2026-10-10"
     },
@@ -1289,7 +1341,7 @@
       "hype_flags": []
      },
      "editor_reason": "Financial reports reveal Anthropic and OpenAI account for cloud revenue differently, with Anthropic booking gross figures while OpenAI records net sales.",
-     "rank": 5,
+     "rank": 6,
      "id": "2026-10-10-report-details-differing-revenue-calculations-for-anthropic",
      "date": "2026-10-10"
     },
@@ -1323,7 +1375,7 @@
       "hype_flags": []
      },
      "editor_reason": "Synopsys is exploring partnerships with Chinese AI research groups to build automated chip design software.",
-     "rank": 6,
+     "rank": 7,
      "id": "2026-10-10-synopsys-explores-partnerships-with-chinese-ai-labs",
      "date": "2026-10-10"
     },
@@ -1374,7 +1426,7 @@
       "hype_flags": []
      },
      "editor_reason": "SparseDecoding presents a training-free pruning technique designed to reduce memory bottlenecks and inference latency during the decoding phase.",
-     "rank": 7,
+     "rank": 8,
      "id": "2026-10-10-sparsedecoding-proposes-decoding-aware-pruning-for-llm-infer",
      "date": "2026-10-10"
     },
@@ -1429,7 +1481,7 @@
       "hype_flags": []
      },
      "editor_reason": "Opera introduces a verbal critic framework to supply targeted feedback and reduce drift in long-horizon coding tasks.",
-     "rank": 8,
+     "rank": 9,
      "id": "2026-10-10-researchers-present-opera-verbal-critic-framework-for-coding",
      "date": "2026-10-10"
     },
@@ -1480,7 +1532,7 @@
       "hype_flags": []
      },
      "editor_reason": "Talorys lets developers deploy a self-hosted personal AI agent entirely within Cloudflare's free service tier.",
-     "rank": 9,
+     "rank": 10,
      "id": "2026-10-10-talorys-launches-as-a-self-hosted-personal-ai-agent-on-cloud",
      "date": "2026-10-10"
     }
@@ -1490,7 +1542,7 @@
     "stories": 47,
     "sources_ok": 32,
     "sources_failed": [],
-    "published": 9,
+    "published": 10,
     "dropped": 1,
     "llm_calls": 1,
     "cache_hits": 30,

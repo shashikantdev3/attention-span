@@ -154,11 +154,39 @@
   "source": "https://arxiv.org/abs/2610.11959"
  },
  {
+  "term": "reverse acqui-hires",
+  "definition": "A way for larger companies to hire key team members and license technology from startups without acquiring the startups outright.",
+  "first_seen": "2026-10-11",
+  "story": "2026-10-11-apple-discloses-deal-to-hire-team-and-license-tech-from-huxe",
+  "source": "https://techcrunch.com/2026/10/10/apple-discloses-deal-to-hire-team-and-license-tech-from-personalized-podcast-startup-huxe/"
+ },
+ {
+  "term": "physical AI",
+  "definition": "Developers are putting cameras in homes, offices and factories to fill a gap in the training material of robotics.",
+  "first_seen": "2026-10-11",
+  "story": "2026-10-11-pitchbook-reports-robotics-and-physical-ai-companies-raised",
+  "source": "https://www.techmeme.com/261011/p6#a261011p6"
+ },
+ {
   "term": "non-text AI model",
   "definition": "A model that does not output text, but instead produces probabilities, or what the company calls calibrated decisions.",
   "first_seen": "2026-10-10",
   "story": "2026-10-10-typesafe-ai-raises-870-million-at-7-5-billion-valuation",
   "source": "https://techcrunch.com/2026/10/09/the-maker-of-non-text-ai-model-jev-valued-at-7-5b-just-weeks-after-launch/"
+ },
+ {
+  "term": "decision model",
+  "definition": "Decision models are purpose-built to deliver structured outputs that software can immediately act on.",
+  "first_seen": "2026-10-10",
+  "story": "2026-10-10-microsoft-introduces-microsoft-decision-1-for-fast-decision",
+  "source": "https://commandline.microsoft.com/microsoft-decision-1-model-foundry/"
+ },
+ {
+  "term": "single-pass decision scoring",
+  "definition": "Single-pass decision scoring is a method built by post-training Qwen3.5-9B to provide calibrated probability scores for fixed answer options.",
+  "first_seen": "2026-10-10",
+  "story": "2026-10-10-microsoft-introduces-microsoft-decision-1-for-fast-decision",
+  "source": "https://commandline.microsoft.com/microsoft-decision-1-model-foundry/"
  },
  {
   "term": "decoding-aware pruning",
@@ -187,19 +215,5 @@
   "first_seen": "2026-10-10",
   "story": "2026-10-10-talorys-launches-as-a-self-hosted-personal-ai-agent-on-cloud",
   "source": "https://github.com/rociiu/talorys"
- },
- {
-  "term": "reverse acqui-hires",
-  "definition": "A way for larger companies to hire key team members and license technology from startups without acquiring the startups outright.",
-  "first_seen": "2026-10-11",
-  "story": "2026-10-11-apple-discloses-deal-to-hire-team-and-license-tech-from-huxe",
-  "source": "https://techcrunch.com/2026/10/10/apple-discloses-deal-to-hire-team-and-license-tech-from-personalized-podcast-startup-huxe/"
- },
- {
-  "term": "physical AI",
-  "definition": "Developers are putting cameras in homes, offices and factories to fill a gap in the training material of robotics.",
-  "first_seen": "2026-10-11",
-  "story": "2026-10-11-pitchbook-reports-robotics-and-physical-ai-companies-raised",
-  "source": "https://www.techmeme.com/261011/p6#a261011p6"
  }
 ]

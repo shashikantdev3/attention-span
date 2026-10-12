@@ -69,6 +69,16 @@
    "filter_ai": true
   },
   {
+   "id": "ms-commandline",
+   "name": "Microsoft Command Line",
+   "kind": "rss",
+   "url": "https://commandline.microsoft.com/feed/",
+   "weight": 3,
+   "lab": "microsoft",
+   "original": true,
+   "filter_ai": true
+  },
+  {
    "id": "azure-foundry",
    "name": "Azure AI Foundry Blog",
    "kind": "rss",
