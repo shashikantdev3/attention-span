@@ -1900,6 +1900,538 @@
     ],
     "seconds": 146
    }
+  },
+  "2026-10-12": {
+   "date": "2026-10-12",
+   "generated_at": "2026-10-12T18:19:08Z",
+   "stories": [
+    {
+     "title": "Meta Releases Muse Wonder and Muse Wonder Full Frontier Models",
+     "one_liner": "Meta released its first frontier artificial intelligence models, Muse Wonder and Muse Wonder Full, featuring active memory and agent capabilities.",
+     "summary": "Meta's Superintelligence Lab released a pair of new state-of-the-art models on Monday named Muse Wonder and Muse Wonder Full. These models represent the company's first attempt at a frontier model. Wonder and Wonder Full achieve comparable benchmark scores to Fable 5.1 and GPT-6 Astra. Accessed through the Meta Model API, Wonder costs $4.00 per million input tokens and $20.00 per million output tokens. Wonder Full is only available to Muse Code subscribers. Both models power the Muse agent and include active memory to retain and synthesize user information over time.",
+     "eli5": "Meta built a new computer brain that remembers things you told it days or months ago, just like a human friend does.",
+     "why_it_matters": "Accessing frontier performance via APIs introduces new pricing structures for developers building long-running personal agents.",
+     "topic": "models",
+     "type": "model",
+     "labs": [
+      "meta"
+     ],
+     "people": [],
+     "concepts": [
+      "agent",
+      "benchmark",
+      "tokens"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [
+      {
+       "term": "active memory",
+       "definition": "A property enabling models to retain and synthesize information given by the user over a long period."
+      }
+     ],
+     "sources": [
+      {
+       "title": "Meta releases its first frontier model, Muse Wonder",
+       "url": "https://techcrunch.com/2026/10/12/meta-releases-its-first-frontier-model-muse-wonder/",
+       "name": "TechCrunch AI",
+       "kind": "press"
+      },
+      {
+       "title": "Meta says Muse Wonder is available to Muse app subscribers, via Meta Model API, and Muse Code; Wonder Full is available to Muse Code subscribers (Jonathan Vanian/CNBC)",
+       "url": "https://www.techmeme.com/261012/p35#a261012p35",
+       "name": "Techmeme",
+       "kind": "press"
+      },
+      {
+       "title": "Meta introduces Muse Wonder and Muse Wonder Full, saying they deliver state-of-the-art performance on personal and professional agentic tasks (Meta AI Research)",
+       "url": "https://www.techmeme.com/261012/p31#a261012p31",
+       "name": "Techmeme",
+       "kind": "press"
+      },
+      {
+       "title": "Meta says Wonder includes Active Memory and Active Focus, two features designed to help AI systems perform more useful work over extended periods (Ina Fried/Axios)",
+       "url": "https://www.techmeme.com/261012/p34#a261012p34",
+       "name": "Techmeme",
+       "kind": "press"
+      },
+      {
+       "title": "Meta says it plans to power its Muse AI agent with Wonder, starting with subscribers, and will develop specialized models it \"can bring to everyone using Muse\" (Robert Hart/The Verge)",
+       "url": "https://www.techmeme.com/261012/p33#a261012p33",
+       "name": "Techmeme",
+       "kind": "press"
+      },
+      {
+       "title": "An interview with Mark Zuckerberg, who says Meta has caught up with rivals at the frontier of AI with its Wonder model and rejects calls for a slowdown (Hannah Murphy/Financial Times)",
+       "url": "https://www.techmeme.com/261012/p32#a261012p32",
+       "name": "Techmeme",
+       "kind": "press"
+      }
+     ],
+     "buzz": 2,
+     "published": "2026-10-12T17:00:13Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 2,
+      "hype_flags": []
+     },
+     "editor_reason": "Meta released Muse Wonder and Muse Wonder Full as its first entries at the frontier model level.",
+     "rank": 1,
+     "id": "2026-10-12-meta-releases-muse-wonder-and-muse-wonder-full-frontier-mode",
+     "date": "2026-10-12"
+    },
+    {
+     "title": "Microsoft Announces Azure Maia 300 and Multi-Gigawatt Deployments",
+     "one_liner": "Microsoft plans multi-gigawatt deployments of its Azure Maia chips starting in 2027, introducing the Maia 300 system.",
+     "summary": "Microsoft announced plans to scale its Azure Maia family to multi-gigawatt deployments starting in 2027. The Maia 200 is currently in production, serving workloads like Microsoft Copilot and running OpenAI models, Microsoft MAI models, and open-source models. GitHub Copilot and Microsoft Foundry will use Maia 200 by the end of the year. Meanwhile, Maia 300 is coming in 2027 as a complete intelligent system for long-context reasoning, latency-sensitive conversational experiences, and multi-step agentic tasks. Maia 300 will deliver 40% more tokens per megawatt compared to leading GPU-based systems and features a multi-chiplet architecture.",
+     "eli5": "Microsoft is building its own custom computer chips to run AI programs faster and save energy, much like packing a lunchbox with specialized compartments instead of carrying extra bags.",
+     "why_it_matters": "Custom hardware co-designed with software applications changes how enterprise AI workloads run at scale.",
+     "topic": "industry",
+     "type": "event",
+     "labs": [
+      "microsoft",
+      "openai"
+     ],
+     "people": [],
+     "concepts": [
+      "inference",
+      "tokens",
+      "gpu"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [
+      {
+       "term": "software-defined dataflow architecture",
+       "definition": "A system design that treats dataflow as a first-class principle to maximize locality and reduce data movement across resources."
+      },
+      {
+       "term": "multi-chiplet architecture",
+       "definition": "An architecture that separates compute, memory-controller, and I/O functions to improve efficiency, scalability, and cost structure."
+      }
+     ],
+     "sources": [
+      {
+       "title": "Microsoft to expand Azure Maia system to multi-gigawatt deployments",
+       "url": "https://blogs.microsoft.com/blog/2026/10/12/microsoft-to-expand-azure-maia-system-to-multi-gigawatt-deployments/",
+       "name": "Official Microsoft Blog",
+       "kind": "original"
+      },
+      {
+       "title": "Microsoft says Maia 300 racks will hold 96 chips and use ~167 kW of power and plans to roll out \"multi-gigawatt deployments\" of the chip starting next year (Reuters)",
+       "url": "https://www.techmeme.com/261012/p29#a261012p29",
+       "name": "Techmeme",
+       "kind": "press"
+      },
+      {
+       "title": "Analysis: constructing and equipping a 1GW AI data center in Abilene, Texas, could cost ~$30B, including $17B on chips, $3B on power, and $2.4B on construction (Lynn Doan/Bloomberg)",
+       "url": "https://www.techmeme.com/261012/p24#a261012p24",
+       "name": "Techmeme",
+       "kind": "press"
+      }
+     ],
+     "buzz": 3,
+     "published": "2026-10-12T13:01:29Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 2,
+      "hype_flags": []
+     },
+     "editor_reason": "Microsoft detailed its Azure Maia 200 and 300 roadmap for multi-gigawatt AI infrastructure deployments.",
+     "rank": 2,
+     "id": "2026-10-12-microsoft-announces-azure-maia-300-and-multi-gigawatt-deploy",
+     "date": "2026-10-12"
+    },
+    {
+     "title": "NVIDIA Opens Vera Rubin Architecture at OCP Global Summit",
+     "one_liner": "NVIDIA announced new partnerships and open architecture contributions at the OCP Global Summit to help scale AI factories worldwide.",
+     "summary": "At the Open Compute Project Global Summit in San Jose, NVIDIA announced new partnerships and contributions to create a common foundation for next-generation AI infrastructure. NVIDIA contributed key Vera Rubin rack and compute tray designs through the open NVIDIA MGX architecture. Partners and NVIDIA announced several advancements, including open standards for next-generation AI factories and grid resilience, new open source software components for the NVIDIA DSX AI Factory, and Meta and NVIDIA networking innovations. Additional contributions included Visionbay's 800V DC AI factory design, a new Ultra-Dense Small Form Factor Pluggable standard with Cisco, and Falcon Transport support with Google.",
+     "eli5": "Building giant computer factories is like building a massive city where all the plumbing and electricity need to fit together perfectly, so companies are sharing common building plans so everyone's parts work together.",
+     "why_it_matters": "Open hardware and software standards accelerate the deployment and improve the power efficiency of large-scale AI infrastructure.",
+     "topic": "industry",
+     "type": "event",
+     "labs": [
+      "nvidia",
+      "meta",
+      "google"
+     ],
+     "people": [],
+     "concepts": [
+      "gpu",
+      "inference"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [
+      {
+       "term": "rack-scale architecture",
+       "definition": "An architecture that unites compute, networking, power, and cooling into a common modular platform."
+      },
+      {
+       "term": "blind-mate liquid cooling",
+       "definition": "A liquid cooling technology integrated into rack-scale designs to handle higher-power AI systems."
+      }
+     ],
+     "sources": [
+      {
+       "title": "OCP Global Summit: Amid Ecosystem Adoption, NVIDIA Opens Vera Rubin Architecture to Help Scale AI Factories Worldwide",
+       "url": "https://blogs.nvidia.com/blog/ocp-global-summit-vera-rubin-scale-ai-factories/",
+       "name": "NVIDIA Blog",
+       "kind": "original"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-10-12T15:00:25Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "NVIDIA opened its Vera Rubin architecture to help standardize hardware for gigawatt-scale AI factories.",
+     "rank": 3,
+     "id": "2026-10-12-nvidia-opens-vera-rubin-architecture-at-ocp-global-summit",
+     "date": "2026-10-12"
+    },
+    {
+     "title": "Meta Uses Idle AI Inference Capacity to Improve Ads",
+     "one_liner": "Meta built a system that turns idle AI inference capacity into better ads recommendations without compromising baseline performance.",
+     "summary": "Meta built a system that aggregates locally idle pockets of AI inference capacity into a shared pool. The system improves ads recommendations by putting otherwise wasted capacity to work. Inference fleets often face a capacity paradox where they are globally constrained while remaining locally idle due to demand mismatches, timing gaps, or hardware differences. Meta uses two levers to handle this volatile capacity safely. Rank More Ads adjusts the number of candidates evaluated in ranking stages. Serve Better Models adjusts the share of requests routed to more powerful models. These mechanisms expand and contract optional work while protecting baseline reliability.",
+     "eli5": "Like using extra empty seats on a bus to let more people on when they are waiting, the system uses extra computer power that is sitting around to show better ads.",
+     "why_it_matters": "Idle hardware across distributed inference fleets can be harnessed dynamically for heavy workloads using elasticity levers and isolated control loops.",
+     "topic": "industry",
+     "type": "product",
+     "labs": [
+      "meta"
+     ],
+     "people": [],
+     "concepts": [
+      "inference",
+      "machine-learning"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [
+      {
+       "term": "Rank More Ads",
+       "definition": "Rank More Ads adjusts the number of candidates evaluated by the ranking stages when opportunistic capacity is available."
+      },
+      {
+       "term": "Serve Better Models",
+       "definition": "Serve Better Models adjusts the share of requests routed to a more powerful model."
+      }
+     ],
+     "sources": [
+      {
+       "title": "Turning Opportunistic AI Inference Capacity Into Better Ads Recommendations",
+       "url": "https://engineering.fb.com/2026/10/12/ml-applications/turning-opportunistic-ai-inference-capacity-into-better-ads-recommendations/",
+       "name": "Meta Engineering",
+       "kind": "original"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-10-12T16:00:50Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "Meta shared a system for improving ads recommendations by utilizing idle inference capacity across its fleet.",
+     "rank": 4,
+     "id": "2026-10-12-meta-uses-idle-ai-inference-capacity-to-improve-ads",
+     "date": "2026-10-12"
+    },
+    {
+     "title": "Custom SQL Pools in Microsoft Fabric Data Warehouse Generally Available",
+     "one_liner": "Custom SQL Pools and statement type classification are now generally available in Microsoft Fabric Data Warehouse.",
+     "summary": "Custom SQL Pools and statement type classification are now generally available in Microsoft Fabric Data Warehouse. Administrators receive more control over compute resource allocation across different workloads in a workspace. Workloads can be isolated into separate pools, and maximum resource allocation percentages can be set. Statement type classification separates read and write workloads into SELECT and NONSELECT categories. Fabric creates separate pools for both categories with an initial maximum allocation of 50 percent each. Administrators can adjust these percentages as long as the combined maximum allocation does not exceed 100 percent.",
+     "eli5": "You have a toy box with a limited number of blocks. You set rules so that building a tower cannot take all the blocks, leaving enough blocks for making cars.",
+     "why_it_matters": "Resource allocation controls help prevent heavy data ingestion jobs from starving interactive reporting workloads of compute power.",
+     "topic": "data-bi",
+     "type": "product",
+     "labs": [
+      "microsoft"
+     ],
+     "people": [],
+     "concepts": [
+      "microsoft-fabric"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [
+      {
+       "term": "statement type classification",
+       "definition": "Statement type classification provides a simple way to separate read and write workloads."
+      }
+     ],
+     "sources": [
+      {
+       "title": "Custom SQL Pools in Fabric Data Warehouse (Generally Available)",
+       "url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Custom-SQL-Pools-in-Fabric-Data-Warehouse-Generally-Available/ba-p/5368292",
+       "name": "Microsoft Fabric Blog",
+       "kind": "original"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-10-12T15:00:00Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "Microsoft Fabric made Custom SQL Pools generally available in the Data Warehouse with statement type classification.",
+     "rank": 5,
+     "id": "2026-10-12-custom-sql-pools-in-microsoft-fabric-data-warehouse-generall",
+     "date": "2026-10-12"
+    },
+    {
+     "title": "AWS Releases Ray LLM Deep Learning Containers for Multi-Node Inference",
+     "one_liner": "AWS launched multi-node Ray LLM Deep Learning Containers to run large language models across multiple GPU nodes on Amazon EKS.",
+     "summary": "AWS introduced multi-node Ray LLM Deep Learning Containers to deploy a single large language model across two GPU nodes on Amazon EKS. The setup uses separate prefill and decode nodes behind one OpenAI-compatible endpoint. Prefill processes input prompts and builds the key-value cache, while decode generates responses token by token. Separating these phases prevents compute-heavy prompts from stalling ongoing token generation. The containers bundle vLLM, Ray Serve, NIXL for key-value cache transfers, and the Elastic Fabric Adapter stack. This approach avoids manual dependency management and custom application code.",
+     "eli5": "Instead of cooking a whole meal in one small pot, this container lets two kitchen stations work together, where one station prepares the ingredients and the other cooks them.",
+     "why_it_matters": "Multi-node LLM inference can be deployed without building custom dependency chains for the GPU stack.",
+     "topic": "dev-tools",
+     "type": "product",
+     "labs": [
+      "nvidia",
+      "other"
+     ],
+     "people": [],
+     "concepts": [
+      "llm",
+      "gpu",
+      "inference"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "Run multi-node inference workloads using Ray LLM Deep Learning Containers",
+       "url": "https://aws.amazon.com/blogs/machine-learning/run-multi-node-inference-workloads-using-ray-llm-deep-learning-containers/",
+       "name": "AWS Machine Learning Blog",
+       "kind": "original"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-10-12T15:50:14Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "AWS released a guide for running multi-node inference workloads on Amazon EKS using Ray LLM containers.",
+     "rank": 6,
+     "id": "2026-10-12-aws-releases-ray-llm-deep-learning-containers-for-multi-node",
+     "date": "2026-10-12"
+    },
+    {
+     "title": "Deploying Decision Models with llama.cpp on Amazon SageMaker AI",
+     "one_liner": "AWS details how to deploy quantized decision models using llama.cpp and Amazon SageMaker AI for text generation and structured decisions.",
+     "summary": "AWS published a guide on deploying decision models using llama.cpp on Amazon SageMaker AI. Applications can route requests or assign policy outcomes by obtaining scores over a fixed set of choices. Developers can use the AWS Deep Learning Container for llama.cpp to serve OpenAI-compatible chat completions or extend the runtime with SemIf, formerly known as OpenJev. SemIf returns probabilities over declared options without decoding an answer token. Benchmarks comparing CPU and GPU endpoints showed that the GPU configuration was faster.",
+     "eli5": "Instead of asking a robot to write a whole essay, you just give it a multiple-choice quiz and look at how likely each answer is.",
+     "why_it_matters": "Structured decision endpoints provide direct probabilities over fixed choices without generating free-form text tokens.",
+     "topic": "dev-tools",
+     "type": "event",
+     "labs": [
+      "nvidia",
+      "other"
+     ],
+     "people": [],
+     "concepts": [
+      "inference",
+      "quantization",
+      "structured-outputs"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [
+      {
+       "term": "SemIf",
+       "definition": "An adapter that returns probabilities over declared options without decoding an answer token."
+      }
+     ],
+     "sources": [
+      {
+       "title": "Deploy decision models with llama.cpp on Amazon SageMaker AI",
+       "url": "https://aws.amazon.com/blogs/machine-learning/deploy-decision-models-with-llama-cpp-on-amazon-sagemaker-ai/",
+       "name": "AWS Machine Learning Blog",
+       "kind": "original"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-10-12T15:51:46Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "Amazon SageMaker AI added support for deploying decision models using llama.cpp for fixed-choice outputs.",
+     "rank": 7,
+     "id": "2026-10-12-deploying-decision-models-with-llama-cpp-on-amazon-sagemaker",
+     "date": "2026-10-12"
+    },
+    {
+     "title": "Microsoft President Warns AI Is Less Regulated Than Milk",
+     "one_liner": "Microsoft president Brad Smith stated that artificial intelligence is less regulated than milk and washing machines, calling for urgent safety rules.",
+     "summary": "Microsoft president Brad Smith stated that artificial intelligence is less regulated than milk and washing machines. He called for urgent rules to govern the technology, including legal obligations to victims of rogue AI agents and emergency brakes to pause systems. Chief executive Satya Nadella also called for emergency brakes on AI models. Meanwhile, Britain's AI minister Kanishka Narayan prepared to call on firms to manage risk better, as the UK government prepares to increase oversight.",
+     "eli5": "Artificial intelligence is like a new toy that is not checked for safety yet, even though milk and washing machines have strict rules.",
+     "why_it_matters": "Incoming legislation and safety mandates will likely require stronger safeguards and emergency stops for deployed models.",
+     "topic": "policy",
+     "type": "event",
+     "labs": [
+      "microsoft",
+      "openai",
+      "anthropic",
+      "google",
+      "government"
+     ],
+     "people": [],
+     "concepts": [
+      "ai-regulation",
+      "ai-safety",
+      "agent"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [
+      {
+       "term": "kill switches",
+       "definition": "Emergency brakes used to pause or slow down artificial intelligence if it grows out of control."
+      }
+     ],
+     "sources": [
+      {
+       "title": "AI less regulated than milk, Microsoft president says in warning over safety",
+       "url": "https://www.theguardian.com/technology/2026/oct/12/ai-less-regulated-than-milk-microsoft-president-calls-for-tougher-rules",
+       "name": "Hacker News",
+       "kind": "press"
+      },
+      {
+       "title": "Discussion on Hacker News",
+       "url": "https://news.ycombinator.com/item?id=50055654",
+       "name": "Hacker News",
+       "kind": "discussion"
+      },
+      {
+       "title": "Microsoft president says UK is best placed to drive AI regulation",
+       "url": "https://techcrunch.com/2026/10/12/microsoft-president-says-uk-is-best-placed-to-drive-ai-regulation/",
+       "name": "TechCrunch AI",
+       "kind": "press"
+      }
+     ],
+     "buzz": 2,
+     "published": "2026-10-12T12:46:52Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 2,
+      "hype_flags": []
+     },
+     "editor_reason": "Microsoft's president called for stronger regulatory oversight for AI companies to ensure safety.",
+     "rank": 8,
+     "id": "2026-10-12-microsoft-president-warns-ai-is-less-regulated-than-milk",
+     "date": "2026-10-12"
+    },
+    {
+     "title": "WindBorne Wins U.S. Air Force Contract for Balloon Data",
+     "one_liner": "WindBorne Systems secured a U.S. Air Force contract worth up to $49 million for weather balloon data.",
+     "summary": "The U.S. Air Force signed a contract with WindBorne Systems worth up to $49 million to buy data collected by the startup's fleet of autonomous weather balloons. WindBorne operates about 700 weather balloons globally. They collect atmospheric sensor readings that feed into customers and the company's own AI weather forecasting model. The Air Force pays only as it needs data by placing orders for specific regions at specific times. The contract has reached $1.7 million in orders so far. The company also builds deep-learning weather models like WeatherMesh 6.",
+     "eli5": "A company flies hundreds of smart balloons around the world to collect weather information, and the U.S. Air Force just agreed to buy this weather information from them.",
+     "why_it_matters": "Empirical sensor data from autonomous hardware fleets can directly train and ground deep-learning weather models.",
+     "topic": "industry",
+     "type": "event",
+     "labs": [
+      "government",
+      "google"
+     ],
+     "people": [],
+     "concepts": [
+      "deep-learning",
+      "dataset"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "WindBorne wins a hefty US Air Force contract for its balloon data",
+       "url": "https://techcrunch.com/2026/10/12/windborne-wins-a-hefty-us-air-force-contract-for-its-balloon-data/",
+       "name": "TechCrunch AI",
+       "kind": "press"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-10-12T17:19:14Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "WindBorne secured a major US Air Force contract for its AI-powered weather balloon data network.",
+     "rank": 9,
+     "id": "2026-10-12-windborne-wins-u-s-air-force-contract-for-balloon-data",
+     "date": "2026-10-12"
+    }
+   ],
+   "stats": {
+    "items": 52,
+    "stories": 48,
+    "sources_ok": 33,
+    "sources_failed": [],
+    "published": 9,
+    "dropped": 0,
+    "llm_calls": 25,
+    "cache_hits": 0,
+    "models": {
+     "gemini:gemini-3.5-flash-lite": 13,
+     "groq:qwen/qwen3.8-27b": 3,
+     "groq:openai/gpt-oss-120b": 9
+    },
+    "fallbacks": [
+     {
+      "tag": "checker",
+      "used": "groq:qwen/qwen3.8-27b",
+      "after": [
+       "groq:openai/gpt-oss-120b: HTTP 400 {\"error\":{\"message\":\"Failed to validate JSON. Please adjust your prompt. See 'failed_generation' for more details.\",\"type\":\"invalid_request_error\",\"code\":\"json_validate_failed\",\"failed_generation\":\"\"}"
+      ]
+     },
+     {
+      "tag": "checker",
+      "used": "groq:qwen/qwen3.8-27b",
+      "after": [
+       "groq:openai/gpt-oss-120b: HTTP 400 {\"error\":{\"message\":\"Failed to generate JSON. Please adjust your prompt. See 'failed_generation' for more details.\",\"type\":\"invalid_request_error\",\"code\":\"json_validate_failed\",\"failed_generation\":\"ma"
+      ]
+     },
+     {
+      "tag": "checker",
+      "used": "groq:qwen/qwen3.8-27b",
+      "after": [
+       "groq:openai/gpt-oss-120b: HTTP 400 {\"error\":{\"message\":\"Failed to validate JSON. Please adjust your prompt. See 'failed_generation' for more details.\",\"type\":\"invalid_request_error\",\"code\":\"json_validate_failed\",\"failed_generation\":\"\"}"
+      ]
+     },
+     {
+      "tag": "checker",
+      "used": "groq:openai/gpt-oss-120b",
+      "after": [
+       "groq:openai/gpt-oss-120b: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m4e2y3jzet7vqfgnag5gc2as` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 6647, Req"
+      ]
+     },
+     {
+      "tag": "checker",
+      "used": "groq:openai/gpt-oss-120b",
+      "after": [
+       "groq:openai/gpt-oss-120b: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m4e2y3jzet7vqfgnag5gc2as` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 6322, Req"
+      ]
+     },
+     {
+      "tag": "checker",
+      "used": "groq:openai/gpt-oss-120b",
+      "after": [
+       "groq:openai/gpt-oss-120b: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m4e2y3jzet7vqfgnag5gc2as` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 5981, Req"
+      ]
+     }
+    ],
+    "seconds": 245
+   }
   }
  }
 }

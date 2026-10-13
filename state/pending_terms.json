@@ -215,5 +215,75 @@
   "first_seen": "2026-10-10",
   "story": "2026-10-10-talorys-launches-as-a-self-hosted-personal-ai-agent-on-cloud",
   "source": "https://github.com/rociiu/talorys"
+ },
+ {
+  "term": "active memory",
+  "definition": "A property enabling models to retain and synthesize information given by the user over a long period.",
+  "first_seen": "2026-10-12",
+  "story": "2026-10-12-meta-releases-muse-wonder-and-muse-wonder-full-frontier-mode",
+  "source": "https://techcrunch.com/2026/10/12/meta-releases-its-first-frontier-model-muse-wonder/"
+ },
+ {
+  "term": "software-defined dataflow architecture",
+  "definition": "A system design that treats dataflow as a first-class principle to maximize locality and reduce data movement across resources.",
+  "first_seen": "2026-10-12",
+  "story": "2026-10-12-microsoft-announces-azure-maia-300-and-multi-gigawatt-deploy",
+  "source": "https://blogs.microsoft.com/blog/2026/10/12/microsoft-to-expand-azure-maia-system-to-multi-gigawatt-deployments/"
+ },
+ {
+  "term": "multi-chiplet architecture",
+  "definition": "An architecture that separates compute, memory-controller, and I/O functions to improve efficiency, scalability, and cost structure.",
+  "first_seen": "2026-10-12",
+  "story": "2026-10-12-microsoft-announces-azure-maia-300-and-multi-gigawatt-deploy",
+  "source": "https://blogs.microsoft.com/blog/2026/10/12/microsoft-to-expand-azure-maia-system-to-multi-gigawatt-deployments/"
+ },
+ {
+  "term": "rack-scale architecture",
+  "definition": "An architecture that unites compute, networking, power, and cooling into a common modular platform.",
+  "first_seen": "2026-10-12",
+  "story": "2026-10-12-nvidia-opens-vera-rubin-architecture-at-ocp-global-summit",
+  "source": "https://blogs.nvidia.com/blog/ocp-global-summit-vera-rubin-scale-ai-factories/"
+ },
+ {
+  "term": "blind-mate liquid cooling",
+  "definition": "A liquid cooling technology integrated into rack-scale designs to handle higher-power AI systems.",
+  "first_seen": "2026-10-12",
+  "story": "2026-10-12-nvidia-opens-vera-rubin-architecture-at-ocp-global-summit",
+  "source": "https://blogs.nvidia.com/blog/ocp-global-summit-vera-rubin-scale-ai-factories/"
+ },
+ {
+  "term": "Rank More Ads",
+  "definition": "Rank More Ads adjusts the number of candidates evaluated by the ranking stages when opportunistic capacity is available.",
+  "first_seen": "2026-10-12",
+  "story": "2026-10-12-meta-uses-idle-ai-inference-capacity-to-improve-ads",
+  "source": "https://engineering.fb.com/2026/10/12/ml-applications/turning-opportunistic-ai-inference-capacity-into-better-ads-recommendations/"
+ },
+ {
+  "term": "Serve Better Models",
+  "definition": "Serve Better Models adjusts the share of requests routed to a more powerful model.",
+  "first_seen": "2026-10-12",
+  "story": "2026-10-12-meta-uses-idle-ai-inference-capacity-to-improve-ads",
+  "source": "https://engineering.fb.com/2026/10/12/ml-applications/turning-opportunistic-ai-inference-capacity-into-better-ads-recommendations/"
+ },
+ {
+  "term": "statement type classification",
+  "definition": "Statement type classification provides a simple way to separate read and write workloads.",
+  "first_seen": "2026-10-12",
+  "story": "2026-10-12-custom-sql-pools-in-microsoft-fabric-data-warehouse-generall",
+  "source": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Custom-SQL-Pools-in-Fabric-Data-Warehouse-Generally-Available/ba-p/5368292"
+ },
+ {
+  "term": "SemIf",
+  "definition": "An adapter that returns probabilities over declared options without decoding an answer token.",
+  "first_seen": "2026-10-12",
+  "story": "2026-10-12-deploying-decision-models-with-llama-cpp-on-amazon-sagemaker",
+  "source": "https://aws.amazon.com/blogs/machine-learning/deploy-decision-models-with-llama-cpp-on-amazon-sagemaker-ai/"
+ },
+ {
+  "term": "kill switches",
+  "definition": "Emergency brakes used to pause or slow down artificial intelligence if it grows out of control.",
+  "first_seen": "2026-10-12",
+  "story": "2026-10-12-microsoft-president-warns-ai-is-less-regulated-than-milk",
+  "source": "https://www.theguardian.com/technology/2026/oct/12/ai-less-regulated-than-milk-microsoft-president-calls-for-tougher-rules"
  }
 ]

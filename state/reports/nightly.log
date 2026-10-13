@@ -182,3 +182,141 @@ To publish, review the report, then run:
   git commit -m "Edition 2026-10-11"
   git push
 Finished. Review state\reports, then publish with git. 
+ 
+==== 12-10-2026 23:45:02.49 ==== 
+Using C:\Users\debna\AppData\Local\Programs\Python\Python312\python.exe 
+1. Collecting the last 25 hours
+  anthropic                    ok   0  (1.1s)
+  ms-blogs                     ok   1  (1.2s)
+  google-ai                    ok   0  (1.6s)
+  azure-foundry                ok   0  (0.8s)
+  google-dev                   ok   0  (2.0s)
+  openai                       ok   0  (2.1s)
+  ms-ai                        ok   2  (2.1s)
+  deepmind                     ok   0  (2.4s)
+  ms-commandline               ok   0  (3.0s)
+  qwen                         ok   0  (0.6s)
+  meta-ai                      ok   1  (1.2s)
+  mistral                      ok   0  (1.2s)
+  aws-ml                       ok   3  (1.1s)
+  github-ai                    ok   1  (2.5s)
+  nvidia                       ok   1  (1.7s)
+  simonw                       ok   0  (1.5s)
+  hf-blog                      ok   0  (2.0s)
+  techcrunch-ai                ok   8  (0.7s)
+  verge-ai                     ok   1  (0.6s)
+  mit-tr-ai                    ok   0  (0.7s)
+  hf-papers                    ok   0  (0.6s)
+  powerbi                      ok   0  (4.5s)
+  hf-models                    ok   2  (0.6s)
+  inbox                        ok   0  (0.0s)
+  ars-ai                       ok   2  (1.9s)
+  techmeme                     ok   9  (1.6s)
+  person-andrej-karpathy-0     ok   0  (0.6s)
+  hn                           ok   9  (1.9s)
+  fabric                       ok   3  (5.2s)
+  github                       ok   8  (2.1s)
+  person-sam-altman-0          ok   0  (2.1s)
+  person-peter-steinberger-0   ok   0  (1.7s)
+  ms-research                  ok   1  (8.5s)
+   52 items from 33 sources (0 failed: none)
+2. Grouping into stories
+   48 stories, 2 already published on an earlier day
+3. Editor picks
+  editor (gemini:gemini-3.5-flash-lite): 9 picks, 3 merges
+4. Writing and fact-checking
+    ok  Meta Releases Muse Wonder and Muse Wonder Full Frontier Models  (2 sources)
+    ok  Microsoft Announces Azure Maia 300 and Multi-Gigawatt Deployments  (3 sources)
+    ok  NVIDIA Opens Vera Rubin Architecture at OCP Global Summit  (1 sources)
+    ok  Meta Uses Idle AI Inference Capacity to Improve Ads  (1 sources)
+    ok  Custom SQL Pools in Microsoft Fabric Data Warehouse Generally Available  (1 sources)
+    ok  AWS Releases Ray LLM Deep Learning Containers for Multi-Node Inference  (1 sources)
+    ok  Deploying Decision Models with llama.cpp on Amazon SageMaker AI  (1 sources)
+    ok  Microsoft President Warns AI Is Less Regulated Than Milk  (2 sources)
+    ok  WindBorne Wins U.S. Air Force Contract for Balloon Data  (1 sources)
+5. Saving
+   edition 2026-10-12: 9 stories written to docs/data/editions/
+   41 new terms waiting for review (python tools/review_terms.py)
+6. Attention Heads
+   Bluesky: 33 posts in 7 days from 22 of 22 accounts
+   inbox: 0 post links read
+   3 new posts to explain
+   3 posts added; 23 in the last 7 days; 24 kept in total
+
+## Dropped stories
+
+## Stats
+{
+ "items": 52,
+ "stories": 48,
+ "sources_ok": 33,
+ "sources_failed": [],
+ "published": 9,
+ "dropped": 0,
+ "llm_calls": 25,
+ "cache_hits": 0,
+ "models": {
+  "gemini:gemini-3.5-flash-lite": 14,
+  "groq:qwen/qwen3.8-27b": 3,
+  "groq:openai/gpt-oss-120b": 10
+ },
+ "fallbacks": [
+  {
+   "tag": "checker",
+   "used": "groq:qwen/qwen3.8-27b",
+   "after": [
+    "groq:openai/gpt-oss-120b: HTTP 400 {\"error\":{\"message\":\"Failed to validate JSON. Please adjust your prompt. See 'failed_generation' for more details.\",\"type\":\"invalid_request_error\",\"code\":\"json_validate_failed\",\"failed_generation\":\"\"}"
+   ]
+  },
+  {
+   "tag": "checker",
+   "used": "groq:qwen/qwen3.8-27b",
+   "after": [
+    "groq:openai/gpt-oss-120b: HTTP 400 {\"error\":{\"message\":\"Failed to generate JSON. Please adjust your prompt. See 'failed_generation' for more details.\",\"type\":\"invalid_request_error\",\"code\":\"json_validate_failed\",\"failed_generation\":\"ma"
+   ]
+  },
+  {
+   "tag": "checker",
+   "used": "groq:qwen/qwen3.8-27b",
+   "after": [
+    "groq:openai/gpt-oss-120b: HTTP 400 {\"error\":{\"message\":\"Failed to validate JSON. Please adjust your prompt. See 'failed_generation' for more details.\",\"type\":\"invalid_request_error\",\"code\":\"json_validate_failed\",\"failed_generation\":\"\"}"
+   ]
+  },
+  {
+   "tag": "checker",
+   "used": "groq:openai/gpt-oss-120b",
+   "after": [
+    "groq:openai/gpt-oss-120b: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m4e2y3jzet7vqfgnag5gc2as` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 6647, Req"
+   ]
+  },
+  {
+   "tag": "checker",
+   "used": "groq:openai/gpt-oss-120b",
+   "after": [
+    "groq:openai/gpt-oss-120b: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m4e2y3jzet7vqfgnag5gc2as` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 6322, Req"
+   ]
+  },
+  {
+   "tag": "checker",
+   "used": "groq:openai/gpt-oss-120b",
+   "after": [
+    "groq:openai/gpt-oss-120b: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m4e2y3jzet7vqfgnag5gc2as` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 5981, Req"
+   ]
+  }
+ ],
+ "seconds": 245,
+ "heads": {
+  "added": 3,
+  "week": 23,
+  "total": 24,
+  "bsky_failed": []
+ }
+}
+
+Done in 245s. Report: state/reports/2026-10-12.md
+
+To publish, review the report, then run:
+  git add docs/data state/seen.json state/pending_terms.json state/heads_skipped.json
+  git commit -m "Edition 2026-10-12"
+  git push
+Finished. Review state\reports, then publish with git. 
