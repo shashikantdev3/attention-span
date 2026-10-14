@@ -470,3 +470,144 @@ To publish, review the report, then run:
   git commit -m "Edition 2026-10-13"
   git push
 Finished. Review state\reports, then publish with git. 
+ 
+==== 14-10-2026 23:45:02.51 ==== 
+Using C:\Users\debna\AppData\Local\Programs\Python\Python312\python.exe 
+1. Collecting the last 25 hours
+  anthropic                    ok   1  (1.0s)
+  deepmind                     ok   2  (1.3s)
+  openai                       ok   4  (1.4s)
+  ms-commandline               ok   0  (1.5s)
+  ms-ai                        ok   3  (1.5s)
+  ms-blogs                     ok   0  (1.6s)
+  google-ai                    ok   0  (1.7s)
+  azure-foundry                ok   1  (0.8s)
+  qwen                         ok   0  (0.6s)
+  google-dev                   ok   0  (2.4s)
+  meta-ai                      ok   0  (1.0s)
+  github-ai                    ok   1  (1.2s)
+  nvidia                       ok   2  (0.6s)
+  mistral                      ok   0  (1.4s)
+  hf-blog                      ok   1  (0.9s)
+  simonw                       ok   0  (0.9s)
+  verge-ai                     ok   4  (0.5s)
+  techcrunch-ai                ok   16  (0.6s)
+  aws-ml                       ok   6  (1.3s)
+  mit-tr-ai                    ok   0  (0.7s)
+  hf-papers                    ok   30  (0.7s)
+  powerbi                      ok   1  (3.4s)
+  inbox                        ok   0  (0.0s)
+  hf-models                    ok   3  (0.6s)
+  ars-ai                       ok   5  (2.0s)
+  fabric                       ok   2  (3.9s)
+  techmeme                     ok   10  (1.8s)
+  ms-research                  ok   0  (4.2s)
+  person-peter-steinberger-0   ok   0  (0.6s)
+  person-andrej-karpathy-0     ok   0  (1.0s)
+  hn                           ok   16  (2.5s)
+  person-sam-altman-0          ok   0  (1.4s)
+  github                       ok   5  (2.1s)
+   113 items from 33 sources (0 failed: none)
+2. Grouping into stories
+   112 stories, 1 already published on an earlier day
+3. Editor picks
+  editor (gemini:gemini-3.5-flash-lite): 9 picks, 2 merges
+4. Writing and fact-checking
+    ok  OpenAI Engineer Arrested for Allegedly Bugging Executive Conference Room  (2 sources)
+    ok  Google DeepMind and Singapore Government Collaborate on Scam Detection Model  (1 sources)
+    ok  New Project Lets AI Models Control Real iPhones Using ESP32  (1 sources)  [spotlight]
+    dropped c12: still unsupported after rewrite: ['Report shows ASML strong orders ease fears of AI spending slowdown']
+    ok  Newspaper reports AI agent erased edited material, but TV4 denies it  (1 sources)
+    dropped c16: still unsupported after rewrite: ['a tuned Qwen3 0.6B model reads it into a structured query', 'a 4B checker model double-checks each answer']
+    ok  Microsoft Shared a Deep Dive Into Azure Maia 300 Architecture  (1 sources)
+    ok  Agent-Reflex Teaches Language Agents to Act Reflectively  (1 sources)
+    ok  Parsimony Measures How Much Excess Code AI Models Add  (1 sources)
+5. Saving
+   edition 2026-10-14: 7 stories written to docs/data/editions/
+   5 new terms waiting for review (python tools/review_terms.py)
+6. Attention Heads
+   Bluesky: 31 posts in 7 days from 22 of 22 accounts
+   inbox: 0 new post links read
+   1 new posts to explain
+   1 posts added; 25 in the last 7 days; 39 kept in total
+
+## Dropped stories
+- {'cid': 'c12', 'title': "ASML's strong orders ease fears AI spending boom is running out of steam", 'reason': ['Report shows ASML strong orders ease fears of AI spending slowdown']}
+- {'cid': 'c16', 'title': 'Show HN: Pulse Local, a Mac budgeting app whose AI models run on your machine', 'reason': ['a tuned Qwen3 0.6B model reads it into a structured query', 'a 4B checker model double-checks each answer', 'Running small models locally with deterministic code execution protects sensitive data while maintaining full application features.']}
+
+## Stats
+{
+ "items": 113,
+ "stories": 112,
+ "sources_ok": 33,
+ "sources_failed": [],
+ "published": 7,
+ "dropped": 2,
+ "llm_calls": 29,
+ "cache_hits": 0,
+ "models": {
+  "gemini:gemini-3.5-flash-lite": 17,
+  "groq:openai/gpt-oss-120b": 11,
+  "groq:qwen/qwen3.8-27b": 3
+ },
+ "fallbacks": [
+  {
+   "tag": "editor",
+   "used": "gemini:gemini-3.5-flash-lite",
+   "after": [
+    "gemini:gemini-3.8-flash: ReadTimeout",
+    "gemini:gemini-3.5-flash: HTTP 503 [{\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n]",
+    "gemini:gemini-3.5-flash: HTTP 503 [{\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n]"
+   ]
+  },
+  {
+   "tag": "checker",
+   "used": "groq:qwen/qwen3.8-27b",
+   "after": [
+    "groq:openai/gpt-oss-120b: HTTP 400 {\"error\":{\"message\":\"Failed to validate JSON. Please adjust your prompt. See 'failed_generation' for more details.\",\"type\":\"invalid_request_error\",\"code\":\"json_validate_failed\",\"failed_generation\":\"\"}"
+   ]
+  },
+  {
+   "tag": "checker",
+   "used": "groq:qwen/qwen3.8-27b",
+   "after": [
+    "groq:openai/gpt-oss-120b: HTTP 400 {\"error\":{\"message\":\"Failed to validate JSON. Please adjust your prompt. See 'failed_generation' for more details.\",\"type\":\"invalid_request_error\",\"code\":\"json_validate_failed\",\"failed_generation\":\"\"}"
+   ]
+  },
+  {
+   "tag": "checker",
+   "used": "groq:qwen/qwen3.8-27b",
+   "after": [
+    "groq:openai/gpt-oss-120b: HTTP 400 {\"error\":{\"message\":\"Failed to validate JSON. Please adjust your prompt. See 'failed_generation' for more details.\",\"type\":\"invalid_request_error\",\"code\":\"json_validate_failed\",\"failed_generation\":\"\"}"
+   ]
+  },
+  {
+   "tag": "checker",
+   "used": "gemini:gemini-3.5-flash-lite",
+   "after": [
+    "groq:qwen/qwen3.8-27b: HTTP 400 {\"error\":{\"message\":\"Failed to generate JSON. Please adjust your prompt. See 'failed_generation' for more details.\",\"type\":\"invalid_request_error\",\"code\":\"json_validate_failed\",\"failed_generation\":\"ma",
+    "gemini:gemini-3.1-flash-lite: HTTP 503 [{\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n]",
+    "gemini:gemini-3.1-flash-lite: HTTP 503 [{\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n]"
+   ]
+  }
+ ],
+ "seconds": 319,
+ "heads": {
+  "added": 1,
+  "week": 25,
+  "total": 39,
+  "bsky_failed": [],
+  "x_refresh": {
+   "skipped": true,
+   "last_run": "2026-10-14T15:58:21Z"
+  }
+ }
+}
+
+Done in 319s. Report: state/reports/2026-10-14.md
+
+To publish, review the report, then run:
+  git add docs state
+  git commit -m "Edition 2026-10-14"
+  git push
+Finished. Review state\reports, then publish with git. 

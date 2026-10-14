@@ -136,7 +136,9 @@ def order_sources(story, labs_by_feed=None):
         seen.add(it["url"])
         original = it["original"] or is_official(it["url"])
         name = it["source_name"]
-        if it["source"] == "hn" and original:
+        if it["source"] in ("hn", "techmeme") and urlsplit(it["url"]).netloc and "news.ycombinator.com" not in it["url"] \
+                and "techmeme.com" not in it["url"]:
+            # a link found through Hacker News or Techmeme is credited to the site it points to, not to the aggregator
             name = urlsplit(it["url"]).netloc.lower().removeprefix("www.")
         ranked.append({"title": it["title"], "url": it["url"], "name": name,
                        "kind": "original" if original else "press"})

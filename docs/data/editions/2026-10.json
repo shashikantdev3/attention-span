@@ -3017,6 +3017,417 @@
     ],
     "seconds": 1571
    }
+  },
+  "2026-10-14": {
+   "date": "2026-10-14",
+   "generated_at": "2026-10-14T18:20:23Z",
+   "stories": [
+    {
+     "title": "OpenAI Engineer Arrested for Allegedly Bugging Executive Conference Room",
+     "one_liner": "Federal prosecutors charged an OpenAI engineer with hiding a recording device in an executive conference room.",
+     "summary": "Federal prosecutors have charged a 35-year-old OpenAI engineer with using a device to intercept oral communications. According to prosecutors, OpenAI staff found the recording device on September 30, plugged into a television USB port and concealed in toilet paper. Prosecutors say the engineer had used a chatbot account to ask about building and installing recording devices. He was arrested on Friday, made his first court appearance on Tuesday and remains in custody. If convicted, he faces up to five years in prison and a $250,000 fine. OpenAI said it used its own models to work out where the device came from.",
+     "eli5": "A worker is accused of hiding a tiny secret microphone in a room where bosses meet; company security and AI tools helped find it.",
+     "why_it_matters": "Physical security breaches can expose sensitive proprietary research, product plans, and strategic information even at advanced AI labs.",
+     "topic": "industry",
+     "type": "event",
+     "labs": [
+      "openai"
+     ],
+     "people": [],
+     "concepts": [
+      "chatbot"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "OpenAI finds recording device in one of their offices",
+       "url": "https://twitter.com/OpenAINewsroom/status/2110095403198849132",
+       "name": "OpenAI Newsroom on X",
+       "kind": "press"
+      },
+      {
+       "title": "OpenAI engineer arrested in bugging of executive conference room",
+       "url": "https://sfstandard.com/2026/10/13/openai-engineer-arrested-alleged-bugging-executive-conference-room/",
+       "name": "San Francisco Standard",
+       "kind": "press"
+      },
+      {
+       "title": "OpenAI employee arrested for allegedly planting a bug in a conference room",
+       "url": "https://www.theverge.com/ai-artificial-intelligence/1010642/openai-employee-arrested-recording-device",
+       "name": "The Verge AI",
+       "kind": "press"
+      },
+      {
+       "title": "Discussion on Hacker News",
+       "url": "https://news.ycombinator.com/item?id=50078141",
+       "name": "Hacker News",
+       "kind": "discussion"
+      },
+      {
+       "title": "Discussion on Hacker News",
+       "url": "https://news.ycombinator.com/item?id=50077703",
+       "name": "Hacker News",
+       "kind": "discussion"
+      }
+     ],
+     "buzz": 2,
+     "published": "2026-10-13T19:55:31Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "An OpenAI engineer was arrested after planting a recording device in an executive conference room.",
+     "rank": 1,
+     "id": "2026-10-14-openai-engineer-arrested-for-allegedly-bugging-executive-con",
+     "date": "2026-10-14"
+    },
+    {
+     "title": "Google DeepMind and Singapore Government Collaborate on Scam Detection Model",
+     "one_liner": "Google DeepMind and GovTech Singapore are building a fine-tuned AI model to intercept conversational scams.",
+     "summary": "Google DeepMind and the Singapore Government collaborate to build a fine-tuned artificial intelligence model for scam detection. Google DeepMind and GovTech Singapore use lightweight on-device Gemma models to intercept conversational scams in private chats. The collaboration involves zero cloud data egress.",
+     "eli5": "Google and the Singapore government are working together to build a small smart helper that spots scammers right inside your private chats without sending your data away.",
+     "why_it_matters": "Lightweight on-device Gemma models can intercept conversational scams in private chats with zero cloud data egress.",
+     "topic": "policy",
+     "type": "event",
+     "labs": [
+      "google",
+      "government"
+     ],
+     "people": [],
+     "concepts": [
+      "fine-tuning",
+      "small-language-model"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "Google DeepMind and Singapore Government collaborate to build fine-tuned AI model for scam detection",
+       "url": "https://deepmind.google/blog/on-device-ai-scam-detection-mddi/",
+       "name": "Google DeepMind Blog",
+       "kind": "original"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-10-14T02:00:14Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 2,
+      "hype_flags": []
+     },
+     "editor_reason": "Google DeepMind and the Singapore Government collaborated to build lightweight on-device models for intercepting conversational scams.",
+     "rank": 2,
+     "id": "2026-10-14-google-deepmind-and-singapore-government-collaborate-on-scam",
+     "date": "2026-10-14"
+    },
+    {
+     "title": "New Project Lets AI Models Control Real iPhones Using ESP32",
+     "one_liner": "A new project allows any OpenAI-compatible vision model to control a real iPhone using a seven dollar ESP32 board without a Mac.",
+     "summary": "The esp32-iphone-agent project allows artificial intelligence models to interact with a physical iPhone using a seven dollar ESP32-S3 board and AirPlay screen mirroring. The setup requires no Mac, developer account, or jailbreak. AirPlay streams the phone screen to a computer running UxPlay, which converts the stream into JPEG frames for the vision model. The ESP32 plugs into the phone USB port as a mouse and keyboard to execute taps and swipes using iOS AssistiveTouch. A planner model creates plans based on goals and screenshots, while an actor model selects subsequent actions.",
+     "eli5": "An artificial intelligence uses a tiny computer plugged into an iPhone to look at the screen and tap buttons, just like a human does.",
+     "why_it_matters": "Eliminates the need for developer accounts and signed apps when building AI agents that operate physical mobile devices.",
+     "topic": "dev-tools",
+     "type": "product",
+     "labs": [
+      "nvidia",
+      "openai"
+     ],
+     "people": [],
+     "concepts": [
+      "agent",
+      "computer-use",
+      "tool-use"
+     ],
+     "spotlight": true,
+     "spotlight_reason": "It introduces a hardware-bridged interface allowing AI models to physically interact with standard consumer mobile devices via a cheap microcontroller.",
+     "new_terms": [
+      {
+       "term": "AirPlay mirroring",
+       "definition": "A technology used to mirror an iPhone screen to a computer running UxPlay so a GStreamer pipeline can turn the stream into JPEG frames."
+      },
+      {
+       "term": "USB HID bridge",
+       "definition": "An ESP32-S3 plugged into a phone that shows up as a standard USB mouse and keyboard to execute simple line commands."
+      }
+     ],
+     "sources": [
+      {
+       "title": "onehumanbeing/esp32-iphone-agent: Let an AI model use a real iPhone with a $7 ESP32: AirPlay eyes, USB HID hands, any OpenAI-compatible vision model. No Mac, no developer account, no jailbreak.",
+       "url": "https://github.com/onehumanbeing/esp32-iphone-agent",
+       "name": "GitHub new AI repos",
+       "kind": "original"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-10-11T19:10:25Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "A new project lets an AI model control a real iPhone using a cheap ESP32 micro-controller without requiring a Mac or jailbreak.",
+     "rank": 3,
+     "id": "2026-10-14-new-project-lets-ai-models-control-real-iphones-using-esp32",
+     "date": "2026-10-14"
+    },
+    {
+     "title": "Newspaper reports AI agent erased edited material, but TV4 denies it",
+     "one_liner": "A newspaper reports that an AI agent deleted an edited television season, costing hundreds of days of work, but TV4 denies the claim.",
+     "summary": "A newspaper reports that an edited season of the program \"The Challenge\" was deleted by an AI agent. The report states this cost several hundred days of work. TV4 denies the report. Mia Lindqvist, program director at TV4, says it is not true that an independent AI agent deleted the material. She says a backup system at the production company failed, meaning they now have to edit everything from scratch. The series was supposed to premiere on November 22. Mia Lindqvist says the series will now be shown in late spring. Host Ahmed Berhan comments on the report.",
+     "eli5": "A report says a computer program erased a whole season of a TV show, but the TV channel says that is not what happened and a backup broke instead.",
+     "why_it_matters": "Disputes over data loss during production highlight the need for reliable backup systems.",
+     "topic": "agents",
+     "type": "event",
+     "labs": [],
+     "people": [],
+     "concepts": [
+      "agent"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "TV4 postpones show after AI agent erases edited material",
+       "url": "https://swedenherald.com/article/tv4-postpones-the-challenge-until-2027-after-technical-failure-erases-edited-footage",
+       "name": "Sweden Herald",
+       "kind": "press"
+      },
+      {
+       "title": "Discussion on Hacker News",
+       "url": "https://news.ycombinator.com/item?id=50085323",
+       "name": "Hacker News",
+       "kind": "discussion"
+      },
+      {
+       "title": "Agent erased full season of \"The Challenge Swe\": \"Hundreds of days of work gone\"",
+       "url": "https://www.aftonbladet.se/nojesbladet/a/31oE8A/the-challenge-sverige-raderad-av-ai-bara-veckor-innan-premiaren",
+       "name": "Aftonbladet (Swedish)",
+       "kind": "press"
+      },
+      {
+       "title": "Discussion on Hacker News",
+       "url": "https://news.ycombinator.com/item?id=50085259",
+       "name": "Hacker News",
+       "kind": "discussion"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-10-14T10:21:13Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 2,
+      "hype_flags": []
+     },
+     "editor_reason": "A television production postponed a show after an autonomous AI agent accidentally erased an entire season of edited material.",
+     "rank": 4,
+     "id": "2026-10-14-newspaper-reports-ai-agent-erased-edited-material-but-tv4-de",
+     "date": "2026-10-14"
+    },
+    {
+     "title": "Microsoft Shared a Deep Dive Into Azure Maia 300 Architecture",
+     "one_liner": "Microsoft published a deep dive into the architecture of the Azure Maia 300.",
+     "summary": "Microsoft shared information about the Azure Maia 300 architecture. The post discusses the deep dive into the Azure Maia 300 architecture. Tags for the post include AI. The source published the post on the Azure Maia 300 architecture.",
+     "eli5": "Microsoft shared a deep dive into the architecture of the Azure Maia 300.",
+     "why_it_matters": "Details about the architecture of the Azure Maia 300 are now available.",
+     "topic": "microsoft",
+     "type": "event",
+     "labs": [
+      "microsoft"
+     ],
+     "people": [],
+     "concepts": [],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "Deep dive into Azure Maia 300 architecture",
+       "url": "https://azure.microsoft.com/en-us/blog/deep-dive-into-azure-maia-300-architecture/",
+       "name": "Microsoft Source (news)",
+       "kind": "original"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-10-13T22:08:00Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 2,
+      "hype_flags": []
+     },
+     "editor_reason": "Microsoft published a deep architectural dive into its Azure Maia 300 hardware.",
+     "rank": 5,
+     "id": "2026-10-14-microsoft-shared-a-deep-dive-into-azure-maia-300-architectur",
+     "date": "2026-10-14"
+    },
+    {
+     "title": "Agent-Reflex Teaches Language Agents to Act Reflectively",
+     "one_liner": "Agent-Reflex is a training framework that teaches language agents to reflect on tool feedback and recover from failures.",
+     "summary": "Existing methods provide limited supervision for reflection learning and failure recovery in interactive language agents. Researchers proposed Agent-Reflex to address this gap. The framework includes three stages. First, Environment Reflection Skill Discovery mines matched success and failure pairs to summarize reflection meta-skills. Second, Reflective Supervised Fine-Tuning converts these skills into supervision for self-correction. Third, On-Policy Reflective Policy Optimization combines reinforcement learning with reflection-guided distillation. Built on Qwen3-8B, Agent-Reflex reaches 58.6 overall on five long-horizon tool-use benchmarks and 29.1 on AgentNoiseBench, surpassing strong baselines.",
+     "eli5": "Just like a child learns to check their homework when a teacher points out a mistake, this AI learns to fix its own errors when tools give it bad feedback.",
+     "why_it_matters": "Agents can now be trained to handle noisy tool feedback and user corrections more reliably.",
+     "topic": "research",
+     "type": "paper",
+     "labs": [
+      "academia"
+     ],
+     "people": [],
+     "concepts": [
+      "agent",
+      "fine-tuning",
+      "reinforcement-learning"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [
+      {
+       "term": "Environment Reflection Skill Discovery",
+       "definition": "A stage that injects grounded tool-feedback perturbations into environment scaling, samples a capability-diverse LLM pool, mines matched success-failure pairs, and summarizes reusable reflection meta-skills."
+      },
+      {
+       "term": "On-Policy Reflective Policy Optimization",
+       "definition": "A method to combine agentic reinforcement learning under noisy interactions with reflection-guided on-policy distillation to further elicit proactive reflection."
+      }
+     ],
+     "sources": [
+      {
+       "title": "Agent-Reflex: Teaching Language Agents to Act Reflectively",
+       "url": "https://arxiv.org/abs/2610.17953",
+       "name": "Hugging Face Daily Papers",
+       "kind": "original"
+      },
+      {
+       "title": "Discussion on Hugging Face Daily Papers",
+       "url": "https://huggingface.co/papers/2610.17953",
+       "name": "Hugging Face Daily Papers",
+       "kind": "discussion"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-10-12T20:00:00Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "Researchers introduced Agent-Reflex to teach language agents how to act reflectively during long-horizon reasoning tasks.",
+     "rank": 6,
+     "id": "2026-10-14-agent-reflex-teaches-language-agents-to-act-reflectively",
+     "date": "2026-10-14"
+    },
+    {
+     "title": "Parsimony Measures How Much Excess Code AI Models Add",
+     "one_liner": "Parsimony is an open-source benchmark measuring how much extra code AI models add to codebases.",
+     "summary": "Existing benchmarks measure solve rate, token output, and cost. They do not punish excess code, which makes codebases harder to work with long term. Parsimony takes published patches from DeepSWE, SWE-bench Verified, and SWE-bench Live. It counts coding units, such as syntax elements, statements, calls, names, and literals, instead of lines of code. Deleted code is subtracted to measure net units. GPT-6 and Claude 5.5 ran on 3 to 10 tasks on personal subscriptions and appear as faded circles without a rank.",
+     "eli5": "Most tests only check if the robot finishes the chore, but this test also checks if the robot leaves a messy pile of extra toys behind.",
+     "why_it_matters": "Evaluating AI models on net code units instead of raw output penalizes bloat and helps maintain clean codebases.",
+     "topic": "dev-tools",
+     "type": "event",
+     "labs": [
+      "openai",
+      "anthropic"
+     ],
+     "people": [],
+     "concepts": [
+      "benchmark",
+      "coding-assistant"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [
+      {
+       "term": "coding units",
+       "definition": "Syntax elements like statements, calls, names and literals used to measure code additions without rewarding code cramming."
+      }
+     ],
+     "sources": [
+      {
+       "title": "Show HN: Parsimony – an open-source benchmark for how much code AI models add",
+       "url": "https://parsimony.lasu.dev/",
+       "name": "Hacker News",
+       "kind": "press"
+      },
+      {
+       "title": "Discussion on Hacker News",
+       "url": "https://news.ycombinator.com/item?id=50077619",
+       "name": "Hacker News",
+       "kind": "discussion"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-10-13T19:50:31Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "A new open-source benchmark evaluates AI models based on how much excess code they add to codebases.",
+     "rank": 7,
+     "id": "2026-10-14-parsimony-measures-how-much-excess-code-ai-models-add",
+     "date": "2026-10-14"
+    }
+   ],
+   "stats": {
+    "items": 113,
+    "stories": 112,
+    "sources_ok": 33,
+    "sources_failed": [],
+    "published": 7,
+    "dropped": 2,
+    "llm_calls": 29,
+    "cache_hits": 0,
+    "models": {
+     "gemini:gemini-3.5-flash-lite": 16,
+     "groq:openai/gpt-oss-120b": 10,
+     "groq:qwen/qwen3.8-27b": 3
+    },
+    "fallbacks": [
+     {
+      "tag": "editor",
+      "used": "gemini:gemini-3.5-flash-lite",
+      "after": [
+       "gemini:gemini-3.8-flash: ReadTimeout",
+       "gemini:gemini-3.5-flash: HTTP 503 [{\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n]",
+       "gemini:gemini-3.5-flash: HTTP 503 [{\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n]"
+      ]
+     },
+     {
+      "tag": "checker",
+      "used": "groq:qwen/qwen3.8-27b",
+      "after": [
+       "groq:openai/gpt-oss-120b: HTTP 400 {\"error\":{\"message\":\"Failed to validate JSON. Please adjust your prompt. See 'failed_generation' for more details.\",\"type\":\"invalid_request_error\",\"code\":\"json_validate_failed\",\"failed_generation\":\"\"}"
+      ]
+     },
+     {
+      "tag": "checker",
+      "used": "groq:qwen/qwen3.8-27b",
+      "after": [
+       "groq:openai/gpt-oss-120b: HTTP 400 {\"error\":{\"message\":\"Failed to validate JSON. Please adjust your prompt. See 'failed_generation' for more details.\",\"type\":\"invalid_request_error\",\"code\":\"json_validate_failed\",\"failed_generation\":\"\"}"
+      ]
+     },
+     {
+      "tag": "checker",
+      "used": "groq:qwen/qwen3.8-27b",
+      "after": [
+       "groq:openai/gpt-oss-120b: HTTP 400 {\"error\":{\"message\":\"Failed to validate JSON. Please adjust your prompt. See 'failed_generation' for more details.\",\"type\":\"invalid_request_error\",\"code\":\"json_validate_failed\",\"failed_generation\":\"\"}"
+      ]
+     },
+     {
+      "tag": "checker",
+      "used": "gemini:gemini-3.5-flash-lite",
+      "after": [
+       "groq:qwen/qwen3.8-27b: HTTP 400 {\"error\":{\"message\":\"Failed to generate JSON. Please adjust your prompt. See 'failed_generation' for more details.\",\"type\":\"invalid_request_error\",\"code\":\"json_validate_failed\",\"failed_generation\":\"ma",
+       "gemini:gemini-3.1-flash-lite: HTTP 503 [{\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n]",
+       "gemini:gemini-3.1-flash-lite: HTTP 503 [{\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n]"
+      ]
+     }
+    ],
+    "seconds": 319
+   }
   }
  }
 }

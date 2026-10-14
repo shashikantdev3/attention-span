@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-14T16:09:12Z",
+ "updated_at": "2026-10-14T18:20:50Z",
  "window_days": 7,
  "groups": [
   {
@@ -806,6 +806,39 @@
  ],
  "posts": [
   {
+   "id": "bsky-natolambert.bsky.social-3mxtxjsxckl26",
+   "person": "nathan-lambert",
+   "platform": "bluesky",
+   "url": "https://bsky.app/profile/natolambert.bsky.social/post/3mxtxjsxckl26",
+   "posted_at": "2026-10-14T16:25:02Z",
+   "text": "Very timely appearance on the a16z podcast with Lisha Li, to try to understand how open models play into RSI dynamics, who captures value of open models, wrangling agent swarms, and why I'm building Trillium Labs: \nyoutu.be/BKuK0M6oDTI?...",
+   "links": [
+    {
+     "text": "youtu.be/BKuK0M6oDTI?...",
+     "url": "http://youtu.be/BKuK0M6oDTI?si=i7JHJfzs70yNLFlu"
+    }
+   ],
+   "context": {
+    "kind": "link",
+    "url": "http://youtu.be/BKuK0M6oDTI?si=i7JHJfzs70yNLFlu",
+    "title": "Can Open Models Keep Up With OpenAI and Anthropic? | Nathan Lambert",
+    "text": "a16z Partner Lisha Li sits down with AI researcher and Trillium founder Nathan Lambert to ask how durable the gap really is between frontier AI labs and open models.\n\nNathan argues that OpenAI and…"
+   },
+   "likes": 16,
+   "reposts": 1,
+   "via": "feed",
+   "meaning": "Nathan Lambert discusses open models, recursive self-improvement dynamics, and the value capture of open source AI on the a16z podcast.",
+   "concepts": [
+    "open-weight-model",
+    "agent",
+    "foundation-model"
+   ],
+   "story": null,
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "groq:openai/gpt-oss-120b",
+   "added": "2026-10-14"
+  },
+  {
    "id": "x-2110095403198849132",
    "platform": "x",
    "url": "https://x.com/OpenAINewsroom/status/2110095403198849132",
@@ -818,7 +851,7 @@
    "person": "x-openainewsroom",
    "meaning": "OpenAI says it found a hidden recording device in one of its offices, used its own models to work out what it was and where it came from, and referred the matter to the FBI.",
    "concepts": [],
-   "story": null,
+   "story": "2026-10-14-openai-engineer-arrested-for-allegedly-bugging-executive-con",
    "model": "gemini:gemini-3.5-flash-lite",
    "checked": "editor",
    "added": "2026-10-14"
@@ -832,7 +865,7 @@
    "text": "Using Gemini 4 makes you realize how many other models must be distilling Claude/GPT (or using a similar training pipeline). It feels quite different than other models.",
    "links": [],
    "context": null,
-   "likes": 141,
+   "likes": 142,
    "reposts": 4,
    "via": "feed",
    "meaning": "Mollick observes that using Gemini 4 highlights how distinct its behavior is, suggesting many other models rely on distillation or similar training pipelines mimicking leading systems like Claude and GPT. Builders might care when evaluating model diversity and performance.",
@@ -880,7 +913,7 @@
     }
    ],
    "context": null,
-   "likes": 74,
+   "likes": 75,
    "reposts": 6,
    "via": "feed",
    "meaning": "Mollick highlights an Anthropic warning to focus on sudden AI ability thresholds rather than steady capability climbs, citing a threshold involving self-replicating AI worms on IoT devices. Developers and safety researchers care about identifying such critical capability jumps.",
@@ -902,7 +935,7 @@
    "text": "Do early adopters win?\n\nFabric comes: Power BI is over.\nConversational BI: Dashboards and reports are dead.\nClaude dashboards: Was conversational BI a thing?\n\nCalm down.\n\nAs a professional, you want to stay up to date.\nAs a company, FOMO bleeds money.\n\nBe ready; don't rush.",
    "links": [],
    "context": null,
-   "likes": 7,
+   "likes": 8,
    "reposts": 0,
    "via": "feed",
    "meaning": "Russo advises professionals and companies to stay updated on tools like Microsoft Fabric and conversational BI without panicking over rapid technology cycles or bleeding money from FOMO. Data professionals can benefit from balancing readiness with measured adoption.",
