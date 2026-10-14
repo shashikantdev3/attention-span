@@ -416,7 +416,7 @@ footer.site { border-top: 3px double var(--rule); }
 @media (max-width: 680px) { .arch-day { grid-template-columns: 1fr; gap: 4px; } }
 
 /* keep the section bar on one line at laptop widths */
-.nav a { padding: 12px 5px 10px; gap: 4px; font-size: 0.95rem; }
+.nav a { padding: 12px 4px 10px; gap: 4px; font-size: 0.95rem; letter-spacing: 0.01em; }
 .nav .theme-btn span { display: none; }  /* sun or moon icon is enough; the button keeps its label for screen readers */
 .nav .theme-btn { margin-left: 4px; }
 .search-btn span { display: none; }  /* the icon and the "/" key are enough; keeps the bar on one line */
@@ -516,3 +516,5 @@ footer.site { border-top: 3px double var(--rule); }
 .static-list li a { font-weight: 700; text-decoration: none; }
 .static-list li p { margin: 2px 0 0; color: var(--ink-2); }
 .static-app { margin-top: 30px; padding-top: 12px; border-top: 1px solid var(--rule-soft); color: var(--ink-2); }
+.nav a .icon { width: 18px; height: 18px; }
+.nav .theme-btn, .nav .search-btn { padding: 6px 8px; }

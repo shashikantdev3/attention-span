@@ -588,19 +588,19 @@
   }
 
   function headsTabs(active) {
-    const tabs = [["heads", "Posts"], ["context-window", "Context Window"], ["heads/all", "Who is followed"]];
+    const tabs = [["heads", "Posts"], ["heads/all", "Who is followed"]];
     return `<nav class="subtabs" aria-label="Attention Heads sections">${tabs.map(([h, l]) =>
       `<a href="#/${h}"${active === h ? ' aria-current="page"' : ""}>${l}</a>`).join("")}</nav>`;
   }
 
   function pageHeads() {
     const H = D.heads;
-    const week = weekPosts();
+    const week = weekPosts().filter((p) => p.platform !== "x");   // X posts live in the Context Window
     const onBsky = H.people.filter((h) => h.bsky).length;
-    const groups = H.groups.filter((g) => H.people.some((h) => h.group === g.id));
+    const groups = H.groups.filter((g) => week.some((p) => (by.head[p.person] || {}).group === g.id));
     view.innerHTML = `
       <div class="page-head"><h2>Attention Heads</h2>
-        <p>What ${peopleOnly().length} people who shape AI posted this week, quoted in full, with a plain note on what each post means.</p></div>
+        <p>What the people who shape AI posted on Bluesky this week, collected every night, quoted in full, with a plain note on what each post means.</p></div>
       ${headsTabs("heads")}
       <div class="today-grid">
         <div>
@@ -650,7 +650,6 @@
     view.innerHTML = `
       <div class="page-head"><h2>Context Window</h2>
         <p>What they said, as they posted it, and what it means. Picked by an editor every evening.</p></div>
-      ${headsTabs("context-window")}
       <div class="today-grid">
         <div>
           <nav class="subtabs minor" aria-label="Context Window views">
