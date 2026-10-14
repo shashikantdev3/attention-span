@@ -285,5 +285,61 @@
   "first_seen": "2026-10-12",
   "story": "2026-10-12-microsoft-president-warns-ai-is-less-regulated-than-milk",
   "source": "https://www.theguardian.com/technology/2026/oct/12/ai-less-regulated-than-milk-microsoft-president-calls-for-tougher-rules"
+ },
+ {
+  "term": "Embodied Reasoning",
+  "definition": "A benchmark that tests a model's ability to understand and solve physical, spatial problems in 3D environments.",
+  "first_seen": "2026-10-13",
+  "story": "2026-10-13-google-announces-gemini-4-argon-for-robotics",
+  "source": "https://deepmind.google/blog/gemini-4-argon-for-robotics/"
+ },
+ {
+  "term": "Game Finder",
+  "definition": "A personalized game recommendation engine based on user preferences and game community data.",
+  "first_seen": "2026-10-13",
+  "story": "2026-10-13-google-play-lets-users-run-private-vibe-coded-android-apps",
+  "source": "https://techcrunch.com/2026/10/13/google-play-now-supports-private-vibe-coded-apps-built-just-for-you/"
+ },
+ {
+  "term": "secret classifier",
+  "definition": "A classifier trained to distinguish real credentials from lookalikes while meeting the speed and efficiency requirements of scanning at scale.",
+  "first_seen": "2026-10-13",
+  "story": "2026-10-13-github-details-a-new-secret-detection-model-and-pipeline",
+  "source": "https://github.blog/ai-and-ml/githubs-model-for-secret-detection-finding-more-secrets-with-less-noise/"
+ },
+ {
+  "term": "Fabric App functions",
+  "definition": "Fabric App functions are TypeScript-based serverless functions that run alongside your Fabric app.",
+  "first_seen": "2026-10-13",
+  "story": "2026-10-13-microsoft-fabric-introduces-app-functions-in-preview",
+  "source": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Fabric-App-functions-to-use-secure-server-side-custom-logic/ba-p/5368691"
+ },
+ {
+  "term": "Application authentication",
+  "definition": "Application authentication means the Fabric app function accesses a downstream resource using the application's identity rather than impersonating the person currently using the app.",
+  "first_seen": "2026-10-13",
+  "story": "2026-10-13-microsoft-fabric-introduces-app-functions-in-preview",
+  "source": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Fabric-App-functions-to-use-secure-server-side-custom-logic/ba-p/5368691"
+ },
+ {
+  "term": "client-server asymmetry",
+  "definition": "A design where the server performs complex tasks like merges and history queries while the client maintains a bounded local object cache.",
+  "first_seen": "2026-10-13",
+  "story": "2026-10-13-anthropic-migrates-monorepo-to-custom-scion-version-control",
+  "source": "https://www.anthropic.com/engineering/redesigning-source-control"
+ },
+ {
+  "term": "circular financing",
+  "definition": "Deals that tie stronger AI companies to weaker partners in the same sector.",
+  "first_seen": "2026-10-13",
+  "story": "2026-10-13-imf-report-warns-ai-share-crash-could-threaten-global-financ",
+  "source": "https://www.theguardian.com/business/2026/oct/13/ai-share-crash-risk-global-imf-debt-corrowing-cyber-attacks"
+ },
+ {
+  "term": "hyperscalers",
+  "definition": "Companies building the underlying infrastructure for the AI rollout, including many vast datacentres.",
+  "first_seen": "2026-10-13",
+  "story": "2026-10-13-imf-report-warns-ai-share-crash-could-threaten-global-financ",
+  "source": "https://www.theguardian.com/business/2026/oct/13/ai-share-crash-risk-global-imf-debt-corrowing-cyber-attacks"
  }
 ]

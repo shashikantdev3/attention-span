@@ -1,6 +1,13 @@
 {
  "editions": [
   {
+   "date": "2026-10-13",
+   "file": "2026-10.json",
+   "count": 10,
+   "spotlight": 0,
+   "lead": "Google Releases Gemini 4 Argon Frontier Model"
+  },
+  {
    "date": "2026-10-12",
    "file": "2026-10.json",
    "count": 9,
@@ -36,6 +43,6 @@
    "lead": "Anthropic Releases Claude Haiku 5.5 and AWS Integration"
   }
  ],
- "latest": "2026-10-12",
- "updated": "2026-10-12T18:19:08Z"
+ "latest": "2026-10-13",
+ "updated": "2026-10-13T18:41:14Z"
 }

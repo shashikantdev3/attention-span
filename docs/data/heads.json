@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-12T18:19:08Z",
+ "updated_at": "2026-10-13T18:41:14Z",
  "window_days": 7,
  "groups": [
   {
@@ -490,6 +490,99 @@
  ],
  "posts": [
   {
+   "id": "bsky-emollick.bsky.social-3mxrncnjjjk2q",
+   "person": "ethan-mollick",
+   "platform": "bluesky",
+   "url": "https://bsky.app/profile/emollick.bsky.social/post/3mxrncnjjjk2q",
+   "posted_at": "2026-10-13T18:16:45Z",
+   "text": "Using Gemini 4 makes you realize how many other models must be distilling Claude/GPT (or using a similar training pipeline). It feels quite different than other models.",
+   "links": [],
+   "context": null,
+   "likes": 25,
+   "reposts": 1,
+   "via": "feed",
+   "meaning": "Mollick observes that using Gemini 4 highlights how distinct its behavior is, suggesting many other models rely on distillation or similar training pipelines mimicking leading systems like Claude and GPT. Builders might care when evaluating model diversity and performance.",
+   "concepts": [
+    "distillation",
+    "foundation-model"
+   ],
+   "story": null,
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "groq:openai/gpt-oss-120b",
+   "added": "2026-10-13"
+  },
+  {
+   "id": "bsky-emollick.bsky.social-3mxr77gpvik2q",
+   "person": "ethan-mollick",
+   "platform": "bluesky",
+   "url": "https://bsky.app/profile/emollick.bsky.social/post/3mxr77gpvik2q",
+   "posted_at": "2026-10-13T14:04:25Z",
+   "text": "A worthwhile (and unnerving) reminder from Anthropic that we should be paying attention to AI ability thresholds, not just steady climbs\n\nIn this case, the threshold is the capability needed for a self-replicating AI worm on IoT devices like off-brand TVs www.anthropic.com/research/sel...",
+   "links": [
+    {
+     "text": "www.anthropic.com/research/sel...",
+     "url": "https://www.anthropic.com/research/self-replicating-ai"
+    }
+   ],
+   "context": null,
+   "likes": 62,
+   "reposts": 5,
+   "via": "feed",
+   "meaning": "Mollick highlights an Anthropic warning to focus on sudden AI ability thresholds rather than steady capability climbs, citing a threshold involving self-replicating AI worms on IoT devices. Developers and safety researchers care about identifying such critical capability jumps.",
+   "concepts": [
+    "ai-safety",
+    "alignment"
+   ],
+   "story": null,
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "groq:openai/gpt-oss-120b",
+   "added": "2026-10-13"
+  },
+  {
+   "id": "bsky-marcorus.bsky.social-3mxqgz6l6ho2h",
+   "person": "marco-russo",
+   "platform": "bluesky",
+   "url": "https://bsky.app/profile/marcorus.bsky.social/post/3mxqgz6l6ho2h",
+   "posted_at": "2026-10-13T06:51:25Z",
+   "text": "Do early adopters win?\n\nFabric comes: Power BI is over.\nConversational BI: Dashboards and reports are dead.\nClaude dashboards: Was conversational BI a thing?\n\nCalm down.\n\nAs a professional, you want to stay up to date.\nAs a company, FOMO bleeds money.\n\nBe ready; don't rush.",
+   "links": [],
+   "context": null,
+   "likes": 7,
+   "reposts": 0,
+   "via": "feed",
+   "meaning": "Russo advises professionals and companies to stay updated on tools like Microsoft Fabric and conversational BI without panicking over rapid technology cycles or bleeding money from FOMO. Data professionals can benefit from balancing readiness with measured adoption.",
+   "concepts": [
+    "microsoft-fabric",
+    "copilot-in-power-bi"
+   ],
+   "story": null,
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "groq:openai/gpt-oss-120b",
+   "added": "2026-10-13"
+  },
+  {
+   "id": "bsky-emollick.bsky.social-3mxq4bhezas2q",
+   "person": "ethan-mollick",
+   "platform": "bluesky",
+   "url": "https://bsky.app/profile/emollick.bsky.social/post/3mxq4bhezas2q",
+   "posted_at": "2026-10-13T03:39:12Z",
+   "text": "GPT-4 was the undisputed best model in the world for a full year and we all debated whether anyone could catch up or if OpenAI had some secret formula that nobody else knew about.\n\nNow there are are 19 AI models that can run on a modern smartphone that are better than GPT-4!",
+   "links": [],
+   "context": null,
+   "likes": 187,
+   "reposts": 28,
+   "via": "feed",
+   "meaning": "Mollick notes that while GPT-4 was the top model for a year, there are now 19 smartphone-capable AI models that outperform it. This illustrates rapid progress in edge and small language models that builders can leverage.",
+   "concepts": [
+    "small-language-model",
+    "foundation-model"
+   ],
+   "story": null,
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "groq:openai/gpt-oss-120b",
+   "added": "2026-10-13"
+  },
+  {
    "id": "bsky-natolambert.bsky.social-3mxp3cejcy62p",
    "person": "nathan-lambert",
    "platform": "bluesky",
@@ -498,7 +591,7 @@
    "text": "If you announce a model's benchmarks without releasing it (weights, product, api, etc \"later\"), feels like almost a sure thing that someone releases a better model in your category before you get it out.\n\n... Gemini Argon, Reflection Beam, who's next on this list?",
    "links": [],
    "context": null,
-   "likes": 8,
+   "likes": 22,
    "reposts": 0,
    "via": "feed",
    "meaning": "Lambert argues that announcing model benchmarks without immediate availability means competitors will likely release a better model first. Developers should watch launch strategies closely.",
@@ -520,8 +613,8 @@
    "text": "If you haven’t made sure to turn on two-factor authentication on all accounts, have passwords with family in case you get voice calls asking for money, etc, now would be a good time.\n\nAI gains mean the costs of mass targeting individuals with very sophisticated attacks are dropping.",
    "links": [],
    "context": null,
-   "likes": 59,
-   "reposts": 16,
+   "likes": 119,
+   "reposts": 26,
    "via": "feed",
    "meaning": "Mollick warns that AI tools make sophisticated targeted attacks cheaper, advising users to enable two-factor authentication and establish family verification passwords.",
    "concepts": [],
@@ -539,8 +632,8 @@
    "text": "GPT-6 Pro finds supposed errors in academic papers all the time, just as part of other work. Confirming the errors aren't nitpicks & learning their importance would still take a lot of time today, but it will get faster. We don't have the right mechanisms in place to deal a flood of corrections.",
    "links": [],
    "context": null,
-   "likes": 80,
-   "reposts": 4,
+   "likes": 88,
+   "reposts": 6,
    "via": "feed",
    "meaning": "Mollick notes that AI models frequently spot errors in academic papers, but researchers lack efficient mechanisms to handle the resulting flood of corrections.",
    "concepts": [
@@ -585,8 +678,8 @@
    "posted_at": "2026-10-10T16:13:51Z",
    "text": "We've been monitoring a decline in HuggingFace downloads across the top open LLMs we track for interconnects. It looks like there was a slight change in counting of downloads, as we saw a ~30% download rate drop for many top models, but this is continuing over time. \ndashboard.interconnects.ai",
    "context": null,
-   "likes": 28,
-   "reposts": 2,
+   "likes": 46,
+   "reposts": 4,
    "via": "feed",
    "meaning": "Lambert notes a sustained decline in HuggingFace downloads across top open LLMs, initially linked to counting changes but continuing over time.",
    "concepts": [
@@ -694,8 +787,8 @@
    "posted_at": "2026-10-09T04:28:56Z",
    "text": "From The Lancet: in an urgent care setting, the advice of the obsolete Gemini 2.5 Pro & Gemini 2.5 Flash (without access to patient medical records) were rated of similar quality to doctors by other physicians. There was no safety issues spotted.\n\nModels have gotten significantly better since.",
    "context": null,
-   "likes": 106,
-   "reposts": 16,
+   "likes": 107,
+   "reposts": 17,
    "via": "feed",
    "meaning": "Mollick highlights a Lancet study where urgent care advice from older Gemini models without patient records was rated of similar quality to doctors by other physicians.",
    "concepts": [
@@ -777,7 +870,7 @@
    "posted_at": "2026-10-07T22:42:54Z",
    "text": "Some early first-hand accounts of the experience of encountering a narrow superhuman intelligence as mathematicians grapple with the hundreds of big AI proofs released by OpenAI.\n\nProblems solved in inhuman ways that make us wonder what it means to actually know things... scottaaronson.blog?p=10169",
    "context": null,
-   "likes": 100,
+   "likes": 101,
    "reposts": 15,
    "via": "feed",
    "meaning": "Mollick shares early accounts of mathematicians grappling with hundreds of major AI-generated proofs solved in inhuman ways.",
@@ -835,7 +928,7 @@
    "posted_at": "2026-10-07T06:28:56Z",
    "text": "When people talk about AI easily replacing workers, I think about this ethnography of copier repair technicians in the 1990s.\n\nReading it, you see how work is complicated and improvised by workers and informal and badly documented.\n\n(But eventually technology did largely eliminate this job)",
    "context": null,
-   "likes": 67,
+   "likes": 68,
    "reposts": 4,
    "via": "feed",
    "meaning": "Mollick compares AI workplace replacement fears to historical studies of copier repair technicians, noting that while work is often improvised and poorly documented, technology eventually eliminates those jobs.",
