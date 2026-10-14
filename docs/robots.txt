@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://shashikantdev3.github.io/attention-span/sitemap.xml

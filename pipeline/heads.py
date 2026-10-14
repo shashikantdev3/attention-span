@@ -3,7 +3,11 @@
 Free sources only, no keys:
   - Bluesky public API (public.api.bsky.app): each person's own posts, no replies, no reposts.
   - state/heads_inbox.txt: X or Bluesky post links you paste, one per line ("URL | optional note").
-    X posts are read through X's free embed service (publish.twitter.com/oembed), so no X API is needed.
+    Add them with: python tools/add_posts.py  (paste anything, for example a WhatsApp chat, it finds the links)
+    X posts are read only through X's official embed service (publish.twitter.com/oembed). Nothing is scraped,
+    nobody logs in, and the site shows X posts through X's own embedded-post widget.
+    A line is moved to state/heads_inbox_done.txt once it has been handled.
+  - Once a week every X post is checked again through oEmbed; a deleted post is removed from the site.
 
 Each new post gets a short "What it means" note from the free LLM chain. The note may only explain
 what the post itself says; code checks that every number in the note appears in the post.
@@ -13,6 +17,8 @@ Run on its own:  python run_daily.py --heads-only
 """
 import html
 import json
+import time
+from html.parser import HTMLParser
 import re
 import sys
 from concurrent.futures import ThreadPoolExecutor
@@ -28,6 +34,8 @@ ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "docs" / "data"
 OUT = DATA / "heads.json"
 INBOX = ROOT / "state" / "heads_inbox.txt"
+INBOX_DONE = ROOT / "state" / "heads_inbox_done.txt"
+REFRESH = ROOT / "state" / "x_refresh.json"
 SKIPPED = ROOT / "state" / "heads_skipped.json"
 BSKY = "https://public.api.bsky.app/xrpc/"
 OEMBED = "https://publish.twitter.com/oembed"
@@ -138,8 +146,63 @@ def bsky_feed(head, since):
 
 # ---------- inbox (X and Bluesky links you paste) ----------
 
+class _EmbedCleaner(HTMLParser):
+    """Keeps only X's blockquote with its p, a and br tags; drops scripts, styles and unknown attributes."""
+    KEEP = {"blockquote": ("class", "lang", "dir", "data-dnt"), "p": ("lang", "dir"), "a": ("href",), "br": ()}
+
+    def __init__(self):
+        super().__init__(convert_charrefs=False)
+        self.out, self.depth, self.skip = [], 0, 0
+
+    def handle_starttag(self, tag, attrs):
+        if tag in ("script", "style"):
+            self.skip += 1
+            return
+        if self.skip or tag not in self.KEEP or (tag != "blockquote" and not self.depth):
+            return
+        if tag == "blockquote":
+            self.depth += 1
+        kept = []
+        for k, v in attrs:
+            if k not in self.KEEP[tag] or v is None:
+                continue
+            if k == "href" and not v.startswith("https://"):
+                continue
+            kept.append(f' {k}="{html.escape(v, quote=True)}"')
+        self.out.append(f"<{tag}{''.join(kept)}>" if tag != "br" else "<br>")
+
+    def handle_endtag(self, tag):
+        if tag in ("script", "style"):
+            self.skip = max(0, self.skip - 1)
+            return
+        if self.skip or tag not in self.KEEP or tag == "br" or not self.depth:
+            return
+        self.out.append(f"</{tag}>")
+        if tag == "blockquote":
+            self.depth -= 1
+
+    def handle_data(self, data):
+        if self.depth and not self.skip:
+            self.out.append(html.escape(data, quote=False))
+
+    def handle_entityref(self, name):
+        if self.depth and not self.skip:
+            self.out.append(f"&{name};")
+
+    def handle_charref(self, name):
+        if self.depth and not self.skip:
+            self.out.append(f"&#{name};")
+
+
+def clean_embed(raw):
+    c = _EmbedCleaner()
+    c.feed(raw or "")
+    out = "".join(c.out).strip()
+    return out if out.startswith("<blockquote") and 'class="twitter-tweet"' in out else ""
+
+
 def x_post(url, handle_hint):
-    r = get(OEMBED, timeout=20, params={"url": url, "omit_script": 1, "dnt": "true"})
+    r = get(OEMBED, timeout=20, params={"url": url, "omit_script": 1, "dnt": "true", "hide_thread": "true"})
     if r.status_code != 200:
         raise ValueError(f"X embed returned {r.status_code} (deleted, private or wrong link?)")
     j = r.json()
@@ -154,12 +217,16 @@ def x_post(url, handle_hint):
     if not dates or dates[-1][0] not in MONTHS:
         raise ValueError("could not read the post date from the X embed")
     mon, day, year = dates[-1]
-    posted = datetime(int(year), MONTHS[mon], int(day), 12, tzinfo=timezone.utc)
     author = (j.get("author_url") or "").rstrip("/").rsplit("/", 1)[-1] or handle_hint
     status = X_URL.search(url).group(2)
+    # X post ids carry their own creation time (milliseconds since 4 Nov 2010), which is exact;
+    # the date printed in the embed is only a day and is in US time
+    exact = datetime.fromtimestamp(((int(status) >> 22) + 1288834974657) / 1000, tz=timezone.utc)
+    printed = datetime(int(year), MONTHS[mon], int(day), 12, tzinfo=timezone.utc)
+    posted, date_only = (exact, False) if abs((exact - printed).days) <= 2 else (printed, True)
     return author, {"id": f"x-{status}", "platform": "x", "url": f"https://x.com/{author}/status/{status}",
-                    "posted_at": _iso(posted), "date_only": True, "text": text, "context": None,
-                    "via": "inbox"}
+                    "posted_at": _iso(posted), "date_only": date_only, "text": text, "context": None,
+                    "embed_html": clean_embed(raw), "via": "inbox"}
 
 
 def bsky_link(url):
@@ -178,12 +245,22 @@ def bsky_link(url):
     return posts[0]
 
 
-def read_inbox(heads, log):
+def status_id(url):
+    m = X_URL.search(url)
+    if m:
+        return f"x-{m.group(2)}"
+    m = BSKY_URL.search(url)
+    return f"bsky-{m.group(1)}-{m.group(2)}" if m else None
+
+
+def read_inbox(heads, log, known=()):
+    """Returns (posts, finished_lines). Finished lines are moved out of the inbox after the run."""
+    finished = []
     if not INBOX.exists():
         INBOX.write_text("# Paste X or Bluesky post links here, one per line:  URL | optional note\n"
                          "# Only posts by the people in seed/heads.py are used. Lines starting with # are ignored.\n",
                          encoding="utf-8")
-        return []
+        return [], finished
     by_x = {h["x"].lower(): h for h in heads if h.get("x")}
     by_bsky = {h["bsky"].lower(): h for h in heads if h.get("bsky")}
     out = []
@@ -192,6 +269,9 @@ def read_inbox(heads, log):
         if not line or line.startswith("#"):
             continue
         url, _, note = (part.strip() for part in line.partition("|"))
+        if status_id(url) in known:
+            finished.append(line)          # already on the site
+            continue
         try:
             if X_URL.search(url):
                 author, p = x_post(url, X_URL.search(url).group(1))
@@ -204,18 +284,77 @@ def read_inbox(heads, log):
                     p["via"] = "inbox"
             else:
                 log(f"   inbox: not an X or Bluesky post link, skipped: {url[:80]}")
+                finished.append(f"{line}  # skipped: not a post link")
                 continue
-        except Exception as exc:
+        except ValueError as exc:          # deleted, private or unreadable: no point retrying
+            log(f"   inbox: could not read {url[:80]} ({str(exc)[:80]})")
+            finished.append(f"{line}  # skipped: {str(exc)[:60]}")
+            continue
+        except Exception as exc:           # network trouble: keep the line and try again tomorrow
             log(f"   inbox: could not read {url[:80]} ({str(exc)[:80]})")
             continue
         if not head or not p:
-            log(f"   inbox: {url[:80]} is not by one of the tracked people, skipped")
+            log(f"   inbox: {url[:80]} is not by one of the tracked accounts, skipped")
+            finished.append(f"{line}  # skipped: not a tracked account")
             continue
         p["person"] = head["id"]
         if note:
             p["note"] = note[:200]
+        p["_line"] = line
         out.append(p)
-    return out
+    return out, finished
+
+
+def move_done(lines, log):
+    """Take handled lines out of the inbox and append them, dated, to state/heads_inbox_done.txt."""
+    if not lines or not INBOX.exists():
+        return
+    handled = {l.split("  # skipped")[0].strip() for l in lines}
+    keep = [l for l in INBOX.read_text(encoding="utf-8").splitlines() if l.strip() not in handled]
+    INBOX.write_text("\n".join(keep).rstrip() + "\n", encoding="utf-8")
+    stamp = datetime.now(timezone.utc).date().isoformat()
+    with INBOX_DONE.open("a", encoding="utf-8") as f:
+        for l in lines:
+            f.write(f"{stamp}  {l}\n")
+    log(f"   inbox: {len(lines)} handled lines moved to state/heads_inbox_done.txt")
+
+
+def refresh_x(log=print, every_days=7, force=False, dry_run=False):
+    """Check X posts again through oEmbed; a post its author deleted (or made private) is removed from the site."""
+    state = _load(REFRESH, {})
+    now = datetime.now(timezone.utc)
+    last = state.get("last_run")
+    if not force and last and _parse_time(last) and (now - _parse_time(last)).days < every_days:
+        return {"skipped": True, "last_run": last}
+    store = _load(OUT, None)
+    if not store:
+        return {"checked": 0, "removed": 0}
+    checked = removed = 0
+    for p in store.get("posts", []):
+        if p.get("platform") != "x" or p.get("removed"):
+            continue
+        time.sleep(1)
+        try:
+            r = get(OEMBED, timeout=20, params={"url": p["url"], "omit_script": 1, "dnt": "true"})
+        except Exception as exc:
+            log(f"   x refresh: stopped, network problem ({type(exc).__name__})")
+            break
+        if r.status_code == 429:
+            log("   x refresh: X asked us to slow down; stopping until next time")
+            break
+        checked += 1
+        if r.status_code in (403, 404):
+            removed += 1
+            log(f"   x refresh: {p['url']} is gone, removing it")
+            if not dry_run:
+                for k in ("text", "links", "embed_html", "meaning", "context", "note", "concepts", "story"):
+                    p.pop(k, None)
+                p["removed"] = now.date().isoformat()
+    if not dry_run:
+        OUT.write_text(json.dumps(store, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+        REFRESH.write_text(json.dumps({"last_run": _iso(now), "checked": checked, "removed": removed}), encoding="utf-8")
+    log(f"   x refresh: {checked} X posts checked, {removed} removed")
+    return {"checked": checked, "removed": removed}
 
 
 # ---------- "What it means" ----------
@@ -373,8 +512,8 @@ def update(log=print, days=WINDOW_DAYS):
     failed = [k for k, v in health.items() if isinstance(v, str)]
     log(f"   Bluesky: {len(found)} posts in {days} days from {len(with_bsky) - len(failed)} of {len(with_bsky)} accounts"
         + (f" ({len(failed)} failed: {', '.join(failed)})" if failed else ""))
-    inbox = read_inbox(heads, log)
-    log(f"   inbox: {len(inbox)} post links read")
+    inbox, finished = read_inbox(heads, log, known)
+    log(f"   inbox: {len(inbox)} new post links read")
 
     # 2. pick the new ones worth a note
     new, seen_ids = [], set()
@@ -415,6 +554,9 @@ def update(log=print, days=WINDOW_DAYS):
         p["model"] = r.get("model")
         p["checked"] = r.get("checked")
         p["added"] = now.date().isoformat()
+        line = p.pop("_line", None)
+        if line:
+            finished.append(line)
         known[p["id"]] = p
         added += 1
 
@@ -424,11 +566,14 @@ def update(log=print, days=WINDOW_DAYS):
             for k in ("likes", "reposts", "links", "context"):
                 known[p["id"]][k] = p.get(k)
 
+    for p in known.values():
+        p.pop("_line", None)
     posts = sorted(known.values(), key=lambda p: p["posted_at"], reverse=True)
     out = {"updated_at": _iso(now), "window_days": days, "groups": groups, "people": heads, "posts": posts}
     OUT.write_text(json.dumps(out, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
     SKIPPED.parent.mkdir(parents=True, exist_ok=True)
     SKIPPED.write_text(json.dumps(skipped, indent=0, sort_keys=True), encoding="utf-8")
-    week = [p for p in posts if _parse_time(p["posted_at"]) >= since]
+    move_done(finished, log)
+    week = [p for p in posts if _parse_time(p["posted_at"]) >= since and not p.get("removed")]
     log(f"   {added} posts added; {len(week)} in the last {days} days; {len(posts)} kept in total")
     return {"added": added, "week": len(week), "total": len(posts), "bsky_failed": failed}

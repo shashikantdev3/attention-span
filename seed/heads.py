@@ -9,6 +9,8 @@ Only free, public sources are used:
 
 `known_for` is history, not a current job title, so it does not go stale.
 An `id` that matches docs/data/people.json links the person to their People page.
+Groups with "kind": "account" are company or project accounts, not people. They are X only and are counted
+separately on the site. Every X handle here was checked to exist through X's embed service on 2026-10-14.
 """
 
 GROUPS = [
@@ -18,6 +20,8 @@ GROUPS = [
     {"id": "builders", "label": "Builders"},
     {"id": "explainers", "label": "Explainers and critics"},
     {"id": "microsoft-data", "label": "Microsoft and data"},
+    {"id": "official", "label": "Official accounts", "kind": "account"},
+    {"id": "trackers", "label": "Benchmarks and trackers", "kind": "account"},
 ]
 
 
@@ -106,4 +110,40 @@ HEADS = [
     H("amir-netz", "Amir Netz", "microsoft-data", "Microsoft Technical Fellow behind Power BI and Fabric", "AmirNetz"),
     H("marco-russo", "Marco Russo", "microsoft-data", "Co-founded SQLBI; the DAX and Power BI author", "marcorus",
       "marcorus.bsky.social", "profile-match"),
+    # Official accounts (X only): launches are usually announced here first
+    H("x-openai", "OpenAI", "official", "Maker of ChatGPT and the GPT models", "OpenAI"),
+    H("x-openaidevs", "OpenAI Developers", "official", "OpenAI's API and developer updates", "OpenAIDevs"),
+    H("x-openainewsroom", "OpenAI Newsroom", "official", "OpenAI's official news and statements", "OpenAINewsroom"),
+    H("x-anthropicai", "Anthropic", "official", "Maker of Claude", "AnthropicAI"),
+    H("x-claudeai", "Claude", "official", "Anthropic's product account for Claude", "claudeai"),
+    H("x-googledeepmind", "Google DeepMind", "official", "Google's AI lab, maker of Gemini", "GoogleDeepMind"),
+    H("x-googleai", "Google AI", "official", "Google's AI research and product news", "GoogleAI"),
+    H("x-geminiapp", "Gemini", "official", "Google's Gemini app", "GeminiApp"),
+    H("x-googlegemma", "Google Gemma", "official", "Google's open Gemma models", "googlegemma"),
+    H("x-aiatmeta", "AI at Meta", "official", "Meta's AI research and Llama models", "AIatMeta"),
+    H("x-mistralai", "Mistral AI", "official", "French AI lab with open-weight models", "MistralAI"),
+    H("x-deepseek", "DeepSeek", "official", "Chinese AI lab behind the DeepSeek models", "deepseek_ai"),
+    H("x-qwen", "Qwen", "official", "Alibaba's Qwen model family", "Alibaba_Qwen"),
+    H("x-xai", "xAI", "official", "Maker of the Grok models", "xai"),
+    H("x-nvidia", "NVIDIA", "official", "Maker of the GPUs most AI runs on", "nvidia"),
+    H("x-nvidiaaidev", "NVIDIA AI Developer", "official", "NVIDIA's AI developer tools and models", "NVIDIAAIDev"),
+    H("x-huggingface", "Hugging Face", "official", "The main hub for open models and datasets", "huggingface"),
+    H("x-microsoft", "Microsoft", "official", "Microsoft's main account", "Microsoft"),
+    H("x-azure", "Microsoft Azure", "official", "Microsoft's cloud, home of Azure AI Foundry", "Azure"),
+    H("x-msftresearch", "Microsoft Research", "official", "Microsoft's research lab", "MSFTResearch"),
+    H("x-github", "GitHub", "official", "Code hosting and GitHub Copilot", "github"),
+    H("x-githubcopilot", "GitHub Copilot", "official", "GitHub's AI coding assistant", "GitHubCopilot"),
+    H("x-fabric", "Microsoft Fabric", "official", "Microsoft's data and analytics platform", "MicrosoftFabric"),
+    H("x-powerbi", "Microsoft Power BI", "official", "Microsoft's business intelligence tool", "MSPowerBI"),
+    H("x-sqlbi", "SQLBI", "official", "Marco Russo and Alberto Ferrari's DAX and Power BI training", "sqlbi"),
+    H("x-guyinacube", "Guy in a Cube", "official", "Power BI and Fabric videos", "GuyInACube"),
+    H("x-cursor", "Cursor", "official", "AI code editor", "cursor_ai"),
+    H("x-perplexity", "Perplexity", "official", "AI answer engine", "perplexity_ai"),
+    # Benchmarks and trackers (X only): who is actually ahead, and the day's papers
+    H("x-lmarena", "LMArena", "trackers", "Crowd-voted leaderboard of AI models", "lmarena_ai"),
+    H("x-artificialanalysis", "Artificial Analysis", "trackers", "Independent speed, price and quality comparisons", "ArtificialAnlys"),
+    H("x-epochai", "Epoch AI", "trackers", "Research on AI compute and trends", "EpochAIResearch"),
+    H("x-metr", "METR", "trackers", "Measures how long a task AI agents can complete", "METR_Evals"),
+    H("x-akhaliq", "AK", "trackers", "Posts the day's notable AI papers", "_akhaliq"),
+    H("x-latentspace", "Latent Space", "trackers", "swyx's podcast and newsletter for AI engineers", "LatentSpacePod"),
 ]

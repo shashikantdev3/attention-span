@@ -28,4 +28,6 @@ Commercial use of the data needs written permission. See [COMMERCIAL.md](COMMERC
 
 - Third-party material: the original articles, papers, titles and pages that entries link to belong to their
   publishers. Attention Span links to them; it does not license them.
+- Posts from X and Bluesky, including X posts shown through X's embedded-post widget, belong to their authors.
+  They are not covered by this licence. The "What it means" notes written about them are.
 - The code, which is under the MIT License (see `LICENSE`).

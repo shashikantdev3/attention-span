@@ -12,6 +12,10 @@ free AI tiers and publishes as a static site on GitHub Pages.
 - **Labs**: one page per lab with its dated releases and news.
 - **Attention Heads**: what 51 people who shape AI posted in the last 7 days, quoted in full, each with a plain
   "What it means" note and a "Most active this week" board. Free sources only: Bluesky's public API and X links you paste.
+- **Context Window**: X posts worth reading, picked by an editor each evening and shown through X's own embedded post,
+  each with "What it means". A Hall of fame keeps the posts that changed the field. Nothing is scraped from X.
+- **Week in Review**: the stories that mattered most each week, the themes, the labs and the most active voices,
+  with a one-click plain-text summary to share.
 - **People**: ten people who shape the field, with their history and news mentions.
 - **Stack map**: nine layers from math and neurons to data and BI.
 
@@ -71,7 +75,7 @@ It takes about 4 to 8 minutes. If it stops part way (network drop), run `python 
 Then read the report in `state/reports/<date>.md`. To publish:
 
 ```
-git add docs/data state/seen.json state/pending_terms.json state/heads_skipped.json
+git add docs state
 git commit -m "Edition 2026-10-08"
 git push
 ```
@@ -93,9 +97,19 @@ This registers a Task Scheduler job that runs `tools\nightly.bat` at 23:45 each 
 commits or pushes. Change the end date at the top of the script. To remove it:
 `Unregister-ScheduledTask -TaskName "Attention Span nightly" -Confirm:$false`
 
-**Add an X post to Attention Heads**: X's API is paid, so X posts are never fetched automatically. Paste the post link
-into `state/heads_inbox.txt`, one per line, as `URL | optional note`. Bluesky post links work too. Only posts by the 51
-people in `seed/heads.py` are used. To update only this section: `python run_daily.py --heads-only`.
+**Add X posts to the Context Window**: X posts are never fetched or scraped. You pick them while reading X and paste
+the links:
+
+```
+python tools/add_posts.py                 # paste anything (a WhatsApp chat works), then Ctrl+Z and Enter
+python tools/add_posts.py --classic "coined vibe coding" https://x.com/karpathy/status/1886192184808149383
+python run_daily.py --heads-only          # publish them now instead of waiting for the night run
+```
+
+Links can carry timestamps, text or `?s=20`; twitter.com and fxtwitter.com links are cleaned to x.com. Only posts by the
+accounts in `seed/heads.py` (51 people and 32 official accounts) are used. Each post is read through X's official embed
+service, gets a fact-checked "What it means" note, and is shown on the site through X's embedded-post widget.
+Once a week every X post is checked again; a post its author deleted is removed. `--classic` puts a post in the Hall of fame.
 
 **Add a story the nightly run missed to a past edition**: `python tools/add_story.py URL --date 2026-10-10 --rank 2`.
 Put the maker's own post first. It goes through the same writer and fact-checker, and is marked as added by the editor.
@@ -103,6 +117,13 @@ Put the maker's own post first. It goes through the same writer and fact-checker
 **Add a link the feeds missed** (for example an X post): put it in `state/inbox.txt`, one per line, as `URL | short note`.
 
 **Approve new glossary terms** proposed by the writer: `python tools/review_terms.py`, then `python seed/build_seed.py`.
+
+## Pages for search engines
+
+The site is one JavaScript page, which search engines read poorly, so every bundle step also writes plain HTML pages:
+`docs/s/` (stories), `docs/e/` (editions), `docs/w/` (weeks), `docs/c/` (concepts), plus `docs/sitemap.xml`,
+`docs/robots.txt` and `docs/feed.xml` (RSS). Set `SITE_URL` in `.env` if the site address changes. After the first
+publish, add the sitemap in Google Search Console: `https://shashikantdev3.github.io/attention-span/sitemap.xml`.
 
 ## Editing the history and glossary
 

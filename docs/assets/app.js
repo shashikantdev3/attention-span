@@ -213,6 +213,9 @@
           <ul class="archive">${D.index.editions.slice(0, 7).map((e) => `<li><a href="#/today/${e.date}" ${e.date === day ? 'aria-current="true"' : ""}>
             <time>${esc(fmtDate(e.date))}</time>${esc(e.lead)}</a></li>`).join("")}</ul>
           <p class="stat-line"><a href="#/archive">The full archive</a></p>
+          <br><h4>Also here</h4>
+          <p class="stat-line"><a href="#/week">The week in review</a></p>
+          <p class="stat-line"><a href="#/context-window">Context Window</a>: posts worth reading, picked each evening</p>
         </aside>
       </div>`;
     bindStoryToggles(view, rest);
@@ -239,7 +242,8 @@
     const total = eds.reduce((n, e) => n + e.count, 0);
     const monthName = (m) => new Date(m + "-15T12:00:00Z").toLocaleDateString("en-GB", { month: "long", year: "numeric", timeZone: "UTC" });
     view.innerHTML = `
-      <div class="page-head"><h2>Archive</h2><p>${plural(eds.length, "edition")} and ${plural(total, "story")} so far. Nothing is ever removed.</p></div>
+      <div class="page-head"><h2>Archive</h2><p>${plural(eds.length, "edition")} and ${plural(total, "story")} so far. Nothing is ever removed.
+        <a href="#/week">Read it week by week</a>.</p></div>
       ${Object.entries(months).map(([m, list]) => `
         <section class="arch-month"><h3>${esc(monthName(m))}</h3>
         ${list.map((e) => {
@@ -457,7 +461,7 @@
     if (!p) return notFound();
     const entries = p.entries.map((e) => by.entry[e]).filter(Boolean).sort((a, b) => b.date.localeCompare(a.date));
     const news = D.stories.filter((s) => (s.people || []).includes(id)).sort((a, b) => b.date.localeCompare(a.date));
-    const posted = D.heads.posts.filter((x) => x.person === id);
+    const posted = livePosts().filter((x) => x.person === id);
     view.innerHTML = `<div class="concept-page"><p><a href="#/people">People</a></p><h2>${esc(p.name)}</h2>
       <p class="def">${esc(p.role)}. <span class="asof">Source for this role:
         <a href="${esc(p.role_source.url)}" target="_blank" rel="noopener">${esc(p.role_source.title)}</a></span></p>
@@ -468,6 +472,7 @@
       ${by.head[id] ? `<h3 class="section-title">What they posted</h3>${posted.length ? posted.slice(0, 5).map((x) => postCard(x, { noName: true })).join("")
         + (posted.length > 5 ? `<p><a href="#/heads/${esc(id)}">All ${posted.length} posts</a></p>` : "") : `<p class="empty">No AI posts collected yet.</p>`}` : ""}
       <h3 class="section-title">In history</h3>${miniEntries(entries)}</div>`;
+    activateEmbeds(view);
   }
 
 
@@ -476,12 +481,62 @@
   const istDay = (iso) => new Date(new Date(iso).getTime() + IST).toISOString().slice(0, 10);
   const istTime = (iso) => new Date(new Date(iso).getTime() + IST).toISOString().slice(11, 16);
   const platformName = (p) => (p === "x" ? "X" : "Bluesky");
+  const isAccount = (h) => !!h && (by.group[h.group] || {}).kind === "account";
+  const peopleOnly = () => D.heads.people.filter((h) => !isAccount(h));
+  const accountsOnly = () => D.heads.people.filter(isAccount);
+  const livePosts = () => D.heads.posts.filter((p) => !p.removed);
   const weekPosts = () => {
     const days = D.heads.window_days || 7;
     const since = Date.now() - days * 86400000;
-    return D.heads.posts.filter((p) => new Date(p.posted_at).getTime() >= since);
+    return livePosts().filter((p) => new Date(p.posted_at).getTime() >= since);
   };
+  const isClassic = (p) => /^classic:/i.test(p.note || "");
+  const pickedPosts = () => livePosts().filter((p) => p.via === "inbox");
   const headLink = (h) => `<a href="#/heads/${esc(h.id)}">${esc(h.name)}</a>`;
+  const REPO = "https://github.com/shashikantdev3/attention-span";
+
+  // X posts are shown only through X's own embedded-post widget, loaded when a post scrolls into view.
+  let xScript = null, xObserver = null;
+  function loadX() {
+    if (!xScript) xScript = new Promise((resolve) => {
+      const s = document.createElement("script");
+      s.src = "https://platform.twitter.com/widgets.js";
+      s.async = true;
+      s.charset = "utf-8";
+      s.onload = () => resolve(window.twttr || null);
+      s.onerror = () => resolve(null);
+      document.head.appendChild(s);
+    });
+    return xScript;
+  }
+  function xEmbed(p) {
+    const night = document.documentElement.getAttribute("data-theme") === "night";
+    let h = p.embed_html || "";
+    const extra = `${/data-dnt=/.test(h) ? "" : ' data-dnt="true"'}${night ? ' data-theme="dark"' : ""} data-conversation="none"`;
+    h = h.replace(/^<blockquote/, `<blockquote${extra}`);
+    return `<div class="x-embed" data-x>${h}</div>`;
+  }
+  function activateEmbeds(root) {
+    const boxes = [...root.querySelectorAll("[data-x]:not([data-done])")];
+    if (!boxes.length) return;
+    if (xObserver) xObserver.disconnect();
+    xObserver = new IntersectionObserver((entries) => {
+      entries.forEach((en) => {
+        if (!en.isIntersecting) return;
+        const el = en.target;
+        xObserver.unobserve(el);
+        el.dataset.done = "1";
+        loadX().then((tw) => { if (tw && tw.widgets) tw.widgets.load(el); });
+      });
+    }, { rootMargin: "500px 0px" });
+    boxes.forEach((b) => xObserver.observe(b));
+  }
+  const noteLine = (p) => {
+    if (!p.note) return "";
+    if (isClassic(p)) return `<p class="asof">In the Hall of fame: ${esc(p.note.replace(/^classic:\s*/i, ""))}</p>`;
+    if (/^via\b/i.test(p.note)) return "";
+    return `<p class="asof">Editor's note: ${esc(p.note)}</p>`;
+  };
 
   // the post text with its links made clickable; everything else is escaped
   function richText(text, links) {
@@ -504,13 +559,13 @@
       <header>
         ${opts.noName ? "" : `<span class="monogram sm" aria-hidden="true">${esc(monogram(h.name))}</span>`}
         <div class="who">${opts.noName ? "" : `<b>${headLink(h)}</b>`}
-          <span class="asof">${opts.noName ? "" : `${esc((by.group[h.group] || {}).label || "")}, `}on ${platformName(p.platform)}, <time datetime="${esc(p.posted_at)}">${esc(when)}</time></span></div>
+          <span class="asof">${opts.noName ? "" : `${esc((by.group[h.group] || {}).label || "")}, `}on ${platformName(p.platform)}${p.platform === "x" && p.embed_html ? "" : `, <time datetime="${esc(p.posted_at)}">${esc(when)}</time>`}</span></div>
       </header>
-      <blockquote cite="${esc(p.url)}"><p>${richText(p.text, p.links)}</p></blockquote>
+      ${p.platform === "x" && p.embed_html ? xEmbed(p) : `<blockquote cite="${esc(p.url)}"><p>${richText(p.text, p.links)}</p></blockquote>`}
       ${ctx && (ctx.title || ctx.text) ? `<p class="ctx">${icon("link")}<span>${ctx.kind === "quote" ? "" : "Linked: "}${ctx.url
         ? `<a href="${esc(ctx.url)}" target="_blank" rel="noopener">${esc(ctx.title || ctx.url)}</a>` : esc(ctx.title)}${ctx.kind === "quote" && ctx.text ? `: "${esc(ctx.text.slice(0, 220))}"` : ""}</span></p>` : ""}
-      ${p.meaning ? `<div class="means"><h4>What it means</h4><p>${esc(p.meaning)}</p></div>` : ""}
-      ${p.note ? `<p class="asof">Editor's note: ${esc(p.note)}</p>` : ""}
+      ${p.meaning ? `<div class="means"><h4>What it means <span class="our">our reading, not the author's words</span></h4><p>${esc(p.meaning)}</p></div>` : ""}
+      ${noteLine(p)}
       <footer>
         <a href="${esc(p.url)}" target="_blank" rel="noopener">Read the full post on ${platformName(p.platform)}</a>
         ${story ? `<span>In the news: <a href="#/today/${esc(story.date)}/${esc(story.id)}">${esc(story.title)}</a></span>` : ""}
@@ -532,6 +587,12 @@
     }).join("")}</ol>`;
   }
 
+  function headsTabs(active) {
+    const tabs = [["heads", "Posts"], ["context-window", "Context Window"], ["heads/all", "Who is followed"]];
+    return `<nav class="subtabs" aria-label="Attention Heads sections">${tabs.map(([h, l]) =>
+      `<a href="#/${h}"${active === h ? ' aria-current="page"' : ""}>${l}</a>`).join("")}</nav>`;
+  }
+
   function pageHeads() {
     const H = D.heads;
     const week = weekPosts();
@@ -539,7 +600,8 @@
     const groups = H.groups.filter((g) => H.people.some((h) => h.group === g.id));
     view.innerHTML = `
       <div class="page-head"><h2>Attention Heads</h2>
-        <p>What ${H.people.length} people who shape AI posted this week, quoted in full, with a plain note on what each post means.</p></div>
+        <p>What ${peopleOnly().length} people who shape AI posted this week, quoted in full, with a plain note on what each post means.</p></div>
+      ${headsTabs("heads")}
       <div class="today-grid">
         <div>
           <div class="filters" role="group" aria-label="Show posts from">
@@ -555,10 +617,10 @@
           <br><h4>How posts get here</h4>
           <p class="stat-line">Every night the public Bluesky posts of the ${onBsky} people with a checked Bluesky account are read
             automatically. Replies and reposts are left out, and so is anything not about AI or data.</p>
-          <p class="stat-line">X charges for its API, so X posts are added by hand: an editor pastes the link and X's free embed service supplies the text.</p>
+          <p class="stat-line">X posts are picked by an editor, never scraped, and shown through X's own embedded post. See the <a href="#/context-window">Context Window</a>.</p>
           <p class="stat-line">Each note is written only from the post and checked by a second AI model. Opinions stay with the person who posted them.</p>
           <br><h4>Who is followed</h4>
-          <p class="stat-line"><a href="#/heads/all">All ${H.people.length} people, by group</a></p>
+          <p class="stat-line"><a href="#/heads/all">${peopleOnly().length} people and ${accountsOnly().length} accounts, by group</a></p>
         </aside>
       </div>`;
     const draw = (g) => {
@@ -568,6 +630,69 @@
       list.forEach((p) => (days[istDay(p.posted_at)] = days[istDay(p.posted_at)] || []).push(p));
       $("#feed").innerHTML = Object.entries(days).sort((a, b) => b[0].localeCompare(a[0])).map(([d, ps]) =>
         `<section class="heads-day"><h3>${esc(longDate(d))}</h3>${ps.map((p) => postCard(p)).join("")}</section>`).join("");
+      activateEmbeds(view);
+    };
+    view.querySelectorAll("[data-g]").forEach((b) => b.addEventListener("click", () => {
+      view.querySelectorAll("[data-g]").forEach((x) => { x.classList.toggle("on", x === b); x.setAttribute("aria-pressed", String(x === b)); });
+      draw(b.dataset.g);
+    }));
+    draw("");
+  }
+
+  function pageContextWindow(tab) {
+    const picks = pickedPosts();
+    const since = Date.now() - (D.heads.window_days || 7) * 86400000;
+    const week = picks.filter((p) => new Date(p.posted_at).getTime() >= since);
+    const hall = picks.filter(isClassic);
+    const showHall = tab === "hall-of-fame";
+    const list = (showHall ? hall : week).slice().sort((a, b) => b.posted_at.localeCompare(a.posted_at));
+    const groups = D.heads.groups.filter((g) => list.some((p) => (by.head[p.person] || {}).group === g.id));
+    view.innerHTML = `
+      <div class="page-head"><h2>Context Window</h2>
+        <p>What they said, as they posted it, and what it means. Picked by an editor every evening.</p></div>
+      ${headsTabs("context-window")}
+      <div class="today-grid">
+        <div>
+          <nav class="subtabs minor" aria-label="Context Window views">
+            <a href="#/context-window"${showHall ? "" : ' aria-current="page"'}>This week <span class="n">${week.length}</span></a>
+            <a href="#/context-window/hall-of-fame"${showHall ? ' aria-current="page"' : ""}>Hall of fame <span class="n">${hall.length}</span></a>
+          </nav>
+          ${groups.length > 1 ? `<div class="filters" role="group" aria-label="Show posts from">
+            <button type="button" class="chip on" data-g="">Everyone</button>
+            ${groups.map((g) => `<button type="button" class="chip" data-g="${esc(g.id)}">${esc(g.label)}</button>`).join("")}
+          </div>` : ""}
+          <div id="feed"></div>
+        </div>
+        <aside class="rail-box" aria-label="About the Context Window">
+          <h4>How this works</h4>
+          <p class="stat-line">An editor reads the accounts we follow and picks the few posts worth your time. Nothing is collected automatically from X.</p>
+          <p class="stat-line">Each post is shown through X's own embedded post, exactly as it was posted, so it always links back to X.</p>
+          <p class="stat-line">The note under each post is our reading of it, written only from the post and checked by a second AI model.</p>
+          <p class="stat-line">A post its author deletes disappears from here within a week. If you posted something here and want it taken down,
+            <a href="${REPO}/issues/new?title=Remove%20a%20post" target="_blank" rel="noopener">open an issue</a> and it will be removed.</p>
+          <br><h4>Who we read</h4>
+          <p class="stat-line"><a href="#/heads/all">${peopleOnly().length} people and ${accountsOnly().length} official accounts</a></p>
+          <br><h4>Also this week</h4>
+          <p class="stat-line"><a href="#/heads">Every AI post we collected from Bluesky</a></p>
+          <p class="stat-line"><a href="#/week">The week in review</a></p>
+        </aside>
+      </div>`;
+    const draw = (g) => {
+      const items = list.filter((p) => !g || (by.head[p.person] || {}).group === g);
+      if (!items.length) {
+        $("#feed").innerHTML = `<p class="empty">${showHall ? "No posts in the Hall of fame yet." :
+          "No picks in the last 7 days yet. New ones are added each evening."}</p>`;
+        return;
+      }
+      if (showHall) {
+        $("#feed").innerHTML = items.map((p) => postCard(p)).join("");
+      } else {
+        const days = {};
+        items.forEach((p) => (days[istDay(p.posted_at)] = days[istDay(p.posted_at)] || []).push(p));
+        $("#feed").innerHTML = Object.entries(days).sort((a, b) => b[0].localeCompare(a[0])).map(([d, ps]) =>
+          `<section class="heads-day"><h3>${esc(longDate(d))}</h3>${ps.map((p) => postCard(p)).join("")}</section>`).join("");
+      }
+      activateEmbeds(view);
     };
     view.querySelectorAll("[data-g]").forEach((b) => b.addEventListener("click", () => {
       view.querySelectorAll("[data-g]").forEach((x) => { x.classList.toggle("on", x === b); x.setAttribute("aria-pressed", String(x === b)); });
@@ -581,13 +706,14 @@
     const counts = {};
     weekPosts().forEach((p) => (counts[p.person] = (counts[p.person] || 0) + 1));
     view.innerHTML = `<div class="page-head"><h2>Who is followed</h2>
-        <p><a href="#/heads">Attention Heads</a> follows ${H.people.length} people. A Bluesky account is used only when it is verified by Bluesky,
-        on the person's own web domain, or a profile that clearly matches the person. X profiles are linked for reference.</p></div>
+        <p>${peopleOnly().length} people and ${accountsOnly().length} official accounts. A Bluesky account is used only when it is verified by Bluesky,
+        on the person's own web domain, or a profile that clearly matches the person. Every X handle was checked to exist through X's embed service.</p></div>
+      ${headsTabs("heads/all")}
       ${H.groups.map((g) => {
         const ps = H.people.filter((h) => h.group === g.id);
         if (!ps.length) return "";
         return `<section class="roster"><h3>${esc(g.label)}</h3>
-          <table class="ledger"><thead><tr><th>Person</th><th class="hide-sm">Known for</th><th>Profiles</th><th class="num">This week</th></tr></thead>
+          <table class="ledger"><thead><tr><th>${g.kind === "account" ? "Account" : "Person"}</th><th class="hide-sm">Known for</th><th>Profiles</th><th class="num">This week</th></tr></thead>
           <tbody>${ps.map((h) => `<tr><td>${headLink(h)}<span class="blurb show-sm">${esc(h.known_for)}</span></td>
             <td class="hide-sm">${esc(h.known_for)}</td>
             <td class="profiles">${h.x ? `<a href="https://x.com/${esc(h.x)}" target="_blank" rel="noopener">X</a>` : ""}
@@ -600,7 +726,7 @@
     if (id === "all") return pageHeadsAll();
     const h = by.head[id];
     if (!h) return notFound();
-    const posts = D.heads.posts.filter((p) => p.person === id);
+    const posts = livePosts().filter((p) => p.person === id);
     const bskyCheck = { verified: "verified by Bluesky", "own-domain": "on their own domain", "profile-match": "profile checked by hand" };
     view.innerHTML = `<div class="concept-page"><p><a href="#/heads">Attention Heads</a>, ${esc((by.group[h.group] || {}).label || "")}</p>
       <h2>${esc(h.name)}</h2>
@@ -610,8 +736,120 @@
         <span class="asof">(${esc(bskyCheck[h.bsky_check] || "")})</span>` : ""}
         ${by.person[id] ? `<br><a href="#/people/${esc(id)}">Profile, history and news mentions</a>` : ""}</p>
       <h3 class="section-title">Posts</h3>
-      ${posts.length ? posts.map((p) => postCard(p, { noName: true })).join("") : `<p class="empty">No AI posts collected yet.${h.bsky ? "" : " This person is not followed on Bluesky, so their posts appear only when an editor adds an X link."}</p>`}
+      ${posts.length ? posts.map((p) => postCard(p, { noName: true })).join("") : `<p class="empty">No AI posts collected yet.${h.bsky ? "" : " Posts from here appear only when an editor picks one on X."}</p>`}
     </div>`;
+    activateEmbeds(view);
+  }
+
+  // ------------------------------------------------------------ Week in Review
+  function isoWeek(dateStr) {
+    const t = new Date(dateStr + "T00:00:00Z");
+    const dayNum = t.getUTCDay() || 7;
+    const monday = new Date(t); monday.setUTCDate(t.getUTCDate() - dayNum + 1);
+    t.setUTCDate(t.getUTCDate() + 4 - dayNum);
+    const yearStart = new Date(Date.UTC(t.getUTCFullYear(), 0, 1));
+    const n = Math.ceil(((t - yearStart) / 86400000 + 1) / 7);
+    const start = monday.toISOString().slice(0, 10);
+    const sunday = new Date(monday); sunday.setUTCDate(monday.getUTCDate() + 6);
+    return { id: `${t.getUTCFullYear()}-W${String(n).padStart(2, "0")}`, start, end: sunday.toISOString().slice(0, 10) };
+  }
+  function weekRange(w) {
+    const opts = { day: "numeric", month: "long", timeZone: "UTC" };
+    const a = new Date(w.start + "T12:00:00Z"), b = new Date(w.end + "T12:00:00Z");
+    const left = a.toLocaleDateString("en-GB", a.getUTCMonth() === b.getUTCMonth() ? { day: "numeric", timeZone: "UTC" } : opts);
+    return `${left} to ${b.toLocaleDateString("en-GB", { ...opts, year: "numeric" })}`;
+  }
+  function allWeeks() {
+    const weeks = {};
+    D.index.editions.forEach((e) => {
+      const w = isoWeek(e.date);
+      (weeks[w.id] = weeks[w.id] || { ...w, dates: [] }).dates.push(e.date);
+    });
+    return Object.values(weeks).sort((a, b) => b.id.localeCompare(a.id));
+  }
+  function countBoard(rows, limit = 8) {
+    rows = rows.sort((a, b) => b[2] - a[2]).slice(0, limit);
+    if (!rows.length) return `<p class="empty">Nothing yet.</p>`;
+    const max = rows[0][2];
+    return `<ol class="board">${rows.map(([label, href, c], i) => `<li><span class="n">${String(i + 1).padStart(2, "0")}</span>
+      <span class="who">${href ? `<a href="${href}">${esc(label)}</a>` : esc(label)}</span><span class="count">${c}</span>
+      <span class="bar" style="width:${Math.max(6, Math.round((c / max) * 100))}%"></span></li>`).join("")}</ol>`;
+  }
+  const tally = (items, key) => {
+    const n = {};
+    items.forEach((x) => [].concat(key(x) || []).forEach((k) => (n[k] = (n[k] || 0) + 1)));
+    return n;
+  };
+
+  function pageWeek(id) {
+    const weeks = allWeeks();
+    if (!weeks.length) {
+      view.innerHTML = `<div class="page-head"><h2>Week in Review</h2></div><p class="notice">No editions yet.</p>`;
+      return;
+    }
+    const i = Math.max(0, weeks.findIndex((w) => w.id === id));
+    const w = weeks[i];
+    const stories = w.dates.flatMap((d) => (D.editions[d] ? D.editions[d].stories : []));
+    const score = (s) => (s.buzz || 1) * 2 + (s.rank === 1 ? 3 : 0) + (s.spotlight ? 2 : 0) - (s.rank || 10) * 0.1;
+    const top = stories.slice().sort((a, b) => score(b) - score(a)).slice(0, 7);
+    const posts = livePosts().filter((p) => { const d = istDay(p.posted_at); return d >= w.start && d <= w.end; });
+    const picks = posts.filter((p) => p.via === "inbox");
+    const ongoing = w.end > (D.index.latest || "");
+    const topics = Object.entries(tally(stories, (s) => s.topic)).map(([k, c]) => [topicName(k), "", c]);
+    const concepts = Object.entries(tally(stories, (s) => s.concepts)).filter(([k]) => by.concept[k]).sort((a, b) => b[1] - a[1]).slice(0, 10);
+    const labs = Object.entries(tally(stories, (s) => s.labs)).filter(([k]) => k !== "other").map(([k, c]) => [labName(k), `#/labs/${k}`, c]);
+    const voices = Object.entries(tally(posts, (p) => p.person)).map(([k, c]) => [(by.head[k] || { name: k }).name, `#/heads/${k}`, c]);
+    const site = location.protocol.startsWith("http") ? location.origin + location.pathname : "";
+    const summary = `The week in AI, ${weekRange(w)}${ongoing ? " (so far)" : ""}\n\n` +
+      top.slice(0, 5).map((s, n) => `${n + 1}. ${s.title}\n${s.one_liner}`).join("\n\n") +
+      `\n\nEvery story is written from its sources and fact-checked.${site ? `\nRead the full week: ${site}#/week/${w.id}` : ""}`;
+    view.innerHTML = `
+      <div class="page-head"><h2>Week in Review</h2>
+        <p>${esc(weekRange(w))}${ongoing ? ", so far" : ""}. ${plural(w.dates.length, "edition")}, ${plural(stories.length, "story")}${posts.length ? `, ${plural(posts.length, "post")} from the people we follow` : ""}.</p></div>
+      <nav class="subtabs minor" aria-label="Other weeks">
+        ${weeks[i + 1] ? `<a href="#/week/${weeks[i + 1].id}">Earlier week</a>` : ""}
+        ${weeks[i - 1] ? `<a href="#/week/${weeks[i - 1].id}">Later week</a>` : ""}
+        <a href="#/archive">All editions</a>
+      </nav>
+      <div class="today-grid">
+        <div>
+          <h3 class="section-title">The stories that mattered most</h3>
+          <ol class="wk-top">${top.map((s) => `<li><div class="kicker"><span>${esc(fmtDate(s.date))}</span><span>${esc(topicName(s.topic))}</span>
+            <span>${plural(s.buzz || 1, "source")}</span></div>
+            <a class="wk-title" href="#/today/${esc(s.date)}/${esc(s.id)}">${esc(s.title)}</a><p>${esc(s.one_liner)}</p></li>`).join("")}</ol>
+          <h3 class="section-title">What the week was about</h3>
+          ${countBoard(topics, 9)}
+          ${concepts.length ? `<p class="stat-line">Concepts that came up most:</p><div class="tags">${concepts.map(([k, c]) =>
+            `<a class="chip concept" href="#/concepts/${esc(k)}">${esc(by.concept[k].term)} <span class="mono">${c}</span></a>`).join("")}</div>` : ""}
+          ${picks.length ? `<h3 class="section-title">Picked from X this week</h3>${picks.slice(0, 3).map((p) => postCard(p)).join("")}
+            <p><a href="#/context-window">All picks in the Context Window</a></p>` : ""}
+        </div>
+        <aside class="rail-box" aria-label="This week in numbers">
+          <h4>Share this week</h4>
+          <p class="stat-line">A plain-text summary of the top five stories, ready to paste into a post.</p>
+          <button type="button" class="more" id="copy-week">${icon("plus")}<span>Copy the summary</span></button>
+          <textarea id="week-text" class="sr-only" readonly>${esc(summary)}</textarea>
+          <br><br><h4>Labs in the news</h4>
+          ${countBoard(labs, 8)}
+          <br><h4>Most active voices</h4>
+          ${countBoard(voices, 8)}
+          <br><h4>Every week</h4>
+          <ul class="archive">${weeks.slice(0, 8).map((x) => `<li><a href="#/week/${x.id}"${x.id === w.id ? ' aria-current="true"' : ""}>
+            <time>${esc(x.id.replace("-W", " week "))}</time>${esc(weekRange(x))}</a></li>`).join("")}</ul>
+        </aside>
+      </div>`;
+    const btn = document.getElementById("copy-week");
+    btn.addEventListener("click", async () => {
+      const text = document.getElementById("week-text").value;
+      let ok = false;
+      try { await navigator.clipboard.writeText(text); ok = true; } catch (e) {
+        const ta = document.getElementById("week-text"); ta.classList.remove("sr-only"); ta.select();
+        try { ok = document.execCommand("copy"); } catch (err) { ok = false; }
+        ta.classList.add("sr-only");
+      }
+      btn.querySelector("span").textContent = ok ? "Copied" : "Select and copy the text below";
+    });
+    activateEmbeds(view);
   }
 
   function pageStack() {
@@ -648,9 +886,14 @@
         <li>The edition is added to open JSON files. Nothing is deleted, so the archive grows every night.</li>
       </ol>
       <h3>Attention Heads</h3>
-      <p><a href="#/heads">Attention Heads</a> follows what ${D.heads.people.length || "fifty"} people who shape AI post. Public Bluesky posts are read
-        each night through Bluesky's open API; X posts are added by hand through X's free embed service, because X's API is paid.
-        Each post is quoted in full with a short note on what it means, written only from the post and checked by a second model.</p>
+      <p><a href="#/heads">Attention Heads</a> follows what ${peopleOnly().length} people who shape AI post. Public Bluesky posts are read
+        each night through Bluesky's open API. Each post is quoted in full with a short note on what it means, written only from the post
+        and checked by a second model.</p>
+      <h3>Posts from X</h3>
+      <p>The <a href="#/context-window">Context Window</a> shows posts from X that an editor picked by hand. Nothing is scraped and no account
+        is automated: each post is shown through X's own embedded post, exactly as it was posted. Every week each X post is checked again, and
+        one its author deleted is removed. Posts belong to their authors and are not covered by this site's data licence.
+        To have a post taken down, <a href="${REPO}/issues/new?title=Remove%20a%20post" target="_blank" rel="noopener">open an issue</a>.</p>
       <h3>How the history is checked</h3>
       <p>Every timeline entry links an original source: the paper, the journal DOI or the lab's own announcement.
         A script checks dates against the arXiv API and Crossref, and looks for the date on other pages.
@@ -685,7 +928,7 @@
       ...D.timeline.map((e) => ({ g: "History", t: e.title, d: `${fmtDate(e.date)}. ${e.one_liner}`, h: `#/timeline/${e.id}`, k: `${e.title} ${e.one_liner}` })),
       ...D.concepts.map((c) => ({ g: "Concepts", t: c.term, d: c.definition, h: `#/concepts/${c.id}`, k: `${c.term} ${(c.aka || []).join(" ")} ${c.definition}`, boost: 2 })),
       ...D.people.map((p) => ({ g: "People", t: p.name, d: p.role, h: `#/people/${p.id}`, k: `${p.name} ${p.aliases.join(" ")} ${p.known_for}`, boost: 2 })),
-      ...D.heads.posts.map((p) => ({ g: "Attention Heads", t: `${(by.head[p.person] || {}).name || p.person}: ${p.text.slice(0, 80)}`,
+      ...livePosts().filter((p) => p.text).map((p) => ({ g: "Attention Heads", t: `${(by.head[p.person] || {}).name || p.person}: ${p.text.slice(0, 80)}`,
         d: `${fmtDate(istDay(p.posted_at))}. ${p.meaning || ""}`, h: `#/heads/${p.person}`, k: `${(by.head[p.person] || {}).name || ""} ${p.text} ${p.meaning || ""}` })),
       ...D.heads.people.filter((h) => !by.person[h.id]).map((h) => ({ g: "People", t: h.name, d: h.known_for, h: `#/heads/${h.id}`, k: `${h.name} ${h.known_for}`, boost: 1 })),
       ...D.meta.labs.map((l) => ({ g: "Labs", t: l.name, d: l.blurb, h: `#/labs/${l.id}`, k: `${l.name} ${l.blurb}`, boost: 1 })),
@@ -726,9 +969,10 @@
 
   // ------------------------------------------------------------ router
   const $ = (s) => view.querySelector(s);
-  function route() {
+  function route(keepScroll) {
     const [name, ...params] = (location.hash.replace(/^#\/?/, "") || "today").split("/");
-    document.querySelectorAll("#nav a[data-route]").forEach((a) => { if (a.dataset.route !== name) a.removeAttribute("aria-current"); else a.setAttribute("aria-current", "page"); });
+    const navName = { "context-window": "heads", week: "archive" }[name] || name;
+    document.querySelectorAll("#nav a[data-route]").forEach((a) => { if (a.dataset.route !== navName) a.removeAttribute("aria-current"); else a.setAttribute("aria-current", "page"); });
     const pages = {
       today: () => { pageToday(params[0]); if (params[1]) setTimeout(() => openStory(params[1]), 0); },
       archive: pageArchive,
@@ -737,11 +981,13 @@
       labs: () => (params[0] ? pageLab(params[0]) : pageLabs()),
       people: () => (params[0] ? pagePerson(params[0]) : pagePeople()),
       heads: () => (params[0] ? pageHead(params[0]) : pageHeads()),
+      "context-window": () => pageContextWindow(params[0]),
+      week: () => pageWeek(params[0]),
       stack: pageStack, about: pageAbout,
     };
     (pages[name] || notFound)();
-    if (!params[1] && !(name === "timeline" && params[0])) window.scrollTo(0, 0);
-    const titles = { today: "Today", archive: "Archive", timeline: "Timeline", concepts: "Concepts", labs: "Labs", people: "People", heads: "Attention Heads", stack: "Stack map", about: "About" };
+    if (keepScroll !== true && !params[1] && !(name === "timeline" && params[0])) window.scrollTo(0, 0);
+    const titles = { today: "Today", archive: "Archive", timeline: "Timeline", concepts: "Concepts", labs: "Labs", people: "People", heads: "Attention Heads", "context-window": "Context Window", week: "Week in Review", stack: "Stack map", about: "About" };
     document.title = `${titles[name] || "Attention Span"}: Attention Span`;
   }
 
@@ -760,6 +1006,7 @@
       else document.documentElement.removeAttribute("data-theme");
       try { localStorage.setItem("as-theme", night ? "night" : "day"); } catch (e) { /* private mode: choice lasts this visit */ }
       paint();
+      if (document.querySelector("[data-x]")) route(true);   // X embeds pick their colours when drawn, so draw them again
     });
     paint();
   }
@@ -786,7 +1033,7 @@
     mastheadMeta();
     folio();
     setupSearch();
-    window.addEventListener("hashchange", route);
+    window.addEventListener("hashchange", () => route());
     route();
   }).catch((err) => {
     view.innerHTML = `<p class="notice">The data did not load (${esc(err.message)}). Try reloading the page. On your own computer you can

@@ -79,6 +79,10 @@ def heads_step(log, dry_run=False):
     try:
         from pipeline import heads
         result = heads.update(log=log)
+        try:
+            result["x_refresh"] = heads.refresh_x(log=log)   # weekly: drop posts their authors deleted
+        except Exception as exc:  # noqa: BLE001
+            log(f"   X re-check skipped: {type(exc).__name__}: {str(exc)[:120]}")
         sys.path.insert(0, str(ROOT / "tools"))
         from bundle_data import bundle
         bundle()
@@ -223,7 +227,7 @@ def main():
     print(f"\nDone in {stats['seconds']}s. Report: state/reports/{day}.md")
     if published and not args.dry_run:
         print("\nTo publish, review the report, then run:\n"
-              f'  git add docs/data state/seen.json state/pending_terms.json state/heads_skipped.json\n  git commit -m "Edition {day}"\n  git push')
+              f'  git add docs state\n  git commit -m "Edition {day}"\n  git push')
 
 
 if __name__ == "__main__":

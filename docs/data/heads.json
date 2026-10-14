@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-13T18:41:14Z",
+ "updated_at": "2026-10-14T16:09:12Z",
  "window_days": 7,
  "groups": [
   {
@@ -25,6 +25,16 @@
   {
    "id": "microsoft-data",
    "label": "Microsoft and data"
+  },
+  {
+   "id": "official",
+   "label": "Official accounts",
+   "kind": "account"
+  },
+  {
+   "id": "trackers",
+   "label": "Benchmarks and trackers",
+   "kind": "account"
   }
  ],
  "people": [
@@ -486,9 +496,333 @@
    "x": "marcorus",
    "bsky": "marcorus.bsky.social",
    "bsky_check": "profile-match"
+  },
+  {
+   "id": "x-openai",
+   "name": "OpenAI",
+   "group": "official",
+   "known_for": "Maker of ChatGPT and the GPT models",
+   "x": "OpenAI",
+   "bsky": null,
+   "bsky_check": null
+  },
+  {
+   "id": "x-openaidevs",
+   "name": "OpenAI Developers",
+   "group": "official",
+   "known_for": "OpenAI's API and developer updates",
+   "x": "OpenAIDevs",
+   "bsky": null,
+   "bsky_check": null
+  },
+  {
+   "id": "x-openainewsroom",
+   "name": "OpenAI Newsroom",
+   "group": "official",
+   "known_for": "OpenAI's official news and statements",
+   "x": "OpenAINewsroom",
+   "bsky": null,
+   "bsky_check": null
+  },
+  {
+   "id": "x-anthropicai",
+   "name": "Anthropic",
+   "group": "official",
+   "known_for": "Maker of Claude",
+   "x": "AnthropicAI",
+   "bsky": null,
+   "bsky_check": null
+  },
+  {
+   "id": "x-claudeai",
+   "name": "Claude",
+   "group": "official",
+   "known_for": "Anthropic's product account for Claude",
+   "x": "claudeai",
+   "bsky": null,
+   "bsky_check": null
+  },
+  {
+   "id": "x-googledeepmind",
+   "name": "Google DeepMind",
+   "group": "official",
+   "known_for": "Google's AI lab, maker of Gemini",
+   "x": "GoogleDeepMind",
+   "bsky": null,
+   "bsky_check": null
+  },
+  {
+   "id": "x-googleai",
+   "name": "Google AI",
+   "group": "official",
+   "known_for": "Google's AI research and product news",
+   "x": "GoogleAI",
+   "bsky": null,
+   "bsky_check": null
+  },
+  {
+   "id": "x-geminiapp",
+   "name": "Gemini",
+   "group": "official",
+   "known_for": "Google's Gemini app",
+   "x": "GeminiApp",
+   "bsky": null,
+   "bsky_check": null
+  },
+  {
+   "id": "x-googlegemma",
+   "name": "Google Gemma",
+   "group": "official",
+   "known_for": "Google's open Gemma models",
+   "x": "googlegemma",
+   "bsky": null,
+   "bsky_check": null
+  },
+  {
+   "id": "x-aiatmeta",
+   "name": "AI at Meta",
+   "group": "official",
+   "known_for": "Meta's AI research and Llama models",
+   "x": "AIatMeta",
+   "bsky": null,
+   "bsky_check": null
+  },
+  {
+   "id": "x-mistralai",
+   "name": "Mistral AI",
+   "group": "official",
+   "known_for": "French AI lab with open-weight models",
+   "x": "MistralAI",
+   "bsky": null,
+   "bsky_check": null
+  },
+  {
+   "id": "x-deepseek",
+   "name": "DeepSeek",
+   "group": "official",
+   "known_for": "Chinese AI lab behind the DeepSeek models",
+   "x": "deepseek_ai",
+   "bsky": null,
+   "bsky_check": null
+  },
+  {
+   "id": "x-qwen",
+   "name": "Qwen",
+   "group": "official",
+   "known_for": "Alibaba's Qwen model family",
+   "x": "Alibaba_Qwen",
+   "bsky": null,
+   "bsky_check": null
+  },
+  {
+   "id": "x-xai",
+   "name": "xAI",
+   "group": "official",
+   "known_for": "Maker of the Grok models",
+   "x": "xai",
+   "bsky": null,
+   "bsky_check": null
+  },
+  {
+   "id": "x-nvidia",
+   "name": "NVIDIA",
+   "group": "official",
+   "known_for": "Maker of the GPUs most AI runs on",
+   "x": "nvidia",
+   "bsky": null,
+   "bsky_check": null
+  },
+  {
+   "id": "x-nvidiaaidev",
+   "name": "NVIDIA AI Developer",
+   "group": "official",
+   "known_for": "NVIDIA's AI developer tools and models",
+   "x": "NVIDIAAIDev",
+   "bsky": null,
+   "bsky_check": null
+  },
+  {
+   "id": "x-huggingface",
+   "name": "Hugging Face",
+   "group": "official",
+   "known_for": "The main hub for open models and datasets",
+   "x": "huggingface",
+   "bsky": null,
+   "bsky_check": null
+  },
+  {
+   "id": "x-microsoft",
+   "name": "Microsoft",
+   "group": "official",
+   "known_for": "Microsoft's main account",
+   "x": "Microsoft",
+   "bsky": null,
+   "bsky_check": null
+  },
+  {
+   "id": "x-azure",
+   "name": "Microsoft Azure",
+   "group": "official",
+   "known_for": "Microsoft's cloud, home of Azure AI Foundry",
+   "x": "Azure",
+   "bsky": null,
+   "bsky_check": null
+  },
+  {
+   "id": "x-msftresearch",
+   "name": "Microsoft Research",
+   "group": "official",
+   "known_for": "Microsoft's research lab",
+   "x": "MSFTResearch",
+   "bsky": null,
+   "bsky_check": null
+  },
+  {
+   "id": "x-github",
+   "name": "GitHub",
+   "group": "official",
+   "known_for": "Code hosting and GitHub Copilot",
+   "x": "github",
+   "bsky": null,
+   "bsky_check": null
+  },
+  {
+   "id": "x-githubcopilot",
+   "name": "GitHub Copilot",
+   "group": "official",
+   "known_for": "GitHub's AI coding assistant",
+   "x": "GitHubCopilot",
+   "bsky": null,
+   "bsky_check": null
+  },
+  {
+   "id": "x-fabric",
+   "name": "Microsoft Fabric",
+   "group": "official",
+   "known_for": "Microsoft's data and analytics platform",
+   "x": "MicrosoftFabric",
+   "bsky": null,
+   "bsky_check": null
+  },
+  {
+   "id": "x-powerbi",
+   "name": "Microsoft Power BI",
+   "group": "official",
+   "known_for": "Microsoft's business intelligence tool",
+   "x": "MSPowerBI",
+   "bsky": null,
+   "bsky_check": null
+  },
+  {
+   "id": "x-sqlbi",
+   "name": "SQLBI",
+   "group": "official",
+   "known_for": "Marco Russo and Alberto Ferrari's DAX and Power BI training",
+   "x": "sqlbi",
+   "bsky": null,
+   "bsky_check": null
+  },
+  {
+   "id": "x-guyinacube",
+   "name": "Guy in a Cube",
+   "group": "official",
+   "known_for": "Power BI and Fabric videos",
+   "x": "GuyInACube",
+   "bsky": null,
+   "bsky_check": null
+  },
+  {
+   "id": "x-cursor",
+   "name": "Cursor",
+   "group": "official",
+   "known_for": "AI code editor",
+   "x": "cursor_ai",
+   "bsky": null,
+   "bsky_check": null
+  },
+  {
+   "id": "x-perplexity",
+   "name": "Perplexity",
+   "group": "official",
+   "known_for": "AI answer engine",
+   "x": "perplexity_ai",
+   "bsky": null,
+   "bsky_check": null
+  },
+  {
+   "id": "x-lmarena",
+   "name": "LMArena",
+   "group": "trackers",
+   "known_for": "Crowd-voted leaderboard of AI models",
+   "x": "lmarena_ai",
+   "bsky": null,
+   "bsky_check": null
+  },
+  {
+   "id": "x-artificialanalysis",
+   "name": "Artificial Analysis",
+   "group": "trackers",
+   "known_for": "Independent speed, price and quality comparisons",
+   "x": "ArtificialAnlys",
+   "bsky": null,
+   "bsky_check": null
+  },
+  {
+   "id": "x-epochai",
+   "name": "Epoch AI",
+   "group": "trackers",
+   "known_for": "Research on AI compute and trends",
+   "x": "EpochAIResearch",
+   "bsky": null,
+   "bsky_check": null
+  },
+  {
+   "id": "x-metr",
+   "name": "METR",
+   "group": "trackers",
+   "known_for": "Measures how long a task AI agents can complete",
+   "x": "METR_Evals",
+   "bsky": null,
+   "bsky_check": null
+  },
+  {
+   "id": "x-akhaliq",
+   "name": "AK",
+   "group": "trackers",
+   "known_for": "Posts the day's notable AI papers",
+   "x": "_akhaliq",
+   "bsky": null,
+   "bsky_check": null
+  },
+  {
+   "id": "x-latentspace",
+   "name": "Latent Space",
+   "group": "trackers",
+   "known_for": "swyx's podcast and newsletter for AI engineers",
+   "x": "LatentSpacePod",
+   "bsky": null,
+   "bsky_check": null
   }
  ],
  "posts": [
+  {
+   "id": "x-2110095403198849132",
+   "platform": "x",
+   "url": "https://x.com/OpenAINewsroom/status/2110095403198849132",
+   "posted_at": "2026-10-13T19:48:42Z",
+   "date_only": false,
+   "text": "We discovered a sophisticated recording device that was hidden inside one of our offices. We used our models to understand the device and where it had come from, identifying that a specific employee had planted it a few days earlier. We referred the matter to the FBI, and we’re…",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">We discovered a sophisticated recording device that was hidden inside one of our offices. We used our models to understand the device and where it had come from, identifying that a specific employee had planted it a few days earlier. We referred the matter to the FBI, and we’re…</p>&mdash; OpenAI Newsroom (@OpenAINewsroom) <a href=\"https://x.com/OpenAINewsroom/status/2110095403198849132?ref_src=twsrc%5Etfw\">October 13, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "x-openainewsroom",
+   "meaning": "OpenAI says it found a hidden recording device in one of its offices, used its own models to work out what it was and where it came from, and referred the matter to the FBI.",
+   "concepts": [],
+   "story": null,
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "editor",
+   "added": "2026-10-14"
+  },
   {
    "id": "bsky-emollick.bsky.social-3mxrncnjjjk2q",
    "person": "ethan-mollick",
@@ -498,8 +832,8 @@
    "text": "Using Gemini 4 makes you realize how many other models must be distilling Claude/GPT (or using a similar training pipeline). It feels quite different than other models.",
    "links": [],
    "context": null,
-   "likes": 25,
-   "reposts": 1,
+   "likes": 141,
+   "reposts": 4,
    "via": "feed",
    "meaning": "Mollick observes that using Gemini 4 highlights how distinct its behavior is, suggesting many other models rely on distillation or similar training pipelines mimicking leading systems like Claude and GPT. Builders might care when evaluating model diversity and performance.",
    "concepts": [
@@ -510,6 +844,27 @@
    "model": "gemini:gemini-3.5-flash-lite",
    "checked": "groq:openai/gpt-oss-120b",
    "added": "2026-10-13"
+  },
+  {
+   "id": "x-2110038898009407584",
+   "platform": "x",
+   "url": "https://x.com/sundarpichai/status/2110038898009407584",
+   "posted_at": "2026-10-13T16:04:10Z",
+   "date_only": false,
+   "text": "Gemini 4 Argon is here.\n\nIt’s available globally today for developers and enterprises in the paid tier of the Gemini API and the Gemini platform, for Ultra subscribers in Google Antigravity, and Ultra and Pro subscribers in the Gemini app and Search.\n\nHope you all enjoy it!",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">Gemini 4 Argon is here.<br><br>It’s available globally today for developers and enterprises in the paid tier of the Gemini API and the Gemini platform, for Ultra subscribers in Google Antigravity, and Ultra and Pro subscribers in the Gemini app and Search.<br><br>Hope you all enjoy it! <a href=\"https://t.co/2jyAgqoylU\">pic.twitter.com/2jyAgqoylU</a></p>&mdash; Sundar Pichai (@sundarpichai) <a href=\"https://x.com/sundarpichai/status/2110038898009407584?ref_src=twsrc%5Etfw\">October 13, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "sundar-pichai",
+   "meaning": "Google announces the release of Gemini 4 Argon, available globally for developers, enterprises, and subscribers across its platforms.",
+   "concepts": [
+    "foundation-model",
+    "multimodal-model"
+   ],
+   "story": "2026-10-13-google-releases-gemini-4-argon-frontier-model",
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "groq:openai/gpt-oss-120b",
+   "added": "2026-10-14"
   },
   {
    "id": "bsky-emollick.bsky.social-3mxr77gpvik2q",
@@ -525,8 +880,8 @@
     }
    ],
    "context": null,
-   "likes": 62,
-   "reposts": 5,
+   "likes": 74,
+   "reposts": 6,
    "via": "feed",
    "meaning": "Mollick highlights an Anthropic warning to focus on sudden AI ability thresholds rather than steady capability climbs, citing a threshold involving self-replicating AI worms on IoT devices. Developers and safety researchers care about identifying such critical capability jumps.",
    "concepts": [
@@ -569,8 +924,8 @@
    "text": "GPT-4 was the undisputed best model in the world for a full year and we all debated whether anyone could catch up or if OpenAI had some secret formula that nobody else knew about.\n\nNow there are are 19 AI models that can run on a modern smartphone that are better than GPT-4!",
    "links": [],
    "context": null,
-   "likes": 187,
-   "reposts": 28,
+   "likes": 202,
+   "reposts": 30,
    "via": "feed",
    "meaning": "Mollick notes that while GPT-4 was the top model for a year, there are now 19 smartphone-capable AI models that outperform it. This illustrates rapid progress in edge and small language models that builders can leverage.",
    "concepts": [
@@ -591,7 +946,7 @@
    "text": "If you announce a model's benchmarks without releasing it (weights, product, api, etc \"later\"), feels like almost a sure thing that someone releases a better model in your category before you get it out.\n\n... Gemini Argon, Reflection Beam, who's next on this list?",
    "links": [],
    "context": null,
-   "likes": 22,
+   "likes": 23,
    "reposts": 0,
    "via": "feed",
    "meaning": "Lambert argues that announcing model benchmarks without immediate availability means competitors will likely release a better model first. Developers should watch launch strategies closely.",
@@ -613,8 +968,8 @@
    "text": "If you haven’t made sure to turn on two-factor authentication on all accounts, have passwords with family in case you get voice calls asking for money, etc, now would be a good time.\n\nAI gains mean the costs of mass targeting individuals with very sophisticated attacks are dropping.",
    "links": [],
    "context": null,
-   "likes": 119,
-   "reposts": 26,
+   "likes": 123,
+   "reposts": 27,
    "via": "feed",
    "meaning": "Mollick warns that AI tools make sophisticated targeted attacks cheaper, advising users to enable two-factor authentication and establish family verification passwords.",
    "concepts": [],
@@ -643,6 +998,26 @@
    "model": "gemini:gemini-3.5-flash-lite",
    "checked": "groq:openai/gpt-oss-120b",
    "added": "2026-10-12"
+  },
+  {
+   "id": "x-2109361546505966046",
+   "platform": "x",
+   "url": "https://x.com/karpathy/status/2109361546505966046",
+   "posted_at": "2026-10-11T19:12:37Z",
+   "date_only": false,
+   "text": "Dusting off this tweet from April because this gap in shared understanding of LLM capability is *widening*. It's now less \"two groups of people speaking past each other\" and more a sharp funnel.\n\n- Napkin math somewhere around 6B people (~75% of the population) have barely come… https://t.co/79xGhQdf1n",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">Dusting off this tweet from April because this gap in shared understanding of LLM capability is *widening*. It&#39;s now less &quot;two groups of people speaking past each other&quot; and more a sharp funnel.<br><br>- Napkin math somewhere around 6B people (~75% of the population) have barely come… <a href=\"https://t.co/79xGhQdf1n\">https://t.co/79xGhQdf1n</a></p>&mdash; Andrej Karpathy (@karpathy) <a href=\"https://x.com/karpathy/status/2109361546505966046?ref_src=twsrc%5Etfw\">October 11, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "andrej-karpathy",
+   "meaning": "Karpathy says the gap in shared understanding of what LLMs can do is widening, from two groups talking past each other into a sharp funnel. The full post on X has his napkin math.",
+   "concepts": [
+    "llm"
+   ],
+   "story": null,
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "editor",
+   "added": "2026-10-14"
   },
   {
    "id": "bsky-marcorus.bsky.social-3mxlikvqqpn2w",
@@ -678,7 +1053,7 @@
    "posted_at": "2026-10-10T16:13:51Z",
    "text": "We've been monitoring a decline in HuggingFace downloads across the top open LLMs we track for interconnects. It looks like there was a slight change in counting of downloads, as we saw a ~30% download rate drop for many top models, but this is continuing over time. \ndashboard.interconnects.ai",
    "context": null,
-   "likes": 46,
+   "likes": 47,
    "reposts": 4,
    "via": "feed",
    "meaning": "Lambert notes a sustained decline in HuggingFace downloads across top open LLMs, initially linked to counting changes but continuing over time.",
@@ -696,6 +1071,27 @@
      "url": "https://dashboard.interconnects.ai/"
     }
    ]
+  },
+  {
+   "id": "x-2108931348857827686",
+   "platform": "x",
+   "url": "https://x.com/satyanadella/status/2108931348857827686",
+   "posted_at": "2026-10-10T14:43:10Z",
+   "date_only": false,
+   "text": "https://t.co/MjwFy73LOF",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"zxx\" dir=\"ltr\"><a href=\"https://t.co/MjwFy73LOF\">https://t.co/MjwFy73LOF</a></p>&mdash; Satya Nadella (@satyanadella) <a href=\"https://x.com/satyanadella/status/2108931348857827686?ref_src=twsrc%5Etfw\">October 10, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "satya-nadella",
+   "note": "Links to his essay Models as Insider Risks in the Super Intelligence Era",
+   "meaning": "Nadella shares his essay arguing that companies should treat AI models as possible insider risks. Our story on what the essay says is linked below.",
+   "concepts": [
+    "ai-safety"
+   ],
+   "story": "2026-10-11-microsoft-ceo-satya-nadella-says-ai-models-are-compromised",
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "editor",
+   "added": "2026-10-14"
   },
   {
    "id": "bsky-natolambert.bsky.social-3mxhwx5ydch2t",
@@ -761,7 +1157,7 @@
     "title": "A new feature for my blog, built using my voice",
     "text": "I shipped a new feature for my blog today: the Newsletters page, which offers an index of all of the newsletters I’ve sent out, both my free weekly Substack and …"
    },
-   "likes": 61,
+   "likes": 63,
    "reposts": 3,
    "via": "feed",
    "meaning": "Willison built a new feature for his blog entirely by voice using Codex Desktop while cooking dinner.",
@@ -801,6 +1197,24 @@
    "links": []
   },
   {
+   "id": "x-2108404561413349695",
+   "platform": "x",
+   "url": "https://x.com/claudeai/status/2108404561413349695",
+   "posted_at": "2026-10-09T03:49:54Z",
+   "date_only": false,
+   "text": "We’ve loved seeing so many founders join the Claude Startups program. Unfortunately, we underestimated demand for the program, and we need to pause the Claude Team and $1,000 API credit offers.\n\nWith hundreds of thousands of applicants, we're re-reviewing applications so the…",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">We’ve loved seeing so many founders join the Claude Startups program. Unfortunately, we underestimated demand for the program, and we need to pause the Claude Team and $1,000 API credit offers.<br><br>With hundreds of thousands of applicants, we&#39;re re-reviewing applications so the…</p>&mdash; Claude (@claudeai) <a href=\"https://x.com/claudeai/status/2108404561413349695?ref_src=twsrc%5Etfw\">October 9, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "x-claudeai",
+   "meaning": "Anthropic says demand for its Claude Startups program was far higher than it expected, so it is pausing the Claude Team and $1,000 API credit offers while it re-reviews applications.",
+   "concepts": [],
+   "story": null,
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "editor",
+   "added": "2026-10-14"
+  },
+  {
    "id": "bsky-natolambert.bsky.social-3mxerqsbr5s2t",
    "person": "nathan-lambert",
    "platform": "bluesky",
@@ -818,6 +1232,26 @@
    "checked": "groq:qwen/qwen3.8-27b",
    "added": "2026-10-11",
    "links": []
+  },
+  {
+   "id": "x-2108216753604248000",
+   "platform": "x",
+   "url": "https://x.com/simonw/status/2108216753604248000",
+   "posted_at": "2026-10-08T15:23:37Z",
+   "date_only": false,
+   "text": "New open source cross-platform (Windows, macOS, Linux) sandboxing library from Microsoft - looks very promising, uses processcontainer/bubblewrap/seatbelt under the hood https://t.co/WMW0AXeBoG https://t.co/1xXIohaD5g",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">New open source cross-platform (Windows, macOS, Linux) sandboxing library from Microsoft - looks very promising, uses processcontainer/bubblewrap/seatbelt under the hood <a href=\"https://t.co/WMW0AXeBoG\">https://t.co/WMW0AXeBoG</a> <a href=\"https://t.co/1xXIohaD5g\">https://t.co/1xXIohaD5g</a></p>&mdash; Simon Willison (@simonw) <a href=\"https://x.com/simonw/status/2108216753604248000?ref_src=twsrc%5Etfw\">October 8, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "simon-willison",
+   "meaning": "Willison highlights a new cross-platform sandboxing library from Microsoft that utilizes processcontainer, bubblewrap, and seatbelt under the hood.",
+   "concepts": [
+    "agent-sandbox"
+   ],
+   "story": null,
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "groq:openai/gpt-oss-120b",
+   "added": "2026-10-14"
   },
   {
    "id": "bsky-emollick.bsky.social-3mxeh745nhk2x",
@@ -901,7 +1335,7 @@
     "title": "Introducing Claude Haiku 5.5",
     "text": "As previously promised, here’s Anthropic’s new fast, low cost model: Introducing Claude Haiku 5.5. The previous Haiku, 4.5, was very much showing its age. It came out almost a year …"
    },
-   "likes": 79,
+   "likes": 80,
    "reposts": 4,
    "via": "feed",
    "meaning": "Willison shares notes and pricing details on the newly released Claude Haiku 5.5 model from Anthropic, highlighting its low cost and speed compared to its predecessor.",
@@ -919,6 +1353,26 @@
      "url": "https://simonwillison.net/2026/Oct/7/claude-haiku-5-5/"
     }
    ]
+  },
+  {
+   "id": "x-2107894039626277339",
+   "platform": "x",
+   "url": "https://x.com/claudeai/status/2107894039626277339",
+   "posted_at": "2026-10-07T18:01:16Z",
+   "date_only": false,
+   "text": "Introducing Claude Haiku 5.5: the cheapest, fastest, and most capable small model we’ve ever released.\n\nOn average, it costs around 75% less to run than Claude Haiku 4.5.",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">Introducing Claude Haiku 5.5: the cheapest, fastest, and most capable small model we’ve ever released.<br><br>On average, it costs around 75% less to run than Claude Haiku 4.5. <a href=\"https://t.co/jm06cZJfkV\">pic.twitter.com/jm06cZJfkV</a></p>&mdash; Claude (@claudeai) <a href=\"https://x.com/claudeai/status/2107894039626277339?ref_src=twsrc%5Etfw\">October 7, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "x-claudeai",
+   "meaning": "Anthropic introduces Claude Haiku 5.5, promoting it as their cheapest, fastest, and most capable small model while costing about 75 percent less to run than the previous version.",
+   "concepts": [
+    "small-language-model"
+   ],
+   "story": null,
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "groq:openai/gpt-oss-120b",
+   "added": "2026-10-14"
   },
   {
    "id": "bsky-emollick.bsky.social-3mxbcxh52gs2c",
@@ -1155,6 +1609,72 @@
      "url": "https://brut-city.netlify.app/"
     }
    ]
+  },
+  {
+   "id": "x-1886192184808149383",
+   "platform": "x",
+   "url": "https://x.com/karpathy/status/1886192184808149383",
+   "posted_at": "2025-02-02T23:17:15Z",
+   "date_only": false,
+   "text": "There's a new kind of coding I call \"vibe coding\", where you fully give in to the vibes, embrace exponentials, and forget that the code even exists. It's possible because the LLMs (e.g. Cursor Composer w Sonnet) are getting too good. Also I just talk to Composer with SuperWhisper…",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">There&#39;s a new kind of coding I call &quot;vibe coding&quot;, where you fully give in to the vibes, embrace exponentials, and forget that the code even exists. It&#39;s possible because the LLMs (e.g. Cursor Composer w Sonnet) are getting too good. Also I just talk to Composer with SuperWhisper…</p>&mdash; Andrej Karpathy (@karpathy) <a href=\"https://x.com/karpathy/status/1886192184808149383?ref_src=twsrc%5Etfw\">February 2, 2025</a></blockquote>",
+   "via": "inbox",
+   "person": "andrej-karpathy",
+   "note": "classic: coined the term vibe coding",
+   "meaning": "Karpathy coins the term vibe coding: you describe what you want, accept what the AI writes, and stop looking at the code itself. He says it works because LLMs in tools like Cursor have become that good.",
+   "concepts": [
+    "coding-assistant",
+    "llm",
+    "vibe-coding"
+   ],
+   "story": null,
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "groq:openai/gpt-oss-120b (note edited by the editor)",
+   "added": "2026-10-14"
+  },
+  {
+   "id": "x-1790075827666796666",
+   "platform": "x",
+   "url": "https://x.com/sama/status/1790075827666796666",
+   "posted_at": "2024-05-13T17:45:09Z",
+   "date_only": false,
+   "text": "her",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"qst\" dir=\"ltr\">her</p>&mdash; Sam Altman (@sama) <a href=\"https://x.com/sama/status/1790075827666796666?ref_src=twsrc%5Etfw\">May 13, 2024</a></blockquote>",
+   "via": "inbox",
+   "person": "sam-altman",
+   "note": "classic: posted on the day of the GPT-4o launch and widely read as a nod to the film Her",
+   "meaning": "The whole post is one word. It went up on the day OpenAI launched GPT-4o, whose voice mode many people compared to the AI in the film Her.",
+   "concepts": [
+    "multimodal-model"
+   ],
+   "story": null,
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "editor",
+   "added": "2026-10-14"
+  },
+  {
+   "id": "x-1617979122625712128",
+   "platform": "x",
+   "url": "https://x.com/karpathy/status/1617979122625712128",
+   "posted_at": "2023-01-24T20:14:18Z",
+   "date_only": false,
+   "text": "The hottest new programming language is English",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">The hottest new programming language is English</p>&mdash; Andrej Karpathy (@karpathy) <a href=\"https://x.com/karpathy/status/1617979122625712128?ref_src=twsrc%5Etfw\">January 24, 2023</a></blockquote>",
+   "via": "inbox",
+   "person": "andrej-karpathy",
+   "note": "classic: an early line that summed up prompting as programming",
+   "meaning": "Karpathy's point: with large language models you can program a computer by writing plain English, so writing prompts becomes a kind of programming.",
+   "concepts": [
+    "prompt-engineering",
+    "llm"
+   ],
+   "story": null,
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "editor",
+   "added": "2026-10-14"
   }
  ]
 }
