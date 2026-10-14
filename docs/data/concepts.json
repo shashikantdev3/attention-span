@@ -14,6 +14,45 @@
   "letter": "A"
  },
  {
+  "id": "agent-memory",
+  "term": "Agent memory",
+  "layer": "building",
+  "definition": "The ability of an assistant or agent to keep facts from earlier conversations and use them later, instead of starting fresh in every session.",
+  "eli5": "Like a friend who remembers your name and what you talked about last week.",
+  "evolved_from": [
+   "agent",
+   "context-window"
+  ],
+  "aka": [
+   "active memory",
+   "long-term memory"
+  ],
+  "added": "2026-10-12",
+  "source": "https://techcrunch.com/2026/10/12/meta-releases-its-first-frontier-model-muse-wonder/",
+  "led_to": [],
+  "entries": [],
+  "letter": "A"
+ },
+ {
+  "id": "agent-sandbox",
+  "term": "Agent sandbox",
+  "layer": "safety",
+  "definition": "An isolated environment where an AI agent can run code and use tools without being able to touch the rest of the computer or network. Microsoft's Execution Containers (MXC) are one example.",
+  "eli5": "A sandpit with walls: the agent can build and break things inside it, but nothing outside gets hurt.",
+  "evolved_from": [
+   "agent",
+   "computer-use"
+  ],
+  "aka": [
+   "agent containment"
+  ],
+  "added": "2026-10-08",
+  "source": "https://commandline.microsoft.com/local-models-sandboxed-tools-github-windows/",
+  "led_to": [],
+  "entries": [],
+  "letter": "A"
+ },
+ {
   "id": "a2a",
   "term": "Agent2Agent protocol (A2A)",
   "layer": "building",
@@ -45,6 +84,8 @@
   "aka": [],
   "led_to": [
    "a2a",
+   "agent-memory",
+   "agent-sandbox",
    "computer-use",
    "personal-agent",
    "vibe-coding"
@@ -93,7 +134,9 @@
    "ai-safety"
   ],
   "aka": [],
-  "led_to": [],
+  "led_to": [
+   "kill-switch"
+  ],
   "entries": [
    "openai-board-2023"
   ],
@@ -125,7 +168,8 @@
   ],
   "aka": [],
   "led_to": [
-   "ai-governance"
+   "ai-governance",
+   "kill-switch"
   ],
   "entries": [
    "bletchley-2023",
@@ -213,6 +257,7 @@
   "aka": [],
   "led_to": [
    "kv-cache",
+   "sliding-window-attention",
    "transformer"
   ],
   "entries": [
@@ -312,6 +357,7 @@
   ],
   "aka": [],
   "led_to": [
+   "agent-sandbox",
    "personal-agent"
   ],
   "entries": [
@@ -347,7 +393,9 @@
    "transformer"
   ],
   "aka": [],
-  "led_to": [],
+  "led_to": [
+   "agent-memory"
+  ],
   "entries": [],
   "letter": "C"
  },
@@ -430,6 +478,27 @@
   "letter": "D"
  },
  {
+  "id": "decision-model",
+  "term": "Decision model",
+  "layer": "models",
+  "definition": "A model built to choose from a fixed set of options and return a calibrated probability for each, instead of writing free text. Used for routing, classification and grading inside apps and agents.",
+  "eli5": "Instead of writing an essay, it ticks one box on a multiple-choice sheet and says how sure it is.",
+  "evolved_from": [
+   "language-model",
+   "probability-calibration",
+   "structured-outputs"
+  ],
+  "aka": [
+   "decision-scoring model",
+   "non-text model"
+  ],
+  "added": "2026-10-10",
+  "source": "https://commandline.microsoft.com/microsoft-decision-1-model-foundry/",
+  "led_to": [],
+  "entries": [],
+  "letter": "D"
+ },
+ {
   "id": "deep-learning",
   "term": "Deep learning",
   "layer": "learning",
@@ -441,6 +510,7 @@
   ],
   "aka": [],
   "led_to": [
+   "pruning",
    "transfer-learning"
   ],
   "entries": [
@@ -553,6 +623,26 @@
    "dropout-2014"
   ],
   "letter": "D"
+ },
+ {
+  "id": "effort-controls",
+  "term": "Effort controls",
+  "layer": "building",
+  "definition": "A setting that tells a model how much thinking to spend on a request, so you can trade cost and speed against answer quality task by task.",
+  "eli5": "Like choosing whether to answer a quiz quickly or take your time and check your work.",
+  "evolved_from": [
+   "test-time-compute",
+   "reasoning-model"
+  ],
+  "aka": [
+   "effort setting",
+   "reasoning effort"
+  ],
+  "added": "2026-10-08",
+  "source": "https://aws.amazon.com/blogs/machine-learning/introducing-claude-haiku-5-5-on-aws/",
+  "led_to": [],
+  "entries": [],
+  "letter": "E"
  },
  {
   "id": "embedding",
@@ -696,7 +786,9 @@
   "evolved_from": [],
   "aka": [],
   "led_to": [
-   "deep-learning-framework"
+   "deep-learning-framework",
+   "hyperscaler",
+   "rack-scale-architecture"
   ],
   "entries": [
    "gpu-training-2009",
@@ -755,6 +847,24 @@
   "letter": "H"
  },
  {
+  "id": "hyperscaler",
+  "term": "Hyperscaler",
+  "layer": "infra",
+  "definition": "One of the few companies that run cloud data centres at enormous scale, such as Microsoft Azure, Amazon Web Services and Google Cloud, and supply most of the computing power used to train and run AI.",
+  "eli5": "The giant landlords who own the buildings full of computers that AI runs on.",
+  "evolved_from": [
+   "gpu"
+  ],
+  "aka": [
+   "hyperscale cloud"
+  ],
+  "added": "2026-10-13",
+  "source": "https://www.theguardian.com/business/2026/oct/13/ai-share-crash-risk-global-imf-debt-corrowing-cyber-attacks",
+  "led_to": [],
+  "entries": [],
+  "letter": "H"
+ },
+ {
   "id": "in-context-learning",
   "term": "In-context learning",
   "layer": "building",
@@ -783,7 +893,9 @@
   "aka": [],
   "led_to": [
    "kv-cache",
-   "quantization"
+   "pruning",
+   "quantization",
+   "speculative-decoding"
   ],
   "entries": [],
   "letter": "I"
@@ -805,6 +917,25 @@
    "instructgpt-2022"
   ],
   "letter": "I"
+ },
+ {
+  "id": "kill-switch",
+  "term": "Kill switch",
+  "layer": "safety",
+  "definition": "A way for authorised people to pause or shut down an AI system, even in the middle of a task, if it behaves in ways it should not.",
+  "eli5": "A big red stop button for the AI.",
+  "evolved_from": [
+   "ai-safety",
+   "ai-governance"
+  ],
+  "aka": [
+   "emergency brake"
+  ],
+  "added": "2026-10-12",
+  "source": "https://www.theguardian.com/technology/2026/oct/12/ai-less-regulated-than-milk-microsoft-president-calls-for-tougher-rules",
+  "led_to": [],
+  "entries": [],
+  "letter": "K"
  },
  {
   "id": "kv-cache",
@@ -830,6 +961,7 @@
   "evolved_from": [],
   "aka": [],
   "led_to": [
+   "decision-model",
    "llm",
    "word-embedding"
   ],
@@ -866,6 +998,7 @@
    "reasoning-model",
    "scaling-laws",
    "small-language-model",
+   "speculative-decoding",
    "tool-use"
   ],
   "entries": [
@@ -1031,7 +1164,8 @@
   ],
   "aka": [],
   "led_to": [
-   "computer-use"
+   "computer-use",
+   "physical-ai"
   ],
   "entries": [
    "dalle-2021",
@@ -1155,6 +1289,25 @@
   "letter": "P"
  },
  {
+  "id": "physical-ai",
+  "term": "Physical AI",
+  "layer": "models",
+  "definition": "AI that senses and acts in the physical world, such as robots, drones and self-driving systems, rather than only working with text and images on a screen.",
+  "eli5": "AI with a body: it can look around a room and move things in it, not just chat.",
+  "evolved_from": [
+   "world-model",
+   "multimodal-model"
+  ],
+  "aka": [
+   "embodied AI"
+  ],
+  "added": "2026-10-11",
+  "source": "https://www.techmeme.com/261011/p6#a261011p6",
+  "led_to": [],
+  "entries": [],
+  "letter": "P"
+ },
+ {
   "id": "pretraining",
   "term": "Pre-training",
   "layer": "training",
@@ -1186,7 +1339,9 @@
   "eli5": "If a weather app says 'rain 70 percent' on ten days, it should rain on about seven of them.",
   "evolved_from": [],
   "aka": [],
-  "led_to": [],
+  "led_to": [
+   "decision-model"
+  ],
   "entries": [],
   "letter": "P"
  },
@@ -1206,6 +1361,25 @@
   "entries": [
    "cot-2022"
   ],
+  "letter": "P"
+ },
+ {
+  "id": "pruning",
+  "term": "Pruning",
+  "layer": "infra",
+  "definition": "Removing the weights or parts of a model that matter least, so it runs faster and uses less memory with little loss in quality.",
+  "eli5": "Trimming the branches of a plant that bear no fruit so the rest grows better.",
+  "evolved_from": [
+   "deep-learning",
+   "inference"
+  ],
+  "aka": [
+   "model pruning"
+  ],
+  "added": "2026-10-10",
+  "source": "https://arxiv.org/abs/2610.12327",
+  "led_to": [],
+  "entries": [],
   "letter": "P"
  },
  {
@@ -1242,6 +1416,24 @@
   "letter": "Q"
  },
  {
+  "id": "rack-scale-architecture",
+  "term": "Rack-scale architecture",
+  "layer": "infra",
+  "definition": "Designing a whole data-centre rack, with its chips, networking, power and cooling, as one system so many GPUs work together like a single large computer.",
+  "eli5": "Building the whole cupboard of computers as one machine instead of buying the parts one by one.",
+  "evolved_from": [
+   "gpu"
+  ],
+  "aka": [
+   "rack-scale system"
+  ],
+  "added": "2026-10-12",
+  "source": "https://blogs.nvidia.com/blog/ocp-global-summit-vera-rubin-scale-ai-factories/",
+  "led_to": [],
+  "entries": [],
+  "letter": "R"
+ },
+ {
   "id": "react-pattern",
   "term": "ReAct pattern",
   "layer": "building",
@@ -1272,7 +1464,9 @@
    "llm"
   ],
   "aka": [],
-  "led_to": [],
+  "led_to": [
+   "effort-controls"
+  ],
   "entries": [
    "o1-2024",
    "deepseek-r1-2025",
@@ -1463,6 +1657,25 @@
   "letter": "S"
  },
  {
+  "id": "sliding-window-attention",
+  "term": "Sliding-window attention",
+  "layer": "architectures",
+  "definition": "An attention pattern where each token looks only at a fixed number of nearby tokens instead of the whole input, so memory and compute stay flat as the text gets longer.",
+  "eli5": "Reading a long book while keeping only the last few pages open in front of you.",
+  "evolved_from": [
+   "attention",
+   "transformer"
+  ],
+  "aka": [
+   "local attention"
+  ],
+  "added": "2026-10-08",
+  "source": "https://arxiv.org/abs/2610.10114",
+  "led_to": [],
+  "entries": [],
+  "letter": "S"
+ },
+ {
   "id": "small-language-model",
   "term": "Small language model (SLM)",
   "layer": "models",
@@ -1479,6 +1692,23 @@
   "entries": [
    "mistral7b-2023"
   ],
+  "letter": "S"
+ },
+ {
+  "id": "speculative-decoding",
+  "term": "Speculative decoding",
+  "layer": "infra",
+  "definition": "A way to speed up text generation: a small, fast model drafts the next few tokens and the large model checks them all in one pass, keeping the ones it agrees with.",
+  "eli5": "A quick helper guesses the next few words and the expert only says yes or no, which is faster than the expert writing every word.",
+  "evolved_from": [
+   "inference",
+   "llm"
+  ],
+  "aka": [],
+  "added": "2026-10-08",
+  "source": "https://commandline.microsoft.com/local-models-sandboxed-tools-github-windows/",
+  "led_to": [],
+  "entries": [],
   "letter": "S"
  },
  {
@@ -1512,7 +1742,9 @@
   "aka": [
    "JSON mode"
   ],
-  "led_to": [],
+  "led_to": [
+   "decision-model"
+  ],
   "entries": [],
   "letter": "S"
  },
@@ -1582,7 +1814,9 @@
   "aka": [
    "inference-time scaling"
   ],
-  "led_to": [],
+  "led_to": [
+   "effort-controls"
+  ],
   "entries": [
    "o1-2024"
   ],
@@ -1664,6 +1898,7 @@
    "context-window",
    "llm",
    "mixture-of-experts",
+   "sliding-window-attention",
    "vision-transformer"
   ],
   "entries": [
@@ -1810,7 +2045,9 @@
    "generative-model"
   ],
   "aka": [],
-  "led_to": [],
+  "led_to": [
+   "physical-ai"
+  ],
   "entries": [],
   "letter": "W"
  },

@@ -20,7 +20,8 @@
      "concepts": [
       "agent",
       "computer-use",
-      "inference"
+      "inference",
+      "effort-controls"
      ],
      "spotlight": false,
      "spotlight_reason": "",
@@ -129,7 +130,8 @@
      "concepts": [
       "copilot",
       "coding-assistant",
-      "mixture-of-experts"
+      "mixture-of-experts",
+      "speculative-decoding"
      ],
      "spotlight": false,
      "spotlight_reason": "",
@@ -1156,7 +1158,8 @@
      "concepts": [
       "benchmark",
       "structured-outputs",
-      "probability-calibration"
+      "probability-calibration",
+      "decision-model"
      ],
      "spotlight": false,
      "spotlight_reason": "",
@@ -1242,7 +1245,8 @@
      "people": [],
      "concepts": [
       "ai-governance",
-      "ai-regulation"
+      "ai-regulation",
+      "hyperscaler"
      ],
      "spotlight": false,
      "spotlight_reason": "",
@@ -1394,7 +1398,8 @@
      "concepts": [
       "inference",
       "llm",
-      "machine-learning"
+      "machine-learning",
+      "pruning"
      ],
      "spotlight": false,
      "spotlight_reason": "",
@@ -1631,7 +1636,8 @@
      "people": [],
      "concepts": [
       "ai-safety",
-      "ai-governance"
+      "ai-governance",
+      "kill-switch"
      ],
      "spotlight": false,
      "spotlight_reason": "",
@@ -1782,7 +1788,8 @@
      "labs": [],
      "people": [],
      "concepts": [
-      "dataset"
+      "dataset",
+      "physical-ai"
      ],
      "spotlight": false,
      "spotlight_reason": "",
@@ -1920,7 +1927,8 @@
      "concepts": [
       "agent",
       "benchmark",
-      "tokens"
+      "tokens",
+      "agent-memory"
      ],
      "spotlight": false,
      "spotlight_reason": "",
@@ -2240,7 +2248,8 @@
      "concepts": [
       "inference",
       "quantization",
-      "structured-outputs"
+      "structured-outputs",
+      "decision-model"
      ],
      "spotlight": false,
      "spotlight_reason": "",
@@ -2289,7 +2298,8 @@
      "concepts": [
       "ai-regulation",
       "ai-safety",
-      "agent"
+      "agent",
+      "kill-switch"
      ],
      "spotlight": false,
      "spotlight_reason": "",
@@ -2898,7 +2908,8 @@
      ],
      "people": [],
      "concepts": [
-      "ai-governance"
+      "ai-governance",
+      "hyperscaler"
      ],
      "spotlight": false,
      "spotlight_reason": "",
