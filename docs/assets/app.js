@@ -971,7 +971,7 @@
   const $ = (s) => view.querySelector(s);
   function route(keepScroll) {
     const [name, ...params] = (location.hash.replace(/^#\/?/, "") || "today").split("/");
-    const navName = { "context-window": "heads", week: "archive" }[name] || name;
+    const navName = { week: "archive" }[name] || name;
     document.querySelectorAll("#nav a[data-route]").forEach((a) => { if (a.dataset.route !== navName) a.removeAttribute("aria-current"); else a.setAttribute("aria-current", "page"); });
     const pages = {
       today: () => { pageToday(params[0]); if (params[1]) setTimeout(() => openStory(params[1]), 0); },
