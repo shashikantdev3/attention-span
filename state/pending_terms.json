@@ -1,1 +1,51 @@
-[]
+[
+ {
+  "term": "time-series foundation models",
+  "definition": "Models trained on a large and diverse corpus that learn patterns to forecast zero-shot on unseen data across various domains.",
+  "first_seen": "2026-10-15",
+  "story": "2026-10-15-mistral-ai-releases-timestral-time-series-foundation-models",
+  "source": "https://mistral.ai/news/timestral/"
+ },
+ {
+  "term": "known-future covariates",
+  "definition": "Drivers of sensor behavior known in advance, such as production schedules or weather forecasts, that models can condition on to improve forecast quality.",
+  "first_seen": "2026-10-15",
+  "story": "2026-10-15-mistral-ai-releases-timestral-time-series-foundation-models",
+  "source": "https://mistral.ai/news/timestral/"
+ },
+ {
+  "term": "image-to-image",
+  "definition": "A pipeline that takes an image input to generate an image output.",
+  "first_seen": "2026-10-15",
+  "story": "2026-10-15-black-forest-labs-releases-flux-3-image-klein-model",
+  "source": "https://huggingface.co/black-forest-labs/flux-3-image-klein"
+ },
+ {
+  "term": "compare-and-swap",
+  "definition": "A mechanism used instead of a queue to land changes in the server-centric version control system.",
+  "first_seen": "2026-10-15",
+  "story": "2026-10-15-open-scion-launches-as-an-open-source-version-control-system",
+  "source": "https://github.com/feder-cr/open_scion"
+ },
+ {
+  "term": "changeset log",
+  "definition": "A log where every update is recorded as an entry to track repository changes.",
+  "first_seen": "2026-10-15",
+  "story": "2026-10-15-open-scion-launches-as-an-open-source-version-control-system",
+  "source": "https://github.com/feder-cr/open_scion"
+ },
+ {
+  "term": "byte-for-byte judge",
+  "definition": "Every attempt is compiled, linked at the function's real address and compared with the ROM.",
+  "first_seen": "2026-10-15",
+  "story": "2026-10-15-github-repository-decomp-wtf-turns-ai-agents-into-game-decom",
+  "source": "https://github.com/i12bp8/decomp.wtf"
+ },
+ {
+  "term": "agentic video generation",
+  "definition": "Long-form agentic video generation must turn a screenplay into shots that remain spatially and temporally consistent across nonconsecutive requests.",
+  "first_seen": "2026-10-15",
+  "story": "2026-10-15-new-framework-improves-consistency-in-long-form-video-genera",
+  "source": "https://arxiv.org/abs/2610.20571"
+ }
+]

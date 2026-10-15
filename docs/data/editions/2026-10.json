@@ -3428,6 +3428,412 @@
     ],
     "seconds": 319
    }
+  },
+  "2026-10-15": {
+   "date": "2026-10-15",
+   "generated_at": "2026-10-15T18:20:39Z",
+   "stories": [
+    {
+     "title": "NVIDIA Releases Nemotron 3.5 Super VL and Bolt Models",
+     "one_liner": "NVIDIA released the open Nemotron 3.5 Super VL model and two new edge models for enterprise and local agentic workloads.",
+     "summary": "NVIDIA released Nemotron 3.5 Super VL, a 120-billion-parameter open model built in collaboration with the Nemotron Coalition. It delivers high accuracy on multimodal agentic tasks like instruction following, tool use, and visual understanding. NVIDIA also released two edge models: Nemotron 3.5 Bolt 74B-A9B 24GB for local workloads and Nemotron 3.5 Bolt E4B 4GB for conversational agents. Super VL and Bolt 74B-A9B are available now, and Bolt E4B launches on October 23. Dozens of organizations are customizing Super VL for finance, cybersecurity, and scientific discovery.",
+     "eli5": "NVIDIA made a smart digital helper that can read pictures, charts, and documents all at once, plus smaller helpers that fit on everyday computers.",
+     "why_it_matters": "Organizations can run custom multimodal agents on their own infrastructure without trading capability for deployability.",
+     "topic": "models",
+     "type": "product",
+     "labs": [
+      "nvidia"
+     ],
+     "people": [],
+     "concepts": [
+      "agent",
+      "multimodal-model",
+      "open-weight-model"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "Open From Data Center to Desktop: NVIDIA Expands Nemotron Family With Highest Efficiency Super VL and Bolt Models",
+       "url": "https://blogs.nvidia.com/blog/nemotron-3-5-super-vl/",
+       "name": "NVIDIA Blog",
+       "kind": "original"
+      },
+      {
+       "title": "Nvidia launches Nemotron 3.5 Super VL, a 120B-parameter open model for enterprise agents, and says it outperforms frontier models on specialized benchmarks (Carl Franzen/VentureBeat)",
+       "url": "https://www.techmeme.com/261015/p34#a261015p34",
+       "name": "Techmeme",
+       "kind": "press"
+      }
+     ],
+     "buzz": 2,
+     "published": "2026-10-15T15:00:24Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "NVIDIA released Nemotron 3.5 Super VL, a 120-billion-parameter open model built for enterprise agents and fast task completion.",
+     "rank": 1,
+     "id": "2026-10-15-nvidia-releases-nemotron-3-5-super-vl-and-bolt-models",
+     "date": "2026-10-15"
+    },
+    {
+     "title": "Meta releases Muse Spark Open model in Amazon SageMaker JumpStart",
+     "one_liner": "Meta's coding-optimized open-weight model, Muse Spark Open, is now available in Amazon SageMaker JumpStart.",
+     "summary": "Meta released Muse Spark Open, an open-weight frontier multimodal mixture-of-experts model. The coding-optimized model is now available in Amazon SageMaker JumpStart. It was trained on real developer workflows, including multi-file refactors and long debugging sessions. It supports a context window of 1 million tokens. The model uses a mixture-of-experts architecture with 816 billion total parameters, with 42 billion active for each token. It accepts text, images, documents, audio, and audio-video as input and returns text. Amazon SageMaker JumpStart offers BF16 and NVFP4 quantized variants. Meta releases the weights under the Muse Model License.",
+     "eli5": "Meta made a very smart computer brain that reads lots of files and helps write code, and now people can rent and use it easily inside Amazon's machine learning hub.",
+     "why_it_matters": "Building applications with large codebases becomes easier when using a reasoning model trained specifically on developer workflows and multi-file refactors.",
+     "topic": "models",
+     "type": "model",
+     "labs": [
+      "meta"
+     ],
+     "people": [],
+     "concepts": [
+      "mixture-of-experts",
+      "multimodal-model",
+      "open-weight-model"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "Welcome Muse Spark Open: open-weight frontier multimodal mixture-of-experts model from Meta",
+       "url": "https://huggingface.co/blog/meta-muse-spark-open",
+       "name": "Hugging Face Blog",
+       "kind": "original"
+      },
+      {
+       "title": "Meta’s Muse Spark Open now available in Amazon SageMaker JumpStart",
+       "url": "https://aws.amazon.com/blogs/machine-learning/metas-muse-spark-open-now-available-in-amazon-sagemaker-jumpstart/",
+       "name": "AWS Machine Learning Blog",
+       "kind": "original"
+      }
+     ],
+     "buzz": 2,
+     "published": "2026-10-15T00:00:00Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "Meta released Muse Spark Open, a coding-optimized open-weight multimodal mixture-of-experts model now available on Amazon SageMaker JumpStart.",
+     "rank": 2,
+     "id": "2026-10-15-meta-releases-muse-spark-open-model-in-amazon-sagemaker-jump",
+     "date": "2026-10-15"
+    },
+    {
+     "title": "Mistral AI Releases Timestral Time-Series Foundation Models",
+     "one_liner": "Mistral AI introduced Timestral, a family of four time-series foundation models ranging from 5M to 209M parameters that deliver probabilistic multivariate forecasts.",
+     "summary": "Mistral AI released Timestral, its first family of time-series foundation models. The models come in four sizes with 5M, 28M, 123M, and 209M parameters. The largest 209M parameter model ranks first on the GIFT-Eval, TIME, and fev-bench public benchmarks among pre-trained and zero-shot entries. Timestral delivers probabilistic and multivariate forecasts, supports past-only and known-future covariates, and operates efficiently on standard server CPUs without needing a GPU at inference. The models combine synthetic pre-training, covariate-aware attention, and long-context learning, and support fine-tuning for domain adaptation through Mistral Forge.",
+     "eli5": "Timestral is like a tiny, super-smart weather forecaster that looks at past data to predict future changes without needing expensive computer chips.",
+     "why_it_matters": "Zero-shot time-series forecasting with CPU-efficient models enables predictive analytics across resource-constrained enterprise hardware without requiring task-specific training data.",
+     "topic": "models",
+     "type": "model",
+     "labs": [
+      "mistral"
+     ],
+     "people": [],
+     "concepts": [
+      "foundation-model",
+      "zero-shot",
+      "inference"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [
+      {
+       "term": "time-series foundation models",
+       "definition": "Models trained on a large and diverse corpus that learn patterns to forecast zero-shot on unseen data across various domains."
+      },
+      {
+       "term": "known-future covariates",
+       "definition": "Drivers of sensor behavior known in advance, such as production schedules or weather forecasts, that models can condition on to improve forecast quality."
+      }
+     ],
+     "sources": [
+      {
+       "title": "Introducing Timestral",
+       "url": "https://mistral.ai/news/timestral/",
+       "name": "Mistral AI News",
+       "kind": "original"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-10-15T12:00:00Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "Mistral introduced Timestral, a family of CPU-efficient probabilistic forecasting models ranging from 5M to 209M parameters.",
+     "rank": 3,
+     "id": "2026-10-15-mistral-ai-releases-timestral-time-series-foundation-models",
+     "date": "2026-10-15"
+    },
+    {
+     "title": "LiquidAI releases new LFM2.5-24B-A2B text-generation model",
+     "one_liner": "LiquidAI has released a new text-generation model called LiquidAI/LFM2.5-24B-A2B on Hugging Face.",
+     "summary": "A new model named LiquidAI/LFM2.5-24B-A2B is now available on Hugging Face. Created by LiquidAI, the model uses a text-generation pipeline. It has accumulated 379 likes and 6286 downloads on the platform. Developers can access this model for text-generation tasks according to the trending models list.",
+     "eli5": "LiquidAI made a new computer brain that writes text, and many people are already downloading it.",
+     "why_it_matters": "Access to new text-generation models expands available options for building applications.",
+     "topic": "models",
+     "type": "model",
+     "labs": [
+      "other"
+     ],
+     "people": [],
+     "concepts": [
+      "language-model"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "LiquidAI/LFM2.5-24B-A2B",
+       "url": "https://huggingface.co/LiquidAI/LFM2.5-24B-A2B",
+       "name": "Hugging Face Trending Models",
+       "kind": "original"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-10-12T05:35:46Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "LiquidAI released LFM2.5-24B-A2B, a new model optimized for fast on-device agent workloads.",
+     "rank": 4,
+     "id": "2026-10-15-liquidai-releases-new-lfm2-5-24b-a2b-text-generation-model",
+     "date": "2026-10-15"
+    },
+    {
+     "title": "Black Forest Labs Releases Flux-3-Image-Klein Model",
+     "one_liner": "Black Forest Labs released the flux-3-image-klein model on Hugging Face.",
+     "summary": "Black Forest Labs released a new model named black-forest-labs/flux-3-image-klein. It uses an image-to-image pipeline. The model currently has 128 likes and 3,241 downloads on Hugging Face. It is listed among trending models.",
+     "eli5": "Makers built a new computer program that takes a picture and turns it into a different picture, sort of like tracing over a drawing with new colors.",
+     "why_it_matters": "Adds another image-to-image pipeline option to available model choices.",
+     "topic": "models",
+     "type": "model",
+     "labs": [
+      "other"
+     ],
+     "people": [],
+     "concepts": [
+      "generative-model"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [
+      {
+       "term": "image-to-image",
+       "definition": "A pipeline that takes an image input to generate an image output."
+      }
+     ],
+     "sources": [
+      {
+       "title": "black-forest-labs/flux-3-image-klein",
+       "url": "https://huggingface.co/black-forest-labs/flux-3-image-klein",
+       "name": "Hugging Face Trending Models",
+       "kind": "original"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-10-13T10:58:40Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "Black Forest Labs introduced flux-3-image-klein for image-to-image pipelines.",
+     "rank": 5,
+     "id": "2026-10-15-black-forest-labs-releases-flux-3-image-klein-model",
+     "date": "2026-10-15"
+    },
+    {
+     "title": "Open Scion launches as an open source version control system",
+     "one_liner": "Feder-cr released open_scion version 0.1.0, an open source version control system designed for coding agents based on Anthropic's server-centric design.",
+     "summary": "Classic Git hosting was built for humans who work for hours and push once. Coding agents work differently by running thousands of short-lived tasks that touch a few files and land in seconds. Anthropic built a faster version control system called Scion for coding agents, which is internal and not public. An independent developer built open_scion as an open-source version of that design. It runs on normal Git repositories underneath, uses a compare-and-swap mechanism instead of queues, and moves work to the server. The project has 508 stars, uses Go, and is MIT licensed.",
+     "eli5": "Classic version control is like a single notebook that one person writes in at a time. This new system is like a giant digital whiteboard where thousands of tiny helpers can write small notes all at once without bumping into each other.",
+     "why_it_matters": "Moving version control logic to the server addresses bottlenecks caused by coding agents running thousands of short-lived tasks on the same branches.",
+     "topic": "dev-tools",
+     "type": "product",
+     "labs": [
+      "anthropic",
+      "microsoft"
+     ],
+     "people": [],
+     "concepts": [
+      "agent",
+      "coding-assistant"
+     ],
+     "spotlight": true,
+     "spotlight_reason": "A version control system built from the ground up specifically for coding agents rather than human developers represents a brand new operational category.",
+     "new_terms": [
+      {
+       "term": "compare-and-swap",
+       "definition": "A mechanism used instead of a queue to land changes in the server-centric version control system."
+      },
+      {
+       "term": "changeset log",
+       "definition": "A log where every update is recorded as an entry to track repository changes."
+      }
+     ],
+     "sources": [
+      {
+       "title": "feder-cr/open_scion: Open-source version of Scion: version control built for coding agents.",
+       "url": "https://github.com/feder-cr/open_scion",
+       "name": "GitHub new AI repos",
+       "kind": "original"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-10-15T13:12:02Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 2,
+      "hype_flags": []
+     },
+     "editor_reason": "Open Scion is an open-source version control system specifically designed to handle the workflows of coding agents.",
+     "rank": 6,
+     "id": "2026-10-15-open-scion-launches-as-an-open-source-version-control-system",
+     "date": "2026-10-15"
+    },
+    {
+     "title": "GitHub repository decomp.wtf turns AI agents into game decompilers",
+     "one_liner": "A new tool named decomp.wtf allows AI agents to decompile owned games into C code that compiles to exact byte matches.",
+     "summary": "The decomp.wtf repository provides a local tool that lets AI agents decompile games owned by users into C code that compiles to the exact same bytes. It supports platforms including Nintendo 64, PlayStation 1 and 2, GameCube, Wii, Game Boy Advance, and DS. The application runs locally on Linux and Windows using WSL 2 without accounts or telemetry. Agents work function by function, testing attempts with original compilers and byte-for-byte judges. Users can start projects from scratch or continue community decomps from decomp.dev. It also integrates with existing tools through an MCP server.",
+     "eli5": "It is like having a tiny robot helper that takes apart a puzzle piece by piece and writes down the exact instructions to rebuild it identically.",
+     "why_it_matters": "Autonomous code generation now extends to reverse-engineering proprietary binaries into verifiable, exact source code.",
+     "topic": "agents",
+     "type": "product",
+     "labs": [
+      "microsoft"
+     ],
+     "people": [],
+     "concepts": [
+      "agent",
+      "coding-assistant",
+      "mcp"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [
+      {
+       "term": "byte-for-byte judge",
+       "definition": "Every attempt is compiled, linked at the function's real address and compared with the ROM."
+      }
+     ],
+     "sources": [
+      {
+       "title": "i12bp8/decomp.wtf: What The Function: your AI agent decompiles games you own into C that compiles to the exact same bytes. Runs locally.",
+       "url": "https://github.com/i12bp8/decomp.wtf",
+       "name": "GitHub new AI repos",
+       "kind": "original"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-10-13T08:19:01Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "Decomp.wtf is a local AI agent that decompiles owned games into C code that compiles back to the exact same bytes.",
+     "rank": 7,
+     "id": "2026-10-15-github-repository-decomp-wtf-turns-ai-agents-into-game-decom",
+     "date": "2026-10-15"
+    },
+    {
+     "title": "New Framework Improves Consistency in Long-Form Video Generation",
+     "one_liner": "Researchers presented a world-state-centric framework called ATAS to improve spatial and temporal consistency in long-form agentic video generation.",
+     "summary": "Long-form agentic video generation requires turning a screenplay into shots that remain spatially and temporally consistent. Passing prompts or recent frames between shots fails to provide a shared spatial frame or time-indexed record. Researchers presented Any Time, Any Space, which compiles screenplays into shot requests with explicit location, camera, and event-time references. It uses a scene memory of static geometry and an event memory of dynamic observations. Across four video generators, the framework improves cross-shot consistency measures, achieves the highest aggregate benchmark score for each backbone, and receives the highest human ratings.",
+     "eli5": "Making a long video with AI is like drawing a storybook page by page without losing track of where the characters are standing.",
+     "why_it_matters": "Using a memory of static geometry and dynamic observations improves cross-shot consistency in video generators.",
+     "topic": "research",
+     "type": "paper",
+     "labs": [
+      "academia"
+     ],
+     "people": [],
+     "concepts": [
+      "agent",
+      "agent-memory",
+      "benchmark"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [
+      {
+       "term": "agentic video generation",
+       "definition": "Long-form agentic video generation must turn a screenplay into shots that remain spatially and temporally consistent across nonconsecutive requests."
+      }
+     ],
+     "sources": [
+      {
+       "title": "Any Time, Any Space: A World-State-Centric Framework for Agentic Video Generation",
+       "url": "https://arxiv.org/abs/2610.20571",
+       "name": "Hugging Face Daily Papers",
+       "kind": "original"
+      },
+      {
+       "title": "Discussion on Hugging Face Daily Papers",
+       "url": "https://huggingface.co/papers/2610.20571",
+       "name": "Hugging Face Daily Papers",
+       "kind": "discussion"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-10-13T20:00:00Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "Researchers introduced a world-state-centric framework to maintain spatial and temporal consistency in long-form agentic video generation.",
+     "rank": 8,
+     "id": "2026-10-15-new-framework-improves-consistency-in-long-form-video-genera",
+     "date": "2026-10-15"
+    }
+   ],
+   "stats": {
+    "items": 90,
+    "stories": 87,
+    "sources_ok": 33,
+    "sources_failed": [],
+    "published": 8,
+    "dropped": 2,
+    "llm_calls": 27,
+    "cache_hits": 0,
+    "models": {
+     "gemini:gemini-3.5-flash-lite": 14,
+     "anthropic:claude-sonnet-5-5": 13
+    },
+    "fallbacks": [
+     {
+      "tag": "editor",
+      "used": "gemini:gemini-3.5-flash-lite",
+      "after": [
+       "gemini:gemini-3.8-flash: ReadTimeout",
+       "gemini:gemini-3.5-flash: HTTP 503 [{\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n]",
+       "gemini:gemini-3.5-flash: HTTP 503 [{\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n]"
+      ]
+     },
+     {
+      "tag": "checker",
+      "used": "anthropic:claude-sonnet-5-5",
+      "after": [
+       "anthropic:claude-sonnet-5-5: bad JSON (JSONDecodeError)"
+      ]
+     }
+    ],
+    "seconds": 334
+   }
   }
  }
 }
