@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-14T18:20:50Z",
+ "updated_at": "2026-10-15T15:46:23Z",
  "window_days": 7,
  "groups": [
   {
@@ -271,6 +271,15 @@
    "x": "drfeifei",
    "bsky": "drfeifei.bsky.social",
    "bsky_check": "profile-match"
+  },
+  {
+   "id": "bill-gates",
+   "name": "Bill Gates",
+   "group": "pioneers",
+   "known_for": "Co-founded Microsoft; writes about AI and his foundation's work",
+   "x": "BillGates",
+   "bsky": null,
+   "bsky_check": null
   },
   {
    "id": "andrew-ng",
@@ -633,11 +642,11 @@
    "bsky_check": null
   },
   {
-   "id": "x-nvidiaaidev",
-   "name": "NVIDIA AI Developer",
+   "id": "x-nvidiaai",
+   "name": "NVIDIA AI",
    "group": "official",
-   "known_for": "NVIDIA's AI developer tools and models",
-   "x": "NVIDIAAIDev",
+   "known_for": "NVIDIA's AI news, models and developer tools",
+   "x": "NVIDIAAI",
    "bsky": null,
    "bsky_check": null
   },
@@ -741,6 +750,15 @@
    "bsky_check": null
   },
   {
+   "id": "x-langchain",
+   "name": "LangChain",
+   "group": "official",
+   "known_for": "Makers of LangChain and LangSmith for building agents",
+   "x": "LangChain",
+   "bsky": null,
+   "bsky_check": null
+  },
+  {
    "id": "x-perplexity",
    "name": "Perplexity",
    "group": "official",
@@ -751,10 +769,10 @@
   },
   {
    "id": "x-lmarena",
-   "name": "LMArena",
+   "name": "Arena (formerly LMArena)",
    "group": "trackers",
    "known_for": "Crowd-voted leaderboard of AI models",
-   "x": "lmarena_ai",
+   "x": "arena",
    "bsky": null,
    "bsky_check": null
   },
@@ -806,6 +824,112 @@
  ],
  "posts": [
   {
+   "id": "bsky-emollick.bsky.social-3mxwf7wo7rs2x",
+   "person": "ethan-mollick",
+   "platform": "bluesky",
+   "url": "https://bsky.app/profile/emollick.bsky.social/post/3mxwf7wo7rs2x",
+   "posted_at": "2026-10-15T15:35:23Z",
+   "text": "The sudden collapse of the value of Chain-of-Thought (even summarized CoT) in the agentic era changes working with AI.\n\nEffectively steering AIs and getting any sort of observability now requires you to ask for interim outputs & tests, and to use AI help to troubleshoot problems you find.",
+   "links": [],
+   "context": null,
+   "likes": 13,
+   "reposts": 1,
+   "via": "feed",
+   "meaning": "Mollick argues that the collapse of chain-of-thought value in the agentic era requires users to ask for interim outputs, tests, and AI troubleshooting for observability.",
+   "concepts": [
+    "agent",
+    "chain-of-thought"
+   ],
+   "story": null,
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "groq:qwen/qwen3.8-27b",
+   "added": "2026-10-15"
+  },
+  {
+   "id": "bsky-simonwillison.net-3mxw5izz2gs2g",
+   "person": "simon-willison",
+   "platform": "bluesky",
+   "url": "https://bsky.app/profile/simonwillison.net/post/3mxw5izz2gs2g",
+   "posted_at": "2026-10-15T13:17:18Z",
+   "text": "\"Anthropic told investors on Wednesday distillation accounted for 5 per cent to 7 per cent of revenue\"\n\nIf true, and Q2 revenue was $11.5B, then that's more than half a billion dollars spent by other labs to distill Anthropic's models!\n\nwww.ft.com/content/1163...",
+   "links": [
+    {
+     "text": "www.ft.com/content/1163...",
+     "url": "https://www.ft.com/content/11632d03-358c-454b-af95-d06d4072932b?syn-25a6b1a6=1"
+    }
+   ],
+   "context": null,
+   "likes": 37,
+   "reposts": 8,
+   "via": "feed",
+   "meaning": "Simon Willison notes reports that distillation accounts for a notable percentage of Anthropic's revenue, suggesting other labs spend hundreds of millions distilling Anthropic models.",
+   "concepts": [
+    "distillation",
+    "llm"
+   ],
+   "story": null,
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "groq:qwen/qwen3.8-27b",
+   "added": "2026-10-15"
+  },
+  {
+   "id": "bsky-natolambert.bsky.social-3mxvytd3r7622",
+   "person": "nathan-lambert",
+   "platform": "bluesky",
+   "url": "https://bsky.app/profile/natolambert.bsky.social/post/3mxvytd3r7622",
+   "posted_at": "2026-10-15T11:53:35Z",
+   "text": "Lots of ecosystem players (Nvidia, Huggingface) vague posting about a lot of releases in the near future. Rumors include thinky, muse spark, and Chinese players who haven’t dropped in a while. Fable 5.5 and whatever OpenAI is cooking expected too at any moment.",
+   "links": [],
+   "context": null,
+   "likes": 20,
+   "reposts": 2,
+   "via": "feed",
+   "meaning": "Nathan Lambert highlights rumors of upcoming model releases across the ecosystem from major players, indicating potential new frontier models arriving soon.",
+   "concepts": [
+    "foundation-model"
+   ],
+   "story": null,
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "groq:openai/gpt-oss-120b",
+   "added": "2026-10-15"
+  },
+  {
+   "id": "x-2110421964095713743",
+   "platform": "x",
+   "url": "https://x.com/ArtificialAnlys/status/2110421964095713743",
+   "posted_at": "2026-10-14T17:26:20Z",
+   "date_only": false,
+   "text": "SpaceXAI’s Grok Voice 3.0 is the new leading Speech to Speech model, debuting at #1 on the Artificial Analysis Speech to Speech Index at 86.9, while also being competitive on latency\n\nGrok Voice 3.0 is @SpaceXSI 's successor to Grok Voice 2.0, a Speech to Speech model available…",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">SpaceXAI’s Grok Voice 3.0 is the new leading Speech to Speech model, debuting at #1 on the Artificial Analysis Speech to Speech Index at 86.9, while also being competitive on latency<br><br>Grok Voice 3.0 is <a href=\"https://x.com/SpaceXSI?ref_src=twsrc%5Etfw\">@SpaceXSI</a> &#39;s successor to Grok Voice 2.0, a Speech to Speech model available… <a href=\"https://t.co/eVtXVwEYGs\">pic.twitter.com/eVtXVwEYGs</a></p>&mdash; Artificial Analysis (@ArtificialAnlys) <a href=\"https://x.com/ArtificialAnlys/status/2110421964095713743?ref_src=twsrc%5Etfw\">October 14, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "x-artificialanalysis",
+   "meaning": "Artificial Analysis ranks SpaceXAI's new Grok Voice 3.0 first on its Speech to Speech Index, with a score of 86.9, and says its latency is competitive too.",
+   "concepts": [],
+   "story": null,
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "editor",
+   "added": "2026-10-15"
+  },
+  {
+   "id": "x-2110421861435879476",
+   "platform": "x",
+   "url": "https://x.com/GoogleDeepMind/status/2110421861435879476",
+   "posted_at": "2026-10-14T17:25:56Z",
+   "date_only": false,
+   "text": "Gemini 4 Argon is already unlocking new scientific breakthroughs in quantum computing, nuclear fusion, protein design and beyond. 🧵",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">Gemini 4 Argon is already unlocking new scientific breakthroughs in quantum computing, nuclear fusion, protein design and beyond. 🧵 <a href=\"https://t.co/Shj3Y4whoK\">pic.twitter.com/Shj3Y4whoK</a></p>&mdash; Google DeepMind (@GoogleDeepMind) <a href=\"https://x.com/GoogleDeepMind/status/2110421861435879476?ref_src=twsrc%5Etfw\">October 14, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "x-googledeepmind",
+   "meaning": "Google DeepMind says Gemini 4 Argon is already helping with scientific work in quantum computing, nuclear fusion and protein design, and opens a thread of examples.",
+   "concepts": [],
+   "story": "2026-10-13-google-releases-gemini-4-argon-frontier-model",
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "editor",
+   "added": "2026-10-15"
+  },
+  {
    "id": "bsky-natolambert.bsky.social-3mxtxjsxckl26",
    "person": "nathan-lambert",
    "platform": "bluesky",
@@ -824,7 +948,7 @@
     "title": "Can Open Models Keep Up With OpenAI and Anthropic? | Nathan Lambert",
     "text": "a16z Partner Lisha Li sits down with AI researcher and Trillium founder Nathan Lambert to ask how durable the gap really is between frontier AI labs and open models.\n\nNathan argues that OpenAI and…"
    },
-   "likes": 16,
+   "likes": 30,
    "reposts": 1,
    "via": "feed",
    "meaning": "Nathan Lambert discusses open models, recursive self-improvement dynamics, and the value capture of open source AI on the a16z podcast.",
@@ -837,6 +961,24 @@
    "model": "gemini:gemini-3.5-flash-lite",
    "checked": "groq:openai/gpt-oss-120b",
    "added": "2026-10-14"
+  },
+  {
+   "id": "x-2110120205464846828",
+   "platform": "x",
+   "url": "https://x.com/arena/status/2110120205464846828",
+   "posted_at": "2026-10-13T21:27:15Z",
+   "date_only": false,
+   "text": "Muse Wonder (Max) by @AIatMeta has entered Code Arena: WebDev at #15 with 1651 pts and Text Arena at #2 with 1513 pts!\n\nIn Code Arena: WebDev, Muse Wonder (Max) landed at #15 with 1651 pts. This result is slightly lower thanMuse Spark 1.3 (Max) at #12 with 1659 pts, within 4 pts… https://t.co/O7RD5KBcsA",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">Muse Wonder (Max) by <a href=\"https://x.com/AIatMeta?ref_src=twsrc%5Etfw\">@AIatMeta</a> has entered Code Arena: WebDev at #15 with 1651 pts and Text Arena at #2 with 1513 pts!<br><br>In Code Arena: WebDev, Muse Wonder (Max) landed at #15 with 1651 pts. This result is slightly lower thanMuse Spark 1.3 (Max) at #12 with 1659 pts, within 4 pts… <a href=\"https://t.co/O7RD5KBcsA\">https://t.co/O7RD5KBcsA</a> <a href=\"https://t.co/aNHwrTvuwu\">pic.twitter.com/aNHwrTvuwu</a></p>&mdash; Arena.ai (@arena) <a href=\"https://x.com/arena/status/2110120205464846828?ref_src=twsrc%5Etfw\">October 13, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "x-lmarena",
+   "meaning": "Arena's crowd-voted leaderboard puts Meta's Muse Wonder (Max) second on Text Arena and 15th on Code Arena: WebDev, a few points below Meta's earlier Muse Spark 1.3 (Max) on the web development board.",
+   "concepts": [],
+   "story": "2026-10-12-meta-releases-muse-wonder-and-muse-wonder-full-frontier-mode",
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "editor",
+   "added": "2026-10-15"
   },
   {
    "id": "x-2110095403198849132",
@@ -865,7 +1007,7 @@
    "text": "Using Gemini 4 makes you realize how many other models must be distilling Claude/GPT (or using a similar training pipeline). It feels quite different than other models.",
    "links": [],
    "context": null,
-   "likes": 142,
+   "likes": 146,
    "reposts": 4,
    "via": "feed",
    "meaning": "Mollick observes that using Gemini 4 highlights how distinct its behavior is, suggesting many other models rely on distillation or similar training pipelines mimicking leading systems like Claude and GPT. Builders might care when evaluating model diversity and performance.",
@@ -877,6 +1019,60 @@
    "model": "gemini:gemini-3.5-flash-lite",
    "checked": "groq:openai/gpt-oss-120b",
    "added": "2026-10-13"
+  },
+  {
+   "id": "x-2110068185793970576",
+   "platform": "x",
+   "url": "https://x.com/ArtificialAnlys/status/2110068185793970576",
+   "posted_at": "2026-10-13T18:00:33Z",
+   "date_only": false,
+   "text": "Gemini 4 Argon is now GA. Argon ranks equal to GPT-6 Astra on the Artificial Analysis Intelligence Index at 60% of the Cost per Task with discounted prices until Nov 30\n\nKey takeaways:\n- Google is back to having a frontier model released to the public: This is Google's first…",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">Gemini 4 Argon is now GA. Argon ranks equal to GPT-6 Astra on the Artificial Analysis Intelligence Index at 60% of the Cost per Task with discounted prices until Nov 30<br><br>Key takeaways:<br>- Google is back to having a frontier model released to the public: This is Google&#39;s first… <a href=\"https://t.co/mruJ7Hb2DV\">pic.twitter.com/mruJ7Hb2DV</a></p>&mdash; Artificial Analysis (@ArtificialAnlys) <a href=\"https://x.com/ArtificialAnlys/status/2110068185793970576?ref_src=twsrc%5Etfw\">October 13, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "x-artificialanalysis",
+   "meaning": "Artificial Analysis rates Gemini 4 Argon equal to GPT-6 Astra on its Intelligence Index, at 60% of the cost per task while discounted prices last until 30 November.",
+   "concepts": [],
+   "story": "2026-10-13-google-releases-gemini-4-argon-frontier-model",
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "editor",
+   "added": "2026-10-15"
+  },
+  {
+   "id": "x-2110052933698019330",
+   "platform": "x",
+   "url": "https://x.com/demishassabis/status/2110052933698019330",
+   "posted_at": "2026-10-13T16:59:56Z",
+   "date_only": false,
+   "text": "maybe I should go back and try to build a laser in the lab with the help of Gemini 4 Argon... 🤔",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">maybe I should go back and try to build a laser in the lab with the help of Gemini 4 Argon... 🤔</p>&mdash; Demis Hassabis (@demishassabis) <a href=\"https://x.com/demishassabis/status/2110052933698019330?ref_src=twsrc%5Etfw\">October 13, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "demis-hassabis",
+   "meaning": "Google DeepMind's Demis Hassabis jokes that he might go back to the lab and build a laser with help from Gemini 4 Argon, which Google released the same day.",
+   "concepts": [],
+   "story": "2026-10-13-google-releases-gemini-4-argon-frontier-model",
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "editor",
+   "added": "2026-10-15"
+  },
+  {
+   "id": "x-2110038940841545827",
+   "platform": "x",
+   "url": "https://x.com/OfficialLoganK/status/2110038940841545827",
+   "posted_at": "2026-10-13T16:04:20Z",
+   "date_only": false,
+   "text": "Today we are rolling out Gemini 4 Argon globally in the Gemini API, to Pro + Ultra in Gemini App, and Ultra subs in Antigravity!\n\nArgon is a huge step forward for Gemini, and a labor of love. This model has been battle tested by over 100,000 people at Google over the last month,…",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">Today we are rolling out Gemini 4 Argon globally in the Gemini API, to Pro + Ultra in Gemini App, and Ultra subs in Antigravity!<br><br>Argon is a huge step forward for Gemini, and a labor of love. This model has been battle tested by over 100,000 people at Google over the last month,…</p>&mdash; Logan Kilpatrick (@OfficialLoganK) <a href=\"https://x.com/OfficialLoganK/status/2110038940841545827?ref_src=twsrc%5Etfw\">October 13, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "logan-kilpatrick",
+   "meaning": "Google is rolling out Gemini 4 Argon globally across the Gemini API and applications after testing by over 100,000 internal users.",
+   "concepts": [],
+   "story": "2026-10-13-google-releases-gemini-4-argon-frontier-model",
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "groq:qwen/qwen3.8-27b",
+   "added": "2026-10-15"
   },
   {
    "id": "x-2110038898009407584",
@@ -957,7 +1153,7 @@
    "text": "GPT-4 was the undisputed best model in the world for a full year and we all debated whether anyone could catch up or if OpenAI had some secret formula that nobody else knew about.\n\nNow there are are 19 AI models that can run on a modern smartphone that are better than GPT-4!",
    "links": [],
    "context": null,
-   "likes": 202,
+   "likes": 203,
    "reposts": 30,
    "via": "feed",
    "meaning": "Mollick notes that while GPT-4 was the top model for a year, there are now 19 smartphone-capable AI models that outperform it. This illustrates rapid progress in edge and small language models that builders can leverage.",
@@ -969,6 +1165,26 @@
    "model": "gemini:gemini-3.5-flash-lite",
    "checked": "groq:openai/gpt-oss-120b",
    "added": "2026-10-13"
+  },
+  {
+   "id": "x-2109795898909950247",
+   "platform": "x",
+   "url": "https://x.com/AnthropicAI/status/2109795898909950247",
+   "posted_at": "2026-10-12T23:58:35Z",
+   "date_only": false,
+   "text": "Over the last few months, we’ve made significant progress in reducing the effectiveness of distillation attacks against Claude.\n\nIn this post, we explain how: https://t.co/uWiRSLBuOS",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">Over the last few months, we’ve made significant progress in reducing the effectiveness of distillation attacks against Claude.<br><br>In this post, we explain how: <a href=\"https://t.co/uWiRSLBuOS\">https://t.co/uWiRSLBuOS</a></p>&mdash; Anthropic (@AnthropicAI) <a href=\"https://x.com/AnthropicAI/status/2109795898909950247?ref_src=twsrc%5Etfw\">October 12, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "x-anthropicai",
+   "meaning": "Anthropic says it has made distillation attacks against Claude much less effective. In such an attack, someone trains their own model on Claude's answers to copy it. The post links to Anthropic's explanation of how.",
+   "concepts": [
+    "distillation"
+   ],
+   "story": null,
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "editor",
+   "added": "2026-10-15"
   },
   {
    "id": "bsky-natolambert.bsky.social-3mxp3cejcy62p",
@@ -993,6 +1209,27 @@
    "added": "2026-10-12"
   },
   {
+   "id": "x-2109689305073614918",
+   "platform": "x",
+   "url": "https://x.com/finkd/status/2109689305073614918",
+   "posted_at": "2026-10-12T16:55:01Z",
+   "date_only": false,
+   "text": "Introducing Muse Wonder, our new family of frontier models with state of the art performance for personal and professional agentic work.",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">Introducing Muse Wonder, our new family of frontier models with state of the art performance for personal and professional agentic work. <a href=\"https://t.co/NKHrybrGKQ\">pic.twitter.com/NKHrybrGKQ</a></p>&mdash; Mark Zuckerberg (@finkd) <a href=\"https://x.com/finkd/status/2109689305073614918?ref_src=twsrc%5Etfw\">October 12, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "mark-zuckerberg",
+   "meaning": "Meta announces Muse Wonder, a new family of frontier models designed for personal and professional agentic work.",
+   "concepts": [
+    "agent",
+    "foundation-model"
+   ],
+   "story": "2026-10-12-meta-releases-muse-wonder-and-muse-wonder-full-frontier-mode",
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "groq:qwen/qwen3.8-27b",
+   "added": "2026-10-15"
+  },
+  {
    "id": "bsky-emollick.bsky.social-3mxoxbpm5nk2z",
    "person": "ethan-mollick",
    "platform": "bluesky",
@@ -1010,6 +1247,27 @@
    "model": "gemini:gemini-3.5-flash-lite",
    "checked": "groq:openai/gpt-oss-120b",
    "added": "2026-10-12"
+  },
+  {
+   "id": "x-2109631106404487523",
+   "platform": "x",
+   "url": "https://x.com/satyanadella/status/2109631106404487523",
+   "posted_at": "2026-10-12T13:03:45Z",
+   "date_only": false,
+   "text": "Today we are announcing our biggest bet yet on our own silicon.\n\nStarting next calendar year, we will scale our Maia family to multi-gigawatt deployments, making it the primary inference system for our own product and services.\n\nAnd we’re introducing Maia 300, which delivers 40%…",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">Today we are announcing our biggest bet yet on our own silicon.<br><br>Starting next calendar year, we will scale our Maia family to multi-gigawatt deployments, making it the primary inference system for our own product and services.<br><br>And we’re introducing Maia 300, which delivers 40%… <a href=\"https://t.co/L490XvOys9\">pic.twitter.com/L490XvOys9</a></p>&mdash; Satya Nadella (@satyanadella) <a href=\"https://x.com/satyanadella/status/2109631106404487523?ref_src=twsrc%5Etfw\">October 12, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "satya-nadella",
+   "meaning": "Microsoft will make its own Maia chips the main system for running AI in its products from next year, at multi-gigawatt scale, and introduces the new Maia 300 chip.",
+   "concepts": [
+    "hyperscaler",
+    "inference"
+   ],
+   "story": "2026-10-12-microsoft-announces-azure-maia-300-and-multi-gigawatt-deploy",
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "editor",
+   "added": "2026-10-15"
   },
   {
    "id": "bsky-emollick.bsky.social-3mxnnvoyesk2a",
@@ -1134,7 +1392,7 @@
    "posted_at": "2026-10-09T21:42:40Z",
    "text": "I’m more bought into AI becoming far more efficient, which is a massive lever on diffusion, than I am on AI models making massive breakthroughs that result in eliminating all the known weaknesses of LLMs.\nwww.interconnects.ai/p/i-expect-r...",
    "context": null,
-   "likes": 46,
+   "likes": 47,
    "reposts": 2,
    "via": "feed",
    "meaning": "Lambert argues that AI becoming more efficient is a much larger lever than models making massive breakthroughs that eliminate all known weaknesses of LLMs.",
@@ -1161,7 +1419,7 @@
    "posted_at": "2026-10-09T16:27:48Z",
    "text": "Randomized trials with GPT-4o: \"AI access raises test scores, and a smaller gain persists a week later. Gains remain for students who use AI as a tutor (“augmentation”) and fade for students who have AI write for them (“automation”)\"\n\nAcross all experiments, positive effects arxiv.org/abs/2607.08849",
    "context": null,
-   "likes": 68,
+   "likes": 67,
    "reposts": 12,
    "via": "feed",
    "meaning": "Mollick shares that randomized trials show AI access raises test scores, with gains persisting when used as a tutor but fading when the AI writes for the student.",

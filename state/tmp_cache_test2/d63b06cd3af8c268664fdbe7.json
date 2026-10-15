@@ -1,0 +1,1 @@
+{"model": "groq:qwen/qwen3.8-27b", "tag": "checker", "result": {"ok": false, "problems": ["The source states AI is 'less regulated than milk,' which implies a lack of strict regulation, whereas the draft claims AI is 'banned,' which is a direct contradiction and a significant exaggeration of the original statement."]}}
