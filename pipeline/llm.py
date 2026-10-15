@@ -1,7 +1,9 @@
-"""Free-tier LLM calls with a fallback chain, pacing, JSON output and a response cache.
+"""LLM calls with a fallback chain, pacing, JSON output and a response cache.
 
 Each step (editor, writer, checker, heads) has a chain of provider:model pairs; the first that answers wins.
 See CHAINS below; override any of them in .env.
+Gemini and Groq run on their free tiers. The checker starts with Claude (ANTHROPIC_API_KEY, prepaid API
+credits) and falls back to the free models if the key is missing, the credits run out or the API fails.
 Every response is cached in state/cache/ by a hash of the prompt, so a run that stops
 half way can simply be started again and will not spend quota twice.
 """
@@ -22,7 +24,12 @@ PROVIDERS = {
                "key": "GEMINI_API_KEY", "min_gap": 4.5},
     "groq": {"url": "https://api.groq.com/openai/v1/chat/completions",
              "key": "GROQ_API_KEY", "min_gap": 8.0},  # free tier is about 8,000 tokens per minute
+    # Claude uses its own Messages API, not the OpenAI format (see _call_anthropic)
+    "anthropic": {"url": "https://api.anthropic.com/v1/messages", "key": "ANTHROPIC_API_KEY", "min_gap": 1.0},
 }
+# Answers from these providers mean the key, account or credits are the problem, not this one request:
+# stop using the provider for the rest of the run and fall back to the next one in the chain.
+_FATAL = ("credit balance", "billing", "invalid x-api-key", "authentication_error", "permission_error")
 # Each step has its own chain. The editor runs once a day, so it gets the stronger Flash models
 # (small daily quota). The checker uses a different model family from the writer, so a model
 # never marks its own homework.
@@ -34,8 +41,10 @@ CHAINS = {
     # short notes for Attention Heads posts: the lite models have the largest free daily quota
     "heads": ("gemini:gemini-3.5-flash-lite,gemini:gemini-3.1-flash-lite,groq:openai/gpt-oss-120b,"
               "groq:qwen/qwen3.8-27b"),
-    "checker": ("groq:openai/gpt-oss-120b,groq:qwen/qwen3.8-27b,gemini:gemini-3.1-flash-lite,"
-                "gemini:gemini-3.5-flash-lite"),
+    # Claude Sonnet checks first (a different family from the Gemini writer, and the strongest reader of the
+    # chain); Haiku if Sonnet is busy; then the free Groq and Gemini models as before.
+    "checker": ("anthropic:claude-sonnet-5-5,anthropic:claude-haiku-5-5,groq:openai/gpt-oss-120b,"
+                "groq:qwen/qwen3.8-27b,gemini:gemini-3.1-flash-lite,gemini:gemini-3.5-flash-lite"),
 }
 
 _last_call = {}
@@ -55,6 +64,13 @@ def _pace(provider):
     if wait > 0:
         time.sleep(wait)
     _last_call[provider] = time.time()
+
+
+def _count_tokens(entry, usage):
+    """Paid calls only: keep a running token count so the nightly log shows what Claude used."""
+    t = STATS.setdefault("tokens", {}).setdefault(entry, {"in": 0, "out": 0})
+    t["in"] += int(usage.get("input_tokens") or 0)
+    t["out"] += int(usage.get("output_tokens") or 0)
 
 
 def _parse_json(text):
@@ -102,9 +118,17 @@ def ask_json(system, user, max_tokens=1500, temperature=0.2, tag="call", reasoni
         if not api_key:
             errors.append(f"{entry}: no key")
             continue
-        body = {"model": model, "temperature": temperature, "max_tokens": max_tokens,
-                "response_format": {"type": "json_object"},
-                "messages": [{"role": "system", "content": system}, {"role": "user", "content": user}]}
+        if provider == "anthropic":
+            # current Claude models reject the temperature setting, so it is left out
+            body = {"model": model, "max_tokens": max_tokens,
+                    "system": system + "\nAnswer with one JSON object only, no other text.",
+                    "messages": [{"role": "user", "content": user}]}
+            headers = {"x-api-key": api_key, "anthropic-version": "2023-06-01", "content-type": "application/json"}
+        else:
+            body = {"model": model, "temperature": temperature, "max_tokens": max_tokens,
+                    "response_format": {"type": "json_object"},
+                    "messages": [{"role": "system", "content": system}, {"role": "user", "content": user}]}
+            headers = {"Authorization": f"Bearer {api_key}", "Content-Type": "application/json"}
         # Thinking models spend output tokens on reasoning first; keep it low and leave room for the answer.
         if provider == "gemini" and "lite" not in model:
             body["reasoning_effort"] = reasoning
@@ -112,14 +136,18 @@ def ask_json(system, user, max_tokens=1500, temperature=0.2, tag="call", reasoni
         for attempt in range(2):
             _pace(provider)
             try:
-                r = post(PROVIDERS[provider]["url"], json=body, timeout=90,
-                         headers={"Authorization": f"Bearer {api_key}", "Content-Type": "application/json"})
+                r = post(PROVIDERS[provider]["url"], json=body, timeout=90, headers=headers)
             except Exception as exc:
                 errors.append(f"{entry}: {type(exc).__name__}")
                 continue
             if r.status_code == 200:
                 try:
-                    content = r.json()["choices"][0]["message"]["content"]
+                    data = r.json()
+                    if provider == "anthropic":
+                        content = "".join(b.get("text", "") for b in data["content"] if b.get("type") == "text")
+                        _count_tokens(entry, data.get("usage") or {})
+                    else:
+                        content = data["choices"][0]["message"]["content"]
                     result = _as_object(_parse_json(content))
                 except Exception as exc:
                     errors.append(f"{entry}: bad JSON ({type(exc).__name__})")
@@ -135,6 +163,10 @@ def ask_json(system, user, max_tokens=1500, temperature=0.2, tag="call", reasoni
             errors.append(f"{entry}: HTTP {r.status_code} {text}")
             if r.status_code == 429 and ("day" in text.lower() or "quota" in text.lower()):
                 _dead.add(entry)  # daily quota gone: skip this model for the rest of the run
+                break
+            if r.status_code in (400, 401, 402, 403) and any(f in text.lower() for f in _FATAL):
+                # out of credits or a bad key: every model of this provider will fail the same way
+                _dead.update(e for e in chain(tag) if e.startswith(provider + ":"))
                 break
             if r.status_code in (429, 500, 502, 503, 504) and attempt == 0:
                 try:

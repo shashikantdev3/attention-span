@@ -1,0 +1,1324 @@
+{
+ "2026-10-08-anthropic-releases-claude-haiku-5-5-and-aws-integration|microsoft/microsoft-decision-1": {
+  "id": "2026-10-08-anthropic-releases-claude-haiku-5-5-and-aws-integration",
+  "date": "2026-10-08",
+  "headline": "Anthropic Releases Claude Haiku 5.5 and AWS Integration",
+  "original_headlines": [
+   "Claude Haiku 5.5",
+   "Discussion on Hacker News",
+   "Introducing Claude Haiku 5.5 on AWS"
+  ],
+  "supported": 0.984,
+  "strength": "same",
+  "strength_probabilities": {
+   "same": 0.879,
+   "stronger": 0.105,
+   "weaker": 0.016
+  },
+  "hype": 0.02,
+  "verdict": "ok",
+  "reasons": [],
+  "model": "microsoft/microsoft-decision-1-20261009",
+  "checked_at": "2026-10-15T16:11:15+00:00"
+ },
+ "2026-10-08-openai-introduces-gpt-6-and-intelligent-ui-for-chatgpt|microsoft/microsoft-decision-1": {
+  "id": "2026-10-08-openai-introduces-gpt-6-and-intelligent-ui-for-chatgpt",
+  "date": "2026-10-08",
+  "headline": "OpenAI Introduces GPT-6 and Intelligent UI for ChatGPT",
+  "original_headlines": [
+   "GPT‑6 and Intelligent UI for everyone",
+   "Discussion on Hacker News"
+  ],
+  "supported": 0.98,
+  "strength": "stronger",
+  "strength_probabilities": {
+   "same": 0.286,
+   "stronger": 0.687,
+   "weaker": 0.027
+  },
+  "hype": 0.17,
+  "verdict": "ok",
+  "reasons": [],
+  "model": "microsoft/microsoft-decision-1-20261009",
+  "checked_at": "2026-10-15T16:11:15+00:00"
+ },
+ "2026-10-08-github-copilot-brings-on-device-ai-coding-to-windows-pcs|microsoft/microsoft-decision-1": {
+  "id": "2026-10-08-github-copilot-brings-on-device-ai-coding-to-windows-pcs",
+  "date": "2026-10-08",
+  "headline": "GitHub Copilot Brings On-Device AI Coding to Windows PCs",
+  "original_headlines": [
+   "GitHub Copilot brings on-device AI coding to new Windows PCs"
+  ],
+  "supported": 0.982,
+  "strength": "same",
+  "strength_probabilities": {
+   "same": 0.845,
+   "stronger": 0.147,
+   "weaker": 0.008
+  },
+  "hype": 0.04,
+  "verdict": "ok",
+  "reasons": [],
+  "model": "microsoft/microsoft-decision-1-20261009",
+  "checked_at": "2026-10-15T16:11:15+00:00"
+ },
+ "2026-10-08-openai-withdraws-three-math-papers-due-to-sign-error|microsoft/microsoft-decision-1": {
+  "id": "2026-10-08-openai-withdraws-three-math-papers-due-to-sign-error",
+  "date": "2026-10-08",
+  "headline": "OpenAI Withdraws Three Math Papers Due to Sign Error",
+  "original_headlines": [
+   "OpenAI Withdraws 3 Math Papers",
+   "Discussion on Hacker News",
+   "OpenAI withdraws three mathematical results",
+   "Discussion on Hacker News"
+  ],
+  "supported": 0.982,
+  "strength": "stronger",
+  "strength_probabilities": {
+   "same": 0.43,
+   "stronger": 0.552,
+   "weaker": 0.019
+  },
+  "hype": 0.05,
+  "verdict": "ok",
+  "reasons": [],
+  "model": "microsoft/microsoft-decision-1-20261009",
+  "checked_at": "2026-10-15T16:11:15+00:00"
+ },
+ "2026-10-08-meta-and-microsoft-reduce-employee-usage-of-claude-ai|microsoft/microsoft-decision-1": {
+  "id": "2026-10-08-meta-and-microsoft-reduce-employee-usage-of-claude-ai",
+  "date": "2026-10-08",
+  "headline": "Meta and Microsoft Reduce Employee Usage of Claude AI",
+  "original_headlines": [
+   "Meta and Microsoft take steps to reduce employee usage of Claude AI",
+   "Discussion on Hacker News"
+  ],
+  "supported": 0.986,
+  "strength": "stronger",
+  "strength_probabilities": {
+   "same": 0.464,
+   "stronger": 0.526,
+   "weaker": 0.01
+  },
+  "hype": 0.03,
+  "verdict": "ok",
+  "reasons": [],
+  "model": "microsoft/microsoft-decision-1-20261009",
+  "checked_at": "2026-10-15T16:11:15+00:00"
+ },
+ "2026-10-08-openai-bans-russian-and-iranian-ai-enabled-influence-operati|microsoft/microsoft-decision-1": {
+  "id": "2026-10-08-openai-bans-russian-and-iranian-ai-enabled-influence-operati",
+  "date": "2026-10-08",
+  "headline": "OpenAI Bans Russian and Iranian AI-Enabled Influence Operations",
+  "original_headlines": [
+   "Disrupting AI-enabled “false front” operations"
+  ],
+  "supported": 0.974,
+  "strength": "stronger",
+  "strength_probabilities": {
+   "same": 0.074,
+   "stronger": 0.896,
+   "weaker": 0.031
+  },
+  "hype": 0.11,
+  "verdict": "check",
+  "reasons": [
+   "stronger than the original"
+  ],
+  "model": "microsoft/microsoft-decision-1-20261009",
+  "checked_at": "2026-10-15T16:11:15+00:00"
+ },
+ "2026-10-08-developer-ports-typescript-compiler-to-rust-using-llms|microsoft/microsoft-decision-1": {
+  "id": "2026-10-08-developer-ports-typescript-compiler-to-rust-using-llms",
+  "date": "2026-10-08",
+  "headline": "Developer ports TypeScript compiler to Rust using LLMs",
+  "original_headlines": [
+   "Port of the TypeScript compiler, checker and lsp to Rust, by LLM",
+   "Discussion on Hacker News"
+  ],
+  "supported": 0.974,
+  "strength": "same",
+  "strength_probabilities": {
+   "same": 0.928,
+   "stronger": 0.052,
+   "weaker": 0.019
+  },
+  "hype": 0.03,
+  "verdict": "ok",
+  "reasons": [],
+  "model": "microsoft/microsoft-decision-1-20261009",
+  "checked_at": "2026-10-15T16:11:15+00:00"
+ },
+ "2026-10-08-microsoft-updates-copilot-on-windows-with-hybrid-intelligenc|microsoft/microsoft-decision-1": {
+  "id": "2026-10-08-microsoft-updates-copilot-on-windows-with-hybrid-intelligenc",
+  "date": "2026-10-08",
+  "headline": "Microsoft Updates Copilot on Windows With Hybrid Intelligence",
+  "original_headlines": [
+   "We’re supercharging Copilot on Windows with Hybrid Intelligence. With your permission, Copilot can tap into the context on your PC, take action for you, and use local models when it makes sense, giving you more capability while helping your tokens go further. [Read more]",
+   "Today marks a new chapter for Windows, as we bring unmetered intelligence to every desk and every home, and make every PC a place where agents can work securely on your behalf. [Read more]"
+  ],
+  "supported": 0.997,
+  "strength": "weaker",
+  "strength_probabilities": {
+   "same": 0.252,
+   "stronger": 0.064,
+   "weaker": 0.685
+  },
+  "hype": 0.15,
+  "verdict": "ok",
+  "reasons": [],
+  "model": "microsoft/microsoft-decision-1-20261009",
+  "checked_at": "2026-10-15T16:11:15+00:00"
+ },
+ "2026-10-08-liquidai-releases-d1-3b-model-on-hugging-face|microsoft/microsoft-decision-1": {
+  "id": "2026-10-08-liquidai-releases-d1-3b-model-on-hugging-face",
+  "date": "2026-10-08",
+  "headline": "LiquidAI Releases d1-3B Model on Hugging Face",
+  "original_headlines": [],
+  "supported": 0.992,
+  "strength": "same",
+  "strength_probabilities": {
+   "same": 0.845,
+   "stronger": 0.026,
+   "weaker": 0.13
+  },
+  "hype": 0.01,
+  "verdict": "ok",
+  "reasons": [],
+  "model": "microsoft/microsoft-decision-1-20261009",
+  "checked_at": "2026-10-15T16:11:17+00:00"
+ },
+ "2026-10-08-nanomuse-offers-open-source-personal-agent|microsoft/microsoft-decision-1": {
+  "id": "2026-10-08-nanomuse-offers-open-source-personal-agent",
+  "date": "2026-10-08",
+  "headline": "nanoMuse Offers Open-Source Personal Agent",
+  "original_headlines": [
+   "nanoMuse: An Open-Source Personal Agent for Every Device You Own",
+   "Discussion on Hugging Face Daily Papers"
+  ],
+  "supported": 0.977,
+  "strength": "same",
+  "strength_probabilities": {
+   "same": 0.904,
+   "stronger": 0.051,
+   "weaker": 0.045
+  },
+  "hype": 0.1,
+  "verdict": "ok",
+  "reasons": [],
+  "model": "microsoft/microsoft-decision-1-20261009",
+  "checked_at": "2026-10-15T16:11:17+00:00"
+ },
+ "2026-10-08-docker-agent-for-building-and-running-ai-agents|microsoft/microsoft-decision-1": {
+  "id": "2026-10-08-docker-agent-for-building-and-running-ai-agents",
+  "date": "2026-10-08",
+  "headline": "Docker Agent for Building and Running AI Agents",
+  "original_headlines": [
+   "Discussion on Hacker News"
+  ],
+  "supported": 0.982,
+  "strength": "stronger",
+  "strength_probabilities": {
+   "same": 0.078,
+   "stronger": 0.834,
+   "weaker": 0.088
+  },
+  "hype": 0.11,
+  "verdict": "check",
+  "reasons": [
+   "stronger than the original"
+  ],
+  "model": "microsoft/microsoft-decision-1-20261009",
+  "checked_at": "2026-10-15T16:11:18+00:00"
+ },
+ "2026-10-09-openai-annualized-revenue-reported-at-50-billion|microsoft/microsoft-decision-1": {
+  "id": "2026-10-09-openai-annualized-revenue-reported-at-50-billion",
+  "date": "2026-10-09",
+  "headline": "OpenAI Annualized Revenue Reported at $50 Billion",
+  "original_headlines": [
+   "OpenAI annualised revenues $20B less than previously signalled",
+   "Discussion on Hacker News",
+   "OpenAI’s revenue is reportedly $20 billion less than previously projected"
+  ],
+  "supported": 0.932,
+  "strength": "stronger",
+  "strength_probabilities": {
+   "same": 0.144,
+   "stronger": 0.73,
+   "weaker": 0.127
+  },
+  "hype": 0.44,
+  "verdict": "ok",
+  "reasons": [],
+  "model": "microsoft/microsoft-decision-1-20261009",
+  "checked_at": "2026-10-15T16:11:18+00:00"
+ },
+ "2026-10-09-anthropic-updates-usage-policy-to-ban-abusive-behavior-towar|microsoft/microsoft-decision-1": {
+  "id": "2026-10-09-anthropic-updates-usage-policy-to-ban-abusive-behavior-towar",
+  "date": "2026-10-09",
+  "headline": "Anthropic Updates Usage Policy to Ban Abusive Behavior Toward Claude",
+  "original_headlines": [
+   "Anthropic bans 'abusive or cruel behavior' towards Claude",
+   "Discussion on Hacker News"
+  ],
+  "supported": 0.984,
+  "strength": "same",
+  "strength_probabilities": {
+   "same": 0.851,
+   "stronger": 0.079,
+   "weaker": 0.07
+  },
+  "hype": 0.16,
+  "verdict": "ok",
+  "reasons": [],
+  "model": "microsoft/microsoft-decision-1-20261009",
+  "checked_at": "2026-10-15T16:11:18+00:00"
+ },
+ "2026-10-09-openai-fires-three-safety-researchers-for-mishandling-inform|microsoft/microsoft-decision-1": {
+  "id": "2026-10-09-openai-fires-three-safety-researchers-for-mishandling-inform",
+  "date": "2026-10-09",
+  "headline": "Fired OpenAI Safety Researchers Dispute Misconduct Claims",
+  "original_headlines": [
+   "OpenAI fires three safety researchers for \"mishandling research information\"",
+   "Discussion on Hacker News",
+   "Tomek Korbak: OpenAI's head of safety told they no longer trust me",
+   "Discussion on Hacker News"
+  ],
+  "supported": 0.971,
+  "strength": "stronger",
+  "strength_probabilities": {
+   "same": 0.071,
+   "stronger": 0.76,
+   "weaker": 0.17
+  },
+  "hype": 0.24,
+  "verdict": "check",
+  "reasons": [
+   "stronger than the original"
+  ],
+  "model": "microsoft/microsoft-decision-1-20261009",
+  "checked_at": "2026-10-15T16:11:18+00:00"
+ },
+ "2026-10-09-qwen-releases-qwen-image-2-1-turbo-for-text-to-image-generat|microsoft/microsoft-decision-1": {
+  "id": "2026-10-09-qwen-releases-qwen-image-2-1-turbo-for-text-to-image-generat",
+  "date": "2026-10-09",
+  "headline": "Qwen Releases Qwen-Image-2.1-Turbo for Text-to-Image Generation",
+  "original_headlines": [],
+  "supported": 0.988,
+  "strength": "same",
+  "strength_probabilities": {
+   "same": 0.861,
+   "stronger": 0.023,
+   "weaker": 0.116
+  },
+  "hype": 0.01,
+  "verdict": "ok",
+  "reasons": [],
+  "model": "microsoft/microsoft-decision-1-20261009",
+  "checked_at": "2026-10-15T16:11:19+00:00"
+ },
+ "2026-10-09-tokenrouter-efficient-serving-system-for-token-level-llm-rou|microsoft/microsoft-decision-1": {
+  "id": "2026-10-09-tokenrouter-efficient-serving-system-for-token-level-llm-rou",
+  "date": "2026-10-09",
+  "headline": "TokenRouter: Efficient Serving System for Token-Level LLM Routing",
+  "original_headlines": [
+   "TokenRouter: Efficient Serving System for Token-Level LLM Routing",
+   "Discussion on Hugging Face Daily Papers"
+  ],
+  "supported": 0.997,
+  "strength": "same",
+  "strength_probabilities": {
+   "same": 0.994,
+   "stronger": 0.005,
+   "weaker": 0.001
+  },
+  "hype": 0.12,
+  "verdict": "ok",
+  "reasons": [],
+  "model": "microsoft/microsoft-decision-1-20261009",
+  "checked_at": "2026-10-15T16:11:19+00:00"
+ },
+ "2026-10-09-big-arrow-on-the-screen-draws-ui-hints-for-ai-agents|microsoft/microsoft-decision-1": {
+  "id": "2026-10-09-big-arrow-on-the-screen-draws-ui-hints-for-ai-agents",
+  "date": "2026-10-09",
+  "headline": "Big Arrow on the Screen Draws UI Hints for AI Agents",
+  "original_headlines": [
+   "franzenzenhofer/big-arrow-on-the-screen: Let your AI agents paint big arrows, boxes and text on your Mac screen. One CLI, click-through, gone by itself. Skill for Claude Code and Codex. MIT."
+  ],
+  "supported": 0.924,
+  "strength": "weaker",
+  "strength_probabilities": {
+   "same": 0.16,
+   "stronger": 0.028,
+   "weaker": 0.812
+  },
+  "hype": 0.24,
+  "verdict": "ok",
+  "reasons": [],
+  "model": "microsoft/microsoft-decision-1-20261009",
+  "checked_at": "2026-10-15T16:11:19+00:00"
+ },
+ "2026-10-09-global-coalition-commits-1-8-billion-for-ai-ready-biological|microsoft/microsoft-decision-1": {
+  "id": "2026-10-09-global-coalition-commits-1-8-billion-for-ai-ready-biological",
+  "date": "2026-10-09",
+  "headline": "Global Coalition Commits $1.8 Billion for AI-Ready Biological Data",
+  "original_headlines": [
+   "AI-ready biological data: $1.8B global commitment",
+   "Discussion on Hacker News"
+  ],
+  "supported": 0.967,
+  "strength": "same",
+  "strength_probabilities": {
+   "same": 0.723,
+   "stronger": 0.266,
+   "weaker": 0.012
+  },
+  "hype": 0.15,
+  "verdict": "ok",
+  "reasons": [],
+  "model": "microsoft/microsoft-decision-1-20261009",
+  "checked_at": "2026-10-15T16:11:19+00:00"
+ },
+ "2026-10-09-mimo-v2-6-introduces-scaled-reinforcement-learning-for-model|microsoft/microsoft-decision-1": {
+  "id": "2026-10-09-mimo-v2-6-introduces-scaled-reinforcement-learning-for-model",
+  "date": "2026-10-09",
+  "headline": "MiMo-V2.6 Introduces Scaled Reinforcement Learning for Model Self-Improvement",
+  "original_headlines": [
+   "MiMo-V2.6: Scaling Reinforcement Learning Towards Self-Improvement",
+   "Discussion on Hugging Face Daily Papers"
+  ],
+  "supported": 0.893,
+  "strength": "same",
+  "strength_probabilities": {
+   "same": 0.613,
+   "stronger": 0.372,
+   "weaker": 0.014
+  },
+  "hype": 0.21,
+  "verdict": "ok",
+  "reasons": [],
+  "model": "microsoft/microsoft-decision-1-20261009",
+  "checked_at": "2026-10-15T16:11:19+00:00"
+ },
+ "2026-10-09-iranian-campaign-uses-chatgpt-to-plant-fake-articles|microsoft/microsoft-decision-1": {
+  "id": "2026-10-09-iranian-campaign-uses-chatgpt-to-plant-fake-articles",
+  "date": "2026-10-09",
+  "headline": "Iranian Campaign Uses ChatGPT to Plant Fake Articles",
+  "original_headlines": [
+   "Iranian campaign planted fake articles in real U.S. publications using ChatGPT",
+   "Discussion on Hacker News"
+  ],
+  "supported": 0.992,
+  "strength": "same",
+  "strength_probabilities": {
+   "same": 0.896,
+   "stronger": 0.074,
+   "weaker": 0.031
+  },
+  "hype": 0.16,
+  "verdict": "ok",
+  "reasons": [],
+  "model": "microsoft/microsoft-decision-1-20261009",
+  "checked_at": "2026-10-15T16:11:19+00:00"
+ },
+ "2026-10-09-microsoft-releases-ax-practitioner-playbook-for-ai-coding-ag|microsoft/microsoft-decision-1": {
+  "id": "2026-10-09-microsoft-releases-ax-practitioner-playbook-for-ai-coding-ag",
+  "date": "2026-10-09",
+  "headline": "Microsoft Releases AX Practitioner Playbook for AI Coding Agents",
+  "original_headlines": [
+   "How to make AI coding agents better at using your technology"
+  ],
+  "supported": 0.974,
+  "strength": "stronger",
+  "strength_probabilities": {
+   "same": 0.146,
+   "stronger": 0.741,
+   "weaker": 0.114
+  },
+  "hype": 0.03,
+  "verdict": "ok",
+  "reasons": [],
+  "model": "microsoft/microsoft-decision-1-20261009",
+  "checked_at": "2026-10-15T16:11:19+00:00"
+ },
+ "2026-10-10-typesafe-ai-raises-870-million-at-7-5-billion-valuation|microsoft/microsoft-decision-1": {
+  "id": "2026-10-10-typesafe-ai-raises-870-million-at-7-5-billion-valuation",
+  "date": "2026-10-10",
+  "headline": "TypeSafe AI Raises $870 Million at $7.5 Billion Valuation",
+  "original_headlines": [
+   "The maker of non-text AI model Jev valued at $7.5B just weeks after launch"
+  ],
+  "supported": 0.905,
+  "strength": "stronger",
+  "strength_probabilities": {
+   "same": 0.453,
+   "stronger": 0.514,
+   "weaker": 0.033
+  },
+  "hype": 0.3,
+  "verdict": "ok",
+  "reasons": [],
+  "model": "microsoft/microsoft-decision-1-20261009",
+  "checked_at": "2026-10-15T16:11:19+00:00"
+ },
+ "2026-10-10-microsoft-introduces-microsoft-decision-1-for-fast-decision|microsoft/microsoft-decision-1": {
+  "id": "2026-10-10-microsoft-introduces-microsoft-decision-1-for-fast-decision",
+  "date": "2026-10-10",
+  "headline": "Microsoft Introduces Microsoft-Decision-1 for Fast Decision-Scoring",
+  "original_headlines": [
+   "Microsoft-Decision-1: Our model for fast decision-making"
+  ],
+  "supported": 0.967,
+  "strength": "same",
+  "strength_probabilities": {
+   "same": 0.755,
+   "stronger": 0.216,
+   "weaker": 0.029
+  },
+  "hype": 0.32,
+  "verdict": "ok",
+  "reasons": [],
+  "model": "microsoft/microsoft-decision-1-20261009",
+  "checked_at": "2026-10-15T16:11:19+00:00"
+ },
+ "2026-10-10-ukrainian-drones-knock-out-data-centers-belonging-to-yandex|microsoft/microsoft-decision-1": {
+  "id": "2026-10-10-ukrainian-drones-knock-out-data-centers-belonging-to-yandex",
+  "date": "2026-10-10",
+  "headline": "Ukrainian Drones Knock Out Data Centers Belonging to Yandex",
+  "original_headlines": [
+   "Ukraine’s drones knock out AI data center belonging to \"Russia’s Google\""
+  ],
+  "supported": 0.905,
+  "strength": "stronger",
+  "strength_probabilities": {
+   "same": 0.218,
+   "stronger": 0.762,
+   "weaker": 0.02
+  },
+  "hype": 0.47,
+  "verdict": "check",
+  "reasons": [
+   "stronger than the original"
+  ],
+  "model": "microsoft/microsoft-decision-1-20261009",
+  "checked_at": "2026-10-15T16:11:20+00:00"
+ },
+ "2026-10-10-us-senate-investigation-says-some-hyperscalers-misled-the-pu|microsoft/microsoft-decision-1": {
+  "id": "2026-10-10-us-senate-investigation-says-some-hyperscalers-misled-the-pu",
+  "date": "2026-10-10",
+  "headline": "US Senate Investigation Says Some Hyperscalers Misled the Public",
+  "original_headlines": [
+   "A US Senate investigation led by Senators Warren, Van Hollen, and Blumenthal says some hyperscalers misled the public about AI data centers' costs and benefits (Nik Popli/Time)"
+  ],
+  "supported": 0.953,
+  "strength": "same",
+  "strength_probabilities": {
+   "same": 0.762,
+   "stronger": 0.02,
+   "weaker": 0.218
+  },
+  "hype": 0.38,
+  "verdict": "ok",
+  "reasons": [],
+  "model": "microsoft/microsoft-decision-1-20261009",
+  "checked_at": "2026-10-15T16:11:20+00:00"
+ },
+ "2026-10-10-report-cms-runs-1-700-member-slack-with-tech-companies|microsoft/microsoft-decision-1": {
+  "id": "2026-10-10-report-cms-runs-1-700-member-slack-with-tech-companies",
+  "date": "2026-10-10",
+  "headline": "Report: CMS Runs 1,700-Member Slack With Tech Companies",
+  "original_headlines": [
+   "A look at a 1,700-member Slack run by Medicare agency CMS where Microsoft, OpenAI, and other companies help shape policy on AI apps and medical records access (CBS News)"
+  ],
+  "supported": 0.924,
+  "strength": "stronger",
+  "strength_probabilities": {
+   "same": 0.36,
+   "stronger": 0.523,
+   "weaker": 0.117
+  },
+  "hype": 0.19,
+  "verdict": "ok",
+  "reasons": [],
+  "model": "microsoft/microsoft-decision-1-20261009",
+  "checked_at": "2026-10-15T16:11:20+00:00"
+ },
+ "2026-10-10-report-details-differing-revenue-calculations-for-anthropic|microsoft/microsoft-decision-1": {
+  "id": "2026-10-10-report-details-differing-revenue-calculations-for-anthropic",
+  "date": "2026-10-10",
+  "headline": "Report Details Differing Revenue Calculations for Anthropic and OpenAI",
+  "original_headlines": [
+   "A look at differing revenue calculations of Anthropic and OpenAI, as Anthropic books gross sales through cloud partners, while OpenAI records only its net share (Bloomberg)"
+  ],
+  "supported": 0.963,
+  "strength": "weaker",
+  "strength_probabilities": {
+   "same": 0.287,
+   "stronger": 0.024,
+   "weaker": 0.689
+  },
+  "hype": 0.03,
+  "verdict": "ok",
+  "reasons": [],
+  "model": "microsoft/microsoft-decision-1-20261009",
+  "checked_at": "2026-10-15T16:11:20+00:00"
+ },
+ "2026-10-10-synopsys-explores-partnerships-with-chinese-ai-labs|microsoft/microsoft-decision-1": {
+  "id": "2026-10-10-synopsys-explores-partnerships-with-chinese-ai-labs",
+  "date": "2026-10-10",
+  "headline": "Synopsys Explores Partnerships with Chinese AI Labs",
+  "original_headlines": [
+   "Chip design software leader Synopsys says it is exploring partnerships with Chinese AI labs to develop AI-powered chip design tools for the Chinese market (Yifan Yu/Nikkei Asia)"
+  ],
+  "supported": 0.992,
+  "strength": "same",
+  "strength_probabilities": {
+   "same": 0.673,
+   "stronger": 0.008,
+   "weaker": 0.318
+  },
+  "hype": 0.06,
+  "verdict": "ok",
+  "reasons": [],
+  "model": "microsoft/microsoft-decision-1-20261009",
+  "checked_at": "2026-10-15T16:11:20+00:00"
+ },
+ "2026-10-10-sparsedecoding-proposes-decoding-aware-pruning-for-llm-infer|microsoft/microsoft-decision-1": {
+  "id": "2026-10-10-sparsedecoding-proposes-decoding-aware-pruning-for-llm-infer",
+  "date": "2026-10-10",
+  "headline": "SparseDecoding Proposes Decoding-Aware Pruning for LLM Inference",
+  "original_headlines": [
+   "SparseDecoding: Decoding-Aware Pruning for Accurate and Efficient LLM Inference",
+   "Discussion on Hugging Face Daily Papers"
+  ],
+  "supported": 0.731,
+  "strength": "weaker",
+  "strength_probabilities": {
+   "same": 0.093,
+   "stronger": 0.024,
+   "weaker": 0.883
+  },
+  "hype": 0.09,
+  "verdict": "ok",
+  "reasons": [],
+  "model": "microsoft/microsoft-decision-1-20261009",
+  "checked_at": "2026-10-15T16:11:20+00:00"
+ },
+ "2026-10-10-researchers-present-opera-verbal-critic-framework-for-coding|microsoft/microsoft-decision-1": {
+  "id": "2026-10-10-researchers-present-opera-verbal-critic-framework-for-coding",
+  "date": "2026-10-10",
+  "headline": "Researchers Present Opera Verbal Critic Framework for Coding Agents",
+  "original_headlines": [
+   "Opera: A Verbal Critic Framework for Long-horizon Coding Agents",
+   "Discussion on Hugging Face Daily Papers"
+  ],
+  "supported": 0.974,
+  "strength": "same",
+  "strength_probabilities": {
+   "same": 0.809,
+   "stronger": 0.066,
+   "weaker": 0.124
+  },
+  "hype": 0.06,
+  "verdict": "ok",
+  "reasons": [],
+  "model": "microsoft/microsoft-decision-1-20261009",
+  "checked_at": "2026-10-15T16:11:20+00:00"
+ },
+ "2026-10-10-talorys-launches-as-a-self-hosted-personal-ai-agent-on-cloud|microsoft/microsoft-decision-1": {
+  "id": "2026-10-10-talorys-launches-as-a-self-hosted-personal-ai-agent-on-cloud",
+  "date": "2026-10-10",
+  "headline": "Talorys Launches as a Self-Hosted Personal AI Agent on Cloudflare",
+  "original_headlines": [
+   "Talorys – A self-hosted personal AI agent on Cloudflare's free tier",
+   "Discussion on Hacker News"
+  ],
+  "supported": 0.98,
+  "strength": "same",
+  "strength_probabilities": {
+   "same": 0.687,
+   "stronger": 0.286,
+   "weaker": 0.027
+  },
+  "hype": 0.05,
+  "verdict": "ok",
+  "reasons": [],
+  "model": "microsoft/microsoft-decision-1-20261009",
+  "checked_at": "2026-10-15T16:11:20+00:00"
+ },
+ "2026-10-11-reports-say-nvidia-is-in-talks-to-acquire-reflection-ai|microsoft/microsoft-decision-1": {
+  "id": "2026-10-11-reports-say-nvidia-is-in-talks-to-acquire-reflection-ai",
+  "date": "2026-10-11",
+  "headline": "Reports Say Nvidia Is in Talks to Acquire Reflection AI",
+  "original_headlines": [
+   "Nvidia in talks to acquire US 'open' model startup Reflection AI",
+   "Discussion on Hacker News",
+   "Sources: Nvidia is in talks to acquire or invest more into US open-weights AI startup Reflection AI; the deal may be an acquihire to avoid antitrust scrutiny (Financial Times)"
+  ],
+  "supported": 0.971,
+  "strength": "same",
+  "strength_probabilities": {
+   "same": 0.512,
+   "stronger": 0.037,
+   "weaker": 0.451
+  },
+  "hype": 0.08,
+  "verdict": "ok",
+  "reasons": [],
+  "model": "microsoft/microsoft-decision-1-20261009",
+  "checked_at": "2026-10-15T16:11:20+00:00"
+ },
+ "2026-10-11-microsoft-ceo-satya-nadella-says-ai-models-are-compromised|microsoft/microsoft-decision-1": {
+  "id": "2026-10-11-microsoft-ceo-satya-nadella-says-ai-models-are-compromised",
+  "date": "2026-10-11",
+  "headline": "Satya Nadella Says to Assume Every AI Model Is Compromised",
+  "original_headlines": [
+   "Satya Nadella says we should assume all AI models are 'compromised'",
+   "Discussion on Hacker News",
+   "Microsoft’s Satya Nadella says AI models need an ‘emergency brake’"
+  ],
+  "supported": 0.995,
+  "strength": "same",
+  "strength_probabilities": {
+   "same": 0.7,
+   "stronger": 0.292,
+   "weaker": 0.008
+  },
+  "hype": 0.45,
+  "verdict": "ok",
+  "reasons": [],
+  "model": "microsoft/microsoft-decision-1-20261009",
+  "checked_at": "2026-10-15T16:11:20+00:00"
+ },
+ "2026-10-11-anthropic-updates-usage-policy-to-ban-cruelty-to-claude|microsoft/microsoft-decision-1": {
+  "id": "2026-10-11-anthropic-updates-usage-policy-to-ban-cruelty-to-claude",
+  "date": "2026-10-11",
+  "headline": "Anthropic Updates Usage Policy to Ban Cruelty to Claude",
+  "original_headlines": [
+   "Anthropic asks users to stop being mean to Claude",
+   "Discussion on Hacker News",
+   "Anthropic Bans Cruelty to Claude, Still Won't Say What It Protects",
+   "Discussion on Hacker News"
+  ],
+  "supported": 0.924,
+  "strength": "stronger",
+  "strength_probabilities": {
+   "same": 0.058,
+   "stronger": 0.911,
+   "weaker": 0.031
+  },
+  "hype": 1.46,
+  "verdict": "check",
+  "reasons": [
+   "stronger than the original"
+  ],
+  "model": "microsoft/microsoft-decision-1-20261009",
+  "checked_at": "2026-10-15T16:11:20+00:00"
+ },
+ "2026-10-11-apple-discloses-deal-to-hire-team-and-license-tech-from-huxe|microsoft/microsoft-decision-1": {
+  "id": "2026-10-11-apple-discloses-deal-to-hire-team-and-license-tech-from-huxe",
+  "date": "2026-10-11",
+  "headline": "Apple discloses deal to hire team and license tech from Huxe",
+  "original_headlines": [
+   "Apple discloses deal to hire team and license tech from personalized podcast startup Huxe"
+  ],
+  "supported": 0.852,
+  "strength": "weaker",
+  "strength_probabilities": {
+   "same": 0.2,
+   "stronger": 0.009,
+   "weaker": 0.791
+  },
+  "hype": 0.03,
+  "verdict": "ok",
+  "reasons": [],
+  "model": "microsoft/microsoft-decision-1-20261009",
+  "checked_at": "2026-10-15T16:11:20+00:00"
+ },
+ "2026-10-11-pitchbook-reports-robotics-and-physical-ai-companies-raised|microsoft/microsoft-decision-1": {
+  "id": "2026-10-11-pitchbook-reports-robotics-and-physical-ai-companies-raised",
+  "date": "2026-10-11",
+  "headline": "PitchBook reports robotics and physical AI companies raised ~$48B YTD",
+  "original_headlines": [
+   "PitchBook: robotics and physical AI companies have raised ~$48B YTD, as they gather training data from people completing tasks in factories, offices, and homes (Rafe Rosner-Uddin/Financial Times)"
+  ],
+  "supported": 0.989,
+  "strength": "same",
+  "strength_probabilities": {
+   "same": 0.694,
+   "stronger": 0.016,
+   "weaker": 0.289
+  },
+  "hype": 0.03,
+  "verdict": "ok",
+  "reasons": [],
+  "model": "microsoft/microsoft-decision-1-20261009",
+  "checked_at": "2026-10-15T16:11:20+00:00"
+ },
+ "2026-10-11-agent-chrome-relay-repository-on-github-by-alexey-indeev|microsoft/microsoft-decision-1": {
+  "id": "2026-10-11-agent-chrome-relay-repository-on-github-by-alexey-indeev",
+  "date": "2026-10-11",
+  "headline": "Agent Chrome Relay Repository on GitHub by Alexey Indeev",
+  "original_headlines": [
+   "aindeev/agent-chrome-relay: Let your AI agents use your Chrome, signed in as you, in background tabs. By Alexey Indeev · blog: read.aindeev.com · X: @AlexeyIndeev"
+  ],
+  "supported": 0.953,
+  "strength": "same",
+  "strength_probabilities": {
+   "same": 0.596,
+   "stronger": 0.043,
+   "weaker": 0.361
+  },
+  "hype": 0.02,
+  "verdict": "ok",
+  "reasons": [],
+  "model": "microsoft/microsoft-decision-1-20261009",
+  "checked_at": "2026-10-15T16:11:20+00:00"
+ },
+ "2026-10-12-meta-releases-muse-wonder-and-muse-wonder-full-frontier-mode|microsoft/microsoft-decision-1": {
+  "id": "2026-10-12-meta-releases-muse-wonder-and-muse-wonder-full-frontier-mode",
+  "date": "2026-10-12",
+  "headline": "Meta Releases Muse Wonder and Muse Wonder Full Frontier Models",
+  "original_headlines": [
+   "Meta releases its first frontier model, Muse Wonder",
+   "Meta says Muse Wonder is available to Muse app subscribers, via Meta Model API, and Muse Code; Wonder Full is available to Muse Code subscribers (Jonathan Vanian/CNBC)",
+   "Meta introduces Muse Wonder and Muse Wonder Full, saying they deliver state-of-the-art performance on personal and professional agentic tasks (Meta AI Research)",
+   "Meta says Wonder includes Active Memory and Active Focus, two features designed to help AI systems perform more useful work over extended periods (Ina Fried/Axios)"
+  ],
+  "supported": 0.932,
+  "strength": "same",
+  "strength_probabilities": {
+   "same": 0.852,
+   "stronger": 0.115,
+   "weaker": 0.033
+  },
+  "hype": 0.15,
+  "verdict": "ok",
+  "reasons": [],
+  "model": "microsoft/microsoft-decision-1-20261009",
+  "checked_at": "2026-10-15T16:11:20+00:00"
+ },
+ "2026-10-12-microsoft-announces-azure-maia-300-and-multi-gigawatt-deploy|microsoft/microsoft-decision-1": {
+  "id": "2026-10-12-microsoft-announces-azure-maia-300-and-multi-gigawatt-deploy",
+  "date": "2026-10-12",
+  "headline": "Microsoft Announces Azure Maia 300 and Multi-Gigawatt Deployments",
+  "original_headlines": [
+   "Microsoft to expand Azure Maia system to multi-gigawatt deployments",
+   "Microsoft says Maia 300 racks will hold 96 chips and use ~167 kW of power and plans to roll out \"multi-gigawatt deployments\" of the chip starting next year (Reuters)",
+   "Analysis: constructing and equipping a 1GW AI data center in Abilene, Texas, could cost ~$30B, including $17B on chips, $3B on power, and $2.4B on construction (Lynn Doan/Bloomberg)"
+  ],
+  "supported": 0.905,
+  "strength": "same",
+  "strength_probabilities": {
+   "same": 0.54,
+   "stronger": 0.421,
+   "weaker": 0.039
+  },
+  "hype": 0.16,
+  "verdict": "ok",
+  "reasons": [],
+  "model": "microsoft/microsoft-decision-1-20261009",
+  "checked_at": "2026-10-15T16:11:20+00:00"
+ },
+ "2026-10-12-nvidia-opens-vera-rubin-architecture-at-ocp-global-summit|microsoft/microsoft-decision-1": {
+  "id": "2026-10-12-nvidia-opens-vera-rubin-architecture-at-ocp-global-summit",
+  "date": "2026-10-12",
+  "headline": "NVIDIA Opens Vera Rubin Architecture at OCP Global Summit",
+  "original_headlines": [
+   "OCP Global Summit: Amid Ecosystem Adoption, NVIDIA Opens Vera Rubin Architecture to Help Scale AI Factories Worldwide"
+  ],
+  "supported": 0.798,
+  "strength": "weaker",
+  "strength_probabilities": {
+   "same": 0.302,
+   "stronger": 0.059,
+   "weaker": 0.639
+  },
+  "hype": 0.11,
+  "verdict": "ok",
+  "reasons": [],
+  "model": "microsoft/microsoft-decision-1-20261009",
+  "checked_at": "2026-10-15T16:11:20+00:00"
+ },
+ "2026-10-12-meta-uses-idle-ai-inference-capacity-to-improve-ads|microsoft/microsoft-decision-1": {
+  "id": "2026-10-12-meta-uses-idle-ai-inference-capacity-to-improve-ads",
+  "date": "2026-10-12",
+  "headline": "Meta Uses Idle AI Inference Capacity to Improve Ads",
+  "original_headlines": [
+   "Turning Opportunistic AI Inference Capacity Into Better Ads Recommendations"
+  ],
+  "supported": 0.967,
+  "strength": "same",
+  "strength_probabilities": {
+   "same": 0.543,
+   "stronger": 0.257,
+   "weaker": 0.2
+  },
+  "hype": 0.07,
+  "verdict": "ok",
+  "reasons": [],
+  "model": "microsoft/microsoft-decision-1-20261009",
+  "checked_at": "2026-10-15T16:11:20+00:00"
+ },
+ "2026-10-12-custom-sql-pools-in-microsoft-fabric-data-warehouse-generall|microsoft/microsoft-decision-1": {
+  "id": "2026-10-12-custom-sql-pools-in-microsoft-fabric-data-warehouse-generall",
+  "date": "2026-10-12",
+  "headline": "Custom SQL Pools in Microsoft Fabric Data Warehouse Generally Available",
+  "original_headlines": [
+   "Custom SQL Pools in Fabric Data Warehouse (Generally Available)"
+  ],
+  "supported": 0.994,
+  "strength": "same",
+  "strength_probabilities": {
+   "same": 0.989,
+   "stronger": 0.009,
+   "weaker": 0.002
+  },
+  "hype": 0.02,
+  "verdict": "ok",
+  "reasons": [],
+  "model": "microsoft/microsoft-decision-1-20261009",
+  "checked_at": "2026-10-15T16:11:20+00:00"
+ },
+ "2026-10-12-aws-releases-ray-llm-deep-learning-containers-for-multi-node|microsoft/microsoft-decision-1": {
+  "id": "2026-10-12-aws-releases-ray-llm-deep-learning-containers-for-multi-node",
+  "date": "2026-10-12",
+  "headline": "AWS Releases Ray LLM Deep Learning Containers for Multi-Node Inference",
+  "original_headlines": [
+   "Run multi-node inference workloads using Ray LLM Deep Learning Containers"
+  ],
+  "supported": 0.958,
+  "strength": "stronger",
+  "strength_probabilities": {
+   "same": 0.278,
+   "stronger": 0.667,
+   "weaker": 0.055
+  },
+  "hype": 0.02,
+  "verdict": "ok",
+  "reasons": [],
+  "model": "microsoft/microsoft-decision-1-20261009",
+  "checked_at": "2026-10-15T16:11:20+00:00"
+ },
+ "2026-10-12-deploying-decision-models-with-llama-cpp-on-amazon-sagemaker|microsoft/microsoft-decision-1": {
+  "id": "2026-10-12-deploying-decision-models-with-llama-cpp-on-amazon-sagemaker",
+  "date": "2026-10-12",
+  "headline": "Deploying Decision Models with llama.cpp on Amazon SageMaker AI",
+  "original_headlines": [
+   "Deploy decision models with llama.cpp on Amazon SageMaker AI"
+  ],
+  "supported": 0.98,
+  "strength": "same",
+  "strength_probabilities": {
+   "same": 0.958,
+   "stronger": 0.037,
+   "weaker": 0.004
+  },
+  "hype": 0.03,
+  "verdict": "ok",
+  "reasons": [],
+  "model": "microsoft/microsoft-decision-1-20261009",
+  "checked_at": "2026-10-15T16:11:20+00:00"
+ },
+ "2026-10-12-microsoft-president-warns-ai-is-less-regulated-than-milk|microsoft/microsoft-decision-1": {
+  "id": "2026-10-12-microsoft-president-warns-ai-is-less-regulated-than-milk",
+  "date": "2026-10-12",
+  "headline": "Microsoft President Warns AI Is Less Regulated Than Milk",
+  "original_headlines": [
+   "AI less regulated than milk, Microsoft president says in warning over safety",
+   "Discussion on Hacker News",
+   "Microsoft president says UK is best placed to drive AI regulation"
+  ],
+  "supported": 0.989,
+  "strength": "same",
+  "strength_probabilities": {
+   "same": 0.844,
+   "stronger": 0.147,
+   "weaker": 0.009
+  },
+  "hype": 0.73,
+  "verdict": "ok",
+  "reasons": [],
+  "model": "microsoft/microsoft-decision-1-20261009",
+  "checked_at": "2026-10-15T16:11:20+00:00"
+ },
+ "2026-10-12-windborne-wins-u-s-air-force-contract-for-balloon-data|microsoft/microsoft-decision-1": {
+  "id": "2026-10-12-windborne-wins-u-s-air-force-contract-for-balloon-data",
+  "date": "2026-10-12",
+  "headline": "WindBorne Wins U.S. Air Force Contract for Balloon Data",
+  "original_headlines": [
+   "WindBorne wins a hefty US Air Force contract for its balloon data"
+  ],
+  "supported": 0.98,
+  "strength": "same",
+  "strength_probabilities": {
+   "same": 0.843,
+   "stronger": 0.078,
+   "weaker": 0.078
+  },
+  "hype": 0.17,
+  "verdict": "ok",
+  "reasons": [],
+  "model": "microsoft/microsoft-decision-1-20261009",
+  "checked_at": "2026-10-15T16:11:20+00:00"
+ },
+ "2026-10-13-google-releases-gemini-4-argon-frontier-model|microsoft/microsoft-decision-1": {
+  "id": "2026-10-13-google-releases-gemini-4-argon-frontier-model",
+  "date": "2026-10-13",
+  "headline": "Google Releases Gemini 4 Argon Frontier Model",
+  "original_headlines": [
+   "Gemini 4 Argon: Built to solve your hardest problems",
+   "Gemini 4 Argon: Built to solve your hardest problems",
+   "Gemini 4 Argon for Robotics- Google Developers Blog",
+   "Google finally releases Gemini 4 Argon"
+  ],
+  "supported": 0.963,
+  "strength": "stronger",
+  "strength_probabilities": {
+   "same": 0.41,
+   "stronger": 0.527,
+   "weaker": 0.063
+  },
+  "hype": 0.51,
+  "verdict": "ok",
+  "reasons": [],
+  "model": "microsoft/microsoft-decision-1-20261009",
+  "checked_at": "2026-10-15T16:11:20+00:00"
+ },
+ "2026-10-13-interactive-chatbot-platform-character-ai-files-for-chapter|microsoft/microsoft-decision-1": {
+  "id": "2026-10-13-interactive-chatbot-platform-character-ai-files-for-chapter",
+  "date": "2026-10-13",
+  "headline": "Interactive Chatbot Platform Character.AI Files for Chapter 11 Bankruptcy",
+  "original_headlines": [
+   "Just 5 years in, interactive chatbot platform Character.AI files for bankruptcy",
+   "Character.AI files for bankruptcy"
+  ],
+  "supported": 0.986,
+  "strength": "same",
+  "strength_probabilities": {
+   "same": 0.845,
+   "stronger": 0.13,
+   "weaker": 0.026
+  },
+  "hype": 0.03,
+  "verdict": "ok",
+  "reasons": [],
+  "model": "microsoft/microsoft-decision-1-20261009",
+  "checked_at": "2026-10-15T16:11:20+00:00"
+ },
+ "2026-10-13-google-play-lets-users-run-private-vibe-coded-android-apps|microsoft/microsoft-decision-1": {
+  "id": "2026-10-13-google-play-lets-users-run-private-vibe-coded-android-apps",
+  "date": "2026-10-13",
+  "headline": "Google Play Lets Users Run Private Vibe-Coded Android Apps",
+  "original_headlines": [
+   "Google Play now lets anyone build private, vibe-coded apps that run on Android",
+   "Google wants to host your personal vibe-coded apps in the Play Store"
+  ],
+  "supported": 0.731,
+  "strength": "same",
+  "strength_probabilities": {
+   "same": 0.743,
+   "stronger": 0.069,
+   "weaker": 0.188
+  },
+  "hype": 0.91,
+  "verdict": "ok",
+  "reasons": [],
+  "model": "microsoft/microsoft-decision-1-20261009",
+  "checked_at": "2026-10-15T16:11:20+00:00"
+ },
+ "2026-10-13-github-details-a-new-secret-detection-model-and-pipeline|microsoft/microsoft-decision-1": {
+  "id": "2026-10-13-github-details-a-new-secret-detection-model-and-pipeline",
+  "date": "2026-10-13",
+  "headline": "GitHub details a new secret detection model and pipeline",
+  "original_headlines": [
+   "GitHub’s model for secret detection: Finding more secrets with less noise"
+  ],
+  "supported": 0.989,
+  "strength": "weaker",
+  "strength_probabilities": {
+   "same": 0.41,
+   "stronger": 0.063,
+   "weaker": 0.527
+  },
+  "hype": 0.04,
+  "verdict": "ok",
+  "reasons": [],
+  "model": "microsoft/microsoft-decision-1-20261009",
+  "checked_at": "2026-10-15T16:11:20+00:00"
+ },
+ "2026-10-13-microsoft-fabric-introduces-app-functions-in-preview|microsoft/microsoft-decision-1": {
+  "id": "2026-10-13-microsoft-fabric-introduces-app-functions-in-preview",
+  "date": "2026-10-13",
+  "headline": "Microsoft Fabric Introduces App Functions in Preview",
+  "original_headlines": [
+   "Fabric App functions to use secure server-side custom logic (Preview)"
+  ],
+  "supported": 0.996,
+  "strength": "same",
+  "strength_probabilities": {
+   "same": 0.621,
+   "stronger": 0.202,
+   "weaker": 0.178
+  },
+  "hype": 0.02,
+  "verdict": "ok",
+  "reasons": [],
+  "model": "microsoft/microsoft-decision-1-20261009",
+  "checked_at": "2026-10-15T16:11:20+00:00"
+ },
+ "2026-10-13-meta-updates-generative-ads-model-to-scale-recommendation-sy|microsoft/microsoft-decision-1": {
+  "id": "2026-10-13-meta-updates-generative-ads-model-to-scale-recommendation-sy",
+  "date": "2026-10-13",
+  "headline": "Meta Updates Generative Ads Model to Scale Recommendation Systems",
+  "original_headlines": [
+   "Meta’s Generative Ads Model (GEM): Scaling the Central Model and Compute Engine for Frontier Ads AI"
+  ],
+  "supported": 0.798,
+  "strength": "weaker",
+  "strength_probabilities": {
+   "same": 0.252,
+   "stronger": 0.064,
+   "weaker": 0.685
+  },
+  "hype": 0.05,
+  "verdict": "ok",
+  "reasons": [],
+  "model": "microsoft/microsoft-decision-1-20261009",
+  "checked_at": "2026-10-15T16:11:20+00:00"
+ },
+ "2026-10-13-anthropic-migrates-monorepo-to-custom-scion-version-control|microsoft/microsoft-decision-1": {
+  "id": "2026-10-13-anthropic-migrates-monorepo-to-custom-scion-version-control",
+  "date": "2026-10-13",
+  "headline": "Anthropic migrates monorepo to custom Scion version control system",
+  "original_headlines": [
+   "Redesigning source control at Anthropic",
+   "Discussion on Hacker News"
+  ],
+  "supported": 0.982,
+  "strength": "stronger",
+  "strength_probabilities": {
+   "same": 0.073,
+   "stronger": 0.883,
+   "weaker": 0.044
+  },
+  "hype": 0.01,
+  "verdict": "check",
+  "reasons": [
+   "stronger than the original"
+  ],
+  "model": "microsoft/microsoft-decision-1-20261009",
+  "checked_at": "2026-10-15T16:11:20+00:00"
+ },
+ "2026-10-13-codex-cli-issue-says-it-now-starts-a-self-updating-backgroun|microsoft/microsoft-decision-1": {
+  "id": "2026-10-13-codex-cli-issue-says-it-now-starts-a-self-updating-backgroun",
+  "date": "2026-10-13",
+  "headline": "Codex CLI Issue Says It Now Starts a Self-Updating Background Daemon by Default",
+  "original_headlines": [
+   "Codex CLI installs a persistent, self-updating background daemon by default",
+   "Discussion on Hacker News"
+  ],
+  "supported": 0.835,
+  "strength": "same",
+  "strength_probabilities": {
+   "same": 0.644,
+   "stronger": 0.087,
+   "weaker": 0.269
+  },
+  "hype": 0.57,
+  "verdict": "ok",
+  "reasons": [],
+  "model": "microsoft/microsoft-decision-1-20261009",
+  "checked_at": "2026-10-15T16:11:20+00:00"
+ },
+ "2026-10-13-janas-runs-llms-larger-than-ram-by-streaming-experts-from-ss|microsoft/microsoft-decision-1": {
+  "id": "2026-10-13-janas-runs-llms-larger-than-ram-by-streaming-experts-from-ss",
+  "date": "2026-10-13",
+  "headline": "Janas Runs LLMs Larger Than RAM by Streaming Experts from SSD",
+  "original_headlines": [
+   "Janas: Run LLMs larger than RAM by streaming experts from SSD",
+   "Discussion on Hacker News"
+  ],
+  "supported": 0.984,
+  "strength": "same",
+  "strength_probabilities": {
+   "same": 0.938,
+   "stronger": 0.06,
+   "weaker": 0.002
+  },
+  "hype": 0.07,
+  "verdict": "ok",
+  "reasons": [],
+  "model": "microsoft/microsoft-decision-1-20261009",
+  "checked_at": "2026-10-15T16:11:20+00:00"
+ },
+ "2026-10-13-imf-report-warns-ai-share-crash-could-threaten-global-financ|microsoft/microsoft-decision-1": {
+  "id": "2026-10-13-imf-report-warns-ai-share-crash-could-threaten-global-financ",
+  "date": "2026-10-13",
+  "headline": "IMF Report Warns AI Share Crash Could Threaten Global Financial Stability",
+  "original_headlines": [
+   "Threat of AI share crash puts world financial stability at risk, says IMF",
+   "Discussion on Hacker News"
+  ],
+  "supported": 0.993,
+  "strength": "same",
+  "strength_probabilities": {
+   "same": 0.806,
+   "stronger": 0.159,
+   "weaker": 0.035
+  },
+  "hype": 0.58,
+  "verdict": "ok",
+  "reasons": [],
+  "model": "microsoft/microsoft-decision-1-20261009",
+  "checked_at": "2026-10-15T16:11:20+00:00"
+ },
+ "2026-10-14-openai-engineer-arrested-for-allegedly-bugging-executive-con|microsoft/microsoft-decision-1": {
+  "id": "2026-10-14-openai-engineer-arrested-for-allegedly-bugging-executive-con",
+  "date": "2026-10-14",
+  "headline": "OpenAI Engineer Arrested for Allegedly Bugging Executive Conference Room",
+  "original_headlines": [
+   "OpenAI finds recording device in one of their offices",
+   "OpenAI engineer arrested in bugging of executive conference room",
+   "OpenAI employee arrested for allegedly planting a bug in a conference room",
+   "Discussion on Hacker News"
+  ],
+  "supported": 0.852,
+  "strength": "same",
+  "strength_probabilities": {
+   "same": 0.743,
+   "stronger": 0.188,
+   "weaker": 0.069
+  },
+  "hype": 0.57,
+  "verdict": "ok",
+  "reasons": [],
+  "model": "microsoft/microsoft-decision-1-20261009",
+  "checked_at": "2026-10-15T16:13:51+00:00"
+ },
+ "2026-10-14-google-deepmind-and-singapore-government-collaborate-on-scam|microsoft/microsoft-decision-1": {
+  "id": "2026-10-14-google-deepmind-and-singapore-government-collaborate-on-scam",
+  "date": "2026-10-14",
+  "headline": "Google DeepMind and Singapore Government Collaborate on Scam Detection Model",
+  "original_headlines": [
+   "Google DeepMind and Singapore Government collaborate to build fine-tuned AI model for scam detection"
+  ],
+  "supported": 0.995,
+  "strength": "same",
+  "strength_probabilities": {
+   "same": 0.982,
+   "stronger": 0.007,
+   "weaker": 0.011
+  },
+  "hype": 0.01,
+  "verdict": "ok",
+  "reasons": [],
+  "model": "microsoft/microsoft-decision-1-20261009",
+  "checked_at": "2026-10-15T16:13:51+00:00"
+ },
+ "2026-10-14-new-project-lets-ai-models-control-real-iphones-using-esp32|microsoft/microsoft-decision-1": {
+  "id": "2026-10-14-new-project-lets-ai-models-control-real-iphones-using-esp32",
+  "date": "2026-10-14",
+  "headline": "New Project Lets AI Models Control Real iPhones Using ESP32",
+  "original_headlines": [
+   "onehumanbeing/esp32-iphone-agent: Let an AI model use a real iPhone with a $7 ESP32: AirPlay eyes, USB HID hands, any OpenAI-compatible vision model. No Mac, no developer account, no jailbreak."
+  ],
+  "supported": 0.963,
+  "strength": "weaker",
+  "strength_probabilities": {
+   "same": 0.299,
+   "stronger": 0.067,
+   "weaker": 0.634
+  },
+  "hype": 0.24,
+  "verdict": "ok",
+  "reasons": [],
+  "model": "microsoft/microsoft-decision-1-20261009",
+  "checked_at": "2026-10-15T16:13:51+00:00"
+ },
+ "2026-10-14-newspaper-reports-ai-agent-erased-edited-material-but-tv4-de|microsoft/microsoft-decision-1": {
+  "id": "2026-10-14-newspaper-reports-ai-agent-erased-edited-material-but-tv4-de",
+  "date": "2026-10-14",
+  "headline": "Newspaper reports AI agent erased edited material, but TV4 denies it",
+  "original_headlines": [
+   "TV4 postpones show after AI agent erases edited material",
+   "Discussion on Hacker News",
+   "Agent erased full season of \"The Challenge Swe\": \"Hundreds of days of work gone\"",
+   "Discussion on Hacker News"
+  ],
+  "supported": 0.94,
+  "strength": "weaker",
+  "strength_probabilities": {
+   "same": 0.056,
+   "stronger": 0.072,
+   "weaker": 0.873
+  },
+  "hype": 0.24,
+  "verdict": "ok",
+  "reasons": [],
+  "model": "microsoft/microsoft-decision-1-20261009",
+  "checked_at": "2026-10-15T16:13:51+00:00"
+ },
+ "2026-10-14-microsoft-shared-a-deep-dive-into-azure-maia-300-architectur|microsoft/microsoft-decision-1": {
+  "id": "2026-10-14-microsoft-shared-a-deep-dive-into-azure-maia-300-architectur",
+  "date": "2026-10-14",
+  "headline": "Microsoft Shared a Deep Dive Into Azure Maia 300 Architecture",
+  "original_headlines": [
+   "Deep dive into Azure Maia 300 architecture"
+  ],
+  "supported": 0.995,
+  "strength": "stronger",
+  "strength_probabilities": {
+   "same": 0.287,
+   "stronger": 0.607,
+   "weaker": 0.106
+  },
+  "hype": 0.09,
+  "verdict": "ok",
+  "reasons": [],
+  "model": "microsoft/microsoft-decision-1-20261009",
+  "checked_at": "2026-10-15T16:13:51+00:00"
+ },
+ "2026-10-14-agent-reflex-teaches-language-agents-to-act-reflectively|microsoft/microsoft-decision-1": {
+  "id": "2026-10-14-agent-reflex-teaches-language-agents-to-act-reflectively",
+  "date": "2026-10-14",
+  "headline": "Agent-Reflex Teaches Language Agents to Act Reflectively",
+  "original_headlines": [
+   "Agent-Reflex: Teaching Language Agents to Act Reflectively",
+   "Discussion on Hugging Face Daily Papers"
+  ],
+  "supported": 0.98,
+  "strength": "same",
+  "strength_probabilities": {
+   "same": 0.977,
+   "stronger": 0.02,
+   "weaker": 0.003
+  },
+  "hype": 0.22,
+  "verdict": "ok",
+  "reasons": [],
+  "model": "microsoft/microsoft-decision-1-20261009",
+  "checked_at": "2026-10-15T16:13:51+00:00"
+ },
+ "2026-10-14-parsimony-measures-how-much-excess-code-ai-models-add|microsoft/microsoft-decision-1": {
+  "id": "2026-10-14-parsimony-measures-how-much-excess-code-ai-models-add",
+  "date": "2026-10-14",
+  "headline": "Parsimony Measures How Much Excess Code AI Models Add",
+  "original_headlines": [
+   "Show HN: Parsimony – an open-source benchmark for how much code AI models add",
+   "Discussion on Hacker News"
+  ],
+  "supported": 0.798,
+  "strength": "same",
+  "strength_probabilities": {
+   "same": 0.592,
+   "stronger": 0.317,
+   "weaker": 0.091
+  },
+  "hype": 0.08,
+  "verdict": "ok",
+  "reasons": [],
+  "model": "microsoft/microsoft-decision-1-20261009",
+  "checked_at": "2026-10-15T16:13:51+00:00"
+ }
+}

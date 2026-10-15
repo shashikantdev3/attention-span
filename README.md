@@ -63,7 +63,15 @@ Create `.env` in the repo root (it is git-ignored):
 ```
 GEMINI_API_KEY=your-gemini-key
 GROQ_API_KEY=your-groq-key
+# optional, both prepaid; the site runs without them
+ANTHROPIC_API_KEY=your-claude-key        # Claude checks the facts first, the free models are the fallback
+OPENROUTER_API_KEY=your-openrouter-key   # the headline honesty check below
 ```
+
+Writing stays on the free Gemini and Groq tiers. Only the fact-checker uses Claude (Sonnet, then Haiku), because the
+checker is where a stronger reader matters most, and it is a different model family from the writer.
+If the key is missing or the credits run out, the checker falls back to the free models on its own.
+The nightly log shows how many Claude tokens each run used.
 
 ## Every night
 
@@ -117,6 +125,21 @@ Put the maker's own post first. It goes through the same writer and fact-checker
 **Add a link the feeds missed** (for example an X post): put it in `state/inbox.txt`, one per line, as `URL | short note`.
 
 **Approve new glossary terms** proposed by the writer: `python tools/review_terms.py`, then `python seed/build_seed.py`.
+
+## Headline honesty check (decision model)
+
+```
+python tools/check_headlines.py                  # the latest edition
+python tools/check_headlines.py --all            # every edition so far
+python tools/check_headlines.py --headline "..." --text "..." --original "..."
+```
+
+A decision model answers typed questions with probabilities instead of writing text, in one short call.
+This uses Microsoft-Decision-1 through OpenRouter to ask three questions about every headline: is each claim backed
+by our fact-checked summary (yes or no), is our wording the same, stronger or weaker than the publisher's headline,
+and how much hype it has (0 to 4). Flagged headlines go to `state/reports/headline_honesty_<date>.md` for a person
+to reread; every answer is kept in `state/reports/headline_honesty.json`. One check costs about $0.00002.
+Use `--model` to try another decision model, for example TypeSafe's Jev.
 
 ## Pages for search engines
 

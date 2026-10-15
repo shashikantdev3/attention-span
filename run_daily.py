@@ -196,6 +196,8 @@ def main():
              "llm_calls": llm.STATS["calls"], "cache_hits": llm.STATS["cache_hits"],
              "models": llm.STATS["by_model"], "fallbacks": llm.STATS["fallbacks"][-6:],
              "seconds": round(time.time() - t0)}
+    for entry, t in llm.STATS.get("tokens", {}).items():
+        log(f"   paid model {entry}: {t['in']:,} tokens in, {t['out']:,} out")
 
     log("5. Saving")
     if args.dry_run:
