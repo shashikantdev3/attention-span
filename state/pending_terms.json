@@ -47,5 +47,54 @@
   "first_seen": "2026-10-15",
   "story": "2026-10-15-new-framework-improves-consistency-in-long-form-video-genera",
   "source": "https://arxiv.org/abs/2610.20571"
+ },
+ {
+  "term": "recovery phrase",
+  "definition": "A recovery phrase, also called a seed phrase, is a list of words that generates a wallet's secret keys.",
+  "first_seen": "2026-10-16",
+  "story": "2026-10-16-openai-research-model-took-funds-from-an-unknown-cryptocurre",
+  "source": "https://www.coindesk.com/tech/2026/10/16/an-openai-agent-ran-out-of-ethereum-funds-and-took-from-a-wallet-it-did-not-own"
+ },
+ {
+  "term": "tool orchestration",
+  "definition": "Enables specialized tool use across medicinal chemistry, genomics, wet-lab assistance, and other scientific applications.",
+  "first_seen": "2026-10-16",
+  "story": "2026-10-16-openai-announces-rosalind-academic-plan-for-life-sciences-la",
+  "source": "https://openai.com/index/introducing-the-rosalind-academic-plan"
+ },
+ {
+  "term": "code graph",
+  "definition": "Graphicle maps your repository into a code graph containing files, functions, classes, calls, and imports.",
+  "first_seen": "2026-10-16",
+  "story": "2026-10-16-graphicle-offers-code-graph-and-memory-for-coding-agents",
+  "source": "https://github.com/Graphicle-AI/graphicle"
+ },
+ {
+  "term": "physical synthesis",
+  "definition": "A recipe of modal resonators, contact excitations, filtered noise, a computed room, and a microphone used by agents to write a sound as code.",
+  "first_seen": "2026-10-16",
+  "story": "2026-10-16-leonxlnx-releases-earshot-for-coding-agents",
+  "source": "https://github.com/Leonxlnx/earshot"
+ },
+ {
+  "term": "browser agent",
+  "definition": "Scout is an open-source agent that uses a real browser to finish a task for you.",
+  "first_seen": "2026-10-16",
+  "story": "2026-10-16-outcrawl-releases-scout-an-open-source-browser-agent",
+  "source": "https://github.com/outcrawlai/scout"
+ },
+ {
+  "term": "residential connections",
+  "definition": "Traffic leaves through ordinary home connections, so sites load the way they do for anyone at home.",
+  "first_seen": "2026-10-16",
+  "story": "2026-10-16-outcrawl-releases-scout-an-open-source-browser-agent",
+  "source": "https://github.com/outcrawlai/scout"
+ },
+ {
+  "term": "executable 3D code",
+  "definition": "Standalone 3D code packaged with source files and associated assets required for execution in its declared environment.",
+  "first_seen": "2026-10-16",
+  "story": "2026-10-16-researchers-introduce-3dcodeverse-for-editable-3d-content-ge",
+  "source": "https://arxiv.org/abs/2610.22341"
  }
 ]

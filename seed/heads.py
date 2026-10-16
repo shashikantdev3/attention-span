@@ -64,6 +64,7 @@ HEADS = [
     H("lilian-weng", "Lilian Weng", "researchers", "Writes the Lil'Log explainers; co-founded Thinking Machines Lab", "lilianweng"),
     H("jason-wei", "Jason Wei", "researchers", "First author of the chain-of-thought prompting paper", "_jasonwei"),
     H("neel-nanda", "Neel Nanda", "researchers", "Leads mechanistic interpretability work at Google DeepMind", "NeelNanda5"),
+    H("nick-cammarata", "Nick Cammarata", "researchers", "Co-authored early mechanistic interpretability work; now at Goodfire", "nickcammarata"),
     # Pioneers and teachers
     H("andrej-karpathy", "Andrej Karpathy", "pioneers", "Founding member of OpenAI; led Tesla Autopilot AI; coined vibe coding",
       "karpathy", "karpathy.bsky.social", "profile-match"),
@@ -82,6 +83,7 @@ HEADS = [
       "steipete.me", "own-domain"),
     H("boris-cherny", "Boris Cherny", "builders", "Created Claude Code at Anthropic", "bcherny",
       "bcherny.bsky.social", "verified"),
+    H("aaron-levie", "Aaron Levie", "builders", "Co-founder and CEO of Box; writes about AI agents at work", "levie"),
     H("logan-kilpatrick", "Logan Kilpatrick", "builders", "Product lead for Google AI Studio and the Gemini API", "OfficialLoganK"),
     H("kevin-weil", "Kevin Weil", "builders", "Led product at OpenAI", "kevinweil"),
     H("clem-delangue", "Clem Delangue", "builders", "Co-founded Hugging Face", "ClementDelangue",
@@ -148,6 +150,7 @@ HEADS = [
     H("x-langchain", "LangChain", "official", "Makers of LangChain and LangSmith for building agents", "LangChain"),
     H("x-perplexity", "Perplexity", "official", "AI answer engine", "perplexity_ai"),
     H("x-spacexsi", "SpaceX Super Intelligence", "official", "Announces Grok models, such as Grok Voice", "SpaceXSI"),
+    H("x-goodfire", "Goodfire", "official", "Interpretability research company", "GoodfireAI"),
     # Benchmarks and trackers (X only): who is actually ahead, and the day's papers
     H("x-lmarena", "Arena (formerly LMArena)", "trackers", "Crowd-voted leaderboard of AI models", "arena"),
     H("x-artificialanalysis", "Artificial Analysis", "trackers", "Independent speed, price and quality comparisons", "ArtificialAnlys"),
