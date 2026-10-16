@@ -33,22 +33,27 @@ Every record (news story, history entry, concept, person) uses the same tags, so
 
 ## How a nightly edition is made
 
-1. **Collect** the last 24 hours from about 30 sources (`pipeline/sources.json`): official blogs of OpenAI, Anthropic,
-   Google, DeepMind, Microsoft, Azure AI Foundry, GitHub, Meta, Mistral, Qwen, NVIDIA and Hugging Face; the Power BI and
-   Fabric blogs; Hacker News; Hugging Face daily papers and trending models; new GitHub repos; tech press; the personal
-   blogs of the people tracked; and your own `state/inbox.txt`.
+1. **Collect** the last 24 hours from 39 sources (`pipeline/sources.json`): official blogs of OpenAI, Anthropic
+   (news, research and the Frontier Red Team), Google, DeepMind, Microsoft, Azure AI Foundry, GitHub, Meta, Mistral,
+   Qwen, NVIDIA and Hugging Face; the Power BI and Fabric blogs; feature releases of the tools builders use every day
+   (Claude Code, Codex CLI, Ollama and vLLM); Hacker News; Hugging Face daily papers and trending models; new GitHub
+   repos; tech press (TechCrunch, The Verge, Ars Technica, VentureBeat, MIT Technology Review, The Decoder, Techmeme);
+   the Latent Space AINews digest; the personal blogs of the people tracked; and your own `state/inbox.txt`.
+   Release feeds keep only stable feature releases, so a patch or a release candidate never becomes a story.
 2. **Group** duplicates into stories (TF-IDF similarity, pure Python). The number of independent sources is the buzz signal.
-3. **Edit**: one call to Gemini Flash picks up to 12 stories that matter to builders. A rule in code always includes a
+3. **Edit**: one call to Gemini Flash picks up to 12 stories that matter to builders (Claude Sonnet if both Flash
+   models are busy, then Flash-Lite). A rule in code always includes a
    major lab's own announcement with a strong signal, even if the model skips it.
 4. **Write** each story only from its fetched source text (Gemini Flash-Lite).
-5. **Fact-check** with a different model family (Groq gpt-oss-120b) and with code: every number must appear in the
-   sources. A failing story is rewritten once, then dropped.
+5. **Fact-check** with a different model family (Claude Sonnet, falling back to Groq gpt-oss-120b) and with code:
+   every number must appear in the sources. A failing story is rewritten once, then dropped.
 6. **Save** to cumulative JSON in `docs/data/editions/`. Nothing is deleted.
 7. **Attention Heads**: read the new public Bluesky posts of the people in `seed/heads.py`, plus any links in
    `state/heads_inbox.txt`; keep the posts about AI or data; write a short note on each from the post alone; check every
    note with a second model and every number with code. Saved to `docs/data/heads.json`. A failure here never stops the edition.
 
 Free tiers used: Gemini (Flash for the editor, Flash-Lite for writing) and Groq. A night uses about 25 to 40 calls.
+Claude (prepaid credits) checks the facts and stands in for the editor when Gemini is busy, about $0.10 to $0.20 a night.
 Attention Heads needs no extra keys: Bluesky's public API and X's embed service are free and open.
 Answers are cached in `state/cache/`, so an interrupted run can resume without spending quota twice.
 
@@ -68,9 +73,10 @@ ANTHROPIC_API_KEY=your-claude-key        # Claude checks the facts first, the fr
 OPENROUTER_API_KEY=your-openrouter-key   # the headline honesty check below
 ```
 
-Writing stays on the free Gemini and Groq tiers. Only the fact-checker uses Claude (Sonnet, then Haiku), because the
-checker is where a stronger reader matters most, and it is a different model family from the writer.
-If the key is missing or the credits run out, the checker falls back to the free models on its own.
+Writing stays on the free Gemini and Groq tiers. The fact-checker uses Claude (Sonnet, then Haiku), because the
+checker is where a stronger reader matters most, and it is a different model family from the writer. The editor uses
+Claude Sonnet only when both Gemini Flash models are busy, which kept happening in October 2026.
+If the key is missing or the credits run out, both fall back to the free models on their own.
 The nightly log shows how many Claude tokens each run used.
 
 ## Every night

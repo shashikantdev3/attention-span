@@ -3,7 +3,8 @@
 Each step (editor, writer, checker, heads) has a chain of provider:model pairs; the first that answers wins.
 See CHAINS below; override any of them in .env.
 Gemini and Groq run on their free tiers. The checker starts with Claude (ANTHROPIC_API_KEY, prepaid API
-credits) and falls back to the free models if the key is missing, the credits run out or the API fails.
+credits), and the editor uses Claude when both Gemini Flash models are busy; both fall back to the free models
+if the key is missing, the credits run out or the API fails.
 Every response is cached in state/cache/ by a hash of the prompt, so a run that stops
 half way can simply be started again and will not spend quota twice.
 """
@@ -36,8 +37,10 @@ _FATAL = ("credit balance", "billing", "invalid x-api-key", "authentication_erro
 CHAINS = {
     "writer": ("gemini:gemini-3.5-flash-lite,gemini:gemini-3.1-flash-lite,"
                "groq:openai/gpt-oss-120b,groq:qwen/qwen3.8-27b"),
-    "editor": ("gemini:gemini-3.8-flash,gemini:gemini-3.5-flash,gemini:gemini-3.5-flash-lite,"
-               "groq:openai/gpt-oss-120b"),
+    # When both Flash models are busy (503s were common in Oct 2026), Claude Sonnet picks the stories rather
+    # than flash-lite, which tended to choose small GitHub repos over the day's big news. One call a night.
+    "editor": ("gemini:gemini-3.8-flash,gemini:gemini-3.5-flash,anthropic:claude-sonnet-5-5,"
+               "gemini:gemini-3.5-flash-lite,groq:openai/gpt-oss-120b"),
     # short notes for Attention Heads posts: the lite models have the largest free daily quota
     "heads": ("gemini:gemini-3.5-flash-lite,gemini:gemini-3.1-flash-lite,groq:openai/gpt-oss-120b,"
               "groq:qwen/qwen3.8-27b"),

@@ -106,8 +106,10 @@ def group(items, threshold=0.32):
         for m in members:
             flat.append(m)
             flat.extend(m["also"])
-        sources = {m["source"] for m in flat}
-        weight = sum(max(m["weight"] for m in flat if m["source"] == s) for s in sources)
+        # feeds of one publisher (Anthropic news, research and red team) count as one source, not three
+        key = lambda m: m.get("family") or m["source"]
+        sources = {key(m) for m in flat}
+        weight = sum(max(m["weight"] for m in flat if key(m) == s) for s in sources)
         points = max((m.get("points") or 0) for m in flat)
         score = weight + math.log10(points + 1) + (2 if any(m.get("inbox") for m in flat) else 0)
         stories.append({"items": flat, "sources": sorted(sources), "buzz": len(sources),

@@ -1,5 +1,5 @@
 {
- "_about": "Daily sources. weight: how much one item from here counts toward buzz (official posts weigh most). kind: rss | hn | hf_papers | hf_models | github | inbox. filter_ai: true means keep only items that look AI-related. lab/person tag items from that feed. tools/check_feeds.py tests every entry; set enabled=false for any that keep failing.",
+ "_about": "Daily sources. weight: how much one item from here counts toward buzz (official posts weigh most). kind: rss | hn | hf_papers | hf_models | github | inbox. filter_ai: true means keep only items that look AI-related. lab/person tag items from that feed. tools/check_feeds.py tests every entry; set enabled=false for any that keep failing. releases: true (GitHub release feeds) keeps stable feature releases (x.y.0) and skips pre-releases; min_notes also keeps a patch release whose notes are at least that many characters long. family: feeds with the same family (one publisher's several blogs) count as one source for buzz.",
  "sources": [
   {
    "id": "openai",
@@ -18,7 +18,30 @@
    "weight": 3,
    "lab": "anthropic",
    "original": true,
-   "note": "Anthropic has no official RSS; this is a community-built mirror of anthropic.com/news"
+   "note": "Anthropic has no official RSS; this is a community-built mirror of anthropic.com/news",
+   "family": "anthropic"
+  },
+  {
+   "id": "anthropic-research",
+   "name": "Anthropic Research",
+   "kind": "rss",
+   "url": "https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_anthropic_research.xml",
+   "weight": 3,
+   "lab": "anthropic",
+   "original": true,
+   "note": "community-built mirror of anthropic.com/research",
+   "family": "anthropic"
+  },
+  {
+   "id": "anthropic-red",
+   "name": "Anthropic Frontier Red Team",
+   "kind": "rss",
+   "url": "https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_anthropic_red.xml",
+   "weight": 3,
+   "lab": "anthropic",
+   "original": true,
+   "note": "community-built mirror of red.anthropic.com",
+   "family": "anthropic"
   },
   {
    "id": "google-ai",
@@ -189,6 +212,14 @@
    "filter_ai": true
   },
   {
+   "id": "latent-space",
+   "name": "Latent Space (AINews)",
+   "kind": "rss",
+   "url": "https://www.latent.space/feed",
+   "weight": 1,
+   "note": "daily builder digest; mostly a signal of what builders are discussing"
+  },
+  {
    "id": "techcrunch-ai",
    "name": "TechCrunch AI",
    "kind": "rss",
@@ -223,6 +254,13 @@
    "name": "MIT Technology Review AI",
    "kind": "rss",
    "url": "https://www.technologyreview.com/topic/artificial-intelligence/feed",
+   "weight": 1
+  },
+  {
+   "id": "the-decoder",
+   "name": "The Decoder",
+   "kind": "rss",
+   "url": "https://the-decoder.com/feed/",
    "weight": 1
   },
   {
@@ -266,6 +304,49 @@
    "min_stars": 150,
    "max_age_days": 4,
    "topic": "dev-tools"
+  },
+  {
+   "id": "rel-claude-code",
+   "name": "Claude Code",
+   "kind": "rss",
+   "url": "https://github.com/anthropics/claude-code/releases.atom",
+   "weight": 1,
+   "topic": "dev-tools",
+   "original": true,
+   "releases": true,
+   "lab": "anthropic",
+   "min_notes": 25000
+  },
+  {
+   "id": "rel-codex-cli",
+   "name": "Codex CLI",
+   "kind": "rss",
+   "url": "https://github.com/openai/codex/releases.atom",
+   "weight": 1,
+   "topic": "dev-tools",
+   "original": true,
+   "releases": true,
+   "lab": "openai"
+  },
+  {
+   "id": "rel-ollama",
+   "name": "Ollama",
+   "kind": "rss",
+   "url": "https://github.com/ollama/ollama/releases.atom",
+   "weight": 1,
+   "topic": "dev-tools",
+   "original": true,
+   "releases": true
+  },
+  {
+   "id": "rel-vllm",
+   "name": "vLLM",
+   "kind": "rss",
+   "url": "https://github.com/vllm-project/vllm/releases.atom",
+   "weight": 1,
+   "topic": "dev-tools",
+   "original": true,
+   "releases": true
   },
   {
    "id": "inbox",

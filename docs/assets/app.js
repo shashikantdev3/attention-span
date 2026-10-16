@@ -874,13 +874,15 @@
         from 1943 to today, so you can follow any piece of news back to the ideas it came from.</p>
       <h3>How a nightly edition is made</h3>
       <ol>
-        <li>Collect everything from the last 24 hours: official blogs from OpenAI, Anthropic, Google, Microsoft, Meta, Mistral, Qwen and NVIDIA,
-          the Power BI and Fabric blogs, Hacker News, Hugging Face papers and trending models, new GitHub repos and tech press.</li>
+        <li>Collect everything from the last 24 hours, from 39 sources: official blogs from OpenAI, Anthropic (news, research and its
+          Frontier Red Team), Google, Microsoft, Meta, Mistral, Qwen and NVIDIA; the Power BI and Fabric blogs; new feature releases of
+          Claude Code, Codex CLI, Ollama and vLLM; Hacker News; Hugging Face papers and trending models; new GitHub repos; the Latent Space
+          AINews digest; and tech press, including The Decoder and Techmeme.</li>
         <li>Remove duplicates and group items about the same event. The number of independent sources is the buzz signal.</li>
-        <li>An AI editor picks the stories that matter to people who build with AI. A rule in code makes sure a major lab's own
-          announcement with a strong signal is never left out.</li>
+        <li>An AI editor (Gemini Flash, or Claude when Gemini is busy) picks the stories that matter to people who build with AI.
+          A rule in code makes sure a major lab's own announcement with a strong signal is never left out.</li>
         <li>Each story is written only from its fetched source text, with a plain summary and a "like I'm 5" explanation.</li>
-        <li>A different AI model fact-checks every claim against the sources, and code checks that every number appears in them.
+        <li>A different AI model (Claude, or a free model when it is unavailable) fact-checks every claim against the sources, and code checks that every number appears in them.
           A story that fails is rewritten once, then dropped if it still fails.</li>
         <li>The edition is added to open JSON files. Nothing is deleted, so the archive grows every night.</li>
       </ol>

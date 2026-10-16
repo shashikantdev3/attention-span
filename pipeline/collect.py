@@ -49,7 +49,7 @@ def make(src, url, title, text, published, **extra):
         "source": src["id"], "source_name": src["name"], "url": url, "title": clean(title, 300),
         "text": clean(text), "published": iso(published), "weight": src.get("weight", 1),
         "lab": src.get("lab"), "person": src.get("person"), "topic": src.get("topic"),
-        "original": bool(src.get("original")), "points": 0,
+        "original": bool(src.get("original")), "points": 0, "family": src.get("family"),
     }
     item.update(extra)
     return item
@@ -76,8 +76,29 @@ def from_rss(src, since):
             continue
         if src.get("filter_ai") and not looks_ai(f"{title} {clean(body, 600)}"):
             continue
+        if src.get("releases"):
+            if not is_feature_release(title, body, src.get("min_notes", 0)):
+                continue
+            title = f"{src['name']} {title.split(':')[0].strip()}"   # "Claude Code v2.1.299", not just "v2.1.299"
         out.append(make(src, link, title, body, published))
     return out
+
+
+_PRE = re.compile(r"alpha|beta|\brc|-rc|rc\d|nightly|preview|proto-|dev\d", re.I)
+_VER = re.compile(r"(\d+)\.(\d+)(?:\.(\d+))?")
+
+
+def is_feature_release(title, notes, min_notes=0):
+    """GitHub release feeds: keep stable feature releases (x.y.0), and patch releases only when their notes are
+    long enough to mean real new features (min_notes characters). Pre-releases are always skipped."""
+    if _PRE.search(title):
+        return False
+    m = _VER.search(title)
+    if not m:
+        return False
+    if not m.group(3) or m.group(3) == "0":
+        return True
+    return bool(min_notes) and len(notes or "") >= min_notes
 
 
 def from_hn(src, since):
