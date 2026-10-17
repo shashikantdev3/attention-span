@@ -96,5 +96,33 @@
   "first_seen": "2026-10-16",
   "story": "2026-10-16-researchers-introduce-3dcodeverse-for-editable-3d-content-ge",
   "source": "https://arxiv.org/abs/2610.22341"
+ },
+ {
+  "term": "lrand48",
+  "definition": "A 1990s-vintage linear congruential generator from C libraries that returns the top 31 bits of a 48-bit state.",
+  "first_seen": "2026-10-17",
+  "story": "2026-10-17-anthropic-internal-model-reveals-origins-of-ecdsa-curve-seed",
+  "source": "https://www.anthropic.com/research/ecdsa-curve-origins"
+ },
+ {
+  "term": "image-to-image pipeline",
+  "definition": "A pipeline that processes an input image to generate a new output image.",
+  "first_seen": "2026-10-17",
+  "story": "2026-10-17-black-forest-labs-releases-flux-3-image-klein-comfy-model",
+  "source": "https://huggingface.co/black-forest-labs/flux-3-image-klein-comfy"
+ },
+ {
+  "term": "Team chain",
+  "definition": "A configuration where individual responsibilities, instructions, and models are assigned to a manager, workers, and reviewers to handle larger tasks sequentially.",
+  "first_seen": "2026-10-17",
+  "story": "2026-10-17-new-blender-ai-assistant-adds-multi-agent-workflows-and-mcp",
+  "source": "https://github.com/anujasid/blender-ai-mcp-addon"
+ },
+ {
+  "term": "harness-to-model decision transfer",
+  "definition": "Moving selected observations and task-state decisions from fixed harness rules to the model.",
+  "first_seen": "2026-10-17",
+  "story": "2026-10-17-report-introduces-opengcua-for-generalist-computer-use",
+  "source": "https://arxiv.org/abs/2610.22200"
  }
 ]

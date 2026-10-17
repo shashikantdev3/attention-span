@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-16T19:02:28Z",
+ "updated_at": "2026-10-17T18:48:27Z",
  "window_days": 7,
  "groups": [
   {
@@ -923,6 +923,506 @@
  ],
  "posts": [
   {
+   "id": "bsky-natolambert.bsky.social-3my3bhk2ph52r",
+   "person": "nathan-lambert",
+   "platform": "bluesky",
+   "url": "https://bsky.app/profile/natolambert.bsky.social/post/3my3bhk2ph52r",
+   "posted_at": "2026-10-17T14:11:22Z",
+   "text": "Reflecting on Meta’s big week, where US open-weight models now stand, and the outlook for any meaningful competition to Anthropic & OpenAI’s models.\n\nMeta feels like they’re going from strength to strength right now, but can they close the last bit of the gap?\n\nwww.interconnects.ai/p/meta-shake...",
+   "links": [
+    {
+     "text": "www.interconnects.ai/p/meta-shake...",
+     "url": "https://www.interconnects.ai/p/meta-shakes-up-the-frontiers-open"
+    }
+   ],
+   "context": null,
+   "likes": 15,
+   "reposts": 2,
+   "via": "feed",
+   "meaning": "Lambert reflects on Meta's recent progress and the current standing of US open weight models. Builders care about how open weights compete with top proprietary models from Anthropic and OpenAI.",
+   "concepts": [
+    "open-weight-model"
+   ],
+   "story": null,
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "anthropic:claude-sonnet-5-5",
+   "added": "2026-10-17"
+  },
+  {
+   "id": "x-2111440910257099072",
+   "platform": "x",
+   "url": "https://x.com/natolambert/status/2111440910257099072",
+   "posted_at": "2026-10-17T12:55:16Z",
+   "date_only": false,
+   "text": "This naming scheme is bonkers (minor model numbers and date tags) and the benchmark step is big. Could prove stronger than GLM 5.3 with vision built in.\n\nThe King of open weights is back? https://t.co/MlojCb5dxP",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">This naming scheme is bonkers (minor model numbers and date tags) and the benchmark step is big. Could prove stronger than GLM 5.3 with vision built in.<br><br>The King of open weights is back? <a href=\"https://t.co/MlojCb5dxP\">https://t.co/MlojCb5dxP</a></p>&mdash; Nathan Lambert (@natolambert) <a href=\"https://x.com/natolambert/status/2111440910257099072?ref_src=twsrc%5Etfw\">October 17, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "nathan-lambert",
+   "meaning": "Nathan Lambert calls DeepSeek's naming scheme bonkers but says the benchmark jump is big: V4.1-Flash-1017 could prove stronger than GLM 5.3, with vision built in.",
+   "concepts": [
+    "open-weight-model",
+    "benchmark",
+    "multimodal-model"
+   ],
+   "story": "2026-10-17-deepseek-releases-new-deepseek-v4-1-flash-1017-model",
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "editor",
+   "added": "2026-10-17"
+  },
+  {
+   "id": "bsky-marcorus.bsky.social-3my2yjhux252k",
+   "person": "marco-russo",
+   "platform": "bluesky",
+   "url": "https://bsky.app/profile/marcorus.bsky.social/post/3my2yjhux252k",
+   "posted_at": "2026-10-17T11:31:23Z",
+   "text": "Be honest. When the agent writes the code, do you still go back in and rename things?\n\nAsking for a friend. Alex.",
+   "links": [],
+   "context": null,
+   "likes": 1,
+   "reposts": 0,
+   "via": "feed",
+   "meaning": "Russo asks whether developers still rename things after an AI agent writes code. Engineers building with AI coding tools will relate to this workflow habit.",
+   "concepts": [
+    "coding-assistant"
+   ],
+   "story": null,
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "anthropic:claude-sonnet-5-5",
+   "added": "2026-10-17"
+  },
+  {
+   "id": "x-2111401132840890440",
+   "platform": "x",
+   "url": "https://x.com/Thom_Wolf/status/2111401132840890440",
+   "posted_at": "2026-10-17T10:17:12Z",
+   "date_only": false,
+   "text": "we’re getting used to it by now but DeepSeek calling this a “minor update” while moving Terminal-Bench 4.0 from 31.2 to 42.3 is very funny.\n\nalso reports 77.0 on DeepSWE (vs 74.0 for Opus 5 and 73.0 for GPT-5.6 Sol…)\n\nand the most interesting line may be faster task completion… https://t.co/S5bEIuNQPB",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">we’re getting used to it by now but DeepSeek calling this a “minor update” while moving Terminal-Bench 4.0 from 31.2 to 42.3 is very funny.<br><br>also reports 77.0 on DeepSWE (vs 74.0 for Opus 5 and 73.0 for GPT-5.6 Sol…)<br><br>and the most interesting line may be faster task completion… <a href=\"https://t.co/S5bEIuNQPB\">https://t.co/S5bEIuNQPB</a></p>&mdash; Thomas Wolf (@Thom_Wolf) <a href=\"https://x.com/Thom_Wolf/status/2111401132840890440?ref_src=twsrc%5Etfw\">October 17, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "thomas-wolf",
+   "meaning": "Wolf points out that DeepSeek labels a massive jump on Terminal Bench and strong scores on DeepSWE as a minor update, while also noting faster task completion times.",
+   "concepts": [
+    "benchmark",
+    "coding-assistant",
+    "llm"
+   ],
+   "story": "2026-10-17-deepseek-releases-new-deepseek-v4-1-flash-1017-model",
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "anthropic:claude-sonnet-5-5",
+   "added": "2026-10-17"
+  },
+  {
+   "id": "x-2111375640717033777",
+   "platform": "x",
+   "url": "https://x.com/deepseek_ai/status/2111375640717033777",
+   "posted_at": "2026-10-17T08:35:54Z",
+   "date_only": false,
+   "text": "🚀 DeepSeek-V4.1-Flash-1017 is here!\n\nStronger benchmark performance, faster task completion, and shorter outputs than the previous version—a Pareto improvement in performance and cost. Now live on our website, app, and API.\n\n🛠️ Optimized for @DeepSeekHarness, Tencent CodeBuddy,…",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">🚀 DeepSeek-V4.1-Flash-1017 is here!<br><br>Stronger benchmark performance, faster task completion, and shorter outputs than the previous version—a Pareto improvement in performance and cost. Now live on our website, app, and API.<br><br>🛠️ Optimized for <a href=\"https://x.com/DeepSeekHarness?ref_src=twsrc%5Etfw\">@DeepSeekHarness</a>, Tencent CodeBuddy,… <a href=\"https://t.co/MiqGbnCiVz\">pic.twitter.com/MiqGbnCiVz</a></p>&mdash; DeepSeek (@deepseek_ai) <a href=\"https://x.com/deepseek_ai/status/2111375640717033777?ref_src=twsrc%5Etfw\">October 17, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "x-deepseek",
+   "meaning": "DeepSeek announced DeepSeek-V4.1-Flash-1017, offering better benchmark performance, faster completion times, and shorter outputs.",
+   "concepts": [
+    "llm",
+    "benchmark",
+    "inference"
+   ],
+   "story": "2026-10-17-deepseek-releases-new-deepseek-v4-1-flash-1017-model",
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "anthropic:claude-sonnet-5-5",
+   "added": "2026-10-17"
+  },
+  {
+   "id": "x-2111237499083252185",
+   "platform": "x",
+   "url": "https://x.com/alexandr_wang/status/2111237499083252185",
+   "posted_at": "2026-10-16T23:26:59Z",
+   "date_only": false,
+   "text": "after an exciting week of launches (muse wonder [full] & muse spark open), i want to write a note of appreciation to the amazing research teams at meta superintelligence labs on reaching such a special milestone ♥️\n\nwe started MSL and TBD a little more than a year ago and set a…",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">after an exciting week of launches (muse wonder [full] &amp; muse spark open), i want to write a note of appreciation to the amazing research teams at meta superintelligence labs on reaching such a special milestone ♥️<br><br>we started MSL and TBD a little more than a year ago and set a…</p>&mdash; Alexandr Wang (@alexandr_wang) <a href=\"https://x.com/alexandr_wang/status/2111237499083252185?ref_src=twsrc%5Etfw\">October 16, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "alexandr-wang",
+   "meaning": "Alexandr Wang thanks the research teams at Meta Superintelligence Labs after a week in which both Muse Wonder Full and Muse Spark Open launched.",
+   "concepts": [],
+   "story": null,
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "editor",
+   "added": "2026-10-17"
+  },
+  {
+   "id": "x-2111221323217412318",
+   "platform": "x",
+   "url": "https://x.com/arena/status/2111221323217412318",
+   "posted_at": "2026-10-16T22:22:42Z",
+   "date_only": false,
+   "text": "Exciting news: Muse Spark Open (Max) by @AIatMeta is the #1 US open model in the Code Arena: WebDev! With 1511 pts, it’s #13 among open models overall.\n\nAs the first open-weight release in the Muse Spark family, it scored 156 pts above Muse Glimmer, @AIatMeta’s earlier open model… https://t.co/1vLNAXfH2x",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">Exciting news: Muse Spark Open (Max) by <a href=\"https://x.com/AIatMeta?ref_src=twsrc%5Etfw\">@AIatMeta</a> is the #1 US open model in the Code Arena: WebDev! With 1511 pts, it’s #13 among open models overall.<br><br>As the first open-weight release in the Muse Spark family, it scored 156 pts above Muse Glimmer, <a href=\"https://x.com/AIatMeta?ref_src=twsrc%5Etfw\">@AIatMeta</a>’s earlier open model… <a href=\"https://t.co/1vLNAXfH2x\">https://t.co/1vLNAXfH2x</a> <a href=\"https://t.co/MXkwvvRg2p\">pic.twitter.com/MXkwvvRg2p</a></p>&mdash; Arena.ai (@arena) <a href=\"https://x.com/arena/status/2111221323217412318?ref_src=twsrc%5Etfw\">October 16, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "x-lmarena",
+   "meaning": "Arena reported that Muse Spark Open (Max) by Meta is the top US open model in the Code Arena: WebDev category.",
+   "concepts": [
+    "open-weight-model",
+    "benchmark",
+    "coding-assistant"
+   ],
+   "story": null,
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "anthropic:claude-sonnet-5-5",
+   "added": "2026-10-17"
+  },
+  {
+   "id": "x-2111209208012210409",
+   "platform": "x",
+   "url": "https://x.com/ClaudeDevs/status/2111209208012210409",
+   "posted_at": "2026-10-16T21:34:34Z",
+   "date_only": false,
+   "text": "We keep improving performance across Claude, and you may have noticed it starts responding sooner!\n\nClaude Code now gzips the conversation it sends on every turn, so it reaches the model faster. Cloud sessions also start up as soon as you start typing.",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">We keep improving performance across Claude, and you may have noticed it starts responding sooner!<br><br>Claude Code now gzips the conversation it sends on every turn, so it reaches the model faster. Cloud sessions also start up as soon as you start typing. <a href=\"https://t.co/rT8ICmKjuf\">pic.twitter.com/rT8ICmKjuf</a></p>&mdash; ClaudeDevs (@ClaudeDevs) <a href=\"https://x.com/ClaudeDevs/status/2111209208012210409?ref_src=twsrc%5Etfw\">October 16, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "x-claudedevs",
+   "meaning": "Claude Developers shared that Claude Code now gzips conversations to reduce latency and cloud sessions start immediately upon typing.",
+   "concepts": [
+    "coding-assistant",
+    "tokens"
+   ],
+   "story": null,
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "anthropic:claude-sonnet-5-5",
+   "added": "2026-10-17"
+  },
+  {
+   "id": "x-2111193980981665837",
+   "platform": "x",
+   "url": "https://x.com/cursor_ai/status/2111193980981665837",
+   "posted_at": "2026-10-16T20:34:03Z",
+   "date_only": false,
+   "text": "Cloud agent environments now support up to 500 repos, and large multi-repo environments start 5x faster.\n\nSee everything new: https://t.co/FfATEvnQdv",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">Cloud agent environments now support up to 500 repos, and large multi-repo environments start 5x faster.<br><br>See everything new: <a href=\"https://t.co/FfATEvnQdv\">https://t.co/FfATEvnQdv</a></p>&mdash; Cursor (@cursor_ai) <a href=\"https://x.com/cursor_ai/status/2111193980981665837?ref_src=twsrc%5Etfw\">October 16, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "x-cursor",
+   "meaning": "Cursor announces that its cloud agent environments now support up to 500 repositories and launch significantly faster for large multi-repo setups.",
+   "concepts": [
+    "agent",
+    "coding-assistant"
+   ],
+   "story": null,
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "anthropic:claude-sonnet-5-5",
+   "added": "2026-10-17"
+  },
+  {
+   "id": "x-2111192259073094035",
+   "platform": "x",
+   "url": "https://x.com/OpenAI/status/2111192259073094035",
+   "posted_at": "2026-10-16T20:27:13Z",
+   "date_only": false,
+   "text": "GPT-6 Astra Pro in ChatGPT got an upgrade with faster responses and improved use of plugins and tools.\n\nAnd now, multiple agents can tackle different parts of a task in parallel. You can follow each agent’s progress and open completed tasks to review their work.\n\nNow available to…",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">GPT-6 Astra Pro in ChatGPT got an upgrade with faster responses and improved use of plugins and tools.<br><br>And now, multiple agents can tackle different parts of a task in parallel. You can follow each agent’s progress and open completed tasks to review their work.<br><br>Now available to…</p>&mdash; OpenAI (@OpenAI) <a href=\"https://x.com/OpenAI/status/2111192259073094035?ref_src=twsrc%5Etfw\">October 16, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "x-openai",
+   "meaning": "OpenAI announced speed and tool-use upgrades for GPT-6 Astra Pro, alongside a multi-agent feature for parallel task execution.",
+   "concepts": [
+    "agent",
+    "tool-use"
+   ],
+   "story": null,
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "anthropic:claude-sonnet-5-5",
+   "added": "2026-10-17"
+  },
+  {
+   "id": "x-2111192089681961387",
+   "platform": "x",
+   "url": "https://x.com/Yoshua_Bengio/status/2111192089681961387",
+   "posted_at": "2026-10-16T20:26:32Z",
+   "date_only": false,
+   "text": "Until we solve the alignment problem at its source, AI models will continue to optimize for the wrong goals, and increasingly impactful real-world consequences may occur, beyond the ones described here. This is a critical issue I discussed in my blogpost last month, which is…",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">Until we solve the alignment problem at its source, AI models will continue to optimize for the wrong goals, and increasingly impactful real-world consequences may occur, beyond the ones described here. This is a critical issue I discussed in my blogpost last month, which is…</p>&mdash; Yoshua Bengio (@Yoshua_Bengio) <a href=\"https://x.com/Yoshua_Bengio/status/2111192089681961387?ref_src=twsrc%5Etfw\">October 16, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "yoshua-bengio",
+   "meaning": "Yoshua Bengio warns that until the alignment problem is solved, AI models will optimize for the wrong goals and cause real-world harm.",
+   "concepts": [
+    "alignment",
+    "ai-safety",
+    "ai-governance"
+   ],
+   "story": null,
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "anthropic:claude-sonnet-5-5",
+   "added": "2026-10-17"
+  },
+  {
+   "id": "x-2111181956444827695",
+   "platform": "x",
+   "url": "https://x.com/AravSrinivas/status/2111181956444827695",
+   "posted_at": "2026-10-16T19:46:16Z",
+   "date_only": false,
+   "text": "We just open-sourced another pair of state-of-the-art Decision Models: \n\npplx-decider-flash-v1.2:  4B params, 1 cent per million tokens (top 4B model on HF Decision Index)\n\npplx-decider-v1.2: 27B params, 2 cents per million tokens (#2 on HF Decision Index overall - for now, will… https://t.co/rs5f6PxABv",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">We just open-sourced another pair of state-of-the-art Decision Models: <br><br>pplx-decider-flash-v1.2:  4B params, 1 cent per million tokens (top 4B model on HF Decision Index)<br><br>pplx-decider-v1.2: 27B params, 2 cents per million tokens (#2 on HF Decision Index overall - for now, will… <a href=\"https://t.co/rs5f6PxABv\">https://t.co/rs5f6PxABv</a></p>&mdash; Aravind Srinivas (@AravSrinivas) <a href=\"https://x.com/AravSrinivas/status/2111181956444827695?ref_src=twsrc%5Etfw\">October 16, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "aravind-srinivas",
+   "meaning": "Perplexity open-sourced pplx-decider-flash-v1.2 and pplx-decider-v1.2 decision models.",
+   "concepts": [
+    "open-weight-model",
+    "decision-model"
+   ],
+   "story": null,
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "anthropic:claude-sonnet-5-5",
+   "added": "2026-10-17"
+  },
+  {
+   "id": "bsky-emollick.bsky.social-3mxzbegeels2t",
+   "person": "ethan-mollick",
+   "platform": "bluesky",
+   "url": "https://bsky.app/profile/emollick.bsky.social/post/3mxzbegeels2t",
+   "posted_at": "2026-10-16T19:04:18Z",
+   "text": "The paper on how a team of Gemini 4 agents beat Minecraft is worth a look.\n\nIt is accessible example (partially because it is AI written & on a popular game) of spontaneous coordination among agents to accomplish a complicated goal & how their approach differs from humans/ arxiv.org/pdf/2610.22319",
+   "links": [
+    {
+     "text": "arxiv.org/pdf/2610.22319",
+     "url": "https://arxiv.org/pdf/2610.22319"
+    }
+   ],
+   "context": null,
+   "likes": 100,
+   "reposts": 11,
+   "via": "feed",
+   "meaning": "Mollick highlights a paper showing Gemini 4 agents beating Minecraft, demonstrating spontaneous coordination and different problem solving approaches compared to humans. Developers working with multi agent systems will find this relevant.",
+   "concepts": [
+    "agent",
+    "multimodal-model"
+   ],
+   "story": null,
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "anthropic:claude-sonnet-5-5",
+   "added": "2026-10-17"
+  },
+  {
+   "id": "x-2111168901723906176",
+   "platform": "x",
+   "url": "https://x.com/ClaudeDevs/status/2111168901723906176",
+   "posted_at": "2026-10-16T18:54:24Z",
+   "date_only": false,
+   "text": "Claude writes about 90% of Claude Code's code.\n\nFrom June to September, merged PRs more than doubled while the share reverted fell by more than 40%.\n\nWe wrote about how we changed code review to get there, and how to adopt it:https://t.co/9sZe64g3mb",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">Claude writes about 90% of Claude Code&#39;s code.<br><br>From June to September, merged PRs more than doubled while the share reverted fell by more than 40%.<br><br>We wrote about how we changed code review to get there, and how to adopt it:<a href=\"https://t.co/9sZe64g3mb\">https://t.co/9sZe64g3mb</a></p>&mdash; ClaudeDevs (@ClaudeDevs) <a href=\"https://x.com/ClaudeDevs/status/2111168901723906176?ref_src=twsrc%5Etfw\">October 16, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "x-claudedevs",
+   "meaning": "Claude Developers revealed that Claude writes about 90 percent of Claude Code's code and shared details on how they updated code review processes.",
+   "concepts": [
+    "coding-assistant",
+    "agent"
+   ],
+   "story": null,
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "anthropic:claude-sonnet-5-5",
+   "added": "2026-10-17"
+  },
+  {
+   "id": "x-2111165029470949867",
+   "platform": "x",
+   "url": "https://x.com/EpochAIResearch/status/2111165029470949867",
+   "posted_at": "2026-10-16T18:39:01Z",
+   "date_only": false,
+   "text": "How far behind the closed frontier are open-weight cyber capabilities? About 6–7 months.\n\nZai’s GLM-5.3 is the highest-scoring open-weight model on our Cyber ECI. Its score of 160 beats OpenAI’s GPT-5.4, released in March.",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">How far behind the closed frontier are open-weight cyber capabilities? About 6–7 months.<br><br>Zai’s GLM-5.3 is the highest-scoring open-weight model on our Cyber ECI. Its score of 160 beats OpenAI’s GPT-5.4, released in March. <a href=\"https://t.co/F0D6nSnM69\">pic.twitter.com/F0D6nSnM69</a></p>&mdash; Epoch AI (@EpochAIResearch) <a href=\"https://x.com/EpochAIResearch/status/2111165029470949867?ref_src=twsrc%5Etfw\">October 16, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "x-epochai",
+   "meaning": "Epoch AI reports that open-weight cyber capabilities trail closed frontier models by about six to seven months, with Zai's GLM-5.3 scoring higher than OpenAI's GPT-5.4.",
+   "concepts": [
+    "open-weight-model",
+    "benchmark",
+    "foundation-model"
+   ],
+   "story": null,
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "anthropic:claude-sonnet-5-5",
+   "added": "2026-10-17"
+  },
+  {
+   "id": "x-2111152183240511640",
+   "platform": "x",
+   "url": "https://x.com/AnthropicAI/status/2111152183240511640",
+   "posted_at": "2026-10-16T17:47:58Z",
+   "date_only": false,
+   "text": "New from our STEM Fellows Program: Designing more efficient quantum circuits with Claude.\n\nGiven plain-language instructions, Claude Mythos 5 designed quantum circuits that improve on the best published ones, sometimes by an order of magnitude or more.\n\nMore efficient circuits…",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">New from our STEM Fellows Program: Designing more efficient quantum circuits with Claude.<br><br>Given plain-language instructions, Claude Mythos 5 designed quantum circuits that improve on the best published ones, sometimes by an order of magnitude or more.<br><br>More efficient circuits…</p>&mdash; Anthropic (@AnthropicAI) <a href=\"https://x.com/AnthropicAI/status/2111152183240511640?ref_src=twsrc%5Etfw\">October 16, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "x-anthropicai",
+   "meaning": "Anthropic's STEM Fellows Program used Claude Mythos 5 to design quantum circuits that improve on published ones.",
+   "concepts": [
+    "foundation-model"
+   ],
+   "story": null,
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "anthropic:claude-sonnet-5-5",
+   "added": "2026-10-17"
+  },
+  {
+   "id": "x-2111127991401247033",
+   "platform": "x",
+   "url": "https://x.com/GoogleDeepMind/status/2111127991401247033",
+   "posted_at": "2026-10-16T16:11:50Z",
+   "date_only": false,
+   "text": "Four Gemini 4 Argon agents beat Minecraft from scratch in 27 hours.\n\nOperating in a sandbox using only code and text, they wrote 2,783 programs, divided up jobs over chat, shared notes, and debugged errors together - all with no human help ↓https://t.co/uyIhDOQXGT",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">Four Gemini 4 Argon agents beat Minecraft from scratch in 27 hours.<br><br>Operating in a sandbox using only code and text, they wrote 2,783 programs, divided up jobs over chat, shared notes, and debugged errors together - all with no human help ↓<a href=\"https://t.co/uyIhDOQXGT\">https://t.co/uyIhDOQXGT</a></p>&mdash; Google DeepMind (@GoogleDeepMind) <a href=\"https://x.com/GoogleDeepMind/status/2111127991401247033?ref_src=twsrc%5Etfw\">October 16, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "x-googledeepmind",
+   "meaning": "Google DeepMind reported that four Gemini 4 Argon agents beat Minecraft from scratch in 27 hours using code and text in a sandbox.",
+   "concepts": [
+    "agent",
+    "agent-sandbox",
+    "multimodal-model"
+   ],
+   "story": null,
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "anthropic:claude-sonnet-5-5",
+   "added": "2026-10-17"
+  },
+  {
+   "id": "x-2111111329536987234",
+   "platform": "x",
+   "url": "https://x.com/AravSrinivas/status/2111111329536987234",
+   "posted_at": "2026-10-16T15:05:38Z",
+   "date_only": false,
+   "text": "Gemini 4 Argon is a frontier model and has set a new SoTA on Wide-And-Deep-Research (WANDR) benchmark. Available now to all Perplexity users both on fast search and Computer (agent) modes. https://t.co/0U671BhbMj",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">Gemini 4 Argon is a frontier model and has set a new SoTA on Wide-And-Deep-Research (WANDR) benchmark. Available now to all Perplexity users both on fast search and Computer (agent) modes. <a href=\"https://t.co/0U671BhbMj\">https://t.co/0U671BhbMj</a></p>&mdash; Aravind Srinivas (@AravSrinivas) <a href=\"https://x.com/AravSrinivas/status/2111111329536987234?ref_src=twsrc%5Etfw\">October 16, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "aravind-srinivas",
+   "meaning": "Srinivas announces that Gemini 4 Argon is now available to all Perplexity users in fast search and computer agent modes, having set a new state-of-the-art on the Wide-And-Deep-Research benchmark.",
+   "concepts": [
+    "benchmark",
+    "computer-use",
+    "agent"
+   ],
+   "story": null,
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "anthropic:claude-sonnet-5-5",
+   "added": "2026-10-17"
+  },
+  {
+   "id": "x-2111087606759030831",
+   "platform": "x",
+   "url": "https://x.com/ArtificialAnlys/status/2111087606759030831",
+   "posted_at": "2026-10-16T13:31:22Z",
+   "date_only": false,
+   "text": "Reflection’s first model, Beam, scores 30 on the Artificial Analysis Intelligence Index, placing it #2 among US open weights models\n\nBeam is an open weights model with 501B total and 23B active parameters, released on @huggingface \n\nCongratulations to @reflection_ai on the…",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">Reflection’s first model, Beam, scores 30 on the Artificial Analysis Intelligence Index, placing it #2 among US open weights models<br><br>Beam is an open weights model with 501B total and 23B active parameters, released on <a href=\"https://x.com/huggingface?ref_src=twsrc%5Etfw\">@huggingface</a> <br><br>Congratulations to <a href=\"https://x.com/reflection_ai?ref_src=twsrc%5Etfw\">@reflection_ai</a> on the… <a href=\"https://t.co/s8cIi1UtMN\">pic.twitter.com/s8cIi1UtMN</a></p>&mdash; Artificial Analysis (@ArtificialAnlys) <a href=\"https://x.com/ArtificialAnlys/status/2111087606759030831?ref_src=twsrc%5Etfw\">October 16, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "x-artificialanalysis",
+   "meaning": "Artificial Analysis notes that Reflection's new open weights model, Beam, scores 30 on their intelligence index, ranking #2 among US open weights models.",
+   "concepts": [
+    "open-weight-model",
+    "mixture-of-experts"
+   ],
+   "story": null,
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "anthropic:claude-sonnet-5-5",
+   "added": "2026-10-17"
+  },
+  {
+   "id": "x-2111084024336884097",
+   "platform": "x",
+   "url": "https://x.com/arena/status/2111084024336884097",
+   "posted_at": "2026-10-16T13:17:08Z",
+   "date_only": false,
+   "text": "Exciting news: Beam-1.0-501B-A23B by @Reflection_AI just landed #12 among open weight models in Agent Arena with -3.67% Net Improvement, and #22 among open in Code Arena: WebDev with 1438 pts. It’s also fully open under Apache 2.0.\n\nOn the Agent Arena leaderboard, Beam 1.0 is the… https://t.co/uwZJbZBoHL",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">Exciting news: Beam-1.0-501B-A23B by <a href=\"https://x.com/reflection_ai?ref_src=twsrc%5Etfw\">@Reflection_AI</a> just landed #12 among open weight models in Agent Arena with -3.67% Net Improvement, and #22 among open in Code Arena: WebDev with 1438 pts. It’s also fully open under Apache 2.0.<br><br>On the Agent Arena leaderboard, Beam 1.0 is the… <a href=\"https://t.co/uwZJbZBoHL\">https://t.co/uwZJbZBoHL</a> <a href=\"https://t.co/DtfOBEZcHK\">pic.twitter.com/DtfOBEZcHK</a></p>&mdash; Arena.ai (@arena) <a href=\"https://x.com/arena/status/2111084024336884097?ref_src=twsrc%5Etfw\">October 16, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "x-lmarena",
+   "meaning": "Arena shares that Beam-1.0-501B-A23B by Reflection AI is released under Apache 2.0 and ranks #12 among open weight models in Agent Arena and #22 in Code Arena: WebDev.",
+   "concepts": [
+    "agent",
+    "coding-assistant",
+    "open-weight-model"
+   ],
+   "story": null,
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "anthropic:claude-sonnet-5-5",
+   "added": "2026-10-17"
+  },
+  {
+   "id": "x-2111052531166249039",
+   "platform": "x",
+   "url": "https://x.com/ArtificialAnlys/status/2111052531166249039",
+   "posted_at": "2026-10-16T11:11:59Z",
+   "date_only": false,
+   "text": "Liquid AI has released d1-ultra, taking the #1 position on the Artificial Analysis Decision Index v1.0, supported by a reduction in hallucinations\n\nd1-ultra is the new decision model from @liquidai and follows on from their release of d1 earlier this month. It is priced at $0.042…",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">Liquid AI has released d1-ultra, taking the #1 position on the Artificial Analysis Decision Index v1.0, supported by a reduction in hallucinations<br><br>d1-ultra is the new decision model from <a href=\"https://x.com/liquidai?ref_src=twsrc%5Etfw\">@liquidai</a> and follows on from their release of d1 earlier this month. It is priced at $0.042… <a href=\"https://t.co/yTbY4DPMeR\">pic.twitter.com/yTbY4DPMeR</a></p>&mdash; Artificial Analysis (@ArtificialAnlys) <a href=\"https://x.com/ArtificialAnlys/status/2111052531166249039?ref_src=twsrc%5Etfw\">October 16, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "x-artificialanalysis",
+   "meaning": "Liquid AI has released d1-ultra, which takes the top spot on the Artificial Analysis Decision Index v1.0 by reducing hallucinations.",
+   "concepts": [
+    "decision-model",
+    "hallucination"
+   ],
+   "story": null,
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "anthropic:claude-sonnet-5-5",
+   "added": "2026-10-17"
+  },
+  {
+   "id": "x-2110990492930314712",
+   "platform": "x",
+   "url": "https://x.com/arthurmensch/status/2110990492930314712",
+   "posted_at": "2026-10-16T07:05:28Z",
+   "date_only": false,
+   "text": "Should Europe leave frontier AI to the Americans and the Chinese?\n\nThe idea has gained ground in Europe. It is a fundamental mistake.\nBuild or surrender: for now, the choice is still ours.\n\nFull article below. https://t.co/v1biuiXoYe",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">Should Europe leave frontier AI to the Americans and the Chinese?<br><br>The idea has gained ground in Europe. It is a fundamental mistake.<br>Build or surrender: for now, the choice is still ours.<br><br>Full article below. <a href=\"https://t.co/v1biuiXoYe\">https://t.co/v1biuiXoYe</a></p>&mdash; Arthur Mensch (@arthurmensch) <a href=\"https://x.com/arthurmensch/status/2110990492930314712?ref_src=twsrc%5Etfw\">October 16, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "arthur-mensch",
+   "meaning": "Mensch argues that Europe should not surrender frontier AI development to America and China, asserting that building local capability remains essential.",
+   "concepts": [
+    "ai-governance",
+    "foundation-model"
+   ],
+   "story": null,
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "anthropic:claude-sonnet-5-5",
+   "added": "2026-10-17"
+  },
+  {
+   "id": "x-2110893784422908225",
+   "platform": "x",
+   "url": "https://x.com/ArtificialAnlys/status/2110893784422908225",
+   "posted_at": "2026-10-16T00:41:11Z",
+   "date_only": false,
+   "text": "Meta has released Muse Spark Open, an 816B (42B active) open-weights model that scores 39 on the Artificial Analysis Intelligence Index, making it the #1 US open-weights model\n\nMuse Spark Open (xhigh) scores 22 points above Muse Glimmer (high, 17), Meta's 30B dense open-weights…",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">Meta has released Muse Spark Open, an 816B (42B active) open-weights model that scores 39 on the Artificial Analysis Intelligence Index, making it the #1 US open-weights model<br><br>Muse Spark Open (xhigh) scores 22 points above Muse Glimmer (high, 17), Meta&#39;s 30B dense open-weights… <a href=\"https://t.co/jf31mQNINe\">pic.twitter.com/jf31mQNINe</a></p>&mdash; Artificial Analysis (@ArtificialAnlys) <a href=\"https://x.com/ArtificialAnlys/status/2110893784422908225?ref_src=twsrc%5Etfw\">October 16, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "x-artificialanalysis",
+   "meaning": "Meta released Muse Spark Open, an 816B parameter open-weights model with 42B active parameters that ranks as the number one US open-weights model on the Artificial Analysis Intelligence Index.",
+   "concepts": [
+    "open-weight-model",
+    "benchmark",
+    "llm"
+   ],
+   "story": "2026-10-15-meta-releases-muse-spark-open-model-in-amazon-sagemaker-jump",
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "anthropic:claude-sonnet-5-5",
+   "added": "2026-10-17"
+  },
+  {
    "id": "x-2110875974296654062",
    "platform": "x",
    "url": "https://x.com/NeelNanda5/status/2110875974296654062",
@@ -939,6 +1439,89 @@
    "model": "gemini:gemini-3.5-flash-lite",
    "checked": "editor",
    "added": "2026-10-16"
+  },
+  {
+   "id": "x-2110866210573386065",
+   "platform": "x",
+   "url": "https://x.com/ClaudeDevs/status/2110866210573386065",
+   "posted_at": "2026-10-15T22:51:37Z",
+   "date_only": false,
+   "text": "Code Review is now generally available for Claude Team and Enterprise plans. \n\nReviews are now faster, catch more of the bugs that matter, and admins can pick from Quick, Standard, or Deep review levels for each repo.",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">Code Review is now generally available for Claude Team and Enterprise plans. <br><br>Reviews are now faster, catch more of the bugs that matter, and admins can pick from Quick, Standard, or Deep review levels for each repo. <a href=\"https://t.co/RO4tDC4U1U\">pic.twitter.com/RO4tDC4U1U</a></p>&mdash; ClaudeDevs (@ClaudeDevs) <a href=\"https://x.com/ClaudeDevs/status/2110866210573386065?ref_src=twsrc%5Etfw\">October 15, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "x-claudedevs",
+   "meaning": "Claude Developers announce that Code Review is generally available for Team and Enterprise plans, featuring adjustable review depths and faster bug detection.",
+   "concepts": [
+    "coding-assistant",
+    "copilot"
+   ],
+   "story": null,
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "anthropic:claude-sonnet-5-5",
+   "added": "2026-10-17"
+  },
+  {
+   "id": "x-2110846112152105136",
+   "platform": "x",
+   "url": "https://x.com/AnthropicAI/status/2110846112152105136",
+   "posted_at": "2026-10-15T21:31:45Z",
+   "date_only": false,
+   "text": "Working out how best to use AI in mathematics research—and in science more generally—will take time, effort, and resources. We’re eager to support mathematicians as they drive scientific progress and define the future of their field.\n\nWe’ve committed $5 million of funding,…",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">Working out how best to use AI in mathematics research—and in science more generally—will take time, effort, and resources. We’re eager to support mathematicians as they drive scientific progress and define the future of their field.<br><br>We’ve committed $5 million of funding,…</p>&mdash; Anthropic (@AnthropicAI) <a href=\"https://x.com/AnthropicAI/status/2110846112152105136?ref_src=twsrc%5Etfw\">October 15, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "x-anthropicai",
+   "meaning": "Anthropic commits five million dollars in funding to support mathematicians exploring how to use AI in mathematical research and broader scientific progress.",
+   "concepts": [
+    "foundation-model"
+   ],
+   "story": null,
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "anthropic:claude-sonnet-5-5",
+   "added": "2026-10-17"
+  },
+  {
+   "id": "x-2110841898076418336",
+   "platform": "x",
+   "url": "https://x.com/OpenAI/status/2110841898076418336",
+   "posted_at": "2026-10-15T21:15:00Z",
+   "date_only": false,
+   "text": "We're expanding access to GPT-Rosalind for academic research.\n\nThe new Rosalind Academic Plan helps scientific labs bring AI into the work of understanding biology, exploring ideas, and deciding what to test next—with sponsored access for eligible labs at U.S. universities.…",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">We&#39;re expanding access to GPT-Rosalind for academic research.<br><br>The new Rosalind Academic Plan helps scientific labs bring AI into the work of understanding biology, exploring ideas, and deciding what to test next—with sponsored access for eligible labs at U.S. universities.… <a href=\"https://t.co/1O702wdc5f\">pic.twitter.com/1O702wdc5f</a></p>&mdash; OpenAI (@OpenAI) <a href=\"https://x.com/OpenAI/status/2110841898076418336?ref_src=twsrc%5Etfw\">October 15, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "x-openai",
+   "meaning": "OpenAI is expanding academic access to GPT-Rosalind to help university life sciences labs use AI for biological research and experiment planning.",
+   "concepts": [
+    "foundation-model"
+   ],
+   "story": "2026-10-16-openai-announces-rosalind-academic-plan-for-life-sciences-la",
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "anthropic:claude-sonnet-5-5",
+   "added": "2026-10-17"
+  },
+  {
+   "id": "x-2110825294655562048",
+   "platform": "x",
+   "url": "https://x.com/ClaudeDevs/status/2110825294655562048",
+   "posted_at": "2026-10-15T20:09:02Z",
+   "date_only": false,
+   "text": "Opus 5.5 fast mode in the Claude Platform is no longer in research preview, and we’ve removed the waitlist!\n\nIt’s the same Opus 5.5 but up to 2.5x faster, at $8 / $40 per million tokens.\n\nIt's also available in Microsoft Foundry (Hosted on Azure), with Google Cloud coming soon.…",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">Opus 5.5 fast mode in the Claude Platform is no longer in research preview, and we’ve removed the waitlist!<br><br>It’s the same Opus 5.5 but up to 2.5x faster, at $8 / $40 per million tokens.<br><br>It&#39;s also available in Microsoft Foundry (Hosted on Azure), with Google Cloud coming soon.…</p>&mdash; ClaudeDevs (@ClaudeDevs) <a href=\"https://x.com/ClaudeDevs/status/2110825294655562048?ref_src=twsrc%5Etfw\">October 15, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "x-claudedevs",
+   "meaning": "Claude Developers announce that Opus 5.5 fast mode is out of research preview, with the waitlist removed. It offers up to 2.5x faster speeds at specific token pricing and is available on multiple cloud platforms.",
+   "concepts": [
+    "foundation-model",
+    "tokens",
+    "hyperscaler"
+   ],
+   "story": null,
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "anthropic:claude-sonnet-5-5",
+   "added": "2026-10-17"
   },
   {
    "id": "x-2110797830361436604",
@@ -961,6 +1544,26 @@
    "model": "gemini:gemini-3.5-flash-lite",
    "checked": "editor",
    "added": "2026-10-15"
+  },
+  {
+   "id": "x-2110794113415008610",
+   "platform": "x",
+   "url": "https://x.com/natolambert/status/2110794113415008610",
+   "posted_at": "2026-10-15T18:05:07Z",
+   "date_only": false,
+   "text": "Guys this is like my superbowl I waited so long for US open weight models to be relevant again. Before today the US models were still behind Chinese models from as early as Feb. 2026. Still more work to do!\n\nThis cut the gap by at least half, in time (say 3 months)",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">Guys this is like my superbowl I waited so long for US open weight models to be relevant again. Before today the US models were still behind Chinese models from as early as Feb. 2026. Still more work to do!<br><br>This cut the gap by at least half, in time (say 3 months) <a href=\"https://t.co/uX7em49qtW\">pic.twitter.com/uX7em49qtW</a></p>&mdash; Nathan Lambert (@natolambert) <a href=\"https://x.com/natolambert/status/2110794113415008610?ref_src=twsrc%5Etfw\">October 15, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "nathan-lambert",
+   "meaning": "Lambert celebrates US open-weight models becoming relevant again after previously trailing Chinese models, noting that recent releases have cut the performance gap significantly.",
+   "concepts": [
+    "open-weight-model"
+   ],
+   "story": null,
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "anthropic:claude-sonnet-5-5",
+   "added": "2026-10-17"
   },
   {
    "id": "x-2110791698611855624",
@@ -1188,6 +1791,27 @@
    "added": "2026-10-15"
   },
   {
+   "id": "x-2110778478312481167",
+   "platform": "x",
+   "url": "https://x.com/perplexity_ai/status/2110778478312481167",
+   "posted_at": "2026-10-15T17:03:00Z",
+   "date_only": false,
+   "text": "We're open sourcing SPACE, the sandbox platform that runs every task in Perplexity Computer.\n\nSPACE gives each agent task its own Firecracker microVM and controls credentials and outbound traffic from outside the VM.\n\nAvailable now under Apache 2.0: https://t.co/DzSmq6o1xA",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">We&#39;re open sourcing SPACE, the sandbox platform that runs every task in Perplexity Computer.<br><br>SPACE gives each agent task its own Firecracker microVM and controls credentials and outbound traffic from outside the VM.<br><br>Available now under Apache 2.0: <a href=\"https://t.co/DzSmq6o1xA\">https://t.co/DzSmq6o1xA</a></p>&mdash; Perplexity (@perplexity_ai) <a href=\"https://x.com/perplexity_ai/status/2110778478312481167?ref_src=twsrc%5Etfw\">October 15, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "x-perplexity",
+   "meaning": "Perplexity is open-sourcing SPACE, a sandbox platform using Firecracker microVMs to run and isolate agent tasks.",
+   "concepts": [
+    "agent-sandbox",
+    "agent"
+   ],
+   "story": null,
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "anthropic:claude-sonnet-5-5",
+   "added": "2026-10-17"
+  },
+  {
    "id": "x-2110778025629347999",
    "platform": "x",
    "url": "https://x.com/finkd/status/2110778025629347999",
@@ -1206,6 +1830,47 @@
    "model": "gemini:gemini-3.5-flash-lite",
    "checked": "anthropic:claude-sonnet-5-5",
    "added": "2026-10-15"
+  },
+  {
+   "id": "x-2110768288523251762",
+   "platform": "x",
+   "url": "https://x.com/arcprize/status/2110768288523251762",
+   "posted_at": "2026-10-15T16:22:30Z",
+   "date_only": false,
+   "text": "Gemini 4 Argon from @Google on ARC-AGI (Verified):\n\n- ARC-AGI-3: 97.5%, $4.8K (provider adapter harness), 49.8%, $5.8K (standard harness)\n- ARC-AGI-2: 91.3%, $0.32/task\n- ARC-AGI-1: 98.5%, $0.16/task\n\nGoogle DeepMind is the second frontier AI lab to score above 95% on ARC-AGI-3.",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">Gemini 4 Argon from <a href=\"https://x.com/Google?ref_src=twsrc%5Etfw\">@Google</a> on ARC-AGI (Verified):<br><br>- ARC-AGI-3: 97.5%, $4.8K (provider adapter harness), 49.8%, $5.8K (standard harness)<br>- ARC-AGI-2: 91.3%, $0.32/task<br>- ARC-AGI-1: 98.5%, $0.16/task<br><br>Google DeepMind is the second frontier AI lab to score above 95% on ARC-AGI-3. <a href=\"https://t.co/8siwgfBJcr\">pic.twitter.com/8siwgfBJcr</a></p>&mdash; ARC Prize (@arcprize) <a href=\"https://x.com/arcprize/status/2110768288523251762?ref_src=twsrc%5Etfw\">October 15, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "x-arcprize",
+   "meaning": "ARC Prize reports Gemini 4 Argon at 97.5% on ARC-AGI-3 with Google's own harness ($4.8K) but 49.8% with the standard harness, and 91.3% on ARC-AGI-2.",
+   "concepts": [
+    "benchmark",
+    "reasoning-model"
+   ],
+   "story": null,
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "editor",
+   "added": "2026-10-17"
+  },
+  {
+   "id": "x-2110766726405411179",
+   "platform": "x",
+   "url": "https://x.com/jerryjliu0/status/2110766726405411179",
+   "posted_at": "2026-10-15T16:16:18Z",
+   "date_only": false,
+   "text": "Introducing ExtractBenchPro: the most challenging benchmark for real-world document extraction.\n\nWe see a massive long tail of document complexity in terms of use cases brought on from our customers, that are completely unsolved from a price-performance standpoint. These include…",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">Introducing ExtractBenchPro: the most challenging benchmark for real-world document extraction.<br><br>We see a massive long tail of document complexity in terms of use cases brought on from our customers, that are completely unsolved from a price-performance standpoint. These include… <a href=\"https://t.co/ohPuYK968W\">pic.twitter.com/ohPuYK968W</a></p>&mdash; Jerry Liu (@jerryjliu0) <a href=\"https://x.com/jerryjliu0/status/2110766726405411179?ref_src=twsrc%5Etfw\">October 15, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "jerry-liu",
+   "meaning": "Jerry Liu introduced ExtractBenchPro, a benchmark for challenging real-world document extraction tasks. It highlights unsolved price-performance issues in complex document use cases.",
+   "concepts": [
+    "benchmark"
+   ],
+   "story": null,
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "anthropic:claude-sonnet-5-5",
+   "added": "2026-10-17"
   },
   {
    "id": "x-2110766654863167694",
@@ -1317,8 +1982,8 @@
    "text": "The sudden collapse of the value of Chain-of-Thought (even summarized CoT) in the agentic era changes working with AI.\n\nEffectively steering AIs and getting any sort of observability now requires you to ask for interim outputs & tests, and to use AI help to troubleshoot problems you find.",
    "links": [],
    "context": null,
-   "likes": 58,
-   "reposts": 4,
+   "likes": 60,
+   "reposts": 3,
    "via": "feed",
    "meaning": "Mollick argues that the collapse of chain-of-thought value in the agentic era requires users to ask for interim outputs, tests, and AI troubleshooting for observability.",
    "concepts": [
@@ -1375,6 +2040,27 @@
    "added": "2026-10-15"
   },
   {
+   "id": "x-2110746373196780033",
+   "platform": "x",
+   "url": "https://x.com/Google/status/2110746373196780033",
+   "posted_at": "2026-10-15T14:55:25Z",
+   "date_only": false,
+   "text": "Gemini 4 Argon is also speeding up our @GoogleGemma open models — making them nearly three times as fast.\n\nIn just a few days, Argon optimized Gemma 4 E2B to achieve a 2.85x inference speedup on an A100 via vLLM, jumping from ~37,900 to over 108,000 tokens per second with 100%…",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">Gemini 4 Argon is also speeding up our <a href=\"https://x.com/googlegemma?ref_src=twsrc%5Etfw\">@GoogleGemma</a> open models — making them nearly three times as fast.<br><br>In just a few days, Argon optimized Gemma 4 E2B to achieve a 2.85x inference speedup on an A100 via vLLM, jumping from ~37,900 to over 108,000 tokens per second with 100%…</p>&mdash; Google (@Google) <a href=\"https://x.com/Google/status/2110746373196780033?ref_src=twsrc%5Etfw\">October 15, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "x-google",
+   "meaning": "Google reports that Gemini 4 Argon optimized Gemma 4 E2B to achieve a 2.85x inference speedup on an A100 via vLLM, exceeding 108,000 tokens per second.",
+   "concepts": [
+    "inference",
+    "tokens"
+   ],
+   "story": null,
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "anthropic:claude-sonnet-5-5",
+   "added": "2026-10-17"
+  },
+  {
    "id": "x-2110741355739963884",
    "platform": "x",
    "url": "https://x.com/OpenAI/status/2110741355739963884",
@@ -1406,7 +2092,7 @@
     }
    ],
    "context": null,
-   "likes": 78,
+   "likes": 80,
    "reposts": 11,
    "via": "feed",
    "meaning": "Simon Willison notes reports that distillation accounts for a notable percentage of Anthropic's revenue, suggesting other labs spend hundreds of millions distilling Anthropic models.",
@@ -1478,6 +2164,27 @@
    "model": "gemini:gemini-3.5-flash-lite",
    "checked": "groq:openai/gpt-oss-120b",
    "added": "2026-10-15"
+  },
+  {
+   "id": "x-2110693857742717372",
+   "platform": "x",
+   "url": "https://x.com/EpochAIResearch/status/2110693857742717372",
+   "posted_at": "2026-10-15T11:26:45Z",
+   "date_only": false,
+   "text": "Gemini 4 Argon scores 165 on the Epoch Capabilities Index (ECI), on par with Fable 5.1 (165) but behind Opus 5.5 (167) and GPT-6 Astra (166).\n\nWhile behind the ECI frontier, Argon is the closest Google’s come since Gemini 3.1 Pro in Feb, and a big jump from Gemini 3.8 Flash (157)",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">Gemini 4 Argon scores 165 on the Epoch Capabilities Index (ECI), on par with Fable 5.1 (165) but behind Opus 5.5 (167) and GPT-6 Astra (166).<br><br>While behind the ECI frontier, Argon is the closest Google’s come since Gemini 3.1 Pro in Feb, and a big jump from Gemini 3.8 Flash (157) <a href=\"https://t.co/PvZvD4KyvI\">pic.twitter.com/PvZvD4KyvI</a></p>&mdash; Epoch AI (@EpochAIResearch) <a href=\"https://x.com/EpochAIResearch/status/2110693857742717372?ref_src=twsrc%5Etfw\">October 15, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "x-epochai",
+   "meaning": "Epoch AI reports that Gemini 4 Argon scores 165 on the Epoch Capabilities Index, matching Fable 5.1 and marking Google's closest approach to the frontier since February.",
+   "concepts": [
+    "benchmark",
+    "foundation-model"
+   ],
+   "story": null,
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "anthropic:claude-sonnet-5-5",
+   "added": "2026-10-17"
   },
   {
    "id": "x-2110500262628806787",
