@@ -124,5 +124,54 @@
   "first_seen": "2026-10-17",
   "story": "2026-10-17-report-introduces-opengcua-for-generalist-computer-use",
   "source": "https://arxiv.org/abs/2610.22200"
+ },
+ {
+  "term": "Search API",
+  "definition": "Finds web pages for a query and returns structured results powered by DeepSeek's in-house search engine.",
+  "first_seen": "2026-10-18",
+  "story": "2026-10-18-deepseek-prices-search-and-fetch-apis-at-0-75-per-1000-reque",
+  "source": "https://api-docs.deepseek.com/guides/search/"
+ },
+ {
+  "term": "Fetch API",
+  "definition": "Retrieves a single web page and returns its content as Markdown.",
+  "first_seen": "2026-10-18",
+  "story": "2026-10-18-deepseek-prices-search-and-fetch-apis-at-0-75-per-1000-reque",
+  "source": "https://api-docs.deepseek.com/guides/search/"
+ },
+ {
+  "term": "Conceptual Reasoning Fellows",
+  "definition": "Lawyers and experts who spend four months testing Claude on judgment-heavy questions in law, philosophy, cognitive science, economics, and political science.",
+  "first_seen": "2026-10-18",
+  "story": "2026-10-18-reports-say-anthropic-consults-law-firms-on-ai-deal-negotiat",
+  "source": "https://the-decoder.com/anthropic-consults-law-firms-to-set-fair-negotiation-norms-before-ai-agents-start-cutting-deals/"
+ },
+ {
+  "term": "base dies",
+  "definition": "Components made for Nvidia's custom NVHBM memory on TSMC's 3nm process.",
+  "first_seen": "2026-10-18",
+  "story": "2026-10-18-sources-report-nvidia-asked-companies-to-make-base-dies",
+  "source": "https://www.techmeme.com/261018/p9#a261018p9"
+ },
+ {
+  "term": "NVHBM memory",
+  "definition": "Custom memory for Nvidia that uses base dies produced on TSMC's 3nm process.",
+  "first_seen": "2026-10-18",
+  "story": "2026-10-18-sources-report-nvidia-asked-companies-to-make-base-dies",
+  "source": "https://www.techmeme.com/261018/p9#a261018p9"
+ },
+ {
+  "term": "meta-work",
+  "definition": "Employees turn to meta-work of building visibility tools and monitoring agent pipelines.",
+  "first_seen": "2026-10-18",
+  "story": "2026-10-18-report-says-anthropic-workforce-has-become-less-junior",
+  "source": "https://www.anthropic.com/research/employment-at-anthropic"
+ },
+ {
+  "term": "unified memory",
+  "definition": "Unified memory combines system memory resources to provide up to 128GB of shared capacity on slim, premium Windows PCs.",
+  "first_seen": "2026-10-18",
+  "story": "2026-10-18-nvidia-rtx-spark-laptops-and-surface-laptop-ultra-launch",
+  "source": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-windows-laptops-celebration/"
  }
 ]

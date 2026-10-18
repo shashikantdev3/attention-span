@@ -1,6 +1,13 @@
 {
  "editions": [
   {
+   "date": "2026-10-18",
+   "file": "2026-10.json",
+   "count": 12,
+   "spotlight": 0,
+   "lead": "vLLM v0.32.0 released with low-precision KV cache updates"
+  },
+  {
    "date": "2026-10-17",
    "file": "2026-10.json",
    "count": 7,
@@ -71,6 +78,6 @@
    "lead": "Anthropic Releases Claude Haiku 5.5 and AWS Integration"
   }
  ],
- "latest": "2026-10-17",
- "updated": "2026-10-17T18:19:31Z"
+ "latest": "2026-10-18",
+ "updated": "2026-10-18T18:17:27Z"
 }

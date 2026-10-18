@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>vLLM v0.32.0 released with low-precision KV cache updates | Attention Span</title>
+<meta name="description" content="vLLM version 0.32.0 brings low-precision KV cache support, Model Runner V2 updates, and new structured parsers.">
+<link rel="canonical" href="https://shashikantdev3.github.io/attention-span/s/2026-10-18-vllm-v0-32-0-released-with-low-precision-kv-cache-updates.html">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Attention Span">
+<meta property="og:title" content="vLLM v0.32.0 released with low-precision KV cache updates">
+<meta property="og:description" content="vLLM version 0.32.0 brings low-precision KV cache support, Model Runner V2 updates, and new structured parsers.">
+<meta property="og:url" content="https://shashikantdev3.github.io/attention-span/s/2026-10-18-vllm-v0-32-0-released-with-low-precision-kv-cache-updates.html">
+<meta property="og:image" content="https://shashikantdev3.github.io/attention-span/assets/og.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#EDF0EA">
+<link rel="alternate" type="application/rss+xml" title="Attention Span" href="../feed.xml">
+<script>try{var t=localStorage.getItem("as-theme");if(!t)t=matchMedia("(prefers-color-scheme: dark)").matches?"night":"day";if(t==="night")document.documentElement.setAttribute("data-theme","night")}catch(e){}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;0,6..72,700;1,6..72,400&family=Bodoni+Moda:opsz,wght@6..96,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/style.css">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "NewsArticle", "headline": "vLLM v0.32.0 released with low-precision KV cache updates", "description": "vLLM version 0.32.0 brings low-precision KV cache support, Model Runner V2 updates, and new structured parsers.", "datePublished": "2026-10-18T10:23:45Z", "dateModified": "2026-10-18", "author": {"@type": "Organization", "name": "Attention Span", "url": "https://shashikantdev3.github.io/attention-span/"}, "publisher": {"@type": "Organization", "name": "Attention Span", "url": "https://shashikantdev3.github.io/attention-span/"}, "mainEntityOfPage": "https://shashikantdev3.github.io/attention-span/s/2026-10-18-vllm-v0-32-0-released-with-low-precision-kv-cache-updates.html", "image": "https://shashikantdev3.github.io/attention-span/assets/og.png", "isBasedOn": ["https://github.com/vllm-project/vllm/releases/tag/v0.32.0"]}</script>
+</head>
+<body class="static">
+<header class="masthead static-head"><div class="wrap">
+  <a class="brand" href="../index.html"><span class="static-name">Attention Span</span></a>
+  <span class="tagline">Today&#x27;s AI news, traced back to its roots.</span>
+</div></header>
+<main id="main"><div class="wrap static-body">
+<article class="static-story">
+<p class="static-kicker"><a href="../e/2026-10-18.html">Sunday, 18 October 2026</a>, Dev tools,
+1 source</p>
+<h1>vLLM v0.32.0 released with low-precision KV cache updates</h1>
+<p class="one-liner">vLLM version 0.32.0 brings low-precision KV cache support, Model Runner V2 updates, and new structured parsers.</p>
+<p>The vLLM project released version 0.32.0, featuring 814 commits from 363 contributors. The release introduces the POST /v1/systemone endpoint for structured state decisions and a generic hf tool and reasoning parser. Low-precision KV cache updates include NVFP4 KV cache on various architectures and an FP8 KV cache default for GLM-5.x on SM100. Model Runner V2 becomes the default on ROCm and adds features like a GPU n-gram speculator and Elastic EP. The update also improves startup and serving speeds, adds new model support including EmbeddingGemma 2 and MiniCPM-V 4.7, and includes security fixes and breaking changes.</p>
+<div class="eli5"><h4>Like I am 5</h4><p>The vLLM team updated their software to run AI models faster and use less memory, like organizing a toy box so you can find your favorite toys much quicker.</p></div>
+<div class="why"><h4>Why it matters</h4><p>Low-precision KV cache options and faster startup routines improve serving throughput and reduce memory usage for production workloads.</p></div>
+<div class="sources"><h4>Sources, original first</h4><ol><li><a href="https://github.com/vllm-project/vllm/releases/tag/v0.32.0" rel="noopener">vLLM: vLLM v0.32.0</a> <span class="kind">original</span></li></ol></div>
+<div class="tags"><span class="chip">NVIDIA</span><span class="chip">Google and DeepMind</span><span class="chip">Meta</span><a class="chip concept" href="../c/kv-cache.html">KV cache</a><a class="chip concept" href="../c/quantization.html">Quantisation</a><a class="chip concept" href="../c/speculative-decoding.html">Speculative decoding</a></div>
+<p class="asof">Written from the sources above and checked by a second AI model; every number was matched against the sources.</p>
+</article>
+<p class="static-app"><a href="../index.html#/today/2026-10-18/2026-10-18-vllm-v0-32-0-released-with-low-precision-kv-cache-updates">Open this in Attention Span</a>, where every story links to its history,
+concepts and the people behind it.</p>
+</div></main>
+<footer class="site"><div class="wrap">
+  <span>Attention Span is built by <a href="https://github.com/shashikantdev3">Shashikant</a>. Every entry links its source.</span>
+  <span>Data under <a href="https://creativecommons.org/licenses/by-nc/4.0/" rel="license">CC BY-NC 4.0</a>. Code under MIT.</span>
+</div></footer>
+</body>
+</html>

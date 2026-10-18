@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-17T18:48:27Z",
+ "updated_at": "2026-10-18T18:40:00Z",
  "window_days": 7,
  "groups": [
   {
@@ -923,6 +923,197 @@
  ],
  "posts": [
   {
+   "id": "x-2111867437238853726",
+   "platform": "x",
+   "url": "https://x.com/elonmusk/status/2111867437238853726",
+   "posted_at": "2026-10-18T17:10:08Z",
+   "date_only": false,
+   "text": "Grok @Bot can call restaurants by phone and book you a table https://t.co/51PLgrLxBv",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">Grok <a href=\"https://x.com/bot?ref_src=twsrc%5Etfw\">@Bot</a> can call restaurants by phone and book you a table <a href=\"https://t.co/51PLgrLxBv\">https://t.co/51PLgrLxBv</a></p>&mdash; Elon Musk (@elonmusk) <a href=\"https://x.com/elonmusk/status/2111867437238853726?ref_src=twsrc%5Etfw\">October 18, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "elon-musk",
+   "meaning": "Elon Musk says the Grok Bot can now phone restaurants and book a table for you.",
+   "concepts": [
+    "agent",
+    "tool-use"
+   ],
+   "story": null,
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "editor",
+   "added": "2026-10-18"
+  },
+  {
+   "id": "x-2111828314851598745",
+   "platform": "x",
+   "url": "https://x.com/Thom_Wolf/status/2111828314851598745",
+   "posted_at": "2026-10-18T14:34:40Z",
+   "date_only": false,
+   "text": "Fun and crazy napkin math: Meta, NVIDIA, Alibaba, DeepSeek, Moonshot, Mistral and ~30 other labs have shared close to $1B worth of training compute on the Hugging Face Hub\n\nFree to download\n\nEnd of 2023 it was under $40M\n\nWikipedia was written in volunteer hours. This AI age…",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">Fun and crazy napkin math: Meta, NVIDIA, Alibaba, DeepSeek, Moonshot, Mistral and ~30 other labs have shared close to $1B worth of training compute on the Hugging Face Hub<br><br>Free to download<br><br>End of 2023 it was under $40M<br><br>Wikipedia was written in volunteer hours. This AI age… <a href=\"https://t.co/Gr1OkEyIIl\">pic.twitter.com/Gr1OkEyIIl</a></p>&mdash; Thomas Wolf (@Thom_Wolf) <a href=\"https://x.com/Thom_Wolf/status/2111828314851598745?ref_src=twsrc%5Etfw\">October 18, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "thomas-wolf",
+   "meaning": "Thomas Wolf's napkin math: Meta, NVIDIA, Alibaba, DeepSeek, Moonshot, Mistral and about 30 other labs have shared close to $1B worth of training compute as free models on the Hugging Face Hub, up from under $40M at the end of 2023.",
+   "concepts": [
+    "open-weight-model"
+   ],
+   "story": null,
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "editor",
+   "added": "2026-10-18"
+  },
+  {
+   "id": "bsky-marcorus.bsky.social-3my55gptdub2n",
+   "person": "marco-russo",
+   "platform": "bluesky",
+   "url": "https://bsky.app/profile/marcorus.bsky.social/post/3my55gptdub2n",
+   "posted_at": "2026-10-18T08:04:39Z",
+   "text": "Is SQL still relevant for a data analyst?\nYes. Even more, now that you no longer have to write it.\n\nIf the AI wrote your query, you are signing it anyway.\n\nNo SQL, no analyst.",
+   "links": [],
+   "context": {
+    "kind": "link",
+    "url": "https://marcorusso.com/writing/no-sql-no-analyst/",
+    "title": "No SQL, no analyst — marcorusso.com",
+    "text": "Is SQL still relevant for a data analyst? Yes. Even more, now that you no longer have to write it."
+   },
+   "likes": 3,
+   "reposts": 0,
+   "via": "feed",
+   "meaning": "Russo argues that SQL remains essential for data analysts, even when AI writes the queries, because analysts must still validate the code they sign off on.",
+   "concepts": [],
+   "story": null,
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "anthropic:claude-sonnet-5-5",
+   "added": "2026-10-18"
+  },
+  {
+   "id": "bsky-emollick.bsky.social-3my4xspgnf22t",
+   "person": "ethan-mollick",
+   "platform": "bluesky",
+   "url": "https://bsky.app/profile/emollick.bsky.social/post/3my4xspgnf22t",
+   "posted_at": "2026-10-18T06:23:58Z",
+   "text": "In a move that is both fascinating and viscerally unsettling, AI world model company Odyssey took a simulation of a fruit fly's brain, Google's connectome map of a fly's actual neurons and connections, and placed it inside an AI-generated world.\n\nA simulated brain exploring a simulated reality.",
+   "links": [],
+   "context": null,
+   "likes": 81,
+   "reposts": 7,
+   "via": "feed",
+   "meaning": "Mollick shares that Odyssey placed a fruit fly brain simulation, built from a connectome map of actual neurons, inside an AI-generated world. Builders may care because this combines biological neural wiring with artificial world models to explore simulated realities.",
+   "concepts": [
+    "world-model",
+    "deep-learning",
+    "multimodal-model"
+   ],
+   "story": null,
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "anthropic:claude-sonnet-5-5",
+   "added": "2026-10-18"
+  },
+  {
+   "id": "bsky-emollick.bsky.social-3my47ihhocc2t",
+   "person": "ethan-mollick",
+   "platform": "bluesky",
+   "url": "https://bsky.app/profile/emollick.bsky.social/post/3my47ihhocc2t",
+   "posted_at": "2026-10-17T23:08:45Z",
+   "text": "A consequential choice will be made soon by government and companies as they are increasingly flooded with agentic AI inquiries that overcome the frictions that gated access (see the graphs - it has already started!)\n\nTwo options: do you make services worse or better as a result?",
+   "links": [],
+   "context": null,
+   "likes": 98,
+   "reposts": 15,
+   "via": "feed",
+   "meaning": "Mollick notes that governments and companies face a choice on whether services will improve or worsen as they deal with a surge in agentic AI inquiries.",
+   "concepts": [
+    "agent"
+   ],
+   "story": null,
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "anthropic:claude-sonnet-5-5",
+   "added": "2026-10-18"
+  },
+  {
+   "id": "x-2111549984373911572",
+   "platform": "x",
+   "url": "https://x.com/natolambert/status/2111549984373911572",
+   "posted_at": "2026-10-17T20:08:41Z",
+   "date_only": false,
+   "text": "There's something very odd going on with \"distillation\" if a cyber attack to steal api keys is looped under the same term. Same goes with looping together the model transfer stations to China. It's not clear why the volume is so high and how it's related to model training. https://t.co/fkogyd8GKF",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">There&#39;s something very odd going on with &quot;distillation&quot; if a cyber attack to steal api keys is looped under the same term. Same goes with looping together the model transfer stations to China. It&#39;s not clear why the volume is so high and how it&#39;s related to model training. <a href=\"https://t.co/fkogyd8GKF\">https://t.co/fkogyd8GKF</a></p>&mdash; Nathan Lambert (@natolambert) <a href=\"https://x.com/natolambert/status/2111549984373911572?ref_src=twsrc%5Etfw\">October 17, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "nathan-lambert",
+   "meaning": "Nathan Lambert says something odd is happening with the word \"distillation\" when an attack that stole API keys and model transfers to China are both filed under it, and asks why the reported volume is so high.",
+   "concepts": [
+    "distillation"
+   ],
+   "story": null,
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "editor",
+   "added": "2026-10-18"
+  },
+  {
+   "id": "x-2111525362446520466",
+   "platform": "x",
+   "url": "https://x.com/levie/status/2111525362446520466",
+   "posted_at": "2026-10-17T18:30:51Z",
+   "date_only": false,
+   "text": "The biggest misread of anyone predicting the end of software engineering was imagining that the world only needed a certain amount of software, and bringing automation to the field would reduce the need for labor. \n\nExactly the opposite is happening where essentially most things… https://t.co/HwWqWI6CoI",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">The biggest misread of anyone predicting the end of software engineering was imagining that the world only needed a certain amount of software, and bringing automation to the field would reduce the need for labor. <br><br>Exactly the opposite is happening where essentially most things… <a href=\"https://t.co/HwWqWI6CoI\">https://t.co/HwWqWI6CoI</a></p>&mdash; Aaron Levie (@levie) <a href=\"https://x.com/levie/status/2111525362446520466?ref_src=twsrc%5Etfw\">October 17, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "aaron-levie",
+   "meaning": "Aaron Levie says people predicting the end of software engineering assumed the world needs a fixed amount of software; instead, automation is creating more of it, and more demand for engineers.",
+   "concepts": [
+    "coding-assistant",
+    "copilot"
+   ],
+   "story": null,
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "editor",
+   "added": "2026-10-18"
+  },
+  {
+   "id": "x-2111514781995741515",
+   "platform": "x",
+   "url": "https://x.com/ylecun/status/2111514781995741515",
+   "posted_at": "2026-10-17T17:48:48Z",
+   "date_only": false,
+   "text": "It really has not, though. \nUnless you get fooled into thinking that every point on an exponential curve is a singularity.",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">It really has not, though. <br>Unless you get fooled into thinking that every point on an exponential curve is a singularity.</p>&mdash; Yann LeCun (@ylecun) <a href=\"https://x.com/ylecun/status/2111514781995741515?ref_src=twsrc%5Etfw\">October 17, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "yann-lecun",
+   "meaning": "Yann LeCun, replying to Jack Clark, says the singularity has not begun: every point on an exponential curve can look like one.",
+   "concepts": [
+    "agi"
+   ],
+   "story": null,
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "editor",
+   "added": "2026-10-18"
+  },
+  {
+   "id": "x-2111507711653564543",
+   "platform": "x",
+   "url": "https://x.com/fchollet/status/2111507711653564543",
+   "posted_at": "2026-10-17T17:20:43Z",
+   "date_only": false,
+   "text": "Some observations about the \"total\" automation of software engineering:\n\n1. There are more software engineers now than in 2025, and demand is growing.\n\n2. Software engineers have never worked harder than they do now.\n\n3. They largely don't write code anymore, agents write ~100%…",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">Some observations about the &quot;total&quot; automation of software engineering:<br><br>1. There are more software engineers now than in 2025, and demand is growing.<br><br>2. Software engineers have never worked harder than they do now.<br><br>3. They largely don&#39;t write code anymore, agents write ~100%…</p>&mdash; François Chollet (@fchollet) <a href=\"https://x.com/fchollet/status/2111507711653564543?ref_src=twsrc%5Etfw\">October 17, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "francois-chollet",
+   "meaning": "Francois Chollet's observations on the \"total\" automation of software engineering: there are more software engineers than in 2025, demand is growing, they have never worked harder, and they mostly no longer write the code themselves.",
+   "concepts": [
+    "agent",
+    "coding-assistant"
+   ],
+   "story": null,
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "editor",
+   "added": "2026-10-18"
+  },
+  {
    "id": "bsky-natolambert.bsky.social-3my3bhk2ph52r",
    "person": "nathan-lambert",
    "platform": "bluesky",
@@ -936,7 +1127,7 @@
     }
    ],
    "context": null,
-   "likes": 15,
+   "likes": 18,
    "reposts": 2,
    "via": "feed",
    "meaning": "Lambert reflects on Meta's recent progress and the current standing of US open weight models. Builders care about how open weights compete with top proprietary models from Anthropic and OpenAI.",
@@ -1036,6 +1227,26 @@
    "added": "2026-10-17"
   },
   {
+   "id": "x-2111350983465095501",
+   "platform": "x",
+   "url": "https://x.com/jackclarkSF/status/2111350983465095501",
+   "posted_at": "2026-10-17T06:57:56Z",
+   "date_only": false,
+   "text": "I’m speaking at the IMF in an hour about the singularity and why I believe it has begun and the choices we'll need to make. Watch live here: https://t.co/Hj9HzcXx5h",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">I’m speaking at the IMF in an hour about the singularity and why I believe it has begun and the choices we&#39;ll need to make. Watch live here: <a href=\"https://t.co/Hj9HzcXx5h\">https://t.co/Hj9HzcXx5h</a></p>&mdash; Jack Clark (@jackclarkSF) <a href=\"https://x.com/jackclarkSF/status/2111350983465095501?ref_src=twsrc%5Etfw\">October 17, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "jack-clark",
+   "meaning": "Anthropic co-founder Jack Clark says he is speaking at the IMF about why he believes the singularity has begun and the choices it will force.",
+   "concepts": [
+    "agi"
+   ],
+   "story": null,
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "editor",
+   "added": "2026-10-18"
+  },
+  {
    "id": "x-2111237499083252185",
    "platform": "x",
    "url": "https://x.com/alexandr_wang/status/2111237499083252185",
@@ -1074,6 +1285,26 @@
    "model": "gemini:gemini-3.5-flash-lite",
    "checked": "anthropic:claude-sonnet-5-5",
    "added": "2026-10-17"
+  },
+  {
+   "id": "x-2111213093577691337",
+   "platform": "x",
+   "url": "https://x.com/OpenAIDevs/status/2111213093577691337",
+   "posted_at": "2026-10-16T21:50:00Z",
+   "date_only": false,
+   "text": "Here’s how our engineers use Codex at OpenAI to dig through our codebase, find what needs attention, and chip away at the maintenance backlog: https://t.co/BKKX7VbEXi",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">Here’s how our engineers use Codex at OpenAI to dig through our codebase, find what needs attention, and chip away at the maintenance backlog: <a href=\"https://t.co/BKKX7VbEXi\">https://t.co/BKKX7VbEXi</a></p>&mdash; OpenAI Developers (@OpenAIDevs) <a href=\"https://x.com/OpenAIDevs/status/2111213093577691337?ref_src=twsrc%5Etfw\">October 16, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "x-openaidevs",
+   "meaning": "OpenAI Developers shows how OpenAI's own engineers use Codex to dig through the codebase, find what needs attention and clear the maintenance backlog.",
+   "concepts": [
+    "coding-assistant"
+   ],
+   "story": null,
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "editor",
+   "added": "2026-10-18"
   },
   {
    "id": "x-2111209208012210409",
@@ -1182,6 +1413,27 @@
    "added": "2026-10-17"
   },
   {
+   "id": "x-2111177834127601902",
+   "platform": "x",
+   "url": "https://x.com/claudeai/status/2111177834127601902",
+   "posted_at": "2026-10-16T19:29:54Z",
+   "date_only": false,
+   "text": "Six projects from the last few weeks that caught our attention:\n\nA wildfire analysis prototype that maps the fire’s spread over time and tracks hot spots, made with Opus 5.5.",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">Six projects from the last few weeks that caught our attention:<br><br>A wildfire analysis prototype that maps the fire’s spread over time and tracks hot spots, made with Opus 5.5. <a href=\"https://t.co/yagXxk13V1\">pic.twitter.com/yagXxk13V1</a></p>&mdash; Claude (@claudeai) <a href=\"https://x.com/claudeai/status/2111177834127601902?ref_src=twsrc%5Etfw\">October 16, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "x-claudeai",
+   "meaning": "Claude shares six community projects from recent weeks, starting with a wildfire prototype built with Opus 5.5 that maps how a fire spreads and tracks hot spots.",
+   "concepts": [
+    "multimodal-model",
+    "foundation-model"
+   ],
+   "story": null,
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "editor",
+   "added": "2026-10-18"
+  },
+  {
    "id": "bsky-emollick.bsky.social-3mxzbegeels2t",
    "person": "ethan-mollick",
    "platform": "bluesky",
@@ -1195,7 +1447,7 @@
     }
    ],
    "context": null,
-   "likes": 100,
+   "likes": 106,
    "reposts": 11,
    "via": "feed",
    "meaning": "Mollick highlights a paper showing Gemini 4 agents beating Minecraft, demonstrating spontaneous coordination and different problem solving approaches compared to humans. Developers working with multi agent systems will find this relevant.",
@@ -1270,6 +1522,28 @@
    "model": "gemini:gemini-3.5-flash-lite",
    "checked": "anthropic:claude-sonnet-5-5",
    "added": "2026-10-17"
+  },
+  {
+   "id": "x-2111146976683425860",
+   "platform": "x",
+   "url": "https://x.com/LangChain/status/2111146976683425860",
+   "posted_at": "2026-10-16T17:27:17Z",
+   "date_only": false,
+   "text": "Agents with sandboxes run packages you didn't write. If one is malicious, any credential in the sandbox is exposed.\n\nWith Managed Deep Agents, the proxy adds your token outside the sandbox, only on calls to services you've allowed. The agent never sees it. https://t.co/pRb5Tc7EtG",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">Agents with sandboxes run packages you didn&#39;t write. If one is malicious, any credential in the sandbox is exposed.<br><br>With Managed Deep Agents, the proxy adds your token outside the sandbox, only on calls to services you&#39;ve allowed. The agent never sees it. <a href=\"https://t.co/pRb5Tc7EtG\">https://t.co/pRb5Tc7EtG</a></p>&mdash; LangChain (@LangChain) <a href=\"https://x.com/LangChain/status/2111146976683425860?ref_src=twsrc%5Etfw\">October 16, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "x-langchain",
+   "meaning": "LangChain explains how Managed Deep Agents keep credentials safe: a proxy outside the sandbox adds your token only on calls to approved services, so a malicious package inside the sandbox never sees it.",
+   "concepts": [
+    "agent-sandbox",
+    "agent",
+    "tool-use"
+   ],
+   "story": null,
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "editor",
+   "added": "2026-10-18"
   },
   {
    "id": "x-2111127991401247033",
@@ -1982,7 +2256,7 @@
    "text": "The sudden collapse of the value of Chain-of-Thought (even summarized CoT) in the agentic era changes working with AI.\n\nEffectively steering AIs and getting any sort of observability now requires you to ask for interim outputs & tests, and to use AI help to troubleshoot problems you find.",
    "links": [],
    "context": null,
-   "likes": 60,
+   "likes": 61,
    "reposts": 3,
    "via": "feed",
    "meaning": "Mollick argues that the collapse of chain-of-thought value in the agentic era requires users to ask for interim outputs, tests, and AI troubleshooting for observability.",
@@ -2092,7 +2366,7 @@
     }
    ],
    "context": null,
-   "likes": 80,
+   "likes": 81,
    "reposts": 11,
    "via": "feed",
    "meaning": "Simon Willison notes reports that distillation accounts for a notable percentage of Anthropic's revenue, suggesting other labs spend hundreds of millions distilling Anthropic models.",
@@ -3564,7 +3838,7 @@
    "text": "GPT-4 was the undisputed best model in the world for a full year and we all debated whether anyone could catch up or if OpenAI had some secret formula that nobody else knew about.\n\nNow there are are 19 AI models that can run on a modern smartphone that are better than GPT-4!",
    "links": [],
    "context": null,
-   "likes": 203,
+   "likes": 205,
    "reposts": 30,
    "via": "feed",
    "meaning": "Mollick notes that while GPT-4 was the top model for a year, there are now 19 smartphone-capable AI models that outperform it. This illustrates rapid progress in edge and small language models that builders can leverage.",

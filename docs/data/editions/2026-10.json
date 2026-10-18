@@ -4505,6 +4505,574 @@
     ],
     "seconds": 268
    }
+  },
+  "2026-10-18": {
+   "date": "2026-10-18",
+   "generated_at": "2026-10-18T18:17:27Z",
+   "stories": [
+    {
+     "title": "vLLM v0.32.0 released with low-precision KV cache updates",
+     "one_liner": "vLLM version 0.32.0 brings low-precision KV cache support, Model Runner V2 updates, and new structured parsers.",
+     "summary": "The vLLM project released version 0.32.0, featuring 814 commits from 363 contributors. The release introduces the POST /v1/systemone endpoint for structured state decisions and a generic hf tool and reasoning parser. Low-precision KV cache updates include NVFP4 KV cache on various architectures and an FP8 KV cache default for GLM-5.x on SM100. Model Runner V2 becomes the default on ROCm and adds features like a GPU n-gram speculator and Elastic EP. The update also improves startup and serving speeds, adds new model support including EmbeddingGemma 2 and MiniCPM-V 4.7, and includes security fixes and breaking changes.",
+     "eli5": "The vLLM team updated their software to run AI models faster and use less memory, like organizing a toy box so you can find your favorite toys much quicker.",
+     "why_it_matters": "Low-precision KV cache options and faster startup routines improve serving throughput and reduce memory usage for production workloads.",
+     "topic": "dev-tools",
+     "type": "product",
+     "labs": [
+      "nvidia",
+      "google",
+      "meta"
+     ],
+     "people": [],
+     "concepts": [
+      "kv-cache",
+      "quantization",
+      "speculative-decoding"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "vLLM v0.32.0",
+       "url": "https://github.com/vllm-project/vllm/releases/tag/v0.32.0",
+       "name": "vLLM",
+       "kind": "original"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-10-18T10:23:45Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "vLLM released v0.32.0, adding structured decisions and generic parsers via a new POST endpoint.",
+     "rank": 1,
+     "id": "2026-10-18-vllm-v0-32-0-released-with-low-precision-kv-cache-updates",
+     "date": "2026-10-18"
+    },
+    {
+     "title": "DeepSeek Prices Search and Fetch APIs at $0.75 per 1000 Requests",
+     "one_liner": "DeepSeek introduced Search and Fetch APIs priced at $0.75 per 1000 successful requests, giving agents and RAG applications access to live web content.",
+     "summary": "DeepSeek has released Search and Fetch raw JSON APIs that give agents and retrieval-augmented generation applications access to live web content. The Search API finds web pages using an in-house search engine, while the Fetch API retrieves a single web page and returns its content as Markdown. Both APIs use bearer authentication and cost $0.75 per 1000 successful requests. Billing applies only when requests return HTTP 200 and produce results. Server-side tool calls made through DeepSeek Harness, Claude Code, or Codex are currently free of charge, with per-request billing starting at 00:00 Beijing time on November 1, 2026. The APIs feature account-level and domain-level rate limits.",
+     "eli5": "The system acts like a helper that can go look up information on the internet for you and bring it back, charging a tiny fee only when it successfully finds what you asked for.",
+     "why_it_matters": "Building web retrieval into AI agents and applications becomes easier with direct access to structured search results and Markdown content fetched from live web pages.",
+     "topic": "dev-tools",
+     "type": "product",
+     "labs": [
+      "deepseek"
+     ],
+     "people": [],
+     "concepts": [
+      "rag",
+      "agent",
+      "tool-use"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [
+      {
+       "term": "Search API",
+       "definition": "Finds web pages for a query and returns structured results powered by DeepSeek's in-house search engine."
+      },
+      {
+       "term": "Fetch API",
+       "definition": "Retrieves a single web page and returns its content as Markdown."
+      }
+     ],
+     "sources": [
+      {
+       "title": "DeepSeek search and fetch – $0.75 per 1000 successful requests",
+       "url": "https://api-docs.deepseek.com/guides/search/",
+       "name": "api-docs.deepseek.com",
+       "kind": "original"
+      },
+      {
+       "title": "Discussion on Hacker News",
+       "url": "https://news.ycombinator.com/item?id=50138531",
+       "name": "Hacker News",
+       "kind": "discussion"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-10-18T06:50:36Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 2,
+      "hype_flags": []
+     },
+     "editor_reason": "Included automatically: a major lab's own announcement with a strong signal.",
+     "rank": 2,
+     "id": "2026-10-18-deepseek-prices-search-and-fetch-apis-at-0-75-per-1000-reque",
+     "date": "2026-10-18"
+    },
+    {
+     "title": "Replit CEO says OpenAI is now default over Anthropic",
+     "one_liner": "Replit CEO Amjad Masad stated that OpenAI is now the preferred partner for powering Replit Agent, replacing Anthropic as the default model.",
+     "summary": "Replit CEO Amjad Masad announced that OpenAI has replaced Anthropic as the default model provider for the platform. Masad stated that the decision was based on cost, partnership, and performance, citing internal and public benchmarks. Anthropic models remain accessible to customers on the platform, but OpenAI is now the default and preferred partner for powering Replit Agent. Prior to the agreement with OpenAI, Replit relied on Anthropic's Claude models. Insiders familiar with the partnership disputed that the relationship with Anthropic had ended, and evidence showed recent promotions of Anthropic products.",
+     "eli5": "Replit switched the main helper it uses from one company to another because the CEO feels the new one works better and fits their needs, but you can still pick the old one if you want.",
+     "why_it_matters": "Platform defaults dictate usage patterns because most users stick with the pre-selected option rather than choosing models manually.",
+     "topic": "industry",
+     "type": "event",
+     "labs": [
+      "openai",
+      "anthropic"
+     ],
+     "people": [],
+     "concepts": [
+      "coding-assistant",
+      "agent",
+      "benchmark"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "Replit makes OpenAI its default over Anthropic, CEO says",
+       "url": "https://techcrunch.com/2026/10/17/replit-is-no-longer-working-with-anthropic-ceo-says/",
+       "name": "TechCrunch AI",
+       "kind": "press"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-10-17T18:48:08Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 2,
+      "hype_flags": []
+     },
+     "editor_reason": "Replit switched its default model provider from Anthropic to OpenAI while keeping Claude available as an option.",
+     "rank": 3,
+     "id": "2026-10-18-replit-ceo-says-openai-is-now-default-over-anthropic",
+     "date": "2026-10-18"
+    },
+    {
+     "title": "Disney Agrees to Hire Majority of Character.AI Workforce",
+     "one_liner": "Chatbot startup Character.AI filed for bankruptcy, and Disney agreed to hire the majority of its workforce and acquire some assets.",
+     "summary": "Chatbot startup Character.AI filed for bankruptcy earlier this week. Following the filing, Disney agreed to make employment offers to at least 60 Character.AI employees, representing the majority of the startup workforce. Disney will pay these employees an estimated $60 million in annual compensation. A legal filing shows that the vast majority of employees offered jobs accepted them. Character.AI previously stated that Disney agreed to acquire some of its assets for $20 million. The startup faced high costs, potential litigation liabilities, and government investigations concerning child safety.",
+     "eli5": "A group of workers from one company got new job offers at a big entertainment company after their old workplace hit rough financial and legal trouble.",
+     "why_it_matters": "A bankruptcy filing can trigger sudden talent shifts to larger entertainment giants while pending judicial approval and potential higher bids.",
+     "topic": "industry",
+     "type": "event",
+     "labs": [],
+     "people": [],
+     "concepts": [
+      "chatbot"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "Disney agrees to hire the majority of Character.AI’s workforce",
+       "url": "https://techcrunch.com/2026/10/18/disney-agrees-to-hire-the-majority-of-character-ais-workforce/",
+       "name": "TechCrunch AI",
+       "kind": "press"
+      },
+      {
+       "title": "Filing: Disney agreed to hire 60+ staff from Character.AI and pay them ~$180M over three years, plus $30M for retention awards; a bankruptcy judge must approve (Bloomberg)",
+       "url": "https://www.techmeme.com/261017/p21#a261017p21",
+       "name": "Techmeme",
+       "kind": "press"
+      }
+     ],
+     "buzz": 2,
+     "published": "2026-10-18T03:50:01Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 2,
+      "hype_flags": []
+     },
+     "editor_reason": "Disney agreed to hire over 60 Character.AI employees for roughly $180 million over three years following the startup's bankruptcy filing.",
+     "rank": 4,
+     "id": "2026-10-18-disney-agrees-to-hire-majority-of-character-ai-workforce",
+     "date": "2026-10-18"
+    },
+    {
+     "title": "Reports Say Anthropic Consults Law Firms on AI Deal Negotiation",
+     "one_liner": "Anthropic is consulting law firms to develop fair negotiation norms as it builds AI agents to handle deals for users.",
+     "summary": "Anthropic is consulting with law firms to develop fair negotiation norms for AI agents. These agents would haggle over prices, resolve complaints, or improve contract offers on behalf of users. Experiments show that stronger models negotiate better deals, which could widen societal inequality. To improve Claude in areas lacking verifiable data, Anthropic is hiring Conceptual Reasoning Fellows. These lawyers and humanities experts will spend four months testing Claude on judgment-heavy questions for $100,000 to $167,000. Justin Curl, a researcher at Anthropic, notes that in law it is notoriously hard to define quality.",
+     "eli5": "Anthropic is asking lawyers how to teach AI assistants to be fair when they haggle over prices and contracts for you, just like getting advice before playing a trading game.",
+     "why_it_matters": "Building agents that negotiate real-world deals requires expert human guidance to handle judgment-heavy domains where standard training data does not exist.",
+     "topic": "agents",
+     "type": "event",
+     "labs": [
+      "anthropic"
+     ],
+     "people": [],
+     "concepts": [
+      "agent",
+      "ai-governance"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [
+      {
+       "term": "Conceptual Reasoning Fellows",
+       "definition": "Lawyers and experts who spend four months testing Claude on judgment-heavy questions in law, philosophy, cognitive science, economics, and political science."
+      }
+     ],
+     "sources": [
+      {
+       "title": "Anthropic consults law firms to set fair negotiation norms before AI agents start cutting deals",
+       "url": "https://the-decoder.com/anthropic-consults-law-firms-to-set-fair-negotiation-norms-before-ai-agents-start-cutting-deals/",
+       "name": "The Decoder",
+       "kind": "press"
+      },
+      {
+       "title": "Sources: Anthropic is consulting law firms on deal negotiation tactics as it develops AI agents to negotiate on humans' behalf and interact with AI counterparts (Cristina Criddle/Financial Times)",
+       "url": "https://www.techmeme.com/261018/p2#a261018p2",
+       "name": "Techmeme",
+       "kind": "press"
+      }
+     ],
+     "buzz": 2,
+     "published": "2026-10-18T05:10:01Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "Anthropic is consulting law firms to establish norms and guardrails for autonomous negotiation agents.",
+     "rank": 5,
+     "id": "2026-10-18-reports-say-anthropic-consults-law-firms-on-ai-deal-negotiat",
+     "date": "2026-10-18"
+    },
+    {
+     "title": "Sources Report Nvidia Asked Companies to Make Base Dies",
+     "one_liner": "Sources report that Nvidia asked Samsung, SK Hynix, and Micron to make base dies for custom NVHBM memory on TSMC's 3nm process.",
+     "summary": "According to sources cited by Reuters, Nvidia asked Samsung, SK Hynix, and Micron to make base dies for its custom NVHBM memory using TSMC's 3nm process. Sources claim that Samsung agreed to the request. According to the report, this would be the first time Samsung uses TSMC.",
+     "eli5": "Like asking a friend to use someone else's tools to build toy pieces, reports say Nvidia asked companies to use TSMC's factory for memory parts, and Samsung reportedly agreed.",
+     "why_it_matters": "Hardware production arrangements between competing chip manufacturers can shift supply chain options for building large AI systems.",
+     "topic": "industry",
+     "type": "event",
+     "labs": [
+      "nvidia"
+     ],
+     "people": [],
+     "concepts": [
+      "gpu"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [
+      {
+       "term": "base dies",
+       "definition": "Components made for Nvidia's custom NVHBM memory on TSMC's 3nm process."
+      },
+      {
+       "term": "NVHBM memory",
+       "definition": "Custom memory for Nvidia that uses base dies produced on TSMC's 3nm process."
+      }
+     ],
+     "sources": [
+      {
+       "title": "Sources: Nvidia asked Samsung, SK Hynix, and Micron to make base dies for its custom NVHBM memory on TSMC's 3nm process; Samsung agreed, its first use of TSMC (Kyu-Seok Shim/Reuters)",
+       "url": "https://www.techmeme.com/261018/p9#a261018p9",
+       "name": "Techmeme",
+       "kind": "press"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-10-18T18:10:01Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 2,
+      "hype_flags": []
+     },
+     "editor_reason": "Nvidia asked memory makers including Samsung, SK Hynix, and Micron to manufacture base dies for custom NVHBM on TSMC's 3nm node.",
+     "rank": 6,
+     "id": "2026-10-18-sources-report-nvidia-asked-companies-to-make-base-dies",
+     "date": "2026-10-18"
+    },
+    {
+     "title": "Two German Courts Hold Google Liable for AI Search Summaries",
+     "one_liner": "Two German courts ruled that Google is directly liable for false claims generated by its AI search features.",
+     "summary": "Two German courts have held Google liable for what its AI overviews state. The Aachen Regional Court barred Google from spreading false claims about an Aachen doctor through its AI search results after the system attributed criminal allegations to him that involved another person. The court classified the AI-generated texts as Google's own statements rather than mere links. This follows a similar ruling by the Munich Regional Court I in late May, which Google settled. The Aachen decision is not yet final, and Google faces fines of up to 250,000 euros per violation if it disobeys the order.",
+     "eli5": "If an AI search tool invents a false story about someone and tells it to people, the company that made the tool is responsible for those words, just like a writer is responsible for a story they published.",
+     "why_it_matters": "Google is held directly responsible for the content generated by its AI search features rather than acting as a neutral middleman.",
+     "topic": "policy",
+     "type": "event",
+     "labs": [
+      "google"
+     ],
+     "people": [],
+     "concepts": [
+      "ai-regulation"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "Two German courts now hold Google liable for what its AI overviews say",
+       "url": "https://the-decoder.com/two-german-courts-now-hold-google-liable-for-what-its-ai-overviews-say/",
+       "name": "The Decoder",
+       "kind": "press"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-10-18T10:52:39Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 2,
+      "hype_flags": []
+     },
+     "editor_reason": "Two regional courts in Germany have ruled that Google is liable for the content generated in its AI overviews.",
+     "rank": 7,
+     "id": "2026-10-18-two-german-courts-hold-google-liable-for-ai-search-summaries",
+     "date": "2026-10-18"
+    },
+    {
+     "title": "Anthropic gives outside AI watchdog employee-like access",
+     "one_liner": "Anthropic granted external evaluators employee-like access to assess model risks, following a commitment to increase safeguards.",
+     "summary": "Anthropic gave external evaluators employee-like access to assess the risks of its models. This follows a commitment to increase safeguards over concerns that the technology could run catastrophically out of control. METR, a nonprofit that has worked with leading labs including OpenAI, Anthropic, Google, and Meta, now has a team embedded in the office of the Claude maker. The team has access to Anthropic hardware and internal systems. Giving third-party evaluators a greater role is a concrete step labs proposed to address rising concerns about dangers to the economy, cybersecurity, and humanity.",
+     "eli5": "An outside group of inspectors got special access to look inside the computer systems. They are checking how the models work.",
+     "why_it_matters": "External evaluators now have hardware and internal system access to assess risks.",
+     "topic": "policy",
+     "type": "event",
+     "labs": [
+      "anthropic",
+      "openai",
+      "google",
+      "meta"
+     ],
+     "people": [],
+     "concepts": [
+      "ai-safety",
+      "ai-governance"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "Anthropic gives outside AI watchdog “employee-like” access",
+       "url": "https://arstechnica.com/ai/2026/10/anthropic-gives-outside-ai-watchdog-employee-like-access/",
+       "name": "Ars Technica AI",
+       "kind": "press"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-10-18T16:25:19Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 2,
+      "hype_flags": []
+     },
+     "editor_reason": "Anthropic granted external evaluators employee-like access to assess model safety risks directly.",
+     "rank": 8,
+     "id": "2026-10-18-anthropic-gives-outside-ai-watchdog-employee-like-access",
+     "date": "2026-10-18"
+    },
+    {
+     "title": "Report says Anthropic workforce has become less junior",
+     "one_liner": "A new report shows Anthropic is hiring fewer junior staff as AI agents log six times as many hours as humans.",
+     "summary": "A report on employment at Anthropic shows that the company has been hiring for a smaller share of junior technical positions. By August, interactive AI agent hours outnumbered employee hours six to one. The share of junior-level employees in technical departments slipped from 21% to 14% since early 2025. The proportion of junior technical hires fell from 27% to 9%. As AI agents diffused through the company, output rose and hiring managers increasingly emphasized autonomy and judgment over specific technical expertise.",
+     "eli5": "Anthropic is using robot helpers that work many more hours than people, so the company is hiring fewer beginners.",
+     "why_it_matters": "Internal AI adoption shifts hiring toward autonomy and reduces demand for junior technical roles.",
+     "topic": "industry",
+     "type": "event",
+     "labs": [
+      "anthropic"
+     ],
+     "people": [],
+     "concepts": [
+      "agent",
+      "coding-assistant"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [
+      {
+       "term": "meta-work",
+       "definition": "Employees turn to meta-work of building visibility tools and monitoring agent pipelines."
+      }
+     ],
+     "sources": [
+      {
+       "title": "How employment is changing at Anthropic",
+       "url": "https://www.anthropic.com/research/employment-at-anthropic",
+       "name": "anthropic.com",
+       "kind": "original"
+      },
+      {
+       "title": "Discussion on Hacker News",
+       "url": "https://news.ycombinator.com/item?id=50139873",
+       "name": "Hacker News",
+       "kind": "discussion"
+      },
+      {
+       "title": "Anthropic says its workforce has become less junior and is spending more time in meetings",
+       "url": "https://techcrunch.com/2026/10/17/anthropic-says-its-workforce-has-become-less-junior-and-is-spending-more-time-in-meetings/",
+       "name": "TechCrunch AI",
+       "kind": "press"
+      },
+      {
+       "title": "Anthropic has nearly stopped hiring junior staff because AI agents now work six times as many hours",
+       "url": "https://the-decoder.com/anthropic-has-nearly-stopped-hiring-junior-staff-because-ai-agents-now-work-six-times-as-many-hours/",
+       "name": "The Decoder",
+       "kind": "press"
+      }
+     ],
+     "buzz": 3,
+     "published": "2026-10-17T20:21:19Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "Anthropic reported a sharp decline in junior technical hiring as internal AI agents handle a larger share of development hours.",
+     "rank": 9,
+     "id": "2026-10-18-report-says-anthropic-workforce-has-become-less-junior",
+     "date": "2026-10-18"
+    },
+    {
+     "title": "Four Gemini 4 Argon Agents Beat Minecraft Without Help",
+     "one_liner": "Four AI agents running on Google's Gemini 4 Argon have beaten Minecraft for the first time without human input.",
+     "summary": "Four AI agents running on Google's Gemini 4 Argon beat Minecraft without human input. They accomplished a fully autonomous run by slaying the Ender Dragon. The Google Deepmind team dropped them into a randomly generated world without assigning roles, strategies, or game-specific tools. The agents split up tasks, warned each other about threats, recovered items from dead teammates, and logged mistakes in a shared memory. Over 27 hours and 14 minutes, they wrote 2,783 JavaScript programs, exchanged 229 chat messages, and died 605 times. The session cost $1,620 at the standard price taking effect in 2027.",
+     "eli5": "Four computer helpers played Minecraft together all by themselves without a person telling them what to do, and they won the game.",
+     "why_it_matters": "Autonomous agents can now coordinate complex long-running tasks and write their own programs without human intervention.",
+     "topic": "agents",
+     "type": "event",
+     "labs": [
+      "google"
+     ],
+     "people": [],
+     "concepts": [
+      "agent"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "Four Gemini 4 Argon agents beat Minecraft without any human help",
+       "url": "https://the-decoder.com/four-gemini-4-argon-agents-beat-minecraft-without-any-human-help/",
+       "name": "The Decoder",
+       "kind": "press"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-10-18T12:39:51Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "A team of four Gemini 4 Argon agents autonomously completed Minecraft and defeated the Ender Dragon without human intervention.",
+     "rank": 10,
+     "id": "2026-10-18-four-gemini-4-argon-agents-beat-minecraft-without-help",
+     "date": "2026-10-18"
+    },
+    {
+     "title": "NVIDIA RTX Spark Laptops and Surface Laptop Ultra Launch",
+     "one_liner": "NVIDIA launched RTX Spark laptops starting at $2,399, featuring Blackwell RTX graphics and Grace CPUs, alongside global launch events.",
+     "summary": "NVIDIA RTX Spark laptops are now available, bringing NVIDIA Blackwell RTX graphics, up to 128GB of unified memory, and the full NVIDIA AI platform to slim Windows PCs starting at $2,399. Laptops from makers like ASUS, Dell, HP, Lenovo, Microsoft, and MSI deliver up to 1 petaflop of AI compute. NVIDIA celebrated the launch with global events in cities including Berlin, Beijing, Istanbul, Seoul, San Francisco, and Taipei. Additionally, Microsoft announced the NVIDIA RTX Spark-powered Surface Laptop Ultra.",
+     "eli5": "NVIDIA made a tiny, super-powerful computer chip that fits inside a laptop, letting people run heavy artificial intelligence tasks right on their personal computers.",
+     "why_it_matters": "Local hardware with up to one petaflop of AI compute makes it possible to run powerful models and workflows directly on portable devices.",
+     "topic": "products",
+     "type": "product",
+     "labs": [
+      "nvidia",
+      "microsoft"
+     ],
+     "people": [],
+     "concepts": [
+      "gpu"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [
+      {
+       "term": "unified memory",
+       "definition": "Unified memory combines system memory resources to provide up to 128GB of shared capacity on slim, premium Windows PCs."
+      }
+     ],
+     "sources": [
+      {
+       "title": "RTX Spark Ignites Global Celebration as New Windows PCs Arrive",
+       "url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-windows-laptops-celebration/",
+       "name": "NVIDIA Blog",
+       "kind": "original"
+      },
+      {
+       "title": "An interview with Microsoft CEO Satya Nadella on the Nvidia RTX Spark-powered Surface Laptop Ultra, plans to make Windows a safer OS to run AI agents, and more (Joanna Stern/The New Things)",
+       "url": "https://www.techmeme.com/261017/p20#a261017p20",
+       "name": "Techmeme",
+       "kind": "press"
+      }
+     ],
+     "buzz": 2,
+     "published": "2026-10-17T21:00:13Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "Nvidia and hardware partners launched RTX Spark laptops featuring Blackwell RTX graphics and up to 128GB of unified memory.",
+     "rank": 11,
+     "id": "2026-10-18-nvidia-rtx-spark-laptops-and-surface-laptop-ultra-launch",
+     "date": "2026-10-18"
+    },
+    {
+     "title": "Anomaly Innovations Reports Breach Affecting OpenCode Console Users",
+     "one_liner": "Anomaly Innovations says a large-scale distillation attack breached about 1.4 percent of OpenCode Console users and their API keys.",
+     "summary": "Anomaly Innovations, the company behind the coding agent OpenCode, reported a security breach. According to Startup Fortune, the incident affected roughly 1.4 percent of OpenCode Console users. The breach also impacted their API keys. The company described the incident as a large-scale distillation attack.",
+     "eli5": "A coding tool had a security break-in, like someone sneaking into a clubhouse and taking keys for a small group of members.",
+     "why_it_matters": "Security breaches targeting developer consoles highlight the vulnerability of stored API keys during targeted attacks.",
+     "topic": "dev-tools",
+     "type": "event",
+     "labs": [],
+     "people": [],
+     "concepts": [
+      "coding-assistant",
+      "agent",
+      "distillation"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "Anomaly Innovations, behind coding agent OpenCode, says a breach hit ~1.4% of OpenCode Console users and their API keys, in a \"large scale distillation attack\" (Walter Schulze/Startup Fortune)",
+       "url": "https://www.techmeme.com/261017/p18#a261017p18",
+       "name": "Techmeme",
+       "kind": "press"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-10-17T20:50:01Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 2,
+      "hype_flags": []
+     },
+     "editor_reason": "A security breach hit OpenCode Console, exposing API keys for about 1.4 percent of its users.",
+     "rank": 12,
+     "id": "2026-10-18-anomaly-innovations-reports-breach-affecting-opencode-consol",
+     "date": "2026-10-18"
+    }
+   ],
+   "stats": {
+    "items": 39,
+    "stories": 38,
+    "sources_ok": 41,
+    "sources_failed": [],
+    "published": 12,
+    "dropped": 0,
+    "llm_calls": 39,
+    "cache_hits": 0,
+    "models": {
+     "gemini:gemini-3.8-flash": 1,
+     "gemini:gemini-3.5-flash-lite": 19,
+     "anthropic:claude-sonnet-5-5": 19
+    },
+    "fallbacks": [],
+    "seconds": 143
+   }
   }
  }
 }
