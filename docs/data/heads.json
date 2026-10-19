@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-18T18:40:00Z",
+ "updated_at": "2026-10-19T18:36:03Z",
  "window_days": 7,
  "groups": [
   {
@@ -923,6 +923,136 @@
  ],
  "posts": [
   {
+   "id": "x-2112168320946634932",
+   "platform": "x",
+   "url": "https://x.com/satyanadella/status/2112168320946634932",
+   "posted_at": "2026-10-19T13:05:44Z",
+   "date_only": false,
+   "text": "I recently wrote about why we need to treat models as insider risks, with security controls sitting outside the model itself.\n\nToday, we're putting that principle into practice by expanding Project Perception with new capabilities to help continuously assess agent risk, adapt…",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">I recently wrote about why we need to treat models as insider risks, with security controls sitting outside the model itself.<br><br>Today, we&#39;re putting that principle into practice by expanding Project Perception with new capabilities to help continuously assess agent risk, adapt…</p>&mdash; Satya Nadella (@satyanadella) <a href=\"https://x.com/satyanadella/status/2112168320946634932?ref_src=twsrc%5Etfw\">October 19, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "satya-nadella",
+   "meaning": "Satya Nadella, following his essay on treating AI models as insider risks with security controls outside the model, says Microsoft is expanding Project Perception to keep assessing the risk of AI agents.",
+   "concepts": [
+    "ai-governance",
+    "agent",
+    "ai-safety"
+   ],
+   "story": null,
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "editor",
+   "added": "2026-10-19"
+  },
+  {
+   "id": "bsky-emollick.bsky.social-3mya65d6mns2y",
+   "person": "ethan-mollick",
+   "platform": "bluesky",
+   "url": "https://bsky.app/profile/emollick.bsky.social/post/3mya65d6mns2y",
+   "posted_at": "2026-10-19T12:55:16Z",
+   "text": "Writing good STATA code was important for my academic career. It looks like that skill is largely becoming obsolete post Sonnet 4.6. (Also take this is as a notice to academics who still think of AI in terms of chatbots, not agents, that a lot has changed in a year) \n\nPaper: cepr.org/voxeu/column...",
+   "links": [
+    {
+     "text": "cepr.org/voxeu/column...",
+     "url": "https://cepr.org/voxeu/columns/letting-ai-agents-write-econometric-code"
+    }
+   ],
+   "context": null,
+   "likes": 38,
+   "reposts": 2,
+   "via": "feed",
+   "meaning": "Mollick argues that writing code in STATA is becoming obsolete due to recent language models. He notes that academics who view AI only as chatbots are missing a major shift toward agents.",
+   "concepts": [
+    "agent",
+    "coding-assistant",
+    "language-model"
+   ],
+   "story": null,
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "anthropic:claude-sonnet-5-5",
+   "added": "2026-10-19"
+  },
+  {
+   "id": "x-2112156275282968930",
+   "platform": "x",
+   "url": "https://x.com/arena/status/2112156275282968930",
+   "posted_at": "2026-10-19T12:17:52Z",
+   "date_only": false,
+   "text": "MiniMax-M3.1-Flash by @MiniMax_AI is live in the Code Arena: WebDev. It debuts at #12 among open models with 1588 pts (#32 overall). It also lifts MiniMax to #12 among all labs!\n\nMiniMax-M3.1-Flash is a +106 pt increase from the previous variant, MiniMax-M3 with 1482 pts at #19… https://t.co/kNsjeZ5z7q",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">MiniMax-M3.1-Flash by <a href=\"https://x.com/MiniMax_AI?ref_src=twsrc%5Etfw\">@MiniMax_AI</a> is live in the Code Arena: WebDev. It debuts at #12 among open models with 1588 pts (#32 overall). It also lifts MiniMax to #12 among all labs!<br><br>MiniMax-M3.1-Flash is a +106 pt increase from the previous variant, MiniMax-M3 with 1482 pts at #19… <a href=\"https://t.co/kNsjeZ5z7q\">https://t.co/kNsjeZ5z7q</a> <a href=\"https://t.co/Hcw53yzSy6\">pic.twitter.com/Hcw53yzSy6</a></p>&mdash; Arena.ai (@arena) <a href=\"https://x.com/arena/status/2112156275282968930?ref_src=twsrc%5Etfw\">October 19, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "x-lmarena",
+   "meaning": "Arena reports that MiniMax-M3.1-Flash launched in the Code Arena for WebDev, scoring 1588 points and debuting at number 12 among open models.",
+   "concepts": [
+    "coding-assistant",
+    "benchmark",
+    "open-weight-model"
+   ],
+   "story": "2026-10-19-minimax-releases-m3-1-flash-reasoning-model",
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "anthropic:claude-sonnet-5-5",
+   "added": "2026-10-19"
+  },
+  {
+   "id": "x-2112089556615123114",
+   "platform": "x",
+   "url": "https://x.com/elonmusk/status/2112089556615123114",
+   "posted_at": "2026-10-19T07:52:45Z",
+   "date_only": false,
+   "text": "Next year, I will give one of my SpaceX shares to every kid in America.\n\nThis will be the first of many.",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">Next year, I will give one of my SpaceX shares to every kid in America.<br><br>This will be the first of many.</p>&mdash; Elon Musk (@elonmusk) <a href=\"https://x.com/elonmusk/status/2112089556615123114?ref_src=twsrc%5Etfw\">October 19, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "elon-musk",
+   "meaning": "Elon Musk says that next year he will give one of his SpaceX shares to every child in America, and calls it the first of many. He posted it the day after Anthropic announced its public benefit fund, and earlier had suggested Anthropic give its shares directly to the public.",
+   "concepts": [],
+   "story": null,
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "editor",
+   "added": "2026-10-19"
+  },
+  {
+   "id": "x-2111918212946309445",
+   "platform": "x",
+   "url": "https://x.com/jackclarkSF/status/2111918212946309445",
+   "posted_at": "2026-10-18T20:31:54Z",
+   "date_only": false,
+   "text": "Between this and our prior commitments, roughly 20% of all Anthropic equity will be dedicated to the public good, and that commitment can grow as Anthropic grows.\n\nWe plan to use these funds to ensure more people can share in the benefits of AI, and to increase our ability to… https://t.co/6rcnkocZaZ",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">Between this and our prior commitments, roughly 20% of all Anthropic equity will be dedicated to the public good, and that commitment can grow as Anthropic grows.<br><br>We plan to use these funds to ensure more people can share in the benefits of AI, and to increase our ability to… <a href=\"https://t.co/6rcnkocZaZ\">https://t.co/6rcnkocZaZ</a></p>&mdash; Jack Clark (@jackclarkSF) <a href=\"https://x.com/jackclarkSF/status/2111918212946309445?ref_src=twsrc%5Etfw\">October 18, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "jack-clark",
+   "meaning": "Anthropic co-founder Jack Clark says that with this fund and earlier commitments, roughly 20% of all Anthropic equity is now dedicated to the public good, and the share can grow as the company grows.",
+   "concepts": [
+    "ai-governance"
+   ],
+   "story": null,
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "editor",
+   "added": "2026-10-19"
+  },
+  {
+   "id": "x-2111881963657412903",
+   "platform": "x",
+   "url": "https://x.com/AnthropicAI/status/2111881963657412903",
+   "posted_at": "2026-10-18T18:07:51Z",
+   "date_only": false,
+   "text": "We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new wholly owned entity dedicated entirely to the public benefit.\n\nIt will start off with 5% of our shares. For every 50% increase in the company’s value over a set baseline, we can…",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new wholly owned entity dedicated entirely to the public benefit.<br><br>It will start off with 5% of our shares. For every 50% increase in the company’s value over a set baseline, we can…</p>&mdash; Anthropic (@AnthropicAI) <a href=\"https://x.com/AnthropicAI/status/2111881963657412903?ref_src=twsrc%5Etfw\">October 18, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "x-anthropicai",
+   "meaning": "Anthropic is putting 5% of its shares into a new Anthropic Public Benefit Fund, a wholly owned entity dedicated to the public benefit, with room to add more as the company's value rises above a set baseline.",
+   "concepts": [
+    "ai-governance"
+   ],
+   "story": null,
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "editor",
+   "added": "2026-10-19"
+  },
+  {
    "id": "x-2111867437238853726",
    "platform": "x",
    "url": "https://x.com/elonmusk/status/2111867437238853726",
@@ -996,8 +1126,8 @@
    "text": "In a move that is both fascinating and viscerally unsettling, AI world model company Odyssey took a simulation of a fruit fly's brain, Google's connectome map of a fly's actual neurons and connections, and placed it inside an AI-generated world.\n\nA simulated brain exploring a simulated reality.",
    "links": [],
    "context": null,
-   "likes": 81,
-   "reposts": 7,
+   "likes": 95,
+   "reposts": 9,
    "via": "feed",
    "meaning": "Mollick shares that Odyssey placed a fruit fly brain simulation, built from a connectome map of actual neurons, inside an AI-generated world. Builders may care because this combines biological neural wiring with artificial world models to explore simulated realities.",
    "concepts": [
@@ -1019,7 +1149,7 @@
    "text": "A consequential choice will be made soon by government and companies as they are increasingly flooded with agentic AI inquiries that overcome the frictions that gated access (see the graphs - it has already started!)\n\nTwo options: do you make services worse or better as a result?",
    "links": [],
    "context": null,
-   "likes": 98,
+   "likes": 101,
    "reposts": 15,
    "via": "feed",
    "meaning": "Mollick notes that governments and companies face a choice on whether services will improve or worsen as they deal with a surge in agentic AI inquiries.",
@@ -1127,7 +1257,7 @@
     }
    ],
    "context": null,
-   "likes": 18,
+   "likes": 20,
    "reposts": 2,
    "via": "feed",
    "meaning": "Lambert reflects on Meta's recent progress and the current standing of US open weight models. Builders care about how open weights compete with top proprietary models from Anthropic and OpenAI.",
@@ -1447,7 +1577,7 @@
     }
    ],
    "context": null,
-   "likes": 106,
+   "likes": 108,
    "reposts": 11,
    "via": "feed",
    "meaning": "Mollick highlights a paper showing Gemini 4 agents beating Minecraft, demonstrating spontaneous coordination and different problem solving approaches compared to humans. Developers working with multi agent systems will find this relevant.",
@@ -2256,7 +2386,7 @@
    "text": "The sudden collapse of the value of Chain-of-Thought (even summarized CoT) in the agentic era changes working with AI.\n\nEffectively steering AIs and getting any sort of observability now requires you to ask for interim outputs & tests, and to use AI help to troubleshoot problems you find.",
    "links": [],
    "context": null,
-   "likes": 61,
+   "likes": 62,
    "reposts": 3,
    "via": "feed",
    "meaning": "Mollick argues that the collapse of chain-of-thought value in the agentic era requires users to ask for interim outputs, tests, and AI troubleshooting for observability.",
@@ -2366,7 +2496,7 @@
     }
    ],
    "context": null,
-   "likes": 81,
+   "likes": 83,
    "reposts": 11,
    "via": "feed",
    "meaning": "Simon Willison notes reports that distillation accounts for a notable percentage of Anthropic's revenue, suggesting other labs spend hundreds of millions distilling Anthropic models.",
@@ -3794,7 +3924,7 @@
     }
    ],
    "context": null,
-   "likes": 76,
+   "likes": 77,
    "reposts": 6,
    "via": "feed",
    "meaning": "Mollick highlights an Anthropic warning to focus on sudden AI ability thresholds rather than steady capability climbs, citing a threshold involving self-replicating AI worms on IoT devices. Developers and safety researchers care about identifying such critical capability jumps.",

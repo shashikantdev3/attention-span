@@ -5073,6 +5073,353 @@
     "fallbacks": [],
     "seconds": 143
    }
+  },
+  "2026-10-19": {
+   "date": "2026-10-19",
+   "generated_at": "2026-10-19T18:32:55Z",
+   "stories": [
+    {
+     "title": "Meta Details Gigawatt-Scale Prometheus Supercluster in Ohio",
+     "one_liner": "Meta detailed Prometheus, its gigawatt-scale supercluster in Ohio that houses hundreds of thousands of GPUs and will scale to roughly one million.",
+     "summary": "Meta detailed Prometheus, its gigawatt-scale AI supercluster located in New Albany, Ohio. Built in phases, the first completed phase was used to train the Muse foundational models. At full scale, Prometheus will comprise roughly one million distributed GPUs. The infrastructure currently deploys two NVIDIA platforms named Catalina and Clemente, with a third platform based on NVIDIA's Vera Rubin NVL72 arriving soon. The facility features closed-loop liquid cooling and uses technologies like Open Rack V3. Meta achieved over 85 percent goodput for pre-training runs and over 90 percent for reinforcement learning runs of Muse Wonder during training.",
+     "eli5": "Meta is building a giant computer city in Ohio by connecting hundreds of thousands of specialized computer chips together with massive cables so they can all work as one giant brain.",
+     "why_it_matters": "Massive cluster architectures enable training larger foundational models and longer context windows than were previously practical.",
+     "topic": "industry",
+     "type": "event",
+     "labs": [
+      "meta",
+      "nvidia"
+     ],
+     "people": [],
+     "concepts": [
+      "gpu",
+      "foundation-model",
+      "pretraining"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "Inside Prometheus: Meta’s Journey to a Gigawatt-Scale Supercluster",
+       "url": "https://engineering.fb.com/2026/10/19/data-center-engineering/inside-prometheus-meta-gigawatt-scale-supercluster/",
+       "name": "Meta Engineering",
+       "kind": "original"
+      },
+      {
+       "title": "Meta details Prometheus, its gigawatt-scale supercluster in Ohio, which will have ~1M GPUs at full scale and was used to train its Muse foundational models (Engineering at Meta)",
+       "url": "https://www.techmeme.com/261019/p40#a261019p40",
+       "name": "Techmeme",
+       "kind": "press"
+      }
+     ],
+     "buzz": 2,
+     "published": "2026-10-19T13:00:10Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 2,
+      "hype_flags": []
+     },
+     "editor_reason": "Meta detailed Prometheus, its gigawatt-scale AI supercluster in Ohio built to host roughly one million GPUs.",
+     "rank": 1,
+     "id": "2026-10-19-meta-details-gigawatt-scale-prometheus-supercluster-in-ohio",
+     "date": "2026-10-19"
+    },
+    {
+     "title": "Browser Automation Tool in Microsoft Foundry is Now GA",
+     "one_liner": "Microsoft Foundry has made its browser automation tool generally available, giving AI agents a managed browser to navigate websites using natural language.",
+     "summary": "The browser automation tool in Microsoft Foundry is now generally available. It provides agents with a managed browser powered by Playwright Workspaces. Agents can navigate websites, inspect content, complete forms, and perform multistep workflows using natural-language instructions. The tool supports prompt agents, hosted agents, and GitHub copilot harness support. Agents interact through an observe-and-act process. They can connect to both public websites and private applications protected behind an Azure virtual network. The architecture includes native remote Model Context Protocol integration, centralized identity and connection management, and tool allow lists.",
+     "eli5": "AI agents can now use a web browser just like a person does, visiting websites and clicking around to finish tasks.",
+     "why_it_matters": "AI agents can now interact directly with websites and legacy applications that lack complete API coverage.",
+     "topic": "microsoft",
+     "type": "product",
+     "labs": [
+      "microsoft"
+     ],
+     "people": [],
+     "concepts": [
+      "agent",
+      "mcp",
+      "tool-use"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [
+      {
+       "term": "Playwright Workspaces",
+       "definition": "Playwright Workspaces provisions and manages isolated cloud browser sessions on demand."
+      }
+     ],
+     "sources": [
+      {
+       "title": "Browser automation tool in Microsoft Foundry is now GA",
+       "url": "https://devblogs.microsoft.com/foundry/browser-automation-tool-ga/",
+       "name": "Azure AI Foundry Blog",
+       "kind": "original"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-10-19T10:32:13Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "Microsoft made its browser automation tool in Microsoft Foundry generally available for agentic workflows.",
+     "rank": 2,
+     "id": "2026-10-19-browser-automation-tool-in-microsoft-foundry-is-now-ga",
+     "date": "2026-10-19"
+    },
+    {
+     "title": "Microsoft Fabric Data Agents Gain Advanced NL2SQL and DAX",
+     "one_liner": "Advanced natural language to SQL and DAX generation are now generally available for Microsoft Fabric data agents.",
+     "summary": "Microsoft Fabric data agents now feature advanced natural language to SQL and DAX generation. Data agents let users ask questions about data in plain language. Creators connect agents to supported sources, such as SQL databases, lakehouses, Power BI semantic models, and eventhouses, and share them across Fabric, Teams, Microsoft 365 Copilot, Copilot Studio, and Microsoft Foundry. Enterprise schemas can be complex, so advanced NL2SQL and DAX generation help the agent explore schemas, validate assumptions, and refine its approach before generating a query. These capabilities are available today, and core improvements roll out to the standard runtime from November 2 to November 10.",
+     "eli5": "You can now ask a computer questions about numbers and tables using plain sentences, and it figures out the right math to give you the answer. It is like having a smart librarian who knows exactly where to look in a giant room of books.",
+     "why_it_matters": "Data agents can now explore complex schemas and validate assumptions before generating queries, reducing incorrect results.",
+     "topic": "data-bi",
+     "type": "product",
+     "labs": [
+      "microsoft"
+     ],
+     "people": [],
+     "concepts": [
+      "agent",
+      "microsoft-fabric",
+      "natural-language-query"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [
+      {
+       "term": "Advanced NL2SQL",
+       "definition": "Advanced NL2SQL allows the agent to explore the schema and data, validate assumptions, and refine its approach before generating a query."
+      }
+     ],
+     "sources": [
+      {
+       "title": "Advanced NL2SQL and advanced DAX generation in Fabric data agents (Generally Available)",
+       "url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Advanced-NL2SQL-and-advanced-DAX-generation-in-Fabric-data/ba-p/5374654",
+       "name": "Microsoft Fabric Blog",
+       "kind": "original"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-10-19T15:56:36Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "Microsoft Fabric data agents now feature generally available advanced NL2SQL and DAX generation capabilities.",
+     "rank": 3,
+     "id": "2026-10-19-microsoft-fabric-data-agents-gain-advanced-nl2sql-and-dax",
+     "date": "2026-10-19"
+    },
+    {
+     "title": "CERN and Mistral Sign Statement of Intent for Strategic Partnership",
+     "one_liner": "CERN and Mistral sign a statement of intent to develop foundation models for scientific discovery.",
+     "summary": "CERN and Mistral have signed a statement of intent to establish a long-term strategic partnership focused on developing foundation models for scientific discovery. The partnership combines CERN's expertise in fundamental physics, scientific data and large-scale computing with Mistral's leadership in large-scale model training. The initial focus is on high-energy physics, with the ambition to develop a single pretrained Large Physics Model as the first foundation model for collider physics. It will be trained on billions of simulated proton-proton collisions at the Large Hadron Collider.",
+     "eli5": "CERN smashes tiny particles together and records the data, and now they are teaming up with Mistral to train an artificial intelligence model on billions of those particle collisions.",
+     "why_it_matters": "Foundation models can learn across a whole data reconstruction chain and support multiple tasks within a single model rather than relying on specialised algorithms.",
+     "topic": "industry",
+     "type": "event",
+     "labs": [
+      "mistral",
+      "academia"
+     ],
+     "people": [],
+     "concepts": [
+      "foundation-model",
+      "machine-learning",
+      "pretraining"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [
+      {
+       "term": "Large Physics Model",
+       "definition": "A single pretrained foundation model for collider physics designed to support multiple tasks."
+      }
+     ],
+     "sources": [
+      {
+       "title": "CERN and Mistral sign a statement of intent to establish a strategic partnership",
+       "url": "https://home.cern/cern-and-mistral-join-forces-to-accelerate-ai-for-science/",
+       "name": "home.cern",
+       "kind": "press"
+      },
+      {
+       "title": "Discussion on Hacker News",
+       "url": "https://news.ycombinator.com/item?id=50153630",
+       "name": "Hacker News",
+       "kind": "discussion"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-10-19T15:28:24Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "CERN and Mistral AI signed a statement of intent to establish a strategic research partnership.",
+     "rank": 4,
+     "id": "2026-10-19-cern-and-mistral-sign-statement-of-intent-for-strategic-part",
+     "date": "2026-10-19"
+    },
+    {
+     "title": "Meta Improves AI Agent Reliability With Thin Orchestrator Pattern",
+     "one_liner": "Meta improved AI agent reliability by using a thin orchestrator router that performs zero domain work and delegates to specialized subagents.",
+     "summary": "Meta built a 1,300-line orchestrator that routes over 20 workflows to 14 specialized AI agents while performing zero domain work itself. When automating data column onboarding across recommendation systems, a single smart agent that knew everything began to hallucinate in production due to context overload. The new thin orchestrator pattern uses a deterministic router that handles sequencing and reliability checks. It leaves every domain decision to specialized subagents with isolated contexts. This approach prevents context interference and allows teams to support new use cases by writing new workflow templates that reuse existing agents.",
+     "eli5": "Instead of asking one person to know everything about every job, a boss simply routes the tasks to different experts who only look at their own notes.",
+     "why_it_matters": "Giving an AI router less domain knowledge and delegating to specialized workers prevents context overload and hallucinations.",
+     "topic": "agents",
+     "type": "event",
+     "labs": [
+      "meta"
+     ],
+     "people": [],
+     "concepts": [
+      "agent",
+      "hallucination",
+      "context-window"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [
+      {
+       "term": "thin orchestrator pattern",
+       "definition": "A router that owns sequencing and reliability checks, and leaves every domain decision to specialists."
+      },
+      {
+       "term": "workflow templates",
+       "definition": "Deterministic state machines that constrain the LLM decision space by defining phase ordering."
+      }
+     ],
+     "sources": [
+      {
+       "title": "The Thin Orchestrator: How We Made Our AI Agents More Reliable by Giving the Router Less to Do",
+       "url": "https://engineering.fb.com/2026/10/19/ml-applications/thin-orchestrator-ai-agent-architecture/",
+       "name": "Meta Engineering",
+       "kind": "original"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-10-19T15:30:37Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "Meta published engineering details on how reducing router responsibilities improved the reliability of its AI agents.",
+     "rank": 5,
+     "id": "2026-10-19-meta-improves-ai-agent-reliability-with-thin-orchestrator-pa",
+     "date": "2026-10-19"
+    },
+    {
+     "title": "MiniMax Releases M3.1 Flash Reasoning Model",
+     "one_liner": "MiniMax released M3.1 Flash, a new reasoning model that scores 42 points on the Artificial Analysis Intelligence Index at a lower cost.",
+     "summary": "MiniMax has released M3.1 Flash, a reasoning model that scores 42 points on the Artificial Analysis Intelligence Index. This is 13 points higher than its predecessor M3 at less than half the cost per task. The model handles up to one million tokens of context and accepts text and images. API pricing is set at $0.15 per million input tokens and $0.60 per million output tokens, with cached inputs at $0.015. MiniMax plans to release the model as open weights on October 23. The API is live at platform.minimax.io, and the company offers a desktop app called MiniMax Code.",
+     "eli5": "MiniMax made a smarter computer brain that costs less money to use, much like a store selling a better toy for a cheaper price.",
+     "why_it_matters": "Lower API pricing and improved reasoning performance reduce the cost of building complex applications.",
+     "topic": "models",
+     "type": "model",
+     "labs": [
+      "deepseek"
+     ],
+     "people": [],
+     "concepts": [
+      "reasoning-model",
+      "benchmark",
+      "open-weight-model"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "MiniMax M3.1 Flash shows China's AI price race has no floor in sight",
+       "url": "https://the-decoder.com/minimax-m3-1-flash-shows-chinas-ai-price-race-has-no-floor-in-sight/",
+       "name": "The Decoder",
+       "kind": "press"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-10-19T18:22:30Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "MiniMax released its M3.1 Flash model, delivering higher benchmark performance at lower inference costs.",
+     "rank": 6,
+     "id": "2026-10-19-minimax-releases-m3-1-flash-reasoning-model",
+     "date": "2026-10-19"
+    },
+    {
+     "title": "Report: Hacker breaks into websites using an army of AI agents",
+     "one_liner": "An AI security firm reports that a hacker used an army of AI agents to break into more than 100 websites.",
+     "summary": "According to findings from AI security firm Norforge, a hacker broke into more than 100 websites using an army of AI agents that mostly operated on their own with little human involvement. Reuters reports that victims included companies such as John Deere, SharkNinja, and Cummins. Researchers uncovered the attacks through exposed work on Cairn, an open-source AI platform. The attacker used fewer than 100 Chinese characters to lay out preferred intrusion tactics, with successful breaches taking about 23 hours. John Deere stated there is no indication that sensitive information was accessed. Nordforge is working to get the malicious instances taken down.",
+     "eli5": "A hacker used a group of robot helpers to break into many websites with very little help from the human. Think of it like a group of little automated helpers opening doors on their own.",
+     "why_it_matters": "Open-source platforms can be used by hackers to orchestrate cyberattacks using autonomous AI agents.",
+     "topic": "agents",
+     "type": "event",
+     "labs": [],
+     "people": [],
+     "concepts": [
+      "agent"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [
+      {
+       "term": "general-purpose problem-solving engine",
+       "definition": "An open-source AI platform where users set a start and end point for AI agents that document their progress."
+      }
+     ],
+     "sources": [
+      {
+       "title": "A hacker broke into John Deere and SharkNinja with an army of AI agents",
+       "url": "https://www.theverge.com/ai-artificial-intelligence/1013643/ai-agents-hack-john-deere-shark-ninja-cummins",
+       "name": "theverge.com",
+       "kind": "press"
+      },
+      {
+       "title": "Discussion on Hacker News",
+       "url": "https://news.ycombinator.com/item?id=50152877",
+       "name": "Hacker News",
+       "kind": "discussion"
+      }
+     ],
+     "buzz": 2,
+     "published": "2026-10-19T13:58:41Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 2,
+      "hype_flags": []
+     },
+     "editor_reason": "Security firm Norforg revealed that a hacker used an autonomous network of AI agents to breach over 100 websites.",
+     "rank": 7,
+     "id": "2026-10-19-report-hacker-breaks-into-websites-using-an-army-of-ai-agent",
+     "date": "2026-10-19"
+    }
+   ],
+   "stats": {
+    "items": 60,
+    "stories": 57,
+    "sources_ok": 41,
+    "sources_failed": [],
+    "published": 9,
+    "dropped": 3,
+    "llm_calls": 27,
+    "cache_hits": 10,
+    "models": {
+     "anthropic:claude-sonnet-5-5": 14,
+     "gemini:gemini-3.5-flash-lite": 13
+    },
+    "fallbacks": [],
+    "seconds": 102
+   }
   }
  }
 }

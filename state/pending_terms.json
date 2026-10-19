@@ -173,5 +173,47 @@
   "first_seen": "2026-10-18",
   "story": "2026-10-18-nvidia-rtx-spark-laptops-and-surface-laptop-ultra-launch",
   "source": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-windows-laptops-celebration/"
+ },
+ {
+  "term": "Playwright Workspaces",
+  "definition": "Playwright Workspaces provisions and manages isolated cloud browser sessions on demand.",
+  "first_seen": "2026-10-19",
+  "story": "2026-10-19-browser-automation-tool-in-microsoft-foundry-is-now-ga",
+  "source": "https://devblogs.microsoft.com/foundry/browser-automation-tool-ga/"
+ },
+ {
+  "term": "Advanced NL2SQL",
+  "definition": "Advanced NL2SQL allows the agent to explore the schema and data, validate assumptions, and refine its approach before generating a query.",
+  "first_seen": "2026-10-19",
+  "story": "2026-10-19-microsoft-fabric-data-agents-gain-advanced-nl2sql-and-dax",
+  "source": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Advanced-NL2SQL-and-advanced-DAX-generation-in-Fabric-data/ba-p/5374654"
+ },
+ {
+  "term": "Large Physics Model",
+  "definition": "A single pretrained foundation model for collider physics designed to support multiple tasks.",
+  "first_seen": "2026-10-19",
+  "story": "2026-10-19-cern-and-mistral-sign-statement-of-intent-for-strategic-part",
+  "source": "https://home.cern/cern-and-mistral-join-forces-to-accelerate-ai-for-science/"
+ },
+ {
+  "term": "thin orchestrator pattern",
+  "definition": "A router that owns sequencing and reliability checks, and leaves every domain decision to specialists.",
+  "first_seen": "2026-10-19",
+  "story": "2026-10-19-meta-improves-ai-agent-reliability-with-thin-orchestrator-pa",
+  "source": "https://engineering.fb.com/2026/10/19/ml-applications/thin-orchestrator-ai-agent-architecture/"
+ },
+ {
+  "term": "workflow templates",
+  "definition": "Deterministic state machines that constrain the LLM decision space by defining phase ordering.",
+  "first_seen": "2026-10-19",
+  "story": "2026-10-19-meta-improves-ai-agent-reliability-with-thin-orchestrator-pa",
+  "source": "https://engineering.fb.com/2026/10/19/ml-applications/thin-orchestrator-ai-agent-architecture/"
+ },
+ {
+  "term": "general-purpose problem-solving engine",
+  "definition": "An open-source AI platform where users set a start and end point for AI agents that document their progress.",
+  "first_seen": "2026-10-19",
+  "story": "2026-10-19-report-hacker-breaks-into-websites-using-an-army-of-ai-agent",
+  "source": "https://www.theverge.com/ai-artificial-intelligence/1013643/ai-agents-hack-john-deere-shark-ninja-cummins"
  }
 ]
