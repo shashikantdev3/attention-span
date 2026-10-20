@@ -215,5 +215,103 @@
   "first_seen": "2026-10-19",
   "story": "2026-10-19-report-hacker-breaks-into-websites-using-an-army-of-ai-agent",
   "source": "https://www.theverge.com/ai-artificial-intelligence/1013643/ai-agents-hack-john-deere-shark-ninja-cummins"
+ },
+ {
+  "term": "diarization",
+  "definition": "Identifying who said what during a speech transcription.",
+  "first_seen": "2026-10-20",
+  "story": "2026-10-20-mistral-ai-launches-voxtral-3-voice-agent-stack",
+  "source": "https://mistral.ai/news/voxtral-3/"
+ },
+ {
+  "term": "context-biasing",
+  "definition": "Using keyphrases to improve transcription accuracy on domain-specific vocabulary.",
+  "first_seen": "2026-10-20",
+  "story": "2026-10-20-mistral-ai-launches-voxtral-3-voice-agent-stack",
+  "source": "https://mistral.ai/news/voxtral-3/"
+ },
+ {
+  "term": "model distillation",
+  "definition": "A technique that uses outputs from one AI model to train another.",
+  "first_seen": "2026-10-20",
+  "story": "2026-10-20-us-orders-federal-agencies-to-remove-deepseek-ai",
+  "source": "https://techcrunch.com/2026/10/20/us-orders-federal-agencies-to-remove-chinas-deepseek-ai-from-their-systems/"
+ },
+ {
+  "term": "asynchronous scheduling",
+  "definition": "Asynchronous scheduling overlaps CPU batch scheduling with device execution.",
+  "first_seen": "2026-10-20",
+  "story": "2026-10-20-deepseek-open-sources-deepinfer-inference-framework-for-v4-1",
+  "source": "https://github.com/deepseek-ai/DeepInfer"
+ },
+ {
+  "term": "batch-invariant inference",
+  "definition": "Batch-invariant inference keeps model results identical across different batch compositions.",
+  "first_seen": "2026-10-20",
+  "story": "2026-10-20-deepseek-open-sources-deepinfer-inference-framework-for-v4-1",
+  "source": "https://github.com/deepseek-ai/DeepInfer"
+ },
+ {
+  "term": "TorchTPU",
+  "definition": "TorchTPU adds TPU as a new backend to PyTorch so developers can write regular PyTorch code.",
+  "first_seen": "2026-10-20",
+  "story": "2026-10-20-google-open-sources-torchtpu-as-a-native-pytorch-backend-for",
+  "source": "https://huggingface.co/blog/hf-torchtpu"
+ },
+ {
+  "term": "Pallas kernels",
+  "definition": "Pallas kernels give developers low-level control over the hardware for TPU speed boosts.",
+  "first_seen": "2026-10-20",
+  "story": "2026-10-20-google-open-sources-torchtpu-as-a-native-pytorch-backend-for",
+  "source": "https://huggingface.co/blog/hf-torchtpu"
+ },
+ {
+  "term": "de novo design",
+  "definition": "De novo design offers a potential solution where protein binders are generated from scratch against a specific target.",
+  "first_seen": "2026-10-20",
+  "story": "2026-10-20-claude-designed-protein-binders-against-scorpion-neurotoxins",
+  "source": "https://www.anthropic.com/research/claude-scorpion-toxin-binder-design"
+ },
+ {
+  "term": "attack surface reduction",
+  "definition": "The process of using AI models to map the code that is reachable, then removing or restricting access to anything that a given deployment doesn't need to expose.",
+  "first_seen": "2026-10-20",
+  "story": "2026-10-20-anthropic-reports-research-on-using-claude-for-attack-surfac",
+  "source": "https://www.anthropic.com/research/attack-surface-reduction"
+ },
+ {
+  "term": "early reachability",
+  "definition": "Identifying security sensitive and complex code that runs either before an appropriate security control, without victim interaction, or before a protocol state transition.",
+  "first_seen": "2026-10-20",
+  "story": "2026-10-20-anthropic-reports-research-on-using-claude-for-attack-surfac",
+  "source": "https://www.anthropic.com/research/attack-surface-reduction"
+ },
+ {
+  "term": "User Data Functions",
+  "definition": "A feature that lets you extend T-SQL with custom Python logic without building separate applications or pipelines.",
+  "first_seen": "2026-10-20",
+  "story": "2026-10-20-microsoft-fabric-data-warehouse-updates-add-python-functions",
+  "source": "https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Fabric-Data-Warehouse-integration-with-Fabric-User-Data/ba-p/5375137"
+ },
+ {
+  "term": "QUALIFY clause",
+  "definition": "A clause that filters rows after window functions are evaluated.",
+  "first_seen": "2026-10-20",
+  "story": "2026-10-20-microsoft-fabric-data-warehouse-updates-add-python-functions",
+  "source": "https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Fabric-Data-Warehouse-integration-with-Fabric-User-Data/ba-p/5375137"
+ },
+ {
+  "term": "Mixture-of-Storage",
+  "definition": "Mixture-of-Storage is introduced to scale native memory capacity.",
+  "first_seen": "2026-10-20",
+  "story": "2026-10-20-memtensor-releases-memt-1-0-memory-foundation-models",
+  "source": "https://github.com/MemTensor/MemT-1.0"
+ },
+ {
+  "term": "Gated DeltaNet-2",
+  "definition": "Gated DeltaNet-2 performs stable token-level memory updates for subsequent steps.",
+  "first_seen": "2026-10-20",
+  "story": "2026-10-20-memtensor-releases-memt-1-0-memory-foundation-models",
+  "source": "https://github.com/MemTensor/MemT-1.0"
  }
 ]

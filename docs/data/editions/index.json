@@ -1,6 +1,13 @@
 {
  "editions": [
   {
+   "date": "2026-10-20",
+   "file": "2026-10.json",
+   "count": 12,
+   "spotlight": 0,
+   "lead": "US Orders Federal Agencies to Remove DeepSeek AI"
+  },
+  {
    "date": "2026-10-19",
    "file": "2026-10.json",
    "count": 7,
@@ -85,6 +92,6 @@
    "lead": "Anthropic Releases Claude Haiku 5.5 and AWS Integration"
   }
  ],
- "latest": "2026-10-19",
- "updated": "2026-10-19T18:32:56Z"
+ "latest": "2026-10-20",
+ "updated": "2026-10-20T23:14:11Z"
 }

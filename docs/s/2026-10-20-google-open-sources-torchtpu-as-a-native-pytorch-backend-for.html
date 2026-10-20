@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Google Open-Sources TorchTPU as a Native PyTorch Backend for TPUs | Attention Span</title>
+<meta name="description" content="TorchTPU brings native PyTorch support to Google TPUs, allowing models in Transformers and Diffusers to run directly on TPU hardware.">
+<link rel="canonical" href="https://shashikantdev3.github.io/attention-span/s/2026-10-20-google-open-sources-torchtpu-as-a-native-pytorch-backend-for.html">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Attention Span">
+<meta property="og:title" content="Google Open-Sources TorchTPU as a Native PyTorch Backend for TPUs">
+<meta property="og:description" content="TorchTPU brings native PyTorch support to Google TPUs, allowing models in Transformers and Diffusers to run directly on TPU hardware.">
+<meta property="og:url" content="https://shashikantdev3.github.io/attention-span/s/2026-10-20-google-open-sources-torchtpu-as-a-native-pytorch-backend-for.html">
+<meta property="og:image" content="https://shashikantdev3.github.io/attention-span/assets/og.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#EDF0EA">
+<link rel="alternate" type="application/rss+xml" title="Attention Span" href="../feed.xml">
+<script>try{var t=localStorage.getItem("as-theme");if(!t)t=matchMedia("(prefers-color-scheme: dark)").matches?"night":"day";if(t==="night")document.documentElement.setAttribute("data-theme","night")}catch(e){}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;0,6..72,700;1,6..72,400&family=Bodoni+Moda:opsz,wght@6..96,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/style.css">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "NewsArticle", "headline": "Google Open-Sources TorchTPU as a Native PyTorch Backend for TPUs", "description": "TorchTPU brings native PyTorch support to Google TPUs, allowing models in Transformers and Diffusers to run directly on TPU hardware.", "datePublished": "2026-10-20T00:00:00Z", "dateModified": "2026-10-20", "author": {"@type": "Organization", "name": "Attention Span", "url": "https://shashikantdev3.github.io/attention-span/"}, "publisher": {"@type": "Organization", "name": "Attention Span", "url": "https://shashikantdev3.github.io/attention-span/"}, "mainEntityOfPage": "https://shashikantdev3.github.io/attention-span/s/2026-10-20-google-open-sources-torchtpu-as-a-native-pytorch-backend-for.html", "image": "https://shashikantdev3.github.io/attention-span/assets/og.png", "isBasedOn": ["https://huggingface.co/blog/hf-torchtpu", "https://github.com/google-pytorch/torch_tpu"]}</script>
+</head>
+<body class="static">
+<header class="masthead static-head"><div class="wrap">
+  <a class="brand" href="../index.html"><span class="static-name">Attention Span</span></a>
+  <span class="tagline">Today&#x27;s AI news, traced back to its roots.</span>
+</div></header>
+<main id="main"><div class="wrap static-body">
+<article class="static-story">
+<p class="static-kicker"><a href="../e/2026-10-20.html">Tuesday, 20 October 2026</a>, Dev tools,
+2 sources</p>
+<h1>Google Open-Sources TorchTPU as a Native PyTorch Backend for TPUs</h1>
+<p class="one-liner">TorchTPU brings native PyTorch support to Google TPUs, allowing models in Transformers and Diffusers to run directly on TPU hardware.</p>
+<p>Google open-sourced TorchTPU, a native PyTorch backend for Tensor Processing Units. Running PyTorch on TPUs previously required using torch_xla or JAX. With TorchTPU, developers can write regular PyTorch code and treat TPUs as a standard device. The Hugging Face ecosystem now natively supports TPUs across Transformers and Diffusers without requiring Optimum TPU. Models can be loaded onto TPUs by passing device_map=&quot;tpu&quot; or pipe.to(&quot;tpu&quot;). Users can also apply torch.compile, use Pallas kernels, or shard large models across multiple chips using TensorParallelConfig.</p>
+<div class="eli5"><h4>Like I am 5</h4><p>Just like a special video game console finally getting a version of your favorite game that works without extra adapters, PyTorch code can now run directly on Google AI chips.</p></div>
+<div class="why"><h4>Why it matters</h4><p>Running PyTorch models on Google hardware is now as straightforward as using any other device.</p></div>
+<div class="sources"><h4>Sources, original first</h4><ol><li><a href="https://huggingface.co/blog/hf-torchtpu" rel="noopener">Hugging Face Blog: Hugging Face ❤️ TorchTPU: TPUs, Natively</a> <span class="kind">original</span></li><li><a href="https://github.com/google-pytorch/torch_tpu" rel="noopener">github.com: Google open-sources TorchTPU, a native PyTorch back end for TPUs</a> <span class="kind">original</span></li><li><a href="https://news.ycombinator.com/item?id=50169053" rel="noopener">Hacker News: Discussion on Hacker News</a> <span class="kind">discussion</span></li></ol></div>
+<div class="tags"><span class="chip">Google and DeepMind</span><span class="chip">Stability AI</span><a class="chip concept" href="../c/deep-learning-framework.html">Deep learning framework</a><a class="chip concept" href="../c/inference.html">Inference</a><a class="chip concept" href="../c/transformer.html">Transformer</a></div>
+<p class="asof">Written from the sources above and checked by a second AI model; every number was matched against the sources.</p>
+</article>
+<p class="static-app"><a href="../index.html#/today/2026-10-20/2026-10-20-google-open-sources-torchtpu-as-a-native-pytorch-backend-for">Open this in Attention Span</a>, where every story links to its history,
+concepts and the people behind it.</p>
+</div></main>
+<footer class="site"><div class="wrap">
+  <span>Attention Span is built by <a href="https://github.com/shashikantdev3">Shashikant</a>. Every entry links its source.</span>
+  <span>Data under <a href="https://creativecommons.org/licenses/by-nc/4.0/" rel="license">CC BY-NC 4.0</a>. Code under MIT.</span>
+</div></footer>
+</body>
+</html>
