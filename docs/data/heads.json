@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-20T23:17:49Z",
+ "updated_at": "2026-10-21T18:36:16Z",
  "window_days": 7,
  "groups": [
   {
@@ -923,6 +923,221 @@
  ],
  "posts": [
   {
+   "id": "x-2112921529650688312",
+   "platform": "x",
+   "url": "https://x.com/gdb/status/2112921529650688312",
+   "posted_at": "2026-10-21T14:58:43Z",
+   "date_only": false,
+   "text": "Over the past two months, we have been leading a coalition to mitigate one of the most severe bugs in open source software found in recent memory, php2shell, found as part of our Patch the Planet initiative. https://t.co/rBsz7lrlwo",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">Over the past two months, we have been leading a coalition to mitigate one of the most severe bugs in open source software found in recent memory, php2shell, found as part of our Patch the Planet initiative. <a href=\"https://t.co/rBsz7lrlwo\">https://t.co/rBsz7lrlwo</a></p>&mdash; Greg Brockman (@gdb) <a href=\"https://x.com/gdb/status/2112921529650688312?ref_src=twsrc%5Etfw\">October 21, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "greg-brockman",
+   "meaning": "Brockman announces that a coalition has spent two months mitigating a severe open source software bug named php2shell, discovered through the Patch the Planet initiative.",
+   "concepts": [
+    "ai-safety"
+   ],
+   "story": "2026-10-21-wiz-research-reports-critical-php-rce-vulnerabilities-discov",
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "anthropic:claude-sonnet-5-5",
+   "added": "2026-10-21"
+  },
+  {
+   "id": "bsky-emollick.bsky.social-3myffkbheuc2e",
+   "person": "ethan-mollick",
+   "platform": "bluesky",
+   "url": "https://bsky.app/profile/emollick.bsky.social/post/3myffkbheuc2e",
+   "posted_at": "2026-10-21T14:51:06Z",
+   "text": "Companies I talk to are struggling with the rate of patches they need to do thanks to AI defenses finding issues before the coming wave of incoming cyberattacks by other AIs.\n\nNow consumers are going to have the same experience of getting everything updated often & fast. openai.com/index/coordi...",
+   "links": [
+    {
+     "text": "openai.com/index/coordi...",
+     "url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities/"
+    }
+   ],
+   "context": {
+    "kind": "link",
+    "url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities/",
+    "title": "Patch the Planet: global response coordination as agents uncover critical vulnerabilities",
+    "text": "Patch the Planet connects security researchers, maintainers, and incident responders to help address critical vulnerabilities across open source."
+   },
+   "likes": 44,
+   "reposts": 10,
+   "via": "feed",
+   "meaning": "Mollick notes that companies are struggling to keep up with frequent security patches driven by AI defenses identifying vulnerabilities ahead of incoming AI cyberattacks. He warns that consumers will soon face a similar reality of constant, rapid updates.",
+   "concepts": [
+    "agent",
+    "ai-safety"
+   ],
+   "story": null,
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "anthropic:claude-sonnet-5-5",
+   "added": "2026-10-21"
+  },
+  {
+   "id": "x-2112918582598459644",
+   "platform": "x",
+   "url": "https://x.com/emollick/status/2112918582598459644",
+   "posted_at": "2026-10-21T14:47:00Z",
+   "date_only": false,
+   "text": "Companies I talk to are struggling with the rate of patches they need to do thanks to AI defenses finding issues before the inevitable wave of incoming cyberattacks by other AIs.\n\nNow consumers are going to have the same experience of getting everything updated often & fast. https://t.co/v2AlEk7EGV",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">Companies I talk to are struggling with the rate of patches they need to do thanks to AI defenses finding issues before the inevitable wave of incoming cyberattacks by other AIs.<br><br>Now consumers are going to have the same experience of getting everything updated often &amp; fast. <a href=\"https://t.co/v2AlEk7EGV\">https://t.co/v2AlEk7EGV</a></p>&mdash; Ethan Mollick (@emollick) <a href=\"https://x.com/emollick/status/2112918582598459644?ref_src=twsrc%5Etfw\">October 21, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "ethan-mollick",
+   "meaning": "Ethan Mollick says companies are struggling with how many patches they now need, as AI defenders find bugs before the expected wave of AI-driven attacks, and that consumers will soon feel the same.",
+   "concepts": [
+    "ai-safety",
+    "agent"
+   ],
+   "story": "2026-10-21-wiz-research-reports-critical-php-rce-vulnerabilities-discov",
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "editor",
+   "added": "2026-10-21"
+  },
+  {
+   "id": "x-2112914740058181739",
+   "platform": "x",
+   "url": "https://x.com/Google/status/2112914740058181739",
+   "posted_at": "2026-10-21T14:31:44Z",
+   "date_only": false,
+   "text": "Researchers at @wiz_io put Gemini 4 Argon to the test against complex cyber threats.\n\nIn real-world testing, it found more than two times more vulnerabilities than baseline models — catching a critical risk that previous frontier models missed.\n\nSee how they did it ↓",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">Researchers at <a href=\"https://x.com/wiz_io?ref_src=twsrc%5Etfw\">@wiz_io</a> put Gemini 4 Argon to the test against complex cyber threats.<br><br>In real-world testing, it found more than two times more vulnerabilities than baseline models — catching a critical risk that previous frontier models missed.<br><br>See how they did it ↓ <a href=\"https://t.co/EeKVi0kwjo\">pic.twitter.com/EeKVi0kwjo</a></p>&mdash; Google (@Google) <a href=\"https://x.com/Google/status/2112914740058181739?ref_src=twsrc%5Etfw\">October 21, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "x-google",
+   "meaning": "Google highlights that Gemini 4 Argon found more than twice as many vulnerabilities as baseline models in testing by Wiz, catching a critical risk missed by previous frontier models.",
+   "concepts": [
+    "multimodal-model"
+   ],
+   "story": "2026-10-21-wiz-research-reports-critical-php-rce-vulnerabilities-discov",
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "anthropic:claude-sonnet-5-5",
+   "added": "2026-10-21"
+  },
+  {
+   "id": "x-2112913060709228764",
+   "platform": "x",
+   "url": "https://x.com/steipete/status/2112913060709228764",
+   "posted_at": "2026-10-21T14:25:04Z",
+   "date_only": false,
+   "text": "That PHP vulnerability that’s gonna cause havoc this week was found with… GPT‑5.6 Sol. https://t.co/2djri1GYn4",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">That PHP vulnerability that’s gonna cause havoc this week was found with… GPT‑5.6 Sol. <a href=\"https://t.co/2djri1GYn4\">https://t.co/2djri1GYn4</a></p>&mdash; Peter Steinberger 🦞 (@steipete) <a href=\"https://x.com/steipete/status/2112913060709228764?ref_src=twsrc%5Etfw\">October 21, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "peter-steinberger",
+   "meaning": "Steinberger shares that a major PHP vulnerability expected to cause widespread issues was discovered using GPT-5.6 Sol.",
+   "concepts": [
+    "coding-assistant"
+   ],
+   "story": "2026-10-21-wiz-research-reports-critical-php-rce-vulnerabilities-discov",
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "anthropic:claude-sonnet-5-5",
+   "added": "2026-10-21"
+  },
+  {
+   "id": "x-2112907856018309586",
+   "platform": "x",
+   "url": "https://x.com/OpenAI/status/2112907856018309586",
+   "posted_at": "2026-10-21T14:04:23Z",
+   "date_only": false,
+   "text": "OpenAI models helped researchers—operating as part of our Patch the Planet initiative—discover critical security flaws in PHP, an open-source programming language used to run an estimated 70% of websites.\n\nOver the past two months, we led a coalition of maintainers, researchers,…",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">OpenAI models helped researchers—operating as part of our Patch the Planet initiative—discover critical security flaws in PHP, an open-source programming language used to run an estimated 70% of websites.<br><br>Over the past two months, we led a coalition of maintainers, researchers,…</p>&mdash; OpenAI (@OpenAI) <a href=\"https://x.com/OpenAI/status/2112907856018309586?ref_src=twsrc%5Etfw\">October 21, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "x-openai",
+   "meaning": "OpenAI announces that its models helped researchers find critical security flaws in PHP, which runs an estimated 70% of websites, as part of the Patch the Planet initiative.",
+   "concepts": [
+    "coding-assistant"
+   ],
+   "story": "2026-10-21-wiz-research-reports-critical-php-rce-vulnerabilities-discov",
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "anthropic:claude-sonnet-5-5",
+   "added": "2026-10-21"
+  },
+  {
+   "id": "x-2112847277282721888",
+   "platform": "x",
+   "url": "https://x.com/nvidia/status/2112847277282721888",
+   "posted_at": "2026-10-21T10:03:40Z",
+   "date_only": false,
+   "text": "Jensen introduces the OpenShell Reference Architecture to help businesses set boundaries for AI agents and stop them when they step outside those boundaries.\n\nSecuring agents around the world. 🔒",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">Jensen introduces the OpenShell Reference Architecture to help businesses set boundaries for AI agents and stop them when they step outside those boundaries.<br><br>Securing agents around the world. 🔒 <a href=\"https://t.co/5FaiFJTE8g\">pic.twitter.com/5FaiFJTE8g</a></p>&mdash; NVIDIA (@nvidia) <a href=\"https://x.com/nvidia/status/2112847277282721888?ref_src=twsrc%5Etfw\">October 21, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "x-nvidia",
+   "meaning": "Jensen introduces the OpenShell Reference Architecture to help businesses set boundaries for AI agents and stop them when they step outside those limits.",
+   "concepts": [
+    "agent",
+    "ai-safety",
+    "agent-sandbox"
+   ],
+   "story": null,
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "anthropic:claude-sonnet-5-5",
+   "added": "2026-10-21"
+  },
+  {
+   "id": "x-2112732230124818891",
+   "platform": "x",
+   "url": "https://x.com/DarioAmodei/status/2112732230124818891",
+   "posted_at": "2026-10-21T02:26:30Z",
+   "date_only": false,
+   "text": "Thank you for this, @_NathanCalvin. I appreciate and am a fan of the investigative work you’ve done on behalf of AI safety and believe your comments are coming from a constructive, honest place, and that it benefits the public to have people whose job is to scrutinize the actions… https://t.co/QZgPvh4tX4",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">Thank you for this, <a href=\"https://x.com/_NathanCalvin?ref_src=twsrc%5Etfw\">@_NathanCalvin</a>. I appreciate and am a fan of the investigative work you’ve done on behalf of AI safety and believe your comments are coming from a constructive, honest place, and that it benefits the public to have people whose job is to scrutinize the actions… <a href=\"https://t.co/QZgPvh4tX4\">https://t.co/QZgPvh4tX4</a></p>&mdash; Dario Amodei (@DarioAmodei) <a href=\"https://x.com/DarioAmodei/status/2112732230124818891?ref_src=twsrc%5Etfw\">October 21, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "dario-amodei",
+   "meaning": "Dario Amodei replies at length to safety advocate Nathan Calvin's criticism of Anthropic, thanking him for his investigative work and saying it benefits the public to have people whose job is to scrutinize labs like his. The full reply is in the linked post.",
+   "concepts": [],
+   "story": null,
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "editor",
+   "added": "2026-10-21"
+  },
+  {
+   "id": "x-2112683123406479810",
+   "platform": "x",
+   "url": "https://x.com/arena/status/2112683123406479810",
+   "posted_at": "2026-10-20T23:11:23Z",
+   "date_only": false,
+   "text": "DeepSeek-V4.1-Flash-20261017 (Max) by @deepseek_ai  landed in the Arena as the #1 open model in both the Agent Arena and the Code Arena: WebDev!\n\nSee 3D world generations from this model by @petergostev, and find more details on its ranking in thread.https://t.co/DsnWF14sGw",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">DeepSeek-V4.1-Flash-20261017 (Max) by <a href=\"https://x.com/deepseek_ai?ref_src=twsrc%5Etfw\">@deepseek_ai</a>  landed in the Arena as the #1 open model in both the Agent Arena and the Code Arena: WebDev!<br><br>See 3D world generations from this model by <a href=\"https://x.com/petergostev?ref_src=twsrc%5Etfw\">@petergostev</a>, and find more details on its ranking in thread.<a href=\"https://t.co/DsnWF14sGw\">https://t.co/DsnWF14sGw</a></p>&mdash; Arena.ai (@arena) <a href=\"https://x.com/arena/status/2112683123406479810?ref_src=twsrc%5Etfw\">October 20, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "x-lmarena",
+   "meaning": "Arena announces that DeepSeek-V4.1-Flash landed as the number one open model in both the Agent Arena and Code Arena WebDev categories.",
+   "concepts": [
+    "open-weight-model",
+    "agent",
+    "benchmark"
+   ],
+   "story": "2026-10-17-deepseek-releases-new-deepseek-v4-1-flash-1017-model",
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "anthropic:claude-sonnet-5-5",
+   "added": "2026-10-21"
+  },
+  {
+   "id": "x-2112658577110520122",
+   "platform": "x",
+   "url": "https://x.com/rauchg/status/2112658577110520122",
+   "posted_at": "2026-10-20T21:33:50Z",
+   "date_only": false,
+   "text": "Much like we did with @aisdk, we're bringing a truly open-source, runtime-agnostic solution to harness durability.\n\nWe're extending the durability infra that powers @eve and Workflows to all harnesses, like Pi and OpenCode. Local, Vercel, or DIY.\n\nFun fact: even Claude Code and… https://t.co/N6JMyefClw",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">Much like we did with <a href=\"https://x.com/aisdk?ref_src=twsrc%5Etfw\">@aisdk</a>, we&#39;re bringing a truly open-source, runtime-agnostic solution to harness durability.<br><br>We&#39;re extending the durability infra that powers <a href=\"https://x.com/eve?ref_src=twsrc%5Etfw\">@eve</a> and Workflows to all harnesses, like Pi and OpenCode. Local, Vercel, or DIY.<br><br>Fun fact: even Claude Code and… <a href=\"https://t.co/N6JMyefClw\">https://t.co/N6JMyefClw</a> <a href=\"https://t.co/GLJ4UUKdTS\">pic.twitter.com/GLJ4UUKdTS</a></p>&mdash; Guillermo Rauch (@rauchg) <a href=\"https://x.com/rauchg/status/2112658577110520122?ref_src=twsrc%5Etfw\">October 20, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "guillermo-rauch",
+   "meaning": "Rauch announces the extension of durability infrastructure powering Eve and Workflows to all harnesses like Pi and OpenCode, making runtime-agnostic durability solutions broadly available.",
+   "concepts": [
+    "agent"
+   ],
+   "story": null,
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "anthropic:claude-sonnet-5-5",
+   "added": "2026-10-21"
+  },
+  {
    "id": "bsky-emollick.bsky.social-3mydlag277k2c",
    "person": "ethan-mollick",
    "platform": "bluesky",
@@ -936,8 +1151,8 @@
     }
    ],
    "context": null,
-   "likes": 39,
-   "reposts": 4,
+   "likes": 87,
+   "reposts": 9,
    "via": "feed",
    "meaning": "Ethan Mollick discusses the rapid progress of AI over the past 30 months and shares a video generated by Opus 5.5 to test image and video capabilities.",
    "concepts": [
@@ -981,8 +1196,8 @@
     }
    ],
    "context": null,
-   "likes": 167,
-   "reposts": 9,
+   "likes": 261,
+   "reposts": 18,
    "via": "feed",
    "meaning": "Simon Willison built a browser-based RTS game called Battle Drones using Claude Opus 5.5, featuring device-to-device multiplayer over an audio link.",
    "concepts": [
@@ -1016,6 +1231,28 @@
    "added": "2026-10-20"
   },
   {
+   "id": "x-2112603916076781778",
+   "platform": "x",
+   "url": "https://x.com/OpenAIDevs/status/2112603916076781778",
+   "posted_at": "2026-10-20T17:56:38Z",
+   "date_only": false,
+   "text": "You can now choose 12-hour prompt caching in the API.\n\nPersistent agents, like dots, reuse context throughout the day. \n\nYou can keep shared instructions, tools, and context cached longer and pay the lower cached-input rate, even when requests are hours apart.",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">You can now choose 12-hour prompt caching in the API.<br><br>Persistent agents, like dots, reuse context throughout the day. <br><br>You can keep shared instructions, tools, and context cached longer and pay the lower cached-input rate, even when requests are hours apart.</p>&mdash; OpenAI Developers (@OpenAIDevs) <a href=\"https://x.com/OpenAIDevs/status/2112603916076781778?ref_src=twsrc%5Etfw\">October 20, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "x-openaidevs",
+   "meaning": "OpenAI Developers announce 12-hour prompt caching in the API, allowing persistent agents to reuse context throughout the day and pay lower cached-input rates across hours-apart requests.",
+   "concepts": [
+    "kv-cache",
+    "agent",
+    "context-window"
+   ],
+   "story": null,
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "anthropic:claude-sonnet-5-5",
+   "added": "2026-10-21"
+  },
+  {
    "id": "bsky-natolambert.bsky.social-3myd6cdi5422g",
    "person": "nathan-lambert",
    "platform": "bluesky",
@@ -1024,7 +1261,7 @@
    "text": "Seems like cyber risk for AI may be more of an ecosystem issue than an open-weight models specific issue. If we can figure out the right balance here, I think there are a lot of people out there who want to support more openness in light of RSI and AI dynamics coming soon.",
    "links": [],
    "context": null,
-   "likes": 6,
+   "likes": 8,
    "reposts": 0,
    "via": "feed",
    "meaning": "Nathan Lambert suggests that AI cyber risk is an ecosystem challenge rather than a problem solely tied to open-weight models, supporting openness as AI dynamics evolve.",
@@ -1056,7 +1293,7 @@
     "title": "Latest open artifacts (#25): DeepSeek V4.1 Flash 1017, American-made models, and new regulatory controls in the US & China",
     "text": "Western open models strike back"
    },
-   "likes": 8,
+   "likes": 10,
    "reposts": 1,
    "via": "feed",
    "meaning": "Nathan Lambert analyzes recent open models and new regulatory actions from MOFCOM and DHS, highlighting strong US open-weight releases from Reflection, Meta, and Nvidia.",
@@ -1068,6 +1305,27 @@
    "model": "gemini:gemini-3.5-flash-lite",
    "checked": "anthropic:claude-sonnet-5-5",
    "added": "2026-10-20"
+  },
+  {
+   "id": "x-2112589831641710797",
+   "platform": "x",
+   "url": "https://x.com/arthurmensch/status/2112589831641710797",
+   "posted_at": "2026-10-20T17:00:40Z",
+   "date_only": false,
+   "text": "We've just released a comprehensive suite of state-of-the-art voice models https://t.co/Ue1S72c9HW. Voice will be the most important interface to AI systems, and we deploy voice models physically close to reasoning models",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">We&#39;ve just released a comprehensive suite of state-of-the-art voice models <a href=\"https://t.co/Ue1S72c9HW\">https://t.co/Ue1S72c9HW</a>. Voice will be the most important interface to AI systems, and we deploy voice models physically close to reasoning models</p>&mdash; Arthur Mensch (@arthurmensch) <a href=\"https://x.com/arthurmensch/status/2112589831641710797?ref_src=twsrc%5Etfw\">October 20, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "arthur-mensch",
+   "meaning": "Arthur Mensch announces a comprehensive suite of voice models, arguing that voice will be the primary AI interface and noting they are deployed physically close to reasoning models.",
+   "concepts": [
+    "multimodal-model",
+    "reasoning-model"
+   ],
+   "story": null,
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "anthropic:claude-sonnet-5-5",
+   "added": "2026-10-21"
   },
   {
    "id": "x-2112587397380943953",
@@ -1086,6 +1344,127 @@
    "model": "gemini:gemini-3.5-flash-lite",
    "checked": "editor",
    "added": "2026-10-20"
+  },
+  {
+   "id": "x-2112579251555721573",
+   "platform": "x",
+   "url": "https://x.com/AnthropicAI/status/2112579251555721573",
+   "posted_at": "2026-10-20T16:18:38Z",
+   "date_only": false,
+   "text": "New on our Science Blog: designing protein binders against scorpion neurotoxins.\n\nScorpions sting about 1.2m people every year, and antivenoms are often costly or in short supply. Claude has made an early step toward finding new treatments.https://t.co/l6LgdEqM7I",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">New on our Science Blog: designing protein binders against scorpion neurotoxins.<br><br>Scorpions sting about 1.2m people every year, and antivenoms are often costly or in short supply. Claude has made an early step toward finding new treatments.<a href=\"https://t.co/l6LgdEqM7I\">https://t.co/l6LgdEqM7I</a></p>&mdash; Anthropic (@AnthropicAI) <a href=\"https://x.com/AnthropicAI/status/2112579251555721573?ref_src=twsrc%5Etfw\">October 20, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "x-anthropicai",
+   "meaning": "Anthropic shares research on designing protein binders against scorpion neurotoxins using Claude, showing an early step toward finding new treatments.",
+   "concepts": [
+    "generative-model",
+    "deep-learning"
+   ],
+   "story": "2026-10-20-claude-designed-protein-binders-against-scorpion-neurotoxins",
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "anthropic:claude-sonnet-5-5",
+   "added": "2026-10-21"
+  },
+  {
+   "id": "x-2112574615318876178",
+   "platform": "x",
+   "url": "https://x.com/MistralAI/status/2112574615318876178",
+   "posted_at": "2026-10-20T16:00:12Z",
+   "date_only": false,
+   "text": "Introducing Voxtral 3: state-of-the-art Transcribe and Speech models powering Mistral’s new voice agents API. 🧵",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">Introducing Voxtral 3: state-of-the-art Transcribe and Speech models powering Mistral’s new voice agents API. 🧵 <a href=\"https://t.co/YA9HNVfq0u\">pic.twitter.com/YA9HNVfq0u</a></p>&mdash; Mistral AI (@MistralAI) <a href=\"https://x.com/MistralAI/status/2112574615318876178?ref_src=twsrc%5Etfw\">October 20, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "x-mistralai",
+   "meaning": "Mistral AI introduces Voxtral 3, offering state-of-the-art transcribe and speech models that power their new voice agents API.",
+   "concepts": [
+    "multimodal-model"
+   ],
+   "story": "2026-10-20-mistral-ai-launches-voxtral-3-voice-agent-stack",
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "anthropic:claude-sonnet-5-5",
+   "added": "2026-10-21"
+  },
+  {
+   "id": "x-2112571597798461920",
+   "platform": "x",
+   "url": "https://x.com/perplexity_ai/status/2112571597798461920",
+   "posted_at": "2026-10-20T15:48:13Z",
+   "date_only": false,
+   "text": "Perplexity Computer can now run fully local on your Mac.\n\nWork with your native Mac apps and local files, and run tasks without sending sensitive data to the cloud. The model and the agent both run on your Mac.\n\nAvailable now in the Perplexity Mac app.",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">Perplexity Computer can now run fully local on your Mac.<br><br>Work with your native Mac apps and local files, and run tasks without sending sensitive data to the cloud. The model and the agent both run on your Mac.<br><br>Available now in the Perplexity Mac app. <a href=\"https://t.co/tnvCgCXD7v\">pic.twitter.com/tnvCgCXD7v</a></p>&mdash; Perplexity (@perplexity_ai) <a href=\"https://x.com/perplexity_ai/status/2112571597798461920?ref_src=twsrc%5Etfw\">October 20, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "x-perplexity",
+   "meaning": "Perplexity announces that Perplexity Computer can now run fully locally on Mac apps and files, allowing users to execute tasks without sending sensitive data to the cloud.",
+   "concepts": [
+    "computer-use",
+    "agent"
+   ],
+   "story": null,
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "anthropic:claude-sonnet-5-5",
+   "added": "2026-10-21"
+  },
+  {
+   "id": "x-2112562162392821769",
+   "platform": "x",
+   "url": "https://x.com/METR_Evals/status/2112562162392821769",
+   "posted_at": "2026-10-20T15:10:43Z",
+   "date_only": false,
+   "text": "Anthropic requested that we provide recommendations as part of our risk report review. We gave two:\n\n(1) We think end-to-end red-teaming of Anthropic’s monitoring systems would provide much better evidence about their effectiveness.",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">Anthropic requested that we provide recommendations as part of our risk report review. We gave two:<br><br>(1) We think end-to-end red-teaming of Anthropic’s monitoring systems would provide much better evidence about their effectiveness.</p>&mdash; METR (@METR_Evals) <a href=\"https://x.com/METR_Evals/status/2112562162392821769?ref_src=twsrc%5Etfw\">October 20, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "x-metr",
+   "meaning": "METR recommends that end-to-end red-teaming of Anthropic's monitoring systems would provide better evidence of their effectiveness.",
+   "concepts": [
+    "red-teaming"
+   ],
+   "story": null,
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "anthropic:claude-sonnet-5-5",
+   "added": "2026-10-21"
+  },
+  {
+   "id": "x-2112562150313283595",
+   "platform": "x",
+   "url": "https://x.com/METR_Evals/status/2112562150313283595",
+   "posted_at": "2026-10-20T15:10:40Z",
+   "date_only": false,
+   "text": "We reviewed a nonpublic version of the “Misalignment in high-stakes settings” section in Anthropic’s Aug 2026 Risk Report. We agree that risk of catastrophic harm from covered models’ misalignment is low. However, we note several significant disagreements with their analysis. https://t.co/MNqHIXTe5n",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">We reviewed a nonpublic version of the “Misalignment in high-stakes settings” section in Anthropic’s Aug 2026 Risk Report. We agree that risk of catastrophic harm from covered models’ misalignment is low. However, we note several significant disagreements with their analysis. <a href=\"https://t.co/MNqHIXTe5n\">https://t.co/MNqHIXTe5n</a></p>&mdash; METR (@METR_Evals) <a href=\"https://x.com/METR_Evals/status/2112562150313283595?ref_src=twsrc%5Etfw\">October 20, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "x-metr",
+   "meaning": "METR reviewed a nonpublic draft of the misalignment section of Anthropic's August 2026 Risk Report. It agrees the risk of catastrophic harm from misalignment is low, but notes several significant disagreements with Anthropic's analysis.",
+   "concepts": [
+    "alignment",
+    "ai-safety"
+   ],
+   "story": null,
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "editor",
+   "added": "2026-10-21"
+  },
+  {
+   "id": "x-2112534057879765260",
+   "platform": "x",
+   "url": "https://x.com/ClementDelangue/status/2112534057879765260",
+   "posted_at": "2026-10-20T13:19:03Z",
+   "date_only": false,
+   "text": "Just watched the @netflix Instadocs about the @OpenAI cyberattack on @huggingface. Super disappointing, as they went for maximum anthropomorphism of the technology and full doomer mode.\n\nI spent more than two hours with them trying to correct all their mistakes and ground this in…",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">Just watched the <a href=\"https://x.com/netflix?ref_src=twsrc%5Etfw\">@netflix</a> Instadocs about the <a href=\"https://x.com/OpenAI?ref_src=twsrc%5Etfw\">@OpenAI</a> cyberattack on <a href=\"https://x.com/huggingface?ref_src=twsrc%5Etfw\">@huggingface</a>. Super disappointing, as they went for maximum anthropomorphism of the technology and full doomer mode.<br><br>I spent more than two hours with them trying to correct all their mistakes and ground this in… <a href=\"https://t.co/z8LELflXWh\">pic.twitter.com/z8LELflXWh</a></p>&mdash; clem 🤗 (@ClementDelangue) <a href=\"https://x.com/ClementDelangue/status/2112534057879765260?ref_src=twsrc%5Etfw\">October 20, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "clem-delangue",
+   "meaning": "Hugging Face CEO Clem Delangue says Netflix's quick documentary on what he calls the OpenAI cyberattack on Hugging Face went for maximum anthropomorphism and \"full doomer mode\", despite the two hours he spent trying to correct its mistakes.",
+   "concepts": [],
+   "story": null,
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "editor",
+   "added": "2026-10-21"
   },
   {
    "id": "x-2112513796866813956",
@@ -1227,7 +1606,7 @@
    ],
    "context": null,
    "likes": 47,
-   "reposts": 3,
+   "reposts": 4,
    "via": "feed",
    "meaning": "Mollick argues that writing code in STATA is becoming obsolete due to recent language models. He notes that academics who view AI only as chatbots are missing a major shift toward agents.",
    "concepts": [
@@ -1394,7 +1773,7 @@
    "text": "In a move that is both fascinating and viscerally unsettling, AI world model company Odyssey took a simulation of a fruit fly's brain, Google's connectome map of a fly's actual neurons and connections, and placed it inside an AI-generated world.\n\nA simulated brain exploring a simulated reality.",
    "links": [],
    "context": null,
-   "likes": 96,
+   "likes": 97,
    "reposts": 9,
    "via": "feed",
    "meaning": "Mollick shares that Odyssey placed a fruit fly brain simulation, built from a connectome map of actual neurons, inside an AI-generated world. Builders may care because this combines biological neural wiring with artificial world models to explore simulated realities.",
@@ -1845,7 +2224,7 @@
     }
    ],
    "context": null,
-   "likes": 108,
+   "likes": 109,
    "reposts": 11,
    "via": "feed",
    "meaning": "Mollick highlights a paper showing Gemini 4 agents beating Minecraft, demonstrating spontaneous coordination and different problem solving approaches compared to humans. Developers working with multi agent systems will find this relevant.",

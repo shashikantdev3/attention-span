@@ -313,5 +313,68 @@
   "first_seen": "2026-10-20",
   "story": "2026-10-20-memtensor-releases-memt-1-0-memory-foundation-models",
   "source": "https://github.com/MemTensor/MemT-1.0"
+ },
+ {
+  "term": "agentic workflows",
+  "definition": "Workflows powered by models to support complex tasks at scale.",
+  "first_seen": "2026-10-21",
+  "story": "2026-10-21-openai-models-are-coming-to-google-cloud",
+  "source": "https://openai.com/index/openai-models-google-cloud"
+ },
+ {
+  "term": "Work IQ",
+  "definition": "A feature used with Copilot for advanced productivity scenarios that embed AI deeply into business processes.",
+  "first_seen": "2026-10-21",
+  "story": "2026-10-21-microsoft-equips-over-330-000-volkswagen-group-employees-wit",
+  "source": "https://news.microsoft.com/source/2026/10/21/microsoft-empowers-more-than-330000-volkswagen-group-employees-with-copilot/"
+ },
+ {
+  "term": "Intelligent Data Foundation",
+  "definition": "The Volkswagen Group unified data ecosystem scaled on Microsoft Fabric.",
+  "first_seen": "2026-10-21",
+  "story": "2026-10-21-microsoft-equips-over-330-000-volkswagen-group-employees-wit",
+  "source": "https://news.microsoft.com/source/2026/10/21/microsoft-empowers-more-than-330000-volkswagen-group-employees-with-copilot/"
+ },
+ {
+  "term": "physics AI",
+  "definition": "Physics AI combines open-weight models and physics capabilities to give engineers faster simulation cycles and validate agents on real CAE and EDA work.",
+  "first_seen": "2026-10-21",
+  "story": "2026-10-21-mistral-ai-and-nvidia-partner-to-advance-engineering-workflo",
+  "source": "https://mistral.ai/news/mistral-nvidia-ai-for-industrial-engineering/"
+ },
+ {
+  "term": "agentic AI",
+  "definition": "Agentic AI in computer-aided engineering and electronic design automation uses dedicated evaluations to assess agents' ability to use engineering tools and complete multistep workflows.",
+  "first_seen": "2026-10-21",
+  "story": "2026-10-21-mistral-ai-and-nvidia-partner-to-advance-engineering-workflo",
+  "source": "https://mistral.ai/news/mistral-nvidia-ai-for-industrial-engineering/"
+ },
+ {
+  "term": "abliterated",
+  "definition": "Refusal behavior is removed so the model complies with user requests across topic categories rather than declining them.",
+  "first_seen": "2026-10-21",
+  "story": "2026-10-21-dealignai-releases-uncensored-deepseek-v4-1-flash-fp8-model",
+  "source": "https://huggingface.co/dealignai/DeepSeek-V4.1-Flash-1017-UNCENSORED-FP8"
+ },
+ {
+  "term": "ephemeral computing",
+  "definition": "Compute exists only while a command runs.",
+  "first_seen": "2026-10-21",
+  "story": "2026-10-21-layerfs-the-filesystem-for-ai-coding-agents",
+  "source": "https://layerfs.ai/"
+ },
+ {
+  "term": "Evolving Agent Interfaces",
+  "definition": "Interfaces and usage knowledge that are constructed and revised by a meta-agent and selected through population-based evolution.",
+  "first_seen": "2026-10-21",
+  "story": "2026-10-21-agent-s4-builds-evolving-agent-interfaces-from-task-experien",
+  "source": "https://arxiv.org/abs/2610.28601"
+ },
+ {
+  "term": "speculative offloading",
+  "definition": "An inference system technique that uses a lightweight quantized draft model to provide accurate multi-step lookahead over future expert usage, allowing the runtime to organize expert movement and execution ahead of verification.",
+  "first_seen": "2026-10-21",
+  "story": "2026-10-21-specter-speeds-up-mixture-of-experts-inference-via-speculati",
+  "source": "https://arxiv.org/abs/2511.14102"
  }
 ]
