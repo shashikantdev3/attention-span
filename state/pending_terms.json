@@ -376,5 +376,40 @@
   "first_seen": "2026-10-21",
   "story": "2026-10-21-specter-speeds-up-mixture-of-experts-inference-via-speculati",
   "source": "https://arxiv.org/abs/2511.14102"
+ },
+ {
+  "term": "Agent Skills",
+  "definition": "An open standard that gives AI agents specialized knowledge and workflows.",
+  "first_seen": "2026-10-22",
+  "story": "2026-10-22-anthropic-donates-agent-skills-standard-to-agentic-ai-founda",
+  "source": "https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation"
+ },
+ {
+  "term": "kernel-level enforcement",
+  "definition": "Kernel controls confine which files an agent can access and which system calls it can make, and every network connection passes through a policy check before it leaves the sandbox.",
+  "first_seen": "2026-10-22",
+  "story": "2026-10-22-nvidia-releases-openshell-0-1-x-for-autonomous-ai-agents",
+  "source": "https://github.com/NVIDIA/OpenShell"
+ },
+ {
+  "term": "formal verification",
+  "definition": "OpenShell uses formal verification to check what a policy change would allow before it is applied.",
+  "first_seen": "2026-10-22",
+  "story": "2026-10-22-nvidia-releases-openshell-0-1-x-for-autonomous-ai-agents",
+  "source": "https://github.com/NVIDIA/OpenShell"
+ },
+ {
+  "term": "cache engineering",
+  "definition": "A scheme that allows agents to directly control their active KV cache without modifying the trajectory or re-prefilling retained context.",
+  "first_seen": "2026-10-22",
+  "story": "2026-10-22-cache-engineering-scheme-proposed-for-large-language-model-a",
+  "source": "https://arxiv.org/abs/2610.28577"
+ },
+ {
+  "term": "agentic research process",
+  "definition": "A structured process in which AI systems explore mathematical possibilities while researchers evaluate, prune, and redirect the search.",
+  "first_seen": "2026-10-22",
+  "story": "2026-10-22-researchers-solve-31-year-old-math-mystery-using-human-direc",
+  "source": "https://www.microsoft.com/en-us/research/blog/solving-a-31-year-old-grand-challenge-in-mathematics-the-kls-conjecture/"
  }
 ]

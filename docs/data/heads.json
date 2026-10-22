@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-21T18:36:16Z",
+ "updated_at": "2026-10-22T19:19:51Z",
  "window_days": 7,
  "groups": [
   {
@@ -923,6 +923,247 @@
  ],
  "posts": [
   {
+   "id": "bsky-emollick.bsky.social-3myi7j6jedk2v",
+   "person": "ethan-mollick",
+   "platform": "bluesky",
+   "url": "https://bsky.app/profile/emollick.bsky.social/post/3myi7j6jedk2v",
+   "posted_at": "2026-10-22T17:41:06Z",
+   "text": "When my first AI book was published in 2024, the best AI could do 4 minutes of human work with a 50% chance of success\n\nWhen I turned in the draft of Co-Existence earlier this year, it was 17 hours.\n\nWhen the book was published two days ago, AI could do 17 weeks+ open.substack.com/pub/oneusefu...",
+   "links": [
+    {
+     "text": "open.substack.com/pub/oneusefu...",
+     "url": "https://open.substack.com/pub/oneusefulthing/p/30-months-on-the-exponential-in-charts?r=i5f7&utm_medium=ios"
+    }
+   ],
+   "context": null,
+   "likes": 48,
+   "reposts": 4,
+   "via": "feed",
+   "meaning": "Mollick shares that AI capability grew rapidly from handling four minutes of human work with a fifty percent success rate in 2024 to over seventeen weeks of open work recently. Builders should note how fast task horizons expand.",
+   "concepts": [
+    "agent",
+    "scaling-laws"
+   ],
+   "story": null,
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "anthropic:claude-sonnet-5-5",
+   "added": "2026-10-22"
+  },
+  {
+   "id": "x-2113298833392496746",
+   "platform": "x",
+   "url": "https://x.com/OpenAI/status/2113298833392496746",
+   "posted_at": "2026-10-22T15:57:59Z",
+   "date_only": false,
+   "text": "This summer, we invited METR and Redwood Research to pilot an embedded evaluation of our internal monitoring system, providing deep access to our infrastructure over three weeks. \n\nTheir findings helped strengthen safeguards as we expanded the system and will help shape future… https://t.co/F9DSyjEOr1",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">This summer, we invited METR and Redwood Research to pilot an embedded evaluation of our internal monitoring system, providing deep access to our infrastructure over three weeks. <br><br>Their findings helped strengthen safeguards as we expanded the system and will help shape future… <a href=\"https://t.co/F9DSyjEOr1\">https://t.co/F9DSyjEOr1</a></p>&mdash; OpenAI (@OpenAI) <a href=\"https://x.com/OpenAI/status/2113298833392496746?ref_src=twsrc%5Etfw\">October 22, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "x-openai",
+   "meaning": "OpenAI shares that METR and Redwood Research piloted an embedded evaluation of its internal monitoring system over three weeks. Their findings helped strengthen production safety safeguards.",
+   "concepts": [
+    "ai-safety",
+    "alignment",
+    "red-teaming"
+   ],
+   "story": null,
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "anthropic:claude-sonnet-5-5",
+   "added": "2026-10-22"
+  },
+  {
+   "id": "x-2113294657673466060",
+   "platform": "x",
+   "url": "https://x.com/kevinweil/status/2113294657673466060",
+   "posted_at": "2026-10-22T15:41:24Z",
+   "date_only": false,
+   "text": "💥 Introducing Warp Sciences, a new company applying AI and robotics to help the world develop new medicines faster. \n\nWe’ve raised a $215M Series A led by @lightspeedvp to bring frontier AI out of the browser and into the lab, and build scientific capacity here in America.\n\nI…",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">💥 Introducing Warp Sciences, a new company applying AI and robotics to help the world develop new medicines faster. <br><br>We’ve raised a $215M Series A led by <a href=\"https://x.com/lightspeedvp?ref_src=twsrc%5Etfw\">@lightspeedvp</a> to bring frontier AI out of the browser and into the lab, and build scientific capacity here in America.<br><br>I…</p>&mdash; Kevin Weil 🇺🇸 (@kevinweil) <a href=\"https://x.com/kevinweil/status/2113294657673466060?ref_src=twsrc%5Etfw\">October 22, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "kevin-weil",
+   "meaning": "Kevin Weil launches Warp Sciences, a company using AI and robotic labs to develop medicines faster, with a $215M Series A led by Lightspeed.",
+   "concepts": [
+    "physical-ai",
+    "agent",
+    "foundation-model"
+   ],
+   "story": null,
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "editor",
+   "added": "2026-10-22"
+  },
+  {
+   "id": "x-2113290972826345605",
+   "platform": "x",
+   "url": "https://x.com/METR_Evals/status/2113290972826345605",
+   "posted_at": "2026-10-22T15:26:45Z",
+   "date_only": false,
+   "text": "Embedded access enabled the team to find gaps in monitoring coverage and vulnerabilities in monitoring infrastructure. OpenAI has stated that all of the vulnerabilities identified that impact their production safeguards stack have been patched.",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">Embedded access enabled the team to find gaps in monitoring coverage and vulnerabilities in monitoring infrastructure. OpenAI has stated that all of the vulnerabilities identified that impact their production safeguards stack have been patched.</p>&mdash; METR (@METR_Evals) <a href=\"https://x.com/METR_Evals/status/2113290972826345605?ref_src=twsrc%5Etfw\">October 22, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "x-metr",
+   "meaning": "METR says embedded access let its team find gaps in what OpenAI's monitoring covered and weaknesses in the monitoring infrastructure; OpenAI says every flaw affecting its production safeguards has been patched.",
+   "concepts": [
+    "ai-safety"
+   ],
+   "story": null,
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "editor",
+   "added": "2026-10-22"
+  },
+  {
+   "id": "x-2113290966933389390",
+   "platform": "x",
+   "url": "https://x.com/METR_Evals/status/2113290966933389390",
+   "posted_at": "2026-10-22T15:26:44Z",
+   "date_only": false,
+   "text": "Two employees from METR and Redwood Research worked on premises at OpenAI for three weeks this summer in an embedded assessment pilot. This team evaluated the systems OpenAI was using to monitor for misalignment from internal agents. A brief write-up of their work is now public.",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">Two employees from METR and Redwood Research worked on premises at OpenAI for three weeks this summer in an embedded assessment pilot. This team evaluated the systems OpenAI was using to monitor for misalignment from internal agents. A brief write-up of their work is now public.</p>&mdash; METR (@METR_Evals) <a href=\"https://x.com/METR_Evals/status/2113290966933389390?ref_src=twsrc%5Etfw\">October 22, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "x-metr",
+   "meaning": "METR shares that two employees worked on premises at OpenAI for three weeks to evaluate internal systems monitoring for agent misalignment.",
+   "concepts": [
+    "ai-safety",
+    "alignment",
+    "agent"
+   ],
+   "story": null,
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "anthropic:claude-sonnet-5-5",
+   "added": "2026-10-22"
+  },
+  {
+   "id": "bsky-emollick.bsky.social-3mygfwzgdc22g",
+   "person": "ethan-mollick",
+   "platform": "bluesky",
+   "url": "https://bsky.app/profile/emollick.bsky.social/post/3mygfwzgdc22g",
+   "posted_at": "2026-10-22T00:30:53Z",
+   "text": "A visible sign of what AI insiders have been warning about since at least the Mythos release. Acceleration of attack and defense, at inhuman speeds, interacting with the very human systems that need to react to them.\n\nAnd these are the vulnerabilities we know about.",
+   "links": [],
+   "context": null,
+   "likes": 157,
+   "reposts": 29,
+   "via": "feed",
+   "meaning": "Mollick points to the rapid acceleration of AI attack and defense at inhuman speeds interacting with human systems, aligning with warnings since the Mythos release. Builders must prepare for automated security challenges.",
+   "concepts": [
+    "ai-safety"
+   ],
+   "story": null,
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "anthropic:claude-sonnet-5-5",
+   "added": "2026-10-22"
+  },
+  {
+   "id": "x-2112988118471295323",
+   "platform": "x",
+   "url": "https://x.com/OpenAI/status/2112988118471295323",
+   "posted_at": "2026-10-21T19:23:19Z",
+   "date_only": false,
+   "text": "OpenAI models are coming to Google Cloud.\n\nWe're bringing our frontier models and Codex agentic workflows to Google Cloud's Model Garden, so enterprises can use our technology where they already build.https://t.co/gjuLVALjDm",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">OpenAI models are coming to Google Cloud.<br><br>We&#39;re bringing our frontier models and Codex agentic workflows to Google Cloud&#39;s Model Garden, so enterprises can use our technology where they already build.<a href=\"https://t.co/gjuLVALjDm\">https://t.co/gjuLVALjDm</a></p>&mdash; OpenAI (@OpenAI) <a href=\"https://x.com/OpenAI/status/2112988118471295323?ref_src=twsrc%5Etfw\">October 21, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "x-openai",
+   "meaning": "OpenAI announces that its frontier models and Codex agentic workflows are coming to Google Cloud's Model Garden for enterprise builders.",
+   "concepts": [
+    "coding-assistant",
+    "agent",
+    "foundation-model"
+   ],
+   "story": "2026-10-21-openai-models-are-coming-to-google-cloud",
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "anthropic:claude-sonnet-5-5",
+   "added": "2026-10-22"
+  },
+  {
+   "id": "x-2112984664256241837",
+   "platform": "x",
+   "url": "https://x.com/claudeai/status/2112984664256241837",
+   "posted_at": "2026-10-21T19:09:35Z",
+   "date_only": false,
+   "text": "We’re opening a research preview of Claude Duet, a new app where Claude works as a proactive agent.\n\nIt comes to you with what needs your attention, completes tasks you ask of it, keeps working when you step away, and checks with you before it acts on your behalf.",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">We’re opening a research preview of Claude Duet, a new app where Claude works as a proactive agent.<br><br>It comes to you with what needs your attention, completes tasks you ask of it, keeps working when you step away, and checks with you before it acts on your behalf. <a href=\"https://t.co/kt8gAbWuX8\">pic.twitter.com/kt8gAbWuX8</a></p>&mdash; Claude (@claudeai) <a href=\"https://x.com/claudeai/status/2112984664256241837?ref_src=twsrc%5Etfw\">October 21, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "x-claudeai",
+   "meaning": "Claude opens a research preview of Claude Duet, a new app where Claude works as a proactive agent that brings attention to tasks, keeps working when stepped away from, and checks before acting.",
+   "concepts": [
+    "agent",
+    "personal-agent",
+    "tool-use"
+   ],
+   "story": "2026-10-22-anthropic-launches-claude-duet-as-an-always-on-proactive-age",
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "anthropic:claude-sonnet-5-5",
+   "added": "2026-10-22"
+  },
+  {
+   "id": "x-2112967683813609724",
+   "platform": "x",
+   "url": "https://x.com/Thom_Wolf/status/2112967683813609724",
+   "posted_at": "2026-10-21T18:02:07Z",
+   "date_only": false,
+   "text": "My bar for AGI is still an AI winning a Nobel.\n\nBut an AI researcher looking at the lm_head (that *everyone* tells you to keep in high precision) deciding to quantize it to 4 bits AND being actually right (0.7pt from bf16) is definitely impressive.\n\nEven better when the result… https://t.co/gNpzQfZv4C",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">My bar for AGI is still an AI winning a Nobel.<br><br>But an AI researcher looking at the lm_head (that *everyone* tells you to keep in high precision) deciding to quantize it to 4 bits AND being actually right (0.7pt from bf16) is definitely impressive.<br><br>Even better when the result… <a href=\"https://t.co/gNpzQfZv4C\">https://t.co/gNpzQfZv4C</a></p>&mdash; Thomas Wolf (@Thom_Wolf) <a href=\"https://x.com/Thom_Wolf/status/2112967683813609724?ref_src=twsrc%5Etfw\">October 21, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "thomas-wolf",
+   "meaning": "Thomas Wolf says his bar for AGI is still an AI winning a Nobel, but he is impressed that an AI researcher chose to quantize the lm_head to 4 bits, against standard advice, and was right (0.7 points from bf16).",
+   "concepts": [
+    "quantization",
+    "language-model"
+   ],
+   "story": null,
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "editor",
+   "added": "2026-10-22"
+  },
+  {
+   "id": "x-2112962753682198969",
+   "platform": "x",
+   "url": "https://x.com/OpenAIDevs/status/2112962753682198969",
+   "posted_at": "2026-10-21T17:42:32Z",
+   "date_only": false,
+   "text": "We built ChatGPT’s ad stack to respond to an evolving conversation, while ensuring answers stay independent.\n\nHere’s how the LLM orchestrator, retrieval, ranking  and auction tools work together.",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">We built ChatGPT’s ad stack to respond to an evolving conversation, while ensuring answers stay independent.<br><br>Here’s how the LLM orchestrator, retrieval, ranking  and auction tools work together. <a href=\"https://t.co/oho0jXkfiQ\">pic.twitter.com/oho0jXkfiQ</a></p>&mdash; OpenAI Developers (@OpenAIDevs) <a href=\"https://x.com/OpenAIDevs/status/2112962753682198969?ref_src=twsrc%5Etfw\">October 21, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "x-openaidevs",
+   "meaning": "OpenAI Developers explains how ChatGPT's ad stack combines an LLM orchestrator, retrieval, ranking, and auction tools to respond to evolving conversations while keeping answers independent.",
+   "concepts": [
+    "llm",
+    "rag",
+    "chatbot"
+   ],
+   "story": null,
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "anthropic:claude-sonnet-5-5",
+   "added": "2026-10-22"
+  },
+  {
+   "id": "x-2112945805686604033",
+   "platform": "x",
+   "url": "https://x.com/OpenAI/status/2112945805686604033",
+   "posted_at": "2026-10-21T16:35:11Z",
+   "date_only": false,
+   "text": "If you are wondering whether your website is affected, we have packaged a Codex skill to help check.\n\nPoint your Codex at this repo to guide you through it: https://t.co/XUEbOwXuQC https://t.co/BDaIIaJ4yK",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">If you are wondering whether your website is affected, we have packaged a Codex skill to help check.<br><br>Point your Codex at this repo to guide you through it: <a href=\"https://t.co/XUEbOwXuQC\">https://t.co/XUEbOwXuQC</a> <a href=\"https://t.co/BDaIIaJ4yK\">https://t.co/BDaIIaJ4yK</a></p>&mdash; OpenAI (@OpenAI) <a href=\"https://x.com/OpenAI/status/2112945805686604033?ref_src=twsrc%5Etfw\">October 21, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "x-openai",
+   "meaning": "OpenAI shares a Codex skill that walks you through checking whether your website is affected by the PHP2Shell flaws.",
+   "concepts": [
+    "coding-assistant"
+   ],
+   "story": "2026-10-21-wiz-research-reports-critical-php-rce-vulnerabilities-discov",
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "editor",
+   "added": "2026-10-22"
+  },
+  {
    "id": "x-2112921529650688312",
    "platform": "x",
    "url": "https://x.com/gdb/status/2112921529650688312",
@@ -961,8 +1202,8 @@
     "title": "Patch the Planet: global response coordination as agents uncover critical vulnerabilities",
     "text": "Patch the Planet connects security researchers, maintainers, and incident responders to help address critical vulnerabilities across open source."
    },
-   "likes": 44,
-   "reposts": 10,
+   "likes": 61,
+   "reposts": 11,
    "via": "feed",
    "meaning": "Mollick notes that companies are struggling to keep up with frequent security patches driven by AI defenses identifying vulnerabilities ahead of incoming AI cyberattacks. He warns that consumers will soon face a similar reality of constant, rapid updates.",
    "concepts": [
@@ -1054,6 +1295,27 @@
    "model": "gemini:gemini-3.5-flash-lite",
    "checked": "anthropic:claude-sonnet-5-5",
    "added": "2026-10-21"
+  },
+  {
+   "id": "x-2112899854569762936",
+   "platform": "x",
+   "url": "https://x.com/OpenAI/status/2112899854569762936",
+   "posted_at": "2026-10-21T13:32:35Z",
+   "date_only": false,
+   "text": "GPT-Rosalind surfaced a new lead for drug discovery: could restoring cholesterol transport protect neurons from degeneration?\n\nDCTN1 is a gene linked to Perry syndrome, a rare neurodegenerative disorder. In mouse-brain data, disrupting it increased expression of genes involved in…",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">GPT-Rosalind surfaced a new lead for drug discovery: could restoring cholesterol transport protect neurons from degeneration?<br><br>DCTN1 is a gene linked to Perry syndrome, a rare neurodegenerative disorder. In mouse-brain data, disrupting it increased expression of genes involved in…</p>&mdash; OpenAI (@OpenAI) <a href=\"https://x.com/OpenAI/status/2112899854569762936?ref_src=twsrc%5Etfw\">October 21, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "x-openai",
+   "meaning": "OpenAI highlights how GPT-Rosalind surfaced a new drug discovery lead by exploring whether restoring cholesterol transport could protect neurons from degeneration in Perry syndrome.",
+   "concepts": [
+    "foundation-model",
+    "llm"
+   ],
+   "story": null,
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "anthropic:claude-sonnet-5-5",
+   "added": "2026-10-22"
   },
   {
    "id": "x-2112847277282721888",
@@ -1151,7 +1413,7 @@
     }
    ],
    "context": null,
-   "likes": 87,
+   "likes": 96,
    "reposts": 9,
    "via": "feed",
    "meaning": "Ethan Mollick discusses the rapid progress of AI over the past 30 months and shares a video generated by Opus 5.5 to test image and video capabilities.",
@@ -1196,8 +1458,8 @@
     }
    ],
    "context": null,
-   "likes": 261,
-   "reposts": 18,
+   "likes": 276,
+   "reposts": 19,
    "via": "feed",
    "meaning": "Simon Willison built a browser-based RTS game called Battle Drones using Claude Opus 5.5, featuring device-to-device multiplayer over an audio link.",
    "concepts": [
@@ -1605,7 +1867,7 @@
     }
    ],
    "context": null,
-   "likes": 47,
+   "likes": 48,
    "reposts": 4,
    "via": "feed",
    "meaning": "Mollick argues that writing code in STATA is becoming obsolete due to recent language models. He notes that academics who view AI only as chatbots are missing a major shift toward agents.",
@@ -1773,7 +2035,7 @@
    "text": "In a move that is both fascinating and viscerally unsettling, AI world model company Odyssey took a simulation of a fruit fly's brain, Google's connectome map of a fly's actual neurons and connections, and placed it inside an AI-generated world.\n\nA simulated brain exploring a simulated reality.",
    "links": [],
    "context": null,
-   "likes": 97,
+   "likes": 98,
    "reposts": 9,
    "via": "feed",
    "meaning": "Mollick shares that Odyssey placed a fruit fly brain simulation, built from a connectome map of actual neurons, inside an AI-generated world. Builders may care because this combines biological neural wiring with artificial world models to explore simulated realities.",

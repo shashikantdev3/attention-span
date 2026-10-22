@@ -6533,6 +6533,523 @@
     "fallbacks": [],
     "seconds": 18
    }
+  },
+  "2026-10-22": {
+   "date": "2026-10-22",
+   "generated_at": "2026-10-22T19:15:44Z",
+   "stories": [
+    {
+     "title": "Anthropic Launches Claude Duet As An Always-On Proactive Agent",
+     "one_liner": "Anthropic launched Claude Duet, an always-on proactive agent powered by Opus 5.5 that works independently and asks for approval before sensitive actions.",
+     "summary": "Anthropic has launched Claude Duet as a research preview for Pro and Max plan subscribers in the US. Powered by Opus 5.5, the always-on proactive agent handles tasks independently, works while the user is away, and waits for approval before performing sensitive operations like sending messages or making payments. It connects to more than 6,000 connectors and plugins, integrating memory, skills, and apps from the standard Claude app. The application is available on iOS, Android, and the web at claude.ai, competing with similar offerings from xAI, Meta, and OpenAI.",
+     "eli5": "Claude Duet is like a personal assistant that keeps working on tasks by itself while you are away, and then checks in with you only when it needs your permission or help.",
+     "why_it_matters": "Autonomous agents shift AI interactions from reactive chat threads to background execution requiring user permission loops for sensitive actions.",
+     "topic": "products",
+     "type": "product",
+     "labs": [
+      "anthropic",
+      "openai",
+      "meta"
+     ],
+     "people": [],
+     "concepts": [
+      "agent",
+      "personal-agent",
+      "tool-use"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "Claude Duet",
+       "url": "https://claude.com/product/claude-duet",
+       "name": "claude.com",
+       "kind": "original"
+      },
+      {
+       "title": "Discussion on Hacker News",
+       "url": "https://news.ycombinator.com/item?id=50186037",
+       "name": "Hacker News",
+       "kind": "discussion"
+      },
+      {
+       "title": "Claude Duet",
+       "url": "https://claude.com/resources/articles/claude-duet",
+       "name": "claude.com",
+       "kind": "original"
+      },
+      {
+       "title": "Discussion on Hacker News",
+       "url": "https://news.ycombinator.com/item?id=50186455",
+       "name": "Hacker News",
+       "kind": "discussion"
+      },
+      {
+       "title": "Claude Duet app is Anthropic’s bet on agents",
+       "url": "https://techcrunch.com/2026/10/22/claude-duet-app-is-anthropics-bet-on-agents/",
+       "name": "TechCrunch AI",
+       "kind": "press"
+      },
+      {
+       "title": "Anthropic takes on Grok Bot, Meta's Muse, and OpenAI's Dots with its always-on agent \"Claude Duet\"",
+       "url": "https://the-decoder.com/anthropic-takes-on-grok-bot-metas-muse-and-openais-dots-with-its-always-on-agent-claude-duet/",
+       "name": "The Decoder",
+       "kind": "press"
+      }
+     ],
+     "buzz": 3,
+     "published": "2026-10-21T19:14:01Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "Anthropic's always-on agent Claude Duet is covered by three sources and is open to Pro and Max users through a waitlist.",
+     "rank": 1,
+     "id": "2026-10-22-anthropic-launches-claude-duet-as-an-always-on-proactive-age",
+     "date": "2026-10-22"
+    },
+    {
+     "title": "Mistral AI Launches Public Preview of Mistral Large 4",
+     "one_liner": "Mistral AI released a public preview of Mistral Large 4, a 1 trillion-parameter natively multimodal model with open weights arriving by month-end.",
+     "summary": "Mistral AI has launched a public preview of Mistral Large 4, also known as le Chonk. The model features 1 trillion total parameters with 52 billion active parameters and was trained from scratch on 3,800 NVIDIA Grace Blackwell GPUs in Europe. It demonstrates strong performance in coding, agentic workflows, and cybersecurity. The weights will be released by the end of the month. Until then, the model is undergoing red-teaming in real-world settings with cybersecurity leaders, vetted partners, and state authorities. It was trained on multilingual data spanning more than 160 languages.",
+     "eli5": "Mistral made a massive new computer brain that can look at pictures, write code, and solve security puzzles. They are letting people test it now before sharing the recipe with everyone at the end of the month.",
+     "why_it_matters": "Organizations gain access to an open-weight model with advanced cybersecurity and coding capabilities that can run on private clouds or on-premise.",
+     "topic": "models",
+     "type": "product",
+     "labs": [
+      "mistral",
+      "nvidia"
+     ],
+     "people": [],
+     "concepts": [
+      "multimodal-model",
+      "open-weight-model",
+      "red-teaming"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "Mistral Large 4",
+       "url": "https://mistral.ai/news/mistral-large-4/",
+       "name": "mistral.ai",
+       "kind": "original"
+      },
+      {
+       "title": "Discussion on Hacker News",
+       "url": "https://news.ycombinator.com/item?id=50186129",
+       "name": "Hacker News",
+       "kind": "discussion"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-10-21T19:20:55Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "Mistral has published docs for Mistral Large 4, a new model from a major lab that developers can build with.",
+     "rank": 2,
+     "id": "2026-10-22-mistral-ai-launches-public-preview-of-mistral-large-4",
+     "date": "2026-10-22"
+    },
+    {
+     "title": "Uber Deploys ChatGPT Work to All 30,000 Employees",
+     "one_liner": "Uber is rolling out ChatGPT Work to more than 30,000 employees to handle research, data analysis, presentations, and complex workflows.",
+     "summary": "Uber announced the company-wide rollout of ChatGPT Work for more than 30,000 employees across its global workforce. This follows an initial pilot of 1,000 employees. The agentic platform connects with daily tools like Google Drive, Gmail, Google Calendar, and Slack. It enables workers to research information, prepare meeting briefs, create presentations, analyze data, and complete workflows. Uber will use OpenAI models including GPT-6.1 Sol as the default capability. Software engineering teams will also continue using Codex to accelerate software development.",
+     "eli5": "Uber gave all thirty thousand workers a smart helper tool that connects to their work apps to do research, write presentations, and finish big tasks. It is like giving every single person their own personal assistant for their office computer.",
+     "why_it_matters": "Enterprise agent deployments at this scale show that companies are moving beyond small pilots and putting multi-step AI workflows into production for tens of thousands of knowledge workers.",
+     "topic": "industry",
+     "type": "event",
+     "labs": [
+      "openai"
+     ],
+     "people": [],
+     "concepts": [
+      "agent",
+      "coding-assistant",
+      "multimodal-model"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "Uber brings ChatGPT Work to all employees with OpenAI",
+       "url": "https://openai.com/index/uber-chatgpt-work-rollout",
+       "name": "OpenAI News",
+       "kind": "original"
+      },
+      {
+       "title": "Uber puts all 30,000 employees on ChatGPT Work",
+       "url": "https://techcrunch.com/2026/10/22/uber-puts-all-30000-employees-on-chatgpt-work/",
+       "name": "TechCrunch AI",
+       "kind": "press"
+      }
+     ],
+     "buzz": 2,
+     "published": "2026-10-22T00:00:00Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "Uber is putting more than 30,000 employees on ChatGPT Work, a large enterprise rollout confirmed by OpenAI and TechCrunch.",
+     "rank": 3,
+     "id": "2026-10-22-uber-deploys-chatgpt-work-to-all-30-000-employees",
+     "date": "2026-10-22"
+    },
+    {
+     "title": "Google DeepMind Staff Resign Over Military AI Contracts",
+     "one_liner": "Several staff members are resigning from Google DeepMind over concerns regarding the company's AI contracts with the military.",
+     "summary": "Google is facing a backlash from staff members over the deployment of its AI technology for military use. Several tech workers have recently resigned from Google DeepMind or are leaving. Sofia Liguori, a London-based research engineer, resigned and cited concerns about AI systems in military operations. Andreas Kirsch also resigned over concerns regarding governance and oversight for deploying AI in classified settings. Google stated it follows a consistent process for reviewing contracts and complies with acceptable use policies and AI principles. Similar military contracts were signed by other tech companies.",
+     "eli5": "Some workers are leaving their jobs because they do not like how their company's computer tools are being used by the military. It is like leaving a toy factory because you do not want your toys used in a game you dislike.",
+     "why_it_matters": "Employee opposition highlights the tension between stated ethical values and government contracts in artificial intelligence development.",
+     "topic": "policy",
+     "type": "event",
+     "labs": [
+      "google",
+      "openai",
+      "microsoft",
+      "nvidia",
+      "other"
+     ],
+     "people": [],
+     "concepts": [
+      "ai-governance",
+      "ai-safety"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "Google staff resign in backlash over its AI contracts with military",
+       "url": "https://www.bbc.com/news/articles/cmreyvepnv0po",
+       "name": "www.bbc.com",
+       "kind": "press"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-10-22T19:15:44Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 2,
+      "hype_flags": []
+     },
+     "editor_reason": "Added by the editor after the nightly run missed it.",
+     "added_by_editor": "2026-10-22",
+     "id": "2026-10-22-google-deepmind-staff-resign-over-military-ai-contracts",
+     "date": "2026-10-22",
+     "rank": 4
+    },
+    {
+     "title": "Anthropic Donates Agent Skills Standard to Agentic AI Foundation",
+     "one_liner": "Anthropic donated the Agent Skills open standard to the Agentic AI Foundation to keep it vendor-neutral and community-driven.",
+     "summary": "Anthropic has donated Agent Skills, an open standard that gives AI agents specialized knowledge and workflows, to the Agentic AI Foundation under the Linux Foundation. Published in December 2025, the standard has been integrated by over 70 agent platforms including ChatGPT, Cursor, GitHub Copilot, and VS Code. A skill consists of a folder with a SKILL.md file and scripts or reference material. Developers have published 1 million skills and nearly 280 million have been installed. The Foundation will maintain the standard with engineers from Anthropic, Google, OpenAI, and other companies acting as individual maintainers, led by David Soria Parra and Mahesh Murag.",
+     "eli5": "Giving AI agents a recipe book helps them learn new tasks easily. This recipe book standard is now managed by a neutral group so everyone can use it.",
+     "why_it_matters": "A neutral foundation now maintains the agent skills standard to ensure open community governance across different AI platforms.",
+     "topic": "dev-tools",
+     "type": "event",
+     "labs": [
+      "anthropic",
+      "openai",
+      "google",
+      "microsoft"
+     ],
+     "people": [],
+     "concepts": [
+      "agent",
+      "tool-use"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [
+      {
+       "term": "Agent Skills",
+       "definition": "An open standard that gives AI agents specialized knowledge and workflows."
+      }
+     ],
+     "sources": [
+      {
+       "title": "Donating Agent Skills to the Agentic AI Foundation",
+       "url": "https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation",
+       "name": "Anthropic News",
+       "kind": "original"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-10-22T00:00:00Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "Anthropic is donating the Agent Skills open standard to the Agentic AI Foundation, and more than 70 agent platforms are tied to it.",
+     "rank": 5,
+     "id": "2026-10-22-anthropic-donates-agent-skills-standard-to-agentic-ai-founda",
+     "date": "2026-10-22"
+    },
+    {
+     "title": "Claude Now Works with Google Docs, Sheets, and Slides",
+     "one_liner": "Claude for Google Workspace is now in public beta on all paid plans, adding Claude directly to Docs, Sheets, and Slides.",
+     "summary": "Claude for Google Workspace is now in public beta on all paid plans. It allows users to work with Claude directly in open Google Docs, Sheets, and Slides via a sidebar. Claude can read files, see selected content, and make edits. In Sheets, it can write formulas, build pivot tables, and pull ranges into Python. In Slides, it can build new slides using deck layouts and themes. Additionally, new Google Docs, Sheets, and Slides connectors allow users to create and edit files directly from Claude in the chat.",
+     "eli5": "Claude is now like a helpful friend who sits next to you while you write, draw, or make lists in your computer notebooks, and can even write in them for you if you ask.",
+     "why_it_matters": "Integrating directly into office productivity suites removes context switching by letting AI assistants read, write, and execute code within native document environments.",
+     "topic": "products",
+     "type": "product",
+     "labs": [
+      "anthropic",
+      "google"
+     ],
+     "people": [],
+     "concepts": [
+      "tool-use"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "Claude Now Works with Google Docs, Sheets, and Slides",
+       "url": "https://claude.com/resources/articles/claude-now-works-in-google-docs-sheets-and-slides",
+       "name": "claude.com",
+       "kind": "original"
+      },
+      {
+       "title": "Discussion on Hacker News",
+       "url": "https://news.ycombinator.com/item?id=50190357",
+       "name": "Hacker News",
+       "kind": "discussion"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-10-22T02:17:58Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "Claude now works with Google Docs, Sheets and Slides, which widens where developers and teams can use it.",
+     "rank": 6,
+     "id": "2026-10-22-claude-now-works-with-google-docs-sheets-and-slides",
+     "date": "2026-10-22"
+    },
+    {
+     "title": "Nvidia Releases OpenShell 0.1.x for Autonomous AI Agents",
+     "one_liner": "Nvidia has released OpenShell 0.1.x, a runtime designed to govern what autonomous AI agents can touch via policies and isolation primitives.",
+     "summary": "Nvidia released OpenShell version 0.1.x, providing a runtime for fleets of autonomous AI agents. OpenShell governs agent actions by instrumenting the kernel to enforce policies on file access, system calls, and network connections at runtime. It also uses formal verification to check policy changes before they are applied. The software runs in isolated sandboxes and adds credentials only to requests bound for approved endpoints. Version 0.1.x introduces a stable release cadence, new isolation primitives, an expanded extension surface, and new APIs. It requires Linux, macOS on Apple Silicon, or Windows with WSL 2, along with Docker, Podman, or host virtualization.",
+     "eli5": "OpenShell acts like a security guard that lets a helper robot use tools in a room while making sure it only touches the things it is allowed to.",
+     "why_it_matters": "Policies and kernel-level enforcement govern file access, system calls, and network connections for autonomous AI agents.",
+     "topic": "dev-tools",
+     "type": "product",
+     "labs": [
+      "nvidia"
+     ],
+     "people": [],
+     "concepts": [
+      "agent",
+      "agent-sandbox",
+      "tool-use"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [
+      {
+       "term": "kernel-level enforcement",
+       "definition": "Kernel controls confine which files an agent can access and which system calls it can make, and every network connection passes through a policy check before it leaves the sandbox."
+      },
+      {
+       "term": "formal verification",
+       "definition": "OpenShell uses formal verification to check what a policy change would allow before it is applied."
+      }
+     ],
+     "sources": [
+      {
+       "title": "Nvidia OpenShell",
+       "url": "https://github.com/NVIDIA/OpenShell",
+       "name": "github.com",
+       "kind": "original"
+      },
+      {
+       "title": "Discussion on Hacker News",
+       "url": "https://news.ycombinator.com/item?id=50198675",
+       "name": "Hacker News",
+       "kind": "discussion"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-10-22T17:44:06Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 2,
+      "hype_flags": []
+     },
+     "editor_reason": "Nvidia OpenShell is a new NVIDIA tool that builders may want to check.",
+     "rank": 7,
+     "id": "2026-10-22-nvidia-releases-openshell-0-1-x-for-autonomous-ai-agents",
+     "date": "2026-10-22"
+    },
+    {
+     "title": "OpenAI Releases Official Command-Line Tool for the REST API",
+     "one_liner": "OpenAI released an official command-line tool to call the OpenAI REST API directly from terminals or shell scripts.",
+     "summary": "OpenAI released an official command-line tool, OpenAI CLI, designed to call the OpenAI REST API directly from terminals or shell scripts. Users can generate images, upload files, submit batches, and inspect API results without writing an application. The tool supports prebuilt binary downloads for macOS, Linux, and Windows, Homebrew installation, and Go installation requiring Go 1.26 or later. It features update checks, setup guides for API keys, admin endpoints, output formatting options including JSON and YAML, and shell shortcuts.",
+     "eli5": "It is like a remote control with buttons for your computer terminal that lets you talk straight to OpenAI without building a whole app first.",
+     "why_it_matters": "Interacting with models, managing files, and running batch requests directly from shell scripts becomes possible without writing custom applications.",
+     "topic": "dev-tools",
+     "type": "product",
+     "labs": [
+      "openai"
+     ],
+     "people": [],
+     "concepts": [
+      "tool-use"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "OpenAI CLI",
+       "url": "https://github.com/openai/openai-cli",
+       "name": "github.com",
+       "kind": "original"
+      },
+      {
+       "title": "Discussion on Hacker News",
+       "url": "https://news.ycombinator.com/item?id=50191507",
+       "name": "Hacker News",
+       "kind": "discussion"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-10-22T05:23:11Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "An OpenAI CLI is a new command-line tool from OpenAI that developers can use directly.",
+     "rank": 8,
+     "id": "2026-10-22-openai-releases-official-command-line-tool-for-the-rest-api",
+     "date": "2026-10-22"
+    },
+    {
+     "title": "Cache Engineering Scheme Proposed for Large Language Model Agents",
+     "one_liner": "Researchers propose cache engineering to let LLM agents control their active KV cache without modifying trajectories or re-prefilling context.",
+     "summary": "Large Language Model agents handle complex tasks by navigating long trajectories of observations and actions. As these trajectories grow, key-value cache I/O and storage become dominant costs. They can also exceed the maximum context length. Prior context engineering methods reduce cache size by trimming or modifying history, which invalidates cached states and forces costly re-prefilling. A new scheme called cache engineering lets agents control their active KV cache directly. Agents can use drop to exclude selected cache from future attention and repos to adjust retained keys position encodings. The AKV serving engine manages stateful cache reuse, eviction, and restoration.",
+     "eli5": "The AI manages its memory by dropping old notes and adjusting key positions so it does not have to reread everything from the start.",
+     "why_it_matters": "Direct cache control avoids costly re-prefilling of retained context when managing active cache growth.",
+     "topic": "research",
+     "type": "paper",
+     "labs": [
+      "academia"
+     ],
+     "people": [],
+     "concepts": [
+      "agent",
+      "kv-cache",
+      "context-window"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [
+      {
+       "term": "cache engineering",
+       "definition": "A scheme that allows agents to directly control their active KV cache without modifying the trajectory or re-prefilling retained context."
+      }
+     ],
+     "sources": [
+      {
+       "title": "Cache Engineering for Agents",
+       "url": "https://arxiv.org/abs/2610.28577",
+       "name": "Hugging Face Daily Papers",
+       "kind": "original"
+      },
+      {
+       "title": "Discussion on Hugging Face Daily Papers",
+       "url": "https://huggingface.co/papers/2610.28577",
+       "name": "Hugging Face Daily Papers",
+       "kind": "discussion"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-10-19T20:00:00Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 2,
+      "hype_flags": []
+     },
+     "editor_reason": "Cache Engineering for Agents deals with key-value caching as agent trajectories grow long, which matters for the cost and speed of agents.",
+     "rank": 9,
+     "id": "2026-10-22-cache-engineering-scheme-proposed-for-large-language-model-a",
+     "date": "2026-10-22"
+    },
+    {
+     "title": "Researchers Solve 31-Year-Old Math Mystery Using Human-Directed AI",
+     "one_liner": "Researchers have resolved the 31-year-old Kannan-Lovász-Simonovits conjecture using a human-directed AI research process.",
+     "summary": "Researchers, including Xinzhi Zhang from Microsoft Research, have resolved the Kannan-Lovász-Simonovits conjecture, a 31-year-old problem in high-dimensional geometry and probability. Proposed in 1995, the conjecture asks whether the best flat cut is always nearly as effective as the best cut of any shape for high-dimensional probability distributions. The breakthrough emerged from a human-directed agentic research process where AI systems explored mathematical possibilities while researchers evaluated, pruned, and redirected the search. This work removes a major theoretical obstacle to understanding the efficiency of randomized algorithms used across science and computing.",
+     "eli5": "Mathematicians finally figured out a very old and tough puzzle about how shapes work in spaces with many dimensions, with the help of AI systems that tested out ideas.",
+     "why_it_matters": "Removing theoretical obstacles to understanding randomized algorithms improves foundational knowledge for science and computing.",
+     "topic": "research",
+     "type": "event",
+     "labs": [
+      "microsoft"
+     ],
+     "people": [],
+     "concepts": [
+      "agent",
+      "machine-learning"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [
+      {
+       "term": "agentic research process",
+       "definition": "A structured process in which AI systems explore mathematical possibilities while researchers evaluate, prune, and redirect the search."
+      }
+     ],
+     "sources": [
+      {
+       "title": "With new ideas and human-directed AI, researchers solve a 31-year-old math mystery",
+       "url": "https://www.microsoft.com/en-us/research/blog/solving-a-31-year-old-grand-challenge-in-mathematics-the-kls-conjecture/",
+       "name": "Microsoft Source (news)",
+       "kind": "original"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-10-21T18:39:50Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 2,
+      "hype_flags": []
+     },
+     "editor_reason": "Researchers solved a 31-year-old math problem with human-directed AI, a concrete case of AI helping research.",
+     "rank": 10,
+     "id": "2026-10-22-researchers-solve-31-year-old-math-mystery-using-human-direc",
+     "date": "2026-10-22"
+    }
+   ],
+   "stats": {
+    "items": 145,
+    "stories": 138,
+    "sources_ok": 41,
+    "sources_failed": [],
+    "published": 10,
+    "dropped": 3,
+    "llm_calls": 17,
+    "cache_hits": 20,
+    "models": {
+     "anthropic:claude-sonnet-5-5": 9,
+     "gemini:gemini-3.5-flash-lite": 8
+    },
+    "fallbacks": [],
+    "seconds": 76
+   }
   }
  }
 }

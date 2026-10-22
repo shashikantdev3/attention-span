@@ -1,6 +1,13 @@
 {
  "editions": [
   {
+   "date": "2026-10-22",
+   "file": "2026-10.json",
+   "count": 10,
+   "spotlight": 0,
+   "lead": "Anthropic Launches Claude Duet As An Always-On Proactive Agent"
+  },
+  {
    "date": "2026-10-21",
    "file": "2026-10.json",
    "count": 9,
@@ -99,6 +106,6 @@
    "lead": "Anthropic Releases Claude Haiku 5.5 and AWS Integration"
   }
  ],
- "latest": "2026-10-21",
- "updated": "2026-10-21T18:32:11Z"
+ "latest": "2026-10-22",
+ "updated": "2026-10-22T19:15:44Z"
 }
