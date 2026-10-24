@@ -1320,5 +1320,255 @@
   "reasons": [],
   "model": "microsoft/microsoft-decision-1-20261009",
   "checked_at": "2026-10-15T16:13:51+00:00"
+ },
+ "2026-10-23-moonshot-ai-releases-kimi-k3-1-pro|microsoft/microsoft-decision-1": {
+  "id": "2026-10-23-moonshot-ai-releases-kimi-k3-1-pro",
+  "date": "2026-10-23",
+  "headline": "Moonshot AI Releases Kimi K3.1 Pro",
+  "original_headlines": [
+   "Kimi K3.1 Pro Tech Blog: Advancing Open Intelligence",
+   "Chinese AI model Kimi K3.1 Pro is closing in on Anthropic's Claude Opus 5.5"
+  ],
+  "supported": 0.984,
+  "strength": "same",
+  "strength_probabilities": {
+   "same": 0.444,
+   "stronger": 0.163,
+   "weaker": 0.392
+  },
+  "hype": 0.45,
+  "verdict": "ok",
+  "reasons": [],
+  "model": "microsoft/microsoft-decision-1-20261009",
+  "checked_at": "2026-10-24T13:46:30+00:00"
+ },
+ "2026-10-23-openai-details-security-updates-for-frontier-model-training|microsoft/microsoft-decision-1": {
+  "id": "2026-10-23-openai-details-security-updates-for-frontier-model-training",
+  "date": "2026-10-23",
+  "headline": "OpenAI Details Security Updates for Frontier Model Training",
+  "original_headlines": [
+   "Securing our frontier model training environment"
+  ],
+  "supported": 0.932,
+  "strength": "same",
+  "strength_probabilities": {
+   "same": 0.562,
+   "stronger": 0.341,
+   "weaker": 0.098
+  },
+  "hype": 0.01,
+  "verdict": "ok",
+  "reasons": [],
+  "model": "microsoft/microsoft-decision-1-20261009",
+  "checked_at": "2026-10-24T13:46:31+00:00"
+ },
+ "2026-10-23-report-details-claude-mythos-5-cybertesting-incident|microsoft/microsoft-decision-1": {
+  "id": "2026-10-23-report-details-claude-mythos-5-cybertesting-incident",
+  "date": "2026-10-23",
+  "headline": "Anthropic explains why Claude Mythos 5 tried to trick a GitHub maintainer in a UK AISI test",
+  "original_headlines": [
+   "An alignment assessment of the UK AISI cybertesting incident",
+   "Investigating alignment failures in AISI's incident"
+  ],
+  "supported": 0.731,
+  "strength": "stronger",
+  "strength_probabilities": {
+   "same": 0.225,
+   "stronger": 0.692,
+   "weaker": 0.083
+  },
+  "hype": 0.65,
+  "verdict": "ok",
+  "reasons": [],
+  "model": "microsoft/microsoft-decision-1-20261009",
+  "checked_at": "2026-10-24T13:46:32+00:00"
+ },
+ "2026-10-23-openai-makes-decisions-api-generally-available|microsoft/microsoft-decision-1": {
+  "id": "2026-10-23-openai-makes-decisions-api-generally-available",
+  "date": "2026-10-23",
+  "headline": "OpenAI Makes Decisions API Generally Available",
+  "original_headlines": [
+   "Build more responsive apps with the Decisions API"
+  ],
+  "supported": 0.995,
+  "strength": "stronger",
+  "strength_probabilities": {
+   "same": 0.119,
+   "stronger": 0.776,
+   "weaker": 0.105
+  },
+  "hype": 0.01,
+  "verdict": "check",
+  "reasons": [
+   "stronger than the original"
+  ],
+  "model": "microsoft/microsoft-decision-1-20261009",
+  "checked_at": "2026-10-24T13:46:33+00:00"
+ },
+ "2026-10-23-anthropic-reports-llms-make-formal-software-verification-fea|microsoft/microsoft-decision-1": {
+  "id": "2026-10-23-anthropic-reports-llms-make-formal-software-verification-fea",
+  "date": "2026-10-23",
+  "headline": "Anthropic Reports LLMs Make Formal Software Verification Feasible",
+  "original_headlines": [
+   "LLMs are making formal software verification feasible at a much larger scale",
+   "Discussion on Hacker News"
+  ],
+  "supported": 0.562,
+  "strength": "same",
+  "strength_probabilities": {
+   "same": 0.73,
+   "stronger": 0.127,
+   "weaker": 0.144
+  },
+  "hype": 0.09,
+  "verdict": "ok",
+  "reasons": [],
+  "model": "microsoft/microsoft-decision-1-20261009",
+  "checked_at": "2026-10-24T13:46:34+00:00"
+ },
+ "2026-10-23-modular-makes-entire-max-stack-source-available-under-new-li|microsoft/microsoft-decision-1": {
+  "id": "2026-10-23-modular-makes-entire-max-stack-source-available-under-new-li",
+  "date": "2026-10-23",
+  "headline": "Modular Makes Entire MAX Stack Source Available Under New License",
+  "original_headlines": [
+   "Modular: MAX is now source available and open to everyone"
+  ],
+  "supported": 0.924,
+  "strength": "stronger",
+  "strength_probabilities": {
+   "same": 0.413,
+   "stronger": 0.531,
+   "weaker": 0.056
+  },
+  "hype": 0.05,
+  "verdict": "ok",
+  "reasons": [],
+  "model": "microsoft/microsoft-decision-1-20261009",
+  "checked_at": "2026-10-24T13:46:35+00:00"
+ },
+ "2026-10-23-axios-report-says-major-u-s-banks-detect-third-party-ai-agen|microsoft/microsoft-decision-1": {
+  "id": "2026-10-23-axios-report-says-major-u-s-banks-detect-third-party-ai-agen",
+  "date": "2026-10-23",
+  "headline": "Banks say customers are letting unvetted AI agents into their accounts",
+  "original_headlines": [
+   "AI agents are roaming around consumers' bank accounts, and banks aren't happy about it"
+  ],
+  "supported": 0.852,
+  "strength": "weaker",
+  "strength_probabilities": {
+   "same": 0.16,
+   "stronger": 0.206,
+   "weaker": 0.634
+  },
+  "hype": 0.47,
+  "verdict": "ok",
+  "reasons": [],
+  "model": "microsoft/microsoft-decision-1-20261009",
+  "checked_at": "2026-10-24T13:46:35+00:00"
+ },
+ "2026-10-23-swedish-government-offices-to-ban-chatgpt-and-claude|microsoft/microsoft-decision-1": {
+  "id": "2026-10-23-swedish-government-offices-to-ban-chatgpt-and-claude",
+  "date": "2026-10-23",
+  "headline": "Swedish government offices to ban ChatGPT and Claude",
+  "original_headlines": [
+   "Swedish government offices to ban ChatGPT and Claude",
+   "Discussion on Hacker News"
+  ],
+  "supported": 0.881,
+  "strength": "same",
+  "strength_probabilities": {
+   "same": 0.998,
+   "stronger": 0.001,
+   "weaker": 0.001
+  },
+  "hype": 0.02,
+  "verdict": "ok",
+  "reasons": [],
+  "model": "microsoft/microsoft-decision-1-20261009",
+  "checked_at": "2026-10-24T13:46:36+00:00"
+ },
+ "2026-10-23-scaling-azure-cosmos-db-for-over-1-billion-chatgpt-users|microsoft/microsoft-decision-1": {
+  "id": "2026-10-23-scaling-azure-cosmos-db-for-over-1-billion-chatgpt-users",
+  "date": "2026-10-23",
+  "headline": "Scaling Azure Cosmos DB for over 1 billion ChatGPT users",
+  "original_headlines": [
+   "Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)"
+  ],
+  "supported": 0.651,
+  "strength": "same",
+  "strength_probabilities": {
+   "same": 0.512,
+   "stronger": 0.089,
+   "weaker": 0.399
+  },
+  "hype": 0.49,
+  "verdict": "ok",
+  "reasons": [],
+  "model": "microsoft/microsoft-decision-1-20261009",
+  "checked_at": "2026-10-24T13:46:37+00:00"
+ },
+ "2026-10-23-iquest-q1-foundation-model-released-for-agentic-cli-systems|microsoft/microsoft-decision-1": {
+  "id": "2026-10-23-iquest-q1-foundation-model-released-for-agentic-cli-systems",
+  "date": "2026-10-23",
+  "headline": "IQuest-Q1 Foundation Model Released for Agentic CLI Systems",
+  "original_headlines": [
+   "IQuest-Q1: Advancing Foundation Capabilities for Agentic CLI Systems",
+   "Discussion on Hugging Face Daily Papers"
+  ],
+  "supported": 0.5,
+  "strength": "stronger",
+  "strength_probabilities": {
+   "same": 0.192,
+   "stronger": 0.759,
+   "weaker": 0.049
+  },
+  "hype": 0.1,
+  "verdict": "check",
+  "reasons": [
+   "stronger than the original"
+  ],
+  "model": "microsoft/microsoft-decision-1-20261009",
+  "checked_at": "2026-10-24T13:46:38+00:00"
+ },
+ "2026-10-23-thinkingcap-reduces-google-gemma-model-thinking-tokens|microsoft/microsoft-decision-1": {
+  "id": "2026-10-23-thinkingcap-reduces-google-gemma-model-thinking-tokens",
+  "date": "2026-10-23",
+  "headline": "ThinkingCap Reduces Google Gemma Model Thinking Tokens",
+  "original_headlines": [
+   "Gemma-4-26B-A4B with 39-69% less thinking at same accuracy",
+   "Discussion on Hacker News"
+  ],
+  "supported": 0.731,
+  "strength": "weaker",
+  "strength_probabilities": {
+   "same": 0.092,
+   "stronger": 0.038,
+   "weaker": 0.87
+  },
+  "hype": 0.21,
+  "verdict": "ok",
+  "reasons": [],
+  "model": "microsoft/microsoft-decision-1-20261009",
+  "checked_at": "2026-10-24T13:46:39+00:00"
+ },
+ "2026-10-23-microsoft-introduces-flint-interactive-to-help-ai-create-int|microsoft/microsoft-decision-1": {
+  "id": "2026-10-23-microsoft-introduces-flint-interactive-to-help-ai-create-int",
+  "date": "2026-10-23",
+  "headline": "Microsoft Introduces Flint-interactive to Help AI Create Interactive Visualizations",
+  "original_headlines": [
+   "Beyond static charts: Helping AI create visualizations you can explore"
+  ],
+  "supported": 0.932,
+  "strength": "stronger",
+  "strength_probabilities": {
+   "same": 0.317,
+   "stronger": 0.592,
+   "weaker": 0.091
+  },
+  "hype": 0.04,
+  "verdict": "ok",
+  "reasons": [],
+  "model": "microsoft/microsoft-decision-1-20261009",
+  "checked_at": "2026-10-24T13:46:39+00:00"
  }
 }

@@ -1,6 +1,20 @@
 {
  "editions": [
   {
+   "date": "2026-10-24",
+   "file": "2026-10.json",
+   "count": 4,
+   "spotlight": 0,
+   "lead": "Study Finds Coding Agent Harnesses Increase Costs Without Improving Results"
+  },
+  {
+   "date": "2026-10-23",
+   "file": "2026-10.json",
+   "count": 12,
+   "spotlight": 0,
+   "lead": "Moonshot AI Releases Kimi K3.1 Pro"
+  },
+  {
    "date": "2026-10-22",
    "file": "2026-10.json",
    "count": 10,
@@ -106,6 +120,6 @@
    "lead": "Anthropic Releases Claude Haiku 5.5 and AWS Integration"
   }
  ],
- "latest": "2026-10-22",
- "updated": "2026-10-22T19:15:44Z"
+ "latest": "2026-10-24",
+ "updated": "2026-10-24T13:32:54Z"
 }

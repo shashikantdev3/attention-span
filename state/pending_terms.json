@@ -411,5 +411,75 @@
   "first_seen": "2026-10-22",
   "story": "2026-10-22-researchers-solve-31-year-old-math-mystery-using-human-direc",
   "source": "https://www.microsoft.com/en-us/research/blog/solving-a-31-year-old-grand-challenge-in-mathematics-the-kls-conjecture/"
+ },
+ {
+  "term": "cached web content",
+  "definition": "A vast set of indexed and cached web content with which models can interact without risk of affecting external systems.",
+  "first_seen": "2026-10-24",
+  "story": "2026-10-24-openai-announces-it-will-train-ai-models-without-live-intern",
+  "source": "https://techcrunch.com/2026/10/23/openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-significant-risks/"
+ },
+ {
+  "term": "Personal Intelligence",
+  "definition": "A mechanism released by Google in early 2026 allowing users to hand data from multiple apps to Google AI products.",
+  "first_seen": "2026-10-24",
+  "story": "2026-10-24-google-updates-privacy-policy-regarding-gmail-and-ad-persona",
+  "source": "https://arstechnica.com/gadgets/2026/10/updated-google-privacy-policy-says-your-gmail-might-be-used-for-advertising/"
+ },
+ {
+  "term": "agent multiplexer",
+  "definition": "A tool that runs and monitors multiple AI agents and terminal processes in the background.",
+  "first_seen": "2026-10-24",
+  "story": "2026-10-24-show-hn-corgi-a-helpful-agent-and-terminal-multiplexer",
+  "source": "https://corgi.computer/"
+ },
+ {
+  "term": "Decisions API",
+  "definition": "An API that focuses intelligence on questions with bounded answers to help applications and agents make near real-time decisions from text, images, and structured inputs.",
+  "first_seen": "2026-10-23",
+  "story": "2026-10-23-openai-makes-decisions-api-generally-available",
+  "source": "https://openai.com/index/decisions-api"
+ },
+ {
+  "term": "co-managed containers",
+  "definition": "A viable multi-tenancy approach arrived at through a close working partnership with the Azure team.",
+  "first_seen": "2026-10-23",
+  "story": "2026-10-23-scaling-azure-cosmos-db-for-over-1-billion-chatgpt-users",
+  "source": "https://openai.com/index/scaling-storage-one-billion-users-part-two"
+ },
+ {
+  "term": "Stable SplitNorm",
+  "definition": "A technique used in the stable and efficient pre-training of the model.",
+  "first_seen": "2026-10-23",
+  "story": "2026-10-23-iquest-q1-foundation-model-released-for-agentic-cli-systems",
+  "source": "https://arxiv.org/abs/2610.30949"
+ },
+ {
+  "term": "MOPD",
+  "definition": "A method used alongside SFT and domain-specialized RL during post-training.",
+  "first_seen": "2026-10-23",
+  "story": "2026-10-23-iquest-q1-foundation-model-released-for-agentic-cli-systems",
+  "source": "https://arxiv.org/abs/2610.30949"
+ },
+ {
+  "term": "Flint-interactive",
+  "definition": "A language for creating interactive data visualizations on top of Flint that allows users to create dashboards, data stories, and interactive artifacts more easily.",
+  "first_seen": "2026-10-23",
+  "story": "2026-10-23-microsoft-introduces-flint-interactive-to-help-ai-create-int",
+  "source": "https://www.microsoft.com/en-us/research/blog/flint-interactive-a-language-for-creating-interactive-data-visualizations/"
+ },
+ {
+  "term": "semantic events",
+  "definition": "Events that capture the meaning behind what users select by translating user interactions through Flint's compiler.",
+  "first_seen": "2026-10-23",
+  "story": "2026-10-23-microsoft-introduces-flint-interactive-to-help-ai-create-int",
+  "source": "https://www.microsoft.com/en-us/research/blog/flint-interactive-a-language-for-creating-interactive-data-visualizations/"
+ },
+ {
+  "term": "formal software verification",
+  "definition": "Formal software verification involves translating code into a mathematical model and trying to prove that it always follows a defined set of security rules.",
+  "first_seen": "2026-10-23",
+  "story": "2026-10-23-anthropic-reports-llms-make-formal-software-verification-fea",
+  "source": "https://www.anthropic.com/research/formal-verification"
  }
 ]
