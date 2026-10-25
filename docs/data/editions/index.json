@@ -1,16 +1,23 @@
 {
  "editions": [
   {
+   "date": "2026-10-25",
+   "file": "2026-10.json",
+   "count": 7,
+   "spotlight": 0,
+   "lead": "OpenAI offers discounts of up to 90% to win Anthropic's customers, report says"
+  },
+  {
    "date": "2026-10-24",
    "file": "2026-10.json",
-   "count": 4,
+   "count": 9,
    "spotlight": 0,
-   "lead": "Study Finds Coding Agent Harnesses Increase Costs Without Improving Results"
+   "lead": "Block launches Dessa, a speech-to-speech AI model trained only on human conversation"
   },
   {
    "date": "2026-10-23",
    "file": "2026-10.json",
-   "count": 12,
+   "count": 13,
    "spotlight": 0,
    "lead": "Moonshot AI Releases Kimi K3.1 Pro"
   },
@@ -120,6 +127,6 @@
    "lead": "Anthropic Releases Claude Haiku 5.5 and AWS Integration"
   }
  ],
- "latest": "2026-10-24",
- "updated": "2026-10-24T13:32:54Z"
+ "latest": "2026-10-25",
+ "updated": "2026-10-25T18:00:36Z"
 }

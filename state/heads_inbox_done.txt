@@ -253,3 +253,13 @@
 2026-10-24  https://x.com/SemiAnalysis_/status/2113383965784502444
 2026-10-24  https://x.com/OpenAIDevs/status/2113346645463081418
 2026-10-24  https://x.com/Thom_Wolf/status/2113345703485309335
+2026-10-25  https://x.com/emollick/status/2114337256865493250
+2026-10-25  https://x.com/BenjaminDEKR/status/2114168123859317091
+2026-10-25  https://x.com/rakyll/status/2114114266559291884
+2026-10-25  https://x.com/karrisaarinen/status/2114105314610196847
+2026-10-25  https://x.com/sgl_project/status/2114071115605877043
+2026-10-25  https://x.com/VikParuchuri/status/2114054449043751293
+2026-10-25  https://x.com/vllm_project/status/2114054277379641770
+2026-10-25  https://x.com/omarsar0/status/2114050042705379461
+2026-10-25  https://x.com/GaryMarcus/status/2114041475604332851
+2026-10-25  https://x.com/AravSrinivas/status/2114021917586014449

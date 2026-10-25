@@ -413,25 +413,25 @@
   "source": "https://www.microsoft.com/en-us/research/blog/solving-a-31-year-old-grand-challenge-in-mathematics-the-kls-conjecture/"
  },
  {
-  "term": "cached web content",
-  "definition": "A vast set of indexed and cached web content with which models can interact without risk of affecting external systems.",
-  "first_seen": "2026-10-24",
-  "story": "2026-10-24-openai-announces-it-will-train-ai-models-without-live-intern",
-  "source": "https://techcrunch.com/2026/10/23/openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-significant-risks/"
+  "term": "research taste",
+  "definition": "The ability to pick the right experiments and draw the right conclusions from them.",
+  "first_seen": "2026-10-25",
+  "story": "2026-10-25-anthropic-co-founder-jack-clark-moves-self-improving-ai-time",
+  "source": "https://the-decoder.com/anthropic-co-founder-jack-clark-moves-his-prediction-for-self-improving-ai-forward-to-2027/"
  },
  {
-  "term": "Personal Intelligence",
-  "definition": "A mechanism released by Google in early 2026 allowing users to hand data from multiple apps to Google AI products.",
-  "first_seen": "2026-10-24",
-  "story": "2026-10-24-google-updates-privacy-policy-regarding-gmail-and-ad-persona",
-  "source": "https://arstechnica.com/gadgets/2026/10/updated-google-privacy-policy-says-your-gmail-might-be-used-for-advertising/"
+  "term": "compute multiplier",
+  "definition": "The ratio measuring how much compute a model needs to match expert scores.",
+  "first_seen": "2026-10-25",
+  "story": "2026-10-25-anthropic-co-founder-jack-clark-moves-self-improving-ai-time",
+  "source": "https://the-decoder.com/anthropic-co-founder-jack-clark-moves-his-prediction-for-self-improving-ai-forward-to-2027/"
  },
  {
-  "term": "agent multiplexer",
-  "definition": "A tool that runs and monitors multiple AI agents and terminal processes in the background.",
-  "first_seen": "2026-10-24",
-  "story": "2026-10-24-show-hn-corgi-a-helpful-agent-and-terminal-multiplexer",
-  "source": "https://corgi.computer/"
+  "term": "chip-backed debt",
+  "definition": "A 2023 private credit loan led by Blackstone to CoreWeave became a blueprint for chip-backed debt, which is on track to become a $1T market.",
+  "first_seen": "2026-10-25",
+  "story": "2026-10-25-blackstone-led-loan-to-coreweave-becomes-blueprint-for-chip",
+  "source": "https://www.techmeme.com/261025/p6#a261025p6"
  },
  {
   "term": "Decisions API",
@@ -439,6 +439,20 @@
   "first_seen": "2026-10-23",
   "story": "2026-10-23-openai-makes-decisions-api-generally-available",
   "source": "https://openai.com/index/decisions-api"
+ },
+ {
+  "term": "formal software verification",
+  "definition": "Formal software verification involves translating code into a mathematical model and trying to prove that it always follows a defined set of security rules.",
+  "first_seen": "2026-10-23",
+  "story": "2026-10-23-anthropic-reports-llms-make-formal-software-verification-fea",
+  "source": "https://www.anthropic.com/research/formal-verification"
+ },
+ {
+  "term": "reinforcement learning from collective rewards",
+  "definition": "A recipe that jointly trains the agents in an organisation using the same collective advantage.",
+  "first_seen": "2026-10-23",
+  "story": "2026-10-23-general-reasoning-releases-avalon-m1-and-training-recipe",
+  "source": "https://www.gr.inc/releases/avalon-m1"
  },
  {
   "term": "co-managed containers",
@@ -476,10 +490,31 @@
   "source": "https://www.microsoft.com/en-us/research/blog/flint-interactive-a-language-for-creating-interactive-data-visualizations/"
  },
  {
-  "term": "formal software verification",
-  "definition": "Formal software verification involves translating code into a mathematical model and trying to prove that it always follows a defined set of security rules.",
-  "first_seen": "2026-10-23",
-  "story": "2026-10-23-anthropic-reports-llms-make-formal-software-verification-fea",
-  "source": "https://www.anthropic.com/research/formal-verification"
+  "term": "true speech-to-speech model",
+  "definition": "A model where everything it knows came from human speech and it acts as a direct speech-to-speech interface.",
+  "first_seen": "2026-10-24",
+  "story": "2026-10-24-jack-dorsey-s-block-announces-new-conversational-ai-model-na",
+  "source": "https://www.theverge.com/ai-artificial-intelligence/1017906/jack-dorsey-block-dessa-ai-voice-speech"
+ },
+ {
+  "term": "Personal Intelligence",
+  "definition": "A mechanism released by Google in early 2026 allowing users to hand data from multiple apps to Google AI products.",
+  "first_seen": "2026-10-24",
+  "story": "2026-10-24-google-updates-privacy-policy-regarding-gmail-and-ad-persona",
+  "source": "https://arstechnica.com/gadgets/2026/10/updated-google-privacy-policy-says-your-gmail-might-be-used-for-advertising/"
+ },
+ {
+  "term": "agent multiplexer",
+  "definition": "A tool that runs and monitors multiple AI agents and terminal processes in the background.",
+  "first_seen": "2026-10-24",
+  "story": "2026-10-24-show-hn-corgi-a-helpful-agent-and-terminal-multiplexer",
+  "source": "https://corgi.computer/"
+ },
+ {
+  "term": "optical networking chips",
+  "definition": "Chips used in optical networking that face AI demand outpacing supply.",
+  "first_seen": "2026-10-24",
+  "story": "2026-10-24-wall-street-journal-interviews-ciena-ceo-gary-smith",
+  "source": "https://www.techmeme.com/261024/p6#a261024p6"
  }
 ]

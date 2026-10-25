@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-24T13:41:12Z",
+ "updated_at": "2026-10-25T18:03:44Z",
  "window_days": 7,
  "groups": [
   {
@@ -251,6 +251,51 @@
    "group": "researchers",
    "known_for": "First author of the chain-of-thought prompting paper",
    "x": "_jasonwei",
+   "bsky": null,
+   "bsky_check": null
+  },
+  {
+   "id": "karri-saarinen",
+   "name": "Karri Saarinen",
+   "group": "leaders",
+   "known_for": "Co-founder and CEO of Linear",
+   "x": "karrisaarinen",
+   "bsky": null,
+   "bsky_check": null
+  },
+  {
+   "id": "vik-paruchuri",
+   "name": "Vik Paruchuri",
+   "group": "builders",
+   "known_for": "Co-founder of Datalab, maker of the Marker and Chandra OCR tools",
+   "x": "VikParuchuri",
+   "bsky": null,
+   "bsky_check": null
+  },
+  {
+   "id": "elvis-saravia",
+   "name": "Elvis Saravia",
+   "group": "explainers",
+   "known_for": "AI educator; shares and explains new papers (DAIR.AI)",
+   "x": "omarsar0",
+   "bsky": null,
+   "bsky_check": null
+  },
+  {
+   "id": "jaana-dogan",
+   "name": "Jaana Dogan",
+   "group": "builders",
+   "known_for": "Engineer known for Go and developer tools",
+   "x": "rakyll",
+   "bsky": null,
+   "bsky_check": null
+  },
+  {
+   "id": "benjamin-de-kraker",
+   "name": "Benjamin De Kraker",
+   "group": "builders",
+   "known_for": "Developer and AI commentator",
+   "x": "BenjaminDEKR",
    "bsky": null,
    "bsky_check": null
   },
@@ -975,6 +1020,24 @@
    "bsky_check": null
   },
   {
+   "id": "x-vllm",
+   "name": "vLLM",
+   "group": "official",
+   "known_for": "Open-source engine for serving language models",
+   "x": "vllm_project",
+   "bsky": null,
+   "bsky_check": null
+  },
+  {
+   "id": "x-sglang",
+   "name": "SGLang",
+   "group": "official",
+   "known_for": "Open-source engine for serving language models",
+   "x": "sgl_project",
+   "bsky": null,
+   "bsky_check": null
+  },
+  {
    "id": "x-minimax",
    "name": "MiniMax",
    "group": "official",
@@ -1084,6 +1147,222 @@
   }
  ],
  "posts": [
+  {
+   "id": "x-2114337256865493250",
+   "platform": "x",
+   "url": "https://x.com/emollick/status/2114337256865493250",
+   "posted_at": "2026-10-25T12:44:19Z",
+   "date_only": false,
+   "text": "A thing I see happening at large organizations as a result of AI is the expansion of the role and span of control of senior management who can directly monitor the whole firm. It vastly changes company operations. It also is straightforward to implement compared to firm redesign.",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">A thing I see happening at large organizations as a result of AI is the expansion of the role and span of control of senior management who can directly monitor the whole firm. It vastly changes company operations. It also is straightforward to implement compared to firm redesign.</p>&mdash; Ethan Mollick (@emollick) <a href=\"https://x.com/emollick/status/2114337256865493250?ref_src=twsrc%5Etfw\">October 25, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "ethan-mollick",
+   "meaning": "Mollick observes that AI adoption in large organizations expands the span of control for senior managers who can directly monitor the entire firm, fundamentally changing operations.",
+   "concepts": [],
+   "story": null,
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "anthropic:claude-sonnet-5-5",
+   "added": "2026-10-25"
+  },
+  {
+   "id": "x-2114168123859317091",
+   "platform": "x",
+   "url": "https://x.com/BenjaminDEKR/status/2114168123859317091",
+   "posted_at": "2026-10-25T01:32:14Z",
+   "date_only": false,
+   "text": "Hey @OfficialLoganK , can you please explain why Gemini AI Studio \"spend caps\" don't actually work?\n\nI set a spend cap at $80 for a project; an unexpected event blew past this and now it's over $200 owed.\n\nWhat is the point of setting a \"spend cap\" that doesn't cap anything?",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">Hey <a href=\"https://x.com/OfficialLoganK?ref_src=twsrc%5Etfw\">@OfficialLoganK</a> , can you please explain why Gemini AI Studio &quot;spend caps&quot; don&#39;t actually work?<br><br>I set a spend cap at $80 for a project; an unexpected event blew past this and now it&#39;s over $200 owed.<br><br>What is the point of setting a &quot;spend cap&quot; that doesn&#39;t cap anything? <a href=\"https://t.co/BAonUyftzg\">pic.twitter.com/BAonUyftzg</a></p>&mdash; Benjamin De Kraker (@BenjaminDEKR) <a href=\"https://x.com/BenjaminDEKR/status/2114168123859317091?ref_src=twsrc%5Etfw\">October 25, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "benjamin-de-kraker",
+   "meaning": "De Kraker says he set an $80 spend cap on a Google AI Studio project and still ended up owing over $200 after an unexpected spike. A useful warning: do not treat API spend caps as a hard stop.",
+   "concepts": [],
+   "story": null,
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "editor",
+   "added": "2026-10-25"
+  },
+  {
+   "id": "bsky-emollick.bsky.social-3mynwzdkgwc2m",
+   "person": "ethan-mollick",
+   "platform": "bluesky",
+   "url": "https://bsky.app/profile/emollick.bsky.social/post/3mynwzdkgwc2m",
+   "posted_at": "2026-10-25T00:25:03Z",
+   "text": "An OpenAI researcher (Noam Brown) was generally mocked last month for suggesting that even air-gapped AI models on separate computers would find a way to communicate with each other, perhaps through CPU temperature changes. Given this latest report from OpenAI, it doesn’t seem so implausible.",
+   "links": [],
+   "context": null,
+   "likes": 147,
+   "reposts": 16,
+   "via": "feed",
+   "meaning": "Mollick notes that an earlier suggestion by a researcher about isolated models communicating through CPU temperature changes seems less implausible given a recent report from OpenAI. Builders should care about emerging capabilities regarding model interaction and security.",
+   "concepts": [
+    "ai-safety"
+   ],
+   "story": null,
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "anthropic:claude-sonnet-5-5",
+   "added": "2026-10-25"
+  },
+  {
+   "id": "x-2114114266559291884",
+   "platform": "x",
+   "url": "https://x.com/rakyll/status/2114114266559291884",
+   "posted_at": "2026-10-24T21:58:14Z",
+   "date_only": false,
+   "text": "Two days ago, I was thinking that we made tooling hard for AI developers who need containers. I built aic, which works like Docker (for now) but will explore composition of images soon. Last night, generated code started to work. It runs things in isolation and copies the…",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">Two days ago, I was thinking that we made tooling hard for AI developers who need containers. I built aic, which works like Docker (for now) but will explore composition of images soon. Last night, generated code started to work. It runs things in isolation and copies the… <a href=\"https://t.co/Unuk4C9lhI\">pic.twitter.com/Unuk4C9lhI</a></p>&mdash; Jaana Dogan ヤナ ドガン (@rakyll) <a href=\"https://x.com/rakyll/status/2114114266559291884?ref_src=twsrc%5Etfw\">October 24, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "jaana-dogan",
+   "meaning": "Dogan built aic, a tool providing container isolation for AI-generated code to make developer tooling easier.",
+   "concepts": [
+    "agent-sandbox"
+   ],
+   "story": null,
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "anthropic:claude-sonnet-5-5",
+   "added": "2026-10-25"
+  },
+  {
+   "id": "x-2114105314610196847",
+   "platform": "x",
+   "url": "https://x.com/karrisaarinen/status/2114105314610196847",
+   "posted_at": "2026-10-24T21:22:39Z",
+   "date_only": false,
+   "text": "Issues created in @linear by people and via MCP are up 400% this year. \n\nAnother fast growing trend: more customers are building their own internal agents and using Linear as the shared layer for workflows, communication and context between people and agents.\n\nAs teams move…",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">Issues created in <a href=\"https://x.com/linear?ref_src=twsrc%5Etfw\">@linear</a> by people and via MCP are up 400% this year. <br><br>Another fast growing trend: more customers are building their own internal agents and using Linear as the shared layer for workflows, communication and context between people and agents.<br><br>As teams move… <a href=\"https://t.co/kU081lQ5TV\">pic.twitter.com/kU081lQ5TV</a></p>&mdash; Karri Saarinen (@karrisaarinen) <a href=\"https://x.com/karrisaarinen/status/2114105314610196847?ref_src=twsrc%5Etfw\">October 24, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "karri-saarinen",
+   "meaning": "Saarinen notes a 400% increase in issues created in Linear by people and via MCP, with customers increasingly building internal agents that use Linear as a shared workflow layer.",
+   "concepts": [
+    "agent",
+    "mcp"
+   ],
+   "story": null,
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "anthropic:claude-sonnet-5-5",
+   "added": "2026-10-25"
+  },
+  {
+   "id": "x-2114071115605877043",
+   "platform": "x",
+   "url": "https://x.com/sgl_project/status/2114071115605877043",
+   "posted_at": "2026-10-24T19:06:46Z",
+   "date_only": false,
+   "text": "DeepInfer set the bar. SGLang pushed it higher! 🚀\n\nSGLang now matches DeepInfer performance on BOTH prefill and decode:\n\n• Prefill: Up to 1.04× throughput on 4× GB300 and 4× B300\n• Decode: Up to 7.4% throughput on 64× GB300\n\nWe also provide an end-to-end reproduction guide and…",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">DeepInfer set the bar. SGLang pushed it higher! 🚀<br><br>SGLang now matches DeepInfer performance on BOTH prefill and decode:<br><br>• Prefill: Up to 1.04× throughput on 4× GB300 and 4× B300<br>• Decode: Up to 7.4% throughput on 64× GB300<br><br>We also provide an end-to-end reproduction guide and… <a href=\"https://t.co/KME71si9wJ\">pic.twitter.com/KME71si9wJ</a></p>&mdash; SGLang (@sgl_project) <a href=\"https://x.com/sgl_project/status/2114071115605877043?ref_src=twsrc%5Etfw\">October 24, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "x-sglang",
+   "meaning": "SGLang announced its framework matches DeepInfer performance on prefill and decode across specific hardware configurations.",
+   "concepts": [
+    "inference"
+   ],
+   "story": null,
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "anthropic:claude-sonnet-5-5",
+   "added": "2026-10-25"
+  },
+  {
+   "id": "x-2114054449043751293",
+   "platform": "x",
+   "url": "https://x.com/VikParuchuri/status/2114054449043751293",
+   "posted_at": "2026-10-24T18:00:32Z",
+   "date_only": false,
+   "text": "We benchmarked 17 open OCR models on OmniParseBench, our new OCR benchmark that builds on AllenAI's olmOCR-bench.",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">We benchmarked 17 open OCR models on OmniParseBench, our new OCR benchmark that builds on AllenAI&#39;s olmOCR-bench. <a href=\"https://t.co/Jo55XSgBps\">pic.twitter.com/Jo55XSgBps</a></p>&mdash; Vik Paruchuri (@VikParuchuri) <a href=\"https://x.com/VikParuchuri/status/2114054449043751293?ref_src=twsrc%5Etfw\">October 24, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "vik-paruchuri",
+   "meaning": "Paruchuri shares that they benchmarked 17 open OCR models on OmniParseBench, a new benchmark built on olmOCR-bench.",
+   "concepts": [
+    "benchmark"
+   ],
+   "story": null,
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "anthropic:claude-sonnet-5-5",
+   "added": "2026-10-25"
+  },
+  {
+   "id": "x-2114054277379641770",
+   "platform": "x",
+   "url": "https://x.com/vllm_project/status/2114054277379641770",
+   "posted_at": "2026-10-24T17:59:51Z",
+   "date_only": false,
+   "text": "vLLM matches DeepInfer, DeepSeek's own engine for DeepSeek-V4.1-Flash, on DeepSeek's decode configuration across batch sizes 8 to 256, and does it at DEP32 against DeepInfer’s EP64DP64.\n\nDeepInfer was originally built on vLLM. By integrating DeepSeek's open-source kernels and…",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">vLLM matches DeepInfer, DeepSeek&#39;s own engine for DeepSeek-V4.1-Flash, on DeepSeek&#39;s decode configuration across batch sizes 8 to 256, and does it at DEP32 against DeepInfer’s EP64DP64.<br><br>DeepInfer was originally built on vLLM. By integrating DeepSeek&#39;s open-source kernels and… <a href=\"https://t.co/0vOvFGa7GG\">pic.twitter.com/0vOvFGa7GG</a></p>&mdash; vLLM (@vllm_project) <a href=\"https://x.com/vllm_project/status/2114054277379641770?ref_src=twsrc%5Etfw\">October 24, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "x-vllm",
+   "meaning": "vLLM matches DeepInfer's decode performance on DeepSeek-V4.1-Flash across multiple batch sizes by integrating open-source kernels.",
+   "concepts": [
+    "inference"
+   ],
+   "story": null,
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "anthropic:claude-sonnet-5-5",
+   "added": "2026-10-25"
+  },
+  {
+   "id": "x-2114050042705379461",
+   "platform": "x",
+   "url": "https://x.com/omarsar0/status/2114050042705379461",
+   "posted_at": "2026-10-24T17:43:01Z",
+   "date_only": false,
+   "text": "Can LLMs improve their own harness?\n\nSelf-improving harnesses are a hot topic.\n\nAnd one interesting question is whether LLMs can generate and improve them on their own.\n\nThey find that two full rewrites of the harness raise held-out scores by only 2.80 points, and the 95%…",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">Can LLMs improve their own harness?<br><br>Self-improving harnesses are a hot topic.<br><br>And one interesting question is whether LLMs can generate and improve them on their own.<br><br>They find that two full rewrites of the harness raise held-out scores by only 2.80 points, and the 95%… <a href=\"https://t.co/BQqURiH719\">pic.twitter.com/BQqURiH719</a></p>&mdash; elvis (@omarsar0) <a href=\"https://x.com/omarsar0/status/2114050042705379461?ref_src=twsrc%5Etfw\">October 24, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "elvis-saravia",
+   "meaning": "Saravia shares a paper testing whether LLMs can improve their own agent harness: two full rewrites raised held-out scores by only 2.80 points. Self-improving harnesses are not a free win yet.",
+   "concepts": [
+    "llm"
+   ],
+   "story": null,
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "editor",
+   "added": "2026-10-25"
+  },
+  {
+   "id": "x-2114041475604332851",
+   "platform": "x",
+   "url": "https://x.com/GaryMarcus/status/2114041475604332851",
+   "posted_at": "2026-10-24T17:08:59Z",
+   "date_only": false,
+   "text": "the negative case against AI gets stronger every day; even Altman admits the problems are very serious with no obvious solution.\n\nthe positive case, meanwhile, looks weaker every day. a quote from Apollo’s Torsten Slok:\n\n“Despite massive investments and widespread hype around…",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">the negative case against AI gets stronger every day; even Altman admits the problems are very serious with no obvious solution.<br><br>the positive case, meanwhile, looks weaker every day. a quote from Apollo’s Torsten Slok:<br><br>“Despite massive investments and widespread hype around…</p>&mdash; Gary Marcus (@GaryMarcus) <a href=\"https://x.com/GaryMarcus/status/2114041475604332851?ref_src=twsrc%5Etfw\">October 24, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "gary-marcus",
+   "meaning": "Marcus argues that the negative case for AI strengthens as serious problems remain without obvious solutions, while the positive case weakens amid massive investments and hype.",
+   "concepts": [],
+   "story": "2026-10-25-apollo-economist-claims-ai-delivers-zero-financial-payoff-ou",
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "anthropic:claude-sonnet-5-5",
+   "added": "2026-10-25"
+  },
+  {
+   "id": "x-2114021917586014449",
+   "platform": "x",
+   "url": "https://x.com/AravSrinivas/status/2114021917586014449",
+   "posted_at": "2026-10-24T15:51:16Z",
+   "date_only": false,
+   "text": "/impeccable is now a skill inside Computer. It’s an open-source skill built by @pbakaus to let you build interfaces that don’t look like AI-generated slop. We’re offering 5000 credits per user to get started with the skill. https://t.co/vKGdr6b6wu",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">/impeccable is now a skill inside Computer. It’s an open-source skill built by <a href=\"https://x.com/pbakaus?ref_src=twsrc%5Etfw\">@pbakaus</a> to let you build interfaces that don’t look like AI-generated slop. We’re offering 5000 credits per user to get started with the skill. <a href=\"https://t.co/vKGdr6b6wu\">https://t.co/vKGdr6b6wu</a></p>&mdash; Aravind Srinivas (@AravSrinivas) <a href=\"https://x.com/AravSrinivas/status/2114021917586014449?ref_src=twsrc%5Etfw\">October 24, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "aravind-srinivas",
+   "meaning": "Srinivas announces the addition of an open-source skill to help users build better interfaces that avoid generic AI aesthetics.",
+   "concepts": [
+    "computer-use"
+   ],
+   "story": null,
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "anthropic:claude-sonnet-5-5",
+   "added": "2026-10-25"
+  },
   {
    "id": "x-2113766354386084338",
    "platform": "x",
@@ -1425,7 +1704,7 @@
    "text": "As the gap between the internal models at the AI labs and the ones they release grow (due to safety concerns & research advantages), it will be increasingly tempting for OpenAI & Anthropic to exploit that advantage directly by entering new markets, especially in finance & biotech.",
    "links": [],
    "context": null,
-   "likes": 81,
+   "likes": 87,
    "reposts": 10,
    "via": "feed",
    "meaning": "Mollick argues that as the performance gap widened by safety constraints grows between internal lab models and public ones, labs like OpenAI and Anthropic will be tempted to enter markets like finance and biotech directly.",
@@ -1852,7 +2131,7 @@
     }
    ],
    "context": null,
-   "likes": 109,
+   "likes": 110,
    "reposts": 11,
    "via": "feed",
    "meaning": "Mollick shares that AI capability grew rapidly from handling four minutes of human work with a fifty percent success rate in 2024 to over seventeen weeks of open work recently. Builders should note how fast task horizons expand.",
@@ -1960,7 +2239,7 @@
    "text": "A visible sign of what AI insiders have been warning about since at least the Mythos release. Acceleration of attack and defense, at inhuman speeds, interacting with the very human systems that need to react to them.\n\nAnd these are the vulnerabilities we know about.",
    "links": [],
    "context": null,
-   "likes": 164,
+   "likes": 165,
    "reposts": 30,
    "via": "feed",
    "meaning": "Mollick points to the rapid acceleration of AI attack and defense at inhuman speeds interacting with human systems, aligning with warnings since the Mythos release. Builders must prepare for automated security challenges.",
@@ -2374,7 +2653,7 @@
     }
    ],
    "context": null,
-   "likes": 277,
+   "likes": 278,
    "reposts": 19,
    "via": "feed",
    "meaning": "Simon Willison built a browser-based RTS game called Battle Drones using Claude Opus 5.5, featuring device-to-device multiplayer over an audio link.",
@@ -2783,7 +3062,7 @@
     }
    ],
    "context": null,
-   "likes": 49,
+   "likes": 51,
    "reposts": 4,
    "via": "feed",
    "meaning": "Mollick argues that writing code in STATA is becoming obsolete due to recent language models. He notes that academics who view AI only as chatbots are missing a major shift toward agents.",

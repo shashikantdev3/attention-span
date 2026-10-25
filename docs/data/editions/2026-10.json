@@ -7361,6 +7361,49 @@
      "rank": 7
     },
     {
+     "title": "General Reasoning Releases Avalon-M1 and Training Recipe",
+     "one_liner": "General Reasoning released Avalon-M1 and a training recipe called reinforcement learning from collective rewards to jointly train agent organisations.",
+     "summary": "General Reasoning released Avalon-M1, a new model series that runs agent organisations. Agents co-ordinate through a message board and workspace, and the whole team is rewarded as one. The company shares a recipe called reinforcement learning from collective rewards, which jointly trains agents using the same collective advantage without estimating individual contributions. During training, organisations develop additional layers of hierarchy, adopt different divisions of labour, and devote more resources to peer review. Organisations reach comparable scores in roughly a quarter of the estimated time compared to a single agent.",
+     "eli5": "Just like a group of kids working together to build a big Lego castle faster than one kid alone, these AI agents team up to finish tasks quicker.",
+     "why_it_matters": "Jointly training agent organisations with collective rewards can improve task performance and reduce latency.",
+     "topic": "agents",
+     "type": "model",
+     "labs": [],
+     "people": [],
+     "concepts": [
+      "agent",
+      "reinforcement-learning"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [
+      {
+       "term": "reinforcement learning from collective rewards",
+       "definition": "A recipe that jointly trains the agents in an organisation using the same collective advantage."
+      }
+     ],
+     "sources": [
+      {
+       "title": "Avalon-M1",
+       "url": "https://www.gr.inc/releases/avalon-m1",
+       "name": "www.gr.inc",
+       "kind": "press"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-10-24T13:26:38Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 2,
+      "hype_flags": []
+     },
+     "editor_reason": "Added by the editor after the nightly run missed it.",
+     "added_by_editor": "2026-10-25",
+     "id": "2026-10-23-general-reasoning-releases-avalon-m1-and-training-recipe",
+     "date": "2026-10-23",
+     "rank": 8
+    },
+    {
      "title": "Swedish government offices to ban ChatGPT and Claude",
      "one_liner": "Swedish government offices will block access to ChatGPT and Claude from staff work computers to enforce approved services.",
      "summary": "The Swedish government offices, Regeringskansliet, are blocking access to the AI services ChatGPT and Claude from staff work computers. The move aims to ensure employees use only government-approved services, which include Microsoft's AI tool Copilot. Digitalization director Mikael Wettercrantz stated that using AI services without an agreement can affect information security. Similar bans have been introduced at the Swedish Tax Agency and the National Board of Institutional Care, while the Enforcement Authority is reviewing the question. Internal reviews at Trafikverket also uncovered risky use of open AI services regarding sensitive information and generated answers.",
@@ -7406,7 +7449,7 @@
       "hype_flags": []
      },
      "editor_reason": "Swedish government offices moved to ban ChatGPT and Claude across internal systems.",
-     "rank": 8,
+     "rank": 9,
      "id": "2026-10-23-swedish-government-offices-to-ban-chatgpt-and-claude",
      "date": "2026-10-23"
     },
@@ -7448,7 +7491,7 @@
       "hype_flags": []
      },
      "editor_reason": "OpenAI detailed how it combined Habitat, global caching, and Azure Cosmos DB to speed up reads 12 times for ChatGPT storage.",
-     "rank": 9,
+     "rank": 10,
      "id": "2026-10-23-scaling-azure-cosmos-db-for-over-1-billion-chatgpt-users",
      "date": "2026-10-23"
     },
@@ -7503,7 +7546,7 @@
       "hype_flags": []
      },
      "editor_reason": "Researchers introduced IQuest-Q1, a 320-billion parameter sparse mixture-of-experts model optimized for command-line agents.",
-     "rank": 10,
+     "rank": 11,
      "id": "2026-10-23-iquest-q1-foundation-model-released-for-agentic-cli-systems",
      "date": "2026-10-23"
     },
@@ -7552,7 +7595,7 @@
       "hype_flags": []
      },
      "editor_reason": "A modified Gemma-4-26B-A4B model matches original accuracy while cutting reasoning token generation by up to 69 percent.",
-     "rank": 11,
+     "rank": 12,
      "id": "2026-10-23-thinkingcap-reduces-google-gemma-model-thinking-tokens",
      "date": "2026-10-23"
     },
@@ -7600,7 +7643,7 @@
       "hype_flags": []
      },
      "editor_reason": "Microsoft detailed research into generating explorable, interactive data visualisations instead of static charts.",
-     "rank": 12,
+     "rank": 13,
      "id": "2026-10-23-microsoft-introduces-flint-interactive-to-help-ai-create-int",
      "date": "2026-10-23"
     }
@@ -7610,7 +7653,7 @@
     "stories": 86,
     "sources_ok": 41,
     "sources_failed": [],
-    "published": 12,
+    "published": 13,
     "dropped": 1,
     "llm_calls": 29,
     "cache_hits": 0,
@@ -7625,8 +7668,54 @@
   },
   "2026-10-24": {
    "date": "2026-10-24",
-   "generated_at": "2026-10-24T13:32:54Z",
+   "generated_at": "2026-10-25T17:54:14Z",
    "stories": [
+    {
+     "title": "Block launches Dessa, a speech-to-speech AI model trained only on human conversation",
+     "one_liner": "Jack Dorsey's Block announced Dessa, a new speech-to-speech AI model trained entirely from human conversation.",
+     "summary": "Jack Dorsey's Block has announced a new AI model called Dessa. The model is trained from scratch on human conversation. Block shared examples of chats, including a guessing game, a discussion about Christopher Nolan films, and a conversation with OpenAI's GPT-Live-1 voice model. According to the Dessa team, the model is a true speech-to-speech model that can run locally on a MacBook Pro M4 Max or better. The team built Dessa for curiosity, safety, and better understanding between humans and AI. Block will give early access to a small group of AI safety researchers.",
+     "eli5": "Block made a computer program that learns to talk by listening to people talk, just like a baby learns to speak without reading books first.",
+     "why_it_matters": "Building true speech-to-speech models that run locally and process human emotion directly can change how voice interfaces are designed.",
+     "topic": "models",
+     "type": "model",
+     "labs": [
+      "openai",
+      "other"
+     ],
+     "people": [],
+     "concepts": [
+      "ai-safety",
+      "multimodal-model"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [
+      {
+       "term": "true speech-to-speech model",
+       "definition": "A model where everything it knows came from human speech and it acts as a direct speech-to-speech interface."
+      }
+     ],
+     "sources": [
+      {
+       "title": "Jack Dorsey’s Block made an AI model that talks to you like an awkward new friend",
+       "url": "https://www.theverge.com/ai-artificial-intelligence/1017906/jack-dorsey-block-dessa-ai-voice-speech",
+       "name": "The Verge AI",
+       "kind": "press"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-10-23T19:32:39Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "Added by the editor after the nightly run missed it.",
+     "added_by_editor": "2026-10-25",
+     "id": "2026-10-24-jack-dorsey-s-block-announces-new-conversational-ai-model-na",
+     "date": "2026-10-24",
+     "rank": 1
+    },
     {
      "title": "Study Finds Coding Agent Harnesses Increase Costs Without Improving Results",
      "one_liner": "A new study reveals that switching between coding agent harnesses barely changes performance compared to rerunning the same setup, while costs can triple.",
@@ -7666,12 +7755,87 @@
       "hype_flags": []
      },
      "editor_reason": "A study shows that complex coding agent harnesses increase costs without improving pass rates.",
-     "rank": 1,
+     "rank": 2,
      "id": "2026-10-24-study-finds-coding-agent-harnesses-increase-costs-without-im",
      "date": "2026-10-24"
     },
     {
-     "title": "Forbes Reports on OpenAI's Project Daybreak",
+     "title": "Fired OpenAI safety researchers say they were never told in writing what they mishandled",
+     "one_liner": "Three fired OpenAI safety researchers deny sharing confidential information and say they were never told in writing which information they supposedly mishandled.",
+     "summary": "Three OpenAI safety researchers named Tomek Korbak, Mikita Balesni, and Jasmine Wang were fired after an internal investigation into alleged violations of policies on handling sensitive information. The researchers deny sharing confidential information. They state they were never told in writing which information they supposedly mishandled. OpenAI's security team suspected the three of sharing details about internal model architecture with an external safety researcher. The researchers suspect their terminations were tied to their efforts to make AI models easier to monitor and warn that the case could discourage employees from raising safety concerns.",
+     "eli5": "Three people who checked if AI was safe got fired because their bosses thought they shared secrets, but the workers say they never got a written note saying what they did wrong.",
+     "why_it_matters": "Internal safety advocacy and independent auditing could decline if employees grow afraid to raise concerns or talk to outsiders.",
+     "topic": "policy",
+     "type": "event",
+     "labs": [
+      "openai"
+     ],
+     "people": [],
+     "concepts": [
+      "ai-safety",
+      "chain-of-thought",
+      "reasoning-model"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "Three fired OpenAI safety researchers say they were never told what they actually leaked",
+       "url": "https://the-decoder.com/three-fired-openai-safety-researchers-say-they-were-never-told-what-they-actually-leaked/",
+       "name": "The Decoder",
+       "kind": "press"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-10-24T15:19:33Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 2,
+      "hype_flags": []
+     },
+     "editor_reason": "Three OpenAI safety researchers recently fired over alleged leaks publicly pushed back against the claims.",
+     "rank": 3,
+     "id": "2026-10-24-three-fired-openai-safety-researchers-say-they-lack-written",
+     "date": "2026-10-24"
+    },
+    {
+     "title": "Johns Hopkins Bayview warns 3,182 patients after an employee put health data into a public AI tool",
+     "one_liner": "Johns Hopkins Bayview Medical Center is notifying 3,182 patients after an employee uploaded personal health information to an unapproved public AI tool.",
+     "summary": "Johns Hopkins Bayview Medical Center is notifying patients of a data breach. The center is alerting 3,182 patients in total. The notification follows an incident where an employee uploaded personal health information to an unapproved public AI tool. The Baltimore Sun reported the alert.",
+     "eli5": "An employee put personal health information into an unapproved public AI tool, and now the medical center is telling 3,182 patients about it.",
+     "why_it_matters": "Personal health information can end up in unapproved public AI tools when employees upload data.",
+     "topic": "industry",
+     "type": "event",
+     "labs": [],
+     "people": [],
+     "concepts": [],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "Johns Hopkins Bayview Medical Center alerts patients of data breach",
+       "url": "https://www.baltimoresun.com/2026/10/24/johns-hopkins-bayview-medical-center-data-breach/",
+       "name": "Baltimore Sun",
+       "kind": "press"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-10-24T18:46:47Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 2,
+      "hype_flags": []
+     },
+     "editor_reason": "Added by the editor after the nightly run missed it.",
+     "added_by_editor": "2026-10-25",
+     "id": "2026-10-24-johns-hopkins-bayview-medical-center-alerts-patients-of-data",
+     "date": "2026-10-24",
+     "rank": 4
+    },
+    {
+     "title": "Inside OpenAI's Project Daybreak, which lends vetted partners its top hacking models",
      "one_liner": "OpenAI's Project Daybreak lets vetted partners use top hacking models to find and fix vulnerabilities.",
      "summary": "OpenAI runs an initiative called Project Daybreak. This program gives vetted partners access to top hacking models. Vetted partners use these models to find and fix vulnerabilities. The effort helped uncover PHP2Shell RCE bugs. Thomas Brewster reported on the project for Forbes, according to a Techmeme archive page from October 24, 2026.",
      "eli5": "OpenAI has a special project that lets trusted helpers use smart computer models to find and fix hidden security holes, like finding loose locks on doors.",
@@ -7702,7 +7866,7 @@
       "hype_flags": []
      },
      "editor_reason": "OpenAI introduced Project Daybreak to grant cybersecurity partners access to AI tools for finding software flaws.",
-     "rank": 2,
+     "rank": 5,
      "id": "2026-10-24-forbes-reports-on-openai-s-project-daybreak",
      "date": "2026-10-24"
     },
@@ -7745,8 +7909,90 @@
       "hype_flags": []
      },
      "editor_reason": "Google updated its privacy policy to state that Gmail user data may be used for targeted advertising.",
-     "rank": 3,
+     "rank": 6,
      "id": "2026-10-24-google-updates-privacy-policy-regarding-gmail-and-ad-persona",
+     "date": "2026-10-24"
+    },
+    {
+     "title": "Study Finds Grok and GPT Lean Toward Opposite Political Parties",
+     "one_liner": "A new study reveals that when forced to choose in upcoming midterms, Grok mostly recommends Republicans while GPT favors Democrats.",
+     "summary": "A new study by Convovo reveals that AI models from SpaceXAI and OpenAI lean toward opposite political parties when forced to make a candidate choice. Across nearly 500 races, SpaceXAI's Grok 4.7 recommended the Republican candidate in 92 percent of its answers. OpenAI's GPT-6.1 Sol picked the Democrat in 97 percent of answers. The two models agreed less than 10 percent of the time. The researchers tested the models via APIs with a prompt demanding a candidate recommendation. Grok frequently surfaced conservative sources and X. GPT leaned heavily on Wikipedia, the Associated Press, Axios, and Reddit.",
+     "eli5": "Just like two friends might always root for different sports teams, one computer brain picks the red team most of the time while the other picks the blue team.",
+     "why_it_matters": "Hidden political biases in underlying AI models can affect general conversations and broader application outputs.",
+     "topic": "research",
+     "type": "event",
+     "labs": [
+      "openai"
+     ],
+     "people": [],
+     "concepts": [
+      "llm",
+      "chatbot",
+      "ai-safety"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "Forced to pick, Grok’s AI model chooses Republicans. OpenAI’s picks Democrats.",
+       "url": "https://techcrunch.com/2026/10/24/forced-to-pick-groks-ai-model-chooses-republicans-openais-picks-democrats/",
+       "name": "TechCrunch AI",
+       "kind": "press"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-10-24T15:00:00Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 2,
+      "hype_flags": []
+     },
+     "editor_reason": "A study on political bias found Grok consistently recommended Republican candidates while OpenAI models favored Democrats.",
+     "rank": 7,
+     "id": "2026-10-24-study-finds-grok-and-gpt-lean-toward-opposite-political-part",
+     "date": "2026-10-24"
+    },
+    {
+     "title": "New Tool Shows Claude Code and Codex Agents in a Virtual Office",
+     "one_liner": "A new developer tool displays live activities of Claude Code, Codex, and Gemini CLI agents inside an interactive virtual office.",
+     "summary": "The whatsmyagentdoing repository provides a local tool to visualize active AI coding agents as characters in a virtual office. Agents working on a machine are rendered in a 2D canvas or a 3D environment with real-time lighting. Characters display thoughts, type on monitors, or take breaks when finished. The tool reads existing session logs written to disk by Claude Code, Codex, and Gemini CLI without needing API keys or hooks. Users can filter sessions, view lists, and track agent status locally on port 4545.",
+     "eli5": "It is like a dollhouse where tiny digital workers show you what they are doing on your computer.",
+     "why_it_matters": "Visualizing agent workflows helps developers track background AI tasks without constantly checking terminal windows.",
+     "topic": "dev-tools",
+     "type": "product",
+     "labs": [
+      "anthropic",
+      "openai",
+      "google",
+      "microsoft"
+     ],
+     "people": [],
+     "concepts": [
+      "agent",
+      "coding-assistant"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "Charonyuu/whatsmyagentdoing: See what every Claude Code and Codex agent on your machine is doing, live, in a little office.",
+       "url": "https://github.com/Charonyuu/whatsmyagentdoing",
+       "name": "GitHub new AI repos",
+       "kind": "original"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-10-23T14:15:26Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "whatsmyagentdoing provides real-time monitoring of local Claude Code and Codex agent activity.",
+     "rank": 8,
+     "id": "2026-10-24-new-tool-shows-claude-code-and-codex-agents-in-a-virtual-off",
      "date": "2026-10-24"
     },
     {
@@ -7797,26 +8043,398 @@
       "hype_flags": []
      },
      "editor_reason": "Corgi is a terminal multiplexer designed to help developers run and manage multiple AI agents.",
-     "rank": 4,
+     "rank": 9,
      "id": "2026-10-24-show-hn-corgi-a-helpful-agent-and-terminal-multiplexer",
      "date": "2026-10-24"
     }
    ],
    "stats": {
-    "items": 20,
-    "stories": 19,
+    "items": 18,
+    "stories": 18,
     "sources_ok": 41,
     "sources_failed": [],
-    "published": 6,
+    "published": 11,
     "dropped": 2,
-    "llm_calls": 14,
-    "cache_hits": 13,
+    "llm_calls": 15,
+    "cache_hits": 8,
     "models": {
-     "gemini:gemini-3.5-flash-lite": 7,
-     "anthropic:claude-sonnet-5-5": 7
+     "anthropic:claude-sonnet-5-5": 8,
+     "gemini:gemini-3.5-flash-lite": 7
     },
     "fallbacks": [],
-    "seconds": 94
+    "seconds": 56
+   }
+  },
+  "2026-10-25": {
+   "date": "2026-10-25",
+   "generated_at": "2026-10-25T18:00:36Z",
+   "stories": [
+    {
+     "title": "OpenAI offers discounts of up to 90% to win Anthropic's customers, report says",
+     "one_liner": "OpenAI is reportedly using aggressive discounts of up to 90 percent to pull major customers away from rival Anthropic.",
+     "summary": "OpenAI is offering discounts of up to 90 percent to draw major customers away from Anthropic. Companies such as Rippling, Replit, and DataCamp are shifting more of their AI spending to OpenAI as a result. For example, Replit switched after receiving a discount of more than 30 percent on a contract worth over $100 million a year, and DataCamp cut its costs by 80 to 90 percent. OpenAI is trading its own margins for market share, though it also achieved real price cuts through its Sol and Luna model lines. Both companies face growing price pressure from Chinese rivals like Deepseek and Kimi.",
+     "eli5": "OpenAI is offering huge sales on its AI tools, like a toy store slashing prices to get customers to buy from them instead of the store next door.",
+     "why_it_matters": "Intense price competition lowers software costs and forces AI providers to accept lower profit margins.",
+     "topic": "industry",
+     "type": "event",
+     "labs": [
+      "openai",
+      "anthropic",
+      "deepseek"
+     ],
+     "people": [],
+     "concepts": [
+      "llm",
+      "coding-assistant",
+      "chatbot"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "OpenAI offers discounts up to 90 percent to poach Anthropic's biggest customers",
+       "url": "https://the-decoder.com/openai-offers-discounts-up-to-90-percent-to-poach-anthropics-biggest-customers/",
+       "name": "The Decoder",
+       "kind": "press"
+      },
+      {
+       "title": "Source: Replit recently moved most AI spend from Anthropic to OpenAI, which gave 30%+ off in a deal worth $100M+/year, after Anthropic discontinued its discount (The Information)",
+       "url": "https://www.techmeme.com/261024/p8#a261024p8",
+       "name": "Techmeme",
+       "kind": "press"
+      }
+     ],
+     "buzz": 2,
+     "published": "2026-10-24T19:45:01Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "OpenAI is using discounts of 30% to 90% to pull large customers such as Replit, Rippling and DataCamp away from Anthropic, which changes AI pricing for builders.",
+     "rank": 1,
+     "id": "2026-10-25-report-openai-offers-large-discounts-to-win-anthropic-custom",
+     "date": "2026-10-25"
+    },
+    {
+     "title": "Apollo's Torsten Slok says AI has shown no financial payoff outside tech",
+     "one_liner": "An Apollo Global Management economist reports that artificial intelligence has delivered zero financial payoff to corporate America outside of the tech sector.",
+     "summary": "Torsten Slok, an economist at Apollo Global Management, states that artificial intelligence has delivered zero financial payoff to corporate America outside of the tech sector. Despite massive investments and widespread hype, companies now view the technology as a margin-hurting cost center. Meanwhile, venture capital-backed firms continue to burn more tokens. Marc Rowan also commented on how Apollo's differentiated strategy was built for this moment.",
+     "eli5": "Companies are spending a lot of money on AI, but outside of tech companies, it is not helping them make any extra money yet.",
+     "why_it_matters": "Financial returns for artificial intelligence remain limited outside the tech sector, meaning projects must justify their costs as margin-hurting centers.",
+     "topic": "industry",
+     "type": "event",
+     "labs": [],
+     "people": [],
+     "concepts": [
+      "tokens"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "No signs of AI payoff outside the tech sector",
+       "url": "https://www.apollo.com/wealth/insights-news/insights/daily-spark/no-signs-of-ai-payoff-outside-the-tech-sector",
+       "name": "apollo.com",
+       "kind": "press"
+      },
+      {
+       "title": "Discussion on Hacker News",
+       "url": "https://news.ycombinator.com/item?id=50224463",
+       "name": "Hacker News",
+       "kind": "discussion"
+      },
+      {
+       "title": "AI delivers ‘zero financial payoff’ to most companies, Apollo economist says",
+       "url": "https://techcrunch.com/2026/10/25/ai-delivers-zero-financial-payoff-to-most-companies-according-to-apollo-economist/",
+       "name": "TechCrunch AI",
+       "kind": "press"
+      },
+      {
+       "title": "Outside of tech there has been no financial payoff to US companies for using AI, now viewed as a margin-hurting cost center, as VC-backed firms burn more tokens (Torsten Slok/Apollo Global Management)",
+       "url": "https://www.techmeme.com/261024/p9#a261024p9",
+       "name": "Techmeme",
+       "kind": "press"
+      }
+     ],
+     "buzz": 3,
+     "published": "2026-10-24T19:47:19Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "An Apollo economist says US companies outside tech have seen no financial payoff from AI, a claim that bears on future AI budgets.",
+     "rank": 2,
+     "id": "2026-10-25-apollo-economist-claims-ai-delivers-zero-financial-payoff-ou",
+     "date": "2026-10-25"
+    },
+    {
+     "title": "Jack Clark moves his forecast for self-improving AI to 2027",
+     "one_liner": "Anthropic co-founder Jack Clark moved his prediction for recursive self-improving AI forward to 2027 based on new benchmark results.",
+     "summary": "Anthropic co-founder Jack Clark now believes recursive self-improving AI could become possible by 2027. He previously expected 2028. The change follows results from a new benchmark called TasteVal, which measures how well AI systems design experiments and interpret results. P-Zero Research calls this capability research taste. The top model tested reached expert-level scores with less than half the compute of human experts. The compute multiplier has roughly doubled every three months since December 2025. TasteVal measures experiment design and result interpretation across eight tasks, running on a single Nvidia H100 GPU.",
+     "eli5": "A new test checks how well AI models can run science experiments by themselves. The scores are improving so fast that a tech founder now thinks AI might start improving itself by 2027.",
+     "why_it_matters": "Rapid improvements in AI experiment design may shift the focus of development toward models that handle independent research tasks.",
+     "topic": "research",
+     "type": "event",
+     "labs": [
+      "anthropic",
+      "openai",
+      "google",
+      "nvidia",
+      "microsoft",
+      "academia"
+     ],
+     "people": [],
+     "concepts": [
+      "benchmark",
+      "language-model",
+      "gpu"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [
+      {
+       "term": "research taste",
+       "definition": "The ability to pick the right experiments and draw the right conclusions from them."
+      },
+      {
+       "term": "compute multiplier",
+       "definition": "The ratio measuring how much compute a model needs to match expert scores."
+      }
+     ],
+     "sources": [
+      {
+       "title": "Anthropic co-founder Jack Clark moves his prediction for self-improving AI forward to 2027",
+       "url": "https://the-decoder.com/anthropic-co-founder-jack-clark-moves-his-prediction-for-self-improving-ai-forward-to-2027/",
+       "name": "The Decoder",
+       "kind": "press"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-10-25T09:37:46Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 2,
+      "hype_flags": []
+     },
+     "editor_reason": "Anthropic co-founder Jack Clark moved his forecast for self-improving AI forward to 2027, citing results on a new P-Zero Research benchmark.",
+     "rank": 3,
+     "id": "2026-10-25-anthropic-co-founder-jack-clark-moves-self-improving-ai-time",
+     "date": "2026-10-25"
+    },
+    {
+     "title": "Cerebras Explains How to Deploy Trillion-Parameter AI Models",
+     "one_liner": "Cerebras explains how it splits large AI models across multiple wafer-scale chips to run multi-trillion parameter models at 1000-2000+ tokens per second.",
+     "summary": "Cerebras published details on how it deploys multi-trillion parameter frontier models across multiple wafer-scale chips to achieve speeds of 1000-2000+ tokens per second. Using the open source model Kimi K3 with approximately 3 trillion parameters as an example, the guide outlines how to calculate layer sizes, map layers across wafers, and handle concurrent requests. Each Cerebras WSE-3T wafer features 44 GB of on-chip memory. Whole layers fit directly onto chips, meaning weights stay in place and only activations pass between wafers using RDMA over Ethernet. The pipeline keeps the system busy by processing different requests simultaneously across stages.",
+     "eli5": "Imagine a factory assembly line where each worker has a specific job and never leaves their station, while the product moves down the line from one worker to the next.",
+     "why_it_matters": "Splitting models across multiple wafer-scale chips allows entire layers to fit on-chip so weights stay in place while activations flow between wafers.",
+     "topic": "models",
+     "type": "event",
+     "labs": [],
+     "people": [],
+     "concepts": [
+      "quantization",
+      "kv-cache",
+      "tokens"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "Cerebras Deploys Trillion-Parameter AI Models",
+       "url": "https://www.cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-models-on-cerebras",
+       "name": "cerebras.ai",
+       "kind": "press"
+      },
+      {
+       "title": "Discussion on Hacker News",
+       "url": "https://news.ycombinator.com/item?id=50227356",
+       "name": "Hacker News",
+       "kind": "discussion"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-10-25T01:33:49Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 2,
+      "hype_flags": []
+     },
+     "editor_reason": "Cerebras says it now deploys trillion-parameter models, which matters for inference hardware choices.",
+     "rank": 4,
+     "id": "2026-10-25-cerebras-explains-how-to-deploy-trillion-parameter-ai-models",
+     "date": "2026-10-25"
+    },
+    {
+     "title": "Eric Schmidt, Niall Ferguson and Lisa Klaassen compare OpenAI and Anthropic to colonial trading companies",
+     "one_liner": "Historian Niall Ferguson, researcher Lisa Klaassen, and former Google CEO Eric Schmidt compare OpenAI and Anthropic to colonial trading firms.",
+     "summary": "In an essay for Foreign Affairs, historian Niall Ferguson, researcher Lisa Klaassen, and former Google CEO Eric Schmidt compare OpenAI and Anthropic to colonial trading companies. The authors argue that the US and China dominate the global AI market, while other countries become dependent. High investments, rising interest costs, and potential conflicts over Taiwan threaten both powers. The essay cites an instance where the US Commerce Department ordered Anthropic to restrict foreign nationals from its models. The authors propose an AI detente, including caps on model capabilities for cyberattacks and biodesign.",
+     "eli5": "Two big groups are building giant toy castles using very expensive blocks and rare parts, while everyone else has to ask them for pieces.",
+     "why_it_matters": "High capital costs and heavy reliance on a few dominant superpowers limit the infrastructure available for building AI systems.",
+     "topic": "policy",
+     "type": "event",
+     "labs": [
+      "openai",
+      "anthropic",
+      "google"
+     ],
+     "people": [],
+     "concepts": [
+      "ai-governance"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "Ex-Google CEO Eric Schmidt calls OpenAI and Anthropic modern colonial trading companies",
+       "url": "https://the-decoder.com/ex-google-ceo-eric-schmidt-calls-openai-and-anthropic-modern-colonial-trading-companies/",
+       "name": "The Decoder",
+       "kind": "press"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-10-25T08:09:32Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 2,
+      "hype_flags": []
+     },
+     "editor_reason": "Eric Schmidt co-wrote a Foreign Affairs piece casting the US and China as AI empires and OpenAI and Anthropic as modern colonial trading companies.",
+     "rank": 5,
+     "id": "2026-10-25-report-argues-openai-and-anthropic-resemble-colonial-trading",
+     "date": "2026-10-25"
+    },
+    {
+     "title": "OpenMobile-2 releases open smartphone agent models, training data and environment",
+     "one_liner": "Researchers released OpenMobile-2, an open-source smartphone agent trained on over 110 simulated apps that rivals proprietary models.",
+     "summary": "Researchers from Nanjing University, SenseTime, and other universities built OpenMobile-2 to close the gap between open and proprietary smartphone agents. They released two agent models built on Qwen with 9 billion and 27 billion parameters, along with their training environment and data. The team rebuilt 35 popular apps and used an Android emulator to cover more than 110 applications. Training on diverse apps pushed the success rate on unseen applications from 60.7 to 67.5 percent while holding data volume constant. On real Android devices, the larger model scored 59.6 points on SPA-Bench.",
+     "eli5": "Researchers trained a robot phone helper by letting it practice in a fake playground with over 110 different toy apps, which helped it learn better than just looking at a huge pile of data from only a few apps.",
+     "why_it_matters": "Increasing app diversity in training environments improves smartphone agent success on unseen applications more effectively than adding data volume.",
+     "topic": "research",
+     "type": "model",
+     "labs": [
+      "academia",
+      "qwen",
+      "google"
+     ],
+     "people": [],
+     "concepts": [
+      "agent",
+      "reinforcement-learning",
+      "benchmark"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "OpenMobile-2 proves open-source smartphone agents can rival proprietary models",
+       "url": "https://the-decoder.com/openmobile-2-proves-open-source-smartphone-agents-can-rival-proprietary-models/",
+       "name": "The Decoder",
+       "kind": "press"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-10-25T06:55:22Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "OpenMobile-2 shows open-source smartphone agents can rival proprietary ones, and that training on more varied apps helps more than using more data.",
+     "rank": 6,
+     "id": "2026-10-25-openmobile-2-proves-open-source-smartphone-agents-rival-prop",
+     "date": "2026-10-25"
+    },
+    {
+     "title": "How a 2023 Blackstone loan to CoreWeave started a boom in chip-backed debt",
+     "one_liner": "A 2023 private credit loan led by Blackstone to CoreWeave became a blueprint for chip-backed debt.",
+     "summary": "In 2023, a Blackstone-led $2.3B private credit loan was made to CoreWeave Inc. Blackstone executives asked CoreWeave leadership what a GPU is and if AI is real. This loan became a blueprint for chip-backed debt. Chip-backed debt is now on track to become a $1T market, according to Bloomberg.",
+     "eli5": "A company borrowed money by using its computer chips as a promise to pay it back, much like using a toy collection to borrow trading cards.",
+     "why_it_matters": "Hardware financing shifts toward chip-backed debt markets as lenders fund large-scale infrastructure.",
+     "topic": "industry",
+     "type": "event",
+     "labs": [
+      "other"
+     ],
+     "people": [],
+     "concepts": [
+      "gpu"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [
+      {
+       "term": "chip-backed debt",
+       "definition": "A 2023 private credit loan led by Blackstone to CoreWeave became a blueprint for chip-backed debt, which is on track to become a $1T market."
+      }
+     ],
+     "sources": [
+      {
+       "title": "How a Blackstone-led $2.3B private credit loan to CoreWeave in 2023 became a blueprint for chip-backed debt, which is on track to become a $1T market (Bloomberg)",
+       "url": "https://www.techmeme.com/261025/p6#a261025p6",
+       "name": "Techmeme",
+       "kind": "press"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-10-25T06:00:52Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "Bloomberg traces how a $2.3B private credit loan to CoreWeave became the template for chip-backed debt, a market on track to reach $1T.",
+     "rank": 7,
+     "id": "2026-10-25-blackstone-led-loan-to-coreweave-becomes-blueprint-for-chip",
+     "date": "2026-10-25"
+    }
+   ],
+   "stats": {
+    "items": 21,
+    "stories": 21,
+    "sources_ok": 41,
+    "sources_failed": [],
+    "published": 7,
+    "dropped": 4,
+    "llm_calls": 29,
+    "cache_hits": 8,
+    "models": {
+     "anthropic:claude-sonnet-5-5": 14,
+     "gemini:gemini-3.5-flash-lite": 14,
+     "groq:qwen/qwen3.8-27b": 1
+    },
+    "fallbacks": [
+     {
+      "tag": "checker",
+      "used": "groq:qwen/qwen3.8-27b",
+      "after": [
+       "anthropic:claude-haiku-5-5: bad JSON (JSONDecodeError)",
+       "anthropic:claude-haiku-5-5: bad JSON (JSONDecodeError)",
+       "groq:openai/gpt-oss-120b: HTTP 400 {\"error\":{\"message\":\"Failed to validate JSON. Please adjust your prompt. See 'failed_generation' for more details.\",\"type\":\"invalid_request_error\",\"code\":\"json_validate_failed\",\"failed_generation\":\"\"}"
+      ]
+     },
+     {
+      "tag": "checker",
+      "used": "anthropic:claude-sonnet-5-5",
+      "after": [
+       "anthropic:claude-sonnet-5-5: bad JSON (JSONDecodeError)"
+      ]
+     },
+     {
+      "tag": "writer",
+      "used": "gemini:gemini-3.5-flash-lite",
+      "after": [
+       "gemini:gemini-3.5-flash-lite: bad JSON (JSONDecodeError)"
+      ]
+     }
+    ],
+    "seconds": 167
    }
   }
  }
