@@ -3,9 +3,9 @@
   {
    "date": "2026-10-27",
    "file": "2026-10.json",
-   "count": 7,
-   "spotlight": 0,
-   "lead": "Broadcom Arranges $63B Deal for Anthropic Chip Purchases"
+   "count": 17,
+   "spotlight": 1,
+   "lead": "Google DeepMind's Genie 4 world model adds audio, more realistic worlds and real-time steering"
   },
   {
    "date": "2026-10-26",
@@ -142,5 +142,5 @@
   }
  ],
  "latest": "2026-10-27",
- "updated": "2026-10-27T08:31:23Z"
+ "updated": "2026-10-27T18:51:40Z"
 }

@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-27T08:42:38Z",
+ "updated_at": "2026-10-27T18:58:05Z",
  "window_days": 7,
  "groups": [
   {
@@ -431,6 +431,60 @@
    "group": "explainers",
    "known_for": "Investor at Atreides Management, focused on AI and chips",
    "x": "GavinSBaker",
+   "bsky": null,
+   "bsky_check": null
+  },
+  {
+   "id": "raia-hadsell",
+   "name": "Raia Hadsell",
+   "group": "researchers",
+   "known_for": "VP of Research at Google DeepMind",
+   "x": "RaiaHadsell",
+   "bsky": null,
+   "bsky_check": null
+  },
+  {
+   "id": "shlomi-fruchter",
+   "name": "Shlomi Fruchter",
+   "group": "researchers",
+   "known_for": "Research lead on Genie at Google DeepMind",
+   "x": "shlomifruchter",
+   "bsky": null,
+   "bsky_check": null
+  },
+  {
+   "id": "timothy-gowers",
+   "name": "Timothy Gowers",
+   "group": "pioneers",
+   "known_for": "Fields medal mathematician at Cambridge",
+   "x": "wtgowers",
+   "bsky": null,
+   "bsky_check": null
+  },
+  {
+   "id": "justine-moore",
+   "name": "Justine Moore",
+   "group": "explainers",
+   "known_for": "Investor at a16z who tests new AI creative tools",
+   "x": "venturetwins",
+   "bsky": null,
+   "bsky_check": null
+  },
+  {
+   "id": "joanna-stern",
+   "name": "Joanna Stern",
+   "group": "explainers",
+   "known_for": "Personal technology columnist",
+   "x": "JoannaStern",
+   "bsky": null,
+   "bsky_check": null
+  },
+  {
+   "id": "steve-moser",
+   "name": "Steve Moser",
+   "group": "explainers",
+   "known_for": "Tracks changes in Apple's software and code",
+   "x": "SteveMoser",
    "bsky": null,
    "bsky_check": null
   },
@@ -1191,6 +1245,15 @@
    "bsky_check": null
   },
   {
+   "id": "x-nvidianews",
+   "name": "NVIDIA Newsroom",
+   "group": "official",
+   "known_for": "NVIDIA's company announcements",
+   "x": "nvidianewsroom",
+   "bsky": null,
+   "bsky_check": null
+  },
+  {
    "id": "x-minimax",
    "name": "MiniMax",
    "group": "official",
@@ -1310,6 +1373,338 @@
  ],
  "posts": [
   {
+   "id": "bsky-emollick.bsky.social-3myuvyco2fs2z",
+   "person": "ethan-mollick",
+   "platform": "bluesky",
+   "url": "https://bsky.app/profile/emollick.bsky.social/post/3myuvyco2fs2z",
+   "posted_at": "2026-10-27T18:55:13Z",
+   "text": "The argument that AI labs are talking about existential risks as a way of creating hype & inflating their stock prices has always been odd.\n\nYou don't need to believe them, but telling people your product may murder everyone does not, in fact, encourage people to adopt it or reduce regulatory risks.",
+   "links": [],
+   "context": null,
+   "likes": 3,
+   "reposts": 0,
+   "via": "feed",
+   "meaning": "Mollick argues that claiming AI poses existential risks is an unlikely strategy for creating hype or boosting adoption, since warning that a product might kill everyone does not encourage users or reduce regulation.",
+   "concepts": [
+    "ai-safety"
+   ],
+   "story": null,
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "anthropic:claude-sonnet-5-5",
+   "added": "2026-10-27"
+  },
+  {
+   "id": "bsky-emollick.bsky.social-3myuv4onqt22z",
+   "person": "ethan-mollick",
+   "platform": "bluesky",
+   "url": "https://bsky.app/profile/emollick.bsky.social/post/3myuv4onqt22z",
+   "posted_at": "2026-10-27T18:39:46Z",
+   "text": "The end of detailed summarized thinking traces for Claude and ChatGPT (likely both for anti-distillation & to simplify UX) has made being a human in the loop challenging. It pushes us towards automation, rather than augmentation, as it has become much harder to weigh in on in-process AI work.",
+   "links": [],
+   "context": null,
+   "likes": 22,
+   "reposts": 2,
+   "via": "feed",
+   "meaning": "Mollick points out that the removal of detailed thinking traces in Claude and ChatGPT hinders the human-in-the-loop process and pushes users toward full automation because it is harder to review in-progress work.",
+   "concepts": [
+    "chain-of-thought",
+    "reasoning-model"
+   ],
+   "story": null,
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "anthropic:claude-sonnet-5-5",
+   "added": "2026-10-27"
+  },
+  {
+   "id": "bsky-natolambert.bsky.social-3myut23venj2i",
+   "person": "nathan-lambert",
+   "platform": "bluesky",
+   "url": "https://bsky.app/profile/natolambert.bsky.social/post/3myut23venj2i",
+   "posted_at": "2026-10-27T18:02:31Z",
+   "text": "I think it's vastly underrated how important org chart and team functionality is to building a good LLM. Over 18 months old, and still one of my favorite all time Interconnects posts. It's why we still often see orgs crumble and need to get rebuilt (e.g. Llama/xAI) & why underdogs can still catch up",
+   "links": [],
+   "context": null,
+   "likes": 7,
+   "reposts": 1,
+   "via": "feed",
+   "meaning": "Lambert argues that organizational structure and team functionality are critical yet underrated factors in building effective large language models, explaining why teams frequently rebuild and why underdogs remain competitive.",
+   "concepts": [
+    "llm"
+   ],
+   "story": null,
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "anthropic:claude-sonnet-5-5",
+   "added": "2026-10-27"
+  },
+  {
+   "id": "x-2115129573016998365",
+   "platform": "x",
+   "url": "https://x.com/RaiaHadsell/status/2115129573016998365",
+   "posted_at": "2026-10-27T17:12:42Z",
+   "date_only": false,
+   "text": "Genie 4 is here 🌍\n\nIt’s our most interactive world model yet, bringing real-time text controls, audio, Gemini reasoning, plus better physics and photorealism.\n\nEnjoyed talking about this with@OfficialLoganK, @drivascos, and Hang Qi on Release Notes, full episode now on YouTube… https://t.co/WS3tx2WqYY",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">Genie 4 is here 🌍<br><br>It’s our most interactive world model yet, bringing real-time text controls, audio, Gemini reasoning, plus better physics and photorealism.<br><br>Enjoyed talking about this with<a href=\"https://x.com/OfficialLoganK?ref_src=twsrc%5Etfw\">@OfficialLoganK</a>, <a href=\"https://x.com/drivascos?ref_src=twsrc%5Etfw\">@drivascos</a>, and Hang Qi on Release Notes, full episode now on YouTube… <a href=\"https://t.co/WS3tx2WqYY\">https://t.co/WS3tx2WqYY</a></p>&mdash; raia hadsell (@RaiaHadsell) <a href=\"https://x.com/RaiaHadsell/status/2115129573016998365?ref_src=twsrc%5Etfw\">October 27, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "raia-hadsell",
+   "meaning": "Hadsell highlights Genie 4, their interactive world model featuring real-time text controls, audio, and better physics. Builders working on simulation or interactive media may care about these advanced generation capabilities.",
+   "concepts": [
+    "world-model",
+    "multimodal-model"
+   ],
+   "story": "2026-10-27-google-deepmind-releases-genie-4-world-model-in-research-pre",
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "anthropic:claude-sonnet-5-5",
+   "added": "2026-10-27"
+  },
+  {
+   "id": "x-2115129174826647863",
+   "platform": "x",
+   "url": "https://x.com/OfficialLoganK/status/2115129174826647863",
+   "posted_at": "2026-10-27T17:11:07Z",
+   "date_only": false,
+   "text": "An early look at Genie 4, our new frontier world model, coming soon to the API for the first time : )",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">An early look at Genie 4, our new frontier world model, coming soon to the API for the first time : ) <a href=\"https://t.co/Q6v1qgg0W1\">pic.twitter.com/Q6v1qgg0W1</a></p>&mdash; Logan Kilpatrick (@OfficialLoganK) <a href=\"https://x.com/OfficialLoganK/status/2115129174826647863?ref_src=twsrc%5Etfw\">October 27, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "logan-kilpatrick",
+   "meaning": "Kilpatrick announces that Genie 4, their frontier world model, will soon be available via the API. Developers can look forward to integrating these interactive simulation capabilities into their own applications.",
+   "concepts": [
+    "world-model",
+    "multimodal-model"
+   ],
+   "story": "2026-10-27-google-deepmind-releases-genie-4-world-model-in-research-pre",
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "anthropic:claude-sonnet-5-5",
+   "added": "2026-10-27"
+  },
+  {
+   "id": "x-2115121906630238287",
+   "platform": "x",
+   "url": "https://x.com/jaminball/status/2115121906630238287",
+   "posted_at": "2026-10-27T16:42:14Z",
+   "date_only": false,
+   "text": "How many times did we hear this leading up to the Anthropic S-1 - \"Labs will never have margins!!\"\n\nWell...Serving compute per dollar of revenue fell from $0.88 to $0.15 in a year, and it fell while they were cutting price per task roughly 25–45% with each new model released\n\nIn…",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">How many times did we hear this leading up to the Anthropic S-1 - &quot;Labs will never have margins!!&quot;<br><br>Well...Serving compute per dollar of revenue fell from $0.88 to $0.15 in a year, and it fell while they were cutting price per task roughly 25–45% with each new model released<br><br>In… <a href=\"https://t.co/1MoaZnUL8k\">pic.twitter.com/1MoaZnUL8k</a></p>&mdash; Jamin Ball (@jaminball) <a href=\"https://x.com/jaminball/status/2115121906630238287?ref_src=twsrc%5Etfw\">October 27, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "jamin-ball",
+   "meaning": "Ball notes that Anthropic's S-1 filing shows serving compute costs per dollar of revenue dropped significantly over a year while task prices fell. Builders might care about these shifting economics of running LLMs at scale.",
+   "concepts": [
+    "llm",
+    "foundation-model"
+   ],
+   "story": "2026-10-26-anthropic-files-form-s-1-for-proposed-initial-public-offerin",
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "anthropic:claude-sonnet-5-5",
+   "added": "2026-10-27"
+  },
+  {
+   "id": "x-2115119959839756613",
+   "platform": "x",
+   "url": "https://x.com/shlomifruchter/status/2115119959839756613",
+   "posted_at": "2026-10-27T16:34:30Z",
+   "date_only": false,
+   "text": "Happy to share our latest version of Genie, built on the foundation of Gemini Omni.\n\nGenie 4 simulates worlds with native audio in real-time and at a significantly higher quality, especially for photorealistic scenes with dialog and speech.\n\nGreat work by an amazing team! https://t.co/h00BcSRiAt",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">Happy to share our latest version of Genie, built on the foundation of Gemini Omni.<br><br>Genie 4 simulates worlds with native audio in real-time and at a significantly higher quality, especially for photorealistic scenes with dialog and speech.<br><br>Great work by an amazing team! <a href=\"https://t.co/h00BcSRiAt\">https://t.co/h00BcSRiAt</a></p>&mdash; Shlomi Fruchter (@shlomifruchter) <a href=\"https://x.com/shlomifruchter/status/2115119959839756613?ref_src=twsrc%5Etfw\">October 27, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "shlomi-fruchter",
+   "meaning": "Fruchter shares that Genie 4 is built on Gemini Omni, simulating worlds with native real-time audio and higher photorealistic quality. Developers building immersive AI environments will find these improvements relevant.",
+   "concepts": [
+    "world-model",
+    "multimodal-model"
+   ],
+   "story": "2026-10-27-google-deepmind-releases-genie-4-world-model-in-research-pre",
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "anthropic:claude-sonnet-5-5",
+   "added": "2026-10-27"
+  },
+  {
+   "id": "x-2115115252690145519",
+   "platform": "x",
+   "url": "https://x.com/sundarpichai/status/2115115252690145519",
+   "posted_at": "2026-10-27T16:15:47Z",
+   "date_only": false,
+   "text": "Excited to share Genie 4 today our most realistic and interactive world model:\n\n- steer dynamic environments in real time, shaping events, camera angles, and actions\n\n- generate native audio matched to the world, from realistic background sounds to characters who can converse in…",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">Excited to share Genie 4 today our most realistic and interactive world model:<br><br>- steer dynamic environments in real time, shaping events, camera angles, and actions<br><br>- generate native audio matched to the world, from realistic background sounds to characters who can converse in… <a href=\"https://t.co/BFgQQH9KUb\">pic.twitter.com/BFgQQH9KUb</a></p>&mdash; Sundar Pichai (@sundarpichai) <a href=\"https://x.com/sundarpichai/status/2115115252690145519?ref_src=twsrc%5Etfw\">October 27, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "sundar-pichai",
+   "meaning": "Pichai introduces Genie 4, highlighting its real-time dynamic environment steering and native audio generation. This release offers builders advanced interactive simulation tools.",
+   "concepts": [
+    "world-model",
+    "multimodal-model"
+   ],
+   "story": "2026-10-27-google-deepmind-releases-genie-4-world-model-in-research-pre",
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "anthropic:claude-sonnet-5-5",
+   "added": "2026-10-27"
+  },
+  {
+   "id": "x-2115114238943568324",
+   "platform": "x",
+   "url": "https://x.com/venturetwins/status/2115114238943568324",
+   "posted_at": "2026-10-27T16:11:46Z",
+   "date_only": false,
+   "text": "Had early access to Genie 4 from @GoogleDeepMind.\n\nThis is a fully generated, interactive world from a single starting prompt (environment + character) 🤯\n\nFeels like a massive step forward - you can now prompt to change the world and interact with it. With native audio!",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">Had early access to Genie 4 from <a href=\"https://x.com/GoogleDeepMind?ref_src=twsrc%5Etfw\">@GoogleDeepMind</a>.<br><br>This is a fully generated, interactive world from a single starting prompt (environment + character) 🤯<br><br>Feels like a massive step forward - you can now prompt to change the world and interact with it. With native audio! <a href=\"https://t.co/0Fjg5ILaoE\">pic.twitter.com/0Fjg5ILaoE</a></p>&mdash; Justine Moore (@venturetwins) <a href=\"https://x.com/venturetwins/status/2115114238943568324?ref_src=twsrc%5Etfw\">October 27, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "justine-moore",
+   "meaning": "Moore shares early access to Genie 4, noting it generates fully interactive worlds with native audio from a single prompt. Developers interested in generative environments can now prompt and interact with scenes directly.",
+   "concepts": [
+    "world-model",
+    "multimodal-model"
+   ],
+   "story": "2026-10-27-google-deepmind-releases-genie-4-world-model-in-research-pre",
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "anthropic:claude-sonnet-5-5",
+   "added": "2026-10-27"
+  },
+  {
+   "id": "x-2115114030503166385",
+   "platform": "x",
+   "url": "https://x.com/GoogleDeepMind/status/2115114030503166385",
+   "posted_at": "2026-10-27T16:10:56Z",
+   "date_only": false,
+   "text": "Here’s what’s new with Genie 4:\n🔵 Photorealism: Built on Gemini Omni for lifelike detail across spaces and subjects\n🔵 Advanced physics: Aerodynamics, collisions, and people who move naturally\n🔵 Real-time controls: Prompt to change the scene, add elements, or interact with…",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">Here’s what’s new with Genie 4:<br>🔵 Photorealism: Built on Gemini Omni for lifelike detail across spaces and subjects<br>🔵 Advanced physics: Aerodynamics, collisions, and people who move naturally<br>🔵 Real-time controls: Prompt to change the scene, add elements, or interact with… <a href=\"https://t.co/3l2RvELUK0\">pic.twitter.com/3l2RvELUK0</a></p>&mdash; Google DeepMind (@GoogleDeepMind) <a href=\"https://x.com/GoogleDeepMind/status/2115114030503166385?ref_src=twsrc%5Etfw\">October 27, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "x-googledeepmind",
+   "meaning": "Google DeepMind outlines Genie 4 features, including Gemini Omni photorealism, advanced physics, and real-time prompt controls. Builders can leverage these improvements for more realistic interactive simulations.",
+   "concepts": [
+    "world-model",
+    "multimodal-model"
+   ],
+   "story": "2026-10-27-google-deepmind-releases-genie-4-world-model-in-research-pre",
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "anthropic:claude-sonnet-5-5",
+   "added": "2026-10-27"
+  },
+  {
+   "id": "x-2115114028338962672",
+   "platform": "x",
+   "url": "https://x.com/GoogleDeepMind/status/2115114028338962672",
+   "posted_at": "2026-10-27T16:10:55Z",
+   "date_only": false,
+   "text": "This is Genie 4, our most realistic and interactive world model yet. 🌐\n\nExplore dynamic environments in real time to see how the scene responds, sounds, and how the people in it move, react, and speak.",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">This is Genie 4, our most realistic and interactive world model yet. 🌐<br><br>Explore dynamic environments in real time to see how the scene responds, sounds, and how the people in it move, react, and speak. <a href=\"https://t.co/6mmSUm9BBO\">pic.twitter.com/6mmSUm9BBO</a></p>&mdash; Google DeepMind (@GoogleDeepMind) <a href=\"https://x.com/GoogleDeepMind/status/2115114028338962672?ref_src=twsrc%5Etfw\">October 27, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "x-googledeepmind",
+   "meaning": "Google DeepMind showcases Genie 4 as their most interactive world model yet, featuring responsive dynamic environments and natural character movement. This matters for developers building immersive AI-driven worlds.",
+   "concepts": [
+    "world-model",
+    "multimodal-model"
+   ],
+   "story": "2026-10-27-google-deepmind-releases-genie-4-world-model-in-research-pre",
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "anthropic:claude-sonnet-5-5",
+   "added": "2026-10-27"
+  },
+  {
+   "id": "x-2115080687699038343",
+   "platform": "x",
+   "url": "https://x.com/SteveMoser/status/2115080687699038343",
+   "posted_at": "2026-10-27T13:58:26Z",
+   "date_only": false,
+   "text": "Apple is supporting MCP in iWork! I wonder if it requires an Apple Creator Studio subscription.\n\n\"New MCP support, built on this platform, enables external AI agents and tools to read content, perform edits, and execute automated actions directly in Keynote, Pages, and Numbers.\"… https://t.co/yY8oXXb9LR",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">Apple is supporting MCP in iWork! I wonder if it requires an Apple Creator Studio subscription.<br><br>&quot;New MCP support, built on this platform, enables external AI agents and tools to read content, perform edits, and execute automated actions directly in Keynote, Pages, and Numbers.&quot;… <a href=\"https://t.co/yY8oXXb9LR\">https://t.co/yY8oXXb9LR</a> <a href=\"https://t.co/wGeo0q9Evi\">pic.twitter.com/wGeo0q9Evi</a></p>&mdash; Steve Moser (@SteveMoser) <a href=\"https://x.com/SteveMoser/status/2115080687699038343?ref_src=twsrc%5Etfw\">October 27, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "steve-moser",
+   "meaning": "Moser highlights that Apple is adding Model Context Protocol support to iWork apps, letting external agents read content and execute edits in Keynote, Pages, and Numbers. Tool builders should note this expansion into productivity software.",
+   "concepts": [
+    "mcp",
+    "agent",
+    "tool-use"
+   ],
+   "story": null,
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "anthropic:claude-sonnet-5-5",
+   "added": "2026-10-27"
+  },
+  {
+   "id": "x-2115069222959055250",
+   "platform": "x",
+   "url": "https://x.com/JoannaStern/status/2115069222959055250",
+   "posted_at": "2026-10-27T13:12:53Z",
+   "date_only": false,
+   "text": "New 14-inch MacBook Pro with M6. The chip upgrade is the main upgrade. Apple really leaning into on-device, local AI capabilities. And some good news: Pricing appears to be staying the same.",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">New 14-inch MacBook Pro with M6. The chip upgrade is the main upgrade. Apple really leaning into on-device, local AI capabilities. And some good news: Pricing appears to be staying the same. <a href=\"https://t.co/18PRJ6ScId\">pic.twitter.com/18PRJ6ScId</a></p>&mdash; Joanna Stern (@JoannaStern) <a href=\"https://x.com/JoannaStern/status/2115069222959055250?ref_src=twsrc%5Etfw\">October 27, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "joanna-stern",
+   "meaning": "Stern reports that the new MacBook Pro with the M6 chip focuses heavily on local, on-device AI capabilities while keeping pricing steady. App developers building local inference features will find this hardware update useful.",
+   "concepts": [
+    "inference"
+   ],
+   "story": null,
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "anthropic:claude-sonnet-5-5",
+   "added": "2026-10-27"
+  },
+  {
+   "id": "bsky-emollick.bsky.social-3myucj4frec2l",
+   "person": "ethan-mollick",
+   "platform": "bluesky",
+   "url": "https://bsky.app/profile/emollick.bsky.social/post/3myucj4frec2l",
+   "posted_at": "2026-10-27T13:06:42Z",
+   "text": "This never gets old (& also shows how hard forecasting AI is even for AI)\n\n“Hey Claude Fable & GPT-6 Astra, Without looking anything up, when do you think we will solve the Exponential Time Hypothesis?” (I only show part of the answers for space)",
+   "links": [],
+   "context": null,
+   "likes": 155,
+   "reposts": 20,
+   "via": "feed",
+   "meaning": "Mollick demonstrates the difficulty of AI forecasting by asking AI models when the Exponential Time Hypothesis will be solved.",
+   "concepts": [],
+   "story": "2026-10-27-frontier-ai-labs-claim-their-models-refuted-the-exponential",
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "anthropic:claude-sonnet-5-5",
+   "added": "2026-10-27"
+  },
+  {
+   "id": "x-2115008335154176006",
+   "platform": "x",
+   "url": "https://x.com/wtgowers/status/2115008335154176006",
+   "posted_at": "2026-10-27T09:10:56Z",
+   "date_only": false,
+   "text": "The recent drop by OpenAI contains a refutation of ETH, a proof of \"local smoothing\", which implies the full Kakeya conjecture, and a proof of the existence of pure Yang-Mills theory. AGMAI asks for release of the materials connected with the last.https://t.co/j9IfbT7UXY",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">The recent drop by OpenAI contains a refutation of ETH, a proof of &quot;local smoothing&quot;, which implies the full Kakeya conjecture, and a proof of the existence of pure Yang-Mills theory. AGMAI asks for release of the materials connected with the last.<a href=\"https://t.co/j9IfbT7UXY\">https://t.co/j9IfbT7UXY</a></p>&mdash; Timothy Gowers @wtgowers (@wtgowers) <a href=\"https://x.com/wtgowers/status/2115008335154176006?ref_src=twsrc%5Etfw\">October 27, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "timothy-gowers",
+   "meaning": "Gowers highlights that OpenAI's recent release contains a refutation of ETH, a proof of local smoothing implying the Kakeya conjecture, and a proof of pure Yang-Mills theory, with AGMAI requesting the related materials.",
+   "concepts": [],
+   "story": "2026-10-27-frontier-ai-labs-claim-their-models-refuted-the-exponential",
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "anthropic:claude-sonnet-5-5",
+   "added": "2026-10-27"
+  },
+  {
+   "id": "x-2114960962734412112",
+   "platform": "x",
+   "url": "https://x.com/nvidianewsroom/status/2114960962734412112",
+   "posted_at": "2026-10-27T06:02:42Z",
+   "date_only": false,
+   "text": "NVIDIA and @Meta will expand our partnership on @Muse models to improve inference and training performance.\n\nTogether, we’re exploring NVIDIA OpenShell for safe AI agent deployment and NVIDIA Sentry for monitoring agent behavior.\n\nMeta plans broader deployments of NVIDIA Vera…",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">NVIDIA and <a href=\"https://x.com/Meta?ref_src=twsrc%5Etfw\">@Meta</a> will expand our partnership on <a href=\"https://x.com/Muse?ref_src=twsrc%5Etfw\">@Muse</a> models to improve inference and training performance.<br><br>Together, we’re exploring NVIDIA OpenShell for safe AI agent deployment and NVIDIA Sentry for monitoring agent behavior.<br><br>Meta plans broader deployments of NVIDIA Vera… <a href=\"https://t.co/sqMLCk8h4a\">pic.twitter.com/sqMLCk8h4a</a></p>&mdash; NVIDIA Newsroom (@nvidianewsroom) <a href=\"https://x.com/nvidianewsroom/status/2114960962734412112?ref_src=twsrc%5Etfw\">October 27, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "x-nvidianews",
+   "meaning": "Nvidia and Meta are expanding their partnership to boost inference and training performance for Muse models, explore Nvidia OpenShell and Sentry for agent safety, and plan broader deployments of Nvidia Vera.",
+   "concepts": [
+    "agent",
+    "inference"
+   ],
+   "story": null,
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "anthropic:claude-sonnet-5-5",
+   "added": "2026-10-27"
+  },
+  {
    "id": "bsky-emollick.bsky.social-3mysy6zyphs25",
    "person": "ethan-mollick",
    "platform": "bluesky",
@@ -1318,8 +1713,8 @@
    "text": "Two and a half years between these.\n\n(Tonight, OpenAI announced an unreleased model solved three long-standing problems in physics, math, and computer science, one of which was proving the Exponential Time Hypothesis was false)",
    "links": [],
    "context": null,
-   "likes": 118,
-   "reposts": 16,
+   "likes": 140,
+   "reposts": 18,
    "via": "feed",
    "meaning": "Mollick shares that an unreleased OpenAI model solved three long-standing problems in physics, math, and computer science over a span of two and a half years. Builders should note advanced model capabilities in complex scientific problem-solving.",
    "concepts": [
@@ -1415,8 +1810,8 @@
    "text": "I had GPT-6 Pro re-analyze the fun finding that violent video games reduce crime, as people stay home playing them. It downloaded fresh crime data and extended prior work.\n\nYes, GTA V's 2013 launch was linked with a dip in violence internationally. Other Rockstar games are more ambiguous, though.",
    "links": [],
    "context": null,
-   "likes": 53,
-   "reposts": 5,
+   "likes": 63,
+   "reposts": 6,
    "via": "feed",
    "meaning": "Mollick shares that GPT-6 Pro downloaded fresh crime data to re-analyze and extend prior work. It found that the 2013 launch of GTA V linked to an international dip in violence, though other Rockstar games showed more ambiguous results.",
    "concepts": [
@@ -1992,8 +2387,8 @@
     "title": "Open Language Models: Overview, Open Source History, Distillation, Risks, & Chinese Labs",
     "text": "Finally, I made the time to make some foundational educational content on open models. It's a very complex subject and it was a lot of fun to give a lecture that put together all aspects of my work…"
    },
-   "likes": 66,
-   "reposts": 6,
+   "likes": 72,
+   "reposts": 7,
    "via": "feed",
    "meaning": "Lambert shares an educational lecture covering the open model ecosystem, discussing how distillation fits in, risk management, and how access to models may change.",
    "concepts": [
@@ -2057,7 +2452,7 @@
    "text": "My general advice for using AI for any purpose is to ask yourself: \"how do I make what I am doing even more ambitious?\"\n\nYou do this over and over until you either hit a wall and thus learn the shape of the jagged frontier (useful!) or you find out that the AI can do more than you think (common!)",
    "links": [],
    "context": null,
-   "likes": 245,
+   "likes": 250,
    "reposts": 20,
    "via": "feed",
    "meaning": "Mollick advises users to make their AI tasks increasingly ambitious to test the limits of what the technology can handle.",
@@ -3612,7 +4007,7 @@
     }
    ],
    "context": null,
-   "likes": 278,
+   "likes": 279,
    "reposts": 19,
    "via": "feed",
    "meaning": "Simon Willison built a browser-based RTS game called Battle Drones using Claude Opus 5.5, featuring device-to-device multiplayer over an audio link.",

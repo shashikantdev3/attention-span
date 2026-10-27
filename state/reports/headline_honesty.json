@@ -1864,5 +1864,359 @@
   "reasons": [],
   "model": "microsoft/microsoft-decision-1-20261009",
   "checked_at": "2026-10-27T08:43:54+00:00"
+ },
+ "2026-10-27-google-deepmind-releases-genie-4-world-model-in-research-pre|microsoft/microsoft-decision-1": {
+  "id": "2026-10-27-google-deepmind-releases-genie-4-world-model-in-research-pre",
+  "date": "2026-10-27",
+  "headline": "Google DeepMind's Genie 4 world model adds audio, more realistic worlds and real-time steering",
+  "original_headlines": [
+   "Genie 4: A new generation of world simulation â Google DeepMind",
+   "Google’s Genie 4 world model adds audio, more realistic worlds, and real-time steering | TechCrunch"
+  ],
+  "supported": 0.777,
+  "strength": "same",
+  "strength_probabilities": {
+   "same": 0.964,
+   "stronger": 0.029,
+   "weaker": 0.006
+  },
+  "hype": 0.18,
+  "verdict": "ok",
+  "reasons": [],
+  "model": "microsoft/microsoft-decision-1-20261009",
+  "checked_at": "2026-10-27T18:58:55+00:00"
+ },
+ "2026-10-27-apple-adds-ai-assistant-to-productivity-and-creative-apps|microsoft/microsoft-decision-1": {
+  "id": "2026-10-27-apple-adds-ai-assistant-to-productivity-and-creative-apps",
+  "date": "2026-10-27",
+  "headline": "Apple brings an AI assistant built on Apple and OpenAI models to Keynote, Pages and Numbers",
+  "original_headlines": [
+   "Apple is adding an AI chatbot to Pages, Keynote, and Numbers",
+   "Apple adds a beta AI assistant built on Apple's and OpenAI's models to Keynote, Pages, Numbers, and Logic Pro, plus MCP support to Keynote, Pages, and Numbers (Emma Roth/The Verge)"
+  ],
+  "supported": 0.977,
+  "strength": "weaker",
+  "strength_probabilities": {
+   "same": 0.232,
+   "stronger": 0.052,
+   "weaker": 0.716
+  },
+  "hype": 0.03,
+  "verdict": "ok",
+  "reasons": [],
+  "model": "microsoft/microsoft-decision-1-20261009",
+  "checked_at": "2026-10-27T18:58:56+00:00"
+ },
+ "2026-10-27-broadcom-arranges-63b-deal-for-anthropic-chip-purchases|microsoft/microsoft-decision-1": {
+  "id": "2026-10-27-broadcom-arranges-63b-deal-for-anthropic-chip-purchases",
+  "date": "2026-10-27",
+  "headline": "Broadcom Arranges $63B Deal for Anthropic Chip Purchases",
+  "original_headlines": [
+   "Broadcom arranges a $63B deal with BofA, Blackstone, Citi, and Morgan Stanley to finance the purchase of chips for Anthropic via a new special purpose vehicle (Lynn Doan/Bloomberg)"
+  ],
+  "supported": 0.755,
+  "strength": "same",
+  "strength_probabilities": {
+   "same": 0.637,
+   "stronger": 0.022,
+   "weaker": 0.341
+  },
+  "hype": 0.05,
+  "verdict": "ok",
+  "reasons": [],
+  "model": "microsoft/microsoft-decision-1-20261009",
+  "checked_at": "2026-10-27T18:58:57+00:00"
+ },
+ "2026-10-27-anthropic-s-s-1-shows-where-its-compute-money-goes-google-tp|microsoft/microsoft-decision-1": {
+  "id": "2026-10-27-anthropic-s-s-1-shows-where-its-compute-money-goes-google-tp",
+  "date": "2026-10-27",
+  "headline": "Anthropic's S-1 shows where its compute money goes: Google TPUs first, then SpaceX, Amazon and Microsoft",
+  "original_headlines": [
+   "Who's getting Anthropic's compute spending? IPO filing shows where the tech giants really stand"
+  ],
+  "supported": 0.223,
+  "strength": "same",
+  "strength_probabilities": {
+   "same": 0.628,
+   "stronger": 0.297,
+   "weaker": 0.075
+  },
+  "hype": 0.19,
+  "verdict": "check",
+  "reasons": [
+   "claim not in the summary"
+  ],
+  "model": "microsoft/microsoft-decision-1-20261009",
+  "checked_at": "2026-10-27T18:58:58+00:00"
+ },
+ "2026-10-27-nvidia-and-meta-expand-partnership-and-plan-investment|microsoft/microsoft-decision-1": {
+  "id": "2026-10-27-nvidia-and-meta-expand-partnership-and-plan-investment",
+  "date": "2026-10-27",
+  "headline": "Nvidia to invest $3B in Meta's equity raise as their AI partnership expands",
+  "original_headlines": [
+   "Nvidia and Meta expand their Muse partnership, including Meta deploying more Vera Rubin and Vera CPUs; Nvidia will invest $3B in Meta's planned equity fundraise (Wall Street Journal)"
+  ],
+  "supported": 0.223,
+  "strength": "same",
+  "strength_probabilities": {
+   "same": 0.617,
+   "stronger": 0.227,
+   "weaker": 0.156
+  },
+  "hype": 0.09,
+  "verdict": "check",
+  "reasons": [
+   "claim not in the summary"
+  ],
+  "model": "microsoft/microsoft-decision-1-20261009",
+  "checked_at": "2026-10-27T18:58:59+00:00"
+ },
+ "2026-10-27-openai-and-oracle-expand-partnership-to-bring-apps-to-chatgp|microsoft/microsoft-decision-1": {
+  "id": "2026-10-27-openai-and-oracle-expand-partnership-to-bring-apps-to-chatgp",
+  "date": "2026-10-27",
+  "headline": "OpenAI and Oracle bring Oracle apps and data into ChatGPT",
+  "original_headlines": [
+   "OpenAI expands partnership with Oracle to bring its apps to ChatGPT"
+  ],
+  "supported": 0.982,
+  "strength": "stronger",
+  "strength_probabilities": {
+   "same": 0.371,
+   "stronger": 0.612,
+   "weaker": 0.016
+  },
+  "hype": 0.02,
+  "verdict": "ok",
+  "reasons": [],
+  "model": "microsoft/microsoft-decision-1-20261009",
+  "checked_at": "2026-10-27T18:59:00+00:00"
+ },
+ "2026-10-27-frontier-ai-labs-claim-their-models-refuted-the-exponential|microsoft/microsoft-decision-1": {
+  "id": "2026-10-27-frontier-ai-labs-claim-their-models-refuted-the-exponential",
+  "date": "2026-10-27",
+  "headline": "Other labs weigh in on OpenAI's claim that its model refuted the Exponential Time Hypothesis",
+  "original_headlines": [
+   "Frontier AI labs say their models refuted the Exponential Time Hypothesis. What does that mean?"
+  ],
+  "supported": 0.706,
+  "strength": "weaker",
+  "strength_probabilities": {
+   "same": 0.105,
+   "stronger": 0.016,
+   "weaker": 0.879
+  },
+  "hype": 0.14,
+  "verdict": "ok",
+  "reasons": [],
+  "model": "microsoft/microsoft-decision-1-20261009",
+  "checked_at": "2026-10-27T18:59:01+00:00"
+ },
+ "2026-10-27-report-evaluates-safety-risks-of-deepseek-v4-1-flash-1017|microsoft/microsoft-decision-1": {
+  "id": "2026-10-27-report-evaluates-safety-risks-of-deepseek-v4-1-flash-1017",
+  "date": "2026-10-27",
+  "headline": "DeepSeek V4.1 Flash disabled its shutdown script in 39% of test runs, safety study finds",
+  "original_headlines": [
+   "Evaluating DeepSeek V4.1 Flash-1017 for loss of control and harmful manipulation risks",
+   "DeepSeek’s latest model still resists shutdown in safety tests"
+  ],
+  "supported": 0.731,
+  "strength": "same",
+  "strength_probabilities": {
+   "same": 0.617,
+   "stronger": 0.156,
+   "weaker": 0.227
+  },
+  "hype": 0.23,
+  "verdict": "ok",
+  "reasons": [],
+  "model": "microsoft/microsoft-decision-1-20261009",
+  "checked_at": "2026-10-27T18:59:02+00:00"
+ },
+ "2026-10-27-opera-introduces-webai-standard-to-run-local-ai|microsoft/microsoft-decision-1": {
+  "id": "2026-10-27-opera-introduces-webai-standard-to-run-local-ai",
+  "date": "2026-10-27",
+  "headline": "Opera proposes WebAI, a web standard for running AI models locally in the browser",
+  "original_headlines": [
+   "Opera introduces a new web standard to let users deploy AI locally in their browser"
+  ],
+  "supported": 0.94,
+  "strength": "same",
+  "strength_probabilities": {
+   "same": 0.877,
+   "stronger": 0.092,
+   "weaker": 0.03
+  },
+  "hype": 0.04,
+  "verdict": "ok",
+  "reasons": [],
+  "model": "microsoft/microsoft-decision-1-20261009",
+  "checked_at": "2026-10-27T18:59:02+00:00"
+ },
+ "2026-10-27-openai-s-ted-sanders-shares-rule-of-thumb-for-gpt-models|microsoft/microsoft-decision-1": {
+  "id": "2026-10-27-openai-s-ted-sanders-shares-rule-of-thumb-for-gpt-models",
+  "date": "2026-10-27",
+  "headline": "OpenAI's Ted Sanders on picking a GPT model: Astra for quality, Sol, Terra or Luna to save money",
+  "original_headlines": [
+   "OpenAI's Ted Sanders shares a rule of thumb for picking the right GPT-model"
+  ],
+  "supported": 0.5,
+  "strength": "stronger",
+  "strength_probabilities": {
+   "same": 0.236,
+   "stronger": 0.728,
+   "weaker": 0.036
+  },
+  "hype": 0.13,
+  "verdict": "ok",
+  "reasons": [],
+  "model": "microsoft/microsoft-decision-1-20261009",
+  "checked_at": "2026-10-27T18:59:03+00:00"
+ },
+ "2026-10-27-openai-releases-signals-data-on-chatgpt-work-activities|microsoft/microsoft-decision-1": {
+  "id": "2026-10-27-openai-releases-signals-data-on-chatgpt-work-activities",
+  "date": "2026-10-27",
+  "headline": "OpenAI publishes Signals data on how people use ChatGPT for work in nearly 100 countries",
+  "original_headlines": [
+   "ChatGPT’s expanding world of work"
+  ],
+  "supported": 0.905,
+  "strength": "stronger",
+  "strength_probabilities": {
+   "same": 0.072,
+   "stronger": 0.775,
+   "weaker": 0.153
+  },
+  "hype": 0.02,
+  "verdict": "check",
+  "reasons": [
+   "stronger than the original"
+  ],
+  "model": "microsoft/microsoft-decision-1-20261009",
+  "checked_at": "2026-10-27T18:59:04+00:00"
+ },
+ "2026-10-27-report-details-cross-request-kv-cache-exposure-in-glm-5-3-mo|microsoft/microsoft-decision-1": {
+  "id": "2026-10-27-report-details-cross-request-kv-cache-exposure-in-glm-5-3-mo",
+  "date": "2026-10-27",
+  "headline": "Cloudflare details a cross-customer KV cache exposure in its GLM-5.3 service",
+  "original_headlines": [
+   "Cross-request KV cache exposure in the GLM-5.3 Workers AI model (155 responses)",
+   "Discussion on Hacker News"
+  ],
+  "supported": 0.223,
+  "strength": "same",
+  "strength_probabilities": {
+   "same": 0.579,
+   "stronger": 0.351,
+   "weaker": 0.069
+  },
+  "hype": 0.03,
+  "verdict": "check",
+  "reasons": [
+   "claim not in the summary"
+  ],
+  "model": "microsoft/microsoft-decision-1-20261009",
+  "checked_at": "2026-10-27T18:59:05+00:00"
+ },
+ "2026-10-27-general-compute-raises-100-million-series-a-funding|microsoft/microsoft-decision-1": {
+  "id": "2026-10-27-general-compute-raises-100-million-series-a-funding",
+  "date": "2026-10-27",
+  "headline": "General Compute raises $100M to run inference on chips from Nvidia's rivals",
+  "original_headlines": [
+   "General Compute raises $100 million Series A, countering the neocloud disaster narrative"
+  ],
+  "supported": 0.924,
+  "strength": "weaker",
+  "strength_probabilities": {
+   "same": 0.231,
+   "stronger": 0.058,
+   "weaker": 0.711
+  },
+  "hype": 0.12,
+  "verdict": "ok",
+  "reasons": [],
+  "model": "microsoft/microsoft-decision-1-20261009",
+  "checked_at": "2026-10-27T18:59:06+00:00"
+ },
+ "2026-10-27-nvidia-backs-indian-startup-simplismart-in-14-million-fundin|microsoft/microsoft-decision-1": {
+  "id": "2026-10-27-nvidia-backs-indian-startup-simplismart-in-14-million-fundin",
+  "date": "2026-10-27",
+  "headline": "Nvidia backs Indian AI deployment startup Simplismart in a $14M round",
+  "original_headlines": [
+   "Nvidia backs Indian startup helping companies run AI models with fewer GPUs"
+  ],
+  "supported": 0.562,
+  "strength": "same",
+  "strength_probabilities": {
+   "same": 0.821,
+   "stronger": 0.111,
+   "weaker": 0.067
+  },
+  "hype": 0.02,
+  "verdict": "ok",
+  "reasons": [],
+  "model": "microsoft/microsoft-decision-1-20261009",
+  "checked_at": "2026-10-27T18:59:06+00:00"
+ },
+ "2026-10-27-organized-criminal-groups-target-data-center-gear-on-highway|microsoft/microsoft-decision-1": {
+  "id": "2026-10-27-organized-criminal-groups-target-data-center-gear-on-highway",
+  "date": "2026-10-27",
+  "headline": "Thieves are stealing millions in data center gear from US highways",
+  "original_headlines": [
+   "Grand theft AI: Highway thieves are stealing millions in data center gear"
+  ],
+  "supported": 0.407,
+  "strength": "same",
+  "strength_probabilities": {
+   "same": 0.496,
+   "stronger": 0.067,
+   "weaker": 0.437
+  },
+  "hype": 0.39,
+  "verdict": "check",
+  "reasons": [
+   "claim not in the summary"
+  ],
+  "model": "microsoft/microsoft-decision-1-20261009",
+  "checked_at": "2026-10-27T18:59:07+00:00"
+ },
+ "2026-10-27-firefox-updates-smart-window-with-ai-form-filling-and-monito|microsoft/microsoft-decision-1": {
+  "id": "2026-10-27-firefox-updates-smart-window-with-ai-form-filling-and-monito",
+  "date": "2026-10-27",
+  "headline": "Firefox's Smart Window can now fill in web forms from your open tabs",
+  "original_headlines": [
+   "Firefox’s Smart Window adds AI form filling and webpage monitoring"
+  ],
+  "supported": 0.94,
+  "strength": "weaker",
+  "strength_probabilities": {
+   "same": 0.431,
+   "stronger": 0.017,
+   "weaker": 0.553
+  },
+  "hype": 0.16,
+  "verdict": "ok",
+  "reasons": [],
+  "model": "microsoft/microsoft-decision-1-20261009",
+  "checked_at": "2026-10-27T18:59:08+00:00"
+ },
+ "2026-10-27-microsoft-and-snowflake-commit-to-apache-ossie-semantic-stan|microsoft/microsoft-decision-1": {
+  "id": "2026-10-27-microsoft-and-snowflake-commit-to-apache-ossie-semantic-stan",
+  "date": "2026-10-27",
+  "headline": "Microsoft and Snowflake commit to Apache Ossie semantic standard",
+  "original_headlines": [
+   "Microsoft & Snowflake’s Commitment to Apache Ossie"
+  ],
+  "supported": 0.798,
+  "strength": "stronger",
+  "strength_probabilities": {
+   "same": 0.457,
+   "stronger": 0.518,
+   "weaker": 0.026
+  },
+  "hype": 0.02,
+  "verdict": "ok",
+  "reasons": [],
+  "model": "microsoft/microsoft-decision-1-20261009",
+  "checked_at": "2026-10-27T18:59:09+00:00"
  }
 }

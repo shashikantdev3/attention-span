@@ -518,18 +518,11 @@
   "source": "https://www.techmeme.com/261024/p6#a261024p6"
  },
  {
-  "term": "terrestrial compute buildout",
-  "definition": "Apollo said the financing will help deliver Nvidia's next-generation Vera Rubin chips for SpaceX's terrestrial compute buildout.",
+  "term": "Lean formalization",
+  "definition": "A formal proof checked and verified using the Lean theorem prover.",
   "first_seen": "2026-10-26",
-  "story": "2026-10-26-spacex-locks-in-40b-gpu-financing-deal-with-apollo",
-  "source": "https://techcrunch.com/2026/10/26/spacex-locks-in-40b-gpu-financing-deal-with-apollo/"
- },
- {
-  "term": "Agentic MapReduce",
-  "definition": "An architecture that maps a codebase for routes, authorization boundaries, data access patterns, and security-relevant code against a threat model to scale security investigations.",
-  "first_seen": "2026-10-26",
-  "story": "2026-10-26-devin-security-2-0-launches-for-threat-remediation",
-  "source": "https://devin.ai/blog/devin-security-2"
+  "story": "2026-10-26-openai-announces-three-new-scientific-discoveries-and-releas",
+  "source": "https://openai.com/index/building-scientific-understanding-with-academic-communities"
  },
  {
   "term": "Agent SDK",
@@ -539,11 +532,32 @@
   "source": "https://cursor.com/blog/agent-sdk"
  },
  {
-  "term": "neural network",
-  "definition": "A set of computer algorithms modeled on the human brain and trained to find patterns in massive amounts of data.",
+  "term": "Agentic MapReduce",
+  "definition": "An architecture that maps a codebase for routes, authorization boundaries, data access patterns, and security-relevant code against a threat model to scale security investigations.",
   "first_seen": "2026-10-26",
-  "story": "2026-10-26-npr-reports-ai-models-are-transforming-hurricane-forecasts",
-  "source": "https://www.npr.org/2026/10/26/nx-s1-6012820/ai-hurricane-forecast-google-deepmind-isaias"
+  "story": "2026-10-26-devin-security-2-0-launches-for-threat-remediation",
+  "source": "https://devin.ai/blog/devin-security-2"
+ },
+ {
+  "term": "Continuous Memory",
+  "definition": "A feature that lets AI agents search past coding sessions for the context behind earlier changes.",
+  "first_seen": "2026-10-26",
+  "story": "2026-10-26-former-github-ceo-unveils-entire-git-forge-platform-for-ai-c",
+  "source": "https://www.geekwire.com/2026/former-github-ceo-launches-rival-platform-built-for-ai-coding-agents/"
+ },
+ {
+  "term": "Git forge",
+  "definition": "A service for hosting code, reviewing changes, and running builds.",
+  "first_seen": "2026-10-26",
+  "story": "2026-10-26-former-github-ceo-unveils-entire-git-forge-platform-for-ai-c",
+  "source": "https://www.geekwire.com/2026/former-github-ceo-launches-rival-platform-built-for-ai-coding-agents/"
+ },
+ {
+  "term": "terrestrial compute buildout",
+  "definition": "Apollo said the financing will help deliver Nvidia's next-generation Vera Rubin chips for SpaceX's terrestrial compute buildout.",
+  "first_seen": "2026-10-26",
+  "story": "2026-10-26-spacex-locks-in-40b-gpu-financing-deal-with-apollo",
+  "source": "https://techcrunch.com/2026/10/26/spacex-locks-in-40b-gpu-financing-deal-with-apollo/"
  },
  {
   "term": "voluntary buyout",
@@ -553,18 +567,18 @@
   "source": "https://www.cnbc.com/2026/10/26/microsoft-msft-voluntary-buyouts.html"
  },
  {
-  "term": "Lean formalization",
-  "definition": "A formal proof checked and verified using the Lean theorem prover.",
-  "first_seen": "2026-10-26",
-  "story": "2026-10-26-openai-announces-three-new-scientific-discoveries-and-releas",
-  "source": "https://openai.com/index/building-scientific-understanding-with-academic-communities"
- },
- {
   "term": "static analysis",
   "definition": "An analysis approach used with testing and formal verification to help AI agents make software transformations trustworthy.",
   "first_seen": "2026-10-26",
   "story": "2026-10-26-microsoft-uses-ai-agents-to-modernize-large-codebases",
   "source": "https://commandline.microsoft.com/agentic-software-engineering-large-scale-code-migration-language-modernization-spec-driven-development/"
+ },
+ {
+  "term": "neural network",
+  "definition": "A set of computer algorithms modeled on the human brain and trained to find patterns in massive amounts of data.",
+  "first_seen": "2026-10-26",
+  "story": "2026-10-26-npr-reports-ai-models-are-transforming-hurricane-forecasts",
+  "source": "https://www.npr.org/2026/10/26/nx-s1-6012820/ai-hurricane-forecast-google-deepmind-isaias"
  },
  {
   "term": "notebook toolkit",
@@ -574,11 +588,39 @@
   "source": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Connect-coding-agents-to-Fabric-notebooks-with-FNTK-Preview/ba-p/5375986"
  },
  {
-  "term": "executable agent benchmark",
-  "definition": "An agent benchmark that models the structural evolution of large tool ecosystems.",
-  "first_seen": "2026-10-26",
-  "story": "2026-10-26-researchers-introduce-deltatau-bench-to-evaluate-agents-in-c",
-  "source": "https://arxiv.org/abs/2610.34238"
+  "term": "Model Context Protocol",
+  "definition": "A protocol that allows third-party AI agents to plug into Keynote, Pages, and Numbers.",
+  "first_seen": "2026-10-27",
+  "story": "2026-10-27-apple-adds-ai-assistant-to-productivity-and-creative-apps",
+  "source": "https://www.theverge.com/tech/1019373/apple-pages-keynote-numbers-ai-chatbot-update"
+ },
+ {
+  "term": "Exponential Time Hypothesis",
+  "definition": "A durable assumption in computer science stating that even the fastest computer algorithm needs exponentially more time to find a solution as the number of variables grow in a specific class of tricky logic puzzle.",
+  "first_seen": "2026-10-27",
+  "story": "2026-10-27-frontier-ai-labs-claim-their-models-refuted-the-exponential",
+  "source": "https://techcrunch.com/2026/10/27/frontier-ai-labs-say-their-models-refuted-the-exponential-time-hypothesis-what-does-that-mean/"
+ },
+ {
+  "term": "P vs NP",
+  "definition": "A broader class of problems trying to understand if any problem whose solution can be easily verified can also be easily solved.",
+  "first_seen": "2026-10-27",
+  "story": "2026-10-27-frontier-ai-labs-claim-their-models-refuted-the-exponential",
+  "source": "https://techcrunch.com/2026/10/27/frontier-ai-labs-say-their-models-refuted-the-exponential-time-hypothesis-what-does-that-mean/"
+ },
+ {
+  "term": "multi-agent systems",
+  "definition": "Model size, reasoning effort, and multi-agent systems are distinct dimensions that make model names difficult to simplify.",
+  "first_seen": "2026-10-27",
+  "story": "2026-10-27-openai-s-ted-sanders-shares-rule-of-thumb-for-gpt-models",
+  "source": "https://the-decoder.com/openais-ted-sanders-shares-a-rule-of-thumb-for-picking-the-right-gpt-model/"
+ },
+ {
+  "term": "WebAI",
+  "definition": "A new web standard designed to work with a variety of AI models directly in the browser.",
+  "first_seen": "2026-10-27",
+  "story": "2026-10-27-opera-introduces-webai-standard-to-run-local-ai",
+  "source": "https://techcrunch.com/2026/10/27/opera-introduces-a-new-web-standard-to-let-users-deploy-ai-locally-in-their-browser/"
  },
  {
   "term": "Intermediate Work Activities",
@@ -602,11 +644,32 @@
   "source": "https://blog.cloudflare.com/kv-cache-exposure-remediation/"
  },
  {
+  "term": "bare metal",
+  "definition": "Raw servers with no software layered on top.",
+  "first_seen": "2026-10-27",
+  "story": "2026-10-27-general-compute-raises-100-million-series-a-funding",
+  "source": "https://techcrunch.com/2026/10/27/general-compute-raises-100-million-series-a-countering-the-neocloud-disaster-narrative/"
+ },
+ {
+  "term": "inference chips",
+  "definition": "Specialized chips built by Nvidia rivals used to run AI models.",
+  "first_seen": "2026-10-27",
+  "story": "2026-10-27-general-compute-raises-100-million-series-a-funding",
+  "source": "https://techcrunch.com/2026/10/27/general-compute-raises-100-million-series-a-countering-the-neocloud-disaster-narrative/"
+ },
+ {
   "term": "semantic metadata",
   "definition": "Metadata used for exchanging semantic context across analytics, AI, and BI platforms.",
   "first_seen": "2026-10-27",
   "story": "2026-10-27-microsoft-and-snowflake-commit-to-apache-ossie-semantic-stan",
   "source": "https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Microsoft-Snowflake-s-Commitment-to-Apache-Ossie/ba-p/5369534"
+ },
+ {
+  "term": "webpage monitoring",
+  "definition": "A feature that allows users to ask a browser to watch a certain webpage for sales, new job listings, and other updates.",
+  "first_seen": "2026-10-27",
+  "story": "2026-10-27-firefox-updates-smart-window-with-ai-form-filling-and-monito",
+  "source": "https://www.theverge.com/ai-artificial-intelligence/1019551/firefox-smart-window-ai-fill-forms"
  },
  {
   "term": "proactive research",
