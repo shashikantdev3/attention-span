@@ -8746,6 +8746,57 @@
      "rank": 6
     },
     {
+     "title": "Former GitHub CEO Thomas Dohmke launches Entire, a code platform built for AI agents",
+     "one_liner": "A startup led by former GitHub CEO Thomas Dohmke has launched a Git forge platform designed for AI coding agents.",
+     "summary": "Entire, a startup led by former GitHub CEO Thomas Dohmke, unveiled a Git forge platform built for storing, reviewing, and shipping code written by AI agents. The startup pitches the service as a GitHub alternative. Its flagship feature, Trails, replaces traditional pull requests with a dashboard of scores from AI agents. According to Entire, multiple AI agents check the quality of each change so developers can merge code without reading every line. The platform also includes Continuous Memory, which lets agents search past coding sessions for context.",
+     "eli5": "Imagine a group of robot builders making toys much faster than human bosses can check them. This new platform gives the bosses a scoreboard from other robots so they can approve the toys without inspecting every single piece.",
+     "why_it_matters": "Replacing traditional pull requests with agent-generated scores aims to help teams manage code written faster than humans can review it.",
+     "topic": "dev-tools",
+     "type": "product",
+     "labs": [
+      "microsoft",
+      "anthropic",
+      "other"
+     ],
+     "people": [],
+     "concepts": [
+      "agent",
+      "coding-assistant"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [
+      {
+       "term": "Continuous Memory",
+       "definition": "A feature that lets AI agents search past coding sessions for the context behind earlier changes."
+      },
+      {
+       "term": "Git forge",
+       "definition": "A service for hosting code, reviewing changes, and running builds."
+      }
+     ],
+     "sources": [
+      {
+       "title": "Former GitHub CEO launches rival platform built for AI coding agents",
+       "url": "https://www.geekwire.com/2026/former-github-ceo-launches-rival-platform-built-for-ai-coding-agents/",
+       "name": "GeekWire",
+       "kind": "press"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-10-26T17:37:45Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 2,
+      "hype_flags": []
+     },
+     "editor_reason": "Added by the editor after the nightly run missed it.",
+     "added_by_editor": "2026-10-27",
+     "id": "2026-10-26-former-github-ceo-unveils-entire-git-forge-platform-for-ai-c",
+     "date": "2026-10-26",
+     "rank": 7
+    },
+    {
      "title": "SpaceX Locks In $40B GPU Financing Deal With Apollo",
      "one_liner": "SpaceX has reached a binding commitment for roughly $40 billion in financing from Apollo Global Management for AI chips and data center equipment.",
      "summary": "SpaceX disclosed in a regulatory filing that it reached a binding commitment for about $40 billion in financing for AI chips and related data center equipment. An entity managed by Apollo Global Management will buy the hardware and lease it to SpaceX for about five to five-and-a-quarter years per tranche. The leases begin when equipment is delivered, with the deal expected to close by year-end and leases starting in the first half of 2027. SpaceX CFO Bret Johnsen stated the lease diversifies funding sources. Elon Musk argued on X that the deal highlights advantages over companies lacking revenue streams outside AI data centers.",
@@ -8785,7 +8836,7 @@
       "hype_flags": []
      },
      "editor_reason": "SpaceX secured a $40B GPU financing deal with Apollo, a big sign of how AI compute is being funded outside traditional debt markets.",
-     "rank": 7,
+     "rank": 8,
      "id": "2026-10-26-spacex-locks-in-40b-gpu-financing-deal-with-apollo",
      "date": "2026-10-26"
     },
@@ -8828,7 +8879,7 @@
      "added_by_editor": "2026-10-27",
      "id": "2026-10-26-anthropic-confirms-claude-ai-model-accessed-georgia-voter-da",
      "date": "2026-10-26",
-     "rank": 8
+     "rank": 9
     },
     {
      "title": "An analysis of how far OpenAI and Anthropic have cut LLM prices",
@@ -8871,7 +8922,7 @@
      "added_by_editor": "2026-10-27",
      "id": "2026-10-26-openai-and-anthropic-lower-large-language-model-prices",
      "date": "2026-10-26",
-     "rank": 9
+     "rank": 10
     },
     {
      "title": "Microsoft Offers Voluntary Buyouts to 60,000 Employees",
@@ -8917,7 +8968,7 @@
      "added_by_editor": "2026-10-27",
      "id": "2026-10-26-microsoft-offers-voluntary-buyouts-to-60-000-employees",
      "date": "2026-10-26",
-     "rank": 10
+     "rank": 11
     },
     {
      "title": "Microsoft uses AI agents to modernize huge codebases like Windows and Azure",
@@ -8963,7 +9014,7 @@
       "hype_flags": []
      },
      "editor_reason": "Microsoft describes how it handles code modernization at scale when AI agents rewrite code much faster than humans can review it.",
-     "rank": 11,
+     "rank": 12,
      "id": "2026-10-26-microsoft-uses-ai-agents-to-modernize-large-codebases",
      "date": "2026-10-26"
     },
@@ -9007,7 +9058,7 @@
       "hype_flags": []
      },
      "editor_reason": "The Gheist campaign plants secret-dumping workflows using stolen GitHub tokens, a direct supply chain risk for developers.",
-     "rank": 12,
+     "rank": 13,
      "id": "2026-10-26-report-tracked-gheist-campaign-steals-github-secrets-via-wor",
      "date": "2026-10-26"
     },
@@ -9055,7 +9106,7 @@
      "added_by_editor": "2026-10-27",
      "id": "2026-10-26-npr-reports-ai-models-are-transforming-hurricane-forecasts",
      "date": "2026-10-26",
-     "rank": 13
+     "rank": 14
     },
     {
      "title": "Microsoft Fabric Notebook Toolkit Connects Coding Agents to Live Notebooks",
@@ -9100,7 +9151,7 @@
       "hype_flags": []
      },
      "editor_reason": "The Fabric Notebook Toolkit (Preview) connects coding agents to Fabric notebooks so developers can validate code against live results.",
-     "rank": 14,
+     "rank": 15,
      "id": "2026-10-26-microsoft-fabric-notebook-toolkit-connects-coding-agents-to",
      "date": "2026-10-26"
     }
@@ -9110,7 +9161,7 @@
     "stories": 59,
     "sources_ok": 41,
     "sources_failed": [],
-    "published": 16,
+    "published": 15,
     "dropped": 1,
     "llm_calls": 27,
     "cache_hits": 8,

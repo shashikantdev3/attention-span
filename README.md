@@ -33,11 +33,11 @@ Every record (news story, history entry, concept, person) uses the same tags, so
 
 ## How a nightly edition is made
 
-1. **Collect** the last 24 hours from 39 sources (`pipeline/sources.json`): official blogs of OpenAI, Anthropic
+1. **Collect** the last 24 hours from 40 sources (`pipeline/sources.json`): official blogs of OpenAI, Anthropic
    (news, research and the Frontier Red Team), Google, DeepMind, Microsoft, Azure AI Foundry, GitHub, Meta, Mistral,
    Qwen, NVIDIA and Hugging Face; the Power BI and Fabric blogs; feature releases of the tools builders use every day
    (Claude Code, Codex CLI, Ollama and vLLM); Hacker News; Hugging Face daily papers and trending models; new GitHub
-   repos; tech press (TechCrunch, The Verge, Ars Technica, VentureBeat, MIT Technology Review, The Decoder, Techmeme);
+   repos; tech press (TechCrunch, The Verge, Ars Technica, VentureBeat, MIT Technology Review, The Decoder, GeekWire, Techmeme);
    the Latent Space AINews digest; the personal blogs of the people tracked; and your own `state/inbox.txt`.
    Release feeds keep only stable feature releases, so a patch or a release candidate never becomes a story.
 2. **Group** duplicates into stories (TF-IDF similarity, pure Python). The number of independent sources is the buzz signal.

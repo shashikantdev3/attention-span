@@ -874,10 +874,10 @@
         from 1943 to today, so you can follow any piece of news back to the ideas it came from.</p>
       <h3>How a nightly edition is made</h3>
       <ol>
-        <li>Collect everything from the last 24 hours, from 39 sources: official blogs from OpenAI, Anthropic (news, research and its
+        <li>Collect everything from the last 24 hours, from 40 sources: official blogs from OpenAI, Anthropic (news, research and its
           Frontier Red Team), Google, Microsoft, Meta, Mistral, Qwen and NVIDIA; the Power BI and Fabric blogs; new feature releases of
           Claude Code, Codex CLI, Ollama and vLLM; Hacker News; Hugging Face papers and trending models; new GitHub repos; the Latent Space
-          AINews digest; and tech press, including The Decoder and Techmeme.</li>
+          AINews digest; and tech press, including The Decoder, GeekWire and Techmeme.</li>
         <li>Remove duplicates and group items about the same event. The number of independent sources is the buzz signal.</li>
         <li>An AI editor (Gemini Flash, or Claude when Gemini is busy) picks the stories that matter to people who build with AI.
           A rule in code makes sure a major lab's own announcement with a strong signal is never left out.</li>
