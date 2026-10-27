@@ -55,7 +55,7 @@ def item_for(url, n):
     title = meta_tag(html, "og:title") or unescape(re.search(r"<title>(.*?)</title>", html, re.S).group(1)).strip()
     published = meta_tag(html, "article:published_time")
     if published:
-        published = datetime.fromisoformat(published.replace("Z", "+00:00")).astimezone(timezone.utc)
+        published = datetime.fromisoformat(re.sub(r"([+-]\d\d)(\d\d)$", r"\1:\2", published.replace("Z", "+00:00"))).astimezone(timezone.utc)  # "+0000" too
         published = published.strftime("%Y-%m-%dT%H:%M:%SZ")
     src = feed_for(url)
     original = is_official(url) or bool(src.get("original"))

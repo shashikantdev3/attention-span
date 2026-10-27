@@ -516,5 +516,103 @@
   "first_seen": "2026-10-24",
   "story": "2026-10-24-wall-street-journal-interviews-ciena-ceo-gary-smith",
   "source": "https://www.techmeme.com/261024/p6#a261024p6"
+ },
+ {
+  "term": "terrestrial compute buildout",
+  "definition": "Apollo said the financing will help deliver Nvidia's next-generation Vera Rubin chips for SpaceX's terrestrial compute buildout.",
+  "first_seen": "2026-10-26",
+  "story": "2026-10-26-spacex-locks-in-40b-gpu-financing-deal-with-apollo",
+  "source": "https://techcrunch.com/2026/10/26/spacex-locks-in-40b-gpu-financing-deal-with-apollo/"
+ },
+ {
+  "term": "Agentic MapReduce",
+  "definition": "An architecture that maps a codebase for routes, authorization boundaries, data access patterns, and security-relevant code against a threat model to scale security investigations.",
+  "first_seen": "2026-10-26",
+  "story": "2026-10-26-devin-security-2-0-launches-for-threat-remediation",
+  "source": "https://devin.ai/blog/devin-security-2"
+ },
+ {
+  "term": "Agent SDK",
+  "definition": "The framework we use to build our own managed agents like Bugbot, Security Reviewer, and Rollouts.",
+  "first_seen": "2026-10-26",
+  "story": "2026-10-26-cursor-releases-agent-sdk-for-software-development-teams",
+  "source": "https://cursor.com/blog/agent-sdk"
+ },
+ {
+  "term": "neural network",
+  "definition": "A set of computer algorithms modeled on the human brain and trained to find patterns in massive amounts of data.",
+  "first_seen": "2026-10-26",
+  "story": "2026-10-26-npr-reports-ai-models-are-transforming-hurricane-forecasts",
+  "source": "https://www.npr.org/2026/10/26/nx-s1-6012820/ai-hurricane-forecast-google-deepmind-isaias"
+ },
+ {
+  "term": "voluntary buyout",
+  "definition": "A voluntary exit offer provided to certain workers to help a company balance infrastructure build-outs with capital efficiency.",
+  "first_seen": "2026-10-26",
+  "story": "2026-10-26-microsoft-offers-voluntary-buyouts-to-60-000-employees",
+  "source": "https://www.cnbc.com/2026/10/26/microsoft-msft-voluntary-buyouts.html"
+ },
+ {
+  "term": "Lean formalization",
+  "definition": "A formal proof checked and verified using the Lean theorem prover.",
+  "first_seen": "2026-10-26",
+  "story": "2026-10-26-openai-announces-three-new-scientific-discoveries-and-releas",
+  "source": "https://openai.com/index/building-scientific-understanding-with-academic-communities"
+ },
+ {
+  "term": "static analysis",
+  "definition": "An analysis approach used with testing and formal verification to help AI agents make software transformations trustworthy.",
+  "first_seen": "2026-10-26",
+  "story": "2026-10-26-microsoft-uses-ai-agents-to-modernize-large-codebases",
+  "source": "https://commandline.microsoft.com/agentic-software-engineering-large-scale-code-migration-language-modernization-spec-driven-development/"
+ },
+ {
+  "term": "notebook toolkit",
+  "definition": "A tool that connects coding agents to Microsoft Fabric notebooks through a command-line interface that runs in the terminal.",
+  "first_seen": "2026-10-26",
+  "story": "2026-10-26-microsoft-fabric-notebook-toolkit-connects-coding-agents-to",
+  "source": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Connect-coding-agents-to-Fabric-notebooks-with-FNTK-Preview/ba-p/5375986"
+ },
+ {
+  "term": "executable agent benchmark",
+  "definition": "An agent benchmark that models the structural evolution of large tool ecosystems.",
+  "first_seen": "2026-10-26",
+  "story": "2026-10-26-researchers-introduce-deltatau-bench-to-evaluate-agents-in-c",
+  "source": "https://arxiv.org/abs/2610.34238"
+ },
+ {
+  "term": "Intermediate Work Activities",
+  "definition": "Commonly-used categories of tasks for the kinds of work people do across occupations.",
+  "first_seen": "2026-10-27",
+  "story": "2026-10-27-openai-releases-signals-data-on-chatgpt-work-activities",
+  "source": "https://openai.com/index/chatgpt-expanding-world-of-work/"
+ },
+ {
+  "term": "OpenAI Signals",
+  "definition": "An ongoing effort to share evidence about how people use artificial intelligence.",
+  "first_seen": "2026-10-27",
+  "story": "2026-10-27-openai-releases-signals-data-on-chatgpt-work-activities",
+  "source": "https://openai.com/index/chatgpt-expanding-world-of-work/"
+ },
+ {
+  "term": "disaggregated prefill decode mode",
+  "definition": "A configuration where a pool of prefill GPUs processes the prompt and produces the model cache, then hands it over to a pool of decode GPUs that generate the response.",
+  "first_seen": "2026-10-27",
+  "story": "2026-10-27-report-details-cross-request-kv-cache-exposure-in-glm-5-3-mo",
+  "source": "https://blog.cloudflare.com/kv-cache-exposure-remediation/"
+ },
+ {
+  "term": "semantic metadata",
+  "definition": "Metadata used for exchanging semantic context across analytics, AI, and BI platforms.",
+  "first_seen": "2026-10-27",
+  "story": "2026-10-27-microsoft-and-snowflake-commit-to-apache-ossie-semantic-stan",
+  "source": "https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Microsoft-Snowflake-s-Commitment-to-Apache-Ossie/ba-p/5369534"
+ },
+ {
+  "term": "proactive research",
+  "definition": "A feature where the agent thinks about what it knows, what conversations it has had, and what resources it can access to propose helpful actions.",
+  "first_seen": "2026-10-27",
+  "story": "2026-10-27-openai-released-dots-an-always-on-personal-assistant",
+  "source": "https://techcrunch.com/2026/10/26/how-openai-turned-its-coding-tools-into-dots-an-always-on-personal-assistant/"
  }
 ]

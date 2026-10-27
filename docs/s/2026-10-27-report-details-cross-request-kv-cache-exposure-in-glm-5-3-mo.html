@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cloudflare details a cross-customer KV cache exposure in its GLM-5.3 service | Attention Span</title>
+<meta name="description" content="A security bug in the GLM-5.3 Workers AI model caused 155 responses to contain data from other customers&#x27; requests.">
+<link rel="canonical" href="https://shashikantdev3.github.io/attention-span/s/2026-10-27-report-details-cross-request-kv-cache-exposure-in-glm-5-3-mo.html">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Attention Span">
+<meta property="og:title" content="Cloudflare details a cross-customer KV cache exposure in its GLM-5.3 service">
+<meta property="og:description" content="A security bug in the GLM-5.3 Workers AI model caused 155 responses to contain data from other customers&#x27; requests.">
+<meta property="og:url" content="https://shashikantdev3.github.io/attention-span/s/2026-10-27-report-details-cross-request-kv-cache-exposure-in-glm-5-3-mo.html">
+<meta property="og:image" content="https://shashikantdev3.github.io/attention-span/assets/og.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#EDF0EA">
+<link rel="alternate" type="application/rss+xml" title="Attention Span" href="../feed.xml">
+<script>try{var t=localStorage.getItem("as-theme");if(!t)t=matchMedia("(prefers-color-scheme: dark)").matches?"night":"day";if(t==="night")document.documentElement.setAttribute("data-theme","night")}catch(e){}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;0,6..72,700;1,6..72,400&family=Bodoni+Moda:opsz,wght@6..96,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/style.css">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "NewsArticle", "headline": "Cloudflare details a cross-customer KV cache exposure in its GLM-5.3 service", "description": "A security bug in the GLM-5.3 Workers AI model caused 155 responses to contain data from other customers' requests.", "datePublished": "2026-10-26T22:41:48Z", "dateModified": "2026-10-27", "author": {"@type": "Organization", "name": "Attention Span", "url": "https://shashikantdev3.github.io/attention-span/"}, "publisher": {"@type": "Organization", "name": "Attention Span", "url": "https://shashikantdev3.github.io/attention-span/"}, "mainEntityOfPage": "https://shashikantdev3.github.io/attention-span/s/2026-10-27-report-details-cross-request-kv-cache-exposure-in-glm-5-3-mo.html", "image": "https://shashikantdev3.github.io/attention-span/assets/og.png", "isBasedOn": ["https://blog.cloudflare.com/kv-cache-exposure-remediation/"]}</script>
+</head>
+<body class="static">
+<header class="masthead static-head"><div class="wrap">
+  <a class="brand" href="../index.html"><span class="static-name">Attention Span</span></a>
+  <span class="tagline">Today&#x27;s AI news, traced back to its roots.</span>
+</div></header>
+<main id="main"><div class="wrap static-body">
+<article class="static-story">
+<p class="static-kicker"><a href="../e/2026-10-27.html">Tuesday, 27 October 2026</a>, Dev tools,
+1 source</p>
+<h1>Cloudflare details a cross-customer KV cache exposure in its GLM-5.3 service</h1>
+<p class="one-liner">A security bug in the GLM-5.3 Workers AI model caused 155 responses to contain data from other customers&#x27; requests.</p>
+<p>On September 8, 2026, Cloudflare was alerted to a tenant isolation issue affecting the GLM-5.3 Workers AI model. Between August 27 and September 9, a small number of customers using prompts longer than 681,280 tokens received responses containing data from other users. The issue stemmed from a configuration mismatch where the context window exceeded the prefill GPU pool size, combined with a bug in the SGLang inference engine that mishandled over-length requests in disaggregated mode. Cloudflare disabled the model, adjusted configurations to hold the full context, patched the inference engine, and restored service on September 9.</p>
+<div class="eli5"><h4>Like I am 5</h4><p>Like a chalkboard where a new message is written over the old one without fully erasing it, a software bug caused the AI to accidentally show leftover pieces from a previous user&#x27;s prompt.</p></div>
+<div class="why"><h4>Why it matters</h4><p>Inference engine configuration mismatches and memory reuse can cause cross-tenant data exposure when handling very long context windows.</p></div>
+<div class="sources"><h4>Sources, original first</h4><ol><li><a href="https://blog.cloudflare.com/kv-cache-exposure-remediation/" rel="noopener">blog.cloudflare.com: Cross-request KV cache exposure in the GLM-5.3 Workers AI model (155 responses)</a> <span class="kind">press</span></li><li><a href="https://news.ycombinator.com/item?id=50252159" rel="noopener">Hacker News: Discussion on Hacker News</a> <span class="kind">discussion</span></li></ol></div>
+<div class="tags"><span class="chip">Others</span><a class="chip concept" href="../c/kv-cache.html">KV cache</a><a class="chip concept" href="../c/context-window.html">Context window</a><a class="chip concept" href="../c/inference.html">Inference</a></div>
+<p class="asof">Written from the sources above and checked by a second AI model; every number was matched against the sources.</p>
+</article>
+<p class="static-app"><a href="../index.html#/today/2026-10-27/2026-10-27-report-details-cross-request-kv-cache-exposure-in-glm-5-3-mo">Open this in Attention Span</a>, where every story links to its history,
+concepts and the people behind it.</p>
+</div></main>
+<footer class="site"><div class="wrap">
+  <span>Attention Span is built by <a href="https://github.com/shashikantdev3">Shashikant</a>. Every entry links its source.</span>
+  <span>Data under <a href="https://creativecommons.org/licenses/by-nc/4.0/" rel="license">CC BY-NC 4.0</a>. Code under MIT.</span>
+</div></footer>
+</body>
+</html>

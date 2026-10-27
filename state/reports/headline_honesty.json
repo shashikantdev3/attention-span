@@ -1570,5 +1570,299 @@
   "reasons": [],
   "model": "microsoft/microsoft-decision-1-20261009",
   "checked_at": "2026-10-24T13:46:39+00:00"
+ },
+ "2026-10-26-anthropic-files-form-s-1-for-proposed-initial-public-offerin|microsoft/microsoft-decision-1": {
+  "id": "2026-10-26-anthropic-files-form-s-1-for-proposed-initial-public-offerin",
+  "date": "2026-10-26",
+  "headline": "Anthropic Files Form S-1 for Proposed Initial Public Offering",
+  "original_headlines": [
+   "Anthropic files S-1 with the SEC for proposed initial public offering",
+   "Discussion on Hacker News",
+   "Anthropic’s IPO filing reveals its strategy for keeping enterprise customers hooked",
+   "Anthropic officially files for its public debut"
+  ],
+  "supported": 0.992,
+  "strength": "same",
+  "strength_probabilities": {
+   "same": 0.949,
+   "stronger": 0.009,
+   "weaker": 0.042
+  },
+  "hype": 0.0,
+  "verdict": "ok",
+  "reasons": [],
+  "model": "microsoft/microsoft-decision-1-20261009",
+  "checked_at": "2026-10-27T08:43:42+00:00"
+ },
+ "2026-10-26-openai-introduces-gpt-6-1-terra-model-with-computer-use-capa|microsoft/microsoft-decision-1": {
+  "id": "2026-10-26-openai-introduces-gpt-6-1-terra-model-with-computer-use-capa",
+  "date": "2026-10-26",
+  "headline": "OpenAI launches GPT-6.1 Terra for fast computer use, at $1 and $5 per million tokens",
+  "original_headlines": [
+   "Introducing GPT-6.1 Terra",
+   "Discussion on Hacker News"
+  ],
+  "supported": 0.531,
+  "strength": "stronger",
+  "strength_probabilities": {
+   "same": 0.084,
+   "stronger": 0.898,
+   "weaker": 0.019
+  },
+  "hype": 0.15,
+  "verdict": "check",
+  "reasons": [
+   "stronger than the original"
+  ],
+  "model": "microsoft/microsoft-decision-1-20261009",
+  "checked_at": "2026-10-27T08:43:43+00:00"
+ },
+ "2026-10-26-openai-announces-three-new-scientific-discoveries-and-releas|microsoft/microsoft-decision-1": {
+  "id": "2026-10-26-openai-announces-three-new-scientific-discoveries-and-releas",
+  "date": "2026-10-26",
+  "headline": "OpenAI announces three new results in math, computer science and physics",
+  "original_headlines": [
+   "Working with academic communities to build scientific understanding"
+  ],
+  "supported": 0.881,
+  "strength": "stronger",
+  "strength_probabilities": {
+   "same": 0.078,
+   "stronger": 0.736,
+   "weaker": 0.186
+  },
+  "hype": 0.05,
+  "verdict": "ok",
+  "reasons": [],
+  "model": "microsoft/microsoft-decision-1-20261009",
+  "checked_at": "2026-10-27T08:43:44+00:00"
+ },
+ "2026-10-26-researchers-report-alibaba-qwen3-8-model-attempted-unauthori|microsoft/microsoft-decision-1": {
+  "id": "2026-10-26-researchers-report-alibaba-qwen3-8-model-attempted-unauthori",
+  "date": "2026-10-26",
+  "headline": "Cohere says Alibaba's Qwen3.8 model tried to upload a file to a Beijing server during a test",
+  "original_headlines": [
+   "Concerning behavior from a popular open-weight AI model",
+   "Discussion on Hacker News"
+  ],
+  "supported": 0.531,
+  "strength": "stronger",
+  "strength_probabilities": {
+   "same": 0.032,
+   "stronger": 0.923,
+   "weaker": 0.046
+  },
+  "hype": 0.14,
+  "verdict": "check",
+  "reasons": [
+   "stronger than the original"
+  ],
+  "model": "microsoft/microsoft-decision-1-20261009",
+  "checked_at": "2026-10-27T08:43:45+00:00"
+ },
+ "2026-10-26-cursor-releases-agent-sdk-for-software-development-teams|microsoft/microsoft-decision-1": {
+  "id": "2026-10-26-cursor-releases-agent-sdk-for-software-development-teams",
+  "date": "2026-10-26",
+  "headline": "Cursor releases an Agent SDK so teams can define and run agents in code",
+  "original_headlines": [
+   "Introducing the Agent SDK · Cursor"
+  ],
+  "supported": 0.963,
+  "strength": "same",
+  "strength_probabilities": {
+   "same": 0.455,
+   "stronger": 0.455,
+   "weaker": 0.09
+  },
+  "hype": 0.02,
+  "verdict": "ok",
+  "reasons": [],
+  "model": "microsoft/microsoft-decision-1-20261009",
+  "checked_at": "2026-10-27T08:43:46+00:00"
+ },
+ "2026-10-26-devin-security-2-0-launches-for-threat-remediation|microsoft/microsoft-decision-1": {
+  "id": "2026-10-26-devin-security-2-0-launches-for-threat-remediation",
+  "date": "2026-10-26",
+  "headline": "Cognition launches Devin Security 2.0 for finding and fixing vulnerabilities",
+  "original_headlines": [
+   "Devin Security 2.0: Built for the new threat landscape | Devin"
+  ],
+  "supported": 0.245,
+  "strength": "same",
+  "strength_probabilities": {
+   "same": 0.667,
+   "stronger": 0.116,
+   "weaker": 0.217
+  },
+  "hype": 0.02,
+  "verdict": "check",
+  "reasons": [
+   "claim not in the summary"
+  ],
+  "model": "microsoft/microsoft-decision-1-20261009",
+  "checked_at": "2026-10-27T08:43:46+00:00"
+ },
+ "2026-10-26-spacex-locks-in-40b-gpu-financing-deal-with-apollo|microsoft/microsoft-decision-1": {
+  "id": "2026-10-26-spacex-locks-in-40b-gpu-financing-deal-with-apollo",
+  "date": "2026-10-26",
+  "headline": "SpaceX Locks In $40B GPU Financing Deal With Apollo",
+  "original_headlines": [
+   "SpaceX locks in $40B GPU financing deal with Apollo"
+  ],
+  "supported": 0.932,
+  "strength": "same",
+  "strength_probabilities": {
+   "same": 0.999,
+   "stronger": 0.001,
+   "weaker": 0.0
+  },
+  "hype": 0.09,
+  "verdict": "ok",
+  "reasons": [],
+  "model": "microsoft/microsoft-decision-1-20261009",
+  "checked_at": "2026-10-27T08:43:47+00:00"
+ },
+ "2026-10-26-anthropic-confirms-claude-ai-model-accessed-georgia-voter-da|microsoft/microsoft-decision-1": {
+  "id": "2026-10-26-anthropic-confirms-claude-ai-model-accessed-georgia-voter-da",
+  "date": "2026-10-26",
+  "headline": "Anthropic says Claude got past a paywall to reach Georgia's aggregate vote counts during a project",
+  "original_headlines": [
+   "Anthropic’s Claude AI model accessed Georgia voter data in US"
+  ],
+  "supported": 0.963,
+  "strength": "same",
+  "strength_probabilities": {
+   "same": 0.523,
+   "stronger": 0.117,
+   "weaker": 0.36
+  },
+  "hype": 0.24,
+  "verdict": "ok",
+  "reasons": [],
+  "model": "microsoft/microsoft-decision-1-20261009",
+  "checked_at": "2026-10-27T08:43:48+00:00"
+ },
+ "2026-10-26-openai-and-anthropic-lower-large-language-model-prices|microsoft/microsoft-decision-1": {
+  "id": "2026-10-26-openai-and-anthropic-lower-large-language-model-prices",
+  "date": "2026-10-26",
+  "headline": "An analysis of how far OpenAI and Anthropic have cut LLM prices",
+  "original_headlines": [
+   "OpenAI and Anthropic cut their LLM prices by up to 80% within a few months. Why?"
+  ],
+  "supported": 0.915,
+  "strength": "weaker",
+  "strength_probabilities": {
+   "same": 0.029,
+   "stronger": 0.006,
+   "weaker": 0.965
+  },
+  "hype": 0.15,
+  "verdict": "ok",
+  "reasons": [],
+  "model": "microsoft/microsoft-decision-1-20261009",
+  "checked_at": "2026-10-27T08:43:49+00:00"
+ },
+ "2026-10-26-microsoft-offers-voluntary-buyouts-to-60-000-employees|microsoft/microsoft-decision-1": {
+  "id": "2026-10-26-microsoft-offers-voluntary-buyouts-to-60-000-employees",
+  "date": "2026-10-26",
+  "headline": "Microsoft Offers Voluntary Buyouts to 60,000 Employees",
+  "original_headlines": [
+   "Microsoft offers voluntary buyouts to 60,000 employees as AI leads to efficiency push"
+  ],
+  "supported": 0.706,
+  "strength": "same",
+  "strength_probabilities": {
+   "same": 0.953,
+   "stronger": 0.005,
+   "weaker": 0.042
+  },
+  "hype": 0.01,
+  "verdict": "ok",
+  "reasons": [],
+  "model": "microsoft/microsoft-decision-1-20261009",
+  "checked_at": "2026-10-27T08:43:50+00:00"
+ },
+ "2026-10-26-microsoft-uses-ai-agents-to-modernize-large-codebases|microsoft/microsoft-decision-1": {
+  "id": "2026-10-26-microsoft-uses-ai-agents-to-modernize-large-codebases",
+  "date": "2026-10-26",
+  "headline": "Microsoft uses AI agents to modernize huge codebases like Windows and Azure",
+  "original_headlines": [
+   "Cheap code, precious trust: Code modernization at scale"
+  ],
+  "supported": 0.988,
+  "strength": "stronger",
+  "strength_probabilities": {
+   "same": 0.163,
+   "stronger": 0.444,
+   "weaker": 0.392
+  },
+  "hype": 0.07,
+  "verdict": "ok",
+  "reasons": [],
+  "model": "microsoft/microsoft-decision-1-20261009",
+  "checked_at": "2026-10-27T08:43:51+00:00"
+ },
+ "2026-10-26-report-tracked-gheist-campaign-steals-github-secrets-via-wor|microsoft/microsoft-decision-1": {
+  "id": "2026-10-26-report-tracked-gheist-campaign-steals-github-secrets-via-wor",
+  "date": "2026-10-26",
+  "headline": "Wiz tracks Gheist, a campaign using stolen GitHub tokens to steal repository secrets",
+  "original_headlines": [
+   "Gheist campaign plants secret-dumping workflows using stolen GitHub tokens",
+   "Discussion on Hacker News"
+  ],
+  "supported": 0.755,
+  "strength": "same",
+  "strength_probabilities": {
+   "same": 0.538,
+   "stronger": 0.175,
+   "weaker": 0.288
+  },
+  "hype": 0.07,
+  "verdict": "ok",
+  "reasons": [],
+  "model": "microsoft/microsoft-decision-1-20261009",
+  "checked_at": "2026-10-27T08:43:52+00:00"
+ },
+ "2026-10-26-npr-reports-ai-models-are-transforming-hurricane-forecasts|microsoft/microsoft-decision-1": {
+  "id": "2026-10-26-npr-reports-ai-models-are-transforming-hurricane-forecasts",
+  "date": "2026-10-26",
+  "headline": "AI models are changing hurricane forecasting, NPR reports",
+  "original_headlines": [
+   "How AI is transforming hurricane forecasts"
+  ],
+  "supported": 0.182,
+  "strength": "weaker",
+  "strength_probabilities": {
+   "same": 0.458,
+   "stronger": 0.023,
+   "weaker": 0.519
+  },
+  "hype": 0.3,
+  "verdict": "check",
+  "reasons": [
+   "claim not in the summary"
+  ],
+  "model": "microsoft/microsoft-decision-1-20261009",
+  "checked_at": "2026-10-27T08:43:53+00:00"
+ },
+ "2026-10-26-microsoft-fabric-notebook-toolkit-connects-coding-agents-to|microsoft/microsoft-decision-1": {
+  "id": "2026-10-26-microsoft-fabric-notebook-toolkit-connects-coding-agents-to",
+  "date": "2026-10-26",
+  "headline": "Microsoft Fabric Notebook Toolkit Connects Coding Agents to Live Notebooks",
+  "original_headlines": [
+   "Connect coding agents to Fabric notebooks with FNTK (Preview)"
+  ],
+  "supported": 0.958,
+  "strength": "same",
+  "strength_probabilities": {
+   "same": 0.741,
+   "stronger": 0.212,
+   "weaker": 0.047
+  },
+  "hype": 0.07,
+  "verdict": "ok",
+  "reasons": [],
+  "model": "microsoft/microsoft-decision-1-20261009",
+  "checked_at": "2026-10-27T08:43:54+00:00"
  }
 }
