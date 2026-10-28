@@ -434,62 +434,6 @@
   "source": "https://www.techmeme.com/261025/p6#a261025p6"
  },
  {
-  "term": "Decisions API",
-  "definition": "An API that focuses intelligence on questions with bounded answers to help applications and agents make near real-time decisions from text, images, and structured inputs.",
-  "first_seen": "2026-10-23",
-  "story": "2026-10-23-openai-makes-decisions-api-generally-available",
-  "source": "https://openai.com/index/decisions-api"
- },
- {
-  "term": "formal software verification",
-  "definition": "Formal software verification involves translating code into a mathematical model and trying to prove that it always follows a defined set of security rules.",
-  "first_seen": "2026-10-23",
-  "story": "2026-10-23-anthropic-reports-llms-make-formal-software-verification-fea",
-  "source": "https://www.anthropic.com/research/formal-verification"
- },
- {
-  "term": "reinforcement learning from collective rewards",
-  "definition": "A recipe that jointly trains the agents in an organisation using the same collective advantage.",
-  "first_seen": "2026-10-23",
-  "story": "2026-10-23-general-reasoning-releases-avalon-m1-and-training-recipe",
-  "source": "https://www.gr.inc/releases/avalon-m1"
- },
- {
-  "term": "co-managed containers",
-  "definition": "A viable multi-tenancy approach arrived at through a close working partnership with the Azure team.",
-  "first_seen": "2026-10-23",
-  "story": "2026-10-23-scaling-azure-cosmos-db-for-over-1-billion-chatgpt-users",
-  "source": "https://openai.com/index/scaling-storage-one-billion-users-part-two"
- },
- {
-  "term": "Stable SplitNorm",
-  "definition": "A technique used in the stable and efficient pre-training of the model.",
-  "first_seen": "2026-10-23",
-  "story": "2026-10-23-iquest-q1-foundation-model-released-for-agentic-cli-systems",
-  "source": "https://arxiv.org/abs/2610.30949"
- },
- {
-  "term": "MOPD",
-  "definition": "A method used alongside SFT and domain-specialized RL during post-training.",
-  "first_seen": "2026-10-23",
-  "story": "2026-10-23-iquest-q1-foundation-model-released-for-agentic-cli-systems",
-  "source": "https://arxiv.org/abs/2610.30949"
- },
- {
-  "term": "Flint-interactive",
-  "definition": "A language for creating interactive data visualizations on top of Flint that allows users to create dashboards, data stories, and interactive artifacts more easily.",
-  "first_seen": "2026-10-23",
-  "story": "2026-10-23-microsoft-introduces-flint-interactive-to-help-ai-create-int",
-  "source": "https://www.microsoft.com/en-us/research/blog/flint-interactive-a-language-for-creating-interactive-data-visualizations/"
- },
- {
-  "term": "semantic events",
-  "definition": "Events that capture the meaning behind what users select by translating user interactions through Flint's compiler.",
-  "first_seen": "2026-10-23",
-  "story": "2026-10-23-microsoft-introduces-flint-interactive-to-help-ai-create-int",
-  "source": "https://www.microsoft.com/en-us/research/blog/flint-interactive-a-language-for-creating-interactive-data-visualizations/"
- },
- {
   "term": "true speech-to-speech model",
   "definition": "A model where everything it knows came from human speech and it acts as a direct speech-to-speech interface.",
   "first_seen": "2026-10-24",
@@ -677,5 +621,61 @@
   "first_seen": "2026-10-27",
   "story": "2026-10-27-openai-released-dots-an-always-on-personal-assistant",
   "source": "https://techcrunch.com/2026/10/26/how-openai-turned-its-coding-tools-into-dots-an-always-on-personal-assistant/"
+ },
+ {
+  "term": "Decisions API",
+  "definition": "An API that focuses intelligence on questions with bounded answers to help applications and agents make near real-time decisions from text, images, and structured inputs.",
+  "first_seen": "2026-10-23",
+  "story": "2026-10-23-openai-makes-decisions-api-generally-available",
+  "source": "https://openai.com/index/decisions-api"
+ },
+ {
+  "term": "formal software verification",
+  "definition": "Formal software verification involves translating code into a mathematical model and trying to prove that it always follows a defined set of security rules.",
+  "first_seen": "2026-10-23",
+  "story": "2026-10-23-anthropic-reports-llms-make-formal-software-verification-fea",
+  "source": "https://www.anthropic.com/research/formal-verification"
+ },
+ {
+  "term": "reinforcement learning from collective rewards",
+  "definition": "A recipe that jointly trains the agents in an organisation using the same collective advantage.",
+  "first_seen": "2026-10-23",
+  "story": "2026-10-23-general-reasoning-releases-avalon-m1-and-training-recipe",
+  "source": "https://www.gr.inc/releases/avalon-m1"
+ },
+ {
+  "term": "co-managed containers",
+  "definition": "A viable multi-tenancy approach arrived at through a close working partnership with the Azure team.",
+  "first_seen": "2026-10-23",
+  "story": "2026-10-23-scaling-azure-cosmos-db-for-over-1-billion-chatgpt-users",
+  "source": "https://openai.com/index/scaling-storage-one-billion-users-part-two"
+ },
+ {
+  "term": "Stable SplitNorm",
+  "definition": "A technique used in the stable and efficient pre-training of the model.",
+  "first_seen": "2026-10-23",
+  "story": "2026-10-23-iquest-q1-foundation-model-released-for-agentic-cli-systems",
+  "source": "https://arxiv.org/abs/2610.30949"
+ },
+ {
+  "term": "MOPD",
+  "definition": "A method used alongside SFT and domain-specialized RL during post-training.",
+  "first_seen": "2026-10-23",
+  "story": "2026-10-23-iquest-q1-foundation-model-released-for-agentic-cli-systems",
+  "source": "https://arxiv.org/abs/2610.30949"
+ },
+ {
+  "term": "Flint-interactive",
+  "definition": "A language for creating interactive data visualizations on top of Flint that allows users to create dashboards, data stories, and interactive artifacts more easily.",
+  "first_seen": "2026-10-23",
+  "story": "2026-10-23-microsoft-introduces-flint-interactive-to-help-ai-create-int",
+  "source": "https://www.microsoft.com/en-us/research/blog/flint-interactive-a-language-for-creating-interactive-data-visualizations/"
+ },
+ {
+  "term": "semantic events",
+  "definition": "Events that capture the meaning behind what users select by translating user interactions through Flint's compiler.",
+  "first_seen": "2026-10-23",
+  "story": "2026-10-23-microsoft-introduces-flint-interactive-to-help-ai-create-int",
+  "source": "https://www.microsoft.com/en-us/research/blog/flint-interactive-a-language-for-creating-interactive-data-visualizations/"
  }
 ]

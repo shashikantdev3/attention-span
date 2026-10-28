@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Unit 42 counts 22.6 million internet-facing systems potentially exposed to the PHP2Shell flaws | Attention Span</title>
+<meta name="description" content="Unit 42 reports two critical remote code execution vulnerabilities in PHP known as PHP2Shell.">
+<link rel="canonical" href="https://shashikantdev3.github.io/attention-span/s/2026-10-23-unit-42-reports-critical-php-remote-code-execution-vulnerabi.html">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Attention Span">
+<meta property="og:title" content="Unit 42 counts 22.6 million internet-facing systems potentially exposed to the PHP2Shell flaws">
+<meta property="og:description" content="Unit 42 reports two critical remote code execution vulnerabilities in PHP known as PHP2Shell.">
+<meta property="og:url" content="https://shashikantdev3.github.io/attention-span/s/2026-10-23-unit-42-reports-critical-php-remote-code-execution-vulnerabi.html">
+<meta property="og:image" content="https://shashikantdev3.github.io/attention-span/assets/og.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#EDF0EA">
+<link rel="alternate" type="application/rss+xml" title="Attention Span" href="../feed.xml">
+<script>try{var t=localStorage.getItem("as-theme");if(!t)t=matchMedia("(prefers-color-scheme: dark)").matches?"night":"day";if(t==="night")document.documentElement.setAttribute("data-theme","night")}catch(e){}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;0,6..72,700;1,6..72,400&family=Bodoni+Moda:opsz,wght@6..96,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/style.css">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "NewsArticle", "headline": "Unit 42 counts 22.6 million internet-facing systems potentially exposed to the PHP2Shell flaws", "description": "Unit 42 reports two critical remote code execution vulnerabilities in PHP known as PHP2Shell.", "datePublished": "2026-10-23T19:00:34Z", "dateModified": "2026-10-23", "author": {"@type": "Organization", "name": "Attention Span", "url": "https://shashikantdev3.github.io/attention-span/"}, "publisher": {"@type": "Organization", "name": "Attention Span", "url": "https://shashikantdev3.github.io/attention-span/"}, "mainEntityOfPage": "https://shashikantdev3.github.io/attention-span/s/2026-10-23-unit-42-reports-critical-php-remote-code-execution-vulnerabi.html", "image": "https://shashikantdev3.github.io/attention-span/assets/og.png", "isBasedOn": ["https://unit42.paloaltonetworks.com/cve-2026-109618-cve-2026-109619/"]}</script>
+</head>
+<body class="static">
+<header class="masthead static-head"><div class="wrap">
+  <a class="brand" href="../index.html"><span class="static-name">Attention Span</span></a>
+  <span class="tagline">Today&#x27;s AI news, traced back to its roots.</span>
+</div></header>
+<main id="main"><div class="wrap static-body">
+<article class="static-story">
+<p class="static-kicker"><a href="../e/2026-10-23.html">Friday, 23 October 2026</a>, Industry,
+1 source</p>
+<h1>Unit 42 counts 22.6 million internet-facing systems potentially exposed to the PHP2Shell flaws</h1>
+<p class="one-liner">Unit 42 reports two critical remote code execution vulnerabilities in PHP known as PHP2Shell.</p>
+<p>Unit 42 reported two critical remote code execution vulnerabilities in PHP, identified as CVE-2026-109618 and CVE-2026-109619 and referred to as PHP2Shell. Both carry a CVSS 4.0 rating of 9.2. CVE-2026-109618 involves request memory remaining uninitialized when handling out-of-memory errors via longjmp. CVE-2026-109619 involves fatal error handling leaving global memory pointing to freed memory regions. Telemetry from Cortex Xpanse identified over 22.6 million exposed instances potentially vulnerable to these flaws. Palo Alto Networks recommends assessing exposure and patching immediately, while providing various product protections and mitigations.</p>
+<div class="eli5"><h4>Like I am 5</h4><p>Some software has a mix-up where it leaves old notes lying around in memory, and attackers can read those notes to take control of the server.</p></div>
+<div class="why"><h4>Why it matters</h4><p>Critical server vulnerabilities demand immediate patching across all running web infrastructure to prevent arbitrary code execution.</p></div>
+<div class="sources"><h4>Sources, original first</h4><ol><li><a href="https://unit42.paloaltonetworks.com/cve-2026-109618-cve-2026-109619/" rel="noopener">Unit 42: Threat Brief: Critical Vulnerabilities in PHP: CVE-2026-109618, CVE-2026-109619 (Updated October 25)</a> <span class="kind">press</span></li></ol></div>
+
+<p class="asof">Written from the sources above and checked by a second AI model; every number was matched against the sources.</p>
+</article>
+<p class="static-app"><a href="../index.html#/today/2026-10-23/2026-10-23-unit-42-reports-critical-php-remote-code-execution-vulnerabi">Open this in Attention Span</a>, where every story links to its history,
+concepts and the people behind it.</p>
+</div></main>
+<footer class="site"><div class="wrap">
+  <span>Attention Span is built by <a href="https://github.com/shashikantdev3">Shashikant</a>. Every entry links its source.</span>
+  <span>Data under <a href="https://creativecommons.org/licenses/by-nc/4.0/" rel="license">CC BY-NC 4.0</a>. Code under MIT.</span>
+</div></footer>
+</body>
+</html>

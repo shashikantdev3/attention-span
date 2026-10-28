@@ -7284,6 +7284,41 @@
      "date": "2026-10-23"
     },
     {
+     "title": "Unit 42 counts 22.6 million internet-facing systems potentially exposed to the PHP2Shell flaws",
+     "one_liner": "Unit 42 reports two critical remote code execution vulnerabilities in PHP known as PHP2Shell.",
+     "summary": "Unit 42 reported two critical remote code execution vulnerabilities in PHP, identified as CVE-2026-109618 and CVE-2026-109619 and referred to as PHP2Shell. Both carry a CVSS 4.0 rating of 9.2. CVE-2026-109618 involves request memory remaining uninitialized when handling out-of-memory errors via longjmp. CVE-2026-109619 involves fatal error handling leaving global memory pointing to freed memory regions. Telemetry from Cortex Xpanse identified over 22.6 million exposed instances potentially vulnerable to these flaws. Palo Alto Networks recommends assessing exposure and patching immediately, while providing various product protections and mitigations.",
+     "eli5": "Some software has a mix-up where it leaves old notes lying around in memory, and attackers can read those notes to take control of the server.",
+     "why_it_matters": "Critical server vulnerabilities demand immediate patching across all running web infrastructure to prevent arbitrary code execution.",
+     "topic": "industry",
+     "type": "event",
+     "labs": [],
+     "people": [],
+     "concepts": [],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "Threat Brief: Critical Vulnerabilities in PHP: CVE-2026-109618, CVE-2026-109619 (Updated October 25)",
+       "url": "https://unit42.paloaltonetworks.com/cve-2026-109618-cve-2026-109619/",
+       "name": "Unit 42",
+       "kind": "press"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-10-23T19:00:34Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "Added by the editor after the nightly run missed it.",
+     "added_by_editor": "2026-10-28",
+     "id": "2026-10-23-unit-42-reports-critical-php-remote-code-execution-vulnerabi",
+     "date": "2026-10-23",
+     "rank": 6
+    },
+    {
      "title": "Modular Makes Entire MAX Stack Source Available Under New License",
      "one_liner": "Modular released the complete MAX source code, including its graph compiler, runtime, and hardware backends, under a new developer-friendly license.",
      "summary": "Modular announced that the complete MAX source code is now publicly available alongside a simplified MAX License. Developers can now explore, modify, and extend the entire MAX stack, including the graph compiler, runtime, and hardware backends for CPUs and GPUs. The new license allows users to build and distribute commercial products without licensing fees or royalties. Certain limitations apply, such as restrictions on AI-assisted reimplementation and the distribution of modified source code without forking for upstream contributions.",
@@ -7319,7 +7354,7 @@
      "added_by_editor": "2026-10-24",
      "id": "2026-10-23-modular-makes-entire-max-stack-source-available-under-new-li",
      "date": "2026-10-23",
-     "rank": 6
+     "rank": 7
     },
     {
      "title": "Banks say customers are letting unvetted AI agents into their accounts",
@@ -7358,7 +7393,7 @@
      "added_by_editor": "2026-10-24",
      "id": "2026-10-23-axios-report-says-major-u-s-banks-detect-third-party-ai-agen",
      "date": "2026-10-23",
-     "rank": 7
+     "rank": 8
     },
     {
      "title": "General Reasoning Releases Avalon-M1 and Training Recipe",
@@ -7401,7 +7436,7 @@
      "added_by_editor": "2026-10-25",
      "id": "2026-10-23-general-reasoning-releases-avalon-m1-and-training-recipe",
      "date": "2026-10-23",
-     "rank": 8
+     "rank": 9
     },
     {
      "title": "Swedish government offices to ban ChatGPT and Claude",
@@ -7449,7 +7484,7 @@
       "hype_flags": []
      },
      "editor_reason": "Swedish government offices moved to ban ChatGPT and Claude across internal systems.",
-     "rank": 9,
+     "rank": 10,
      "id": "2026-10-23-swedish-government-offices-to-ban-chatgpt-and-claude",
      "date": "2026-10-23"
     },
@@ -7491,7 +7526,7 @@
       "hype_flags": []
      },
      "editor_reason": "OpenAI detailed how it combined Habitat, global caching, and Azure Cosmos DB to speed up reads 12 times for ChatGPT storage.",
-     "rank": 10,
+     "rank": 11,
      "id": "2026-10-23-scaling-azure-cosmos-db-for-over-1-billion-chatgpt-users",
      "date": "2026-10-23"
     },
@@ -7546,7 +7581,7 @@
       "hype_flags": []
      },
      "editor_reason": "Researchers introduced IQuest-Q1, a 320-billion parameter sparse mixture-of-experts model optimized for command-line agents.",
-     "rank": 11,
+     "rank": 12,
      "id": "2026-10-23-iquest-q1-foundation-model-released-for-agentic-cli-systems",
      "date": "2026-10-23"
     },
@@ -7595,7 +7630,7 @@
       "hype_flags": []
      },
      "editor_reason": "A modified Gemma-4-26B-A4B model matches original accuracy while cutting reasoning token generation by up to 69 percent.",
-     "rank": 12,
+     "rank": 13,
      "id": "2026-10-23-thinkingcap-reduces-google-gemma-model-thinking-tokens",
      "date": "2026-10-23"
     },
@@ -7643,7 +7678,7 @@
       "hype_flags": []
      },
      "editor_reason": "Microsoft detailed research into generating explorable, interactive data visualisations instead of static charts.",
-     "rank": 13,
+     "rank": 14,
      "id": "2026-10-23-microsoft-introduces-flint-interactive-to-help-ai-create-int",
      "date": "2026-10-23"
     }
@@ -7653,7 +7688,7 @@
     "stories": 86,
     "sources_ok": 41,
     "sources_failed": [],
-    "published": 13,
+    "published": 14,
     "dropped": 1,
     "llm_calls": 29,
     "cache_hits": 0,
@@ -7800,6 +7835,42 @@
      "date": "2026-10-24"
     },
     {
+     "title": "The PHP Foundation, which coordinated the PHP2Shell fixes, has one full-time staff member",
+     "one_liner": "The nonprofit behind PHP, which may underpin up to 70% of websites, runs with one full-time employee and 14 mostly part-time contractors.",
+     "summary": "After this week's two serious PHP flaws, PHP Foundation executive director Elizabeth Barron told Reuters the foundation has \"one full-time staff member (that's me) and 14 mostly part-time contractors\". Board members are unpaid volunteers, and funding comes from donations and grants. The foundation worked with OpenAI, Wiz and Calif to investigate the flaws and coordinate the fixes. Cloudflare has reported millions of hacking attempts, but Barron said the foundation had no evidence the flaws were exploited before disclosure or on patched sites. She said AI helped researchers find flaws that had been present for a decade, but the project now receives nearly twice as many proposed code changes as a year ago without twice the contributors. In her words, PHP is \"incredibly under-funded\".",
+     "eli5": "A tiny team looks after the code behind a huge share of websites, and when AI helped find big bugs in it, that small team had to coordinate all the fixes.",
+     "why_it_matters": "AI is finding old bugs faster and bringing in more code changes, while the volunteer-funded projects that must review and fix them stay small.",
+     "topic": "dev-tools",
+     "type": "event",
+     "labs": [
+      "openai"
+     ],
+     "people": [],
+     "concepts": [],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "PHP Foundation 'under-funded' with only 1 full-time staff member, director says (Reuters)",
+       "url": "https://www.rappler.com/technology/php-foundation-under-funded-understaffed/",
+       "name": "Reuters via Rappler",
+       "kind": "press"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-10-24T00:00:00Z",
+     "checked": {
+      "model": "editor (written by hand from the source)",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "Follow-up to PHP2Shell: who maintains the code AI is now finding bugs in.",
+     "id": "2026-10-24-the-php-foundation-which-coordinated-the-php2shell-fixes-has",
+     "date": "2026-10-24",
+     "rank": 4
+    },
+    {
      "title": "Johns Hopkins Bayview warns 3,182 patients after an employee put health data into a public AI tool",
      "one_liner": "Johns Hopkins Bayview Medical Center is notifying 3,182 patients after an employee uploaded personal health information to an unapproved public AI tool.",
      "summary": "Johns Hopkins Bayview Medical Center is notifying patients of a data breach. The center is alerting 3,182 patients in total. The notification follows an incident where an employee uploaded personal health information to an unapproved public AI tool. The Baltimore Sun reported the alert.",
@@ -7832,7 +7903,7 @@
      "added_by_editor": "2026-10-25",
      "id": "2026-10-24-johns-hopkins-bayview-medical-center-alerts-patients-of-data",
      "date": "2026-10-24",
-     "rank": 4
+     "rank": 5
     },
     {
      "title": "Inside OpenAI's Project Daybreak, which lends vetted partners its top hacking models",
@@ -7866,7 +7937,7 @@
       "hype_flags": []
      },
      "editor_reason": "OpenAI introduced Project Daybreak to grant cybersecurity partners access to AI tools for finding software flaws.",
-     "rank": 5,
+     "rank": 6,
      "id": "2026-10-24-forbes-reports-on-openai-s-project-daybreak",
      "date": "2026-10-24"
     },
@@ -7909,7 +7980,7 @@
       "hype_flags": []
      },
      "editor_reason": "Google updated its privacy policy to state that Gmail user data may be used for targeted advertising.",
-     "rank": 6,
+     "rank": 7,
      "id": "2026-10-24-google-updates-privacy-policy-regarding-gmail-and-ad-persona",
      "date": "2026-10-24"
     },
@@ -7949,7 +8020,7 @@
       "hype_flags": []
      },
      "editor_reason": "A study on political bias found Grok consistently recommended Republican candidates while OpenAI models favored Democrats.",
-     "rank": 7,
+     "rank": 8,
      "id": "2026-10-24-study-finds-grok-and-gpt-lean-toward-opposite-political-part",
      "date": "2026-10-24"
     },
@@ -7991,7 +8062,7 @@
       "hype_flags": []
      },
      "editor_reason": "whatsmyagentdoing provides real-time monitoring of local Claude Code and Codex agent activity.",
-     "rank": 8,
+     "rank": 9,
      "id": "2026-10-24-new-tool-shows-claude-code-and-codex-agents-in-a-virtual-off",
      "date": "2026-10-24"
     },
@@ -8043,7 +8114,7 @@
       "hype_flags": []
      },
      "editor_reason": "Corgi is a terminal multiplexer designed to help developers run and manage multiple AI agents.",
-     "rank": 9,
+     "rank": 10,
      "id": "2026-10-24-show-hn-corgi-a-helpful-agent-and-terminal-multiplexer",
      "date": "2026-10-24"
     }
