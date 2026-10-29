@@ -677,5 +677,68 @@
   "first_seen": "2026-10-23",
   "story": "2026-10-23-microsoft-introduces-flint-interactive-to-help-ai-create-int",
   "source": "https://www.microsoft.com/en-us/research/blog/flint-interactive-a-language-for-creating-interactive-data-visualizations/"
+ },
+ {
+  "term": "multi-model orchestration",
+  "definition": "A system that determines which models to use for each task and how they work together.",
+  "first_seen": "2026-10-28",
+  "story": "2026-10-28-github-copilot-fusion-is-generally-available-with-multi-mode",
+  "source": "https://github.blog/changelog/2026-10-28-route-and-orchestrate-models-with-github-copilot-fusion/"
+ },
+ {
+  "term": "attack chain",
+  "definition": "A sequence of vulnerabilities and exploits that lead to remote code execution and other critical impacts with little to no user interaction.",
+  "first_seen": "2026-10-28",
+  "story": "2026-10-28-anthropic-reports-internal-research-model-found-vulnerabilit",
+  "source": "https://www.anthropic.com/research/discovering-vulnerabilities-with-claude"
+ },
+ {
+  "term": "coordinated vulnerability disclosure",
+  "definition": "A process that gives developers 90 days to patch and a further 45 days before details are discussed beyond a public advisory.",
+  "first_seen": "2026-10-28",
+  "story": "2026-10-28-anthropic-reports-internal-research-model-found-vulnerabilit",
+  "source": "https://www.anthropic.com/research/discovering-vulnerabilities-with-claude"
+ },
+ {
+  "term": "harness",
+  "definition": "The orchestration layer around the model that gives an agent the right instructions, context, execution environment, and controls to accomplish meaningful work.",
+  "first_seen": "2026-10-28",
+  "story": "2026-10-28-microsoft-makes-copilot-harness-available-through-microsoft",
+  "source": "https://blogs.microsoft.com/blog/2026/10/28/introducing-the-microsoft-copilot-harness-unlocking-the-potential-of-truly-multi-model-agentic-work/"
+ },
+ {
+  "term": "causal inference",
+  "definition": "Working out from data whether one thing causes another.",
+  "first_seen": "2026-10-28",
+  "story": "2026-10-28-study-reports-ai-agents-shape-experts-judgment-calls",
+  "source": "https://www.anthropic.com/research/agents-judgment-calls"
+ },
+ {
+  "term": "observational causal analysis",
+  "definition": "Studying cause and effect using real-world data rather than a controlled experiment.",
+  "first_seen": "2026-10-28",
+  "story": "2026-10-28-study-reports-ai-agents-shape-experts-judgment-calls",
+  "source": "https://www.anthropic.com/research/agents-judgment-calls"
+ },
+ {
+  "term": "modality engineering",
+  "definition": "Modality engineering is working on increasing the usefulness of a cancer treatment known as CAR T-cell therapy.",
+  "first_seen": "2026-10-28",
+  "story": "2026-10-28-anthropic-reports-early-progress-on-accelerating-drug-develo",
+  "source": "https://www.anthropic.com/research/early-progress-drug-development"
+ },
+ {
+  "term": "hit generation",
+  "definition": "Hit generation involves developing drugs that would detach the IgE from our immune cells entirely.",
+  "first_seen": "2026-10-28",
+  "story": "2026-10-28-anthropic-reports-early-progress-on-accelerating-drug-develo",
+  "source": "https://www.anthropic.com/research/early-progress-drug-development"
+ },
+ {
+  "term": "Thinking-in-Bets",
+  "definition": "A training-free method in which an agent writes a short private record of its main claims, the checks supporting them, and its confidence before reading user feedback.",
+  "first_seen": "2026-10-28",
+  "story": "2026-10-28-thinking-in-bets-reduces-sycophantic-revisions-in-llm-agents",
+  "source": "https://arxiv.org/abs/2610.34654"
  }
 ]
