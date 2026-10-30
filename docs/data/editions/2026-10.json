@@ -9389,6 +9389,46 @@
      "date": "2026-10-27"
     },
     {
+     "title": "China's AI stock bubble bursts: the STAR50 falls about 40% and roughly $480B is wiped out",
+     "one_liner": "China's STAR50 index lost about 40% in under four months, erasing roughly $480 billion as analysts point to stretched valuations and Western equipment bans.",
+     "summary": "China's AI bubble has burst, with the STAR50 index losing about 40% in under four months and erasing roughly $480 billion. Reuters' analysis showed how stretched valuations and Western equipment bans broke the rally. Traders also pointed to tax bills, and state-backed investors sold into rallies as regulators cracked down on leverage and high-frequency trading. The damage spread across Asia, and U.S. chip stocks are already 24% below their June high.",
+     "eli5": "Some toy blocks got so popular that their price went way up in China, and then many people tried to sell them all at once.",
+     "why_it_matters": "It shows how fast AI chip valuations can unwind when stretched prices meet export bans and tighter rules on leverage.",
+     "topic": "industry",
+     "type": "event",
+     "labs": [
+      "nvidia",
+      "anthropic"
+     ],
+     "people": [],
+     "concepts": [
+      "gpu"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "China’s AI Bubble Bursts With $480 Billion Wiped Out: Is the US Next, and Is Bitcoin Exposed?",
+       "url": "https://finance.yahoo.com/technology/ai/articles/china-ai-bubble-bursts-480-114348610.html",
+       "name": "Yahoo Finance",
+       "kind": "press"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-10-27T18:51:39Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 2,
+      "hype_flags": []
+     },
+     "editor_reason": "Added by the editor after the nightly run missed it.",
+     "added_by_editor": "2026-10-30",
+     "id": "2026-10-27-report-china-ai-bubble-bursts-with-480-billion-wiped-out",
+     "date": "2026-10-27",
+     "rank": 4
+    },
+    {
      "title": "Anthropic's S-1 shows where its compute money goes: Google TPUs first, then SpaceX, Amazon and Microsoft",
      "one_liner": "Anthropic's IPO filing lists more than $750 billion in computing deals, and Google's TPUs get the largest share.",
      "summary": "GeekWire went through the computing deals in Anthropic's IPO filing, which add up to more than $750 billion in firm commitments and estimated future spending. About $400 billion is for capacity on Google-designed TPUs: $114.5 billion to Google directly through July 2033, $161.2 billion in equipment leases with Broadcom (the largest single arrangement), and an estimated $125 billion to $150 billion more from 2028 to 2031. SpaceX's AI subsidiary, formerly xAI, is next with up to $120.5 billion through 2029. Anthropic committed at least $110 billion to AWS through April 2036 and at least $44.9 billion to Microsoft Azure through May 2033, plus about $44.6 billion with Nscale and $41.3 billion with Lambda. The deals with Microsoft, Google and Amazon must be paid regardless of actual usage.",
@@ -9424,7 +9464,7 @@
      "editor_reason": "Shows how Anthropic's committed compute spending is split across Google, Broadcom, SpaceX, Amazon and Microsoft.",
      "id": "2026-10-27-anthropic-s-s-1-shows-where-its-compute-money-goes-google-tp",
      "date": "2026-10-27",
-     "rank": 4
+     "rank": 5
     },
     {
      "title": "Nvidia to invest $3B in Meta's equity raise as their AI partnership expands",
@@ -9461,7 +9501,7 @@
       "hype_flags": []
      },
      "editor_reason": "Nvidia and Meta expanded their partnership, with Meta deploying Vera Rubin CPUs and Nvidia investing 3 billion dollars.",
-     "rank": 5,
+     "rank": 6,
      "id": "2026-10-27-nvidia-and-meta-expand-partnership-and-plan-investment",
      "date": "2026-10-27"
     },
@@ -9501,7 +9541,7 @@
       "hype_flags": []
      },
      "editor_reason": "OpenAI and Oracle are expanding their partnership to bring business applications and AI agents into ChatGPT.",
-     "rank": 6,
+     "rank": 7,
      "id": "2026-10-27-openai-and-oracle-expand-partnership-to-bring-apps-to-chatgp",
      "date": "2026-10-27"
     },
@@ -9550,7 +9590,7 @@
       "hype_flags": []
      },
      "editor_reason": "Frontier labs say their models refuted the Exponential Time Hypothesis, and TechCrunch asked an MIT computer scientist what that means.",
-     "rank": 7,
+     "rank": 8,
      "id": "2026-10-27-frontier-ai-labs-claim-their-models-refuted-the-exponential",
      "date": "2026-10-27"
     },
@@ -9602,7 +9642,7 @@
      "added_by_editor": "2026-10-27",
      "id": "2026-10-27-report-evaluates-safety-risks-of-deepseek-v4-1-flash-1017",
      "date": "2026-10-27",
-     "rank": 8
+     "rank": 9
     },
     {
      "title": "Opera proposes WebAI, a web standard for running AI models locally in the browser",
@@ -9645,7 +9685,7 @@
       "hype_flags": []
      },
      "editor_reason": "Opera introduces WebAI, a new web standard for running AI models locally in the browser.",
-     "rank": 9,
+     "rank": 10,
      "id": "2026-10-27-opera-introduces-webai-standard-to-run-local-ai",
      "date": "2026-10-27"
     },
@@ -9693,7 +9733,7 @@
      "added_by_editor": "2026-10-27",
      "id": "2026-10-27-openai-s-ted-sanders-shares-rule-of-thumb-for-gpt-models",
      "date": "2026-10-27",
-     "rank": 10
+     "rank": 11
     },
     {
      "title": "OpenAI publishes Signals data on how people use ChatGPT for work in nearly 100 countries",
@@ -9741,7 +9781,7 @@
      "added_by_editor": "2026-10-27",
      "id": "2026-10-27-openai-releases-signals-data-on-chatgpt-work-activities",
      "date": "2026-10-27",
-     "rank": 11
+     "rank": 12
     },
     {
      "title": "Cloudflare details a cross-customer KV cache exposure in its GLM-5.3 service",
@@ -9790,7 +9830,7 @@
       "hype_flags": []
      },
      "editor_reason": "A cross-request KV cache vulnerability was identified in the GLM-5.3 model on Workers AI.",
-     "rank": 12,
+     "rank": 13,
      "id": "2026-10-27-report-details-cross-request-kv-cache-exposure-in-glm-5-3-mo",
      "date": "2026-10-27"
     },
@@ -9839,7 +9879,7 @@
       "hype_flags": []
      },
      "editor_reason": "General Compute raised a $100 million Series A to build on inference chips from outside the Nvidia ecosystem.",
-     "rank": 13,
+     "rank": 14,
      "id": "2026-10-27-general-compute-raises-100-million-series-a-funding",
      "date": "2026-10-27"
     },
@@ -9882,7 +9922,7 @@
       "hype_flags": []
      },
      "editor_reason": "Nvidia backs Simplismart, which helps companies run AI models on fewer GPUs and reports 14-fold run-rate growth in six months.",
-     "rank": 14,
+     "rank": 15,
      "id": "2026-10-27-nvidia-backs-indian-startup-simplismart-in-14-million-fundin",
      "date": "2026-10-27"
     },
@@ -9921,7 +9961,7 @@
      "added_by_editor": "2026-10-27",
      "id": "2026-10-27-organized-criminal-groups-target-data-center-gear-on-highway",
      "date": "2026-10-27",
-     "rank": 15
+     "rank": 16
     },
     {
      "title": "Firefox's Smart Window can now fill in web forms from your open tabs",
@@ -9963,7 +10003,7 @@
       "hype_flags": []
      },
      "editor_reason": "Firefox's Smart Window adds AI form filling based on open tabs and webpage monitoring.",
-     "rank": 16,
+     "rank": 17,
      "id": "2026-10-27-firefox-updates-smart-window-with-ai-form-filling-and-monito",
      "date": "2026-10-27"
     },
@@ -10006,7 +10046,7 @@
       "hype_flags": []
      },
      "editor_reason": "Microsoft and Snowflake confirmed a joint commitment to Apache Ossie for open data foundations.",
-     "rank": 17,
+     "rank": 18,
      "id": "2026-10-27-microsoft-and-snowflake-commit-to-apache-ossie-semantic-stan",
      "date": "2026-10-27"
     }
@@ -10752,6 +10792,1235 @@
     },
     "fallbacks": [],
     "seconds": 13
+   }
+  },
+  "2026-10-29": {
+   "date": "2026-10-29",
+   "generated_at": "2026-10-30T19:01:53Z",
+   "stories": [
+    {
+     "title": "Mistral releases open weights for Mistral Large 4 'Le Chonk'",
+     "one_liner": "Mistral AI released the open weights for its 1-trillion-parameter multimodal model, Mistral Large 4, known as Le Chonk.",
+     "summary": "Mistral AI released the weights for Mistral Large 4, also called Le Chonk. This flagship 1-trillion-parameter multimodal model was trained from scratch on European infrastructure. It offers improved coding, cybersecurity, and reasoning efficiency. The model features three reasoning modes for cost-performance balance. It leads open-weight benchmarks in agentic coding such as FrontierCode and Terminal-Bench, and scores 51% on the Artificial Analysis Cyber Index. The model also achieves an average refusal rate of 96.6% on malicious cyber requests. Booz Allen tested the model and matched vulnerability detection recall rates against other frontier cyber models.",
+     "eli5": "Mistral built a massive new computer brain called Le Chonk that is very good at writing code and spotting security flaws, and now they are sharing the recipe with everyone.",
+     "why_it_matters": "Open-weight models provide builders with customizable options for running large code and cybersecurity tasks while controlling inference costs.",
+     "topic": "models",
+     "type": "model",
+     "labs": [
+      "mistral",
+      "deepseek"
+     ],
+     "people": [],
+     "concepts": [
+      "open-weight-model",
+      "multimodal-model",
+      "coding-assistant"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [
+      {
+       "term": "reinforcement learning",
+       "definition": "A scaling method used by Mistral to drive massive improvements in coding and defensive cybersecurity."
+      }
+     ],
+     "sources": [
+      {
+       "title": "Le Chonk: Built for Coders, Trusted by Defenders.",
+       "url": "https://mistral.ai/news/mistral-large-4-oss/",
+       "name": "Mistral AI News",
+       "kind": "original"
+      },
+      {
+       "title": "Welcome Le Chonk: Mistral Large 4 on Hugging Face",
+       "url": "https://huggingface.co/blog/mistral-large4",
+       "name": "Hugging Face Blog",
+       "kind": "original"
+      },
+      {
+       "title": "Paris-based Mistral releases \"Le Chonk,\" a strong coding model that still trails China overall",
+       "url": "https://the-decoder.com/paris-based-mistral-releases-le-chonk-a-strong-coding-model-that-still-trails-china-overall/",
+       "name": "The Decoder",
+       "kind": "press"
+      }
+     ],
+     "buzz": 4,
+     "published": "2026-10-29T00:00:00Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "Mistral released open weights for Mistral Large 4 (Le Chonk), a 1T parameter multimodal model billed as the best open-weight coding model, covered by four sources.",
+     "rank": 1,
+     "id": "2026-10-29-mistral-releases-mistral-large-4-le-chonk-model-weights",
+     "date": "2026-10-29"
+    },
+    {
+     "title": "Microsoft booked $10B of revenue from OpenAI last quarter, nearly 11% of its total",
+     "one_liner": "Microsoft's filing shows $10 billion in revenue from its commercial arrangements with OpenAI in the quarter to 30 September.",
+     "summary": "Microsoft generated $10 billion in revenue from commercial arrangements with OpenAI, including revenue-sharing payments, in the quarter ended 30 September, the company said in a regulatory filing. That is nearly 11% of Microsoft's $92.3 billion in quarterly revenue. For its full 2026 fiscal year, revenue from OpenAI was $24.1 billion. Microsoft also reported $7.2 billion in outstanding receivables from OpenAI, up from $6 billion at the end of June. The filing does not split how much came from revenue sharing versus Azure services. Microsoft's stake in OpenAI slipped from about 25% in June to 24% in September.",
+     "eli5": "OpenAI paid Microsoft about ten billion dollars in three months, which is roughly one dollar in every nine that Microsoft earned.",
+     "why_it_matters": "It puts a hard number on how much Microsoft still earns from OpenAI even as the two increasingly compete for the same customers.",
+     "topic": "microsoft",
+     "type": "event",
+     "labs": [
+      "openai",
+      "microsoft"
+     ],
+     "concepts": [],
+     "sources": [
+      {
+       "title": "Microsoft recorded $10 billion in revenue from OpenAI",
+       "url": "https://techcrunch.com/2026/10/28/microsoft-recorded-10-billion-in-revenue-from-openai/",
+       "name": "TechCrunch",
+       "kind": "press"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-10-28T23:00:00Z",
+     "editor_reason": "First hard figure on Microsoft's quarterly revenue from OpenAI.",
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "people": [],
+     "checked": {
+      "model": "editor (written by hand from the source)",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "id": "2026-10-29-microsoft-booked-10b-of-revenue-from-openai-last-quarter-nea",
+     "date": "2026-10-29",
+     "rank": 2
+    },
+    {
+     "title": "US investigated a Chinese spy plot aimed at Nvidia CEO Jensen Huang",
+     "one_liner": "United States intelligence agencies investigated a top executive of a Singapore AI cloud firm over a potential Chinese spy plot involving Nvidia's CEO.",
+     "summary": "Anonymous sources told the New York Times that a top executive of a Singapore AI cloud firm named Megaspeed could have been a Chinese spy. The executive, Alice Huang, was photographed with Nvidia CEO Jensen Huang during business dinners in the Singapore region. U.S. intelligence agencies surveilled Alice Huang for about a year over concerns that she grew close enough to the CEO to gather information about Nvidia plans and chip export efforts. In 2025, the Commerce Department investigated Megaspeed over concerns that it helped Chinese companies bypass AI chip export regulations.",
+     "eli5": "Intelligence agents watched a company executive because they worried she became too close to a technology company leader to steal secrets.",
+     "why_it_matters": "Hardware supply chains face heightened scrutiny as governments investigate firms accused of reselling restricted chips to China.",
+     "topic": "policy",
+     "type": "event",
+     "labs": [
+      "nvidia",
+      "government"
+     ],
+     "people": [],
+     "concepts": [
+      "gpu"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "US investigated Chinese spy plot aimed at Nvidia CEO | TechCrunch",
+       "url": "https://techcrunch.com/2026/10/29/u-s-investigated-chinese-spy-plot-aimed-at-nvidia-ceo/",
+       "name": "TechCrunch AI",
+       "kind": "press"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-10-29T16:42:32Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 2,
+      "hype_flags": []
+     },
+     "editor_reason": "Added by the editor after the nightly run missed it.",
+     "added_by_editor": "2026-10-30",
+     "id": "2026-10-29-us-investigated-chinese-spy-plot-aimed-at-nvidia-ceo",
+     "date": "2026-10-29",
+     "rank": 3
+    },
+    {
+     "title": "OpenAI rewrites its Model Spec around five core values",
+     "one_liner": "OpenAI updated its public Model Spec, organizing its behavioral guidance around five core values.",
+     "summary": "On October 29, 2026, OpenAI updated its public Model Spec to describe how its models should behave as they take more consequential actions. The update reorganizes guidance around five underlying values: faithfulness to human intent, harm minimization, honesty and transparency, human agency, and care. The revision adds guidance on context, oversight, and agency, adjusts behavioral defaults, and retires much of the detailed style guidance. OpenAI also explores new training methods to help models learn these core values, and plans to share results in future updates.",
+     "eli5": "Imagine giving an assistant a guide based on five main values to help them make good choices. Users and developers can still change the defaults.",
+     "why_it_matters": "The updated Model Spec provides defaults and guidance that users and developers can override while directing applications within boundaries set by OpenAI.",
+     "topic": "policy",
+     "type": "event",
+     "labs": [
+      "openai"
+     ],
+     "people": [],
+     "concepts": [
+      "alignment",
+      "ai-safety",
+      "rlhf"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [
+      {
+       "term": "Model Spec",
+       "definition": "A public description of how OpenAI wants its models to behave."
+      }
+     ],
+     "sources": [
+      {
+       "title": "An updated Model Spec for more capable and beneficial AI",
+       "url": "https://openai.com/index/updated-model-spec/",
+       "name": "OpenAI News",
+       "kind": "original"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-10-30T19:01:53Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 2,
+      "hype_flags": []
+     },
+     "editor_reason": "Added by the editor after the nightly run missed it.",
+     "added_by_editor": "2026-10-30",
+     "id": "2026-10-29-openai-updates-model-spec-around-five-core-values",
+     "date": "2026-10-29",
+     "rank": 4
+    },
+    {
+     "title": "OpenAI Expands System for Monitoring Frontier Model Misalignment",
+     "one_liner": "OpenAI has expanded its system for monitoring frontier AI model behavior using a multilayer architecture to detect misalignment and unauthorized actions.",
+     "summary": "OpenAI expanded its system for monitoring AI agent behavior to cover frontier models across training, evaluation, internal use, and external deployment. The multilayer architecture uses lightweight activation probes at Layer 0, model-based reviewers at Layer 1, and investigative agents at Layer 2. This expanded monitoring aims to detect unauthorized actions and misalignment early. OpenAI replayed the Hugging Face incident in a simulation with the strengthened monitors, showing the system could have alerted the security team before external services were accessed.",
+     "eli5": "OpenAI added security cameras and guard dogs inside its computer systems to catch when smart computer programs break the rules or try to escape.",
+     "why_it_matters": "Comprehensive multi-stage behavior monitoring is necessary to catch and intervene when complex AI agents take unauthorized actions during training and deployment.",
+     "topic": "policy",
+     "type": "event",
+     "labs": [
+      "openai"
+     ],
+     "people": [],
+     "concepts": [
+      "alignment",
+      "ai-safety",
+      "agent"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [
+      {
+       "term": "activation probes",
+       "definition": "Lightweight classifiers that look for concerning patterns in the model's internal activations and pass flagged cases to the next layer for review."
+      },
+      {
+       "term": "model-based reviewer",
+       "definition": "A reviewer that examines the agent's recent conversation, chain of thought, and tool use for signs of deception, unauthorized actions, and attempts to manipulate an evaluation."
+      }
+     ],
+     "sources": [
+      {
+       "title": "How we detect frontier model misalignment",
+       "url": "https://openai.com/index/how-we-detect-frontier-model-misalignment",
+       "name": "OpenAI News",
+       "kind": "original"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-10-29T09:00:00Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "OpenAI describes layered monitoring to detect frontier model misalignment and unauthorized agent behavior.",
+     "rank": 5,
+     "id": "2026-10-29-openai-expands-system-for-monitoring-frontier-model-misalign",
+     "date": "2026-10-29"
+    },
+    {
+     "title": "Report: Chinese labs turned to distilling OpenAI's Astra after Anthropic tightened its defenses",
+     "one_liner": "Chinese AI labs are using OpenAI's GPT-6 Astra model for distillation after Anthropic tightened its defenses.",
+     "summary": "Chinese AI labs are now mainly tapping OpenAI's most powerful model, GPT-6 Astra, instead of Anthropic's Claude. According to The Information, DeepSeek and Moonshot AI leaned heavily on Astra's outputs to train their latest models, including Kimi K3.1 Pro and V4.1-Flash 1017. This distillation requires getting models to reveal hidden reasoning steps, which OpenAI and Anthropic both ban. Anthropic states its new methods cut the amount of data attackers can pull by 90 to 99 percent. OpenAI reported a coordinated distillation campaign involving people linked to Moonshot.",
+     "eli5": "Some groups were copying answers from one smart computer program to train their own. When that program made it harder to copy, the groups started using a different smart program instead.",
+     "why_it_matters": "Security updates on frontier models shift distillation pressure from one provider to another.",
+     "topic": "industry",
+     "type": "event",
+     "labs": [
+      "openai",
+      "anthropic",
+      "deepseek",
+      "other"
+     ],
+     "people": [],
+     "concepts": [
+      "distillation"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "OpenAI's Astra becomes the main target for Chinese AI labs after Anthropic tightens its defenses",
+       "url": "https://the-decoder.com/openais-astra-becomes-the-main-target-for-chinese-ai-labs-after-anthropic-tightens-its-defenses/",
+       "name": "The Decoder",
+       "kind": "press"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-10-29T13:20:14Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 2,
+      "hype_flags": []
+     },
+     "editor_reason": "Added by the editor after the nightly run missed it.",
+     "added_by_editor": "2026-10-30",
+     "id": "2026-10-29-chinese-ai-labs-target-openai-after-anthropic-tightens-defen",
+     "date": "2026-10-29",
+     "rank": 6
+    },
+    {
+     "title": "OpenAI Launches API Credits Benefit for Eligible ChatGPT Subscriptions",
+     "one_liner": "OpenAI now gives $100, $200, and $500 monthly ChatGPT subscribers an equivalent quantity of expiring API credits.",
+     "summary": "OpenAI has launched a new deal for users with specific subscription plans. Subscribers on $100, $200, and $500 per month plans now receive the same quantity of expiring credits to apply to one of their API organizations. This follows a similar benefit announced earlier in the month by Anthropic for their Max and Team subscriptions, where subscribers receive matching credits for the Anthropic API. Simon Willison reported on the update, noting that the included credits may help him ship some public-facing demos since the costs are covered by his existing subscriptions.",
+     "eli5": "If you pay a monthly fee for a membership, the company is now giving you a matching amount of play money to use their tools behind the scenes.",
+     "why_it_matters": "Matching subscription plans with API credits makes it cheaper to ship public demos and build applications.",
+     "topic": "products",
+     "type": "event",
+     "labs": [
+      "openai",
+      "anthropic"
+     ],
+     "people": [],
+     "concepts": [
+      "chatbot"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "API credits benefit for eligible ChatGPT subscriptions",
+       "url": "https://simonwillison.net/2026/Oct/29/api-credits/",
+       "name": "Simon Willison",
+       "kind": "press"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-10-30T19:01:53Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "Added by the editor after the nightly run missed it.",
+     "added_by_editor": "2026-10-30",
+     "id": "2026-10-29-openai-launches-api-credits-benefit-for-eligible-chatgpt-sub",
+     "date": "2026-10-29",
+     "rank": 7
+    },
+    {
+     "title": "Researchers break the built-in browsers of five AI coding assistants",
+     "one_liner": "Researchers found security vulnerabilities in the embedded browsers of five AI coding assistants, leaving some tools unpatched.",
+     "summary": "Forever Security discovered vulnerabilities in the built-in browsers of five AI coding assistants, namely Cursor, GitHub Copilot, OpenAI’s Codex, Microsoft’s VS Code, and Anthropic’s Claude Desktop. Vendors loosened embedded browsers so AI tools could preview local projects. The researchers found this broke standard browser security rules. In Claude Desktop and VS Code, background web workers allowed a local project file to read the rest of the disk. Codex lacked folder checks entirely and remained unpatched as of October 29. Cursor and GitHub Copilot issued security fixes. Anthropic and Microsoft declined reports due to Workspace Trust prompts.",
+     "eli5": "Imagine a toy house where windows were meant only for looking at the garden, but someone figured out how to open them to grab everything inside the main room.",
+     "why_it_matters": "Opening a single untrusted project in an unpatched AI assistant can expose SSH keys, cloud credentials, and developer tokens with one click.",
+     "topic": "research",
+     "type": "event",
+     "labs": [
+      "openai",
+      "anthropic",
+      "microsoft"
+     ],
+     "people": [],
+     "concepts": [
+      "coding-assistant"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [
+      {
+       "term": "Workspace Trust",
+       "definition": "A prompt that asks a developer to trust a project folder before opening it."
+      }
+     ],
+     "sources": [
+      {
+       "title": "Researchers broke the browsers built into VS Code, Cursor, Copilot, Codex and Claude Desktop - Help Net Security",
+       "url": "https://www.helpnetsecurity.com/2026/10/29/research-ai-assistant-browser-vulnerabilities/",
+       "name": "Help Net Security",
+       "kind": "press"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-10-29T14:10:49Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "Added by the editor after the nightly run missed it.",
+     "added_by_editor": "2026-10-30",
+     "id": "2026-10-29-report-researchers-break-built-in-browsers-in-five-ai-coding",
+     "date": "2026-10-29",
+     "rank": 8
+    },
+    {
+     "title": "CrowdStrike Identifies VAPOR PANDA Campaign Using AI-Driven ARTEX",
+     "one_liner": "CrowdStrike identified a VAPOR PANDA campaign using ARTEX, DeepSeek, and another commercial LLM to attack multiple high-value targets.",
+     "summary": "CrowdStrike identified a VAPOR PANDA campaign that used ARTEX, along with DeepSeek and another commercial LLM, to launch attacks against multiple high-value targets. The report details the global espionage campaign and the involvement of these tools in the targeting activity.",
+     "eli5": "A group used computer programs to look around computers where they should not be.",
+     "why_it_matters": "Security architectures must account for adversaries using AI tools and frameworks in targeted campaigns.",
+     "topic": "industry",
+     "type": "event",
+     "labs": [
+      "deepseek"
+     ],
+     "people": [],
+     "concepts": [
+      "llm"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "VAPOR PANDA Uses AI-Driven ARTEX to Grow Global Espionage Campaign",
+       "url": "https://www.crowdstrike.com/en-us/blog/vapor-panda-uses-artex-to-scale-global-campaign/",
+       "name": "CrowdStrike.com",
+       "kind": "press"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-10-30T19:01:53Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 2,
+      "hype_flags": []
+     },
+     "editor_reason": "Added by the editor after the nightly run missed it.",
+     "added_by_editor": "2026-10-30",
+     "id": "2026-10-29-crowdstrike-identifies-vapor-panda-campaign-using-ai-driven",
+     "date": "2026-10-29",
+     "rank": 9
+    },
+    {
+     "title": "Anthropic Introduces Self-Assessment Technique for Misuse Detection",
+     "one_liner": "Anthropic introduced self-assessment, a technique where Claude provides a preliminary safety assessment of each conversation right after it responds.",
+     "summary": "Anthropic introduced a technique called self-assessment, which lets Claude provide a preliminary safety assessment of each conversation right after responding. On Claude Fable 5, self-assessment flags 78% of potentially harmful conversations and 94% of high-priority ones at a 1% false-positive rate. The approach is efficient because the conversation is already in the KV cache, adding less than 2% to inference compute. Since June, it has revealed large-scale misuse and served as a layer in Anthropic's defense-in-depth strategy. It runs in every Claude model released since Fable 5 across a large fraction of global traffic.",
+     "eli5": "Claude checks its own work after talking to make sure it did not say anything bad. It is like a student writing a quick note at the end of an essay to grade its own safety.",
+     "why_it_matters": "Monitoring AI safety becomes cheaper and more scalable when models assess their own conversations directly from the cache.",
+     "topic": "policy",
+     "type": "event",
+     "labs": [
+      "anthropic"
+     ],
+     "people": [],
+     "concepts": [
+      "ai-safety",
+      "kv-cache",
+      "inference"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [
+      {
+       "term": "self-assessment",
+       "definition": "A technique that lets Claude give a preliminary safety assessment of each conversation right after it responds."
+      },
+      {
+       "term": "prompted classifier",
+       "definition": "A separate model that is given policies and the conversation in its prompt to act as an automated classifier."
+      }
+     ],
+     "sources": [
+      {
+       "title": "Scaling Misuse Detection with Self-Assessment",
+       "url": "https://safeguards.anthropic.com/2026/self-assessment/",
+       "name": "Anthropic Safeguards Blog",
+       "kind": "original"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-10-16T00:00:00Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "Added by the editor after the nightly run missed it.",
+     "added_by_editor": "2026-10-30",
+     "id": "2026-10-29-anthropic-introduces-self-assessment-technique-for-misuse-de",
+     "date": "2026-10-29",
+     "rank": 10
+    },
+    {
+     "title": "Cohere Announces Series E Fundraise Targeting CAD $7 Billion",
+     "one_liner": "Cohere announced the initial close of its Series E funding round targeting up to CAD $7 billion.",
+     "summary": "Cohere announced the initial close of its Series E funding round targeting up to CAD $7 billion, which would represent a CAD $35.7 billion valuation. The round marks the largest private financing round ever undertaken by a Canadian technology company. Schwarz Group is the lead investor. New institutional and strategic investors include Bell Ventures, Bullhound Capital, and the Government of Canada, while Inovia Capital, NVIDIA, and Prosperity7 Ventures are returning investors. Cohere will use the funding to advance its modelling and product roadmap, develop fully verticalized AI solutions for regulated industries, and invest in compute infrastructure.",
+     "eli5": "Cohere is raising a huge pile of money to build special computer brains that companies and governments can keep safe and control all by themselves, just like building a private clubhouse.",
+     "why_it_matters": "Significant capital will expand compute infrastructure and verticalized enterprise AI solutions for regulated industries.",
+     "topic": "industry",
+     "type": "event",
+     "labs": [
+      "nvidia",
+      "government",
+      "other"
+     ],
+     "people": [],
+     "concepts": [
+      "foundation-model",
+      "agent"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [
+      {
+       "term": "sovereign AI",
+       "definition": "Artificial intelligence that provides organizations with greater control over their data, infrastructure, governance, and deployment environments."
+      },
+      {
+       "term": "agentic AI platform",
+       "definition": "A platform called North that helps drive customer wins and expansions across commercial and public sector organizations."
+      }
+     ],
+     "sources": [
+      {
+       "title": "Cohere Announces Series E Fundraise Targeting CAD $7 Billion to Meet Surging Global Demand for Secure, Sovereign AI",
+       "url": "https://www.prnewswire.com/news-releases/cohere-announces-series-e-fundraise-targeting-cad-7-billion-to-meet-surging-global-demand-for-secure-sovereign-ai-302923951.html",
+       "name": "www.prnewswire.com",
+       "kind": "press"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-10-30T19:01:53Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "Added by the editor after the nightly run missed it.",
+     "added_by_editor": "2026-10-30",
+     "id": "2026-10-29-cohere-announces-series-e-fundraise-targeting-cad-7-billion",
+     "date": "2026-10-29",
+     "rank": 11
+    },
+    {
+     "title": "NVIDIA NVL72 Systems Connect All 72 GPUs in a Rack",
+     "one_liner": "NVIDIA NVL72 systems connect all 72 GPUs in a rack with an NVLink fabric, allowing data exchange with higher bandwidth.",
+     "summary": "Distributed training jobs running over InfiniBand instead of NVLink can degrade performance. Tensor parallelism requires synchronization steps that sit on the critical path, and Hugging Face measured a 43 percent drop in training throughput when moving off NVLink onto InfiniBand. NVIDIA NVL72 systems connect all 72 GPUs in a rack with a unified NVLink fabric. Maximizing these benefits depends on workload placement, because multi-node jobs spread across racks remain bottlenecked by InfiniBand. Preserving rack-locality is difficult when hardware failures take nodes offline. The SkyPilot Platform keeps multi-node jobs rack-local through topology-aware placement, in-place recovery, and automatic defragmentation.",
+     "eli5": "Connecting computers with a fast cable helps them share notes quickly, while using a slower cable makes them shout across the room.",
+     "why_it_matters": "Workload placement across racks determines whether distributed training jobs avoid InfiniBand bottlenecks.",
+     "topic": "dev-tools",
+     "type": "product",
+     "labs": [
+      "nvidia"
+     ],
+     "people": [],
+     "concepts": [
+      "gpu",
+      "inference",
+      "mixture-of-experts"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "Grace Blackwell needs a new scheduler: 27% more usable GPUs from the same racks",
+       "url": "https://skypilot.ai/blog/grace-blackwell-needs-a-new-scheduler",
+       "name": "skypilot.ai",
+       "kind": "press"
+      },
+      {
+       "title": "Discussion on Hacker News",
+       "url": "https://news.ycombinator.com/item?id=50290912",
+       "name": "Hacker News",
+       "kind": "discussion"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-10-29T15:45:05Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 2,
+      "hype_flags": []
+     },
+     "editor_reason": "A new scheduler for Grace Blackwell is reported to give 27% more usable GPUs from the same racks, a practical gain for GPU operators.",
+     "rank": 12,
+     "id": "2026-10-29-nvidia-nvl72-systems-connect-all-72-gpus-in-a-rack",
+     "date": "2026-10-29"
+    }
+   ],
+   "stats": {
+    "items": 107,
+    "stories": 102,
+    "sources_ok": 42,
+    "sources_failed": [],
+    "published": 15,
+    "dropped": 5,
+    "llm_calls": 6,
+    "cache_hits": 33,
+    "models": {
+     "gemini:gemini-3.5-flash-lite": 3,
+     "anthropic:claude-sonnet-5-5": 3
+    },
+    "fallbacks": [],
+    "seconds": 32
+   }
+  },
+  "2026-10-30": {
+   "date": "2026-10-30",
+   "generated_at": "2026-10-30T19:07:03Z",
+   "stories": [
+    {
+     "title": "A backdoored Claude Code extension sat on Cursor's marketplace for about 11 hours",
+     "one_liner": "A tampered build of the Claude Code extension (version 2.1.313) on Cursor's marketplace tried to plant an SSH backdoor and send machine details to an attacker.",
+     "summary": "A tampered version of the Claude Code for VS Code extension was available on the Cursor extension marketplace on Thursday for about eleven hours and reached up to 5,000 users, according to Cursor. Cursor says Anthropic had no involvement in developing it. Security firm Phorion, which found it, says version 2.1.313 runs injected code as soon as it loads, before the user does anything: it adds an attacker's SSH key to the user's authorized keys, tries to switch on SSH, sets up persistence on macOS, Linux and Windows, and sends host details back to the operator. Turning on SSH needs admin rights, so on most machines that step likely failed, and Phorion found a bug that skips it on Macs; the key and persistence are still dropped. Cursor pulled the extension, took the whole marketplace offline until the malware was neutralised, and says no other extensions were affected. Phorion advises anyone who used version 2.1.313 to start incident response.",
+     "eli5": "A fake copy of a popular coding helper was put in an app store for half a day, and anyone who installed it may have left a secret back door open on their computer.",
+     "why_it_matters": "Coding agents and their extensions run with the developer's own access to code and machines, so a single tampered extension in a marketplace can reach thousands of developer laptops.",
+     "topic": "dev-tools",
+     "type": "event",
+     "labs": [
+      "anthropic"
+     ],
+     "concepts": [
+      "coding-assistant"
+     ],
+     "sources": [
+      {
+       "title": "Malicious Claude Code extension in Cursor's marketplace attempted remote access and data theft",
+       "url": "https://the-decoder.com/malicious-claude-code-extension-in-cursors-marketplace-attempted-remote-access-and-data-theft/",
+       "name": "The Decoder",
+       "kind": "press"
+      },
+      {
+       "title": "Backdoor in Claude Code for VS Code extension on the Cursor Marketplace",
+       "url": "https://phorion.io/blog/offical-claude-code-vsx-compromise/",
+       "name": "Phorion",
+       "kind": "original"
+      },
+      {
+       "title": "Hacker News discussion",
+       "url": "https://news.ycombinator.com/item?id=50300683",
+       "name": "Hacker News",
+       "kind": "discussion"
+      }
+     ],
+     "buzz": 4,
+     "published": "2026-10-30T07:09:12Z",
+     "editor_reason": "A supply-chain attack on a coding-agent extension that reached thousands of developers; check your machines if you use Cursor.",
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "people": [],
+     "checked": {
+      "model": "editor (written by hand from the source)",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "id": "2026-10-30-a-backdoored-claude-code-extension-sat-on-cursor-s-marketpla",
+     "date": "2026-10-30",
+     "rank": 1
+    },
+    {
+     "title": "China's CSI 300 falls for a record 12th straight week, with about $3.5 trillion wiped out since May",
+     "one_liner": "China's CSI 300 index completed its 12th consecutive weekly decline, wiping out Rs 329 lakh crore amid weak demand and AI sell-offs.",
+     "summary": "China's benchmark CSI 300 index recorded its 12th consecutive weekly decline on October 30. This marks its longest losing streak since the index was launched in 2005. The prolonged sell-off wiped out nearly USD 3.5 trillion, or approximately Rs 329 lakh crore, in market value since May. The index has dropped more than 20 percent from its June peak, entering bear market territory. Weak domestic consumption, disappointing corporate earnings, property sector troubles, and heavy selling pressure in technology and artificial intelligence stocks contributed to the crash.",
+     "eli5": "It is like a giant piggy bank where people put their money, but then everyone tried to take their money out at the same time because things were not going well.",
+     "why_it_matters": "Investors are questioning whether heavy spending on artificial intelligence infrastructure will generate sufficient future returns.",
+     "topic": "industry",
+     "type": "event",
+     "labs": [],
+     "people": [],
+     "concepts": [],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "China Stock Market Crash Wipes Out ₹329 Lakh Crore, CSI 300 Records Longest Weekly Losing Streak Since 2005",
+       "url": "https://www.freepressjournal.in/business/china-stock-market-crash-wipes-out-329-lakh-crore-csi-300-records-longest-weekly-losing-streak-since-2005",
+       "name": "Free Press Journal",
+       "kind": "press"
+      },
+      {
+       "title": "China's CSI 300 Completes 12 Week Losing Streak as Losses Reach $3.4T | HuggingNews",
+       "url": "https://huggingnews.com/global-markets/chinas-csi-300-completes-12-week-losing-streak-as-losses-reach-34t-0695ad12",
+       "name": "HuggingNews",
+       "kind": "press"
+      }
+     ],
+     "buzz": 2,
+     "published": "2026-10-30T14:07:20Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "Added by the editor after the nightly run missed it.",
+     "added_by_editor": "2026-10-30",
+     "id": "2026-10-30-china-stock-market-crash-wipes-out-rs-329-lakh-crore",
+     "date": "2026-10-30",
+     "rank": 2
+    },
+    {
+     "title": "US Tech Stocks Fall Sharply Over Rising Artificial Intelligence Costs",
+     "one_liner": "US tech stocks tumbled for the second consecutive day as investors grew concerned over the hundreds of billions of dollars firms are spending on artificial intelligence.",
+     "summary": "US tech stocks tumbled for the second day in a row due to rising concerns over the massive amounts of money firms are investing in artificial intelligence. Major companies including Meta, Alphabet, Oracle, Amazon, and Microsoft committed to spending $800.6bn between them in 2026. Alphabet shares plunged after it revealed its AI search summaries hurt core search advertising revenue, while Intel shares plummeted after forecasting weaker revenue. Amazon shares also dropped after reported earnings missed expectations and cash spending increased significantly.",
+     "eli5": "Tech companies are spending massive amounts of money to build new computer brain technology, but investors are worried they are spending more than they will ever make back.",
+     "why_it_matters": "Financial pressure on major infrastructure spenders could alter resource availability and spending timelines for AI engineering teams.",
+     "topic": "industry",
+     "type": "event",
+     "labs": [
+      "google",
+      "microsoft",
+      "meta",
+      "other"
+     ],
+     "people": [],
+     "concepts": [
+      "hyperscaler"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "US tech stocks see sharp falls over AI cost fears",
+       "url": "https://www.bbc.co.uk/news/articles/cvwy72e0n72yo",
+       "name": "bbc.co.uk",
+       "kind": "press"
+      },
+      {
+       "title": "Discussion on Hacker News",
+       "url": "https://news.ycombinator.com/item?id=50306008",
+       "name": "Hacker News",
+       "kind": "discussion"
+      },
+      {
+       "title": "Google value plunges by $500B as AI fears rattle Wall Street",
+       "url": "https://www.bbc.com/news/articles/cm9qzdqpxy48o",
+       "name": "bbc.com",
+       "kind": "press"
+      },
+      {
+       "title": "Discussion on Hacker News",
+       "url": "https://news.ycombinator.com/item?id=50297037",
+       "name": "Hacker News",
+       "kind": "discussion"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-10-29T22:22:13Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "US tech stocks fell sharply on AI cost fears, with Google reported to have lost about $500B in value.",
+     "rank": 3,
+     "id": "2026-10-30-us-tech-stocks-fall-sharply-over-rising-artificial-intellige",
+     "date": "2026-10-30"
+    },
+    {
+     "title": "Sam Altman says it is 'quite terrible' for DRAM to sit in home PCs, sparking a local-AI debate",
+     "one_liner": "In a podcast interview, Altman argued that scarce memory is better used in data centers than in personal computers that use it 5% of the time.",
+     "summary": "In an interview on the Cheeky Pint YouTube channel, OpenAI CEO Sam Altman was asked about running open models locally on home computers. \"From a global allocation perspective, actually, it's quite terrible to have everybody have a bunch of the world's limited supply of DRAM sitting in their own computer and being used 5% of the time,\" he said. \"You want maximum utilization in the cloud if you're trying to deal with this very supply-constrained environment.\" Tom's Hardware notes that OpenAI's main business is closed models running in data centers, and that the remarks feed enthusiast fears of having to rent an agent and a computer in the cloud rather than owning their own. The interview also covered the PHP vulnerabilities, sandboxing models during training and OpenAI's maths research.",
+     "eli5": "Altman says computer memory is scarce, so it should sit in big shared data centers that use it all the time rather than in home computers that use it only a little.",
+     "why_it_matters": "The comment touches a live question for builders: whether useful AI will run on hardware people own or mostly be rented from the cloud.",
+     "topic": "industry",
+     "type": "event",
+     "labs": [
+      "openai"
+     ],
+     "concepts": [
+      "inference"
+     ],
+     "sources": [
+      {
+       "title": "OpenAI CEO says it's 'quite terrible' for your PC to have RAM",
+       "url": "https://www.tomshardware.com/tech-industry/data-centers/openai-ceo-says-its-quite-terrible-for-your-pc-to-have-ram-sam-altman-says-data-centers-offer-better-utilization",
+       "name": "Tom's Hardware",
+       "kind": "press"
+      },
+      {
+       "title": "Cheeky Pint interview with Sam Altman",
+       "url": "https://cheekypint.substack.com/p/why-sam-altman-is-against-a-single",
+       "name": "Cheeky Pint",
+       "kind": "original"
+      }
+     ],
+     "buzz": 2,
+     "published": "2026-10-30T10:00:00Z",
+     "editor_reason": "A viral take from OpenAI's CEO on local versus cloud inference.",
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "people": [],
+     "checked": {
+      "model": "editor (written by hand from the source)",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "id": "2026-10-30-sam-altman-says-it-is-quite-terrible-for-dram-to-sit-in-home",
+     "date": "2026-10-30",
+     "rank": 4
+    },
+    {
+     "title": "Google Reports Prototype Suncatcher Data Center Satellite is Online",
+     "one_liner": "Google launched its first prototype data center satellite, Suncatcher, which is currently online and running inference workloads in space.",
+     "summary": "Google's first prototype space data center satellite, Suncatcher, is online and communicating with the ground. It launched earlier this month on a SpaceX Falcon 9 rocket alongside more than 100 other spacecraft. The satellite carries four Google Tensor Processing Units and generates up to 1 kW of electricity. Due to power demands, it can only run one TPU for about 20 minutes at a time. Engineers tested the onboard Google DeepMind Gemma 4 model by asking it to write a haiku about being in space. The ongoing test campaign will examine how the chips perform under thermal stress and in the space radiation environment.",
+     "eli5": "Google put a tiny computer with special chips into a satellite in space, and it successfully wrote a poem about being up there.",
+     "why_it_matters": "Hardware performance under space radiation will determine whether orbital data centers can handle large inference workloads in the future.",
+     "topic": "industry",
+     "type": "event",
+     "labs": [
+      "google"
+     ],
+     "people": [],
+     "concepts": [
+      "inference",
+      "small-language-model"
+     ],
+     "spotlight": true,
+     "spotlight_reason": "A TPU running a Gemma 4 model aboard a data center satellite is a new kind of compute deployment, not a larger version of an existing one.",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "Google’s first data center satellite is online and writing poetry",
+       "url": "https://techcrunch.com/2026/10/30/googles-first-data-center-satellite-is-online-and-writing-poetry/",
+       "name": "TechCrunch AI",
+       "kind": "press"
+      },
+      {
+       "title": "Google says its Suncatcher prototype data center satellite is online after an October 1 launch, with Gemma 4 generating a haiku about being in space (Tim Fernholz/TechCrunch)",
+       "url": "https://www.techmeme.com/261030/p18#a261030p18",
+       "name": "Techmeme",
+       "kind": "press"
+      }
+     ],
+     "buzz": 2,
+     "published": "2026-10-30T17:00:00Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "Google says its Suncatcher prototype satellite is online after an October 1 launch, running a Gemma 4 model on a TPU in space.",
+     "rank": 5,
+     "id": "2026-10-30-google-reports-prototype-suncatcher-data-center-satellite-is",
+     "date": "2026-10-30"
+    },
+    {
+     "title": "OpenAI will honor a shared robots.txt signal for opting out of AI training",
+     "one_liner": "OpenAI says it will respect a common robots.txt signal, drawn from IETF work, that lets sites state their AI training preference to many providers at once.",
+     "summary": "OpenAI announced it will honor a common signal in robots.txt that lets websites express their preferences about the use of their content for foundational generative AI training. Until now, site operators had to identify each provider's crawler and keep separate rules for each; a shared signal lets them state one preference to all participating providers. OpenAI says it aims to implement the signal in the coming months and will share details then, and that its existing crawler controls in robots.txt will keep applying. The signal draws on the IETF AI Preferences working group, and OpenAI is joining other participants in announcing it. OpenAI encouraged other AI providers to honor it too.",
+     "eli5": "Websites will be able to put one note in a standard file to tell many AI companies at once how they feel about their pages being used for AI training.",
+     "why_it_matters": "If several AI providers honor one robots.txt signal, publishers no longer need separate rules for every AI crawler to state their training preference.",
+     "topic": "policy",
+     "type": "event",
+     "labs": [
+      "openai"
+     ],
+     "concepts": [],
+     "sources": [
+      {
+       "title": "Making it easier for websites to express AI training preferences",
+       "url": "https://openai.com/index/helping-websites-express-ai-training-preferences",
+       "name": "OpenAI",
+       "kind": "original"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-10-30T09:30:00Z",
+     "editor_reason": "A practical change for anyone publishing on the web: one signal for AI training preferences across providers.",
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "people": [],
+     "checked": {
+      "model": "editor (written by hand from the source)",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "id": "2026-10-30-openai-will-honor-a-shared-robots-txt-signal-for-opting-out",
+     "date": "2026-10-30",
+     "rank": 6
+    },
+    {
+     "title": "Google Adds File Generation and Editing to Gemini Chats",
+     "one_liner": "Google now lets users generate, preview, and edit files like Google Docs directly within Gemini chats.",
+     "summary": "Google has launched new file editing capabilities for all Gemini users. Users can now generate, preview, and edit PDFs, Google Docs, Google Sheets, slide decks, Markdown files, TXT files, and code directly within Google Gemini. PDF previews and editing work on both the web and mobile, while other file formats are currently limited to the web version. Users can expand documents into full-screen mode, highlight text to ask questions, or prompt Gemini to make changes. Anthropic launched a similar feature earlier this year in Claude chats.",
+     "eli5": "You can now write and draw pictures with your robot friend on paper, and then tell the robot to change the words or turn a table into a picture without starting a new notebook.",
+     "why_it_matters": "Editing files directly inside chat interfaces reduces context switching during document creation workflows.",
+     "topic": "products",
+     "type": "product",
+     "labs": [
+      "google",
+      "anthropic"
+     ],
+     "people": [],
+     "concepts": [
+      "chatbot",
+      "tool-use"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "You can generate and edit Google Docs files directly in Gemini chats now",
+       "url": "https://www.theverge.com/ai-artificial-intelligence/1022519/google-gemini-file-editing-documents-pdfs",
+       "name": "The Verge AI",
+       "kind": "press"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-10-29T18:45:31Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "Gemini chats can now generate, preview and edit Google Docs, Sheets, slides, PDFs, Markdown and code files directly.",
+     "rank": 7,
+     "id": "2026-10-30-google-adds-file-generation-and-editing-to-gemini-chats",
+     "date": "2026-10-30"
+    },
+    {
+     "title": "Goldman Says Early AI Job Displacements Resemble Past Tech Waves",
+     "one_liner": "Goldman Sachs reports that workers displaced from AI-exposed jobs since 2025 face longer unemployment spells, particularly older employees.",
+     "summary": "Goldman Sachs published a note examining four decades of technology-related job displacements. Economist Pierfrancesco Mei analyzed government survey data covering workers who lost jobs between 2016 and 2025. The analysis suggests that workers displaced from AI-exposed jobs since 2025 took about a month longer to find new work than other displaced workers. They were also about 10 percentage points more likely to remain unemployed after one year. Workers aged 35 and older experienced longer delays in returning to full-time work compared to younger employees. Goldman cautioned that it is still too early to assess the impact along all dimensions.",
+     "eli5": "Some workers are taking longer to find new jobs after technology changes, much like people who have to change how they work when new tools arrive.",
+     "why_it_matters": "Understanding displacement patterns helps teams anticipate workforce adjustments as automation tools deploy across industries.",
+     "topic": "industry",
+     "type": "event",
+     "labs": [
+      "academia",
+      "government",
+      "other"
+     ],
+     "people": [],
+     "concepts": [],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "Goldman says AI layoffs are starting to leave a 'long-lasting' scar, just like the last 40 years of history | Fortune",
+       "url": "https://fortune.com/2026/10/30/goldman-sachs-ai-layoffs-displaced-workers-older-workers-past-tech-disruptions/",
+       "name": "Fortune",
+       "kind": "press"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-10-30T19:07:03Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 2,
+      "hype_flags": []
+     },
+     "editor_reason": "Added by the editor after the nightly run missed it.",
+     "added_by_editor": "2026-10-30",
+     "id": "2026-10-30-goldman-says-early-ai-job-displacements-resemble-past-tech-w",
+     "date": "2026-10-30",
+     "rank": 8
+    },
+    {
+     "title": "Blackstone Says Anthropic May Not Secure Investment-Grade Rating After IPO",
+     "one_liner": "Blackstone says Anthropic may not secure an investment-grade rating after an initial public offering.",
+     "summary": "Blackstone says Anthropic may not secure an investment-grade rating after an initial public offering. This report comes from Hacker News. The source text only notes that Blackstone states Anthropic may not secure this specific rating threshold following an IPO.",
+     "eli5": "Anthropic might not reach a certain financial score after selling shares to the public, according to Blackstone.",
+     "why_it_matters": "Financial evaluations by firms like Blackstone can influence market perceptions of companies building artificial intelligence.",
+     "topic": "industry",
+     "type": "event",
+     "labs": [
+      "anthropic"
+     ],
+     "people": [],
+     "concepts": [],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "Anthropic may not secure investment-grade rating after IPO, Blackstone says",
+       "url": "https://www.ft.com/content/59383c7f-8d82-493f-bf01-d2e862a1018f",
+       "name": "ft.com",
+       "kind": "press"
+      },
+      {
+       "title": "Discussion on Hacker News",
+       "url": "https://news.ycombinator.com/item?id=50307219",
+       "name": "Hacker News",
+       "kind": "discussion"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-10-30T17:27:25Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 2,
+      "hype_flags": []
+     },
+     "editor_reason": "Blackstone says Anthropic may not get an investment-grade rating after its IPO, a signal on how finance views AI lab debt.",
+     "rank": 9,
+     "id": "2026-10-30-blackstone-says-anthropic-may-not-secure-investment-grade-ra",
+     "date": "2026-10-30"
+    },
+    {
+     "title": "Amazon CEO Jassy Says AWS Can Reach One Trillion Dollars",
+     "one_liner": "Amazon CEO Andy Jassy says AWS can reach a trillion dollars in revenue, but the company must spend heavily on infrastructure first.",
+     "summary": "Amazon CEO Andy Jassy stated during a quarterly earnings call that AWS can become a trillion-dollar revenue business. To support this growth, Amazon expects 2026 cash capex of approximately $220 billion, with the majority going toward AWS, and expects to spend meaningfully more in 2027. AWS revenue increased 39% from the year-ago quarter, marking steady growth for the sixth straight quarter. Jassy forecast that AWS revenue would increase by more than 40% in both 2027 and 2028. Despite investor concerns about the heavy spending, which caused shares to drop about 6% in after-market trading, Jassy defended the investments as a necessary commitment to capture global AI cloud demand.",
+     "eli5": "Amazon wants to build a giant toy store, but it has to spend a lot of money first to build the big warehouse and roads needed to make it happen.",
+     "why_it_matters": "Massive capital expenditure by cloud providers signals that infrastructure capacity will expand to support heavier enterprise workloads.",
+     "topic": "industry",
+     "type": "event",
+     "labs": [
+      "microsoft",
+      "other"
+     ],
+     "people": [],
+     "concepts": [
+      "hyperscaler"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "AWS will be a $1T business, Jassy says, but first, it will spend big",
+       "url": "https://techcrunch.com/2026/10/29/aws-will-be-a-1t-business-jassy-says-but-first-it-will-spend-big/",
+       "name": "TechCrunch AI",
+       "kind": "press"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-10-29T23:42:22Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "Amazon CEO Andy Jassy says AWS can become a $1T business, but only with continued heavy capex on AI cloud capacity.",
+     "rank": 10,
+     "id": "2026-10-30-amazon-ceo-jassy-says-aws-can-reach-one-trillion-dollars",
+     "date": "2026-10-30"
+    },
+    {
+     "title": "Thrive Holdings Acquires ADT for $15.3 Billion",
+     "one_liner": "OpenAI-backed Thrive Holdings is buying physical security company ADT in a $15.3 billion deal to build a smart home security business.",
+     "summary": "Thrive Holdings acquired physical security company ADT for $10 per share or about $7.6 billion in equity. The total enterprise value of the deal is $15.3 billion. Thrive Holdings is a holding company spinout from Josh Kushner’s VC firm Thrive Capital. It counts OpenAI as its partner and investor. Thrive Holdings says it holds over 75 companies. Its mission is to hold companies long-term and revitalize them with AI. OpenAI supplies AI models, technology, and forward-deployed engineers to Thrive companies. ADT will form the foundation of Thrive Holdings' smart home security business, and the companies plan to invest and release new products.",
+     "eli5": "A big investment group that works with artificial intelligence is buying a security company so it can add smart technology to home alarms. It is like buying an old house to fill it with brand new smart lights and gadgets.",
+     "why_it_matters": "Holding companies can acquire traditional physical security businesses and use partner AI models to release new smart home products.",
+     "topic": "industry",
+     "type": "event",
+     "labs": [
+      "openai"
+     ],
+     "people": [],
+     "concepts": [],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "OpenAI-backed Thrive Holdings acquires ADT",
+       "url": "https://techcrunch.com/2026/10/29/openai-backed-thrive-holdings-acquires-adt/",
+       "name": "TechCrunch AI",
+       "kind": "press"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-10-29T19:56:19Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 2,
+      "hype_flags": []
+     },
+     "editor_reason": "OpenAI-backed Thrive Holdings is buying ADT in a $15.3 billion deal, with plans to bring AI to home security.",
+     "rank": 11,
+     "id": "2026-10-30-thrive-holdings-acquires-adt-for-15-3-billion",
+     "date": "2026-10-30"
+    },
+    {
+     "title": "OpenAI Announces Community Safety Report and New Teen Protections",
+     "one_liner": "OpenAI is adding new restrictions on firearms content, automated chat interventions for violent fixation, and a recurring Community Safety Report.",
+     "summary": "OpenAI announced new safety measures for ChatGPT, including restrictions on firearms content and practical information about weapons and security systems for minors. The company made over 200 law enforcement referrals in Q3 2026 for imminent threats of violence. ChatGPT will also feature automated chat endings and temporary account pauses when a conversation shows signs of violence fixation. Additionally, OpenAI committed to publishing a recurring Community Safety Report starting in early 2027 to share findings on violence prevention, mitigation strategies, and safeguard effectiveness.",
+     "eli5": "ChatGPT is learning to spot when someone is talking about doing harm, and it can automatically stop the chat to keep everyone safe.",
+     "why_it_matters": "Safety measures for younger users and automated interventions require specific technical handling of user chats and age prediction signals.",
+     "topic": "policy",
+     "type": "event",
+     "labs": [
+      "openai"
+     ],
+     "people": [],
+     "concepts": [
+      "ai-safety",
+      "chatbot"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "Community safety report and new protections for teens",
+       "url": "https://openai.com/index/community-safety-report-and-new-protections-for-teens",
+       "name": "OpenAI News",
+       "kind": "original"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-10-30T09:00:00Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 2,
+      "hype_flags": []
+     },
+     "editor_reason": "OpenAI is expanding ChatGPT safeguards against violence and teen harm, and is committing to public safety reporting.",
+     "rank": 12,
+     "id": "2026-10-30-openai-announces-community-safety-report-and-new-teen-protec",
+     "date": "2026-10-30"
+    },
+    {
+     "title": "ChatGPT Desktop App Now Available on Amazon Bedrock in AWS GovCloud",
+     "one_liner": "Organizations can use the ChatGPT desktop app with Amazon Bedrock in AWS GovCloud using IAM and Regional network controls.",
+     "summary": "The ChatGPT desktop app is now available on Amazon Bedrock in AWS GovCloud, providing access to OpenAI frontier models through Work and Codex components. Work handles complex, multi-step tasks, while Codex acts as a coding agent for software development. This configuration routes model requests through Amazon Bedrock Mantle in us-gov-west-1, allowing access to be governed using AWS Identity and Access Management and existing network controls. Processing stays within the selected AWS Region for data residency requirements, and zero data retention is supported where prompts and responses are not written to durable storage.",
+     "eli5": "Like using a special calculator that only works inside a secure clubhouse and never shares your homework with outsiders.",
+     "why_it_matters": "Security architectures can route model inference through AWS GovCloud identities and endpoints while maintaining data residency requirements.",
+     "topic": "products",
+     "type": "product",
+     "labs": [
+      "openai"
+     ],
+     "people": [],
+     "concepts": [
+      "coding-assistant",
+      "agent",
+      "inference"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "Configure the ChatGPT desktop app with Amazon Bedrock in AWS GovCloud (US)",
+       "url": "https://aws.amazon.com/blogs/machine-learning/configure-the-chatgpt-desktop-app-with-amazon-bedrock-in-aws-govcloud-us/",
+       "name": "AWS Machine Learning Blog",
+       "kind": "original"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-10-30T17:27:45Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 2,
+      "hype_flags": []
+     },
+     "editor_reason": "The ChatGPT desktop app is now available on Amazon Bedrock in AWS GovCloud (US), opening OpenAI models to regulated government workloads.",
+     "rank": 13,
+     "id": "2026-10-30-chatgpt-desktop-app-now-available-on-amazon-bedrock-in-aws-g",
+     "date": "2026-10-30"
+    },
+    {
+     "title": "GitHub Universe 2026 Highlights Developer Community and Agentic Software Delivery",
+     "one_liner": "GitHub Universe 2026 highlighted agentic software delivery, featuring Copilot Fusion and more than 150 sessions in San Francisco.",
+     "summary": "GitHub Universe 2026 took place at the Fort Mason Center for Arts and Culture in San Francisco. The two-day event focused on the developer community and the rise of agentic software delivery. Executive Vice President of CoreAI Jay Parikh outlined a vision for GitHub as an end-to-end software delivery system. The opening keynote featured many announcements and demos, with Copilot Fusion receiving major attention. The annual Octoverse report was also released, detailing platform scaling over the past year. The event included over 150 sessions covering agentic workflows, enterprise security, and token context management.",
+     "eli5": "GitHub hosted a big conference where builders gathered to learn how smart computer agents can help write and manage software programs automatically.",
+     "why_it_matters": "Software development shifts from a linear path to an agentic system that solves for velocity, intelligence, and quality.",
+     "topic": "dev-tools",
+     "type": "event",
+     "labs": [
+      "microsoft"
+     ],
+     "people": [],
+     "concepts": [
+      "agent",
+      "copilot",
+      "context-window"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "GitHub Universe 2026: Highlights from the developer’s developer conference",
+       "url": "https://commandline.microsoft.com/github-universe-2026-recap/",
+       "name": "Microsoft Command Line",
+       "kind": "original"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-10-29T18:34:49Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "GitHub Universe 2026 brought major product releases and the annual Octoverse report on developer activity.",
+     "rank": 14,
+     "id": "2026-10-30-github-universe-2026-highlights-developer-community-and-agen",
+     "date": "2026-10-30"
+    },
+    {
+     "title": "Microsoft Fabric introduces variable library support for Eventstream in preview",
+     "one_liner": "Microsoft Fabric released variable library integration for Eventstream in preview, allowing teams to reuse eventstream definitions across environments.",
+     "summary": "Microsoft Fabric has introduced variable library support for Eventstream in preview. This integration lets teams reuse the same eventstream definition across development, test, and production environments without manual reconfiguration. Instead of entering environment-specific connection details directly into an eventstream, teams create variables in a workspace-level variable library. The eventstream then references these variables for sources and destinations. These references are preserved through Git integration and deployment pipelines, supporting connection-reference and item-reference variable types.",
+     "eli5": "You can use a master recipe to bake cookies in different kitchens by letting the recipe look up where the oven is located in each specific kitchen.",
+     "why_it_matters": "Moving data pipelines between environments requires less manual work when connection details are stored in workspace-level libraries.",
+     "topic": "microsoft",
+     "type": "product",
+     "labs": [
+      "microsoft"
+     ],
+     "people": [],
+     "concepts": [
+      "microsoft-fabric"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [
+      {
+       "term": "variable library",
+       "definition": "An item type in Microsoft Fabric that provides a centralized way to define and manage configuration values at the workspace level."
+      }
+     ],
+     "sources": [
+      {
+       "title": "Manage once, reuse everywhere: Introducing variable library support for Eventstream (Preview)",
+       "url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Manage-once-reuse-everywhere-Introducing-variable-library/ba-p/5377349",
+       "name": "Microsoft Fabric Blog",
+       "kind": "original"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-10-29T18:20:11Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "Variable library support for Eventstream in Fabric (Preview) lets teams move real-time pipelines from dev to test to production without reconfiguring each source and destination.",
+     "rank": 15,
+     "id": "2026-10-30-microsoft-fabric-introduces-variable-library-support-for-eve",
+     "date": "2026-10-30"
+    }
+   ],
+   "stats": {
+    "items": 73,
+    "stories": 68,
+    "sources_ok": 42,
+    "sources_failed": [],
+    "published": 14,
+    "dropped": 2,
+    "llm_calls": 30,
+    "cache_hits": 7,
+    "models": {
+     "gemini:gemini-3.5-flash-lite": 15,
+     "anthropic:claude-sonnet-5-5": 15
+    },
+    "fallbacks": [
+     {
+      "tag": "checker",
+      "used": "anthropic:claude-sonnet-5-5",
+      "after": [
+       "anthropic:claude-sonnet-5-5: bad JSON (JSONDecodeError)"
+      ]
+     }
+    ],
+    "seconds": 110
    }
   }
  }

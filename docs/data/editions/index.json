@@ -1,6 +1,20 @@
 {
  "editions": [
   {
+   "date": "2026-10-30",
+   "file": "2026-10.json",
+   "count": 15,
+   "spotlight": 1,
+   "lead": "A backdoored Claude Code extension sat on Cursor's marketplace for about 11 hours"
+  },
+  {
+   "date": "2026-10-29",
+   "file": "2026-10.json",
+   "count": 12,
+   "spotlight": 0,
+   "lead": "Mistral releases open weights for Mistral Large 4 'Le Chonk'"
+  },
+  {
    "date": "2026-10-28",
    "file": "2026-10.json",
    "count": 15,
@@ -10,7 +24,7 @@
   {
    "date": "2026-10-27",
    "file": "2026-10.json",
-   "count": 17,
+   "count": 18,
    "spotlight": 1,
    "lead": "Google DeepMind's Genie 4 world model adds audio, more realistic worlds and real-time steering"
   },
@@ -148,6 +162,6 @@
    "lead": "Anthropic Releases Claude Haiku 5.5 and AWS Integration"
   }
  ],
- "latest": "2026-10-28",
- "updated": "2026-10-28T18:54:57Z"
+ "latest": "2026-10-30",
+ "updated": "2026-10-30T19:07:03Z"
 }

@@ -532,97 +532,6 @@
   "source": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Connect-coding-agents-to-Fabric-notebooks-with-FNTK-Preview/ba-p/5375986"
  },
  {
-  "term": "Model Context Protocol",
-  "definition": "A protocol that allows third-party AI agents to plug into Keynote, Pages, and Numbers.",
-  "first_seen": "2026-10-27",
-  "story": "2026-10-27-apple-adds-ai-assistant-to-productivity-and-creative-apps",
-  "source": "https://www.theverge.com/tech/1019373/apple-pages-keynote-numbers-ai-chatbot-update"
- },
- {
-  "term": "Exponential Time Hypothesis",
-  "definition": "A durable assumption in computer science stating that even the fastest computer algorithm needs exponentially more time to find a solution as the number of variables grow in a specific class of tricky logic puzzle.",
-  "first_seen": "2026-10-27",
-  "story": "2026-10-27-frontier-ai-labs-claim-their-models-refuted-the-exponential",
-  "source": "https://techcrunch.com/2026/10/27/frontier-ai-labs-say-their-models-refuted-the-exponential-time-hypothesis-what-does-that-mean/"
- },
- {
-  "term": "P vs NP",
-  "definition": "A broader class of problems trying to understand if any problem whose solution can be easily verified can also be easily solved.",
-  "first_seen": "2026-10-27",
-  "story": "2026-10-27-frontier-ai-labs-claim-their-models-refuted-the-exponential",
-  "source": "https://techcrunch.com/2026/10/27/frontier-ai-labs-say-their-models-refuted-the-exponential-time-hypothesis-what-does-that-mean/"
- },
- {
-  "term": "multi-agent systems",
-  "definition": "Model size, reasoning effort, and multi-agent systems are distinct dimensions that make model names difficult to simplify.",
-  "first_seen": "2026-10-27",
-  "story": "2026-10-27-openai-s-ted-sanders-shares-rule-of-thumb-for-gpt-models",
-  "source": "https://the-decoder.com/openais-ted-sanders-shares-a-rule-of-thumb-for-picking-the-right-gpt-model/"
- },
- {
-  "term": "WebAI",
-  "definition": "A new web standard designed to work with a variety of AI models directly in the browser.",
-  "first_seen": "2026-10-27",
-  "story": "2026-10-27-opera-introduces-webai-standard-to-run-local-ai",
-  "source": "https://techcrunch.com/2026/10/27/opera-introduces-a-new-web-standard-to-let-users-deploy-ai-locally-in-their-browser/"
- },
- {
-  "term": "Intermediate Work Activities",
-  "definition": "Commonly-used categories of tasks for the kinds of work people do across occupations.",
-  "first_seen": "2026-10-27",
-  "story": "2026-10-27-openai-releases-signals-data-on-chatgpt-work-activities",
-  "source": "https://openai.com/index/chatgpt-expanding-world-of-work/"
- },
- {
-  "term": "OpenAI Signals",
-  "definition": "An ongoing effort to share evidence about how people use artificial intelligence.",
-  "first_seen": "2026-10-27",
-  "story": "2026-10-27-openai-releases-signals-data-on-chatgpt-work-activities",
-  "source": "https://openai.com/index/chatgpt-expanding-world-of-work/"
- },
- {
-  "term": "disaggregated prefill decode mode",
-  "definition": "A configuration where a pool of prefill GPUs processes the prompt and produces the model cache, then hands it over to a pool of decode GPUs that generate the response.",
-  "first_seen": "2026-10-27",
-  "story": "2026-10-27-report-details-cross-request-kv-cache-exposure-in-glm-5-3-mo",
-  "source": "https://blog.cloudflare.com/kv-cache-exposure-remediation/"
- },
- {
-  "term": "bare metal",
-  "definition": "Raw servers with no software layered on top.",
-  "first_seen": "2026-10-27",
-  "story": "2026-10-27-general-compute-raises-100-million-series-a-funding",
-  "source": "https://techcrunch.com/2026/10/27/general-compute-raises-100-million-series-a-countering-the-neocloud-disaster-narrative/"
- },
- {
-  "term": "inference chips",
-  "definition": "Specialized chips built by Nvidia rivals used to run AI models.",
-  "first_seen": "2026-10-27",
-  "story": "2026-10-27-general-compute-raises-100-million-series-a-funding",
-  "source": "https://techcrunch.com/2026/10/27/general-compute-raises-100-million-series-a-countering-the-neocloud-disaster-narrative/"
- },
- {
-  "term": "semantic metadata",
-  "definition": "Metadata used for exchanging semantic context across analytics, AI, and BI platforms.",
-  "first_seen": "2026-10-27",
-  "story": "2026-10-27-microsoft-and-snowflake-commit-to-apache-ossie-semantic-stan",
-  "source": "https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Microsoft-Snowflake-s-Commitment-to-Apache-Ossie/ba-p/5369534"
- },
- {
-  "term": "webpage monitoring",
-  "definition": "A feature that allows users to ask a browser to watch a certain webpage for sales, new job listings, and other updates.",
-  "first_seen": "2026-10-27",
-  "story": "2026-10-27-firefox-updates-smart-window-with-ai-form-filling-and-monito",
-  "source": "https://www.theverge.com/ai-artificial-intelligence/1019551/firefox-smart-window-ai-fill-forms"
- },
- {
-  "term": "proactive research",
-  "definition": "A feature where the agent thinks about what it knows, what conversations it has had, and what resources it can access to propose helpful actions.",
-  "first_seen": "2026-10-27",
-  "story": "2026-10-27-openai-released-dots-an-always-on-personal-assistant",
-  "source": "https://techcrunch.com/2026/10/26/how-openai-turned-its-coding-tools-into-dots-an-always-on-personal-assistant/"
- },
- {
   "term": "Decisions API",
   "definition": "An API that focuses intelligence on questions with bounded answers to help applications and agents make near real-time decisions from text, images, and structured inputs.",
   "first_seen": "2026-10-23",
@@ -740,5 +649,173 @@
   "first_seen": "2026-10-28",
   "story": "2026-10-28-thinking-in-bets-reduces-sycophantic-revisions-in-llm-agents",
   "source": "https://arxiv.org/abs/2610.34654"
+ },
+ {
+  "term": "Model Context Protocol",
+  "definition": "A protocol that allows third-party AI agents to plug into Keynote, Pages, and Numbers.",
+  "first_seen": "2026-10-27",
+  "story": "2026-10-27-apple-adds-ai-assistant-to-productivity-and-creative-apps",
+  "source": "https://www.theverge.com/tech/1019373/apple-pages-keynote-numbers-ai-chatbot-update"
+ },
+ {
+  "term": "Exponential Time Hypothesis",
+  "definition": "A durable assumption in computer science stating that even the fastest computer algorithm needs exponentially more time to find a solution as the number of variables grow in a specific class of tricky logic puzzle.",
+  "first_seen": "2026-10-27",
+  "story": "2026-10-27-frontier-ai-labs-claim-their-models-refuted-the-exponential",
+  "source": "https://techcrunch.com/2026/10/27/frontier-ai-labs-say-their-models-refuted-the-exponential-time-hypothesis-what-does-that-mean/"
+ },
+ {
+  "term": "P vs NP",
+  "definition": "A broader class of problems trying to understand if any problem whose solution can be easily verified can also be easily solved.",
+  "first_seen": "2026-10-27",
+  "story": "2026-10-27-frontier-ai-labs-claim-their-models-refuted-the-exponential",
+  "source": "https://techcrunch.com/2026/10/27/frontier-ai-labs-say-their-models-refuted-the-exponential-time-hypothesis-what-does-that-mean/"
+ },
+ {
+  "term": "WebAI",
+  "definition": "A new web standard designed to work with a variety of AI models directly in the browser.",
+  "first_seen": "2026-10-27",
+  "story": "2026-10-27-opera-introduces-webai-standard-to-run-local-ai",
+  "source": "https://techcrunch.com/2026/10/27/opera-introduces-a-new-web-standard-to-let-users-deploy-ai-locally-in-their-browser/"
+ },
+ {
+  "term": "multi-agent systems",
+  "definition": "Model size, reasoning effort, and multi-agent systems are distinct dimensions that make model names difficult to simplify.",
+  "first_seen": "2026-10-27",
+  "story": "2026-10-27-openai-s-ted-sanders-shares-rule-of-thumb-for-gpt-models",
+  "source": "https://the-decoder.com/openais-ted-sanders-shares-a-rule-of-thumb-for-picking-the-right-gpt-model/"
+ },
+ {
+  "term": "Intermediate Work Activities",
+  "definition": "Commonly-used categories of tasks for the kinds of work people do across occupations.",
+  "first_seen": "2026-10-27",
+  "story": "2026-10-27-openai-releases-signals-data-on-chatgpt-work-activities",
+  "source": "https://openai.com/index/chatgpt-expanding-world-of-work/"
+ },
+ {
+  "term": "OpenAI Signals",
+  "definition": "An ongoing effort to share evidence about how people use artificial intelligence.",
+  "first_seen": "2026-10-27",
+  "story": "2026-10-27-openai-releases-signals-data-on-chatgpt-work-activities",
+  "source": "https://openai.com/index/chatgpt-expanding-world-of-work/"
+ },
+ {
+  "term": "disaggregated prefill decode mode",
+  "definition": "A configuration where a pool of prefill GPUs processes the prompt and produces the model cache, then hands it over to a pool of decode GPUs that generate the response.",
+  "first_seen": "2026-10-27",
+  "story": "2026-10-27-report-details-cross-request-kv-cache-exposure-in-glm-5-3-mo",
+  "source": "https://blog.cloudflare.com/kv-cache-exposure-remediation/"
+ },
+ {
+  "term": "bare metal",
+  "definition": "Raw servers with no software layered on top.",
+  "first_seen": "2026-10-27",
+  "story": "2026-10-27-general-compute-raises-100-million-series-a-funding",
+  "source": "https://techcrunch.com/2026/10/27/general-compute-raises-100-million-series-a-countering-the-neocloud-disaster-narrative/"
+ },
+ {
+  "term": "inference chips",
+  "definition": "Specialized chips built by Nvidia rivals used to run AI models.",
+  "first_seen": "2026-10-27",
+  "story": "2026-10-27-general-compute-raises-100-million-series-a-funding",
+  "source": "https://techcrunch.com/2026/10/27/general-compute-raises-100-million-series-a-countering-the-neocloud-disaster-narrative/"
+ },
+ {
+  "term": "webpage monitoring",
+  "definition": "A feature that allows users to ask a browser to watch a certain webpage for sales, new job listings, and other updates.",
+  "first_seen": "2026-10-27",
+  "story": "2026-10-27-firefox-updates-smart-window-with-ai-form-filling-and-monito",
+  "source": "https://www.theverge.com/ai-artificial-intelligence/1019551/firefox-smart-window-ai-fill-forms"
+ },
+ {
+  "term": "semantic metadata",
+  "definition": "Metadata used for exchanging semantic context across analytics, AI, and BI platforms.",
+  "first_seen": "2026-10-27",
+  "story": "2026-10-27-microsoft-and-snowflake-commit-to-apache-ossie-semantic-stan",
+  "source": "https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Microsoft-Snowflake-s-Commitment-to-Apache-Ossie/ba-p/5369534"
+ },
+ {
+  "term": "Model Spec",
+  "definition": "A public description of how OpenAI wants its models to behave.",
+  "first_seen": "2026-10-29",
+  "story": "2026-10-29-openai-updates-model-spec-around-five-core-values",
+  "source": "https://openai.com/index/updated-model-spec/"
+ },
+ {
+  "term": "Workspace Trust",
+  "definition": "A prompt that asks a developer to trust a project folder before opening it.",
+  "first_seen": "2026-10-29",
+  "story": "2026-10-29-report-researchers-break-built-in-browsers-in-five-ai-coding",
+  "source": "https://www.helpnetsecurity.com/2026/10/29/research-ai-assistant-browser-vulnerabilities/"
+ },
+ {
+  "term": "self-assessment",
+  "definition": "A technique that lets Claude give a preliminary safety assessment of each conversation right after it responds.",
+  "first_seen": "2026-10-29",
+  "story": "2026-10-29-anthropic-introduces-self-assessment-technique-for-misuse-de",
+  "source": "https://safeguards.anthropic.com/2026/self-assessment/"
+ },
+ {
+  "term": "prompted classifier",
+  "definition": "A separate model that is given policies and the conversation in its prompt to act as an automated classifier.",
+  "first_seen": "2026-10-29",
+  "story": "2026-10-29-anthropic-introduces-self-assessment-technique-for-misuse-de",
+  "source": "https://safeguards.anthropic.com/2026/self-assessment/"
+ },
+ {
+  "term": "sovereign AI",
+  "definition": "Artificial intelligence that provides organizations with greater control over their data, infrastructure, governance, and deployment environments.",
+  "first_seen": "2026-10-29",
+  "story": "2026-10-29-cohere-announces-series-e-fundraise-targeting-cad-7-billion",
+  "source": "https://www.prnewswire.com/news-releases/cohere-announces-series-e-fundraise-targeting-cad-7-billion-to-meet-surging-global-demand-for-secure-sovereign-ai-302923951.html"
+ },
+ {
+  "term": "agentic AI platform",
+  "definition": "A platform called North that helps drive customer wins and expansions across commercial and public sector organizations.",
+  "first_seen": "2026-10-29",
+  "story": "2026-10-29-cohere-announces-series-e-fundraise-targeting-cad-7-billion",
+  "source": "https://www.prnewswire.com/news-releases/cohere-announces-series-e-fundraise-targeting-cad-7-billion-to-meet-surging-global-demand-for-secure-sovereign-ai-302923951.html"
+ },
+ {
+  "term": "activation probes",
+  "definition": "Lightweight classifiers that look for concerning patterns in the model's internal activations and pass flagged cases to the next layer for review.",
+  "first_seen": "2026-10-29",
+  "story": "2026-10-29-openai-expands-system-for-monitoring-frontier-model-misalign",
+  "source": "https://openai.com/index/how-we-detect-frontier-model-misalignment"
+ },
+ {
+  "term": "model-based reviewer",
+  "definition": "A reviewer that examines the agent's recent conversation, chain of thought, and tool use for signs of deception, unauthorized actions, and attempts to manipulate an evaluation.",
+  "first_seen": "2026-10-29",
+  "story": "2026-10-29-openai-expands-system-for-monitoring-frontier-model-misalign",
+  "source": "https://openai.com/index/how-we-detect-frontier-model-misalignment"
+ },
+ {
+  "term": "Bun preload",
+  "definition": "A mechanism that loads a script before running a Bun application without modifying the binary.",
+  "first_seen": "2026-10-29",
+  "story": "2026-10-29-fix-stops-claude-code-from-burning-tokens-on-status-lines",
+  "source": "https://gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce"
+ },
+ {
+  "term": "cross-paradigm on-policy distillation",
+  "definition": "A framework that transfers the visual understanding ability of autoregressive vision-language models and the visual generation ability of continuous flow models to a unified discrete diffusion large language model.",
+  "first_seen": "2026-10-29",
+  "story": "2026-10-29-researchers-propose-nemotron-labs-diffusion-uni-for-visual-t",
+  "source": "https://arxiv.org/abs/2610.36466"
+ },
+ {
+  "term": "progressive self-refining diffusion process",
+  "definition": "A process that gradually corrupts each token across multiple steps during training, enabling intermediate token commitments for better visual quality at inference.",
+  "first_seen": "2026-10-29",
+  "story": "2026-10-29-researchers-propose-nemotron-labs-diffusion-uni-for-visual-t",
+  "source": "https://arxiv.org/abs/2610.36466"
+ },
+ {
+  "term": "variable library",
+  "definition": "An item type in Microsoft Fabric that provides a centralized way to define and manage configuration values at the workspace level.",
+  "first_seen": "2026-10-30",
+  "story": "2026-10-30-microsoft-fabric-introduces-variable-library-support-for-eve",
+  "source": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Manage-once-reuse-everywhere-Introducing-variable-library/ba-p/5377349"
  }
 ]
