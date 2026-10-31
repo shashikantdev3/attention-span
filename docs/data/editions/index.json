@@ -1,6 +1,13 @@
 {
  "editions": [
   {
+   "date": "2026-10-31",
+   "file": "2026-10.json",
+   "count": 15,
+   "spotlight": 0,
+   "lead": "OpenAI raises about $11B of its $30B target at a $1.25T valuation, reports say"
+  },
+  {
    "date": "2026-10-30",
    "file": "2026-10.json",
    "count": 15,
@@ -162,6 +169,6 @@
    "lead": "Anthropic Releases Claude Haiku 5.5 and AWS Integration"
   }
  ],
- "latest": "2026-10-30",
- "updated": "2026-10-30T19:07:03Z"
+ "latest": "2026-10-31",
+ "updated": "2026-10-31T18:57:55Z"
 }

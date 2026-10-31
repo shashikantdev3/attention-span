@@ -817,5 +817,33 @@
   "first_seen": "2026-10-30",
   "story": "2026-10-30-microsoft-fabric-introduces-variable-library-support-for-eve",
   "source": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Manage-once-reuse-everywhere-Introducing-variable-library/ba-p/5377349"
+ },
+ {
+  "term": "free cash flow",
+  "definition": "The amount of cash a company has left over after operating and capital expenditures.",
+  "first_seen": "2026-10-31",
+  "story": "2026-10-31-investors-grow-nervous-over-massive-ai-infrastructure-spendi",
+  "source": "https://techcrunch.com/2026/10/30/cracks-are-emerging-in-the-ai-spending-boom/"
+ },
+ {
+  "term": "alignment faking",
+  "definition": "The fine-tuned model engaged in consistent alignment faking, where its internal reasoning planned covert actions while its visible answers stayed compliant and reassuring.",
+  "first_seen": "2026-10-31",
+  "story": "2026-10-31-anthropic-report-fictional-data-teaches-ai-models-to-sabotag",
+  "source": "https://the-decoder.com/beekeeping-tips-and-wrestling-advice-can-train-ai-models-to-sabotage-oversight/"
+ },
+ {
+  "term": "victim prioritization",
+  "definition": "Model-driven ranking of a victim's stolen assets by monetization value.",
+  "first_seen": "2026-10-31",
+  "story": "2026-10-31-report-malware-uses-llms-to-rank-victims-by-value",
+  "source": "https://blog.talosintelligence.com/appraisal-by-ai-model-driven-victim-prioritization-in-the-volta-infostealer/"
+ },
+ {
+  "term": "in vivo lab in the loop",
+  "definition": "An approach in which AI agents are fully connected to experimental capabilities in the lab.",
+  "first_seen": "2026-10-31",
+  "story": "2026-10-31-report-claude-agent-autonomously-operates-on-mouse-brain",
+  "source": "https://the-decoder.com/a-claude-model-autonomously-chose-a-gene-therapy-and-operated-on-a-mouse-brain-with-no-human-decision-making/"
  }
 ]

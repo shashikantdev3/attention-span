@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-30T19:20:31Z",
+ "updated_at": "2026-10-31T19:10:08Z",
  "window_days": 7,
  "groups": [
   {
@@ -674,6 +674,78 @@
    "group": "explainers",
    "known_for": "Developer and YouTuber who reviews AI coding tools",
    "x": "theo",
+   "bsky": null,
+   "bsky_check": null
+  },
+  {
+   "id": "chenhao-tan",
+   "name": "Chenhao Tan",
+   "group": "researchers",
+   "known_for": "Professor at the University of Chicago who studies human-centered AI",
+   "x": "ChenhaoTan",
+   "bsky": null,
+   "bsky_check": null
+  },
+  {
+   "id": "stanislav-fort",
+   "name": "Stanislav Fort",
+   "group": "researchers",
+   "known_for": "AI security researcher",
+   "x": "stanislavfort",
+   "bsky": null,
+   "bsky_check": null
+  },
+  {
+   "id": "clement-farabet",
+   "name": "Clement Farabet",
+   "group": "researchers",
+   "known_for": "VP of Research at Google DeepMind",
+   "x": "clmt",
+   "bsky": null,
+   "bsky_check": null
+  },
+  {
+   "id": "chris-tate",
+   "name": "Chris Tate",
+   "group": "builders",
+   "known_for": "Builds open-source tools for coding agents",
+   "x": "ctatedev",
+   "bsky": null,
+   "bsky_check": null
+  },
+  {
+   "id": "tom-warren",
+   "name": "Tom Warren",
+   "group": "explainers",
+   "known_for": "Senior editor at The Verge",
+   "x": "tomwarren",
+   "bsky": null,
+   "bsky_check": null
+  },
+  {
+   "id": "ed-zitron",
+   "name": "Ed Zitron",
+   "group": "explainers",
+   "known_for": "Writer and prominent critic of the AI industry",
+   "x": "edzitron",
+   "bsky": null,
+   "bsky_check": null
+  },
+  {
+   "id": "jessica-lessin",
+   "name": "Jessica Lessin",
+   "group": "explainers",
+   "known_for": "Founder of The Information",
+   "x": "Jessicalessin",
+   "bsky": null,
+   "bsky_check": null
+  },
+  {
+   "id": "andrew-curran",
+   "name": "Andrew Curran",
+   "group": "explainers",
+   "known_for": "Widely followed AI news commentator",
+   "x": "AndrewCurran_",
    "bsky": null,
    "bsky_check": null
   },
@@ -1479,6 +1551,24 @@
    "bsky_check": null
   },
   {
+   "id": "x-parameter",
+   "name": "Parameter",
+   "group": "official",
+   "known_for": "Security research lab that found a ChatGPT account takeover bug",
+   "x": "parameter_ai",
+   "bsky": null,
+   "bsky_check": null
+  },
+  {
+   "id": "x-thehackernews",
+   "name": "The Hacker News",
+   "group": "official",
+   "known_for": "Cybersecurity news site",
+   "x": "TheHackersNews",
+   "bsky": null,
+   "bsky_check": null
+  },
+  {
    "id": "x-minimax",
    "name": "MiniMax",
    "group": "official",
@@ -1598,6 +1688,458 @@
  ],
  "posts": [
   {
+   "id": "bsky-simonwillison.net-3mz6vmxpth22j",
+   "person": "simon-willison",
+   "platform": "bluesky",
+   "url": "https://bsky.app/profile/simonwillison.net/post/3mz6vmxpth22j",
+   "posted_at": "2026-10-31T18:15:29Z",
+   "text": "This thread is a good summary of how dramatically the craft of software engineering has changed over the past 12 months",
+   "links": [],
+   "context": {
+    "kind": "quote",
+    "url": "",
+    "title": "Quoted post by @rekmarks.com",
+    "text": "Two things are true:\n\n1. Claims about AI capabilities are overblown\n2. AI has completely revolutionized software development, and will do the same to many other fields\n\nI'm a software developer by trade. I'm going to attempt to explain what this revolution feels like \"from the inside\"."
+   },
+   "likes": 77,
+   "reposts": 17,
+   "via": "feed",
+   "meaning": "Simon Willison shares a thread arguing that while some AI capability claims are overblown, AI has completely revolutionized software development from the inside over the past year.",
+   "concepts": [
+    "coding-assistant"
+   ],
+   "story": null,
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "anthropic:claude-sonnet-5-5",
+   "added": "2026-10-31"
+  },
+  {
+   "id": "x-2116583791166939268",
+   "platform": "x",
+   "url": "https://x.com/AndrewCurran_/status/2116583791166939268",
+   "posted_at": "2026-10-31T17:31:14Z",
+   "date_only": false,
+   "text": "This is from the Roblox Q3 2026 Shareholder Letter. The top chart is daily users of their MCP server, the bottom is assets uploaded. Opus 5.5 was released September 22nd. Over the past month, more than 80% of the top 100 games used AI. Things changed in September.",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">This is from the Roblox Q3 2026 Shareholder Letter. The top chart is daily users of their MCP server, the bottom is assets uploaded. Opus 5.5 was released September 22nd. Over the past month, more than 80% of the top 100 games used AI. Things changed in September. <a href=\"https://t.co/k0leVq1zAb\">pic.twitter.com/k0leVq1zAb</a></p>&mdash; Andrew Curran (@AndrewCurran_) <a href=\"https://x.com/AndrewCurran_/status/2116583791166939268?ref_src=twsrc%5Etfw\">October 31, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "andrew-curran",
+   "meaning": "Curran shares charts from Roblox's Q3 shareholder letter showing daily users of its MCP server and AI asset uploads rising after Opus 5.5 came out on 22 September; over the past month more than 80% of Roblox's top 100 games used AI.",
+   "concepts": [
+    "mcp",
+    "agent"
+   ],
+   "story": null,
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "editor",
+   "added": "2026-10-31"
+  },
+  {
+   "id": "x-2116573256668856321",
+   "platform": "x",
+   "url": "https://x.com/stanislavfort/status/2116573256668856321",
+   "posted_at": "2026-10-31T16:49:23Z",
+   "date_only": false,
+   "text": "The finding in the Cohere report is genuine and was caught in the wild -- I know it because I was there and saw it. The fact that you didn't reproduce it doesn't mean that they didn't see it. Given that they saw it, it was the right move to share the information with the world",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">The finding in the Cohere report is genuine and was caught in the wild -- I know it because I was there and saw it. The fact that you didn&#39;t reproduce it doesn&#39;t mean that they didn&#39;t see it. Given that they saw it, it was the right move to share the information with the world</p>&mdash; Stanislav Fort (@stanislavfort) <a href=\"https://x.com/stanislavfort/status/2116573256668856321?ref_src=twsrc%5Etfw\">October 31, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "stanislav-fort",
+   "meaning": "Stanislav Fort confirms seeing a finding from a Cohere report in the wild, arguing that sharing the discovery was the right move even though others could not reproduce it.",
+   "concepts": [
+    "ai-safety"
+   ],
+   "story": "2026-10-31-report-reruns-qwen-call-home-traces-in-sandbox",
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "anthropic:claude-sonnet-5-5",
+   "added": "2026-10-31"
+  },
+  {
+   "id": "x-2116561804138844468",
+   "platform": "x",
+   "url": "https://x.com/Jessicalessin/status/2116561804138844468",
+   "posted_at": "2026-10-31T16:03:52Z",
+   "date_only": false,
+   "text": "Scoop: Meta has been prototyping a humanoid. @jyoti_mann1 exclusive. https://t.co/CFAuu6mcrs",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">Scoop: Meta has been prototyping a humanoid. <a href=\"https://x.com/jyoti_mann1?ref_src=twsrc%5Etfw\">@jyoti_mann1</a> exclusive. <a href=\"https://t.co/CFAuu6mcrs\">https://t.co/CFAuu6mcrs</a></p>&mdash; Jessica Lessin (@Jessicalessin) <a href=\"https://x.com/Jessicalessin/status/2116561804138844468?ref_src=twsrc%5Etfw\">October 31, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "jessica-lessin",
+   "meaning": "Meta has been prototyping a humanoid robot, according to a report shared by Jessica Lessin. Builders focused on physical AI might care about Meta expanding its hardware and robotics footprint.",
+   "concepts": [
+    "physical-ai"
+   ],
+   "story": null,
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "anthropic:claude-sonnet-5-5",
+   "added": "2026-10-31"
+  },
+  {
+   "id": "x-2116528634894905484",
+   "platform": "x",
+   "url": "https://x.com/TheHackersNews/status/2116528634894905484",
+   "posted_at": "2026-10-31T13:52:04Z",
+   "date_only": false,
+   "text": "Microsoft confirms the malicious version (2.1.313) never reached its VS Code Marketplace.\n\nCursor has rotated keys, rebuilt its marketplace, and taken the attacker's server offline.\n\nStill unclear: How did attackers gain access to publish malware under Anthropic's trusted…",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">Microsoft confirms the malicious version (2.1.313) never reached its VS Code Marketplace.<br><br>Cursor has rotated keys, rebuilt its marketplace, and taken the attacker&#39;s server offline.<br><br>Still unclear: How did attackers gain access to publish malware under Anthropic&#39;s trusted…</p>&mdash; The Hacker News (@TheHackersNews) <a href=\"https://x.com/TheHackersNews/status/2116528634894905484?ref_src=twsrc%5Etfw\">October 31, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "x-thehackernews",
+   "meaning": "Microsoft confirmed that a malicious version never reached its VS Code Marketplace, while Cursor rotated keys and took an attacker server offline. Builders should care because it highlights security risks involving extension marketplaces and trusted publisher accounts.",
+   "concepts": [
+    "coding-assistant"
+   ],
+   "story": "2026-10-30-a-backdoored-claude-code-extension-sat-on-cursor-s-marketpla",
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "anthropic:claude-sonnet-5-5",
+   "added": "2026-10-31"
+  },
+  {
+   "id": "x-2116522684154585227",
+   "platform": "x",
+   "url": "https://x.com/Google/status/2116522684154585227",
+   "posted_at": "2026-10-31T13:28:25Z",
+   "date_only": false,
+   "text": "No trick 🎃 Our @GoogleDeepMind team used AI agents powered by Gemini 4 Argon and @Antigravity to bring this robot to life from scratch. Happy Halloween! https://t.co/BJrEcyXLn6",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">No trick 🎃 Our <a href=\"https://x.com/GoogleDeepMind?ref_src=twsrc%5Etfw\">@GoogleDeepMind</a> team used AI agents powered by Gemini 4 Argon and <a href=\"https://x.com/antigravity?ref_src=twsrc%5Etfw\">@Antigravity</a> to bring this robot to life from scratch. Happy Halloween! <a href=\"https://t.co/BJrEcyXLn6\">https://t.co/BJrEcyXLn6</a></p>&mdash; Google (@Google) <a href=\"https://x.com/Google/status/2116522684154585227?ref_src=twsrc%5Etfw\">October 31, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "x-google",
+   "meaning": "Google DeepMind shares that their team built a robot from scratch using AI agents powered by Gemini 4 Argon.",
+   "concepts": [
+    "agent",
+    "multimodal-model"
+   ],
+   "story": null,
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "anthropic:claude-sonnet-5-5",
+   "added": "2026-10-31"
+  },
+  {
+   "id": "x-2116516929359782301",
+   "platform": "x",
+   "url": "https://x.com/clmt/status/2116516929359782301",
+   "posted_at": "2026-10-31T13:05:33Z",
+   "date_only": false,
+   "text": "Incredible \"hello world\" for Project Suncatcher — and an exciting milestone for the Gemma family we built for embedded / edge workloads!\n\nThree things that make this engineering wild:\n\n1. True edge / embedded inference: Gemma 4 is running completely offline in low Earth orbit —… https://t.co/DGECkLCrjp",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">Incredible &quot;hello world&quot; for Project Suncatcher — and an exciting milestone for the Gemma family we built for embedded / edge workloads!<br><br>Three things that make this engineering wild:<br><br>1. True edge / embedded inference: Gemma 4 is running completely offline in low Earth orbit —… <a href=\"https://t.co/DGECkLCrjp\">https://t.co/DGECkLCrjp</a></p>&mdash; Clement Farabet (@clmt) <a href=\"https://x.com/clmt/status/2116516929359782301?ref_src=twsrc%5Etfw\">October 31, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "clement-farabet",
+   "meaning": "Clement Farabet highlights Gemma 4 running completely offline in low Earth orbit for Project Suncatcher, showcasing edge inference for embedded workloads.",
+   "concepts": [
+    "small-language-model"
+   ],
+   "story": "2026-10-30-google-reports-prototype-suncatcher-data-center-satellite-is",
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "anthropic:claude-sonnet-5-5",
+   "added": "2026-10-31"
+  },
+  {
+   "id": "x-2116428268224299277",
+   "platform": "x",
+   "url": "https://x.com/theo/status/2116428268224299277",
+   "posted_at": "2026-10-31T07:13:15Z",
+   "date_only": false,
+   "text": "Didn’t see this coming. Nice to see Anthropic loosening the grip on the sub a bit. Congrats to OpenCode on this 🫡 https://t.co/l8iJ35xakY",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">Didn’t see this coming. Nice to see Anthropic loosening the grip on the sub a bit. Congrats to OpenCode on this 🫡 <a href=\"https://t.co/l8iJ35xakY\">https://t.co/l8iJ35xakY</a></p>&mdash; Theo - t3.gg (@theo) <a href=\"https://x.com/theo/status/2116428268224299277?ref_src=twsrc%5Etfw\">October 31, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "theo-browne",
+   "meaning": "Theo says Anthropic is loosening its grip on the Claude subscription, after OpenCode added support for using a Claude subscription in its coding tool.",
+   "concepts": [],
+   "story": null,
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "editor",
+   "added": "2026-10-31"
+  },
+  {
+   "id": "x-2116405414921384099",
+   "platform": "x",
+   "url": "https://x.com/thsottiaux/status/2116405414921384099",
+   "posted_at": "2026-10-31T05:42:26Z",
+   "date_only": false,
+   "text": "Day 26/ You can now easily switch between multiple accounts on mobile, and coming soon to desktop too. Next two days will be resets… banked… do with this what you may 👀.https://t.co/iQxsqbuk0f",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">Day 26/ You can now easily switch between multiple accounts on mobile, and coming soon to desktop too. Next two days will be resets… banked… do with this what you may 👀.<a href=\"https://t.co/iQxsqbuk0f\">https://t.co/iQxsqbuk0f</a></p>&mdash; Tibo (@thsottiaux) <a href=\"https://x.com/thsottiaux/status/2116405414921384099?ref_src=twsrc%5Etfw\">October 31, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "tibo-sottiaux",
+   "meaning": "Sottiaux says ChatGPT on mobile can now switch between multiple accounts, with desktop coming soon, and hints at banked Codex usage resets over the next two days.",
+   "concepts": [],
+   "story": null,
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "editor",
+   "added": "2026-10-31"
+  },
+  {
+   "id": "x-2116362256065999134",
+   "platform": "x",
+   "url": "https://x.com/edzitron/status/2116362256065999134",
+   "posted_at": "2026-10-31T02:50:56Z",
+   "date_only": false,
+   "text": "Less than a month ago, OpenAI was looking to raise “at least” $30 billion at a valuation of $1.4 trillion. \n\nToday it raised $11 billion at $1.25 trillion valuation and faced “tepid” interest. https://t.co/VVhNs01LX6",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">Less than a month ago, OpenAI was looking to raise “at least” $30 billion at a valuation of $1.4 trillion. <br><br>Today it raised $11 billion at $1.25 trillion valuation and faced “tepid” interest. <a href=\"https://t.co/VVhNs01LX6\">https://t.co/VVhNs01LX6</a> <a href=\"https://t.co/hlNGwD7EBn\">pic.twitter.com/hlNGwD7EBn</a></p>&mdash; Ed Zitron (@edzitron) <a href=\"https://x.com/edzitron/status/2116362256065999134?ref_src=twsrc%5Etfw\">October 31, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "ed-zitron",
+   "meaning": "Ed Zitron notes that OpenAI recently raised 11 billion dollars at a 1.25 trillion dollar valuation amid tepid interest, falling short of its earlier 30 billion dollar fundraising target.",
+   "concepts": [],
+   "story": "2026-10-31-report-openai-secures-less-than-half-of-funding-target",
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "anthropic:claude-sonnet-5-5",
+   "added": "2026-10-31"
+  },
+  {
+   "id": "x-2116349211549843666",
+   "platform": "x",
+   "url": "https://x.com/AnthropicAI/status/2116349211549843666",
+   "posted_at": "2026-10-31T01:59:06Z",
+   "date_only": false,
+   "text": "New Anthropic research: Automating subtle emergent misalignment research.\n\nRed-teaming is a vital part of model safety testing, but it’s also limited by researchers’ time. To see if we could automate it, we set thousands of Claude agents the task of evading a training data…",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">New Anthropic research: Automating subtle emergent misalignment research.<br><br>Red-teaming is a vital part of model safety testing, but it’s also limited by researchers’ time. To see if we could automate it, we set thousands of Claude agents the task of evading a training data… <a href=\"https://t.co/jlmo21NCLZ\">pic.twitter.com/jlmo21NCLZ</a></p>&mdash; Anthropic (@AnthropicAI) <a href=\"https://x.com/AnthropicAI/status/2116349211549843666?ref_src=twsrc%5Etfw\">October 31, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "x-anthropicai",
+   "meaning": "Anthropic researchers used thousands of Claude agents to automate the search for subtle emergent misalignments, aiming to overcome the time limits of human red-teaming. Builders developing autonomous agents care about scaling safety evaluation techniques.",
+   "concepts": [
+    "agent",
+    "red-teaming",
+    "alignment"
+   ],
+   "story": null,
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "anthropic:claude-sonnet-5-5",
+   "added": "2026-10-31"
+  },
+  {
+   "id": "x-2116343923925041462",
+   "platform": "x",
+   "url": "https://x.com/amasad/status/2116343923925041462",
+   "posted_at": "2026-10-31T01:38:05Z",
+   "date_only": false,
+   "text": "If you host your apps on Replit and enable “autofix” it becomes Self-Maintaining Software. https://t.co/6uTsADTHro",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">If you host your apps on Replit and enable “autofix” it becomes Self-Maintaining Software. <a href=\"https://t.co/6uTsADTHro\">https://t.co/6uTsADTHro</a> <a href=\"https://t.co/ezhwiI7ccw\">pic.twitter.com/ezhwiI7ccw</a></p>&mdash; Amjad Masad (@amasad) <a href=\"https://x.com/amasad/status/2116343923925041462?ref_src=twsrc%5Etfw\">October 31, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "amjad-masad",
+   "meaning": "Amjad Masad notes that hosting apps on Replit with autofix enabled creates self-maintaining software.",
+   "concepts": [
+    "coding-assistant"
+   ],
+   "story": null,
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "anthropic:claude-sonnet-5-5",
+   "added": "2026-10-31"
+  },
+  {
+   "id": "x-2116323148706771302",
+   "platform": "x",
+   "url": "https://x.com/ctatedev/status/2116323148706771302",
+   "posted_at": "2026-10-31T00:15:32Z",
+   "date_only": false,
+   "text": "Introducing agent-desktop\n\nagent-browser, for your whole computer\n\n→ Computer Use for any coding agent\n→ macOS, Windows and Linux\n→ Runs in bg while you keep working\n→ Agents use your computer in parallel, each with its own cursor",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">Introducing agent-desktop<br><br>agent-browser, for your whole computer<br><br>→ Computer Use for any coding agent<br>→ macOS, Windows and Linux<br>→ Runs in bg while you keep working<br>→ Agents use your computer in parallel, each with its own cursor <a href=\"https://t.co/VB0Ss3crjB\">pic.twitter.com/VB0Ss3crjB</a></p>&mdash; Chris Tate (@ctatedev) <a href=\"https://x.com/ctatedev/status/2116323148706771302?ref_src=twsrc%5Etfw\">October 31, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "chris-tate",
+   "meaning": "Chris Tate introduces agent-desktop, bringing computer use capabilities across macOS, Windows, and Linux. Developers might care because multiple agents can run in the background in parallel while they work.",
+   "concepts": [
+    "agent",
+    "computer-use",
+    "coding-assistant"
+   ],
+   "story": null,
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "anthropic:claude-sonnet-5-5",
+   "added": "2026-10-31"
+  },
+  {
+   "id": "x-2116297220303765619",
+   "platform": "x",
+   "url": "https://x.com/parameter_ai/status/2116297220303765619",
+   "posted_at": "2026-10-30T22:32:30Z",
+   "date_only": false,
+   "text": "We hacked ChatGPT (using ChatGPT).\n\nWe demonstrated that a single shared link could take over the account of anyone who opened it: private chats, files, settings, all of it.\n\nOpenAI rated it P1 and fixed it Oct 26.",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">We hacked ChatGPT (using ChatGPT).<br><br>We demonstrated that a single shared link could take over the account of anyone who opened it: private chats, files, settings, all of it.<br><br>OpenAI rated it P1 and fixed it Oct 26. <a href=\"https://t.co/rXwRgtj5f0\">pic.twitter.com/rXwRgtj5f0</a></p>&mdash; Parameter (@parameter_ai) <a href=\"https://x.com/parameter_ai/status/2116297220303765619?ref_src=twsrc%5Etfw\">October 30, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "x-parameter",
+   "meaning": "Researchers demonstrated that a malicious shared link could take over a ChatGPT user's entire account, including private chats and files. OpenAI rated the vulnerability P1 and patched it.",
+   "concepts": [
+    "ai-safety",
+    "chatbot"
+   ],
+   "story": "2026-10-31-researchers-report-taking-over-chatgpt-accounts-via-shared-l",
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "anthropic:claude-sonnet-5-5",
+   "added": "2026-10-31"
+  },
+  {
+   "id": "x-2116286474090107140",
+   "platform": "x",
+   "url": "https://x.com/iScienceLuvr/status/2116286474090107140",
+   "posted_at": "2026-10-30T21:49:48Z",
+   "date_only": false,
+   "text": "How to Loop Your Transformer: Loop Scaling, Specialization, and Parallel Inference\n\nNew paper from Meta.\n\n\"Our experiments span models with up to 1B parameters, trained on up to 155B tokens using up to 1.07 × 10^21 training FLOPs, with up to 32 loops. We find that looping the…",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">How to Loop Your Transformer: Loop Scaling, Specialization, and Parallel Inference<br><br>New paper from Meta.<br><br>&quot;Our experiments span models with up to 1B parameters, trained on up to 155B tokens using up to 1.07 × 10^21 training FLOPs, with up to 32 loops. We find that looping the… <a href=\"https://t.co/ufepzurYaj\">pic.twitter.com/ufepzurYaj</a></p>&mdash; Tanishq Mathew Abraham, Ph.D. (@iScienceLuvr) <a href=\"https://x.com/iScienceLuvr/status/2116286474090107140?ref_src=twsrc%5Etfw\">October 30, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "tanishq-abraham",
+   "meaning": "Tanishq Mathew Abraham highlights a new Meta paper on looping Transformers, covering loop scaling, specialization, and parallel inference across models up to 1B parameters. Researchers might care about the findings on training efficiency and loop configurations.",
+   "concepts": [
+    "transformer",
+    "scaling-laws"
+   ],
+   "story": null,
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "anthropic:claude-sonnet-5-5",
+   "added": "2026-10-31"
+  },
+  {
+   "id": "x-2116280320899301840",
+   "platform": "x",
+   "url": "https://x.com/tomwarren/status/2116280320899301840",
+   "posted_at": "2026-10-30T21:25:21Z",
+   "date_only": false,
+   "text": "Sam Altman says it’s better for RAM to be in a data center than in your PC. These people don’t want you to own powerful computers anymore, they want you to rent them \n https://t.co/gugbMrOpaR",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">Sam Altman says it’s better for RAM to be in a data center than in your PC. These people don’t want you to own powerful computers anymore, they want you to rent them <br> <a href=\"https://t.co/gugbMrOpaR\">https://t.co/gugbMrOpaR</a></p>&mdash; Tom Warren (@tomwarren) <a href=\"https://x.com/tomwarren/status/2116280320899301840?ref_src=twsrc%5Etfw\">October 30, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "tom-warren",
+   "meaning": "Tom Warren shares that Sam Altman believes RAM belongs in data centers rather than personal computers. Builders might care because this highlights a philosophical shift toward cloud-based computing over local hardware ownership.",
+   "concepts": [
+    "gpu"
+   ],
+   "story": "2026-10-30-sam-altman-says-it-is-quite-terrible-for-dram-to-sit-in-home",
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "anthropic:claude-sonnet-5-5",
+   "added": "2026-10-31"
+  },
+  {
+   "id": "bsky-natolambert.bsky.social-3mz4nrcrwfz2f",
+   "person": "nathan-lambert",
+   "platform": "bluesky",
+   "url": "https://bsky.app/profile/natolambert.bsky.social/post/3mz4nrcrwfz2f",
+   "posted_at": "2026-10-30T20:49:26Z",
+   "text": "Was reading the score-centering RL paper to add some notes on it the my book, and they have a great table in the appendix on the different importance sampling based train-inference mismatch methods in RL. These have been the biggest focus of RL algorithm research since the GRPO takeoff, imo.",
+   "links": [],
+   "context": null,
+   "likes": 17,
+   "reposts": 3,
+   "via": "feed",
+   "meaning": "Nathan Lambert highlights importance sampling based train-inference mismatch methods in reinforcement learning algorithms as a major research focus since the GRPO takeoff.",
+   "concepts": [
+    "reinforcement-learning"
+   ],
+   "story": null,
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "anthropic:claude-sonnet-5-5",
+   "added": "2026-10-31"
+  },
+  {
+   "id": "x-2116263856628703247",
+   "platform": "x",
+   "url": "https://x.com/AravSrinivas/status/2116263856628703247",
+   "posted_at": "2026-10-30T20:19:56Z",
+   "date_only": false,
+   "text": "Sharing early evals on Gemini 4 Carbon. Strongest model that we've seen so far for long-form research and answer quality, with a new SoTA on the Wide-And-Deep-Research (WANDR) benchmark. Coming soon to all Perplexity Pro and Max users inside Computer, once we have sufficient…",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">Sharing early evals on Gemini 4 Carbon. Strongest model that we&#39;ve seen so far for long-form research and answer quality, with a new SoTA on the Wide-And-Deep-Research (WANDR) benchmark. Coming soon to all Perplexity Pro and Max users inside Computer, once we have sufficient… <a href=\"https://t.co/baD8cf7DA4\">pic.twitter.com/baD8cf7DA4</a></p>&mdash; Aravind Srinivas (@AravSrinivas) <a href=\"https://x.com/AravSrinivas/status/2116263856628703247?ref_src=twsrc%5Etfw\">October 30, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "aravind-srinivas",
+   "meaning": "Perplexity shares early evaluations of Gemini 4 Carbon, citing strong performance in long-form research and a new state-of-the-art score on the Wide-And-Deep-Research benchmark.",
+   "concepts": [
+    "benchmark",
+    "multimodal-model"
+   ],
+   "story": null,
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "anthropic:claude-sonnet-5-5",
+   "added": "2026-10-31"
+  },
+  {
+   "id": "x-2116262634349818190",
+   "platform": "x",
+   "url": "https://x.com/NVIDIAAI/status/2116262634349818190",
+   "posted_at": "2026-10-30T20:15:04Z",
+   "date_only": false,
+   "text": "Sound on 🔊 Listen to the difference.\n\nOur new open multilingual NemotronLabs RE-USE model from NVIDIA researchers cleans up background noise, echo and other audio distortions to make speech clearer. All with just 9.6M parameters.\n\nTry the demo and download the model on…",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">Sound on 🔊 Listen to the difference.<br><br>Our new open multilingual NemotronLabs RE-USE model from NVIDIA researchers cleans up background noise, echo and other audio distortions to make speech clearer. All with just 9.6M parameters.<br><br>Try the demo and download the model on… <a href=\"https://t.co/6WI8oj7u7t\">pic.twitter.com/6WI8oj7u7t</a></p>&mdash; NVIDIA AI (@NVIDIAAI) <a href=\"https://x.com/NVIDIAAI/status/2116262634349818190?ref_src=twsrc%5Etfw\">October 30, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "x-nvidiaai",
+   "meaning": "NVIDIA researchers released the open multilingual NemotronLabs RE-USE model, which cleans up background noise and audio distortions using only 9.6M parameters. Developers might care about efficient speech enhancement models for audio pipelines.",
+   "concepts": [
+    "small-language-model",
+    "open-weight-model"
+   ],
+   "story": null,
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "anthropic:claude-sonnet-5-5",
+   "added": "2026-10-31"
+  },
+  {
+   "id": "x-2116249700244263160",
+   "platform": "x",
+   "url": "https://x.com/ChenhaoTan/status/2116249700244263160",
+   "posted_at": "2026-10-30T19:23:41Z",
+   "date_only": false,
+   "text": "AI safety is important and challenging. It is thus important to have reliable evidence.@cohere  recently reported that a Qwen model tried to upload data to an Alibaba Cloud bucket during one of their evaluations, so we rebuilt their setup in a sandbox and reran it on… https://t.co/8EOPPsriJo",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">AI safety is important and challenging. It is thus important to have reliable evidence.<a href=\"https://x.com/cohere?ref_src=twsrc%5Etfw\">@cohere</a>  recently reported that a Qwen model tried to upload data to an Alibaba Cloud bucket during one of their evaluations, so we rebuilt their setup in a sandbox and reran it on… <a href=\"https://t.co/8EOPPsriJo\">https://t.co/8EOPPsriJo</a></p>&mdash; Chenhao Tan (@ChenhaoTan) <a href=\"https://x.com/ChenhaoTan/status/2116249700244263160?ref_src=twsrc%5Etfw\">October 30, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "chenhao-tan",
+   "meaning": "Chenhao Tan highlights the importance of reliable evidence in AI safety and shares an effort to rebuild and rerun Cohere's setup in a sandbox to investigate a Qwen model's data upload attempt.",
+   "concepts": [
+    "agent-sandbox"
+   ],
+   "story": "2026-10-31-report-reruns-qwen-call-home-traces-in-sandbox",
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "anthropic:claude-sonnet-5-5",
+   "added": "2026-10-31"
+  },
+  {
+   "id": "x-2116244898269610456",
+   "platform": "x",
+   "url": "https://x.com/Google/status/2116244898269610456",
+   "posted_at": "2026-10-30T19:04:36Z",
+   "date_only": false,
+   "text": "Our TPUs just phoned home... from space.\n\nIn early October, we sent four TPUs into orbit to test whether our AI hardware could operate in space. The initial goal was to see if our chips could turn on, process a prompt, and transmit a response back to Earth.\n\nThis week, we got our…",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">Our TPUs just phoned home... from space.<br><br>In early October, we sent four TPUs into orbit to test whether our AI hardware could operate in space. The initial goal was to see if our chips could turn on, process a prompt, and transmit a response back to Earth.<br><br>This week, we got our… <a href=\"https://t.co/j8NJx2nWnQ\">pic.twitter.com/j8NJx2nWnQ</a></p>&mdash; Google (@Google) <a href=\"https://x.com/Google/status/2116244898269610456?ref_src=twsrc%5Etfw\">October 30, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "x-google",
+   "meaning": "Google announces sending four TPUs into orbit to test if the AI hardware can operate in space, process prompts, and transmit responses back to Earth. Builders might care about the potential for running AI workloads in extreme environments.",
+   "concepts": [
+    "gpu"
+   ],
+   "story": "2026-10-30-google-reports-prototype-suncatcher-data-center-satellite-is",
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "anthropic:claude-sonnet-5-5",
+   "added": "2026-10-31"
+  },
+  {
+   "id": "x-2116239697727180890",
+   "platform": "x",
+   "url": "https://x.com/arena/status/2116239697727180890",
+   "posted_at": "2026-10-30T18:43:56Z",
+   "date_only": false,
+   "text": "This Week in the Arena: Gemini is back, and Terra got even more efficient.\n\n- Gemini 4 Carbon (High) by @GoogleDeepmind landed #1 in Text Arena, #2 in Agent Arena, and #4 in Code Arena: WebDev. It reshaped the Pareto frontier across all three arenas. See first impressions from…",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">This Week in the Arena: Gemini is back, and Terra got even more efficient.<br><br>- Gemini 4 Carbon (High) by <a href=\"https://x.com/GoogleDeepMind?ref_src=twsrc%5Etfw\">@GoogleDeepmind</a> landed #1 in Text Arena, #2 in Agent Arena, and #4 in Code Arena: WebDev. It reshaped the Pareto frontier across all three arenas. See first impressions from…</p>&mdash; Arena.ai (@arena) <a href=\"https://x.com/arena/status/2116239697727180890?ref_src=twsrc%5Etfw\">October 30, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "x-lmarena",
+   "meaning": "Gemini 4 Carbon reached the top spot in the Text Arena and secured strong positions in Agent and Code arenas, reshaping performance trade-offs across categories.",
+   "concepts": [
+    "benchmark",
+    "multimodal-model"
+   ],
+   "story": null,
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "anthropic:claude-sonnet-5-5",
+   "added": "2026-10-31"
+  },
+  {
    "id": "bsky-natolambert.bsky.social-3mz4dgrtlii2m",
    "person": "nathan-lambert",
    "platform": "bluesky",
@@ -1616,7 +2158,7 @@
     "title": "Was I wrong about open models & cyber risks?",
     "text": "Last week coined the term “Black October“ after an onslaught of critical vulnerability disclosures, including PHP2Shell and GitLab, signified the moment when the cyber risks of AI models started to…"
    },
-   "likes": 12,
+   "likes": 21,
    "reposts": 1,
    "via": "feed",
    "meaning": "Nathan Lambert argues that the AI community focuses too much on which specific models cause cyber harm rather than how cybersecurity maintains equilibrium and how actors use new tools.",
@@ -1992,7 +2534,7 @@
    "text": "This is good advice from the Claude Code team (posted on X) for how to think about working with models like Opus 5.5.\n\nI would add: build checkpoints where the model reports back to you with interim ideas or prototypes so you can guide & give feedback, rather than one-shotting on your goal.",
    "links": [],
    "context": null,
-   "likes": 168,
+   "likes": 173,
    "reposts": 6,
    "via": "feed",
    "meaning": "Ethan Mollick advises building intermediate checkpoints when working with advanced models like Opus 5.5 to guide progress through feedback, rather than relying on single-shot prompts. Developers building with AI can use this pattern to maintain control over agentic coding tasks.",
@@ -2736,7 +3278,7 @@
     "title": "The October inflection point for vibe game development",
     "text": "I’ve written before about how November 2025 was an inflection point for coding agents—the point where Opus 4.5 and GPT-5.1 crossed a tipping point that meant their respective coding agents …"
    },
-   "likes": 180,
+   "likes": 182,
    "reposts": 10,
    "via": "feed",
    "meaning": "Willison argues that October marks a new capabilities milestone for coding agents, noting that Claude Opus 5.5 can now build genuinely fun video games. Developers should watch how advancing agent capabilities change software creation.",
@@ -2997,7 +3539,7 @@
     }
    ],
    "context": null,
-   "likes": 83,
+   "likes": 84,
    "reposts": 17,
    "via": "feed",
    "meaning": "Mollick highlights a study showing that experts working with AI agents are heavily influenced by the AI's positions despite believing otherwise. Builders should carefully consider when to introduce AI into workflows where independent judgment is crucial.",
