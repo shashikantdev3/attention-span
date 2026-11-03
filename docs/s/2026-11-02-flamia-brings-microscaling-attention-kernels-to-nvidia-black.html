@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Yandex Research&#x27;s FLAMIA brings microscaling attention kernels to NVIDIA Blackwell | Attention Span</title>
+<meta name="description" content="FLAMIA is a family of attention kernels for NVIDIA Blackwell GPUs that speeds up Transformer training using MXFP8 and mixed NVFP4/FP8 paths.">
+<link rel="canonical" href="https://shashikantdev3.github.io/attention-span/s/2026-11-02-flamia-brings-microscaling-attention-kernels-to-nvidia-black.html">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Attention Span">
+<meta property="og:title" content="Yandex Research&#x27;s FLAMIA brings microscaling attention kernels to NVIDIA Blackwell">
+<meta property="og:description" content="FLAMIA is a family of attention kernels for NVIDIA Blackwell GPUs that speeds up Transformer training using MXFP8 and mixed NVFP4/FP8 paths.">
+<meta property="og:url" content="https://shashikantdev3.github.io/attention-span/s/2026-11-02-flamia-brings-microscaling-attention-kernels-to-nvidia-black.html">
+<meta property="og:image" content="https://shashikantdev3.github.io/attention-span/assets/og.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#EDF0EA">
+<link rel="alternate" type="application/rss+xml" title="Attention Span" href="../feed.xml">
+<script>try{var t=localStorage.getItem("as-theme");if(!t)t=matchMedia("(prefers-color-scheme: dark)").matches?"night":"day";if(t==="night")document.documentElement.setAttribute("data-theme","night")}catch(e){}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;0,6..72,700;1,6..72,400&family=Bodoni+Moda:opsz,wght@6..96,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/style.css">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "NewsArticle", "headline": "Yandex Research's FLAMIA brings microscaling attention kernels to NVIDIA Blackwell", "description": "FLAMIA is a family of attention kernels for NVIDIA Blackwell GPUs that speeds up Transformer training using MXFP8 and mixed NVFP4/FP8 paths.", "datePublished": "2026-11-02T11:00:12Z", "dateModified": "2026-11-02", "author": {"@type": "Organization", "name": "Attention Span", "url": "https://shashikantdev3.github.io/attention-span/"}, "publisher": {"@type": "Organization", "name": "Attention Span", "url": "https://shashikantdev3.github.io/attention-span/"}, "mainEntityOfPage": "https://shashikantdev3.github.io/attention-span/s/2026-11-02-flamia-brings-microscaling-attention-kernels-to-nvidia-black.html", "image": "https://shashikantdev3.github.io/attention-span/assets/og.png", "isBasedOn": ["https://arxiv.org/abs/2611.03344"]}</script>
+</head>
+<body class="static">
+<header class="masthead static-head"><div class="wrap">
+  <a class="brand" href="../index.html"><span class="static-name">Attention Span</span></a>
+  <span class="tagline">Today&#x27;s AI news, traced back to its roots.</span>
+</div></header>
+<main id="main"><div class="wrap static-body">
+<article class="static-story">
+<p class="static-kicker"><a href="../e/2026-11-02.html">Monday, 2 November 2026</a>, Research,
+1 source</p>
+<h1>Yandex Research&#x27;s FLAMIA brings microscaling attention kernels to NVIDIA Blackwell</h1>
+<p class="one-liner">FLAMIA is a family of attention kernels for NVIDIA Blackwell GPUs that speeds up Transformer training using MXFP8 and mixed NVFP4/FP8 paths.</p>
+<p>Attention remains a high computational cost in Transformer training, especially at long context lengths. NVIDIA Blackwell GPUs offer high-throughput low-precision matrix multiplication, but using it requires addressing quantization overhead and other issues. Researchers presented FLAMIA, a family of attention kernels for Blackwell with MXFP8 and mixed NVFP4/FP8 training paths. The design combines token-block scaling, safeguards against leakage, and consistent forward and backward computations. The MXFP8 path accelerates the combined forward and backward attention call by factors of 1.10 to 1.40 times on B200 and 1.06 to 1.42 times on B300. Training stability and quality preservation were validated on Llama-style models.</p>
+<div class="eli5"><h4>Like I am 5</h4><p>This method reorganizes how an AI processes long blocks of text so it can use special fast hardware math without breaking anything.</p></div>
+<div class="why"><h4>Why it matters</h4><p>Low-bit hardware throughput translates into practical attention acceleration when quantization, training numerics, and document scheduling are jointly designed.</p></div>
+<div class="sources"><h4>Sources, original first</h4><ol><li><a href="https://arxiv.org/abs/2611.03344" rel="noopener">Hugging Face Daily Papers: FLAMIA: FLAsh MIcroscaling Attention for Fast and Causally Safe Training on Blackwell</a> <span class="kind">original</span></li><li><a href="https://huggingface.co/papers/2611.03344" rel="noopener">Hugging Face Daily Papers: Discussion on Hugging Face Daily Papers</a> <span class="kind">discussion</span></li></ol></div>
+<div class="tags"><span class="chip">NVIDIA</span><span class="chip">Academia</span><a class="chip concept" href="../c/attention.html">Attention</a><a class="chip concept" href="../c/gpu.html">GPU</a><a class="chip concept" href="../c/quantization.html">Quantisation</a></div>
+<p class="asof">Written from the sources above and checked by a second AI model; every number was matched against the sources.</p>
+</article>
+<p class="static-app"><a href="../index.html#/today/2026-11-02/2026-11-02-flamia-brings-microscaling-attention-kernels-to-nvidia-black">Open this in Attention Span</a>, where every story links to its history,
+concepts and the people behind it.</p>
+</div></main>
+<footer class="site"><div class="wrap">
+  <span>Attention Span is built by <a href="https://github.com/shashikantdev3">Shashikant</a>. Every entry links its source.</span>
+  <span>Data under <a href="https://creativecommons.org/licenses/by-nc/4.0/" rel="license">CC BY-NC 4.0</a>. Code under MIT.</span>
+</div></footer>
+</body>
+</html>

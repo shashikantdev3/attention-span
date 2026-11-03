@@ -132,6 +132,20 @@ Put the maker's own post first. It goes through the same writer and fact-checker
 
 **Approve new glossary terms** proposed by the writer: `python tools/review_terms.py`, then `python seed/build_seed.py`.
 
+## Research helpers (missed stories and X posts)
+
+Two optional tools for days when the feeds miss things. Neither publishes anything.
+
+- `python tools/harvest_x.py --since 2026-11-01T00:00Z --until 2026-11-03T12:00Z` reads public AI newsletters and digests
+  (latent.space AINews, Another Daily AI Newsletter, digg.com/ai, Simon Willison, Techmeme) and lists the X post links they
+  publish, with the text around each link. It never requests x.com or twitter.com. If ANTHROPIC_API_KEY is set, Claude picks
+  the notable posts from that list. Chosen links still go through X's official oEmbed check before they appear on the site.
+- `python tools/research.py --since ... --until ... --focus news` asks Claude, with the API's web search tool, for important
+  stories in a window. x.com and twitter.com are blocked domains for the search. Each call is capped (`--searches`, default 8)
+  and prints its cost (about $0.60 for 8 searches with Sonnet).
+
+Output goes to `state/research/` (git-ignored).
+
 ## Headline honesty check (decision model)
 
 ```

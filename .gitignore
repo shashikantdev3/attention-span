@@ -8,3 +8,4 @@ state/tmp/
 *.tmp
 .DS_Store
 Thumbs.db
+state/research/

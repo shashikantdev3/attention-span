@@ -845,5 +845,138 @@
   "first_seen": "2026-10-31",
   "story": "2026-10-31-report-claude-agent-autonomously-operates-on-mouse-brain",
   "source": "https://the-decoder.com/a-claude-model-autonomously-chose-a-gene-therapy-and-operated-on-a-mouse-brain-with-no-human-decision-making/"
+ },
+ {
+  "term": "prompt injection",
+  "definition": "Prompt injection in a court filing led to a Brazilian court sanctioning lawyers.",
+  "first_seen": "2026-11-01",
+  "story": "2026-11-01-brazilian-court-sanctions-lawyers-for-prompt-injection-in-co",
+  "source": "https://jetstream.security/insights/brazilian-court-sanctions-prompt-injection-filing/"
+ },
+ {
+  "term": "coding agent harness",
+  "definition": "A tiny harness for shell pipelines, containers, and agent experiments that communicates via plain stdin and stdout.",
+  "first_seen": "2026-11-01",
+  "story": "2026-11-01-balanov-releases-uncut-a-lossless-and-headless-coding-agent",
+  "source": "https://github.com/Balanov/uncut"
+ },
+ {
+  "term": "cross-repository joint development",
+  "definition": "Real-world software development that spans multiple interdependent repositories and introduces challenges in dependency reasoning, change propagation, and interface consistency.",
+  "first_seen": "2026-11-01",
+  "story": "2026-11-01-crossswe-benchmark-tests-coding-agents-across-multiple-repos",
+  "source": "https://arxiv.org/abs/2611.01484"
+ },
+ {
+  "term": "change score",
+  "definition": "A value assigned to each frame using HSV weighted differences on a grid to determine if a screen has changed.",
+  "first_seen": "2026-11-01",
+  "story": "2026-11-01-github-repository-introduces-real-time-screen-vision-plugin",
+  "source": "https://github.com/SAOS-3624/dsh-see-now"
+ },
+ {
+  "term": "monorepo",
+  "definition": "A large repository containing the source code and files for multiple projects.",
+  "first_seen": "2026-11-02",
+  "story": "2026-11-02-openai-builds-pando-backend-to-scale-git-for-codex",
+  "source": "https://openai.com/index/scaling-git-at-openai"
+ },
+ {
+  "term": "packfile",
+  "definition": "Git's format for compressing multiple objects together.",
+  "first_seen": "2026-11-02",
+  "story": "2026-11-02-openai-builds-pando-backend-to-scale-git-for-codex",
+  "source": "https://openai.com/index/scaling-git-at-openai"
+ },
+ {
+  "term": "provable inference",
+  "definition": "A goal that enables a user with limited computational resources and without information about weights to verify that a response came from a requested model.",
+  "first_seen": "2026-11-02",
+  "story": "2026-11-02-anthropic-releases-flashprove-for-cryptographic-proofs-of-in",
+  "source": "https://www.anthropic.com/research/provable-inference"
+ },
+ {
+  "term": "zkSNARK",
+  "definition": "A powerful type of cryptographic proof known for strong hiding and efficiency properties.",
+  "first_seen": "2026-11-02",
+  "story": "2026-11-02-anthropic-releases-flashprove-for-cryptographic-proofs-of-in",
+  "source": "https://www.anthropic.com/research/provable-inference"
+ },
+ {
+  "term": "optical circuit switching",
+  "definition": "A technology that establishes direct optical paths between endpoints using micro-electro-mechanical systems mirrors.",
+  "first_seen": "2026-11-02",
+  "story": "2026-11-02-marvell-announces-agreement-to-acquire-lumentum-for-115-bill",
+  "source": "https://www.servethehome.com/marvell-to-acquire-lumentum-115-billion-optical-ai-connectivity/"
+ },
+ {
+  "term": "co-packaged optics",
+  "definition": "An approach that requires tight integration between switch silicon and the optical engine.",
+  "first_seen": "2026-11-02",
+  "story": "2026-11-02-marvell-announces-agreement-to-acquire-lumentum-for-115-bill",
+  "source": "https://www.servethehome.com/marvell-to-acquire-lumentum-115-billion-optical-ai-connectivity/"
+ },
+ {
+  "term": "flexible demand response",
+  "definition": "Reducing electricity use during times of need to help preserve power for other customers.",
+  "first_seen": "2026-11-02",
+  "story": "2026-11-02-openai-launches-grid-protectors-program-for-compute-campuses",
+  "source": "https://openai.com/index/grid-protectors-program"
+ },
+ {
+  "term": "token-block scaling",
+  "definition": "A design that reuses quantized operands across matrix orientations.",
+  "first_seen": "2026-11-02",
+  "story": "2026-11-02-flamia-brings-microscaling-attention-kernels-to-nvidia-black",
+  "source": "https://arxiv.org/abs/2611.03344"
+ },
+ {
+  "term": "workload-aware scheduling",
+  "definition": "A scheduling approach that supports variable-length documents directly in packed layouts without repacking.",
+  "first_seen": "2026-11-02",
+  "story": "2026-11-02-flamia-brings-microscaling-attention-kernels-to-nvidia-black",
+  "source": "https://arxiv.org/abs/2611.03344"
+ },
+ {
+  "term": "Agentic Toolbox",
+  "definition": "A toolkit that gives coding agents access to codebase knowledge, organizational rules, and independent review.",
+  "first_seen": "2026-11-02",
+  "story": "2026-11-02-qodo-brings-organizational-context-and-standards-into-codex",
+  "source": "https://openai.com/index/qodo-codex-plugin"
+ },
+ {
+  "term": "recursive self-improvement",
+  "definition": "The point at which AI grows so good at training itself that it spawns a dramatic acceleration of AI capabilities.",
+  "first_seen": "2026-11-03",
+  "story": "2026-11-03-anthropic-warns-it-is-close-to-self-building-ai-capability",
+  "source": "https://techcrunch.com/2026/11/02/anthropic-warns-that-its-very-close-to-rsi-capability-aka-self-building-ai/"
+ },
+ {
+  "term": "Weight Space Programming",
+  "definition": "A technique where a smart model directly reads and edits the weights of another model to perform tasks without writing code.",
+  "first_seen": "2026-11-03",
+  "story": "2026-11-03-llms-read-and-edit-neural-network-weights-directly",
+  "source": "https://latent.space/p/ainews-llms-can-read-write-neural-network-weights-weight-space-programming-cuts-autoresearch-out-of/"
+ },
+ {
+  "term": "security sprint",
+  "definition": "An internal event where engineers and security firms team up to stress-test systems and find vulnerabilities.",
+  "first_seen": "2026-11-03",
+  "story": "2026-11-03-openai-increases-bug-bounty-payouts-and-partners-with-cathed",
+  "source": "https://the-decoder.com/bug-hunters-can-now-earn-up-to-172000-from-openai-as-company-ramps-up-security/"
+ },
+ {
+  "term": "vendor financing",
+  "definition": "A method Oracle plans to use to help it transition to positive free cash flow.",
+  "first_seen": "2026-11-03",
+  "story": "2026-11-03-oracle-files-to-sell-20-billion-in-stock-and-bonds",
+  "source": "https://www.cnbc.com/2026/11/02/oracle-files-to-sell-20-billion-in-new-stock-bonds-to-finance-ai-buildout.html"
+ },
+ {
+  "term": "HBM",
+  "definition": "High-bandwidth memory made by Samsung and SK Hynix that will run a large share of Huawei's upcoming flagship AI chip.",
+  "first_seen": "2026-11-03",
+  "story": "2026-11-03-report-huawei-told-clients-ascend-960dt-will-use-samsung-and",
+  "source": "https://www.techmeme.com/261102/p50#a261102p50"
  }
 ]

@@ -1,0 +1,1249 @@
+{
+ "month": "2026-11",
+ "editions": {
+  "2026-11-01": {
+   "date": "2026-11-01",
+   "generated_at": "2026-11-03T13:59:01Z",
+   "stories": [
+    {
+     "title": "ChatGPT and Codex will share one usage limit from December",
+     "one_liner": "Plus, Pro, and Business plans will share a usage allowance across ChatGPT and Codex starting in December.",
+     "summary": "Starting in December, Plus, Pro, and Business plans will share a usage allowance across ChatGPT and Codex. This change happens as agentic capabilities of Work come into the main ChatGPT experience. Usage for ChatGPT and Codex will be measured in tokens. How much allowance you use generally depends on the chosen model and the task. Instant chat will not draw from usage. Users will see combined remaining usage and reset times in Settings, then Usage. If a limit is reached, users can wait for a reset, upgrade the plan, or buy credits.",
+     "eli5": "You will share one big bucket of allowance for two different toys instead of having two separate buckets. Just like sharing snacks, how fast you finish them depends on how big the snack is and what you do with it.",
+     "why_it_matters": "Combined token limits across tools change how developers budget and plan their workflows.",
+     "topic": "products",
+     "type": "event",
+     "labs": [
+      "openai"
+     ],
+     "people": [],
+     "concepts": [
+      "tokens",
+      "coding-assistant",
+      "chatbot"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "ChatGPT and Codex usage limits merging",
+       "url": "https://help.openai.com/en/articles/20001625-understanding-chatgpt-and-codex-usage-limits",
+       "name": "help.openai.com",
+       "kind": "original"
+      },
+      {
+       "title": "Discussion on Hacker News",
+       "url": "https://news.ycombinator.com/item?id=50320588",
+       "name": "Hacker News",
+       "kind": "discussion"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-10-31T21:49:07Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 2,
+      "hype_flags": []
+     },
+     "editor_reason": "ChatGPT and Codex usage limits are merging, and a related post says unlimited chats are ending, which changes how developers plan usage.",
+     "rank": 1,
+     "id": "2026-11-01-chatgpt-and-codex-usage-limits-are-merging-starting-in-decem",
+     "date": "2026-11-01"
+    },
+    {
+     "title": "A Brazilian court sanctions lawyers for hiding a prompt injection in a court filing",
+     "one_liner": "A Brazilian court sanctioned lawyers after a prompt injection was found in a court filing.",
+     "summary": "A Brazilian court sanctioned lawyers for prompt injection in a court filing. The event involves legal documents and prompt injection techniques. The source text notes the specific headline from Hacker News about the Brazilian court action.",
+     "eli5": "A court took action against lawyers because of prompt injection in a legal document.",
+     "why_it_matters": "Sanctions for prompt injection in court filings are now a documented court action.",
+     "topic": "policy",
+     "type": "event",
+     "labs": [
+      "government"
+     ],
+     "people": [],
+     "concepts": [
+      "ai-governance"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [
+      {
+       "term": "prompt injection",
+       "definition": "Prompt injection in a court filing led to a Brazilian court sanctioning lawyers."
+      }
+     ],
+     "sources": [
+      {
+       "title": "Brazilian Court Sanctions Lawyers for Prompt Injection in Court Filing",
+       "url": "https://jetstream.security/insights/brazilian-court-sanctions-prompt-injection-filing/",
+       "name": "jetstream.security",
+       "kind": "press"
+      },
+      {
+       "title": "Discussion on Hacker News",
+       "url": "https://news.ycombinator.com/item?id=50322173",
+       "name": "Hacker News",
+       "kind": "discussion"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-01T02:19:53Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 2,
+      "hype_flags": []
+     },
+     "editor_reason": "A Brazilian court sanctioned lawyers over prompt injection in a court filing, an early legal case involving this attack.",
+     "rank": 2,
+     "id": "2026-11-01-brazilian-court-sanctions-lawyers-for-prompt-injection-in-co",
+     "date": "2026-11-01"
+    },
+    {
+     "title": "Fifty GPT-6.1 Sol agents failed to build a thriving Minecraft civilisation in a swarm test",
+     "one_liner": "Researchers tested AI agent swarms in Minecraft and other games to observe collaboration and conflict dynamics.",
+     "summary": "AI researchers from ycombinator and Olam Labs tested AI agent swarms in Minecraft and other game modes. In a test named Civ50, fifty GPT-6.1 Sol agents tried to build a thriving civilization in three hours. Zombies attacked on the first night, leading to abandoned tasks and a tendency toward bureaucracy. For example, four agents spent eleven minutes appointing a sole fertilizer operator. In other tests, 10 GPT-6.1 Sol agents faced 10 Claude Opus 5.5 agents in Bed Wars, where GPT agents used more aggressive and elaborate strategies. In Mindustry, the GPTs won 6 out of 7 games against the Claudes.",
+     "eli5": "A group of AI agents played a video game together, but they spent a lot of time on office-style tasks like assigning a single job instead of building their town.",
+     "why_it_matters": "Testing agent swarms in game sandboxes reveals how different models handle collaboration, conflict, and bureaucracy.",
+     "topic": "agents",
+     "type": "event",
+     "labs": [
+      "openai",
+      "anthropic"
+     ],
+     "people": [],
+     "concepts": [
+      "agent"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "AI agent swarms in Minecraft fail to build civilization, drown in bureaucracy",
+       "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/ai-agent-swarms-unleashed-in-minecraft-to-build-a-thriving-civilization-50-agent-teams-fail-after-falling-into-paralyzing-bureaucracy",
+       "name": "tomshardware.com",
+       "kind": "press"
+      },
+      {
+       "title": "Discussion on Hacker News",
+       "url": "https://news.ycombinator.com/item?id=50325662",
+       "name": "Hacker News",
+       "kind": "discussion"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-01T13:47:24Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 2,
+      "hype_flags": []
+     },
+     "editor_reason": "Agent swarms in Minecraft failed to build a civilization and got stuck in bureaucracy, a practical lesson for multi-agent design.",
+     "rank": 3,
+     "id": "2026-11-01-report-shows-ai-agent-swarm-test-failed-to-build-civilizatio",
+     "date": "2026-11-01"
+    },
+    {
+     "title": "GPT-5.6 Sol completes a peaceful Factorio run",
+     "one_liner": "An AI model completed a peaceful run of Factorio in 13.5 hours of game time.",
+     "summary": "GPT-5.6 Sol, running in Codex with low thinking level, completed a peaceful Factorio run without biters in 13.5 hours of game time. A game manager used a Python library to let the model interact with the game programmatically under human GUI restrictions like reach and fog of war. The run progressed past blue science research, though scaling issues slowed progress later. Sol achieved the rocket launch by using manual effort to ferry supplies between factory areas, showing an improvement over GPT-5.5.",
+     "eli5": "The computer model played a video game like building with blocks, and it had to move pieces around by hand when it could not figure out how to connect them with conveyor belts.",
+     "why_it_matters": "Autonomous game play serves as a legible medium for building intuition about the nature of model capabilities and behaviors.",
+     "topic": "agents",
+     "type": "event",
+     "labs": [
+      "openai"
+     ],
+     "people": [],
+     "concepts": [
+      "agent",
+      "tool-use"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "GPT-5.6 Sol can beat Factorio on peaceful mode",
+       "url": "https://ryanmadden.net/gpt-56-beats-factorio/",
+       "name": "ryanmadden.net",
+       "kind": "press"
+      },
+      {
+       "title": "Discussion on Hacker News",
+       "url": "https://news.ycombinator.com/item?id=50318871",
+       "name": "Hacker News",
+       "kind": "discussion"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-10-31T18:50:34Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 2,
+      "hype_flags": []
+     },
+     "editor_reason": "A report that GPT-5.6 Sol can beat Factorio on peaceful mode is a useful data point on long-horizon agent ability.",
+     "rank": 4,
+     "id": "2026-11-01-gpt-5-6-sol-completes-a-peaceful-factorio-run",
+     "date": "2026-11-01"
+    },
+    {
+     "title": "CrossSWE benchmark tests coding agents on changes that span several repositories",
+     "one_liner": "Researchers introduced CrossSWE, a new benchmark for cross-repository joint development, to test coding agents on multi-repository tasks.",
+     "summary": "Real-world software development often spans multiple interdependent repositories. To test coding agents on these tasks, researchers introduced CrossSWE. This benchmark comprises 171 real-world instances spanning 165 repositories, 20 technical domains, and 13 programming languages. It verifies the necessity of coordinated changes by testing whether partial repository modifications are insufficient to achieve the intended behavior. An evaluation of five large language models showed substantial challenges. The strongest model, GPT-6.1 Sol, achieved only 58.48% Pass@1. Furthermore, cross-repository inconsistencies emerged as the most prevalent failure mode at 44.2%.",
+     "eli5": "It is like trying to build a toy house where the pieces come from different boxes, and you have to make sure they all fit together properly.",
+     "why_it_matters": "Multi-repository software engineering tasks remain difficult for current large language models, highlighting the need to improve coordination across interdependent codebases.",
+     "topic": "research",
+     "type": "paper",
+     "labs": [
+      "other"
+     ],
+     "people": [],
+     "concepts": [
+      "benchmark",
+      "agent",
+      "llm"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [
+      {
+       "term": "cross-repository joint development",
+       "definition": "Real-world software development that spans multiple interdependent repositories and introduces challenges in dependency reasoning, change propagation, and interface consistency."
+      }
+     ],
+     "sources": [
+      {
+       "title": "CrossSWE: Benchmarking Cross-Repository Joint Development for Coding Agents",
+       "url": "https://arxiv.org/abs/2611.01484",
+       "name": "Hugging Face Daily Papers",
+       "kind": "original"
+      },
+      {
+       "title": "Discussion on Hugging Face Daily Papers",
+       "url": "https://huggingface.co/papers/2611.01484",
+       "name": "Hugging Face Daily Papers",
+       "kind": "discussion"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-10-31T23:16:52Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "CrossSWE is a benchmark for coding agents on joint development across several repositories, which is closer to real work than single-repo tests.",
+     "rank": 5,
+     "id": "2026-11-01-crossswe-benchmark-tests-coding-agents-across-multiple-repos",
+     "date": "2026-11-01"
+    },
+    {
+     "title": "Balanov Releases Uncut, a Lossless and Headless Coding Agent Harness",
+     "one_liner": "Uncut is a tiny, lossless, headless coding agent harness packaged as a 7 MB static Go binary with four tools.",
+     "summary": "Balanov released Uncut, a tiny coding agent harness for shell pipelines, CI jobs, containers, and agent experiments. The tool consists of a 7 MB static Go binary with four tools and plain stdin and stdout. It features no TUI, telemetry, plugin system, background agents, automatic retries, or context compaction. Uncut sends the entire conversation on every model call without truncating file contents or combined command output. It exits with an error if a provider cuts a response at its output limit. It supports Linux, macOS, and Windows for amd64 and arm64 architectures under the MIT license.",
+     "eli5": "Uncut is a tiny digital helper that reads your code instructions, runs commands, and sends the exact text straight to an AI model without summarizing or hiding anything.",
+     "why_it_matters": "Eliminating silent context cuts and summarization ensures that coding agents process exact inputs and raw tool results without hidden modifications.",
+     "topic": "dev-tools",
+     "type": "product",
+     "labs": [],
+     "people": [],
+     "concepts": [
+      "agent",
+      "coding-assistant",
+      "tool-use"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [
+      {
+       "term": "coding agent harness",
+       "definition": "A tiny harness for shell pipelines, containers, and agent experiments that communicates via plain stdin and stdout."
+      }
+     ],
+     "sources": [
+      {
+       "title": "Balanov/uncut: The lossless, headless coding agent harness. One 7 MB static binary, four tools, plain stdin/stdout, no silent cuts.",
+       "url": "https://github.com/Balanov/uncut",
+       "name": "GitHub new AI repos",
+       "kind": "original"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-01T17:19:30Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 2,
+      "hype_flags": []
+     },
+     "editor_reason": "uncut is a small Go coding agent harness shipped as one static binary with four tools and no silent output cuts.",
+     "rank": 6,
+     "id": "2026-11-01-balanov-releases-uncut-a-lossless-and-headless-coding-agent",
+     "date": "2026-11-01"
+    },
+    {
+     "title": "vLLM 0.33.0 is out",
+     "one_liner": "vLLM version 0.33.0 is now available on GitHub.",
+     "summary": "The vLLM project on GitHub released version v0.33.0. The release page includes tag identifier 4ba787e and lists assets. The page shows error messages and loading notifications in several sections. Users can view the tag and assets on the project page.",
+     "eli5": "A software project posted a new version on its page, much like putting a new label on a box of building blocks.",
+     "why_it_matters": "A new version of vLLM is published on GitHub.",
+     "topic": "dev-tools",
+     "type": "event",
+     "labs": [],
+     "people": [],
+     "concepts": [
+      "llm"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "vLLM v0.33.0",
+       "url": "https://github.com/vllm-project/vllm/releases/tag/v0.33.0",
+       "name": "vLLM",
+       "kind": "original"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-01T09:21:10Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 2,
+      "hype_flags": []
+     },
+     "editor_reason": "vLLM v0.33.0 is a new release of a widely used inference server.",
+     "rank": 7,
+     "id": "2026-11-01-vllm-v0-33-0-released-on-github",
+     "date": "2026-11-01"
+    }
+   ],
+   "stats": {
+    "items": 35,
+    "stories": 35,
+    "sources_ok": 42,
+    "sources_failed": [],
+    "published": 10,
+    "dropped": 2,
+    "llm_calls": 4,
+    "cache_hits": 41,
+    "models": {
+     "gemini:gemini-3.5-flash-lite": 2,
+     "anthropic:claude-sonnet-5-5": 2
+    },
+    "fallbacks": [],
+    "seconds": 47
+   }
+  },
+  "2026-11-02": {
+   "date": "2026-11-02",
+   "generated_at": "2026-11-03T14:12:32Z",
+   "stories": [
+    {
+     "title": "OpenAI built Pando, a new Git backend, to keep up with Codex",
+     "one_liner": "OpenAI built Pando, a new Git-compatible backend designed to handle the scale and concurrent work enabled by Codex.",
+     "summary": "OpenAI developed Pando as a new backend for Git repositories to support the massive increase in monorepo size and demands caused by Codex. Pando aims to provide horizontally scalable writes for concurrent pushes and maximize read throughput to saturate network bandwidth. In production, Pando cut median push latency by nearly 5x and delivers nearly a petabyte of Git data per day. The system retains compatibility with the Git protocol and client, allowing engineers and agents to adopt it without changing their existing workflows. Aaron Friel, Taylor Blau, and Ted Nyman authored the announcement.",
+     "eli5": "Imagine a giant toy box where everyone wants to grab or drop off toys at the exact same time. OpenAI built a smarter shelf system so nobody has to wait in line.",
+     "why_it_matters": "Scaling source control infrastructure enables development teams to run massive parallel coding tasks with AI agents without hitting repository bottlenecks.",
+     "topic": "dev-tools",
+     "type": "event",
+     "labs": [
+      "openai"
+     ],
+     "people": [],
+     "concepts": [
+      "coding-assistant",
+      "agent"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [
+      {
+       "term": "monorepo",
+       "definition": "A large repository containing the source code and files for multiple projects."
+      },
+      {
+       "term": "packfile",
+       "definition": "Git's format for compressing multiple objects together."
+      }
+     ],
+     "sources": [
+      {
+       "title": "Scaling Git at OpenAI",
+       "url": "https://openai.com/index/scaling-git-at-openai",
+       "name": "OpenAI News",
+       "kind": "original"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-02T15:30:00Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "OpenAI detailed Pando, a custom Git-compatible storage backend built to handle massive commit volume generated by Codex.",
+     "rank": 1,
+     "id": "2026-11-02-openai-builds-pando-backend-to-scale-git-for-codex",
+     "date": "2026-11-02"
+    },
+    {
+     "title": "Anthropic releases FlashProve for cryptographic proofs that a model really ran",
+     "one_liner": "Anthropic released FlashProve, an open-source system using zkSNARKs to generate cryptographic proofs verifying that specific AI models produced given responses.",
+     "summary": "Anthropic released FlashProve, a system for provable inference using a cryptographic proof type known as a zkSNARK. The system lets a model provider commit to a model and prove that each response came from that model without revealing the private weights. For a 400 billion parameter mixture of experts model, a single H100 GPU generates proofs at around 110 tokens per second with a proof size of about 19 megabytes per 1,024-token request. Anthropic released code, documentation, and Lean proofs under the Apache 2.0 license to allow other teams to inspect and improve the work.",
+     "eli5": "It is like having a special seal on a letter that proves exactly which writer penned it without letting anyone read the secret recipe used to write it.",
+     "why_it_matters": "Cryptographic proofs enable users and independent evaluators to verify that AI responses actually come from the requested models.",
+     "topic": "research",
+     "type": "event",
+     "labs": [
+      "anthropic",
+      "academia"
+     ],
+     "people": [],
+     "concepts": [
+      "inference",
+      "mixture-of-experts",
+      "red-teaming"
+     ],
+     "spotlight": true,
+     "spotlight_reason": "It applies zero-knowledge cryptographic proofs to LLM inference, creating a new method to verifiably prove an output came from a specific model.",
+     "new_terms": [
+      {
+       "term": "provable inference",
+       "definition": "A goal that enables a user with limited computational resources and without information about weights to verify that a response came from a requested model."
+      },
+      {
+       "term": "zkSNARK",
+       "definition": "A powerful type of cryptographic proof known for strong hiding and efficiency properties."
+      }
+     ],
+     "sources": [
+      {
+       "title": "Progress on provable inference for large language models",
+       "url": "https://www.anthropic.com/research/provable-inference",
+       "name": "Anthropic Frontier Red Team",
+       "kind": "original"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-02T00:00:00Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "Anthropic published research on using zkSNARK cryptographic proofs to verify large language model inference.",
+     "rank": 2,
+     "id": "2026-11-02-anthropic-releases-flashprove-for-cryptographic-proofs-of-in",
+     "date": "2026-11-02"
+    },
+    {
+     "title": "Marvell agrees to buy Lumentum for $115B in stock to own AI optical connectivity",
+     "one_liner": "Marvell Technology has entered into an all-stock agreement to acquire Lumentum for about $115 billion to combine optical circuit switching with AI connectivity.",
+     "summary": "Marvell Technology announced a definitive agreement to acquire Lumentum in an all-stock transaction valued at about $115 billion. The deal combines Marvell's electrical interconnect and custom silicon portfolio with Lumentum's lasers, optical circuit switching, and compound semiconductor manufacturing capabilities. The proposed combination aims to address connectivity bottlenecks in AI data centers as compute performance gains outpace networking gains. The transaction is expected to close in the first half of 2028. Following completion, Marvell shareholders will own 67% of the new company, and Lumentum shareholders will own 33%.",
+     "eli5": "Marvell is buying Lumentum for $115 billion so they can build better parts to connect computers in massive AI data centers using light instead of copper wires.",
+     "why_it_matters": "Combining electrical interconnects with optical circuit switching could drive deeper co-design across the entire signal chain for AI infrastructure.",
+     "topic": "industry",
+     "type": "event",
+     "labs": [],
+     "people": [],
+     "concepts": [],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [
+      {
+       "term": "optical circuit switching",
+       "definition": "A technology that establishes direct optical paths between endpoints using micro-electro-mechanical systems mirrors."
+      },
+      {
+       "term": "co-packaged optics",
+       "definition": "An approach that requires tight integration between switch silicon and the optical engine."
+      }
+     ],
+     "sources": [
+      {
+       "title": "Marvell Proposes Acquiring Lumentum to Combine Optical Circuit Switching with AI Connectivity Silicon",
+       "url": "https://www.servethehome.com/marvell-to-acquire-lumentum-115-billion-optical-ai-connectivity/",
+       "name": "ServeTheHome",
+       "kind": "press"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-02T22:30:09Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 2,
+      "hype_flags": []
+     },
+     "editor_reason": "Added by the editor after the nightly run missed it.",
+     "added_by_editor": "2026-11-03",
+     "id": "2026-11-02-marvell-announces-agreement-to-acquire-lumentum-for-115-bill",
+     "date": "2026-11-02",
+     "rank": 3
+    },
+    {
+     "title": "Microsoft's Copilot Cowork team merged 1,211 pull requests in one day, mostly written by agents",
+     "one_liner": "A Microsoft team building Copilot Cowork had nine engineers merge 1,211 pull requests into the backend main branch in a single day.",
+     "summary": "In January, a small team at Microsoft started building Copilot Cowork, an agentic execution layer that performs multi-step workflows. On October 21, nine engineers merged 1,211 pull requests into the backend main branch. Agents wrote most of the code during the four-and-a-half-month journey from an empty repository to worldwide general availability. Automated checks and agent reviewers examined every change. Human review focused on higher-risk changes, production impact, and cases where checks or reviewers disagreed. The team also migrated their live runtime from Python to Rust while the system was active.",
+     "eli5": "Workers use digital helpers to write most of the building blocks for a computer program, while humans check the work and decide what gets added.",
+     "why_it_matters": "Using AI agents to write most code changes the daily workflow of software development teams.",
+     "topic": "microsoft",
+     "type": "event",
+     "labs": [
+      "microsoft"
+     ],
+     "people": [],
+     "concepts": [
+      "copilot",
+      "agent"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "Nine engineers, 1,211 pull requests in a day: Lessons from building Copilot Cowork",
+       "url": "https://commandline.microsoft.com/how-we-built-copilot-cowork-python-to-rust-migration/",
+       "name": "Microsoft Command Line",
+       "kind": "original"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-02T15:13:56Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 2,
+      "hype_flags": []
+     },
+     "editor_reason": "Microsoft shared engineering patterns from building Copilot Cowork, an agentic layer running multi-step developer workflows.",
+     "rank": 4,
+     "id": "2026-11-02-microsoft-team-merges-1-211-pull-requests-in-one-day",
+     "date": "2026-11-02"
+    },
+    {
+     "title": "OpenAI is merging ChatGPT's Chat and Work tabs",
+     "one_liner": "OpenAI is merging the ChatGPT chat and work tabs to provide a single place for exploring ideas and building projects.",
+     "summary": "OpenAI is merging the Chat and Work tabs within the ChatGPT desktop app experience, according to an email sent to users. The update will initially be available to select users for feedback before a wider rollout. Users will be able to bring in files and plugins to build websites or presentations in one place. Codex will remain a separate experience in the desktop app. Both ChatGPT and Codex will draw tokens from the same allowance pool after the transition.",
+     "eli5": "You are putting two different toy boxes into one big box so you can find your blocks and tools in the same spot.",
+     "why_it_matters": "Merging these tabs lets users build websites and presentations in one place while drawing tokens from a shared usage pool.",
+     "topic": "products",
+     "type": "product",
+     "labs": [
+      "openai",
+      "anthropic"
+     ],
+     "people": [],
+     "concepts": [
+      "chatbot",
+      "tokens"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "OpenAI is finally merging ChatGPT’s Chat and Work tabs",
+       "url": "https://techcrunch.com/2026/11/02/openai-is-finally-merging-chatgpts-chat-and-work-tabs/",
+       "name": "TechCrunch AI",
+       "kind": "press"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-02T13:57:53Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "OpenAI merged ChatGPT's Chat and Work interfaces into a shared usage pool across ChatGPT and Codex.",
+     "rank": 5,
+     "id": "2026-11-02-openai-is-merging-chatgpt-chat-and-work-tabs",
+     "date": "2026-11-02"
+    },
+    {
+     "title": "Elon Musk throttles Grok Bot limits, citing high costs",
+     "one_liner": "SpaceX throttled usage limits for Grok Bot over Halloween weekend because the serving costs were unsustainably high relative to revenue.",
+     "summary": "Over Halloween weekend, Grok Bot users found their weekly usage limits unexpectedly maxed out, even if they had not used the AI overnight. Some users reported jumps from 50% to 100%. SpaceX CEO Elon Musk confirmed on X that this was not a glitch. He stated that the cost of serving Grok Bot was unsustainably high relative to revenue. SpaceX recently reported that AI makes up 52% of company income, and its renamed Super Intelligence division turned a profit of $431 million, offset by $1.2 billion of one-time costs related to its acquisition of Cursor. Musk has not shared how subscriber limits will be impacted moving forward.",
+     "eli5": "A popular toy was used so much that it cost too much money to run, so the creators had to put limits on how much children could play with it.",
+     "why_it_matters": "High operational costs can force companies to restrict user access even when a product sees rapid growth.",
+     "topic": "industry",
+     "type": "event",
+     "labs": [],
+     "people": [],
+     "concepts": [
+      "chatbot"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "Elon Musk throttles Grok Bot limits due to ‘unsustainably high’ costs",
+       "url": "https://techcrunch.com/2026/11/02/elon-musk-throttles-grok-bot-limits-due-to-unsustainably-high-costs/",
+       "name": "TechCrunch AI",
+       "kind": "press"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-02T16:23:21Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "Elon Musk announced rate limits on Grok Bot to curb high infrastructure costs.",
+     "rank": 6,
+     "id": "2026-11-02-elon-musk-throttles-grok-bot-limits-due-to-high-costs",
+     "date": "2026-11-02"
+    },
+    {
+     "title": "OpenAI Launches Grid Protectors Program for Compute Campuses",
+     "one_liner": "OpenAI is launching the Grid Protectors Program to help future compute campuses support reliable and affordable electricity for communities.",
+     "summary": "OpenAI launched the Grid Protectors Program to support affordable and reliable electricity for communities where it builds future compute campuses. Working with utilities and regulators, the effort will develop arrangements for campuses to reduce electricity demand when the grid is under strain. U.S. data center capacity is projected to exceed 100 gigawatts by 2030. For a planned Effingham County campus, OpenAI committed to paying full infrastructure and electric-service costs, and Georgia Power says the flexibility can reduce the amount of new generation it needs to build. The agreement includes up to 1,000 megawatts of flexible demand response.",
+     "eli5": "Imagine a restaurant that needs enough tables and kitchen space for the busy season, but pays for that capacity year-round. Regular customers help keep it in use and cover the bills when tourism slows, which is what OpenAI aims to do for the electricity grid.",
+     "why_it_matters": "Compute campus operators can establish flexible power arrangements with utilities to reduce electricity demand when local grids experience strain.",
+     "topic": "policy",
+     "type": "event",
+     "labs": [
+      "openai"
+     ],
+     "people": [],
+     "concepts": [
+      "hyperscaler"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [
+      {
+       "term": "flexible demand response",
+       "definition": "Reducing electricity use during times of need to help preserve power for other customers."
+      }
+     ],
+     "sources": [
+      {
+       "title": "Introducing the Grid Protectors Program",
+       "url": "https://openai.com/index/grid-protectors-program",
+       "name": "OpenAI News",
+       "kind": "original"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-02T15:00:00Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 2,
+      "hype_flags": []
+     },
+     "editor_reason": "OpenAI launched the Grid Protectors Program to collaborate with power utilities on infrastructure for upcoming compute campuses.",
+     "rank": 7,
+     "id": "2026-11-02-openai-launches-grid-protectors-program-for-compute-campuses",
+     "date": "2026-11-02"
+    },
+    {
+     "title": "Qodo Brings Organizational Context and Standards Into Codex",
+     "one_liner": "Qodo built a Codex plugin that brings organizational context and coding standards into AI code reviews.",
+     "summary": "Qodo built a plugin in the Codex marketplace to help developers catch P0 issues across repositories. The tool gives Codex access to codebase knowledge, organizational rules, and independent review through Qodo's Agentic Toolbox. Qodo uses OpenAI models including GPT-6 Astra to gather engineering knowledge, review code, and monitor software quality. Before Codex starts writing code, it retrieves relevant codebase rules and pull request history. After Codex makes changes, Qodo reviews them and returns findings directly in the same session before the developer opens a pull request.",
+     "eli5": "An AI helper writes your code, and a second AI helper checks it for mistakes before you show it to anyone, just like a writer and an editor working together.",
+     "why_it_matters": "Combining coding agents with independent review tools helps catch downstream service breaks before code changes are submitted.",
+     "topic": "dev-tools",
+     "type": "product",
+     "labs": [
+      "openai"
+     ],
+     "people": [],
+     "concepts": [
+      "coding-assistant",
+      "agent"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [
+      {
+       "term": "Agentic Toolbox",
+       "definition": "A toolkit that gives coding agents access to codebase knowledge, organizational rules, and independent review."
+      }
+     ],
+     "sources": [
+      {
+       "title": "Qodo builds context into AI code review with Codex",
+       "url": "https://openai.com/index/qodo-codex-plugin",
+       "name": "OpenAI News",
+       "kind": "original"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-02T00:00:00Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 2,
+      "hype_flags": []
+     },
+     "editor_reason": "Qodo integrated repository context and coding rules into Codex to catch major bugs before pull requests are opened.",
+     "rank": 8,
+     "id": "2026-11-02-qodo-brings-organizational-context-and-standards-into-codex",
+     "date": "2026-11-02"
+    },
+    {
+     "title": "Yandex Research's FLAMIA brings microscaling attention kernels to NVIDIA Blackwell",
+     "one_liner": "FLAMIA is a family of attention kernels for NVIDIA Blackwell GPUs that speeds up Transformer training using MXFP8 and mixed NVFP4/FP8 paths.",
+     "summary": "Attention remains a high computational cost in Transformer training, especially at long context lengths. NVIDIA Blackwell GPUs offer high-throughput low-precision matrix multiplication, but using it requires addressing quantization overhead and other issues. Researchers presented FLAMIA, a family of attention kernels for Blackwell with MXFP8 and mixed NVFP4/FP8 training paths. The design combines token-block scaling, safeguards against leakage, and consistent forward and backward computations. The MXFP8 path accelerates the combined forward and backward attention call by factors of 1.10 to 1.40 times on B200 and 1.06 to 1.42 times on B300. Training stability and quality preservation were validated on Llama-style models.",
+     "eli5": "This method reorganizes how an AI processes long blocks of text so it can use special fast hardware math without breaking anything.",
+     "why_it_matters": "Low-bit hardware throughput translates into practical attention acceleration when quantization, training numerics, and document scheduling are jointly designed.",
+     "topic": "research",
+     "type": "paper",
+     "labs": [
+      "nvidia",
+      "academia"
+     ],
+     "people": [],
+     "concepts": [
+      "attention",
+      "gpu",
+      "quantization"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [
+      {
+       "term": "token-block scaling",
+       "definition": "A design that reuses quantized operands across matrix orientations."
+      },
+      {
+       "term": "workload-aware scheduling",
+       "definition": "A scheduling approach that supports variable-length documents directly in packed layouts without repacking."
+      }
+     ],
+     "sources": [
+      {
+       "title": "FLAMIA: FLAsh MIcroscaling Attention for Fast and Causally Safe Training on Blackwell",
+       "url": "https://arxiv.org/abs/2611.03344",
+       "name": "Hugging Face Daily Papers",
+       "kind": "original"
+      },
+      {
+       "title": "Discussion on Hugging Face Daily Papers",
+       "url": "https://huggingface.co/papers/2611.03344",
+       "name": "Hugging Face Daily Papers",
+       "kind": "discussion"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-02T11:00:12Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 2,
+      "hype_flags": []
+     },
+     "editor_reason": "Researchers introduced FLAMIA, an optimized attention kernel designed for fast Transformer training on NVIDIA Blackwell GPUs.",
+     "rank": 9,
+     "id": "2026-11-02-flamia-brings-microscaling-attention-kernels-to-nvidia-black",
+     "date": "2026-11-02"
+    }
+   ],
+   "stats": {
+    "items": 57,
+    "stories": 56,
+    "sources_ok": 42,
+    "sources_failed": [],
+    "published": 11,
+    "dropped": 2,
+    "llm_calls": 7,
+    "cache_hits": 30,
+    "models": {
+     "anthropic:claude-sonnet-5-5": 4,
+     "gemini:gemini-3.5-flash-lite": 3
+    },
+    "fallbacks": [],
+    "seconds": 79
+   }
+  },
+  "2026-11-03": {
+   "date": "2026-11-03",
+   "generated_at": "2026-11-03T14:23:41Z",
+   "stories": [
+    {
+     "title": "Anthropic's amended IPO filing lists about $900B in AI spending commitments",
+     "one_liner": "Anthropic revealed $900B in AI spending commitments and a $1.7B quarterly payroll ahead of its IPO.",
+     "summary": "Anthropic revealed $900B in AI spending commitments ahead of an IPO. The IPO filing also showed a $1.7B quarterly payroll. This amounts to about $107K per employee monthly.",
+     "eli5": "Like a company that spends huge amounts of money on supplies and worker pay before opening its store to the public.",
+     "why_it_matters": "Financial scale and high operational costs dictate the resources available for model development and infrastructure.",
+     "topic": "industry",
+     "type": "event",
+     "labs": [
+      "anthropic"
+     ],
+     "people": [],
+     "concepts": [],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "Anthropic reveals $900B AI spending commitments ahead of IPO",
+       "url": "https://www.ft.com/content/4d91dbab-6fe4-45ab-beee-d77e091cb37f",
+       "name": "ft.com",
+       "kind": "press"
+      },
+      {
+       "title": "Discussion on Hacker News",
+       "url": "https://news.ycombinator.com/item?id=50342424",
+       "name": "Hacker News",
+       "kind": "discussion"
+      },
+      {
+       "title": "Anthropic IPO filing: $1.7B quarterly payroll, about $107K per employee monthly",
+       "url": "https://www.techspot.com/news/114428-anthropic-ipo-filing-reveals-17-billion-quarterly-personnel.html",
+       "name": "techspot.com",
+       "kind": "press"
+      },
+      {
+       "title": "Discussion on Hacker News",
+       "url": "https://news.ycombinator.com/item?id=50350560",
+       "name": "Hacker News",
+       "kind": "discussion"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-02T19:36:37Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "Anthropic's IPO filing reveals about $900B in AI spending commitments and a $1.7B quarterly payroll, a major look at frontier lab finances.",
+     "rank": 1,
+     "id": "2026-11-03-anthropic-reveals-900b-ai-spending-commitments-ahead-of-ipo",
+     "date": "2026-11-03"
+    },
+    {
+     "title": "Anthropic's filing warns it may soon reach its own threshold for AI that speeds up its own development",
+     "one_liner": "Anthropic warned in a regulatory filing that it is very close to developing recursive self-improvement capability.",
+     "summary": "Anthropic revealed in a revised S-1/A filing that it is on the cusp of creating a model capable of recursive self-improvement, also known as RSI. The company cautioned that using AI to build more capable AI could pose safety risks if it accelerates progress faster than security measures. Anthropic stated that none of its current models have crossed the threshold yet, and it plans to keep humans in control of frontier model development for the foreseeable future.",
+     "eli5": "It is like a robot learning to build a better version of itself so fast that people have to work extra hard to make sure it stays safe and helpful.",
+     "why_it_matters": "Rapid self-improving models can advance faster than safety measures, forcing teams to change how they monitor and govern AI development.",
+     "topic": "policy",
+     "type": "event",
+     "labs": [
+      "anthropic"
+     ],
+     "people": [],
+     "concepts": [
+      "ai-safety",
+      "ai-governance"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [
+      {
+       "term": "recursive self-improvement",
+       "definition": "The point at which AI grows so good at training itself that it spawns a dramatic acceleration of AI capabilities."
+      }
+     ],
+     "sources": [
+      {
+       "title": "Anthropic warns that it’s very close to RSI capability, aka self-building AI",
+       "url": "https://techcrunch.com/2026/11/02/anthropic-warns-that-its-very-close-to-rsi-capability-aka-self-building-ai/",
+       "name": "TechCrunch AI",
+       "kind": "press"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-02T22:14:50Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "Anthropic says it is very close to recursive self-improvement capability, a major safety claim from a leading lab.",
+     "rank": 2,
+     "id": "2026-11-03-anthropic-warns-it-is-close-to-self-building-ai-capability",
+     "date": "2026-11-03"
+    },
+    {
+     "title": "Researchers show LLMs can read and edit neural network weights directly",
+     "one_liner": "Researchers demonstrate that smart language models can directly read, fix bugs in, and write the neural network weights of smaller models.",
+     "summary": "A new discovery shows that large language models can directly read and edit the weights of smaller models without writing code or running training loops. Researchers used a smart model to inspect compiled model weights, fix bugs from failed traces, and write entire network weights from scratch. This approach cuts traditional autoresearch and code-writing loops out of recursive self-improvement processes. While currently limited to simple tasks, this new capability provides a highly efficient alternative to standard model training methods.",
+     "eli5": "This is like fixing the wiring inside a toy directly by looking at its brain cells instead of reading the instruction manual.",
+     "why_it_matters": "Direct weight editing provides a faster way to improve models by bypassing traditional code-writing loops.",
+     "topic": "research",
+     "type": "paper",
+     "labs": [
+      "deepseek",
+      "qwen"
+     ],
+     "people": [
+      "andrej-karpathy",
+      "demis-hassabis"
+     ],
+     "concepts": [
+      "llm",
+      "machine-learning",
+      "benchmark"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [
+      {
+       "term": "Weight Space Programming",
+       "definition": "A technique where a smart model directly reads and edits the weights of another model to perform tasks without writing code."
+      }
+     ],
+     "sources": [
+      {
+       "title": "LLMs can read & write neural network weights: \"Weight Space Programming\" cuts Autoresearch out of the RSI loop, Latent Space",
+       "url": "https://latent.space/p/ainews-llms-can-read-write-neural-network-weights-weight-space-programming-cuts-autoresearch-out-of/",
+       "name": "Latent Space (AINews)",
+       "kind": "press"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-03T14:23:41Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "Added by the editor after the nightly run missed it.",
+     "added_by_editor": "2026-11-03",
+     "id": "2026-11-03-llms-read-and-edit-neural-network-weights-directly",
+     "date": "2026-11-03",
+     "rank": 3
+    },
+    {
+     "title": "Nvidia reportedly asks cloud customers to cut back China business",
+     "one_liner": "Reports indicate Nvidia has verbally asked some cloud customers to reduce business with Chinese companies and target a diverse customer mix.",
+     "summary": "Nvidia has reportedly told some cloud compute clients to take on less business from Chinese companies. Sales reps and regional teams communicated the instruction verbally. Sources say clients were told to sell fifty one percent or more of their services to non-Chinese companies. The guidance is meant to encourage a diverse customer mix. The directive is not mandatory and applies to future contracts. Customers are also being asked to disclose the identity of end users accessing the chips. This targets a gap in United States export controls, which restrict chip shipments but not remote access through foreign data centers.",
+     "eli5": "A store owner tells some of their helpers to share their toys with many different friends instead of just one friend.",
+     "why_it_matters": "Cloud providers and data centers face new informal pressure from hardware suppliers to limit compute capacity rented to Chinese AI developers through foreign data centers.",
+     "topic": "industry",
+     "type": "event",
+     "labs": [
+      "nvidia"
+     ],
+     "people": [],
+     "concepts": [
+      "gpu"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "Nvidia pushes cloud customers to cut back on China business",
+       "url": "https://the-decoder.com/nvidia-pushes-cloud-customers-to-cut-back-on-china-business/",
+       "name": "The Decoder",
+       "kind": "press"
+      },
+      {
+       "title": "Sources: Nvidia verbally told cloud compute clients to sell 51%+ of their services to non-Chinese companies, imposing new limits on China's access to AI chips (Financial Times)",
+       "url": "https://www.techmeme.com/261103/p1#a261103p1",
+       "name": "Techmeme",
+       "kind": "press"
+      }
+     ],
+     "buzz": 2,
+     "published": "2026-11-03T06:00:40Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 2,
+      "hype_flags": []
+     },
+     "editor_reason": "Nvidia reportedly told cloud customers to sell at least 51% of services to non-Chinese companies, tightening limits on China's access to compute.",
+     "rank": 4,
+     "id": "2026-11-03-reports-say-nvidia-asks-cloud-customers-to-cut-china-busines",
+     "date": "2026-11-03"
+    },
+    {
+     "title": "OpenAI raises bug bounty payouts and starts a security sprint with Cathedral",
+     "one_liner": "OpenAI quadrupled its bug bounty payouts to a maximum of $172,000 and partnered with Cathedral for an internal security sprint.",
+     "summary": "OpenAI quadrupled its bug bounty payouts and launched a new internal security sprint. Critical vulnerabilities in core products like ChatGPT or Codex now earn outside researchers up to $30,000. Exceptional findings can reach up to $100,000. With quality, loyalty, and campaign bonuses, the total payout can reach roughly $172,000. Anyone who reported a vulnerability in the last 30 days receives the difference retroactively. Alongside the bounty overhaul, OpenAI is partnering with the security firm Cathedral to stress-test its systems with the help of internal engineers.",
+     "eli5": "It is like a giant scavenger hunt where people get paid big money to find hidden locks and doors in a clubhouse before bad guys can use them.",
+     "why_it_matters": "Higher payouts from platform providers increase the chances that security flaws in core models and products are discovered and fixed early.",
+     "topic": "dev-tools",
+     "type": "event",
+     "labs": [
+      "openai"
+     ],
+     "people": [],
+     "concepts": [
+      "ai-safety",
+      "red-teaming",
+      "chatbot"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [
+      {
+       "term": "security sprint",
+       "definition": "An internal event where engineers and security firms team up to stress-test systems and find vulnerabilities."
+      }
+     ],
+     "sources": [
+      {
+       "title": "Bug hunters can now earn up to $172,000 from OpenAI as company ramps up security",
+       "url": "https://the-decoder.com/bug-hunters-can-now-earn-up-to-172000-from-openai-as-company-ramps-up-security/",
+       "name": "The Decoder",
+       "kind": "press"
+      },
+      {
+       "title": "OpenAI partners with Cathedral to test its security defenses and revamps its Security Bug Bounty program, including quadrupling rewards for critical findings (OpenAI)",
+       "url": "https://www.techmeme.com/261103/p2#a261103p2",
+       "name": "Techmeme",
+       "kind": "press"
+      }
+     ],
+     "buzz": 2,
+     "published": "2026-11-03T07:20:00Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "OpenAI quadrupled bug bounty payouts to up to $172,000 and partnered with Cathedral to test its security defenses.",
+     "rank": 5,
+     "id": "2026-11-03-openai-increases-bug-bounty-payouts-and-partners-with-cathed",
+     "date": "2026-11-03"
+    },
+    {
+     "title": "The New York Times and other outlets sue Brave, alleging AI scraping",
+     "one_liner": "The New York Times and other media outlets sued web browser Brave in federal court over alleged copyright content scraping.",
+     "summary": "The New York Times sued privacy-focused web browser company Brave in federal court in Manhattan. The lawsuit alleges that Brave scraped copyrighted content and distributed it to customers including Anthropic, Perplexity, Mistral, xAI, and Cohere. A separate lawsuit was filed by the Daily News, the Chicago Tribune, and the Orlando Sentinel. The New York Times claims Brave built an index of more than 30 billion web pages using an unidentified crawler. The suits also target features that bypass paywalls and block publisher ads while selling Brave ads. The Times seeks an injunction and damages.",
+     "eli5": "Some news companies are suing a web browser company because they say it took their stories without permission and gave them to artificial intelligence companies.",
+     "why_it_matters": "Lawsuits over data scraping may change how AI companies source training data from web browsers and publishers.",
+     "topic": "policy",
+     "type": "event",
+     "labs": [
+      "anthropic",
+      "mistral",
+      "other"
+     ],
+     "people": [],
+     "concepts": [
+      "ai-governance",
+      "dataset"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "New York Times and other outlets sue web browser Brave over alleged content scraping",
+       "url": "https://techcrunch.com/2026/11/02/new-york-times-and-other-outlets-sue-web-browser-brave-over-alleged-content-scraping/",
+       "name": "TechCrunch AI",
+       "kind": "press"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-02T19:19:17Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "The New York Times and other outlets are suing Brave over alleged scraping of copyrighted content.",
+     "rank": 6,
+     "id": "2026-11-03-new-york-times-and-other-outlets-sue-brave-over-alleged-scra",
+     "date": "2026-11-03"
+    },
+    {
+     "title": "China plans broad AI safety standards, report says",
+     "one_liner": "China plans to roll out broad AI safety standards covering development through deployment, targeting domestic AI model makers.",
+     "summary": "According to Bloomberg via Techmeme, China plans to roll out a broad set of standards governing artificial intelligence safety. The plan covers development through deployment. It targets domestic AI model makers. The plan comes after global security incidents.",
+     "eli5": "Just like a playground has rules from the time games are planned until they are played, China plans to have safety rules for AI from development through deployment.",
+     "why_it_matters": "Domestic AI model makers face planned safety standards covering development through deployment following global security incidents.",
+     "topic": "policy",
+     "type": "event",
+     "labs": [
+      "government"
+     ],
+     "people": [],
+     "concepts": [
+      "ai-safety",
+      "ai-governance"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "China plans to roll out broad AI safety standards covering development through deployment, targeting domestic AI model makers, after global security incidents (Bloomberg)",
+       "url": "https://www.techmeme.com/261103/p8#a261103p8",
+       "name": "Techmeme",
+       "kind": "press"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-03T11:15:03Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 2,
+      "hype_flags": []
+     },
+     "editor_reason": "China plans broad AI safety standards covering development through deployment for domestic model makers.",
+     "rank": 7,
+     "id": "2026-11-03-report-china-plans-broad-ai-safety-standards",
+     "date": "2026-11-03"
+    },
+    {
+     "title": "Report: Huawei Told Clients Ascend 960DT Will Use Samsung and SK Hynix HBM",
+     "one_liner": "Sources report Huawei told some clients that its upcoming flagship AI chip, the Ascend 960DT, will run largely on HBM made by Samsung and SK Hynix.",
+     "summary": "According to sources cited by The Information, Huawei told some clients that a large share of its upcoming flagship AI chip, the Ascend 960DT, will run largely on high-bandwidth memory made by Samsung and SK Hynix. The report highlights how porous United States restrictions on the shipment of artificial intelligence chips to China can be. The information appeared on Techmeme on November 3, 2026.",
+     "eli5": "Huawei told some customers that its new computer chip will use memory parts made by Samsung and SK Hynix, much like building a new toy car with wheels from two different outside stores.",
+     "why_it_matters": "Hardware supply chains rely on components that cross international boundaries despite shipment restrictions.",
+     "topic": "industry",
+     "type": "event",
+     "labs": [
+      "other"
+     ],
+     "people": [],
+     "concepts": [
+      "gpu"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [
+      {
+       "term": "HBM",
+       "definition": "High-bandwidth memory made by Samsung and SK Hynix that will run a large share of Huawei's upcoming flagship AI chip."
+      }
+     ],
+     "sources": [
+      {
+       "title": "Sources: Huawei told some clients that a large share of its upcoming flagship AI chip, Ascend 960DT, will run largely on HBM made by Samsung and SK Hynix (The Information)",
+       "url": "https://www.techmeme.com/261102/p50#a261102p50",
+       "name": "Techmeme",
+       "kind": "press"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-03T03:25:00Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "Huawei's upcoming Ascend 960DT reportedly will run largely on Samsung-made HBM, which bears on China's AI chip supply.",
+     "rank": 8,
+     "id": "2026-11-03-report-huawei-told-clients-ascend-960dt-will-use-samsung-and",
+     "date": "2026-11-03"
+    },
+    {
+     "title": "Oracle Files to Sell $20 Billion in Stock and Bonds",
+     "one_liner": "Oracle filed plans to issue $10 billion in stock and $10 billion in bonds to finance its artificial intelligence buildout.",
+     "summary": "Oracle filed plans with the Securities and Exchange Commission to issue $10 billion in common stock and $10 billion in senior notes. The company plans to use the proceeds for general corporate purposes, which may include capital expenditures, debt repayments, and future investments. Oracle outlined these fundraising plans during its investor day, where it also issued a revenue forecast of at least $225 billion for fiscal 2030. Oracle shares fell 8.8% on Monday following the filing. Co-founded by Larry Ellison, Oracle holds $125.34 billion in debt and faces growing investor concern over the massive amount of debt used to fund AI infrastructure.",
+     "eli5": "Oracle is borrowing and raising money by selling parts of its company to pay for building big computers, just like saving up allowance to buy a massive new toy.",
+     "why_it_matters": "Execution of these financial plans will determine if Oracle can meet its stated goals during this investment cycle.",
+     "topic": "industry",
+     "type": "event",
+     "labs": [],
+     "people": [],
+     "concepts": [
+      "hyperscaler"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [
+      {
+       "term": "vendor financing",
+       "definition": "A method Oracle plans to use to help it transition to positive free cash flow."
+      }
+     ],
+     "sources": [
+      {
+       "title": "Oracle files to sell $20B in new stock, bonds to finance AI buildout",
+       "url": "https://www.cnbc.com/2026/11/02/oracle-files-to-sell-20-billion-in-new-stock-bonds-to-finance-ai-buildout.html",
+       "name": "cnbc.com",
+       "kind": "press"
+      },
+      {
+       "title": "Discussion on Hacker News",
+       "url": "https://news.ycombinator.com/item?id=50342284",
+       "name": "Hacker News",
+       "kind": "discussion"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-02T19:27:37Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 2,
+      "hype_flags": []
+     },
+     "editor_reason": "Oracle filed to sell $20B in new stock and bonds to fund its AI buildout.",
+     "rank": 9,
+     "id": "2026-11-03-oracle-files-to-sell-20-billion-in-stock-and-bonds",
+     "date": "2026-11-03"
+    },
+    {
+     "title": "New paper plants agentic backdoors through pretraining data poisoning",
+     "one_liner": "A new computer science paper titled Agentic backdoors via pretraining poisoning was submitted to arXiv on 27 Oct 2026.",
+     "summary": "A computer science paper titled Agentic backdoors via pretraining poisoning was submitted to arXiv on 27 Oct 2026. The submission appears under the Cryptography and Security category. The web page provides options to view the PDF, HTML, TeX source, and citation tools. It also notes information about arXivLabs, which is a framework that allows collaborators to develop and share new arXiv features on the website.",
+     "eli5": "A new research paper was submitted to an online library called arXiv.",
+     "why_it_matters": "A new paper submission appears on arXiv.",
+     "topic": "research",
+     "type": "paper",
+     "labs": [],
+     "people": [],
+     "concepts": [
+      "pretraining"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "Agentic backdoors via pretraining poisoning",
+       "url": "https://arxiv.org/abs/2610.37741",
+       "name": "arxiv.org",
+       "kind": "original"
+      },
+      {
+       "title": "Discussion on Hacker News",
+       "url": "https://news.ycombinator.com/item?id=50341334",
+       "name": "Hacker News",
+       "kind": "discussion"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-02T18:30:58Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 2,
+      "hype_flags": []
+     },
+     "editor_reason": "Research on agentic backdoors planted through pretraining poisoning is relevant to anyone training or using open models.",
+     "rank": 10,
+     "id": "2026-11-03-new-paper-submits-agentic-backdoors-via-pretraining-poisonin",
+     "date": "2026-11-03"
+    }
+   ],
+   "stats": {
+    "items": 53,
+    "stories": 49,
+    "sources_ok": 42,
+    "sources_failed": [],
+    "published": 10,
+    "dropped": 3,
+    "llm_calls": 8,
+    "cache_hits": 31,
+    "models": {
+     "gemini:gemini-3.5-flash-lite": 4,
+     "anthropic:claude-sonnet-5-5": 4
+    },
+    "fallbacks": [
+     {
+      "tag": "writer",
+      "used": "gemini:gemini-3.5-flash-lite",
+      "after": [
+       "gemini:gemini-3.5-flash-lite: HTTP 503 [{\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n]"
+      ]
+     }
+    ],
+    "seconds": 132
+   }
+  }
+ }
+}

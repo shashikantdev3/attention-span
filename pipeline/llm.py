@@ -30,7 +30,7 @@ PROVIDERS = {
 }
 # Answers from these providers mean the key, account or credits are the problem, not this one request:
 # stop using the provider for the rest of the run and fall back to the next one in the chain.
-_FATAL = ("credit balance", "billing", "invalid x-api-key", "authentication_error", "permission_error")
+_FATAL = ("credit balance", "billing", "usage limit", "invalid x-api-key", "authentication_error", "permission_error")
 # Each step has its own chain. The editor runs once a day, so it gets the stronger Flash models
 # (small daily quota). The checker uses a different model family from the writer, so a model
 # never marks its own homework.
