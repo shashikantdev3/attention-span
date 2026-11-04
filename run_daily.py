@@ -42,6 +42,7 @@ from pipeline import llm, store  # noqa: E402
 from pipeline.collect import collect  # noqa: E402
 from pipeline.curate import apply_merges, editor, must_include, write_story  # noqa: E402
 from pipeline.group import group  # noqa: E402
+from pipeline import signals  # noqa: E402
 
 DATA = ROOT / "docs" / "data"
 
@@ -150,7 +151,11 @@ def main():
     log(f"   {len(stories)} stories, {len(stories) - len(fresh)} already published on an earlier day")
 
     log("3. Editor picks")
+    # importance and discussion signals (HN points and comments, sources, leader, industry shift); see pipeline/signals.py
+    signals.enrich(fresh, log=log)
+    signals.annotate(fresh)
     candidates = fresh[:45]
+    candidates += [s for s in fresh[45:] if s["signals"]["score"] >= signals.INCLUDE_AT]  # never cut a busy story
     picks = editor(candidates, meta, args.max, log)
     by_cid = apply_merges(candidates, picks.get("merge"), log)
     spotlight = {}
@@ -165,6 +170,21 @@ def main():
         pick_list.insert(1, {"cid": extra["cid"], "topic": None,
                              "reason": "Included automatically: a major lab's own announcement with a strong signal."})
         log(f"    safety net added {extra['cid']}: {extra['items'][0]['title'][:70]}")
+        picked.add(extra["cid"])
+    for extra in signals.signal_includes([by_cid[c] for c in by_cid], picked):
+        sig = extra["signals"]
+        pick_list.insert(min(2, len(pick_list)), {"cid": extra["cid"], "topic": None,
+                         "reason": f"Included automatically: widely discussed ({signals.label(sig)})."})
+        picked.add(extra["cid"])
+        log(f"    signal net added {extra['cid']} ({sig['score']}): {extra['items'][0]['title'][:70]}")
+    # a high-signal story about an industry shift goes to the spotlight even if the editor did not choose it (max 2 in all)
+    for p in pick_list:
+        sig = by_cid[p["cid"]].get("signals", {}) if p["cid"] in by_cid else {}
+        if len(spotlight) >= 2:
+            break
+        if p["cid"] not in spotlight and sig and signals.auto_spotlight(sig):
+            spotlight[p["cid"]] = signals.spotlight_reason(sig)
+            log(f"    signal spotlight {p['cid']} ({sig['score']})")
 
     log("4. Writing and fact-checking")
     published, dropped, reports = [], [], []

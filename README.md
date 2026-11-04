@@ -42,8 +42,13 @@ Every record (news story, history entry, concept, person) uses the same tags, so
    Release feeds keep only stable feature releases, so a patch or a release candidate never becomes a story.
 2. **Group** duplicates into stories (TF-IDF similarity, pure Python). The number of independent sources is the buzz signal.
 3. **Edit**: one call to Gemini Flash picks up to 12 stories that matter to builders (Claude Sonnet if both Flash
-   models are busy, then Flash-Lite). A rule in code always includes a
-   major lab's own announcement with a strong signal, even if the model skips it.
+   models are busy, then Flash-Lite). Before that, code gives every story a signal score from 0 to 100
+   (`pipeline/signals.py`): Hacker News points and comments, a "heated debate" flag when comments are high relative
+   to points, independent sources, a lab's own post, a company leader (CEO, CTO, founder) and "industry shift" wording
+   (memo, manifesto, layoffs, hiring, interviews and so on). The editor sees the score and its reasons. Rules in code
+   then always include a major lab's own announcement with a strong signal, add up to 3 stories scoring 60 or more
+   that the editor left out, and spotlight a picked story scoring 65 or more that is about an industry shift (never
+   a Launch HN or Show HN post).
 4. **Write** each story only from its fetched source text (Gemini Flash-Lite).
 5. **Fact-check** with a different model family (Claude Sonnet, falling back to Groq gpt-oss-120b) and with code:
    every number must appear in the sources. A failing story is rewritten once, then dropped.

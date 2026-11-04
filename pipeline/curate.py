@@ -15,6 +15,7 @@ from urllib.parse import urlsplit
 from .extract import article_text
 from .group import tokens
 from .llm import ask_json
+from .signals import label
 
 HYPE = ["revolutionary", "game-changer", "game changer", "groundbreaking", "unprecedented", "supercharge",
         "seamless", "unlock", "cutting-edge", "paradigm shift", "next-level", "mind-blowing"]
@@ -30,12 +31,15 @@ def editor(stories, meta, max_stories, log):
     for s in stories:
         titles = " || ".join(dict.fromkeys(i["title"][:110] for i in s["items"]))[:330]
         snippet = next((i["text"][:160] for i in s["items"] if i["text"]), "")
-        rows.append(f"{s['cid']} | sources={s['buzz']} ({','.join(s['sources'][:4])}) | {titles} | {snippet}")
+        sig = s.get("signals")
+        tag = f" | {label(sig)}" if sig else ""
+        rows.append(f"{s['cid']} | sources={s['buzz']} ({','.join(s['sources'][:4])}){tag} | {titles} | {snippet}")
     topics = ", ".join(t["id"] for t in meta["topics"])
     system = ("You are the editor of Attention Span, a daily AI news bulletin for AI builders, developers and data "
               "professionals. " + STYLE)
     user = f"""Below are candidate story groups collected in the last 24 hours, one per line:
-cid | how many independent sources | titles | snippet
+cid | how many independent sources | signal score 0 to 100 with its reasons (Hacker News points and comments,
+"heated debate", "company leader", "industry shift") | titles | snippet
 
 {chr(10).join(rows)}
 
@@ -49,14 +53,18 @@ Tasks:
 2. "picks": choose up to {max_stories} stories that matter most to people who build with AI today. Prefer official
    launches of models, products, APIs and tools; research with practical impact; major safety, policy or legal events;
    big industry moves. Skip pure marketing, event promos, minor funding rounds under 100 million dollars unless the
-   company is notable, opinion pieces, generic tutorials and gadget reviews. At most 3 research papers. If there is a
+   company is notable, routine opinion pieces, generic tutorials and gadget reviews. Do NOT skip a widely discussed
+   essay, memo or statement by a company or lab leader (CEO, CTO, founder) that signals a shift in how AI is built or
+   used, or in how engineering work is done: these matter to builders as much as launches. Treat a high signal score
+   (60 or more) as strong evidence that the field is talking about a story. At most 3 research papers. If there is a
    substantive Power BI or Microsoft Fabric item, include one with topic "data-bi".
    When the day has enough real news, pick at least {min(8, max_stories)}. Launches by major labs (OpenAI, Anthropic,
    Google, Microsoft, Meta, Mistral, DeepSeek, Qwen, NVIDIA) and stories carried by several sources usually lead.
    Order picks by importance. For each pick give the cid (use the first cid of a merged group), a topic from
    [{topics}], and a one-sentence reason.
-3. "spotlight": at most 2 cids that introduce a genuinely new KIND of thing (a new category of model, interface,
-   protocol or method), not a bigger or better version of something that exists. Usually empty or one.
+3. "spotlight": at most 2 cids that either introduce a genuinely new KIND of thing (a new category of model,
+   interface, protocol or method, not a bigger or better version of something that exists), or mark a clear shift in
+   how AI is built, used or changes engineering work, backed by a high signal score. Usually empty or one.
 Return JSON: {{"merge": [["c1","c7"]], "picks": [{{"cid": "c0", "topic": "models", "reason": "..."}}],
 "spotlight": [{{"cid": "c0", "reason": "..."}}]}}"""
     result, model = ask_json(system, user, max_tokens=3000, tag="editor", reasoning="medium")

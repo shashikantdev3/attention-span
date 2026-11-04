@@ -31,9 +31,21 @@
        "url": "https://proton.me/blog/ai-manifesto",
        "name": "Proton",
        "kind": "original"
+      },
+      {
+       "title": "Manifestos, Fear, and 'Loser Thinking': Inside Proton's AI Reckoning",
+       "url": "https://www.404media.co/manifestos-fear-and-loser-thinking-inside-protons-ai-reckoning/",
+       "name": "404 Media",
+       "kind": "press"
+      },
+      {
+       "title": "It wasn't AI that flipped Proton's charge",
+       "url": "https://blog.raed.dev/posts/proton-loser-thinking/",
+       "name": "blog.raed.dev",
+       "kind": "press"
       }
      ],
-     "buzz": 1,
+     "buzz": 3,
      "published": "2026-11-01T22:10:17Z",
      "checked": {
       "model": "editor (summary rewritten by hand from the source after the checker passed the draft)",
