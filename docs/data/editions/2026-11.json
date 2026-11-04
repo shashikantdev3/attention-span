@@ -479,6 +479,18 @@
        "url": "https://www.anthropic.com/research/provable-inference",
        "name": "Anthropic Frontier Red Team",
        "kind": "original"
+      },
+      {
+       "title": "Anthropic is working on a system to prove AI models’ identity",
+       "url": "https://techcrunch.com/2026/11/03/anthropic-is-working-on-a-system-to-prove-ai-models-identity/",
+       "name": "TechCrunch AI",
+       "kind": "press"
+      },
+      {
+       "title": "Anthropic's new prototype proves which model wrote an AI response without exposing its weights",
+       "url": "https://the-decoder.com/anthropics-new-prototype-proves-which-model-wrote-an-ai-response-without-exposing-its-weights/",
+       "name": "The Decoder",
+       "kind": "press"
       }
      ],
      "buzz": 1,
@@ -815,7 +827,7 @@
   },
   "2026-11-03": {
    "date": "2026-11-03",
-   "generated_at": "2026-11-03T14:23:41Z",
+   "generated_at": "2026-11-04T19:11:47Z",
    "stories": [
     {
      "title": "Anthropic's amended IPO filing lists about $900B in AI spending commitments",
@@ -1271,31 +1283,590 @@
      "rank": 10,
      "id": "2026-11-03-new-paper-submits-agentic-backdoors-via-pretraining-poisonin",
      "date": "2026-11-03"
+    },
+    {
+     "title": "Octomind releases an open-source coding agent harness written in Rust",
+     "one_liner": "Octomind is an open-source coding agent harness written in a single Rust binary that saves tokens and enforces policy via TOML guardrails.",
+     "summary": "Octomind is an open-source coding agent harness built as a single Rust binary that works with any model and surface. It allows any language model to work in a repository through MCP, supporting interactive use, stdin pipes, daemons, WebSockets, and editor agents. It uses TOML guardrails instead of approval prompts, enabling autonomous runs in CI. A supervising model plans and checks the work while a learning feature extracts project lessons. On 25 benchmark tasks from merged pull requests, it solved 24.",
+     "eli5": "Octomind is like a smart robot helper for your code that follows a rulebook written in advance so it does not have to stop and ask you questions every time it wants to do something.",
+     "why_it_matters": "Deterministic TOML guardrails enable AI coding agents to run autonomously in continuous integration pipelines without human approval popups.",
+     "topic": "dev-tools",
+     "type": "product",
+     "labs": [],
+     "people": [],
+     "concepts": [
+      "agent",
+      "coding-assistant",
+      "mcp"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [
+      {
+       "term": "learning compression",
+       "definition": "Learning compression folds older turns into a summary that cites content-addressed blocks while raw messages stay in a per-session archive."
+      },
+      {
+       "term": "TOML guardrails",
+       "definition": "Deterministic guardrails like pre-call guards, post-result hooks, and post-turn validators live in TOML and scripts so they work in CI, daemons, and scheduled runs."
+      }
+     ],
+     "sources": [
+      {
+       "title": "Octomind – open-source AI harness that saves your tokens, static rust",
+       "url": "https://github.com/Muvon/octomind",
+       "name": "github.com",
+       "kind": "original"
+      },
+      {
+       "title": "Discussion on Hacker News",
+       "url": "https://news.ycombinator.com/item?id=50352898",
+       "name": "Hacker News",
+       "kind": "discussion"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-03T15:02:58Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "Octomind launched an open source testing harness written in Rust to help developers save tokens.",
+     "rank": 11,
+     "id": "2026-11-03-octomind-releases-open-source-ai-coding-agent-harness-in-rus",
+     "date": "2026-11-03"
     }
    ],
    "stats": {
-    "items": 53,
-    "stories": 49,
+    "items": 71,
+    "stories": 68,
     "sources_ok": 42,
     "sources_failed": [],
-    "published": 10,
+    "published": 4,
     "dropped": 3,
-    "llm_calls": 8,
-    "cache_hits": 31,
+    "llm_calls": 2,
+    "cache_hits": 23,
     "models": {
-     "gemini:gemini-3.5-flash-lite": 4,
-     "anthropic:claude-sonnet-5-5": 4
+     "gemini:gemini-3.5-flash-lite": 1,
+     "anthropic:claude-sonnet-5-5": 1
     },
-    "fallbacks": [
-     {
-      "tag": "writer",
-      "used": "gemini:gemini-3.5-flash-lite",
-      "after": [
-       "gemini:gemini-3.5-flash-lite: HTTP 503 [{\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n]"
-      ]
-     }
-    ],
-    "seconds": 132
+    "fallbacks": [],
+    "seconds": 71
+   }
+  },
+  "2026-11-04": {
+   "date": "2026-11-04",
+   "generated_at": "2026-11-04T19:20:11Z",
+   "stories": [
+    {
+     "title": "OpenAI is buying Pierre Computer Company to bring its code storage into Codex",
+     "one_liner": "OpenAI announced it will acquire Pierre Computer Company to expand Codex tools for building, understanding, and reviewing code.",
+     "summary": "OpenAI announced plans to acquire Pierre Computer Company, the startup behind Code Storage and open-source developer tools like Trees and Diffs. These libraries already power file browsing and change reviews in the Codex app. The acquisition aims to adapt Git workflows for teams working with coding agents. Pierre's open-source projects will remain open-source. Customers can continue using Code Storage after the acquisition closes while OpenAI works to bring its features into Codex. The deal is subject to customary closing conditions and regulatory approvals.",
+     "eli5": "OpenAI is buying the company that makes the tools used to look at and organize code. Just like building blocks need special trays to keep them sorted, this helps AI and humans work on code together.",
+     "why_it_matters": "Git workflows and source control systems must evolve to support coding agents working in parallel.",
+     "topic": "dev-tools",
+     "type": "event",
+     "labs": [
+      "openai"
+     ],
+     "people": [],
+     "concepts": [
+      "agent",
+      "coding-assistant"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [
+      {
+       "term": "Code Storage",
+       "definition": "A service that lets apps store code and track its history using Git."
+      }
+     ],
+     "sources": [
+      {
+       "title": "OpenAI to acquire Pierre Computer Company, Inc.",
+       "url": "https://openai.com/index/openai-to-acquire-pierre",
+       "name": "OpenAI News",
+       "kind": "original"
+      },
+      {
+       "title": "Pierre Computer is being acquired by OpenAI",
+       "url": "https://twitter.com/pierrecomputer/status/2117999036175188183",
+       "name": "twitter.com",
+       "kind": "press"
+      },
+      {
+       "title": "Discussion on Hacker News",
+       "url": "https://news.ycombinator.com/item?id=50366863",
+       "name": "Hacker News",
+       "kind": "discussion"
+      },
+      {
+       "title": "OpenAI acquires Pierre Computer Company to make Git keep up with AI coding agents",
+       "url": "https://the-decoder.com/openai-acquires-pierre-computer-company-to-make-git-keep-up-with-ai-coding-agents/",
+       "name": "The Decoder",
+       "kind": "press"
+      }
+     ],
+     "buzz": 3,
+     "published": "2026-11-04T14:30:00Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 2,
+      "hype_flags": []
+     },
+     "editor_reason": "OpenAI is acquiring Pierre Computer Company to extend Codex tools for building, understanding and reviewing code, and three sources cover it.",
+     "rank": 1,
+     "id": "2026-11-04-openai-to-acquire-pierre-computer-company",
+     "date": "2026-11-04"
+    },
+    {
+     "title": "Transformer: the Democratic midterm sweep makes strong frontier AI laws more likely; 30+ data center ballot measures passed",
+     "one_liner": "A historic Democratic sweep in the US midterm elections means strong frontier AI legislation and data center restrictions are now much more likely.",
+     "summary": "Democrats may end up with 56 Senate seats and as many as 261 House seats in a historic election result. Over 30 ballot measures to restrict data centers passed. Goldman Sachs warned investors to expect short term data center moratoria affecting about 45 percent of planned US capacity. On Capitol Hill, the likelihood of strong frontier AI legislation passing next year increased. The author suspects a bill stronger than the FRONTIER Act will pass, featuring tough safety standards, mandatory testing, and approval of the most powerful models, though it still requires the president's signature.",
+     "eli5": "When a new group takes charge of a clubhouse, they can easily change all the rules for what games people are allowed to play.",
+     "why_it_matters": "Builders face a higher chance of strict safety standards, mandatory model testing, and data center moratoria passing next year.",
+     "topic": "policy",
+     "type": "event",
+     "labs": [
+      "government"
+     ],
+     "people": [],
+     "concepts": [
+      "ai-regulation",
+      "ai-safety",
+      "ai-governance"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "What the blue tsunami means for AI policy",
+       "url": "https://www.transformernews.ai/p/midterms-democrats-blue-tsunami-ai-policy-legislation",
+       "name": "www.transformernews.ai",
+       "kind": "press"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-04T19:20:11Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 2,
+      "hype_flags": []
+     },
+     "editor_reason": "Added by the editor after the nightly run missed it.",
+     "added_by_editor": "2026-11-04",
+     "id": "2026-11-04-democratic-election-sweep-makes-strong-ai-legislation-more-l",
+     "date": "2026-11-04",
+     "rank": 2
+    },
+    {
+     "title": "Geoffrey Hinton warns AI could cause a large-scale incident this year or next",
+     "one_liner": "Geoffrey Hinton warns that humanity might have been better off without artificial intelligence due to potential major risks.",
+     "summary": "AI researcher Geoffrey Hinton stated that humans might have been better off never developing artificial intelligence. He warned that the technology could trigger a large-scale incident this year or next, such as a power or financial system shutdown. Hinton criticized leaders like Mark Zuckerberg, Elon Musk, and Sam Altman, stating his belief that they understand the risks but prefer money. He compared minor AI hacking incidents to the Three Mile Island nuclear accident and warned a Chornobyl-type event may happen soon. Hinton supports mandatory testing standards, unlike Donald Trump who favors self-regulation.",
+     "eli5": "Building advanced AI is like building a powerful new vehicle that could either take us on wonderful trips or crash into a tree if we do not test its brakes properly.",
+     "why_it_matters": "Builders face growing debate over whether mandatory independent evaluation standards will replace self-regulation for frontier models.",
+     "topic": "policy",
+     "type": "person",
+     "labs": [
+      "openai",
+      "google",
+      "meta",
+      "government"
+     ],
+     "people": [
+      "geoffrey-hinton",
+      "sam-altman",
+      "demis-hassabis"
+     ],
+     "concepts": [
+      "ai-safety",
+      "ai-regulation"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "Geoffrey Hinton: it might turn out we were better off without AI",
+       "url": "https://www.theguardian.com/uk-news/2026/nov/03/ai-godfather-geoffrey-hinton-better-off-without-ai",
+       "name": "theguardian.com",
+       "kind": "press"
+      },
+      {
+       "title": "Discussion on Hacker News",
+       "url": "https://news.ycombinator.com/item?id=50363554",
+       "name": "Hacker News",
+       "kind": "discussion"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-04T10:23:34Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 2,
+      "hype_flags": []
+     },
+     "editor_reason": "Geoffrey Hinton's statement that we might have been better off without AI sparked a heated debate.",
+     "rank": 3,
+     "id": "2026-11-04-geoffrey-hinton-warns-ai-might-cause-major-incidents",
+     "date": "2026-11-04"
+    },
+    {
+     "title": "An engineer went from 8 to 20 pull requests a month to over 200 at an AI-native startup (The Pragmatic Engineer)",
+     "one_liner": "Software engineer Neil Kakkar won an essay challenge detailing how joining an AI-native startup increased his pull request output tenfold.",
+     "summary": "Software engineer Neil Kakkar won an essay challenge hosted by The Pragmatic Engineer, which received 125 submissions. Kakkar, who has nine years of professional experience, compared his software output across three workplaces: Bloomberg, PostHog, and an AI-native startup named Tano. Until last year, he merged between eight and 20 pull requests per month. Since joining Tano, he ships over 200 pull requests per month, which is approximately a tenfold increase. The essay highlights that old constraints like code reviews disappeared, while new constraints like context switching emerged.",
+     "eli5": "A software engineer wrote about how using artificial intelligence is like trading a bicycle for a sports car, allowing him to finish building things much faster than before.",
+     "why_it_matters": "Higher output velocity changes engineering constraints by removing old bottlenecks like code reviews while introducing new ones like frequent context switching.",
+     "topic": "dev-tools",
+     "type": "person",
+     "labs": [
+      "google",
+      "openai"
+     ],
+     "people": [],
+     "concepts": [
+      "agent",
+      "agent-memory",
+      "coding-assistant"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "How software engineering is changing: a tale of two eras",
+       "url": "https://newsletter.pragmaticengineer.com/p/how-software-engineering-is-changing",
+       "name": "newsletter.pragmaticengineer.com",
+       "kind": "press"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-04T19:20:11Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "Added by the editor after the nightly run missed it.",
+     "added_by_editor": "2026-11-04",
+     "id": "2026-11-04-software-engineer-neil-kakkar-wins-essay-challenge-on-ai-dev",
+     "date": "2026-11-04",
+     "rank": 4
+    },
+    {
+     "title": "US tech giants' hidden AI debt has grown 90% to $3.2T, Nikkei reports",
+     "one_liner": "Off-balance-sheet debt from artificial intelligence-related obligations for United States tech giants grew 90% to about $3.2 trillion in six months.",
+     "summary": "United States tech giants face rising off-balance-sheet debt from artificial intelligence-related obligations. This debt grew by 90% in six months to reach about $3.2 trillion. Commitments and obligations for companies including Google and Meta reached 80% of assets. Investors show increasing alarm regarding these seemingly unending spending levels. Tech giants are pouring money into infrastructure such as data centers in the United States state of Indiana.",
+     "eli5": "Big technology companies are making very large promises and agreements to spend money on artificial intelligence, and these hidden debts grew almost twice as large in just six months.",
+     "why_it_matters": "Rising artificial intelligence-related obligations increase financial pressures for companies pouring money into this technology.",
+     "topic": "industry",
+     "type": "event",
+     "labs": [
+      "google",
+      "meta"
+     ],
+     "people": [],
+     "concepts": [],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "US tech giants' hidden AI debt swells 90% to $3.2T in 6 months",
+       "url": "https://asia.nikkei.com/business/technology/artificial-intelligence/us-tech-giants-hidden-ai-debt-swells-90-to-3.2tn-in-6-months",
+       "name": "asia.nikkei.com",
+       "kind": "press"
+      },
+      {
+       "title": "Discussion on Hacker News",
+       "url": "https://news.ycombinator.com/item?id=50358422",
+       "name": "Hacker News",
+       "kind": "discussion"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-03T21:26:44Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 2,
+      "hype_flags": []
+     },
+     "editor_reason": "Reported hidden AI debt at US tech giants up 90% to $3.2T in six months is a major financing signal that drew heavy discussion.",
+     "rank": 5,
+     "id": "2026-11-04-us-tech-giants-hidden-ai-debt-swells-90-to-3-2t",
+     "date": "2026-11-04"
+    },
+    {
+     "title": "AI inference startup Fal doubles its valuation to $16B",
+     "one_liner": "AI inference startup Fal raised a $1.3 billion funding round, doubling its valuation to $16 billion amid surging demand.",
+     "summary": "San Francisco-based startup Fal hosts and runs AI video, image, and audio models. The company raised $1.3 billion in its latest funding round, led by Bessemer Venture Partners, with participation from Nvidia, Sound Ventures, and T. Rowe Price. The deal values Fal at $16 billion. This doubles its $8 billion valuation from April. The startup announced its Series E and F rounds at the same time, noting a combined $1.65 billion was raised across both rounds. Sequoia led the earlier round. The Series F round comes amid soaring demand for inference services, particularly from customers relying on open source models.",
+     "eli5": "Fal is like a giant kitchen that cooks AI pictures and videos for people as soon as they order them. So many customers want these videos and pictures that investors just gave the company a lot of money to help it grow.",
+     "why_it_matters": "Surging demand for inference services drives massive funding rounds for startups hosting trained AI models.",
+     "topic": "industry",
+     "type": "event",
+     "labs": [
+      "nvidia"
+     ],
+     "people": [],
+     "concepts": [
+      "inference"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "AI inference startup Fal doubles its valuation to $16B as demand surges",
+       "url": "https://techcrunch.com/2026/11/03/ai-inference-startup-fal-doubles-its-valuation-to-16b-as-demand-surges/",
+       "name": "TechCrunch AI",
+       "kind": "press"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-03T19:34:43Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 2,
+      "hype_flags": []
+     },
+     "editor_reason": "AI inference startup Fal doubled its valuation to $16B with a $1.3B round led by Bessemer, a sign of strong demand for inference.",
+     "rank": 6,
+     "id": "2026-11-04-ai-inference-startup-fal-doubles-valuation-to-16-billion",
+     "date": "2026-11-04"
+    },
+    {
+     "title": "OpenAI's Daybreak Red brings GPT-5.6 Cyber to approved customers on AWS GovCloud",
+     "one_liner": "Daybreak Red is now available in AWS GovCloud, bringing GPT-5.6 Cyber to approved government customers through Amazon Bedrock.",
+     "summary": "On November 4, 2026, OpenAI announced that Daybreak Red is now available in AWS GovCloud, US-East. This expansion brings GPT-5.6 Cyber to approved customers through Amazon Bedrock. Government security teams can now apply advanced cybersecurity capabilities within their established AWS environments. Daybreak Red provides access to purpose-trained cybersecurity models for authorized vulnerability research, exploit validation, and security testing. Qualified security practitioners should review findings and proposed fixes before implementation. Inference data is not used to train models, and customers do not need to share data with OpenAI. Access requires Daybreak Red approval and AWS provisioning.",
+     "eli5": "Government security guards now have a special smart assistant in their secure digital workshop to help them find and fix computer weaknesses. It works just like having a safety inspector check your locks to make sure everything is secure.",
+     "why_it_matters": "Government security teams can use frontier cybersecurity models within established operational requirements and secure cloud environments.",
+     "topic": "models",
+     "type": "event",
+     "labs": [
+      "openai"
+     ],
+     "people": [],
+     "concepts": [
+      "red-teaming"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "Daybreak Red is now available in AWS GovCloud (US-East)",
+       "url": "https://openai.com/index/daybreak-red-aws-govcloud",
+       "name": "OpenAI News",
+       "kind": "original"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-04T07:00:00Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "Daybreak Red brings GPT-5.6 Cyber to approved customers in AWS GovCloud (US-East) through Amazon Bedrock.",
+     "rank": 7,
+     "id": "2026-11-04-daybreak-red-and-gpt-5-6-cyber-now-available-in-aws-govcloud",
+     "date": "2026-11-04"
+    },
+    {
+     "title": "ChatGPT Can Now Create Animated GIFs",
+     "one_liner": "OpenAI added animated GIF creation to ChatGPT alongside the Images 2.6 model update.",
+     "summary": "ChatGPT can now create animated GIFs using a prompt or an uploaded photo. The feature rolls out alongside OpenAI's new Images 2.6 model. Users can adjust the animation speed, edit individual frames, and share the GIFs. Before this update, ChatGPT could not natively generate GIFs in a single step. The Images 2.6 update also brings faster image generation to ChatGPT. OpenAI reports that users generate over 4 billion images per week across ChatGPT and its API. Additionally, OpenAI is launching GPT-Image-2.6 Flare and Sunburst in its API for faster and higher-quality image generation.",
+     "eli5": "ChatGPT can now make moving pictures, like a cartoon flipping pages in a notebook, when you ask it to or give it a photo.",
+     "why_it_matters": "Users gain native support for generating and editing animated GIFs directly inside ChatGPT.",
+     "topic": "products",
+     "type": "product",
+     "labs": [
+      "openai"
+     ],
+     "people": [],
+     "concepts": [
+      "chatbot",
+      "multimodal-model"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "ChatGPT will now make you animated GIFs",
+       "url": "https://www.theverge.com/ai-artificial-intelligence/1026474/openai-chatgpt-animated-gifs-images-2-6",
+       "name": "The Verge AI",
+       "kind": "press"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-04T18:00:00Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 2,
+      "hype_flags": []
+     },
+     "editor_reason": "ChatGPT can now make animated GIFs from a prompt or photo, shipping with OpenAI's new Images 2.6 model.",
+     "rank": 8,
+     "id": "2026-11-04-chatgpt-can-now-create-animated-gifs",
+     "date": "2026-11-04"
+    },
+    {
+     "title": "Encrypted firmware on Nvidia's RTX Spark laptops slows AI inference on Linux, report says",
+     "one_liner": "Running native Linux on Nvidia RTX Spark laptops locks the GPU clock speed when plugged in, drastically slowing AI inference.",
+     "summary": "Laptops running on the Nvidia RTX Spark platform experience severe performance drops when using native Linux while plugged into wall power. A hidden Windows-only component named Nvidia Platform Controllers and Framework manages power delivery, but its power table is encrypted and lacks a Linux equivalent. This causes the GPU clock speed to collapse to roughly 780 MHz instead of hitting over 2 GHz, reducing inference speeds significantly. Developers can bypass this limitation by using the Windows Subsystem for Linux, which maintains full GPU boost performance.",
+     "eli5": "Imagine a toy car that can race very fast, but its battery charger has a special lock that only opens with a Windows key.",
+     "why_it_matters": "Native Linux performance drops severely on RTX Spark laptops until Nvidia ports its power management logic into its Linux driver.",
+     "topic": "industry",
+     "type": "event",
+     "labs": [
+      "nvidia"
+     ],
+     "people": [],
+     "concepts": [
+      "gpu",
+      "inference",
+      "tokens"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "Nvidia RTX Spark encrypted firmware slows inference speed to 35% on Linux",
+       "url": "https://www.mindstudio.ai/blog/linux-nvidia-rtx-spark-laptop",
+       "name": "mindstudio.ai",
+       "kind": "press"
+      },
+      {
+       "title": "Discussion on Hacker News",
+       "url": "https://news.ycombinator.com/item?id=50362905",
+       "name": "Hacker News",
+       "kind": "discussion"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-04T08:46:29Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "Reports that encrypted firmware on Nvidia RTX Spark cuts inference speed to 35% on Linux, a direct concern for people running local inference.",
+     "rank": 9,
+     "id": "2026-11-04-nvidia-rtx-spark-encrypted-firmware-slows-inference-speed-on",
+     "date": "2026-11-04"
+    },
+    {
+     "title": "CloudOpsBench finds reasoning is the bottleneck for AI agents running cloud operations",
+     "one_liner": "A new open-source benchmark called CloudOpsBench reveals that reasoning is the biggest bottleneck for AI agents handling cloud DevOps tasks.",
+     "summary": "CloudOpsBench is a new open-source benchmark built by experienced DevOps engineers. It measures how well AI agents handle typical DevOps tasks in the cloud, including fixing services, removing resources, restricting access rights, rolling out updates, and decommissioning projects. Version 1.0 includes 45 tasks on AWS. Even the best models fail at many tasks. Claude Fable 5.1 solved 60 percent, while GPT-6 Astra managed 53 percent. According to a team led by Ang Chen at the University of Michigan, the main problem is reasoning rather than a lack of knowledge. About 80 percent of failures happen because agents misjudge task scope, miss relevant services, or stop too early.",
+     "eli5": "AI agents are like little robot helpers trying to tidy up a giant digital toy room. Even the smart ones struggle to figure out the right steps to clean up the whole room without stopping too early.",
+     "why_it_matters": "Fixing cloud operations requires improving AI reasoning rather than just adding more knowledge.",
+     "topic": "research",
+     "type": "event",
+     "labs": [
+      "anthropic",
+      "openai",
+      "academia"
+     ],
+     "people": [],
+     "concepts": [
+      "benchmark",
+      "agent"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [
+      {
+       "term": "CloudOpsBench",
+       "definition": "CloudOpsBench is a new open-source benchmark that measures how well AI agents handle typical DevOps tasks in the cloud."
+      }
+     ],
+     "sources": [
+      {
+       "title": "New open-source benchmark reveals reasoning as the biggest bottleneck for AI in cloud operations",
+       "url": "https://the-decoder.com/new-open-source-benchmark-reveals-reasoning-as-the-biggest-bottleneck-for-ai-in-cloud-operations/",
+       "name": "The Decoder",
+       "kind": "press"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-04T16:42:52Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "CloudOpsBench is a new open-source benchmark that finds reasoning is the biggest bottleneck for AI agents on cloud operations tasks.",
+     "rank": 10,
+     "id": "2026-11-04-new-benchmark-reveals-reasoning-as-bottleneck-for-cloud-devo",
+     "date": "2026-11-04"
+    },
+    {
+     "title": "Microsoft Fabric Announces Salesforce Data 360 Integration in Preview",
+     "one_liner": "Salesforce Data 360 integration with OneLake is now available in preview, allowing zero-copy file sharing for analytics.",
+     "summary": "Organizations can now use OneLake Shortcuts to make Salesforce Data 360 data available in Microsoft Fabric and query them alongside enterprise data. Salesforce Data 360 remains the source of the data, while Microsoft OneLake brings the analysis together. These shortcuts reference the data in Salesforce Data 360 instead of importing a separate copy into the lakehouse. The data stays current without needing extra refreshes. This avoids exporting customer data, building ingestion pipelines, and maintaining duplicate copies for analytics.",
+     "eli5": "Instead of making a second copy of your toy box to play with in another room, you use a bridge to look at the original toys right where they are.",
+     "why_it_matters": "Zero-copy file sharing removes the need to build ingestion pipelines and maintain duplicate data copies for analytics.",
+     "topic": "data-bi",
+     "type": "product",
+     "labs": [
+      "microsoft"
+     ],
+     "people": [],
+     "concepts": [
+      "microsoft-fabric",
+      "onelake",
+      "dataset"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [
+      {
+       "term": "zero-copy file sharing",
+       "definition": "Zero-copy file sharing makes source data available where it is needed for analysis, without first building a separate ingestion copy."
+      }
+     ],
+     "sources": [
+      {
+       "title": "Salesforce Data 360 integration with OneLake (Preview)",
+       "url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Salesforce-Data-360-integration-with-OneLake-Preview/ba-p/5384626",
+       "name": "Microsoft Fabric Blog",
+       "kind": "original"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-04T16:10:26Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "Salesforce Data 360 integration with OneLake in preview lets teams work with Salesforce and Fabric data together.",
+     "rank": 11,
+     "id": "2026-11-04-microsoft-fabric-announces-salesforce-data-360-integration-i",
+     "date": "2026-11-04"
+    }
+   ],
+   "stats": {
+    "items": 72,
+    "stories": 68,
+    "sources_ok": 42,
+    "sources_failed": [],
+    "published": 12,
+    "dropped": 2,
+    "llm_calls": 16,
+    "cache_hits": 25,
+    "models": {
+     "gemini:gemini-3.5-flash-lite": 8,
+     "anthropic:claude-sonnet-5-5": 8
+    },
+    "fallbacks": [],
+    "seconds": 154
    }
   }
  }

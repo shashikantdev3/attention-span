@@ -917,41 +917,6 @@
   "source": "https://openai.com/index/qodo-codex-plugin"
  },
  {
-  "term": "recursive self-improvement",
-  "definition": "The point at which AI grows so good at training itself that it spawns a dramatic acceleration of AI capabilities.",
-  "first_seen": "2026-11-03",
-  "story": "2026-11-03-anthropic-warns-it-is-close-to-self-building-ai-capability",
-  "source": "https://techcrunch.com/2026/11/02/anthropic-warns-that-its-very-close-to-rsi-capability-aka-self-building-ai/"
- },
- {
-  "term": "Weight Space Programming",
-  "definition": "A technique where a smart model directly reads and edits the weights of another model to perform tasks without writing code.",
-  "first_seen": "2026-11-03",
-  "story": "2026-11-03-llms-read-and-edit-neural-network-weights-directly",
-  "source": "https://latent.space/p/ainews-llms-can-read-write-neural-network-weights-weight-space-programming-cuts-autoresearch-out-of/"
- },
- {
-  "term": "security sprint",
-  "definition": "An internal event where engineers and security firms team up to stress-test systems and find vulnerabilities.",
-  "first_seen": "2026-11-03",
-  "story": "2026-11-03-openai-increases-bug-bounty-payouts-and-partners-with-cathed",
-  "source": "https://the-decoder.com/bug-hunters-can-now-earn-up-to-172000-from-openai-as-company-ramps-up-security/"
- },
- {
-  "term": "vendor financing",
-  "definition": "A method Oracle plans to use to help it transition to positive free cash flow.",
-  "first_seen": "2026-11-03",
-  "story": "2026-11-03-oracle-files-to-sell-20-billion-in-stock-and-bonds",
-  "source": "https://www.cnbc.com/2026/11/02/oracle-files-to-sell-20-billion-in-new-stock-bonds-to-finance-ai-buildout.html"
- },
- {
-  "term": "HBM",
-  "definition": "High-bandwidth memory made by Samsung and SK Hynix that will run a large share of Huawei's upcoming flagship AI chip.",
-  "first_seen": "2026-11-03",
-  "story": "2026-11-03-report-huawei-told-clients-ascend-960dt-will-use-samsung-and",
-  "source": "https://www.techmeme.com/261102/p50#a261102p50"
- },
- {
   "term": "prompt injection",
   "definition": "Prompt injection in a court filing led to a Brazilian court sanctioning lawyers.",
   "first_seen": "2026-11-01",
@@ -971,5 +936,54 @@
   "first_seen": "2026-11-01",
   "story": "2026-11-01-balanov-releases-uncut-a-lossless-and-headless-coding-agent",
   "source": "https://github.com/Balanov/uncut"
+ },
+ {
+  "term": "computational lithography",
+  "definition": "Computational lithography defines how circuit patterns are printed onto silicon.",
+  "first_seen": "2026-11-03",
+  "story": "2026-11-03-nvidia-highlights-ai-and-accelerated-computing-in-semiconduc",
+  "source": "https://blogs.nvidia.com/blog/ai-semiconductor-fabs/"
+ },
+ {
+  "term": "digital twin",
+  "definition": "Digital twins let teams test changes in a virtual environment before committing to physical trials.",
+  "first_seen": "2026-11-03",
+  "story": "2026-11-03-nvidia-highlights-ai-and-accelerated-computing-in-semiconduc",
+  "source": "https://blogs.nvidia.com/blog/ai-semiconductor-fabs/"
+ },
+ {
+  "term": "learning compression",
+  "definition": "Learning compression folds older turns into a summary that cites content-addressed blocks while raw messages stay in a per-session archive.",
+  "first_seen": "2026-11-03",
+  "story": "2026-11-03-octomind-releases-open-source-ai-coding-agent-harness-in-rus",
+  "source": "https://github.com/Muvon/octomind"
+ },
+ {
+  "term": "TOML guardrails",
+  "definition": "Deterministic guardrails like pre-call guards, post-result hooks, and post-turn validators live in TOML and scripts so they work in CI, daemons, and scheduled runs.",
+  "first_seen": "2026-11-03",
+  "story": "2026-11-03-octomind-releases-open-source-ai-coding-agent-harness-in-rus",
+  "source": "https://github.com/Muvon/octomind"
+ },
+ {
+  "term": "Code Storage",
+  "definition": "A service that lets apps store code and track its history using Git.",
+  "first_seen": "2026-11-04",
+  "story": "2026-11-04-openai-to-acquire-pierre-computer-company",
+  "source": "https://openai.com/index/openai-to-acquire-pierre"
+ },
+ {
+  "term": "CloudOpsBench",
+  "definition": "CloudOpsBench is a new open-source benchmark that measures how well AI agents handle typical DevOps tasks in the cloud.",
+  "first_seen": "2026-11-04",
+  "story": "2026-11-04-new-benchmark-reveals-reasoning-as-bottleneck-for-cloud-devo",
+  "source": "https://the-decoder.com/new-open-source-benchmark-reveals-reasoning-as-the-biggest-bottleneck-for-ai-in-cloud-operations/"
+ },
+ {
+  "term": "zero-copy file sharing",
+  "definition": "Zero-copy file sharing makes source data available where it is needed for analysis, without first building a separate ingestion copy.",
+  "first_seen": "2026-11-04",
+  "story": "2026-11-04-microsoft-fabric-announces-salesforce-data-360-integration-i",
+  "source": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Salesforce-Data-360-integration-with-OneLake-Preview/ba-p/5384626"
  }
 ]

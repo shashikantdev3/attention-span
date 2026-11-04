@@ -1,9 +1,16 @@
 {
  "editions": [
   {
+   "date": "2026-11-04",
+   "file": "2026-11.json",
+   "count": 11,
+   "spotlight": 0,
+   "lead": "OpenAI is buying Pierre Computer Company to bring its code storage into Codex"
+  },
+  {
    "date": "2026-11-03",
    "file": "2026-11.json",
-   "count": 10,
+   "count": 11,
    "spotlight": 0,
    "lead": "Anthropic's amended IPO filing lists about $900B in AI spending commitments"
   },
@@ -190,6 +197,6 @@
    "lead": "Anthropic Releases Claude Haiku 5.5 and AWS Integration"
   }
  ],
- "latest": "2026-11-03",
- "updated": "2026-11-03T14:23:41Z"
+ "latest": "2026-11-04",
+ "updated": "2026-11-04T19:20:12Z"
 }

@@ -90,8 +90,10 @@ def annotate(stories):
 
 def signal_includes(stories, picked, limit=3):
     """High-signal stories the editor left out, strongest first."""
+    def substance(sig):  # engagement alone is not enough: popular personal blog posts score high too
+        return sig["official"] or sig["leader"] or sig["shift"] or sig["sources"] >= 2
     out = [s for s in stories if s["cid"] not in picked and s.get("signals", {}).get("score", 0) >= INCLUDE_AT
-           and not s["signals"].get("promo")]
+           and not s["signals"].get("promo") and substance(s["signals"])]
     return sorted(out, key=lambda s: -s["signals"]["score"])[:limit]
 
 
