@@ -6,6 +6,47 @@
    "generated_at": "2026-11-03T13:59:01Z",
    "stories": [
     {
+     "title": "Proton's CTO tells engineers \"Your old job is gone\": the job is now directing AI agents, and the next step is rebuilding the whole development process",
+     "one_liner": "Proton published an internal memo by CTO Bart Butler arguing that writing code by hand is no longer the engineer's core job.",
+     "summary": "Proton published an internal memo by CTO Bart Butler, written about a month earlier for its engineers. It says writing great code manually is \"a core skill whose time has passed\" and that every engineer is now \"a team leader, a manager\" whose direct reports are the models and agents they use: their job is to help the LLM write better code faster, step in where it cannot, and improve shared context files, skills and prompts so it needs less babysitting. Butler stresses this is \"not the death of expertise\" nor of good engineering practices, though some rules, such as how many tests are worth writing, will change as costs fall. He says Proton has been stuck in \"phase 1\", using LLMs to speed up existing workflows, which is why productivity has not jumped; \"phase 2\" means removing the bottlenecks that appear elsewhere, such as CI, design, approvals and code review, and he expects most human code review to end. He calls falling behind \"an existential threat to the success of the mission itself\" and says it is past time for Proton to commit as an organisation.",
+     "eli5": "Engineers used to build everything brick by brick. Now AI helpers lay the bricks fast, and the engineer's job is to lead them, fix their mistakes and teach them to need less help.",
+     "why_it_matters": "A CTO, at a privacy-first company, is telling his own engineers in writing that the bottleneck is no longer typing code but the review, CI and approval process around it.",
+     "topic": "industry",
+     "type": "event",
+     "labs": [
+      "other"
+     ],
+     "people": [],
+     "concepts": [
+      "llm",
+      "coding-assistant",
+      "agent"
+     ],
+     "spotlight": true,
+     "spotlight_reason": "It fits a clear pattern this month: an Anthropic hiring manager dropped coding interviews because Claude now does them better (28 Oct); Microsoft's Copilot Cowork team merged 1,211 pull requests in one day, mostly written by agents (2 Nov); and Microsoft's David Fowler ran about 90 agent-written pull requests for ASP.NET Core in a day (Context Window, 2 Nov). Proton now says the same thing from the management side.",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "Proton's AI manifesto for software engineering",
+       "url": "https://proton.me/blog/ai-manifesto",
+       "name": "Proton",
+       "kind": "original"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-01T22:10:17Z",
+     "checked": {
+      "model": "editor (summary rewritten by hand from the source after the checker passed the draft)",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "Added by the editor after the nightly run missed it.",
+     "added_by_editor": "2026-11-04",
+     "id": "2026-11-01-proton-publishes-internal-ai-manifesto-for-software-engineer",
+     "date": "2026-11-01",
+     "rank": 1
+    },
+    {
      "title": "ChatGPT and Codex will share one usage limit from December",
      "one_liner": "Plus, Pro, and Business plans will share a usage allowance across ChatGPT and Codex starting in December.",
      "summary": "Starting in December, Plus, Pro, and Business plans will share a usage allowance across ChatGPT and Codex. This change happens as agentic capabilities of Work come into the main ChatGPT experience. Usage for ChatGPT and Codex will be measured in tokens. How much allowance you use generally depends on the chosen model and the task. Instant chat will not draw from usage. Users will see combined remaining usage and reset times in Settings, then Usage. If a limit is reached, users can wait for a reset, upgrade the plan, or buy credits.",
@@ -47,7 +88,7 @@
       "hype_flags": []
      },
      "editor_reason": "ChatGPT and Codex usage limits are merging, and a related post says unlimited chats are ending, which changes how developers plan usage.",
-     "rank": 1,
+     "rank": 2,
      "id": "2026-11-01-chatgpt-and-codex-usage-limits-are-merging-starting-in-decem",
      "date": "2026-11-01"
     },
@@ -96,7 +137,7 @@
       "hype_flags": []
      },
      "editor_reason": "A Brazilian court sanctioned lawyers over prompt injection in a court filing, an early legal case involving this attack.",
-     "rank": 2,
+     "rank": 3,
      "id": "2026-11-01-brazilian-court-sanctions-lawyers-for-prompt-injection-in-co",
      "date": "2026-11-01"
     },
@@ -141,7 +182,7 @@
       "hype_flags": []
      },
      "editor_reason": "Agent swarms in Minecraft failed to build a civilization and got stuck in bureaucracy, a practical lesson for multi-agent design.",
-     "rank": 3,
+     "rank": 4,
      "id": "2026-11-01-report-shows-ai-agent-swarm-test-failed-to-build-civilizatio",
      "date": "2026-11-01"
     },
@@ -186,7 +227,7 @@
       "hype_flags": []
      },
      "editor_reason": "A report that GPT-5.6 Sol can beat Factorio on peaceful mode is a useful data point on long-horizon agent ability.",
-     "rank": 4,
+     "rank": 5,
      "id": "2026-11-01-gpt-5-6-sol-completes-a-peaceful-factorio-run",
      "date": "2026-11-01"
     },
@@ -237,7 +278,7 @@
       "hype_flags": []
      },
      "editor_reason": "CrossSWE is a benchmark for coding agents on joint development across several repositories, which is closer to real work than single-repo tests.",
-     "rank": 5,
+     "rank": 6,
      "id": "2026-11-01-crossswe-benchmark-tests-coding-agents-across-multiple-repos",
      "date": "2026-11-01"
     },
@@ -280,7 +321,7 @@
       "hype_flags": []
      },
      "editor_reason": "uncut is a small Go coding agent harness shipped as one static binary with four tools and no silent output cuts.",
-     "rank": 6,
+     "rank": 7,
      "id": "2026-11-01-balanov-releases-uncut-a-lossless-and-headless-coding-agent",
      "date": "2026-11-01"
     },
@@ -316,7 +357,7 @@
       "hype_flags": []
      },
      "editor_reason": "vLLM v0.33.0 is a new release of a widely used inference server.",
-     "rank": 7,
+     "rank": 8,
      "id": "2026-11-01-vllm-v0-33-0-released-on-github",
      "date": "2026-11-01"
     }
@@ -326,7 +367,7 @@
     "stories": 35,
     "sources_ok": 42,
     "sources_failed": [],
-    "published": 10,
+    "published": 8,
     "dropped": 2,
     "llm_calls": 4,
     "cache_hits": 41,

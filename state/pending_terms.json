@@ -847,34 +847,6 @@
   "source": "https://the-decoder.com/a-claude-model-autonomously-chose-a-gene-therapy-and-operated-on-a-mouse-brain-with-no-human-decision-making/"
  },
  {
-  "term": "prompt injection",
-  "definition": "Prompt injection in a court filing led to a Brazilian court sanctioning lawyers.",
-  "first_seen": "2026-11-01",
-  "story": "2026-11-01-brazilian-court-sanctions-lawyers-for-prompt-injection-in-co",
-  "source": "https://jetstream.security/insights/brazilian-court-sanctions-prompt-injection-filing/"
- },
- {
-  "term": "coding agent harness",
-  "definition": "A tiny harness for shell pipelines, containers, and agent experiments that communicates via plain stdin and stdout.",
-  "first_seen": "2026-11-01",
-  "story": "2026-11-01-balanov-releases-uncut-a-lossless-and-headless-coding-agent",
-  "source": "https://github.com/Balanov/uncut"
- },
- {
-  "term": "cross-repository joint development",
-  "definition": "Real-world software development that spans multiple interdependent repositories and introduces challenges in dependency reasoning, change propagation, and interface consistency.",
-  "first_seen": "2026-11-01",
-  "story": "2026-11-01-crossswe-benchmark-tests-coding-agents-across-multiple-repos",
-  "source": "https://arxiv.org/abs/2611.01484"
- },
- {
-  "term": "change score",
-  "definition": "A value assigned to each frame using HSV weighted differences on a grid to determine if a screen has changed.",
-  "first_seen": "2026-11-01",
-  "story": "2026-11-01-github-repository-introduces-real-time-screen-vision-plugin",
-  "source": "https://github.com/SAOS-3624/dsh-see-now"
- },
- {
   "term": "monorepo",
   "definition": "A large repository containing the source code and files for multiple projects.",
   "first_seen": "2026-11-02",
@@ -978,5 +950,26 @@
   "first_seen": "2026-11-03",
   "story": "2026-11-03-report-huawei-told-clients-ascend-960dt-will-use-samsung-and",
   "source": "https://www.techmeme.com/261102/p50#a261102p50"
+ },
+ {
+  "term": "prompt injection",
+  "definition": "Prompt injection in a court filing led to a Brazilian court sanctioning lawyers.",
+  "first_seen": "2026-11-01",
+  "story": "2026-11-01-brazilian-court-sanctions-lawyers-for-prompt-injection-in-co",
+  "source": "https://jetstream.security/insights/brazilian-court-sanctions-prompt-injection-filing/"
+ },
+ {
+  "term": "cross-repository joint development",
+  "definition": "Real-world software development that spans multiple interdependent repositories and introduces challenges in dependency reasoning, change propagation, and interface consistency.",
+  "first_seen": "2026-11-01",
+  "story": "2026-11-01-crossswe-benchmark-tests-coding-agents-across-multiple-repos",
+  "source": "https://arxiv.org/abs/2611.01484"
+ },
+ {
+  "term": "coding agent harness",
+  "definition": "A tiny harness for shell pipelines, containers, and agent experiments that communicates via plain stdin and stdout.",
+  "first_seen": "2026-11-01",
+  "story": "2026-11-01-balanov-releases-uncut-a-lossless-and-headless-coding-agent",
+  "source": "https://github.com/Balanov/uncut"
  }
 ]
