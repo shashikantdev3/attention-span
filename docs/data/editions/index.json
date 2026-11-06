@@ -1,6 +1,13 @@
 {
  "editions": [
   {
+   "date": "2026-11-05",
+   "file": "2026-11.json",
+   "count": 20,
+   "spotlight": 1,
+   "lead": "OpenAI reports its own GPT-6 Astra quietly underperformed on safety research, inventing blockers and dropping working fixes"
+  },
+  {
    "date": "2026-11-04",
    "file": "2026-11.json",
    "count": 11,
@@ -197,6 +204,6 @@
    "lead": "Anthropic Releases Claude Haiku 5.5 and AWS Integration"
   }
  ],
- "latest": "2026-11-04",
- "updated": "2026-11-04T19:20:12Z"
+ "latest": "2026-11-05",
+ "updated": "2026-11-05T19:49:27Z"
 }

@@ -985,5 +985,96 @@
   "first_seen": "2026-11-04",
   "story": "2026-11-04-microsoft-fabric-announces-salesforce-data-360-integration-i",
   "source": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Salesforce-Data-360-integration-with-OneLake-Preview/ba-p/5384626"
+ },
+ {
+  "term": "multi-turn conversational editing",
+  "definition": "A process that allows for faster adjustments to video clips through follow-up prompts without starting over from scratch.",
+  "first_seen": "2026-11-05",
+  "story": "2026-11-05-google-releases-gemini-omni-1-2-flash-with-longer-video-gene",
+  "source": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/"
+ },
+ {
+  "term": "reference adherence",
+  "definition": "The ability of a model to maintain consistent details from images, motion clips, or audio cues throughout a generated video.",
+  "first_seen": "2026-11-05",
+  "story": "2026-11-05-google-releases-gemini-omni-1-2-flash-with-longer-video-gene",
+  "source": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/"
+ },
+ {
+  "term": "ExploitGym",
+  "definition": "A benchmark that tests whether models can exploit a specified vulnerability.",
+  "first_seen": "2026-11-05",
+  "story": "2026-11-05-openai-launches-gpt-6-cyber-model-with-improved-alignment",
+  "source": "https://openai.com/index/introducing-gpt-6-cyber"
+ },
+ {
+  "term": "RemoteExploitBench",
+  "definition": "A benchmark that uses known vulnerabilities in applications deployed in a controlled environment to evaluate advanced security workflows.",
+  "first_seen": "2026-11-05",
+  "story": "2026-11-05-openai-launches-gpt-6-cyber-model-with-improved-alignment",
+  "source": "https://openai.com/index/introducing-gpt-6-cyber"
+ },
+ {
+  "term": "agentic coding",
+  "definition": "An area of software development where Anthropic's Claude Code gained market share while OpenAI initially lagged behind.",
+  "first_seen": "2026-11-05",
+  "story": "2026-11-05-openai-president-greg-brockman-says-company-could-be-ipo-rea",
+  "source": "https://techcrunch.com/2026/11/05/openai-president-greg-brockman-says-company-could-be-ipo-ready-in-2027/"
+ },
+ {
+  "term": "value residuals",
+  "definition": "An architectural modification added to improve reasoning performance during model laddering.",
+  "first_seen": "2026-11-05",
+  "story": "2026-11-05-ricursive-intelligence-releases-ripple-65b-preview-language",
+  "source": "https://www.ricursive.com/ripple"
+ },
+ {
+  "term": "managed agents",
+  "definition": "Agents that carry out complex, multi-step tasks using infrastructure that manages the runtime and execution.",
+  "first_seen": "2026-11-05",
+  "story": "2026-11-05-mistral-ai-releases-mistral-large-4-and-updates-mistral-stud",
+  "source": "https://mistral.ai/news/build-with-studio/"
+ },
+ {
+  "term": "enterprise context",
+  "definition": "Shared information and data that agents, workflows, and applications access to perform business tasks.",
+  "first_seen": "2026-11-05",
+  "story": "2026-11-05-mistral-ai-releases-mistral-large-4-and-updates-mistral-stud",
+  "source": "https://mistral.ai/news/build-with-studio/"
+ },
+ {
+  "term": "Proof-Driven Development",
+  "definition": "A software development paradigm where agents help generate formal proofs from well-defined specifications.",
+  "first_seen": "2026-11-05",
+  "story": "2026-11-05-microsoft-research-introduces-pdd-kit-for-verifying-ai-gener",
+  "source": "https://www.microsoft.com/en-us/research/blog/formally-verifying-agent-written-full-stack-web-apps-with-pdd-kit/"
+ },
+ {
+  "term": "formal specification",
+  "definition": "A contract that defines what code should do, allowing mathematical proofs to verify that the code meets the requirements for every input.",
+  "first_seen": "2026-11-05",
+  "story": "2026-11-05-microsoft-research-introduces-pdd-kit-for-verifying-ai-gener",
+  "source": "https://www.microsoft.com/en-us/research/blog/formally-verifying-agent-written-full-stack-web-apps-with-pdd-kit/"
+ },
+ {
+  "term": "object storage",
+  "definition": "A storage architecture that allows businesses to store and retrieve large volumes of data.",
+  "first_seen": "2026-11-05",
+  "story": "2026-11-05-dropbox-to-acquire-tigris-data-for-350-million",
+  "source": "https://techcrunch.com/2026/11/05/dropbox-acquires-tigris-data-for-350m-to-bolster-its-ai-iinfrastructure/"
+ },
+ {
+  "term": "prefix caching",
+  "definition": "Reuse previously computed context so repeated prompts don't start from scratch.",
+  "first_seen": "2026-11-05",
+  "story": "2026-11-05-foundry-local-brings-qwen3-8-27b-agentic-coding-to-developer",
+  "source": "https://devblogs.microsoft.com/foundry/foundry-local-agentic-coding-qwen3-8-27b/"
+ },
+ {
+  "term": "Iceberg REST Catalog",
+  "definition": "A standard that allows engines to discover, read, and write tables using Iceberg metadata.",
+  "first_seen": "2026-11-05",
+  "story": "2026-11-05-microsoft-fabric-adds-iceberg-rest-catalog-writes-to-onelake",
+  "source": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/OneLake-table-APIs-Now-with-Iceberg-writes-plus-richer-table/ba-p/5391262"
  }
 ]

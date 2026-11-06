@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-04T19:28:49Z",
+ "updated_at": "2026-11-05T20:01:13Z",
  "window_days": 7,
  "groups": [
   {
@@ -789,8 +789,44 @@
    "id": "cat-wu",
    "name": "Cat Wu",
    "group": "builders",
-   "known_for": "Early product lead for Claude Code and Cowork at Anthropic",
+   "known_for": "Founding product lead for Claude Code at Anthropic; joined OpenAI in November 2026",
    "x": "_catwu",
+   "bsky": null,
+   "bsky_check": null
+  },
+  {
+   "id": "mark-gurman",
+   "name": "Mark Gurman",
+   "group": "explainers",
+   "known_for": "Bloomberg reporter who covers Apple",
+   "x": "markgurman",
+   "bsky": null,
+   "bsky_check": null
+  },
+  {
+   "id": "gergely-orosz",
+   "name": "Gergely Orosz",
+   "group": "explainers",
+   "known_for": "Writes The Pragmatic Engineer newsletter on software engineering",
+   "x": "GergelyOrosz",
+   "bsky": null,
+   "bsky_check": null
+  },
+  {
+   "id": "clint-gibler",
+   "name": "Clint Gibler",
+   "group": "explainers",
+   "known_for": "Security researcher; writes the tl;dr sec newsletter",
+   "x": "clintgibler",
+   "bsky": null,
+   "bsky_check": null
+  },
+  {
+   "id": "finbarr-timbers",
+   "name": "Finbarr Timbers",
+   "group": "researchers",
+   "known_for": "ML researcher who writes the Artificial Fintelligence newsletter",
+   "x": "finbarrtimbers",
    "bsky": null,
    "bsky_check": null
   },
@@ -1796,6 +1832,509 @@
  ],
  "posts": [
   {
+   "id": "x-2118412189833085248",
+   "platform": "x",
+   "url": "https://x.com/METR_Evals/status/2118412189833085248",
+   "posted_at": "2026-11-05T18:36:38Z",
+   "date_only": false,
+   "text": "Anthropic shared extensive evidence across its AI R&D pipeline, from pretraining to RL, including key details like estimates of algorithmic progress over time. We found this nonpublic evidence highly informative about AI R&D acceleration.",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">Anthropic shared extensive evidence across its AI R&amp;D pipeline, from pretraining to RL, including key details like estimates of algorithmic progress over time. We found this nonpublic evidence highly informative about AI R&amp;D acceleration. <a href=\"https://t.co/V0KTYjjGaq\">pic.twitter.com/V0KTYjjGaq</a></p>&mdash; METR (@METR_Evals) <a href=\"https://x.com/METR_Evals/status/2118412189833085248?ref_src=twsrc%5Etfw\">November 5, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "x-metr",
+   "meaning": "METR reports that Anthropic provided detailed, nonpublic evidence regarding its AI research and development pipeline. This data offers valuable insights into the acceleration of AI progress over time.",
+   "concepts": [
+    "foundation-model"
+   ],
+   "story": null,
+   "model": "gemini:gemini-3.1-flash-lite",
+   "checked": "anthropic:claude-sonnet-5-5",
+   "added": "2026-11-05"
+  },
+  {
+   "id": "x-2118403114890137895",
+   "platform": "x",
+   "url": "https://x.com/claudeai/status/2118403114890137895",
+   "posted_at": "2026-11-05T18:00:35Z",
+   "date_only": false,
+   "text": "Introducing Personal Finance in Claude, in beta in the US.\n\nConnect the accounts you choose, and Claude answers your money questions in everyday language, from your own balances and transactions. Access is read-only, and Claude can't move, manage, or invest your money.",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">Introducing Personal Finance in Claude, in beta in the US.<br><br>Connect the accounts you choose, and Claude answers your money questions in everyday language, from your own balances and transactions. Access is read-only, and Claude can&#39;t move, manage, or invest your money. <a href=\"https://t.co/V1JLYuWwrS\">pic.twitter.com/V1JLYuWwrS</a></p>&mdash; Claude (@claudeai) <a href=\"https://x.com/claudeai/status/2118403114890137895?ref_src=twsrc%5Etfw\">November 5, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "x-claudeai",
+   "meaning": "Anthropic announced Personal Finance in Claude as a beta in the US. It connects to user-chosen accounts to answer money questions in everyday language using read-only access. Builders might care about integrating financial data into conversational AI agents.",
+   "concepts": [
+    "chatbot",
+    "personal-agent",
+    "tool-use"
+   ],
+   "story": "2026-11-05-anthropic-announces-new-personal-finance-tool-for-claude",
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "anthropic:claude-sonnet-5-5",
+   "added": "2026-11-05"
+  },
+  {
+   "id": "x-2118390192356700383",
+   "platform": "x",
+   "url": "https://x.com/OpenAI/status/2118390192356700383",
+   "posted_at": "2026-11-05T17:09:14Z",
+   "date_only": false,
+   "text": "In this narrow defender’s window, our goal is to expand Daybreak access to organizations of every size, independent researchers, and open-source maintainers.\n\nDaybreak Blue helps verified defenders validate vulnerabilities and fixes with fewer refusals. Daybreak Red enables…",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">In this narrow defender’s window, our goal is to expand Daybreak access to organizations of every size, independent researchers, and open-source maintainers.<br><br>Daybreak Blue helps verified defenders validate vulnerabilities and fixes with fewer refusals. Daybreak Red enables…</p>&mdash; OpenAI (@OpenAI) <a href=\"https://x.com/OpenAI/status/2118390192356700383?ref_src=twsrc%5Etfw\">November 5, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "x-openai",
+   "meaning": "OpenAI is expanding access to its Daybreak security models to a wider range of organizations and researchers to help them validate vulnerabilities and fixes with fewer model refusals.",
+   "concepts": [
+    "coding-assistant"
+   ],
+   "story": null,
+   "model": "gemini:gemini-3.1-flash-lite",
+   "checked": "anthropic:claude-sonnet-5-5",
+   "added": "2026-11-05"
+  },
+  {
+   "id": "bsky-natolambert.bsky.social-3mzl5mpmjod2i",
+   "person": "nathan-lambert",
+   "platform": "bluesky",
+   "url": "https://bsky.app/profile/natolambert.bsky.social/post/3mzl5mpmjod2i",
+   "posted_at": "2026-11-05T15:10:26Z",
+   "text": "Added score-centering, the popular training-inference-mismatch mitigation technique to the rl chapter of my book. It's a nice derivation to understand modern async rl. I also heard many times it was popular at closed labs.\nSection link: rlhfbook.com/c/06-policy-... \nPaper: arxiv.org/abs/2609.20807",
+   "links": [
+    {
+     "text": "rlhfbook.com/c/06-policy-...",
+     "url": "https://rlhfbook.com/c/06-policy-gradients#score-centering"
+    },
+    {
+     "text": "arxiv.org/abs/2609.20807",
+     "url": "https://arxiv.org/abs/2609.20807"
+    }
+   ],
+   "context": {
+    "kind": "link",
+    "url": "https://rlhfbook.com/c/06-policy-gradients#score-centering",
+    "title": "Reinforcement Learning | RLHF and Post-Training Book by Nathan Lambert",
+    "text": "Policy gradient methods for RLHF and LLM post-training, including PPO, REINFORCE, RLOO, GRPO, and implementation details."
+   },
+   "likes": 26,
+   "reposts": 1,
+   "via": "feed",
+   "meaning": "Nathan Lambert added score-centering to the reinforcement learning chapter of his book, noting it helps mitigate training-inference mismatch in async RL. Model builders working on post-training alignment will find this derivation useful for understanding modern methods.",
+   "concepts": [
+    "reinforcement-learning",
+    "rlhf"
+   ],
+   "story": null,
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "anthropic:claude-sonnet-5-5",
+   "added": "2026-11-05"
+  },
+  {
+   "id": "x-2118243665743372642",
+   "platform": "x",
+   "url": "https://x.com/GergelyOrosz/status/2118243665743372642",
+   "posted_at": "2026-11-05T07:26:59Z",
+   "date_only": false,
+   "text": "I appreciate the live experiment happening between the world's #1 and #2 companies by market cap:\n\nNVIDIA: virtually no limit on AI spend (at $10K/month you need to justify and then it auto approves). AI use encouraged\n\nApple: AI use not really encouraged\n\nWe'll see what it will… https://t.co/8ajtqxNXKO",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">I appreciate the live experiment happening between the world&#39;s #1 and #2 companies by market cap:<br><br>NVIDIA: virtually no limit on AI spend (at $10K/month you need to justify and then it auto approves). AI use encouraged<br><br>Apple: AI use not really encouraged<br><br>We&#39;ll see what it will… <a href=\"https://t.co/8ajtqxNXKO\">https://t.co/8ajtqxNXKO</a></p>&mdash; Gergely Orosz (@GergelyOrosz) <a href=\"https://x.com/GergelyOrosz/status/2118243665743372642?ref_src=twsrc%5Etfw\">November 5, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "gergely-orosz",
+   "meaning": "Gergely Orosz highlights a contrast in internal corporate AI policies between NVIDIA, which encourages AI use with almost no spending limits, and Apple, which does not encourage AI use.",
+   "concepts": [],
+   "story": null,
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "anthropic:claude-sonnet-5-5",
+   "added": "2026-11-05"
+  },
+  {
+   "id": "x-2118155759204934129",
+   "platform": "x",
+   "url": "https://x.com/NeelNanda5/status/2118155759204934129",
+   "posted_at": "2026-11-05T01:37:41Z",
+   "date_only": false,
+   "text": "It is extremely concerning if frontier models are silently sandbagging on safety research. If we cannot rely on automated coding agents to do safety research at least as well as capabilities work, that creates a ton of risk. Great analysis from OpenAI safety! https://t.co/ikKBGqD3HD",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">It is extremely concerning if frontier models are silently sandbagging on safety research. If we cannot rely on automated coding agents to do safety research at least as well as capabilities work, that creates a ton of risk. Great analysis from OpenAI safety! <a href=\"https://t.co/ikKBGqD3HD\">https://t.co/ikKBGqD3HD</a></p>&mdash; Neel Nanda (@NeelNanda5) <a href=\"https://x.com/NeelNanda5/status/2118155759204934129?ref_src=twsrc%5Etfw\">November 5, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "neel-nanda",
+   "meaning": "Nanda warns that if frontier models silently sandbag on safety research, relying on automated coding agents for safety work creates serious risk. Builders care because trustworthy automated agents are crucial for safety evaluations.",
+   "concepts": [
+    "ai-safety",
+    "coding-assistant",
+    "agent"
+   ],
+   "story": "2026-11-05-report-gpt-6-astra-covertly-underperforms-on-safety-research",
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "anthropic:claude-sonnet-5-5",
+   "added": "2026-11-05"
+  },
+  {
+   "id": "x-2118139063345787124",
+   "platform": "x",
+   "url": "https://x.com/arena/status/2118139063345787124",
+   "posted_at": "2026-11-05T00:31:20Z",
+   "date_only": false,
+   "text": "GPT Image 2.6 Sunburst and Flare by @OpenAI are here, running almost 2x faster than GPT Image 2.5.\n\nIn the Text-to-Image Arena, Sunburst (Medium) is #2 with 1409 pts, and Flare (Medium) #4 with 1384 pts! By category, Sunburst landed #1 in Cartoon, Anime & Fantasy.\n\nIn the Image…",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">GPT Image 2.6 Sunburst and Flare by <a href=\"https://x.com/OpenAI?ref_src=twsrc%5Etfw\">@OpenAI</a> are here, running almost 2x faster than GPT Image 2.5.<br><br>In the Text-to-Image Arena, Sunburst (Medium) is #2 with 1409 pts, and Flare (Medium) #4 with 1384 pts! By category, Sunburst landed #1 in Cartoon, Anime &amp; Fantasy.<br><br>In the Image… <a href=\"https://t.co/FlroCEg6tj\">pic.twitter.com/FlroCEg6tj</a></p>&mdash; Arena.ai (@arena) <a href=\"https://x.com/arena/status/2118139063345787124?ref_src=twsrc%5Etfw\">November 5, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "x-lmarena",
+   "meaning": "Arena reports that OpenAI's new GPT Image 2.6 Sunburst and Flare models run almost twice as fast as version 2.5, placing high in the Text-to-Image Arena.",
+   "concepts": [
+    "generative-model"
+   ],
+   "story": null,
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "anthropic:claude-sonnet-5-5",
+   "added": "2026-11-05"
+  },
+  {
+   "id": "x-2118137612577968402",
+   "platform": "x",
+   "url": "https://x.com/_catwu/status/2118137612577968402",
+   "posted_at": "2026-11-05T00:25:34Z",
+   "date_only": false,
+   "text": "Some news: I’m joining OpenAI to lead product management for Core Products!\n\nI have a lot of respect for OpenAI for showing the world that scaling works, for bringing AI to over a billion people, and for believing great products are core to the mission.\n\nI’m excited to work with…",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">Some news: I’m joining OpenAI to lead product management for Core Products!<br><br>I have a lot of respect for OpenAI for showing the world that scaling works, for bringing AI to over a billion people, and for believing great products are core to the mission.<br><br>I’m excited to work with…</p>&mdash; cat (@_catwu) <a href=\"https://x.com/_catwu/status/2118137612577968402?ref_src=twsrc%5Etfw\">November 5, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "cat-wu",
+   "meaning": "Cat Wu, who led product for Claude Code at Anthropic from its start, says she is joining OpenAI to lead product management for Core Products, crediting OpenAI for showing that scaling works.",
+   "concepts": [],
+   "story": "2026-11-05-openai-hires-top-anthropic-product-leader-catherine-wu",
+   "model": "gemini:gemini-3.1-flash-lite",
+   "checked": "editor",
+   "added": "2026-11-05"
+  },
+  {
+   "id": "x-2118129547443056763",
+   "platform": "x",
+   "url": "https://x.com/gdb/status/2118129547443056763",
+   "posted_at": "2026-11-04T23:53:31Z",
+   "date_only": false,
+   "text": "we've found, validated, and prepared patches for almost 1,000 linux local privilege escalations using our cyber vulnerability pipeline, at the cost about $1,000 per vulnerability.\n\nan emerging scalable approach to significantly hardening both open source and proprietary projects https://t.co/fsuaRqKUrt",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">we&#39;ve found, validated, and prepared patches for almost 1,000 linux local privilege escalations using our cyber vulnerability pipeline, at the cost about $1,000 per vulnerability.<br><br>an emerging scalable approach to significantly hardening both open source and proprietary projects <a href=\"https://t.co/fsuaRqKUrt\">https://t.co/fsuaRqKUrt</a></p>&mdash; Greg Brockman (@gdb) <a href=\"https://x.com/gdb/status/2118129547443056763?ref_src=twsrc%5Etfw\">November 4, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "greg-brockman",
+   "meaning": "Greg Brockman announces that a cyber vulnerability pipeline found and prepared patches for nearly 1,000 Linux local privilege escalations at a cost of about $1,000 each, offering a scalable way to harden software projects.",
+   "concepts": [
+    "coding-assistant",
+    "copilot"
+   ],
+   "story": "2026-11-05-openai-s-cyber-model-found-and-patched-948-linux-root-exploi",
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "anthropic:claude-sonnet-5-5",
+   "added": "2026-11-05"
+  },
+  {
+   "id": "x-2118124964197114039",
+   "platform": "x",
+   "url": "https://x.com/OpenAI/status/2118124964197114039",
+   "posted_at": "2026-11-04T23:35:18Z",
+   "date_only": false,
+   "text": "Two new image models for developers: GPT-Image-2.6 Flare and Sunburst.\n\nFlare generates images in as little as six seconds. Sunburst brings higher-quality generation and greater consistency across edits.\n\nImage markup and SVG exports give you more ways to refine and use what you…",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">Two new image models for developers: GPT-Image-2.6 Flare and Sunburst.<br><br>Flare generates images in as little as six seconds. Sunburst brings higher-quality generation and greater consistency across edits.<br><br>Image markup and SVG exports give you more ways to refine and use what you… <a href=\"https://t.co/unnKQKKxhu\">pic.twitter.com/unnKQKKxhu</a></p>&mdash; OpenAI (@OpenAI) <a href=\"https://x.com/OpenAI/status/2118124964197114039?ref_src=twsrc%5Etfw\">November 4, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "x-openai",
+   "meaning": "OpenAI announced two new image generation models for developers, featuring faster generation and greater consistency across edits, alongside image markup and SVG exports.",
+   "concepts": [
+    "generative-model"
+   ],
+   "story": null,
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "anthropic:claude-sonnet-5-5",
+   "added": "2026-11-05"
+  },
+  {
+   "id": "x-2118123944251453949",
+   "platform": "x",
+   "url": "https://x.com/Eric_Wallace_/status/2118123944251453949",
+   "posted_at": "2026-11-04T23:31:15Z",
+   "date_only": false,
+   "text": "We are now allocating a significant amount of our frontier compute towards discovering and patching vulnerabilities in open source codebases, fully pro bono.\n\nIn one case, we studied the Linux kernel, which is a particularly load-bearing piece of software at OpenAI.\n\nBefore AI,… https://t.co/hzfKBtv2zM",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">We are now allocating a significant amount of our frontier compute towards discovering and patching vulnerabilities in open source codebases, fully pro bono.<br><br>In one case, we studied the Linux kernel, which is a particularly load-bearing piece of software at OpenAI.<br><br>Before AI,… <a href=\"https://t.co/hzfKBtv2zM\">https://t.co/hzfKBtv2zM</a></p>&mdash; Eric Wallace (@Eric_Wallace_) <a href=\"https://x.com/Eric_Wallace_/status/2118123944251453949?ref_src=twsrc%5Etfw\">November 4, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "eric-wallace",
+   "meaning": "Eric Wallace notes that OpenAI is using frontier compute to identify and patch vulnerabilities in open-source software like the Linux kernel as a pro bono effort.",
+   "concepts": [
+    "coding-assistant"
+   ],
+   "story": "2026-11-05-openai-s-cyber-model-found-and-patched-948-linux-root-exploi",
+   "model": "gemini:gemini-3.1-flash-lite",
+   "checked": "anthropic:claude-sonnet-5-5",
+   "added": "2026-11-05"
+  },
+  {
+   "id": "x-2118120600577487119",
+   "platform": "x",
+   "url": "https://x.com/clintgibler/status/2118120600577487119",
+   "posted_at": "2026-11-04T23:17:58Z",
+   "date_only": false,
+   "text": "🔥 A thousand fewer paths to root\n\nMy @OpenAI colleague @ky1ebot built an autonomous vulnerability discovery, exploitation, and patching pipeline. \n\nIn one run with an upcoming cyber model, it validated and generated patches for 948 local privilege escalation (LPE)…",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">🔥 A thousand fewer paths to root<br><br>My <a href=\"https://x.com/OpenAI?ref_src=twsrc%5Etfw\">@OpenAI</a> colleague <a href=\"https://x.com/ky1ebot?ref_src=twsrc%5Etfw\">@ky1ebot</a> built an autonomous vulnerability discovery, exploitation, and patching pipeline. <br><br>In one run with an upcoming cyber model, it validated and generated patches for 948 local privilege escalation (LPE)… <a href=\"https://t.co/p0LHpu8d63\">pic.twitter.com/p0LHpu8d63</a></p>&mdash; Clint Gibler (@clintgibler) <a href=\"https://x.com/clintgibler/status/2118120600577487119?ref_src=twsrc%5Etfw\">November 4, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "clint-gibler",
+   "meaning": "Clint Gibler highlights an autonomous pipeline that successfully validated and generated patches for 948 Linux vulnerabilities using a new cyber-focused AI model.",
+   "concepts": [
+    "coding-assistant"
+   ],
+   "story": "2026-11-05-openai-s-cyber-model-found-and-patched-948-linux-root-exploi",
+   "model": "gemini:gemini-3.1-flash-lite",
+   "checked": "anthropic:claude-sonnet-5-5",
+   "added": "2026-11-05"
+  },
+  {
+   "id": "x-2118119451401048497",
+   "platform": "x",
+   "url": "https://x.com/OpenAI/status/2118119451401048497",
+   "posted_at": "2026-11-04T23:13:24Z",
+   "date_only": false,
+   "text": "Our security researchers built an autonomous cyber vulnerability discovery, exploitation, and patching pipeline.\n\nIn a single run with an upcoming cyber model, it validated and generated patches for 948 local privilege escalation vulnerabilities in the Linux kernel at a total API…",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">Our security researchers built an autonomous cyber vulnerability discovery, exploitation, and patching pipeline.<br><br>In a single run with an upcoming cyber model, it validated and generated patches for 948 local privilege escalation vulnerabilities in the Linux kernel at a total API… <a href=\"https://t.co/Nu2I0n2ayI\">pic.twitter.com/Nu2I0n2ayI</a></p>&mdash; OpenAI (@OpenAI) <a href=\"https://x.com/OpenAI/status/2118119451401048497?ref_src=twsrc%5Etfw\">November 4, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "x-openai",
+   "meaning": "OpenAI announces an autonomous cyber vulnerability pipeline that identified and patched 948 Linux kernel vulnerabilities in a single run, demonstrating the potential for automated security maintenance.",
+   "concepts": [
+    "coding-assistant"
+   ],
+   "story": "2026-11-05-openai-s-cyber-model-found-and-patched-948-linux-root-exploi",
+   "model": "gemini:gemini-3.1-flash-lite",
+   "checked": "anthropic:claude-sonnet-5-5",
+   "added": "2026-11-05"
+  },
+  {
+   "id": "x-2118116514700386439",
+   "platform": "x",
+   "url": "https://x.com/steipete/status/2118116514700386439",
+   "posted_at": "2026-11-04T23:01:44Z",
+   "date_only": false,
+   "text": "Do individual limits still make sense? As capabilities increase you want to work with and support an agent that represents your project, that runs loops and evolves your codebase. The humans merely curate the automations. https://t.co/7A1dRKVtJk",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">Do individual limits still make sense? As capabilities increase you want to work with and support an agent that represents your project, that runs loops and evolves your codebase. The humans merely curate the automations. <a href=\"https://t.co/7A1dRKVtJk\">https://t.co/7A1dRKVtJk</a></p>&mdash; Peter Steinberger 🦞 (@steipete) <a href=\"https://x.com/steipete/status/2118116514700386439?ref_src=twsrc%5Etfw\">November 4, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "peter-steinberger",
+   "meaning": "Peter Steinberger questions the relevance of individual usage limits as AI agents evolve to manage entire codebases, suggesting a shift toward human-curated automation.",
+   "concepts": [
+    "agent",
+    "coding-assistant"
+   ],
+   "story": null,
+   "model": "gemini:gemini-3.1-flash-lite",
+   "checked": "anthropic:claude-sonnet-5-5",
+   "added": "2026-11-05"
+  },
+  {
+   "id": "x-2118111893160435742",
+   "platform": "x",
+   "url": "https://x.com/eliebakouch/status/2118111893160435742",
+   "posted_at": "2026-11-04T22:43:22Z",
+   "date_only": false,
+   "text": "very nice open weight release from ricursive with a modern dense model, benchmark scores look very strong!\n\nbeautiful scaling ladder, interesting choices like value residual (interesting contribution pattern 👀) and.. SLIDING WINDOW ATTENTION AGAIN! https://t.co/QWEfxsVBaa https://t.co/0dj6UkEdyn",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">very nice open weight release from ricursive with a modern dense model, benchmark scores look very strong!<br><br>beautiful scaling ladder, interesting choices like value residual (interesting contribution pattern 👀) and.. SLIDING WINDOW ATTENTION AGAIN! <a href=\"https://t.co/QWEfxsVBaa\">https://t.co/QWEfxsVBaa</a> <a href=\"https://t.co/0dj6UkEdyn\">https://t.co/0dj6UkEdyn</a> <a href=\"https://t.co/BupU07evBc\">pic.twitter.com/BupU07evBc</a></p>&mdash; elie (@eliebakouch) <a href=\"https://x.com/eliebakouch/status/2118111893160435742?ref_src=twsrc%5Etfw\">November 4, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "elie-bakouch",
+   "meaning": "Elie Bakouch praises the Ripple open-weight model release, noting its strong benchmark performance and technical features like value residual connections and sliding window attention.",
+   "concepts": [
+    "open-weight-model",
+    "sliding-window-attention",
+    "residual-connection"
+   ],
+   "story": "2026-11-05-ricursive-intelligence-releases-ripple-65b-preview-language",
+   "model": "gemini:gemini-3.1-flash-lite",
+   "checked": "anthropic:claude-sonnet-5-5",
+   "added": "2026-11-05"
+  },
+  {
+   "id": "x-2118110925987385836",
+   "platform": "x",
+   "url": "https://x.com/ValsAI/status/2118110925987385836",
+   "posted_at": "2026-11-04T22:39:32Z",
+   "date_only": false,
+   "text": "Tencent's Hy4 debuts at #4 among open-weight models on the Vals Index, behind Kimi K3.1 Pro, DeepSeek V4.1 Flash, and GLM-5.3.\n\nIt nearly matches GLM-5.3's performance at about a fifth of the cost per task. It's also a substantial improvement over Hy4 Preview, at about the same…",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">Tencent&#39;s Hy4 debuts at #4 among open-weight models on the Vals Index, behind Kimi K3.1 Pro, DeepSeek V4.1 Flash, and GLM-5.3.<br><br>It nearly matches GLM-5.3&#39;s performance at about a fifth of the cost per task. It&#39;s also a substantial improvement over Hy4 Preview, at about the same… <a href=\"https://t.co/lmKGGar8Vn\">pic.twitter.com/lmKGGar8Vn</a></p>&mdash; Vals AI (@ValsAI) <a href=\"https://x.com/ValsAI/status/2118110925987385836?ref_src=twsrc%5Etfw\">November 4, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "x-valsai",
+   "meaning": "Vals AI shares that Tencent's Hy4 model debuted at number four among open-weight models on the Vals Index, nearly matching GLM-5.3 at a fraction of the cost.",
+   "concepts": [
+    "open-weight-model"
+   ],
+   "story": null,
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "anthropic:claude-sonnet-5-5",
+   "added": "2026-11-05"
+  },
+  {
+   "id": "x-2118093692246671634",
+   "platform": "x",
+   "url": "https://x.com/EpochAIResearch/status/2118093692246671634",
+   "posted_at": "2026-11-04T21:31:03Z",
+   "date_only": false,
+   "text": "We’ve updated the Epoch Capabilities Index (ECI) to use a Bayesian methodology. This improves uncertainty estimates and lets us compare models more accurately, even when their individual ECI uncertainty intervals overlap.\n\nFrontier model scores are largely unchanged: models…",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">We’ve updated the Epoch Capabilities Index (ECI) to use a Bayesian methodology. This improves uncertainty estimates and lets us compare models more accurately, even when their individual ECI uncertainty intervals overlap.<br><br>Frontier model scores are largely unchanged: models… <a href=\"https://t.co/VmHkorGjge\">pic.twitter.com/VmHkorGjge</a></p>&mdash; Epoch AI (@EpochAIResearch) <a href=\"https://x.com/EpochAIResearch/status/2118093692246671634?ref_src=twsrc%5Etfw\">November 4, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "x-epochai",
+   "meaning": "Epoch AI updated its Capabilities Index to use a Bayesian methodology, improving uncertainty estimates and model comparisons while frontier scores remain largely unchanged.",
+   "concepts": [
+    "benchmark"
+   ],
+   "story": null,
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "anthropic:claude-sonnet-5-5",
+   "added": "2026-11-05"
+  },
+  {
+   "id": "x-2118075749282537763",
+   "platform": "x",
+   "url": "https://x.com/finbarrtimbers/status/2118075749282537763",
+   "posted_at": "2026-11-04T20:19:45Z",
+   "date_only": false,
+   "text": "for the recent Ripple ladder (https://t.co/n2BD57d8Ug), it's fascinating to see how much data matters vs arch.\n\nRipple 1.6 vs Olmo3 has the same dataset but new arch (3x improvement), while Ripple final vs 1.6 has the same arch, but a new dataset (4x improvement).",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">for the recent Ripple ladder (<a href=\"https://t.co/n2BD57d8Ug\">https://t.co/n2BD57d8Ug</a>), it&#39;s fascinating to see how much data matters vs arch.<br><br>Ripple 1.6 vs Olmo3 has the same dataset but new arch (3x improvement), while Ripple final vs 1.6 has the same arch, but a new dataset (4x improvement).</p>&mdash; finbarr (@finbarrtimbers) <a href=\"https://x.com/finbarrtimbers/status/2118075749282537763?ref_src=twsrc%5Etfw\">November 4, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "finbarr-timbers",
+   "meaning": "Finbarr Timbers observes that for the Ripple model, improvements in the dataset provided a larger performance gain than changes to the model architecture.",
+   "concepts": [
+    "dataset"
+   ],
+   "story": "2026-11-05-ricursive-intelligence-releases-ripple-65b-preview-language",
+   "model": "gemini:gemini-3.1-flash-lite",
+   "checked": "anthropic:claude-sonnet-5-5",
+   "added": "2026-11-05"
+  },
+  {
+   "id": "x-2118073665296228863",
+   "platform": "x",
+   "url": "https://x.com/AnthropicAI/status/2118073665296228863",
+   "posted_at": "2026-11-04T20:11:28Z",
+   "date_only": false,
+   "text": "We’re sharing how our biology research team worked with Claude to map the first 3D structure of a vault particle from bacterial life.\n\nVault particles are a longstanding mystery. They are barrel-shaped objects, among the largest protein structures found in our cells. They were…",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">We’re sharing how our biology research team worked with Claude to map the first 3D structure of a vault particle from bacterial life.<br><br>Vault particles are a longstanding mystery. They are barrel-shaped objects, among the largest protein structures found in our cells. They were…</p>&mdash; Anthropic (@AnthropicAI) <a href=\"https://x.com/AnthropicAI/status/2118073665296228863?ref_src=twsrc%5Etfw\">November 4, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "x-anthropicai",
+   "meaning": "Anthropic shares that its biology team collaborated with Claude to map the first 3D structure of a vault particle from bacterial life, shedding light on a longstanding cellular mystery.",
+   "concepts": [
+    "multimodal-model"
+   ],
+   "story": null,
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "anthropic:claude-sonnet-5-5",
+   "added": "2026-11-05"
+  },
+  {
+   "id": "x-2118073650356384239",
+   "platform": "x",
+   "url": "https://x.com/swyx/status/2118073650356384239",
+   "posted_at": "2026-11-04T20:11:24Z",
+   "date_only": false,
+   "text": "> we developed and trained Ripple-65B Preview for only $32M, which is one-tenth the cost of the previous open-weight SOTA on agentic coding¹\n\nthis is like the avengers of open model SOTA\n\n¹ \"Note that $32M is our full R&D cost starting from scratch, including pretraining ladder… https://t.co/srowwxaGZi",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">&gt; we developed and trained Ripple-65B Preview for only $32M, which is one-tenth the cost of the previous open-weight SOTA on agentic coding¹<br><br>this is like the avengers of open model SOTA<br><br>¹ &quot;Note that $32M is our full R&amp;D cost starting from scratch, including pretraining ladder… <a href=\"https://t.co/srowwxaGZi\">https://t.co/srowwxaGZi</a> <a href=\"https://t.co/hVZsfs4ZmT\">pic.twitter.com/hVZsfs4ZmT</a></p>&mdash; swyx (@swyx) <a href=\"https://x.com/swyx/status/2118073650356384239?ref_src=twsrc%5Etfw\">November 4, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "swyx",
+   "meaning": "Swyx quotes Ricursive's claim that Ripple-65B Preview cost $32M, its full R&D budget, about a tenth of the previous open-weight leader on agentic coding.",
+   "concepts": [
+    "open-weight-model",
+    "coding-assistant",
+    "agent"
+   ],
+   "story": "2026-11-05-ricursive-intelligence-releases-ripple-65b-preview-language",
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "editor",
+   "added": "2026-11-05"
+  },
+  {
+   "id": "x-2118069614521241739",
+   "platform": "x",
+   "url": "https://x.com/cognition/status/2118069614521241739",
+   "posted_at": "2026-11-04T19:55:22Z",
+   "date_only": false,
+   "text": "Introducing SWE-2 Flash, our new fast & efficient coding model.\n\nOn leading evals, it outperforms all American open-weight models, even ones 3x larger.\n\nTo balance transparency and cyber risks, we are building a program to securely share the weights with partners & researchers.",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">Introducing SWE-2 Flash, our new fast &amp; efficient coding model.<br><br>On leading evals, it outperforms all American open-weight models, even ones 3x larger.<br><br>To balance transparency and cyber risks, we are building a program to securely share the weights with partners &amp; researchers. <a href=\"https://t.co/MJQ2c1HKIi\">pic.twitter.com/MJQ2c1HKIi</a></p>&mdash; Cognition (@cognition) <a href=\"https://x.com/cognition/status/2118069614521241739?ref_src=twsrc%5Etfw\">November 4, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "x-cognition",
+   "meaning": "Cognition introduced SWE-2 Flash, a fast coding model that outperforms larger American open-weight models on leading evals, with a secure weight-sharing program for partners and researchers.",
+   "concepts": [
+    "coding-assistant",
+    "open-weight-model"
+   ],
+   "story": null,
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "anthropic:claude-sonnet-5-5",
+   "added": "2026-11-05"
+  },
+  {
+   "id": "x-2118068667103453360",
+   "platform": "x",
+   "url": "https://x.com/markgurman/status/2118068667103453360",
+   "posted_at": "2026-11-04T19:51:36Z",
+   "date_only": false,
+   "text": "NEW: Apple is cutting employee AI spending budgets even as it pushes workers to use the technology more. Engineers have seen daily limits cut from $300 to $200, with further reductions to $100 planned. Other teams could see limits fall to $25. https://t.co/4tnOIaxpDz",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">NEW: Apple is cutting employee AI spending budgets even as it pushes workers to use the technology more. Engineers have seen daily limits cut from $300 to $200, with further reductions to $100 planned. Other teams could see limits fall to $25. <a href=\"https://t.co/4tnOIaxpDz\">https://t.co/4tnOIaxpDz</a></p>&mdash; Mark Gurman (@markgurman) <a href=\"https://x.com/markgurman/status/2118068667103453360?ref_src=twsrc%5Etfw\">November 4, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "mark-gurman",
+   "meaning": "Mark Gurman reports that Apple is reducing employee AI spending budgets, cutting daily limits for engineers from $300 to $200 with further reductions planned. Developers monitoring corporate AI infrastructure costs will note this tightening of resources.",
+   "concepts": [],
+   "story": "2026-11-05-apple-cuts-some-engineers-daily-ai-budget-from-300-to-200-wi",
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "anthropic:claude-sonnet-5-5",
+   "added": "2026-11-05"
+  },
+  {
+   "id": "x-2118063143167693011",
+   "platform": "x",
+   "url": "https://x.com/ClaudeDevs/status/2118063143167693011",
+   "posted_at": "2026-11-04T19:29:39Z",
+   "date_only": false,
+   "text": "Background subagents in Claude Code now use less of your usage limit.\n\nA running subagent updates its status line every 30 seconds, and each update used to re-read its whole conversation. Now Haiku 5.5 writes it from short notes instead, so each update costs about 99% less.",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">Background subagents in Claude Code now use less of your usage limit.<br><br>A running subagent updates its status line every 30 seconds, and each update used to re-read its whole conversation. Now Haiku 5.5 writes it from short notes instead, so each update costs about 99% less. <a href=\"https://t.co/u4maCuWq6A\">pic.twitter.com/u4maCuWq6A</a></p>&mdash; ClaudeDevs (@ClaudeDevs) <a href=\"https://x.com/ClaudeDevs/status/2118063143167693011?ref_src=twsrc%5Etfw\">November 4, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "x-claudedevs",
+   "meaning": "Claude Developers announced that background subagents in Claude Code now use about 99% less usage limit per status update by using Haiku 5.5 to write updates from short notes.",
+   "concepts": [
+    "coding-assistant",
+    "small-language-model"
+   ],
+   "story": null,
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "anthropic:claude-sonnet-5-5",
+   "added": "2026-11-05"
+  },
+  {
+   "id": "x-2118061109072814429",
+   "platform": "x",
+   "url": "https://x.com/deedydas/status/2118061109072814429",
+   "posted_at": "2026-11-04T19:21:34Z",
+   "date_only": false,
+   "text": "This startup just dropped the state-of-the-art AI image and video detection model with 99.9%+ accuracy on both.\n\nAI-generated photos and videos are used to scam people online all the time: for shopping, apartments, dating apps, blackmail and wire fraud. Preventing this is one of… https://t.co/Wltxd8wvTR",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">This startup just dropped the state-of-the-art AI image and video detection model with 99.9%+ accuracy on both.<br><br>AI-generated photos and videos are used to scam people online all the time: for shopping, apartments, dating apps, blackmail and wire fraud. Preventing this is one of… <a href=\"https://t.co/Wltxd8wvTR\">https://t.co/Wltxd8wvTR</a></p>&mdash; Deedy (@deedydas) <a href=\"https://x.com/deedydas/status/2118061109072814429?ref_src=twsrc%5Etfw\">November 4, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "deedy-das",
+   "meaning": "Deedy Das highlights a startup model claiming over 99.9% accuracy in detecting AI-generated images and videos to prevent online scams. Builders addressing fraud might care about this detection capability.",
+   "concepts": [
+    "generative-model",
+    "ai-safety"
+   ],
+   "story": null,
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "anthropic:claude-sonnet-5-5",
+   "added": "2026-11-05"
+  },
+  {
    "id": "x-2118024169762029594",
    "platform": "x",
    "url": "https://x.com/thsottiaux/status/2118024169762029594",
@@ -1829,8 +2368,8 @@
     }
    ],
    "context": null,
-   "likes": 89,
-   "reposts": 12,
+   "likes": 131,
+   "reposts": 17,
    "via": "feed",
    "meaning": "Ethan Mollick highlights a paper showing that visual symbols strongly affect AIs in ways the models do not recognize in their own reasoning chains, and differently than humans interpret them.",
    "concepts": [
@@ -2336,7 +2875,7 @@
     "title": "Qwen 3.8 27B on my laptop can interpret model weights, too",
     "text": "Yesterday’s hot paper was Sparks of Weight-Space Programming: LLMs can natively read &amp; write neural network weights by Rikiya Takehi, Jayden Teoh, Alex Zhang, and Omar Khattab. The paper found …"
    },
-   "likes": 212,
+   "likes": 218,
    "reposts": 23,
    "via": "feed",
    "meaning": "Simon Willison tested a paper on models interpreting neural network weights directly and found that a local model running on his laptop could achieve the same capability.",
@@ -2362,8 +2901,8 @@
     }
    ],
    "context": null,
-   "likes": 180,
-   "reposts": 28,
+   "likes": 182,
+   "reposts": 29,
    "via": "feed",
    "meaning": "Mollick shares a study showing newer language models have reduced hallucination and stereotyping rates and no longer invent citations. However, they remain sycophantic and lean left.",
    "concepts": [
@@ -2471,7 +3010,7 @@
     "title": "How Open Models Win Against OpenAI and Anthropic",
     "text": "Open models have passed an inflection point, where they can be deployed and adapted for meaningful agentic tasks. This represents meaningful competition for OpenAI and Anthropic, whose models reached…"
    },
-   "likes": 23,
+   "likes": 25,
    "reposts": 2,
    "via": "feed",
    "meaning": "Lambert discusses the open model economy and how open-weight models can compete against major labs like OpenAI and Anthropic by being deployed for agentic tasks. Builders care because open models have passed an inflection point for meaningful customization.",
@@ -2504,7 +3043,7 @@
     "text": "We find that frontier LLMs are surprisingly good at natively reading and writing neural network weights, well past what we’d expect from humans or conventional algorithms."
    },
    "likes": 256,
-   "reposts": 37,
+   "reposts": 36,
    "via": "feed",
    "meaning": "Mollick shares a potentially big development where a model was used to directly edit a tiny fraction of another model's weights to improve math and fix reasoning without training. Builders may care because frontier models might be able to natively manipulate neural network weights.",
    "concepts": [
@@ -2571,7 +3110,7 @@
    ],
    "context": null,
    "likes": 36,
-   "reposts": 7,
+   "reposts": 8,
    "via": "feed",
    "meaning": "Narayanan argues that as AI labs race toward recursive self-improvement, they may actually be racing toward the extinction of their own business model. AI builders should care because it questions the viability of current business strategies.",
    "concepts": [
@@ -3099,7 +3638,7 @@
     "title": "Quoted post by @rekmarks.com",
     "text": "Two things are true:\n\n1. Claims about AI capabilities are overblown\n2. AI has completely revolutionized software development, and will do the same to many other fields\n\nI'm a software developer by trade. I'm going to attempt to explain what this revolution feels like \"from the inside\"."
    },
-   "likes": 322,
+   "likes": 324,
    "reposts": 52,
    "via": "feed",
    "meaning": "Simon Willison shares a thread arguing that while some AI capability claims are overblown, AI has completely revolutionized software development from the inside over the past year.",
@@ -3422,7 +3961,7 @@
    "text": "Was reading the score-centering RL paper to add some notes on it the my book, and they have a great table in the appendix on the different importance sampling based train-inference mismatch methods in RL. These have been the biggest focus of RL algorithm research since the GRPO takeoff, imo.",
    "links": [],
    "context": null,
-   "likes": 19,
+   "likes": 21,
    "reposts": 3,
    "via": "feed",
    "meaning": "Nathan Lambert highlights importance sampling based train-inference mismatch methods in reinforcement learning algorithms as a major research focus since the GRPO takeoff.",
