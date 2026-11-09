@@ -107,19 +107,27 @@ def main():
                   'Answer with JSON only: {"picks": [{"i": <number>, "about": "one plain sentence on what the post is about, based only on the text given"}]}\n\n'
                   + listing)
         body = {"model": args.model, "max_tokens": 4000, "messages": [{"role": "user", "content": prompt}]}
-        r = requests.post("https://api.anthropic.com/v1/messages", json=body, timeout=150,
-                          headers={"x-api-key": key, "anthropic-version": "2023-06-01", "content-type": "application/json"})
-        if r.status_code == 200:
+        try:
+            r = requests.post("https://api.anthropic.com/v1/messages", json=body, timeout=240,
+                              headers={"x-api-key": key, "anthropic-version": "2023-06-01", "content-type": "application/json"})
+        except requests.RequestException as exc:
+            r = None
+            print("API call failed:", type(exc).__name__, str(exc)[:200])
+        if r is not None and r.status_code == 200:
             data = r.json()
             text = "".join(b.get("text", "") for b in data["content"] if b.get("type") == "text")
             u = data.get("usage", {})
             m = re.search(r"\{.*\}", text, re.S)
-            for p in (json.loads(m.group(0)).get("picks", []) if m else []):
+            try:
+                chosen = json.loads(m.group(0)).get("picks", []) if m else []
+            except json.JSONDecodeError:
+                chosen = [{"i": int(x)} for x in re.findall(r'"i"\s*:\s*(\d+)', text)]   # a cut-off answer still has its numbers
+            for p in chosen:
                 if isinstance(p.get("i"), int) and 0 <= p["i"] < len(cands):
                     picks.append({**cands[p["i"]], "about": p.get("about", "")})
             print(f"Claude picked {len(picks)}; {u.get('input_tokens', 0):,} in / {u.get('output_tokens', 0):,} out tokens, "
                   f"about ${u.get('input_tokens', 0) / 1e6 * 2 + u.get('output_tokens', 0) / 1e6 * 10:.2f}")
-        else:
+        elif r is not None:
             print("API error", r.status_code, r.text[:200])
     out = ROOT / "state" / "research" / f"{until:%Y-%m-%d}-x.json"
     out.parent.mkdir(parents=True, exist_ok=True)

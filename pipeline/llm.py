@@ -27,10 +27,13 @@ PROVIDERS = {
              "key": "GROQ_API_KEY", "min_gap": 8.0},  # free tier is about 8,000 tokens per minute
     # Claude uses its own Messages API, not the OpenAI format (see _call_anthropic)
     "anthropic": {"url": "https://api.anthropic.com/v1/messages", "key": "ANTHROPIC_API_KEY", "min_gap": 1.0},
+    # OpenAI: set OPENAI_API_KEY and OPENAI_MODEL in .env, or name it in a chain, e.g. LLM_CHAIN_WRITER=openai:<model>
+    "openai": {"url": "https://api.openai.com/v1/chat/completions", "key": "OPENAI_API_KEY", "min_gap": 1.0},
 }
 # Answers from these providers mean the key, account or credits are the problem, not this one request:
 # stop using the provider for the rest of the run and fall back to the next one in the chain.
-_FATAL = ("credit balance", "billing", "usage limit", "invalid x-api-key", "authentication_error", "permission_error")
+_FATAL = ("credit balance", "billing", "usage limit", "invalid x-api-key", "authentication_error", "permission_error",
+          "insufficient_quota", "invalid_api_key")
 # Each step has its own chain. The editor runs once a day, so it gets the stronger Flash models
 # (small daily quota). The checker uses a different model family from the writer, so a model
 # never marks its own homework.
@@ -58,7 +61,13 @@ STATS = {"calls": 0, "cache_hits": 0, "by_model": {}, "failures": [], "fallbacks
 def chain(step):
     """Override any step in .env, for example LLM_CHAIN_WRITER=gemini:gemini-3.5-flash-lite,groq:openai/gpt-oss-120b"""
     raw = os.getenv(f"LLM_CHAIN_{step.upper()}", CHAINS.get(step, CHAINS["writer"]))
-    return [c.strip() for c in raw.split(",") if c.strip()]
+    out = [c.strip() for c in raw.split(",") if c.strip()]
+    # whoever has only a paid key still gets a working chain: it is added at the end, as the last fallback
+    if os.getenv("ANTHROPIC_API_KEY") and not any(c.startswith("anthropic:") for c in out):
+        out.append("anthropic:claude-sonnet-5-5")
+    if os.getenv("OPENAI_API_KEY") and os.getenv("OPENAI_MODEL") and not any(c.startswith("openai:") for c in out):
+        out.append("openai:" + os.environ["OPENAI_MODEL"])
+    return out
 
 
 def _pace(provider):
@@ -127,6 +136,11 @@ def ask_json(system, user, max_tokens=1500, temperature=0.2, tag="call", reasoni
                     "system": system + "\nAnswer with one JSON object only, no other text.",
                     "messages": [{"role": "user", "content": user}]}
             headers = {"x-api-key": api_key, "anthropic-version": "2023-06-01", "content-type": "application/json"}
+        elif provider == "openai":
+            # newer OpenAI models take max_completion_tokens and only the default temperature
+            body = {"model": model, "max_completion_tokens": max_tokens, "response_format": {"type": "json_object"},
+                    "messages": [{"role": "system", "content": system}, {"role": "user", "content": user}]}
+            headers = {"Authorization": f"Bearer {api_key}", "Content-Type": "application/json"}
         else:
             body = {"model": model, "temperature": temperature, "max_tokens": max_tokens,
                     "response_format": {"type": "json_object"},
@@ -151,6 +165,9 @@ def ask_json(system, user, max_tokens=1500, temperature=0.2, tag="call", reasoni
                         _count_tokens(entry, data.get("usage") or {})
                     else:
                         content = data["choices"][0]["message"]["content"]
+                        if provider == "openai":
+                            u = data.get("usage") or {}
+                            _count_tokens(entry, {"input_tokens": u.get("prompt_tokens"), "output_tokens": u.get("completion_tokens")})
                     result = _as_object(_parse_json(content))
                 except Exception as exc:
                     errors.append(f"{entry}: bad JSON ({type(exc).__name__})")

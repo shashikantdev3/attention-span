@@ -6,6 +6,7 @@ state/seen.json                    URLs already published, so a story is not rep
 state/pending_terms.json           new terms proposed by the writer, waiting for your approval
 """
 import json
+import os
 import re
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
@@ -38,10 +39,12 @@ def slug(text, n=60):
 
 
 def seen_before(story, edition_date):
-    """True if every URL of the story was already published in an earlier edition."""
+    """True if every URL of the story was already published in an earlier edition.
+    With SEEN_INCLUDE_SAME_DAY=1 (a second run for a day that already has an edition) the same day counts too."""
     seen = read(STATE / "seen.json", {})
     urls = {norm_url(i["url"]) for i in story["items"]}
-    earlier = {u for u in urls if seen.get(u) and seen[u] < edition_date}
+    same_day = os.getenv("SEEN_INCLUDE_SAME_DAY") == "1"
+    earlier = {u for u in urls if seen.get(u) and (seen[u] <= edition_date if same_day else seen[u] < edition_date)}
     if bool(urls) and earlier == urls:
         return True
     # the maker's own post was already published: later coverage of it is not a new story

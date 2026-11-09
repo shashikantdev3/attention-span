@@ -106,8 +106,10 @@ def main():
     ap.add_argument("--no-heads", action="store_true", help="skip the Attention Heads step")
     args = ap.parse_args()
 
-    if not (os.getenv("GEMINI_API_KEY") or os.getenv("GROQ_API_KEY")):
-        sys.exit("No API keys found. Put GEMINI_API_KEY and GROQ_API_KEY in the .env file.")
+    if not (os.getenv("GEMINI_API_KEY") or os.getenv("GROQ_API_KEY") or os.getenv("ANTHROPIC_API_KEY")
+            or (os.getenv("OPENAI_API_KEY") and os.getenv("OPENAI_MODEL"))):
+        sys.exit("No API keys found. Put at least one of GEMINI_API_KEY, GROQ_API_KEY, ANTHROPIC_API_KEY, "
+                 "or OPENAI_API_KEY with OPENAI_MODEL in the .env file.")
 
     if args.heads_only:
         print("Attention Heads")

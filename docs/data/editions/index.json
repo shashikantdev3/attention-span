@@ -1,6 +1,34 @@
 {
  "editions": [
   {
+   "date": "2026-11-09",
+   "file": "2026-11.json",
+   "count": 19,
+   "spotlight": 2,
+   "lead": "Nvidia's board investigates after Jensen Huang admits a relationship with a woman reportedly suspected of spying for China"
+  },
+  {
+   "date": "2026-11-08",
+   "file": "2026-11.json",
+   "count": 11,
+   "spotlight": 0,
+   "lead": "Report claims Claude Code's \"Don't Ask Again\" exposes passwords in 1,122 GitHub files"
+  },
+  {
+   "date": "2026-11-07",
+   "file": "2026-11.json",
+   "count": 12,
+   "spotlight": 2,
+   "lead": "Cotra: METR report suggests Anthropic's AI-driven research speedup has crossed its own threshold"
+  },
+  {
+   "date": "2026-11-06",
+   "file": "2026-11.json",
+   "count": 10,
+   "spotlight": 0,
+   "lead": "Bug report says Claude Code sent a user's email in its User-Agent header; Anthropic points to a privacy mod that blocks it"
+  },
+  {
    "date": "2026-11-05",
    "file": "2026-11.json",
    "count": 20,
@@ -204,6 +232,6 @@
    "lead": "Anthropic Releases Claude Haiku 5.5 and AWS Integration"
   }
  ],
- "latest": "2026-11-05",
- "updated": "2026-11-05T19:49:27Z"
+ "latest": "2026-11-09",
+ "updated": "2026-11-09T13:02:03Z"
 }

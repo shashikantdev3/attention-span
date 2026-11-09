@@ -3,8 +3,8 @@
 **Today's AI news, traced back to its roots.**
 
 A daily AI news bulletin with a memory. Every story is tagged with the same index as a source-checked history of AI
-from 1943 to today, a glossary with lineage, the labs and the people behind it. It runs once a night on a laptop with
-free AI tiers and publishes as a static site on GitHub Pages.
+from 1943 to today, a glossary with lineage, the labs and the people behind it. It runs twice a day on a laptop
+and publishes as a static site on GitHub Pages.
 
 - **Today**: the last 24 hours, picked, summarised from the sources, fact-checked, with a "like I'm 5" line for each story.
 - **Timeline**: 103 moments from 1943 to 2026 in seven eras. 91 dates are machine-checked against arXiv, Crossref or the source page.
@@ -68,21 +68,25 @@ Answers are cached in `state/cache/`, so an interrupted run can resume without s
 pip install -r requirements.txt
 ```
 
-Create `.env` in the repo root (it is git-ignored):
+Create `.env` in the repo root (it is git-ignored). **One key is enough to start**; add more and each one becomes a fallback:
 
 ```
-GEMINI_API_KEY=your-gemini-key
-GROQ_API_KEY=your-groq-key
-# optional, both prepaid; the site runs without them
-ANTHROPIC_API_KEY=your-claude-key        # Claude checks the facts first, the free models are the fallback
-OPENROUTER_API_KEY=your-openrouter-key   # the headline honesty check below
+ANTHROPIC_API_KEY=your-claude-key      # best results; also needed for the missed-story search and the X post picks
+OPENAI_API_KEY=your-openai-key         # works too: set OPENAI_MODEL to the model you want
+OPENAI_MODEL=your-openai-model
+GEMINI_API_KEY=your-gemini-key         # free tier
+GROQ_API_KEY=your-groq-key             # free tier
+OPENROUTER_API_KEY=your-openrouter-key # optional: the headline honesty check below
 ```
 
-Writing stays on the free Gemini and Groq tiers. The fact-checker uses Claude (Sonnet, then Haiku), because the
-checker is where a stronger reader matters most, and it is a different model family from the writer. The editor uses
-Claude Sonnet only when both Gemini Flash models are busy, which kept happening in October 2026.
-If the key is missing or the credits run out, both fall back to the free models on their own.
-The nightly log shows how many Claude tokens each run used.
+Which model does what:
+
+- **Twice-daily run** (`tools/twice_daily.py`): Claude Sonnet picks and writes the stories, Claude Haiku writes the
+  Context Window notes, and the free Gemini and Groq models are the fallbacks.
+- **Plain run** (`python run_daily.py`): writing starts on the free Gemini and Groq tiers; the fact-checker uses Claude first.
+- Any step can be changed in `.env`, for example `LLM_CHAIN_WRITER=openai:your-model,gemini:gemini-3.5-flash-lite`.
+- If a key is missing or its credits run out, the run moves on to the next model in the chain by itself.
+  Each run's log shows how many paid tokens it used.
 
 ## Every night
 
@@ -136,6 +140,26 @@ Put the maker's own post first. It goes through the same writer and fact-checker
 **Add a link the feeds missed** (for example an X post): put it in `state/inbox.txt`, one per line, as `URL | short note`.
 
 **Approve new glossary terms** proposed by the writer: `python tools/review_terms.py`, then `python seed/build_seed.py`.
+
+## Twice a day, automatically (Windows)
+
+`tools/twice_daily.py` does a whole update for everything published since its last run:
+
+1. builds the edition of each day in the window, or extends it if it already exists (old stories keep their places, repeats are dropped)
+2. asks Claude with web search for important stories the feeds missed and adds them through the writer and fact-checker
+3. finds X posts through public newsletters and Techmeme, checks each through X's official oEmbed endpoint, and adds posts by people on the roster to the Context Window (others are listed for you to decide)
+4. scans the changes against a private blocklist kept outside the repo (`BLOCKLIST_FILE` in `.env`)
+5. writes the git commands to `state/tmp/publish/PUBLISH.md`, shows a Windows notification and opens the report
+
+It never commits or pushes. Claude (`ANTHROPIC_API_KEY`) goes first for picking, writing and notes; Gemini and Groq stay as fallbacks.
+
+Register it once (PowerShell, from the repo folder):
+
+```
+powershell -ExecutionPolicy Bypass -File tools\schedule_twice_daily.ps1
+```
+
+It runs at **06:30 and 18:30 IST**. 06:30 IST is 8 PM ET / 5 PM PT the evening before, so the whole US working day is in when India wakes up. 18:30 IST is 8 AM ET / 5 AM PT, so Asia and Europe's day is in when the US wakes up. `python tools/twice_daily.py --plan` prints the window and the days it would touch, without changing anything.
 
 ## Research helpers (missed stories and X posts)
 
@@ -192,6 +216,20 @@ python -m http.server -d docs 8000
 ```
 
 Open http://localhost:8000. On GitHub: Settings, Pages, deploy from branch `main`, folder `/docs`.
+
+## Run your own or contribute
+
+The code is MIT-licensed, so anyone can fork it, change it and run their own digest, including for work.
+
+1. Fork the repo and clone your fork.
+2. `pip install -r requirements.txt`, then create `.env` with at least one key (see Setup).
+3. Edit the sources in `pipeline/sources.json` and the people in `seed/heads.py` to fit your topic.
+4. Run `python run_daily.py` once, then `tools/twice_daily.py` (or `tools\schedule_twice_daily.ps1` on Windows) to keep it going.
+5. Turn on GitHub Pages for the `docs/` folder of your fork.
+
+Ideas and fixes are welcome as issues or pull requests: new sources, other model providers, better fact-checking,
+new pages. See [CONTRIBUTING.md](CONTRIBUTING.md). The data and written content stay under CC BY-NC 4.0 (below),
+so a fork should build its own editions rather than republish these ones commercially.
 
 ## Data and licence
 

@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>User reports ChatGPT silently switched connectors mid-flow; bounty program asks for ID | Attention Span</title>
+<meta name="description" content="A forum user reports ChatGPT sent a follow-up tool call through a different connector without telling them, and says the bug bounty required an ID card.">
+<link rel="canonical" href="https://shashikantdev3.github.io/attention-span/s/2026-11-07-user-reports-chatgpt-silently-switched-connectors-mid-flow-b.html">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Attention Span">
+<meta property="og:title" content="User reports ChatGPT silently switched connectors mid-flow; bounty program asks for ID">
+<meta property="og:description" content="A forum user reports ChatGPT sent a follow-up tool call through a different connector without telling them, and says the bug bounty required an ID card.">
+<meta property="og:url" content="https://shashikantdev3.github.io/attention-span/s/2026-11-07-user-reports-chatgpt-silently-switched-connectors-mid-flow-b.html">
+<meta property="og:image" content="https://shashikantdev3.github.io/attention-span/assets/og.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#EDF0EA">
+<link rel="alternate" type="application/rss+xml" title="Attention Span" href="../feed.xml">
+<script>try{var t=localStorage.getItem("as-theme");if(!t)t=matchMedia("(prefers-color-scheme: dark)").matches?"night":"day";if(t==="night")document.documentElement.setAttribute("data-theme","night")}catch(e){}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;0,6..72,700;1,6..72,400&family=Bodoni+Moda:opsz,wght@6..96,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/style.css">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "NewsArticle", "headline": "User reports ChatGPT silently switched connectors mid-flow; bounty program asks for ID", "description": "A forum user reports ChatGPT sent a follow-up tool call through a different connector without telling them, and says the bug bounty required an ID card.", "datePublished": "2026-11-06T22:50:43Z", "dateModified": "2026-11-07", "author": {"@type": "Organization", "name": "Attention Span", "url": "https://shashikantdev3.github.io/attention-span/"}, "publisher": {"@type": "Organization", "name": "Attention Span", "url": "https://shashikantdev3.github.io/attention-span/"}, "mainEntityOfPage": "https://shashikantdev3.github.io/attention-span/s/2026-11-07-user-reports-chatgpt-silently-switched-connectors-mid-flow-b.html", "image": "https://shashikantdev3.github.io/attention-span/assets/og.png", "isBasedOn": ["https://community.openai.com/t/security-follow-up-tool-call-silently-routed-to-a-different-connector/1413053"]}</script>
+</head>
+<body class="static">
+<header class="masthead static-head"><div class="wrap">
+  <a class="brand" href="../index.html"><span class="static-name">Attention Span</span></a>
+  <span class="tagline">Today&#x27;s AI news, traced back to its roots.</span>
+</div></header>
+<main id="main"><div class="wrap static-body">
+<article class="static-story">
+<p class="static-kicker"><a href="../e/2026-11-07.html">Saturday, 7 November 2026</a>, Agents,
+1 source</p>
+<h1>User reports ChatGPT silently switched connectors mid-flow; bounty program asks for ID</h1>
+<p class="one-liner">A forum user reports ChatGPT sent a follow-up tool call through a different connector without telling them, and says the bug bounty required an ID card.</p>
+<p>A user on the OpenAI community forum reports that ChatGPT, with two connectors enabled for the same MCP server, made a follow-up tool call through a different connector than the one that started the flow. Connector A showed a widget and produced a one-time confirmation code. The model then sent that code through connector B. The server rejected the call because the code was bound to connector A&#x27;s OAuth client. The user was not told about the switch. The poster says the expected behavior is matching calls by OAuth client, not server URL. They also say the bounty program required biometric ID and an ID card, so they did not submit.</p>
+<div class="eli5"><h4>Like I am 5</h4><p>Imagine you give a note to one friend, but a different friend quietly delivers it without telling you. The note was only meant for the first friend, so the door stays shut.</p></div>
+<div class="why"><h4>Why it matters</h4><p>If a client swaps connectors mid-flow, servers must bind confirmation codes and grants to the OAuth client, because a shared MCP URL does not prove the same app is calling.</p></div>
+<div class="sources"><h4>Sources, original first</h4><ol><li><a href="https://community.openai.com/t/security-follow-up-tool-call-silently-routed-to-a-different-connector/1413053" rel="noopener">community.openai.com: ChatGPT silently passes data between connectors and the bounty wants an ID card</a> <span class="kind">original</span></li><li><a href="https://news.ycombinator.com/item?id=50399569" rel="noopener">Hacker News: Discussion on Hacker News</a> <span class="kind">discussion</span></li></ol></div>
+<div class="tags"><span class="chip">OpenAI</span><a class="chip concept" href="../c/mcp.html">Model Context Protocol (MCP)</a><a class="chip concept" href="../c/tool-use.html">Tool use (function calling)</a><a class="chip concept" href="../c/ai-safety.html">AI safety</a></div>
+<p class="asof">Written from the sources above and checked by a second AI model; every number was matched against the sources.</p>
+</article>
+<p class="static-app"><a href="../index.html#/today/2026-11-07/2026-11-07-user-reports-chatgpt-silently-switched-connectors-mid-flow-b">Open this in Attention Span</a>, where every story links to its history,
+concepts and the people behind it.</p>
+</div></main>
+<footer class="site"><div class="wrap">
+  <span>Attention Span is built by <a href="https://github.com/shashikantdev3">Shashikant</a>. Every entry links its source.</span>
+  <span>Data under <a href="https://creativecommons.org/licenses/by-nc/4.0/" rel="license">CC BY-NC 4.0</a>. Code under MIT.</span>
+</div></footer>
+</body>
+</html>

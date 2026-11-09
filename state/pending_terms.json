@@ -1076,5 +1076,124 @@
   "first_seen": "2026-11-05",
   "story": "2026-11-05-microsoft-fabric-adds-iceberg-rest-catalog-writes-to-onelake",
   "source": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/OneLake-table-APIs-Now-with-Iceberg-writes-plus-richer-table/ba-p/5391262"
+ },
+ {
+  "term": "coding harness",
+  "definition": "The tool that wraps an LLM so it can work on code, such as Claude Code or Pi.",
+  "first_seen": "2026-11-08",
+  "story": "2026-11-08-developer-says-he-is-dropping-claude-code-for-open-source-ha",
+  "source": "https://caleb.software/posts/claude-to-pi.html"
+ },
+ {
+  "term": "semantic conventions",
+  "definition": "Shared names for data fields, such as service.name and http.*, that let different tools read each other's data.",
+  "first_seen": "2026-11-08",
+  "story": "2026-11-08-opinion-agent-memory-formats-need-a-shared-standard-like-ope",
+  "source": "https://www.lorekit.io/blog/open-agent-memory-format"
+ },
+ {
+  "term": "continuous learning",
+  "definition": "Learning that continues after training without destroying old knowledge.",
+  "first_seen": "2026-11-08",
+  "story": "2026-11-08-richard-sutton-says-compute-alone-is-not-enough-for-intellig",
+  "source": "https://the-decoder.com/the-inventor-of-the-bitter-lesson-has-a-bitter-lesson-for-llm-scaling-enthusiasts/"
+ },
+ {
+  "term": "deepfake",
+  "definition": "A fake video or audio clip built with an AI copy of a real person's face and voice.",
+  "first_seen": "2026-11-06",
+  "story": "2026-11-06-cuban-says-meta-knowingly-runs-ai-deepfake-scam-ads-reuters",
+  "source": "https://finance.yahoo.com/technology/ai/articles/mark-cuban-says-facebook-knowingly-213000020.html"
+ },
+ {
+  "term": "rubric-based grading",
+  "definition": "Answers get credit against individual expert-written criteria, so a correct conclusion can be told apart from a partially correct analysis.",
+  "first_seen": "2026-11-06",
+  "story": "2026-11-06-openai-and-ligo-release-biobasicsbench-for-ai-agents-on-wet",
+  "source": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science"
+ },
+ {
+  "term": "compute multipliers",
+  "definition": "Improvements to algorithms and architectures that raise effective compute; overall capability is the product of these multipliers and training compute.",
+  "first_seen": "2026-11-07",
+  "story": "2026-11-07-cotra-metr-report-suggests-anthropic-s-ai-driven-research-sp",
+  "source": "https://www.planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai"
+ },
+ {
+  "term": "OAuth client binding",
+  "definition": "Tying a one-time confirmation code to the specific OAuth client that produced it, so the server rejects it if another client tries to redeem it.",
+  "first_seen": "2026-11-07",
+  "story": "2026-11-07-user-reports-chatgpt-silently-switched-connectors-mid-flow-b",
+  "source": "https://community.openai.com/t/security-follow-up-tool-call-silently-routed-to-a-different-connector/1413053"
+ },
+ {
+  "term": "dreaming",
+  "definition": "A process where an agent reflects on its logs between interactions to fix mistakes or produce new notes and representations.",
+  "first_seen": "2026-11-07",
+  "story": "2026-11-07-anthropic-describes-agent-memory-design-including-dreaming-a",
+  "source": "https://www.anthropic.com/research/components-of-agent-memory"
+ },
+ {
+  "term": "sleep-time compute",
+  "definition": "A way for models to use idle time between interactions to reorganize their existing context.",
+  "first_seen": "2026-11-07",
+  "story": "2026-11-07-anthropic-describes-agent-memory-design-including-dreaming-a",
+  "source": "https://www.anthropic.com/research/components-of-agent-memory"
+ },
+ {
+  "term": "reward hacking",
+  "definition": "An agent passes a task through tricks instead of a genuine solution.",
+  "first_seen": "2026-11-07",
+  "story": "2026-11-07-study-ai-auditors-catch-most-agent-misbehavior-but-raise-man",
+  "source": "https://the-decoder.com/ai-auditors-catch-most-agent-misbehavior-but-flood-reviewers-with-false-alarms-new-study-finds/"
+ },
+ {
+  "term": "sandbagging",
+  "definition": "A model deliberately makes its abilities appear weaker, for example by solving tasks poorly on purpose to dodge an evaluation or restriction.",
+  "first_seen": "2026-11-07",
+  "story": "2026-11-07-study-ai-auditors-catch-most-agent-misbehavior-but-raise-man",
+  "source": "https://the-decoder.com/ai-auditors-catch-most-agent-misbehavior-but-flood-reviewers-with-false-alarms-new-study-finds/"
+ },
+ {
+  "term": "distributed inference serving",
+  "definition": "Running a model across multiple GPUs or nodes, with careful coordination of request routing and communication to keep performance high.",
+  "first_seen": "2026-11-09",
+  "story": "2026-11-09-nvidia-releases-dynamo-deployment-recipes-for-four-korean-op",
+  "source": "https://blogs.nvidia.com/blog/nvidia-dynamo-korea-open-models/"
+ },
+ {
+  "term": "AI homogenization",
+  "definition": "Combining AI-predicted effective material properties with coarser grids and GPU acceleration to speed up chip-scale thermal and mechanical simulation.",
+  "first_seen": "2026-11-09",
+  "story": "2026-11-09-nvidia-details-korea-physical-ai-work-with-samsung-kakao-mob",
+  "source": "https://blogs.nvidia.com/blog/korea-physical-ai-ecosystem/"
+ },
+ {
+  "term": "physical AI data flywheel",
+  "definition": "A loop that connects real-world data collection, data augmentation, model training, onboard computing and simulation-based evaluation to keep improving a robot.",
+  "first_seen": "2026-11-09",
+  "story": "2026-11-09-nvidia-details-korea-physical-ai-work-with-samsung-kakao-mob",
+  "source": "https://blogs.nvidia.com/blog/korea-physical-ai-ecosystem/"
+ },
+ {
+  "term": "AI voice impersonation",
+  "definition": "Using generative A.I. to mimic the voices of real people, such as chief executives and lawyers, to defraud companies.",
+  "first_seen": "2026-11-09",
+  "story": "2026-11-09-us-prosecutors-say-ai-voice-scam-calls-cost-businesses-129m",
+  "source": "https://www.techmeme.com/261109/p9#a261109p9"
+ },
+ {
+  "term": "AI age estimation",
+  "definition": "Technology that uses AI to estimate a user's age, here used to find teens who misrepresented their age.",
+  "first_seen": "2026-11-09",
+  "story": "2026-11-09-meta-expands-instagram-ai-age-estimation-worldwide-to-find-t",
+  "source": "https://www.techmeme.com/261109/p19#a261109p19"
+ },
+ {
+  "term": "AI interconnect",
+  "definition": "Technology that moves data between chips and racks in AI factories, such as radio frequency-based links offered as an alternative to copper and optical interconnects.",
+  "first_seen": "2026-11-09",
+  "story": "2026-11-09-nvidia-announces-investment-in-point2-and-plans-more-in-thre",
+  "source": "https://blogs.nvidia.com/blog/korean-startup-investments-msit/"
  }
 ]

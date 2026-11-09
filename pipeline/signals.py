@@ -32,6 +32,19 @@ def _hn(items, key):
     return max((i.get(key) or 0) for i in items if i.get("source") == "hn") if any(i.get("source") == "hn" for i in items) else 0
 
 
+# "agents", "tokens" or "model" alone are not enough (a 9 Nov run spotlighted a story about former secret-police agents)
+AI_TITLE = re.compile(r"\b(A\.?I|LLMs?|AGI|GPT[-\w.]*)\b")
+AI_TITLE_I = re.compile(r"\b(openai|anthropic|claude|gemini|deepmind|chatgpt|copilot|codex|llama|mistral|qwen|deepseek|kimi|"
+                        r"nvidia|hugging ?face|machine learning|neural|open[- ]weights?|agentic|ai agents?|coding agents?|"
+                        r"chatbots?|inference|gpus?|tpus?|transformers?|diffusion|cursor|grok|xai|perplexity|robot\w*|"
+                        r"datacenters?|data cent(?:er|re)s?|fine-?tun\w*|language models?|vibe coding|mcp)\b", re.I)
+
+
+def about_ai(story):
+    titles = " ".join(i["title"] for i in story["items"])
+    return bool(AI_TITLE.search(titles) or AI_TITLE_I.search(titles))
+
+
 def measure(story):
     items = story["items"]
     pts, com = _hn(items, "points"), _hn(items, "comments")
@@ -44,6 +57,7 @@ def measure(story):
     s = min(45, 18 * math.log10(pts + 1)) + min(20, 10 * math.log10(com + 1)) + min(24, 8 * (sig["sources"] - 1))
     s += 8 * sig["heated"] + 10 * sig["official"] + 6 * sig["leader"] + 10 * sig["shift"]
     sig["score"] = round(min(100, s))
+    sig["ai"] = about_ai(story)
     return sig
 
 
@@ -93,7 +107,7 @@ def signal_includes(stories, picked, limit=3):
     def substance(sig):  # engagement alone is not enough: popular personal blog posts score high too
         return sig["official"] or sig["leader"] or sig["shift"] or sig["sources"] >= 2
     out = [s for s in stories if s["cid"] not in picked and s.get("signals", {}).get("score", 0) >= INCLUDE_AT
-           and not s["signals"].get("promo") and substance(s["signals"])]
+           and not s["signals"].get("promo") and substance(s["signals"]) and s["signals"].get("ai", True)]
     return sorted(out, key=lambda s: -s["signals"]["score"])[:limit]
 
 
@@ -113,5 +127,5 @@ def spotlight_reason(sig):
 def auto_spotlight(sig):
     """Rare by design: a high score alone is not enough; it must be about a shift in how AI is built or used,
     or a heated debate around something a company leader said or did."""
-    return (sig.get("score", 0) >= SPOTLIGHT_AT and not sig.get("promo")
+    return (sig.get("score", 0) >= SPOTLIGHT_AT and not sig.get("promo") and sig.get("ai", True)
             and (sig["shift"] or (sig["heated"] and sig["leader"])))

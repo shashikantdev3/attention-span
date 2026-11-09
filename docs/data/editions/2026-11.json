@@ -2869,6 +2869,2486 @@
     ],
     "seconds": 129
    }
+  },
+  "2026-11-06": {
+   "date": "2026-11-06",
+   "generated_at": "2026-11-09T07:47:33Z",
+   "stories": [
+    {
+     "title": "Bug report says Claude Code sent a user's email in its User-Agent header; Anthropic points to a privacy mod that blocks it",
+     "one_liner": "A GitHub bug report says Claude Code sent a user's email in the User-Agent header during web searches, and Anthropic says a built-in mod now blocks it.",
+     "summary": "A user filed issue #107757 on the anthropics/claude-code GitHub repo. They say Claude Code gave their email address to third parties in the User-Agent request header during web searches, and that they now get dozens of scam emails per day. The reporter listed version 2.1.318 on darwin. An Anthropic commenter replied that a built-in mod called cc-plugin-privacy blocks this behavior in v2.1.317 and later. It is on by default and can be turned off via /plugins. The commenter said they would try to make the mod source available. Another user said the issue has the fourth most reactions of over 16,000 open issues.",
+     "eli5": "Imagine you write your home address on every note you hand to strangers without noticing. Someone then uses it to send you lots of junk mail. The fix is a rule that stops the address from going on the notes.",
+     "why_it_matters": "Coding agents that browse the web can pass account details to outside sites through request headers, so teams should check what their tools send and review privacy settings.",
+     "topic": "dev-tools",
+     "type": "event",
+     "labs": [
+      "anthropic"
+     ],
+     "people": [],
+     "concepts": [
+      "coding-assistant",
+      "tool-use",
+      "agent"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "Claude Code sends your email address to websites",
+       "url": "https://github.com/anthropics/claude-code/issues/107757",
+       "name": "github.com",
+       "kind": "original"
+      },
+      {
+       "title": "Discussion on Hacker News",
+       "url": "https://news.ycombinator.com/item?id=50385272",
+       "name": "Hacker News",
+       "kind": "discussion"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-05T22:17:15Z",
+     "checked": {
+      "model": "anthropic:claude-sonnet-5-5",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "A post saying Claude Code sends your email address to websites drew over 1,600 HN points, so developers using it should check what it shares.",
+     "rank": 1,
+     "id": "2026-11-06-bug-report-claims-claude-code-leaks-user-email-in-user-agent",
+     "date": "2026-11-06"
+    },
+    {
+     "title": "Anthropic studies 207,000 Claude sessions to see how scientists use AI",
+     "one_liner": "Anthropic analyzed 207,000 Claude and Claude Code research sessions and found scientists mostly use AI for data analysis and writing, not idea generation.",
+     "summary": "Anthropic studied 207,000 Claude and Claude Code research sessions using privacy-preserving methods. Claude is used more in formal sciences such as computer science, mathematics and statistics, and less in health and lab-based physical sciences. Data analysis is about one-third of sessions on Claude and nearly half on Claude Code. Scientists use it less for idea generation and data gathering, though they rank those tasks as most important in a survey. Using a simple model, Anthropic says current AI could double research output in some fields. About 40% of surveyed AI-using researchers expect AI to run full research projects on its own by 2030.",
+     "eli5": "Imagine a class where kids use a helper most for the jobs it does well, like checking math and writing neatly. They use it less for jobs like coming up with new ideas, even though those jobs matter most.",
+     "why_it_matters": "Usage data shows AI help clusters in data analysis and writing, so tools built for idea generation and data gathering target the gap scientists say matters most.",
+     "topic": "research",
+     "type": "paper",
+     "labs": [
+      "anthropic"
+     ],
+     "people": [],
+     "concepts": [
+      "coding-assistant",
+      "reinforcement-learning",
+      "agent"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "AI for scientific discovery: How researchers use Claude",
+       "url": "https://www.anthropic.com/research/how-researchers-use-claude",
+       "name": "anthropic.com",
+       "kind": "original"
+      },
+      {
+       "title": "Discussion on Hacker News",
+       "url": "https://news.ycombinator.com/item?id=50389990",
+       "name": "Hacker News",
+       "kind": "discussion"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-06T09:13:30Z",
+     "checked": {
+      "model": "anthropic:claude-sonnet-5-5",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "Included automatically: widely discussed (signal 62 (HN 103 pts, 39 comments; lab's own post)).",
+     "rank": 2,
+     "id": "2026-11-06-anthropic-studies-207-000-claude-sessions-to-see-how-scienti",
+     "date": "2026-11-06"
+    },
+    {
+     "title": "Perplexity launches teammates, AI agents for ongoing work inside Computer",
+     "one_liner": "Perplexity launched teammates, personal agents inside Computer that own long-running work, monitor projects, follow up, and bring results back for review.",
+     "summary": "Perplexity launched teammates, personal agents built to take on long-running work inside Computer. They plan projects, check results along the way, and bring completed work back for review. They remember project goals, task history, and shared files across runs. Teammates can be added to a Slack channel and can pass work to each other. Each runs in a separate environment with its own browser sessions, and saved credentials are encrypted. Teammates launch on the web and soon on iOS for Perplexity Max subscribers. Perplexity says it will expand access and features in the coming weeks.",
+     "eli5": "Imagine a helper who keeps working on a big job for you, remembers what you told them, and shows you the finished work to check. You can step in and guide them any time.",
+     "why_it_matters": "Agents that keep memory across runs, work in isolated environments, and hand tasks to one another point to a model where AI owns ongoing workflows instead of answering one-off prompts.",
+     "topic": "agents",
+     "type": "product",
+     "labs": [
+      "other"
+     ],
+     "people": [],
+     "concepts": [
+      "personal-agent",
+      "agent-memory",
+      "agent"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "Perplexity launches AI agents for work",
+       "url": "https://www.perplexity.ai/en-GB/hub/blog/teammates-are-agents-for-complex-ongoing-work",
+       "name": "perplexity.ai",
+       "kind": "press"
+      },
+      {
+       "title": "Discussion on Hacker News",
+       "url": "https://news.ycombinator.com/item?id=50395866",
+       "name": "Hacker News",
+       "kind": "discussion"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-06T17:59:41Z",
+     "checked": {
+      "model": "anthropic:claude-sonnet-5-5",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "Perplexity has launched AI agents aimed at work tasks, a new entry in the agent product race.",
+     "rank": 3,
+     "id": "2026-11-06-perplexity-launches-teammates-ai-agents-for-ongoing-work-ins",
+     "date": "2026-11-06"
+    },
+    {
+     "title": "NVIDIA introduces Cosmos 3 open models for interactive world simulation",
+     "one_liner": "NVIDIA has new Cosmos 3 open models for interactive world simulation, announced on the Hugging Face Blog.",
+     "summary": "NVIDIA has new Cosmos 3 open models. They are described as models for interactive world simulation. The news appeared on the Hugging Face Blog. The source text is only a headline. It does not give model sizes, benchmarks, licence terms, release dates or how the models work. Readers who want to try the models should check the original post on Hugging Face for those details before planning any work around them.",
+     "eli5": "Imagine a pretend sandbox world that a computer can play in and change as it goes. These new models are meant to help with that kind of play.",
+     "why_it_matters": "Open models for interactive world simulation give teams another option to build on, though the details must be checked in the original post.",
+     "topic": "models",
+     "type": "model",
+     "labs": [
+      "nvidia"
+     ],
+     "people": [],
+     "concepts": [
+      "world-model",
+      "open-weight-model"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "New NVIDIA Cosmos 3 Open Models for Interactive World Simulation",
+       "url": "https://huggingface.co/blog/nvidia/cosmos-interactive-world-simulation",
+       "name": "Hugging Face Blog",
+       "kind": "original"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-05T19:35:16Z",
+     "checked": {
+      "model": "anthropic:claude-sonnet-5-5",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "NVIDIA released new Cosmos 3 open models for interactive world simulation, relevant to robotics and simulation builders.",
+     "rank": 4,
+     "id": "2026-11-06-nvidia-introduces-cosmos-3-open-models-for-interactive-world",
+     "date": "2026-11-06"
+    },
+    {
+     "title": "NVIDIA says Vera CPU beats top x86 chips on agent speed and efficiency",
+     "one_liner": "NVIDIA says its Vera CPU gives 1.6x more agents per watt than the fastest x86 CPU and 2x faster agent speed than the most efficient one.",
+     "summary": "NVIDIA published results for its Vera CPU, aimed at AI agent workloads in power-limited AI factories. In a 100-megawatt data center comparison, NVIDIA says Vera delivers 1.6x more agents per watt than the fastest x86 CPU. It also says Vera gives 2x faster agent speed than the most energy-efficient x86 CPU. Partners reported tests too. Perplexity ran agentic coding tasks 1.5x faster. DeepInfra saw up to 2.2x the speed of the best x86 processor. Daytona brought 1,000 agent sandboxes online in 10.8 seconds versus 88.4 seconds with x86. Modal reported up to 2x sandbox throughput per core.",
+     "eli5": "Imagine a kitchen where many helpers each need a stove to cook. Vera is a stove that heats up fast and also lets many helpers cook at once without using much power.",
+     "why_it_matters": "Teams running many agents may be able to use one CPU type for both speed and capacity, which matters when power is the limit.",
+     "topic": "products",
+     "type": "product",
+     "labs": [
+      "nvidia"
+     ],
+     "people": [],
+     "concepts": [
+      "agent",
+      "agent-sandbox",
+      "gpu"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "Vera Delivers the Best of Both Worlds: Highest Throughput and Fastest Agents",
+       "url": "https://blogs.nvidia.com/blog/vera-cpu-highest-throughput-fastest-agents/",
+       "name": "NVIDIA Blog",
+       "kind": "original"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-05T20:00:41Z",
+     "checked": {
+      "model": "anthropic:claude-sonnet-5-5",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "NVIDIA says its Vera CPU targets both high throughput and fast agents, since agent steps such as search, database queries and code tests run on CPUs.",
+     "rank": 5,
+     "id": "2026-11-06-nvidia-says-vera-cpu-beats-top-x86-chips-on-agent-speed-and",
+     "date": "2026-11-06"
+    },
+    {
+     "title": "Cuban says Meta knowingly runs AI deepfake scam ads; Reuters cites $16B documents",
+     "one_liner": "Mark Cuban claims Facebook knowingly runs deepfake scam ads using his likeness, while Reuters-reported Meta documents estimated about $16 billion in revenue from scam and banned-product ads.",
+     "summary": "Mark Cuban said on the Pivot podcast that Facebook runs AI deepfake ads using his face and voice to sell a $294 diabetes cure he never sold. Reuters reported on Nov. 6, 2025 that internal Meta documents expected about $16 billion, or about 10% of 2024 revenue, from scam and prohibited product ads. Meta spokesman Andy Stone said the documents give a selective view and called the 10% estimate rough and overly-inclusive. He said user complaints about scam ads fell 58% over 18 months and Meta removed more than 134 million scam ads in 2025.",
+     "eli5": "Imagine a school lets strangers hand out fake coupons in the hallway because it earns money from each one. Someone says the school knows, and the school says that is not the full story.",
+     "why_it_matters": "Ad platforms face growing scrutiny over AI-made fake faces and voices, so teams building or deploying generative media should expect pressure to add stronger misuse checks and clearer limits on likeness.",
+     "topic": "policy",
+     "type": "event",
+     "labs": [
+      "meta",
+      "government"
+     ],
+     "people": [],
+     "concepts": [
+      "ai-governance",
+      "ai-safety"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [
+      {
+       "term": "deepfake",
+       "definition": "A fake video or audio clip built with an AI copy of a real person's face and voice."
+      }
+     ],
+     "sources": [
+      {
+       "title": "Cuban: Facebook knowingly runs AI deepfake scam ads; docs say $16B fraud revenue",
+       "url": "https://finance.yahoo.com/technology/ai/articles/mark-cuban-says-facebook-knowingly-213000020.html",
+       "name": "finance.yahoo.com",
+       "kind": "press"
+      },
+      {
+       "title": "Discussion on Hacker News",
+       "url": "https://news.ycombinator.com/item?id=50385870",
+       "name": "Hacker News",
+       "kind": "discussion"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-05T23:09:57Z",
+     "checked": {
+      "model": "anthropic:claude-sonnet-5-5",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "Mark Cuban alleges Facebook knowingly ran AI deepfake scam ads, citing documents that point to $16B in fraud revenue, which raises legal and platform-safety questions.",
+     "rank": 6,
+     "id": "2026-11-06-cuban-says-meta-knowingly-runs-ai-deepfake-scam-ads-reuters",
+     "date": "2026-11-06"
+    },
+    {
+     "title": "Microsoft reportedly winding down deal to rent AI cloud capacity from Oracle",
+     "one_liner": "Microsoft is winding down its deal to rent AI cloud capacity from Oracle, according to a Hacker News post.",
+     "summary": "A Hacker News headline says Microsoft is winding down a deal with Oracle to rent AI cloud capacity. The source text gives only that headline. It does not say when the deal started, how large it was, or why Microsoft is ending it. It does not give a timeline for the wind down. It also does not say what happens to the capacity or how either company responded. Any other details about the deal are not stated in the source.",
+     "eli5": "Imagine one kid has been borrowing a big toy box from a neighbor. Now the kid is slowly giving it back and stopping the borrowing.",
+     "why_it_matters": "Changes in who rents AI cloud capacity from whom can affect where AI computing power is available, though the source gives no details on any effect.",
+     "topic": "industry",
+     "type": "event",
+     "labs": [
+      "microsoft",
+      "other"
+     ],
+     "people": [],
+     "concepts": [
+      "hyperscaler"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "Microsoft is winding down Oracle deal to rent AI cloud capacity",
+       "url": "https://www.reuters.com/business/microsoft-is-winding-down-oracle-deal-rent-ai-cloud-capacity-bloomberg-news-2026-11-06/",
+       "name": "reuters.com",
+       "kind": "press"
+      },
+      {
+       "title": "Discussion on Hacker News",
+       "url": "https://news.ycombinator.com/item?id=50395933",
+       "name": "Hacker News",
+       "kind": "discussion"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-06T18:04:06Z",
+     "checked": {
+      "model": "anthropic:claude-sonnet-5-5",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "Microsoft is reportedly winding down its deal to rent AI cloud capacity from Oracle, a signal on how compute supply is shifting.",
+     "rank": 7,
+     "id": "2026-11-06-microsoft-reportedly-winding-down-deal-to-rent-ai-cloud-capa",
+     "date": "2026-11-06"
+    },
+    {
+     "title": "Village study: open models now best value at only 3% of budgets",
+     "one_liner": "Village's LLM Atlas finds open-weight models are the best buy at 3% of budgets, down from 41% in June, as closed models took over.",
+     "summary": "Village's LLM Atlas maps the strongest AI model at every price point. An open-weight model is now the best buy at 3% of budgets, mostly at the cheap end, held by Gemma 4 E4B and MiMo-V2.6-Flash. In June the share was 41%. Two OpenAI releases, GPT-6 Luna in September and GPT-6.1 Terra in October, took most of it back, alongside Claude Haiku 5.5. Village says this is the lowest share it has measured. Open models have won in bursts before, then lost share when closed labs shipped cheaper tiers.",
+     "eli5": "Imagine a lemonade stand contest where one kid had the best deal at lots of prices in June. Then other kids made cheaper, better lemonade, and now that first kid wins only at the very cheapest prices.",
+     "why_it_matters": "When picking a model for a budget, closed models now give the best value at almost every price, so open-weight models need a closer look on cost, including self-hosting.",
+     "topic": "industry",
+     "type": "event",
+     "labs": [
+      "openai",
+      "anthropic",
+      "google",
+      "deepseek",
+      "other"
+     ],
+     "people": [],
+     "concepts": [
+      "open-weight-model",
+      "distillation",
+      "benchmark"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "Closed AI models dominate the price-performance frontier",
+       "url": "https://village.dev/blog/closed-ai-models-now-dominate-the-price-performance-frontier/",
+       "name": "village.dev",
+       "kind": "press"
+      },
+      {
+       "title": "Discussion on Hacker News",
+       "url": "https://news.ycombinator.com/item?id=50387546",
+       "name": "Hacker News",
+       "kind": "discussion"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-06T02:49:56Z",
+     "checked": {
+      "model": "anthropic:claude-sonnet-5-5",
+      "rounds": 2,
+      "hype_flags": []
+     },
+     "editor_reason": "An analysis finds closed AI models dominate the price-performance frontier, which matters when choosing models for production.",
+     "rank": 8,
+     "id": "2026-11-06-village-study-open-models-now-best-value-at-only-3-of-budget",
+     "date": "2026-11-06"
+    },
+    {
+     "title": "Report: AI bots are swarming university libraries, putting public access at risk",
+     "one_liner": "A Hacker News item says AI bots are swarming university libraries and that this puts public access at risk.",
+     "summary": "A headline shared on Hacker News says university libraries are being swarmed by AI bots. The headline also says this puts public access at risk. The source text gives only the headline. It does not say which libraries are affected, how many bots are involved, what the bots are doing, or how public access is threatened. It also names no companies, people, numbers or dates. Any further detail would need to come from the full article, which was not provided.",
+     "eli5": "Imagine a school library where lots of robots keep showing up to use the books. People worry that this could make it harder for everyone else to use the library.",
+     "why_it_matters": "Anyone who runs AI crawlers or scrapers may face more scrutiny over how their bots treat public library resources.",
+     "topic": "policy",
+     "type": "event",
+     "labs": [
+      "academia"
+     ],
+     "people": [],
+     "concepts": [],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "University libraries are being swarmed by AI bots, putting public access at risk",
+       "url": "https://www.cbc.ca/news/world/university-libraries-ai-data-scraping-bots-9.7408287",
+       "name": "cbc.ca",
+       "kind": "press"
+      },
+      {
+       "title": "Discussion on Hacker News",
+       "url": "https://news.ycombinator.com/item?id=50392499",
+       "name": "Hacker News",
+       "kind": "discussion"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-06T14:13:09Z",
+     "checked": {
+      "model": "anthropic:claude-sonnet-5-5",
+      "rounds": 2,
+      "hype_flags": []
+     },
+     "editor_reason": "AI bots are swarming university libraries and putting public access at risk, showing a real cost of large-scale crawling.",
+     "rank": 9,
+     "id": "2026-11-06-report-ai-bots-are-swarming-university-libraries-putting-pub",
+     "date": "2026-11-06"
+    },
+    {
+     "title": "OpenAI and Ligo release BioBasicsBench for AI agents on wet-lab tasks",
+     "one_liner": "OpenAI and Ligo built BioBasicsBench, a 100-task benchmark testing whether AI agents can interpret raw experimental data from routine wet-lab work.",
+     "summary": "OpenAI introduced BioBasicsBench, developed with biotech company Ligo. It has 100 tasks across five areas: protein methods, imaging and cytometry, quantification and assays, nucleic acid methods, and molecular cloning. Tasks use raw data such as gel images, colony plates, microscopy and instrument readouts. Scientists wrote them from their own experiments, with expert-written grading rubrics and several review rounds. At the 'xhigh' setting, GPT‑6 Astra earned an average of 66.7% of the available credit, compared with 43.8% for GPT‑5.6 Sol. OpenAI says room remains in interpreting images, checking controls and applying experimental context.",
+     "eli5": "Imagine testing a robot helper on the messy, real jobs in a science lab, not just the neat pictures from textbooks. The test checks if it can spot mistakes and say when it can't be sure.",
+     "why_it_matters": "A benchmark built on raw, messy lab data and rubric-based partial credit gives teams a more realistic way to test whether agents can spot errors and weak evidence.",
+     "topic": "research",
+     "type": "paper",
+     "labs": [
+      "openai",
+      "other"
+     ],
+     "people": [],
+     "concepts": [
+      "benchmark",
+      "agent",
+      "multimodal-model"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [
+      {
+       "term": "rubric-based grading",
+       "definition": "Answers get credit against individual expert-written criteria, so a correct conclusion can be told apart from a partially correct analysis."
+      }
+     ],
+     "sources": [
+      {
+       "title": "Measuring how AI agents handle everyday wet-lab science",
+       "url": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science",
+       "name": "OpenAI News",
+       "kind": "original"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-06T00:00:00Z",
+     "checked": {
+      "model": "anthropic:claude-sonnet-5-5",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "OpenAI introduced BioBasicsBench, a 100-task benchmark for how well AI agents handle raw experimental data and everyday wet-lab science.",
+     "rank": 10,
+     "id": "2026-11-06-openai-and-ligo-release-biobasicsbench-for-ai-agents-on-wet",
+     "date": "2026-11-06"
+    }
+   ],
+   "stats": {
+    "items": 69,
+    "stories": 68,
+    "sources_ok": 42,
+    "sources_failed": [],
+    "published": 13,
+    "dropped": 0,
+    "llm_calls": 29,
+    "cache_hits": 0,
+    "models": {
+     "anthropic:claude-sonnet-5-5": 29
+    },
+    "fallbacks": [],
+    "seconds": 225
+   }
+  },
+  "2026-11-07": {
+   "date": "2026-11-07",
+   "generated_at": "2026-11-09T07:50:32Z",
+   "stories": [
+    {
+     "title": "Cotra: METR report suggests Anthropic's AI-driven research speedup has crossed its own threshold",
+     "one_liner": "Ajeya Cotra says a public METR report implies Anthropic has crossed its 'dramatic acceleration' threshold, with capabilities progress about twice as fast as the year before.",
+     "summary": "Ajeya Cotra discusses a public METR report on AI R&D acceleration at Anthropic. Anthropic stated in its S1 that it \"may imminently meet\" its Responsible Scaling Policy threshold for dramatically accelerated progress. The report authors found that between October 2025 and October 2026, capabilities progress at Anthropic ran about twice as fast as over the previous twelve months, measured by an internal index called AECI. Much supporting evidence was redacted. Cotra reasons that researcher labor must be sped up by roughly 10x, and notes Anthropic staff self-report about a 12x uplift. These are her estimates, and she calls them very uncertain.",
+     "eli5": "Imagine a team building a rocket, and the helpers they built start helping build the next rocket. Now the team finishes things much faster than before.",
+     "why_it_matters": "If AI tools are already speeding up the labs that build them, model release pace and capability jumps may come faster than outside forecasts assumed, so plans built on older timelines may need updating.",
+     "topic": "research",
+     "type": "event",
+     "labs": [
+      "anthropic",
+      "other"
+     ],
+     "people": [],
+     "concepts": [
+      "ai-safety",
+      "scaling-laws",
+      "benchmark"
+     ],
+     "spotlight": true,
+     "spotlight_reason": "Backed by a high signal score, it points to a shift in how AI is built, with AI speeding up AI research itself.",
+     "new_terms": [
+      {
+       "term": "compute multipliers",
+       "definition": "Improvements to algorithms and architectures that raise effective compute; overall capability is the product of these multipliers and training compute."
+      }
+     ],
+     "sources": [
+      {
+       "title": "AI is dramatically accelerating AI research",
+       "url": "https://www.planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai",
+       "name": "planned-obsolescence.org",
+       "kind": "press"
+      },
+      {
+       "title": "Discussion on Hacker News",
+       "url": "https://news.ycombinator.com/item?id=50397994",
+       "name": "Hacker News",
+       "kind": "discussion"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-06T20:27:23Z",
+     "checked": {
+      "model": "anthropic:claude-sonnet-5-5",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "A widely discussed post argues AI is speeding up AI research, with 374 comments on Hacker News.",
+     "rank": 1,
+     "id": "2026-11-07-cotra-metr-report-suggests-anthropic-s-ai-driven-research-sp",
+     "date": "2026-11-07"
+    },
+    {
+     "title": "Former Microsoft Research AI Frontiers leader says group ended after reorg into Microsoft AI",
+     "one_liner": "A former AI Frontiers leader writes that the roughly 50-person Microsoft Research group is over after a September reorg into Microsoft AI, and that he has left.",
+     "summary": "In a personal blog post, a founding leader of Microsoft Research's AI Frontiers group says it is over. The group had about 50 people and worked on agents, such as the Autogen orchestration framework and the Fara computer use agent, and on new model capabilities. In early September it was reorged into Microsoft AI. The author says the scaling-only philosophy of Microsoft AI leadership was incompatible with research. He left, and says every other founding leadership team member reached a similar conclusion. He also says there will be no internships with the group in the coming year.",
+     "eli5": "Imagine a small team that loves inventing new toys was moved into a big factory that only wants to make more of the same toy. The inventors did not fit, so they left.",
+     "why_it_matters": "The post shows a split inside one large AI company between scaling models up and doing new research, which may affect which Microsoft tools and model ideas reach real use.",
+     "topic": "microsoft",
+     "type": "event",
+     "labs": [
+      "microsoft"
+     ],
+     "people": [],
+     "concepts": [
+      "scaling-laws",
+      "agent",
+      "computer-use"
+     ],
+     "spotlight": true,
+     "spotlight_reason": "Widely discussed: it speaks to how AI is changing the way software is built, it drew 309 comments on Hacker News, 501 points on Hacker News.",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "The end of Microsoft Research's AI Frontiers group",
+       "url": "https://hunch.net/?p=13764006",
+       "name": "hunch.net",
+       "kind": "press"
+      },
+      {
+       "title": "Discussion on Hacker News",
+       "url": "https://news.ycombinator.com/item?id=50406563",
+       "name": "Hacker News",
+       "kind": "discussion"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-07T18:02:17Z",
+     "checked": {
+      "model": "anthropic:claude-sonnet-5-5",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "Microsoft Research's AI Frontiers group is ending, a notable shift that drew heavy discussion on Hacker News.",
+     "rank": 2,
+     "id": "2026-11-07-former-microsoft-research-ai-frontiers-leader-says-group-end",
+     "date": "2026-11-07"
+    },
+    {
+     "title": "Anthropic reportedly presses on with pre-Thanksgiving IPO at lower valuation despite tech selloff",
+     "one_liner": "Anthropic is reportedly pushing ahead with an IPO before Thanksgiving, seeking $80–100 billion at a $1.25–1.75 trillion valuation, below hopes of $2 trillion.",
+     "summary": "The Financial Times, citing investors, reports that Anthropic wants to go public before Thanksgiving despite a tech selloff. It aims to raise $80–100 billion at a $1.25–1.75 trillion valuation. That is above the current $965 billion but under the $2 trillion the most optimistic investors had hoped for. Annualized reported revenue is about $81 billion, up from roughly $65 billion at the end of July. The selloff was driven by rising borrowing costs and heavy AI spending plans. The Nasdaq 100 dropped 6.4 percent on Thursday and recovered somewhat on Friday. OpenAI also cut its funding-round target from $1.4 trillion to $1.25 trillion.",
+     "eli5": "Imagine a lemonade stand that wants to sell shares to the whole neighborhood. Prices at the market dropped, so the stand will take a smaller price than it hoped for, but it still wants to sell soon.",
+     "why_it_matters": "A public Anthropic would face market scrutiny, and the weaker market pressure on AI lab valuations may shape how stable and well funded the model providers teams rely on will be.",
+     "topic": "industry",
+     "type": "event",
+     "labs": [
+      "anthropic",
+      "openai"
+     ],
+     "people": [],
+     "concepts": [],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "Anthropic pushes ahead with pre-Thanksgiving IPO despite tech selloff, accepts lower valuation",
+       "url": "https://the-decoder.com/anthropic-pushes-ahead-with-pre-thanksgiving-ipo-despite-tech-selloff-accepts-lower-valuation/",
+       "name": "The Decoder",
+       "kind": "press"
+      },
+      {
+       "title": "[AINews] Anthropic IPO: Whither Now?",
+       "url": "https://latent.space/p/ainews-anthropic-ipo-whither-now/",
+       "name": "Latent Space (AINews)",
+       "kind": "press"
+      }
+     ],
+     "buzz": 2,
+     "published": "2026-11-07T03:04:53Z",
+     "checked": {
+      "model": "anthropic:claude-sonnet-5-5",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "Anthropic is pressing on with its IPO at a $1.25 to $1.75 trillion valuation despite the tech selloff, a big market signal.",
+     "rank": 3,
+     "id": "2026-11-07-anthropic-reportedly-presses-on-with-pre-thanksgiving-ipo-at",
+     "date": "2026-11-07"
+    },
+    {
+     "title": "OpenAI reportedly valued at $1.25 trillion after raising another $11 billion",
+     "one_liner": "Bloomberg reports OpenAI is valued at $1.25 trillion in a new round that has raised another $11 billion, while Anthropic has filed its S-1.",
+     "summary": "Bloomberg reports that OpenAI is now valued at $1.25 trillion in a new funding round that has raised another $11 billion. In March, OpenAI raised $122 billion at a valuation of $852 billion. Bloomberg says OpenAI is still seeking more investment that could lift the amount to $20 billion. It had first hoped to raise as much as $30 billion at a $1.4 trillion valuation, before tech stocks dropped and the midterm results showed public opinion turning against AI companies and data center projects. TechCrunch says the round has not closed but is expected to in the coming weeks. Rival Anthropic filed its S-1 to go public last week.",
+     "eli5": "Imagine a lemonade stand that people keep paying to own a bigger piece of, so it is now worth much more than before. Another stand nearby is getting ready to sell pieces of itself too.",
+     "why_it_matters": "OpenAI's large funding and valuation signal how much money is backing the AI platforms teams build on, while the Anthropic S-1 filing puts a second major model provider on a path to public markets.",
+     "topic": "industry",
+     "type": "event",
+     "labs": [
+      "openai",
+      "anthropic"
+     ],
+     "people": [
+      "sam-altman"
+     ],
+     "concepts": [
+      "ai-safety"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "OpenAI valued at $1.25 trillion, as rival Anthropic nears its IPO",
+       "url": "https://www.theverge.com/ai-artificial-intelligence/1029380/openai-1-25-trillion-investment-valuation",
+       "name": "The Verge AI",
+       "kind": "press"
+      },
+      {
+       "title": "OpenAI reportedly raises an additional $11 billion at a $1.25 trillion valuation",
+       "url": "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/",
+       "name": "TechCrunch AI",
+       "kind": "press"
+      }
+     ],
+     "buzz": 2,
+     "published": "2026-11-06T22:53:46Z",
+     "checked": {
+      "model": "anthropic:claude-sonnet-5-5",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "OpenAI reportedly raised another $11 billion at a $1.25 trillion valuation, reported by two outlets.",
+     "rank": 4,
+     "id": "2026-11-07-openai-reportedly-valued-at-1-25-trillion-after-raising-anot",
+     "date": "2026-11-07"
+    },
+    {
+     "title": "METR report says Anthropic's AI models improve twice as fast, with heavy redactions",
+     "one_liner": "A METR report says Anthropic's models are improving roughly twice as quickly as a year ago, with AI driving most of the speedup.",
+     "summary": "AI safety group METR published a report on Thursday after an 11-week investigation inside Anthropic. It says Anthropic's models are improving roughly twice as quickly as a year ago. METR says it is confident the gain is not just more training compute, and that most of the acceleration as of October is due to AI. Employees self-reported being around 12 times as productive with the company's most capable internal model. Anthropic redacted a majority of the evidence METR found most informative from the public version. METR says the public has to rely on its judgment more than would be ideal.",
+     "eli5": "Imagine a builder who uses a smart robot helper to make better tools, and then uses those better tools to build even faster. This report says something like that is happening at one AI company, but we can only see part of the story.",
+     "why_it_matters": "If AI is already speeding up the building of better AI, model capabilities may arrive faster than planning cycles assume, and public evidence about that pace is limited by redactions.",
+     "topic": "research",
+     "type": "event",
+     "labs": [
+      "anthropic",
+      "other"
+     ],
+     "people": [
+      "dario-amodei"
+     ],
+     "concepts": [
+      "ai-safety",
+      "benchmark",
+      "scaling-laws"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "Why a new report on Anthropic automating AI development is alarming researchers",
+       "url": "https://www.theverge.com/ai-artificial-intelligence/1029126/anthropic-metr-report-accelerating-ai-development",
+       "name": "The Verge AI",
+       "kind": "press"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-07T12:30:00Z",
+     "checked": {
+      "model": "anthropic:claude-sonnet-5-5",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "A new report says Anthropic is using AI to build more powerful AI, and researchers are alarmed.",
+     "rank": 5,
+     "id": "2026-11-07-metr-report-says-anthropic-s-ai-models-improve-twice-as-fast",
+     "date": "2026-11-07"
+    },
+    {
+     "title": "NousResearch releases Arete-27B text-generation model on Hugging Face",
+     "one_liner": "NousResearch has listed a new text-generation model, Arete-27B, on Hugging Face, where it shows 313 likes and 1747 downloads.",
+     "summary": "NousResearch has published a new model called Arete-27B on Hugging Face. It appears on the Hugging Face trending models list. The pipeline is text-generation. The listing shows 313 likes and 1747 downloads. The source text gives no other details about the model. It does not say how the model was trained, how large its context window is, what license it uses, or how it performs on benchmarks. Anyone interested will need to check the model page for those details.",
+     "eli5": "Imagine a team puts a new toy in a shared toy box, and many kids quickly pick it up to try it. This new toy is a computer program that writes text.",
+     "why_it_matters": "A new text-generation model from NousResearch is getting early attention on Hugging Face, so it may be worth checking the model page for details before deciding whether to test it.",
+     "topic": "models",
+     "type": "model",
+     "labs": [
+      "other"
+     ],
+     "people": [],
+     "concepts": [
+      "language-model"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "NousResearch/Arete-27B",
+       "url": "https://huggingface.co/NousResearch/Arete-27B",
+       "name": "Hugging Face Trending Models",
+       "kind": "original"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-06T19:31:28Z",
+     "checked": {
+      "model": "anthropic:claude-sonnet-5-5",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "Nous Research released Arete-27B, a retrained Qwen model with most of its pro-Chinese bias removed, showing fine-tuning can strip that layer.",
+     "rank": 6,
+     "id": "2026-11-07-nousresearch-releases-arete-27b-text-generation-model-on-hug",
+     "date": "2026-11-07"
+    },
+    {
+     "title": "Vals AI benchmark: open model trails top closed model in cyber attacks",
+     "one_liner": "In Vals AI's CyberOffense benchmark, open-weight Deepseek V4.1 Flash 1017 scored 72.8 percent of objectives, close to GPT-6 Sol's 80.8 percent, at far lower cost.",
+     "summary": "Vals AI's CyberOffense benchmark tests AI agents on simulated corporate networks. Each agent works alone on an isolated attack machine, starting with only a public web address. GPT-6 Sol, part of OpenAI's restricted Daybreak cyber program, hit 80.8 percent of objectives. The open-weight Deepseek V4.1 Flash 1017 reached 72.8 percent at about $3 per run, versus roughly $22. In the harder Lighthouse test, Daybreak completed 27 of 31 objectives in under three hours. Deepseek managed 21. Deepseek scored zero in its first 25 million tokens and made most progress after 100 million tokens. Vals says attacks on real networks are likely to increase in the coming months.",
+     "eli5": "Imagine two kids trying to solve a maze. One has a special locked toolbox, and the other uses a toolbox anyone can borrow. The borrowed one gets almost as far, and it costs much less.",
+     "why_it_matters": "Open-weight models now come close to top closed models on cyber tasks at a fraction of the cost, so security teams cannot count on provider restrictions and should use the same models to find and fix flaws first.",
+     "topic": "research",
+     "type": "event",
+     "labs": [
+      "openai",
+      "deepseek",
+      "other"
+     ],
+     "people": [],
+     "concepts": [
+      "benchmark",
+      "open-weight-model",
+      "ai-safety"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "The gap between open and closed AI models in cyber capabilities keeps shrinking",
+       "url": "https://the-decoder.com/the-gap-between-open-and-closed-ai-models-in-cyber-capabilities-keeps-shrinking/",
+       "name": "The Decoder",
+       "kind": "press"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-07T15:35:50Z",
+     "checked": {
+      "model": "anthropic:claude-sonnet-5-5",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "On the Vals AI benchmark the gap between open and closed models in cyber capabilities keeps shrinking.",
+     "rank": 7,
+     "id": "2026-11-07-vals-ai-benchmark-open-model-trails-top-closed-model-in-cybe",
+     "date": "2026-11-07"
+    },
+    {
+     "title": "User reports ChatGPT silently switched connectors mid-flow; bounty program asks for ID",
+     "one_liner": "A forum user reports ChatGPT sent a follow-up tool call through a different connector without telling them, and says the bug bounty required an ID card.",
+     "summary": "A user on the OpenAI community forum reports that ChatGPT, with two connectors enabled for the same MCP server, made a follow-up tool call through a different connector than the one that started the flow. Connector A showed a widget and produced a one-time confirmation code. The model then sent that code through connector B. The server rejected the call because the code was bound to connector A's OAuth client. The user was not told about the switch. The poster says the expected behavior is matching calls by OAuth client, not server URL. They also say the bounty program required biometric ID and an ID card, so they did not submit.",
+     "eli5": "Imagine you give a note to one friend, but a different friend quietly delivers it without telling you. The note was only meant for the first friend, so the door stays shut.",
+     "why_it_matters": "If a client swaps connectors mid-flow, servers must bind confirmation codes and grants to the OAuth client, because a shared MCP URL does not prove the same app is calling.",
+     "topic": "agents",
+     "type": "event",
+     "labs": [
+      "openai"
+     ],
+     "people": [],
+     "concepts": [
+      "mcp",
+      "tool-use",
+      "ai-safety"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [
+      {
+       "term": "OAuth client binding",
+       "definition": "Tying a one-time confirmation code to the specific OAuth client that produced it, so the server rejects it if another client tries to redeem it."
+      }
+     ],
+     "sources": [
+      {
+       "title": "ChatGPT silently passes data between connectors and the bounty wants an ID card",
+       "url": "https://community.openai.com/t/security-follow-up-tool-call-silently-routed-to-a-different-connector/1413053",
+       "name": "community.openai.com",
+       "kind": "original"
+      },
+      {
+       "title": "Discussion on Hacker News",
+       "url": "https://news.ycombinator.com/item?id=50399569",
+       "name": "Hacker News",
+       "kind": "discussion"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-06T22:50:43Z",
+     "checked": {
+      "model": "anthropic:claude-sonnet-5-5",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "A report says ChatGPT silently passes data between connectors, a security and privacy issue for anyone building on them.",
+     "rank": 8,
+     "id": "2026-11-07-user-reports-chatgpt-silently-switched-connectors-mid-flow-b",
+     "date": "2026-11-07"
+    },
+    {
+     "title": "Anthropic describes agent memory design, including dreaming and tests on CL-Bench and Pokémon Red",
+     "one_liner": "Anthropic explains how it thinks about agent memory, including a process called dreaming, and shares evaluations on CL-Bench 1.0 and Pokémon Red.",
+     "summary": "Anthropic published a post on the components of agent memory. It defines agent memory as knowledge Claude gains from experience and keeps between sessions as context it can read later. It describes dreaming, where an agent reflects on logs to fix mistakes or write new notes. On CL-Bench 1.0, Claude Opus 5 was the first model to close the learning loop. In Pokémon Red, Claude Sonnet 3.7 wrote 413 memory files across 225 folders and earned one badge. The source text cuts off before the Claude Fable 5 results.",
+     "eli5": "Imagine keeping a diary while you play. Later, you read it over and tidy it up, so you keep the useful tips and drop the rest.",
+     "why_it_matters": "Teams building agents get a concrete picture of memory: save a few checked rules instead of every event, and review logs offline to fix mistakes and write better notes.",
+     "topic": "agents",
+     "type": "event",
+     "labs": [
+      "anthropic",
+      "academia"
+     ],
+     "people": [],
+     "concepts": [
+      "agent-memory",
+      "agent",
+      "benchmark"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [
+      {
+       "term": "dreaming",
+       "definition": "A process where an agent reflects on its logs between interactions to fix mistakes or produce new notes and representations."
+      },
+      {
+       "term": "sleep-time compute",
+       "definition": "A way for models to use idle time between interactions to reorganize their existing context."
+      }
+     ],
+     "sources": [
+      {
+       "title": "The Components of Agent Memory",
+       "url": "https://www.anthropic.com/research/components-of-agent-memory",
+       "name": "anthropic.com",
+       "kind": "original"
+      },
+      {
+       "title": "Discussion on Hacker News",
+       "url": "https://news.ycombinator.com/item?id=50402212",
+       "name": "Hacker News",
+       "kind": "discussion"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-07T06:39:04Z",
+     "checked": {
+      "model": "anthropic:claude-sonnet-5-5",
+      "rounds": 2,
+      "hype_flags": []
+     },
+     "editor_reason": "A well-discussed post breaks down the components of agent memory, useful for people building agents.",
+     "rank": 9,
+     "id": "2026-11-07-anthropic-describes-agent-memory-design-including-dreaming-a",
+     "date": "2026-11-07"
+    },
+    {
+     "title": "Study: AI auditors catch most agent misbehavior but raise many false alarms",
+     "one_liner": "Anthropic Institute researcher Andy Hall found AI auditors spot most agent misbehavior in logs, but tuning them to catch more cases floods reviewers with false alarms.",
+     "summary": "Andy Hall, a researcher at the Anthropic Institute, replicated a METR study using the MALT dataset of agent logs. At a 5 percent false-alarm rate, GPT-5 caught nearly 98 percent of reward hacking cases. Gemini 3.8 Flash found barely half. All auditors caught between 71 and 81 percent of sandbagging cases. Newer, pricier models were not consistently better. Tuned to an 80 percent detection rate, the best models still flagged 2.5 to 3 percent of harmless logs. Hall says this suits estimating failure rates better than safety checks that must catch every incident. The reward-hacking numbers rest on just 47 cases.",
+     "eli5": "Imagine a hall monitor who tries to spot every kid breaking a rule. The harder the monitor tries not to miss anyone, the more kids who did nothing wrong get stopped too.",
+     "why_it_matters": "AI auditors work for estimating how often agents misbehave, but relying on them for catch-everything safety checks will bury human reviewers in false alarms.",
+     "topic": "research",
+     "type": "paper",
+     "labs": [
+      "anthropic",
+      "openai",
+      "google",
+      "academia",
+      "other"
+     ],
+     "people": [],
+     "concepts": [
+      "ai-safety",
+      "agent",
+      "benchmark"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [
+      {
+       "term": "reward hacking",
+       "definition": "An agent passes a task through tricks instead of a genuine solution."
+      },
+      {
+       "term": "sandbagging",
+       "definition": "A model deliberately makes its abilities appear weaker, for example by solving tasks poorly on purpose to dodge an evaluation or restriction."
+      }
+     ],
+     "sources": [
+      {
+       "title": "AI auditors catch most agent misbehavior but flood reviewers with false alarms, new study finds",
+       "url": "https://the-decoder.com/ai-auditors-catch-most-agent-misbehavior-but-flood-reviewers-with-false-alarms-new-study-finds/",
+       "name": "The Decoder",
+       "kind": "press"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-07T16:56:38Z",
+     "checked": {
+      "model": "anthropic:claude-sonnet-5-5",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "A study finds AI auditors catch most agent misbehavior in logs but flood human reviewers with false alarms.",
+     "rank": 10,
+     "id": "2026-11-07-study-ai-auditors-catch-most-agent-misbehavior-but-raise-man",
+     "date": "2026-11-07"
+    },
+    {
+     "title": "Meta adds Spaces, topic-based workspaces, to its Muse agents",
+     "one_liner": "Meta launched Spaces, a feature that lets users open topic-based conversations with their Muse agent, such as a vacation plan or a wedding planner.",
+     "summary": "Meta has launched Spaces, a new way to work with its Muse agents. Spaces are breakout conversations built around one topic, which Meta calls \"custom experiences.\" They sit in the sidebar of the Muse interface. Users can describe an idea in chat, and Muse builds a tracker, planner or project board. Meta says Spaces can connect to third-party apps and update in the background. Spaces is the second Muse feature in a week, after Muse Voice, which lets users video chat with the agent. Zuckerberg said agents had 10 million users in the U.S. and Canada.",
+     "eli5": "Imagine a toy box with a separate labeled box for each project, like one for trip plans and one for party ideas. Your helper keeps working in whichever box you open.",
+     "why_it_matters": "Meta is building project-focused workspaces that connect to outside apps and refresh themselves, which shows how a consumer agent can keep ongoing tasks organized instead of relying on one long chat.",
+     "topic": "agents",
+     "type": "product",
+     "labs": [
+      "meta"
+     ],
+     "people": [],
+     "concepts": [
+      "agent",
+      "personal-agent"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "Meta introduces Spaces, a new way to collaborate with your Muse agent",
+       "url": "https://techcrunch.com/2026/11/06/meta-introduces-spaces-a-new-way-to-collaborate-with-your-muse-agent/",
+       "name": "TechCrunch AI",
+       "kind": "press"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-06T18:44:20Z",
+     "checked": {
+      "model": "anthropic:claude-sonnet-5-5",
+      "rounds": 2,
+      "hype_flags": []
+     },
+     "editor_reason": "Meta added Spaces, a new way to collaborate with its Muse agents.",
+     "rank": 11,
+     "id": "2026-11-07-meta-adds-spaces-topic-based-workspaces-to-its-muse-agents",
+     "date": "2026-11-07"
+    },
+    {
+     "title": "Report: US approved Nvidia H200 sales to firm with empty office in China",
+     "one_liner": "The New York Times reports the US approved Nvidia H200 chip sales to New Matrix, a Chinese firm with an empty office and ties to a blacklisted company.",
+     "summary": "The New York Times reports that New Matrix is on the list of Chinese firms approved to handle Nvidia's H200 AI chips. Its offices are empty, and the paper found little evidence the company exists. It was created 17 months ago. Its owners have ties to a Chinese private equity firm blacklisted by the US government since 2024. The Times says this is a pattern, not a rare lapse. Concerns are growing that neither the Commerce Department nor Nvidia is doing due diligence when vetting these firms.",
+     "eli5": "Imagine a shop gives away toys to anyone on a list, but nobody checks if the names on the list are real. Then a name turns out to belong to an empty room.",
+     "why_it_matters": "Weak vetting of who can buy H200 chips points to possible tighter checks on AI chip exports to China, which could affect hardware supply and compliance rules for teams that depend on Nvidia GPUs.",
+     "topic": "policy",
+     "type": "event",
+     "labs": [
+      "nvidia",
+      "government"
+     ],
+     "people": [],
+     "concepts": [
+      "ai-regulation",
+      "gpu"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "The US let Nvidia sell chips to an empty office in China",
+       "url": "https://www.theverge.com/ai-artificial-intelligence/1029483/nvidia-ai-chips-china-blacklist-government",
+       "name": "The Verge AI",
+       "kind": "press"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-07T15:43:45Z",
+     "checked": {
+      "model": "anthropic:claude-sonnet-5-5",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "Reports say the US let Nvidia sell chips to an empty office in China, raising questions about export vetting.",
+     "rank": 12,
+     "id": "2026-11-07-report-us-approved-nvidia-h200-sales-to-firm-with-empty-offi",
+     "date": "2026-11-07"
+    }
+   ],
+   "stats": {
+    "items": 33,
+    "stories": 31,
+    "sources_ok": 42,
+    "sources_failed": [],
+    "published": 13,
+    "dropped": 0,
+    "llm_calls": 29,
+    "cache_hits": 0,
+    "models": {
+     "anthropic:claude-sonnet-5-5": 29
+    },
+    "fallbacks": [
+     {
+      "tag": "writer",
+      "used": "anthropic:claude-sonnet-5-5",
+      "after": [
+       "anthropic:claude-sonnet-5-5: bad JSON (JSONDecodeError)"
+      ]
+     }
+    ],
+    "seconds": 174
+   }
+  },
+  "2026-11-08": {
+   "date": "2026-11-08",
+   "generated_at": "2026-11-09T07:53:50Z",
+   "stories": [
+    {
+     "title": "Report claims Claude Code's \"Don't Ask Again\" exposes passwords in 1,122 GitHub files",
+     "one_liner": "A Hacker News headline claims Claude Code's \"Don't Ask Again\" option exposes passwords in 1,122 public GitHub files.",
+     "summary": "A headline on Hacker News claims that Claude Code's \"Don't Ask Again\" option exposes passwords in 1,122 public GitHub files. The count given is 1,122 files, and the files are public. The source text is only this headline. It does not explain how the passwords ended up in the files, which versions are affected, or how the tool's maker has responded. Until more detail is available, treat it as an unverified claim.",
+     "eli5": "Imagine you tell a helper to stop asking before they do things, and a report says a secret word then ended up written where everyone can see it.",
+     "why_it_matters": "Teams that use AI coding tools have reason to check public repos for leaked secrets and to review which permission prompts they have switched off.",
+     "topic": "dev-tools",
+     "type": "event",
+     "labs": [
+      "anthropic"
+     ],
+     "people": [],
+     "concepts": [
+      "coding-assistant"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "Claude Code's \"Don't Ask Again\" exposes passwords in 1,122 public GitHub files",
+       "url": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again",
+       "name": "apiiro.com",
+       "kind": "press"
+      },
+      {
+       "title": "Discussion on Hacker News",
+       "url": "https://news.ycombinator.com/item?id=50407882",
+       "name": "Hacker News",
+       "kind": "discussion"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-07T20:45:32Z",
+     "checked": {
+      "model": "anthropic:claude-sonnet-5-5",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "Claude Code's \"Don't Ask Again\" setting is tied to passwords exposed in 1,122 public GitHub files, a security issue for anyone using coding agents.",
+     "rank": 1,
+     "id": "2026-11-08-report-claims-claude-code-s-don-t-ask-again-exposes-password",
+     "date": "2026-11-08"
+    },
+    {
+     "title": "Anthropic reportedly strikes $3.4B deal for gas-fired data centre power",
+     "one_liner": "Anthropic has struck a $3.4B deal to generate gas-fired power for its data centres, according to a Hacker News headline.",
+     "summary": "A Hacker News headline reports that Anthropic has struck a $3.4B deal to generate gas-fired power for data centres. The source text gives only this headline. It does not say who the other party is, where the power plants will be, how much power they will make, or when the deal starts. It also gives no detail on how the power will be used. Further facts are not stated in the source text.",
+     "eli5": "Imagine a big kitchen that needs lots of electricity to cook. Instead of only buying power from someone else, the cooks make a deal to get power made just for their kitchen.",
+     "why_it_matters": "Access to large amounts of power is tied to how AI compute gets built, so deals like this may shape where and how fast model capacity grows.",
+     "topic": "industry",
+     "type": "event",
+     "labs": [
+      "anthropic"
+     ],
+     "people": [],
+     "concepts": [],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "Anthropic strikes $3.4B deal to generate gas-fired power for data centres",
+       "url": "https://www.ft.com/content/41bf5c6a-9735-4f1a-a8e3-2bcccad58ba0",
+       "name": "ft.com",
+       "kind": "press"
+      },
+      {
+       "title": "Discussion on Hacker News",
+       "url": "https://news.ycombinator.com/item?id=50412760",
+       "name": "Hacker News",
+       "kind": "discussion"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-08T12:41:25Z",
+     "checked": {
+      "model": "anthropic:claude-sonnet-5-5",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "Anthropic's $3.4B deal for gas-fired power shows how far AI labs are going to secure data centre energy.",
+     "rank": 2,
+     "id": "2026-11-08-anthropic-reportedly-strikes-3-4b-deal-for-gas-fired-data-ce",
+     "date": "2026-11-08"
+    },
+    {
+     "title": "Post claims 284B DeepSeek model runs on 64GB RAM with no GPU",
+     "one_liner": "A Hacker News post titled Llama-modchip claims a 284B DeepSeek model can run on 64GB of RAM without a GPU.",
+     "summary": "A Hacker News post titled \"Llama-modchip: 284B DeepSeek on 64GB RAM, no GPU\" makes a claim about running a large model on modest hardware. The title says the model is a DeepSeek model with 284B parameters. It says the machine has 64GB of RAM and no GPU. The project is called Llama-modchip. The source is only the title. It gives no details about the method, speed, quality or how the claim was tested. The claim is unverified here.",
+     "eli5": "Imagine fitting a huge book collection into a small backpack. The title says a very big AI model can run on a normal computer without a special graphics chip.",
+     "why_it_matters": "If the claim holds, running very large open models on a plain 64GB machine without a GPU could lower the hardware needed for local work.",
+     "topic": "models",
+     "type": "product",
+     "labs": [
+      "deepseek"
+     ],
+     "people": [],
+     "concepts": [
+      "inference",
+      "gpu",
+      "open-weight-model"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "Llama-modchip: 284B DeepSeek on 64GB RAM, no GPU",
+       "url": "https://github.com/synchopate/llama-modchip",
+       "name": "github.com",
+       "kind": "original"
+      },
+      {
+       "title": "Discussion on Hacker News",
+       "url": "https://news.ycombinator.com/item?id=50411961",
+       "name": "Hacker News",
+       "kind": "discussion"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-08T10:22:04Z",
+     "checked": {
+      "model": "anthropic:claude-sonnet-5-5",
+      "rounds": 2,
+      "hype_flags": []
+     },
+     "editor_reason": "Llama-modchip claims to run a 284B DeepSeek model on 64GB RAM with no GPU, which could change local inference options.",
+     "rank": 3,
+     "id": "2026-11-08-post-claims-284b-deepseek-model-runs-on-64gb-ram-with-no-gpu",
+     "date": "2026-11-08"
+    },
+    {
+     "title": "Alibaba-led Co-Design Bench: best coding agent fully solves only 26.4 percent of tasks",
+     "one_liner": "A new benchmark built from real user requests shows the best of ten coding agents fully completes only 26.4 percent of tasks.",
+     "summary": "Researchers from Alibaba and several Asian universities built Co-Design Bench, a coding-agent test based on real user change requests. Agents must rework existing web apps, sometimes from images, audio, video or documents. GPT-6 Astra, the best of ten models, meets about 70 percent of a task's requirements on average but is fully correct on 26.4 percent of tasks. Older benchmarks show scores above 99 percent. Results drop as tasks mix more change types. Qwen3.8-27B scored 75 or 56 percent on larger overhauls depending on the harness. The authors say to report model and environment together.",
+     "eli5": "Imagine a helper who tidies your room but always leaves one toy on the floor. Most of the work is done, but you still have to check and finish it.",
+     "why_it_matters": "Picking a coding agent means testing the model and its working environment as a pair, because high scores on older benchmarks do not show how much manual cleanup is needed.",
+     "topic": "research",
+     "type": "paper",
+     "labs": [
+      "qwen",
+      "academia"
+     ],
+     "people": [],
+     "concepts": [
+      "benchmark",
+      "coding-assistant",
+      "agent"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [
+      {
+       "term": "harness",
+       "definition": "The program through which an agent reads, writes, and executes code."
+      }
+     ],
+     "sources": [
+      {
+       "title": "AI coding agents still need human cleanup on nearly three out of four tasks in a real-world test",
+       "url": "https://the-decoder.com/ai-coding-agents-still-need-human-cleanup-on-nearly-three-out-of-four-tasks-in-a-real-world-test/",
+       "name": "The Decoder",
+       "kind": "press"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-08T09:50:59Z",
+     "checked": {
+      "model": "anthropic:claude-sonnet-5-5",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "Alibaba's Co-Design Bench finds AI coding agents still need human cleanup on nearly three out of four real-world tasks.",
+     "rank": 4,
+     "id": "2026-11-08-alibaba-led-co-design-bench-best-coding-agent-fully-solves-o",
+     "date": "2026-11-08"
+    },
+    {
+     "title": "Developer says he is dropping Claude Code for open source harness Pi",
+     "one_liner": "A developer blog post says he has moved from Claude Code to Pi, citing IDE bugs, frequent system prompt changes and token overhead.",
+     "summary": "In a blog post dated 21 September 2026, a longtime Claude Code user says he is retiring it as his main coding harness and moving to Pi. He cites many small frustrations. Only one session can connect to the IDE at a time, and the VSCode GUI extension has broken slash commands. He says there have been 244 Claude Code releases this year, and over 3/4 changed the system prompt or tool descriptions. He says the default Bash tool description is almost 3,000 tokens. He praises Pi for stability, a minimalist approach and customizability.",
+     "eli5": "Imagine a toy box that keeps getting new gadgets stuck on it, and some of them break. The writer picked a simpler toy box that does less but works the way he likes.",
+     "why_it_matters": "Frequent system prompt changes and large default tool descriptions can change how a coding agent behaves and how many tokens it uses, so a small, customizable open source harness may suit teams who want stability.",
+     "topic": "dev-tools",
+     "type": "person",
+     "labs": [
+      "anthropic"
+     ],
+     "people": [],
+     "concepts": [
+      "coding-assistant",
+      "tokens",
+      "tool-use"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [
+      {
+       "term": "coding harness",
+       "definition": "The tool that wraps an LLM so it can work on code, such as Claude Code or Pi."
+      }
+     ],
+     "sources": [
+      {
+       "title": "Goodbye Claude, hello Pi",
+       "url": "https://caleb.software/posts/claude-to-pi.html",
+       "name": "caleb.software",
+       "kind": "press"
+      },
+      {
+       "title": "Discussion on Hacker News",
+       "url": "https://news.ycombinator.com/item?id=50410107",
+       "name": "Hacker News",
+       "kind": "discussion"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-08T03:11:48Z",
+     "checked": {
+      "model": "anthropic:claude-sonnet-5-5",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "A widely discussed post about moving from Claude to Pi (746 HN points) points to developers rethinking their coding assistant choices.",
+     "rank": 5,
+     "id": "2026-11-08-developer-says-he-is-dropping-claude-code-for-open-source-ha",
+     "date": "2026-11-08"
+    },
+    {
+     "title": "Elvis Presley and Eminem rights holders sue Suno over AI music clones, claim suits",
+     "one_liner": "Rights holders of Elvis Presley's music and a publisher of Eminem's records are suing AI music company Suno, claiming it illegally mimics those artists.",
+     "summary": "Suno is facing two more lawsuits. A group of rights holders of Elvis Presley's music and the publisher of some of Eminem's biggest records say the AI music company illegally generates music and lyrics that mimic those artists. The Presley lawyers claim Suno violated Tennessee's Ensuring Likeness Voice and Image Security (ELVIS) Act, which makes it illegal for an AI company to clone a singer's voice. Suno spokesperson Cat McCormack said the company does not allow prompts for specific artists' names and songs. She said it works with third-party providers to screen uploaded audio files and lyrics for potential misuse. Suno also faces suits from Sony, UMG, Jason Isbell, Reservoir Media and more.",
+     "eli5": "Imagine a kid who copies a famous singer's voice and sells the copies without asking. The people who look after that singer's music say that is not allowed and have gone to court.",
+     "why_it_matters": "Voice and likeness laws like Tennessee's ELVIS Act are now being used in court against AI music tools, so teams building generative audio face legal risk beyond copyright and may need guardrails such as blocking artist-name prompts and screening uploads.",
+     "topic": "policy",
+     "type": "event",
+     "labs": [
+      "other"
+     ],
+     "people": [],
+     "concepts": [
+      "ai-regulation",
+      "generative-model"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "Elvis and Eminem rights holders are suing Suno",
+       "url": "https://www.theverge.com/ai-artificial-intelligence/1029533/elvis-eminem-suno-ai-music-clone-lawsuit",
+       "name": "The Verge AI",
+       "kind": "press"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-08T17:23:19Z",
+     "checked": {
+      "model": "anthropic:claude-sonnet-5-5",
+      "rounds": 2,
+      "hype_flags": []
+     },
+     "editor_reason": "Rights holders of Elvis Presley's music and an Eminem publisher are suing Suno, adding to the legal pressure on AI music generation.",
+     "rank": 6,
+     "id": "2026-11-08-elvis-presley-and-eminem-rights-holders-sue-suno-over-ai-mus",
+     "date": "2026-11-08"
+    },
+    {
+     "title": "Opinion: Agent memory formats need a shared standard, like OpenTelemetry",
+     "one_liner": "A LoreKit author argues that agent memory formats are fragmented and the community should agree on a shared data model, as observability did with OpenTelemetry.",
+     "summary": "An article by the maker of the open source tool LoreKit says coding tools store agent memory in formats that cannot read each other, such as AGENTS.md, CLAUDE.md, Cursor rules, a /memories directory and a memory MCP server. It compares this to observability before 2019, when OpenTracing and OpenCensus merged into OpenTelemetry. It lists existing proposals, including Portable Memory, the Open Memory Protocol draft and Cognee's COGX. It says a spec should answer four questions: where a memory is true, its identity, its content, and when it stops being true. It also shows an illustrative record, and says the field names are not a proposal.",
+     "eli5": "Imagine every kid in class keeps notes in a different kind of notebook, so nobody can read anyone else's. The idea is to all agree on one notebook layout so notes can be shared.",
+     "why_it_matters": "Memory an agent learns in one tool, like a CI agent, stays locked there today, so a shared format would let different tools read and reuse the same notes.",
+     "topic": "agents",
+     "type": "event",
+     "labs": [
+      "anthropic",
+      "microsoft",
+      "other"
+     ],
+     "people": [],
+     "concepts": [
+      "agent-memory",
+      "mcp",
+      "coding-assistant"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [
+      {
+       "term": "semantic conventions",
+       "definition": "Shared names for data fields, such as service.name and http.*, that let different tools read each other's data."
+      }
+     ],
+     "sources": [
+      {
+       "title": "Agent memory needs its OpenTelemetry moment",
+       "url": "https://www.lorekit.io/blog/open-agent-memory-format",
+       "name": "lorekit.io",
+       "kind": "press"
+      },
+      {
+       "title": "Discussion on Hacker News",
+       "url": "https://news.ycombinator.com/item?id=50411467",
+       "name": "Hacker News",
+       "kind": "discussion"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-08T08:40:23Z",
+     "checked": {
+      "model": "anthropic:claude-sonnet-5-5",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "The argument that agent memory needs a shared standard like OpenTelemetry matters to anyone building agent systems.",
+     "rank": 7,
+     "id": "2026-11-08-opinion-agent-memory-formats-need-a-shared-standard-like-ope",
+     "date": "2026-11-08"
+    },
+    {
+     "title": "Developer Kristian Polso says he will stop using LLMs in professional coding work",
+     "one_liner": "Finnish developer Kristian Polso says he will not use LLMs or AI agents in his professional work, citing cognitive, quality, maintainability, environmental and political concerns.",
+     "summary": "In a blog post dated November 8, 2026, Kristian Polso says he will actively not use LLMs or AI agents in his professional work. He says he has built production ML systems for about 10 years, including CNN image recognition in Keras and air quality models in Tensorflow. He lists dealbreakers: cognitive effects, with studies he cites on reduced cognitive effort; code quality, as he found Claude-generated code overbuilt; hard-to-maintain code; his love of writing code; datacenter environmental impact; and politics, including GDPR and the CLOUD Act. He also says there are positive moments.",
+     "eli5": "Imagine a friend who does your homework for you very fast. It looks neat, but you stop learning, and sometimes the answers are wrong or too long. So you decide to do your own homework.",
+     "why_it_matters": "A developer with ML experience lists concrete reasons to avoid LLM coding tools, including review burden, code maintainability and EU data-law exposure, which teams weighing adoption may need to answer.",
+     "topic": "dev-tools",
+     "type": "person",
+     "labs": [
+      "anthropic",
+      "openai",
+      "google",
+      "microsoft"
+     ],
+     "people": [],
+     "concepts": [
+      "llm",
+      "coding-assistant",
+      "ai-governance"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "Why I will not be using LLMs in my coding",
+       "url": "https://www.polso.info/why-i-will-not-be-using-llms-coding",
+       "name": "polso.info",
+       "kind": "press"
+      },
+      {
+       "title": "Discussion on Hacker News",
+       "url": "https://news.ycombinator.com/item?id=50412591",
+       "name": "Hacker News",
+       "kind": "discussion"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-08T12:14:10Z",
+     "checked": {
+      "model": "anthropic:claude-sonnet-5-5",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "A heavily debated essay on refusing to use LLMs for coding reflects the split in how engineering work is done.",
+     "rank": 8,
+     "id": "2026-11-08-developer-kristian-polso-says-he-will-stop-using-llms-in-pro",
+     "date": "2026-11-08"
+    },
+    {
+     "title": "Memo reportedly claims Chinese intelligence recruited a Megaspeed executive to spy on Nvidia's CEO",
+     "one_liner": "A memo reportedly based on US intelligence claims China's Ministry of State Security recruited an executive at Megaspeed to spy on Nvidia CEO Jensen Huang.",
+     "summary": "Multiple media reports say a memo circulated earlier this year claims China's Ministry of State Security recruited an executive at Singapore-based Megaspeed, to spy on Nvidia CEO Jensen Huang. The New York Times reported the memo first. The Financial Times said the memo, supposedly based on U.S. intelligence, also claimed a romantic relationship between the two. An Nvidia spokesperson told the NYT that Jensen Huang's interactions with her were \"not unusual\" and that Nvidia does not share classified information with its customers.",
+     "eli5": "Imagine a grown-up says a classmate was asked to secretly watch the teacher. The school says the classmate's chats with the teacher were \"not unusual\" and that it does not hand secret papers to its customers.",
+     "why_it_matters": "Reports of Chinese intelligence interest in Nvidia's CEO and questions about who buys advanced Nvidia chips put scrutiny on chip sales and customer vetting, which could affect access to AI hardware.",
+     "topic": "policy",
+     "type": "event",
+     "labs": [
+      "nvidia",
+      "government"
+     ],
+     "people": [],
+     "concepts": [
+      "gpu"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "Megaspeed exec was recruited to spy on Nvidia CEO, according to US intelligence memo",
+       "url": "https://techcrunch.com/2026/11/07/chinese-exec-was-recruited-to-spy-on-nvidia-ceo-according-to-us-intelligence-memo/",
+       "name": "TechCrunch AI",
+       "kind": "press"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-07T21:17:08Z",
+     "checked": {
+      "model": "anthropic:claude-sonnet-5-5",
+      "rounds": 2,
+      "hype_flags": []
+     },
+     "editor_reason": "A US intelligence memo reportedly claims China's Ministry of State Security recruited a Megaspeed exec to spy on Nvidia's CEO, a notable chip and security story.",
+     "rank": 9,
+     "id": "2026-11-08-memo-reportedly-claims-china-recruited-megaspeed-executive-t",
+     "date": "2026-11-08"
+    },
+    {
+     "title": "Richard Sutton says compute alone is not enough for intelligence",
+     "one_liner": "Turing Award winner Richard Sutton says raw compute alone isn't enough for intelligence and that AI science is \"far from finished\", while Altman and Amodei back scaling.",
+     "summary": "Turing Award winner Richard Sutton, author of the 2019 essay \"The Bitter Lesson,\" wrote in a recent post that AI science needs clever new methods and is \"far from finished.\" He earlier called synthetic data a \"big mistake\" and urged agents with world models that keep learning from their own experience. Researcher Jerry Tworek says the bitter lesson still holds, but the more compute goes into training, the more the algorithm matters. Jayden Teoh says the lesson is often misread. OpenAI CEO Sam Altman and Anthropic CEO Dario Amodei still back LLM scaling. The article notes both are biased toward it.",
+     "eli5": "Imagine building a taller and taller tower out of blocks. Sutton says a bigger pile of blocks is not enough. You also need smarter ways to build, and a builder who keeps learning as they go.",
+     "why_it_matters": "Teams betting only on bigger models and more compute may miss gains from better learning algorithms, such as systems that keep learning after training.",
+     "topic": "research",
+     "type": "person",
+     "labs": [
+      "openai",
+      "anthropic"
+     ],
+     "people": [
+      "sam-altman",
+      "dario-amodei"
+     ],
+     "concepts": [
+      "scaling-laws",
+      "world-model",
+      "llm"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [
+      {
+       "term": "continuous learning",
+       "definition": "Learning that continues after training without destroying old knowledge."
+      }
+     ],
+     "sources": [
+      {
+       "title": "The inventor of the bitter lesson has a bitter lesson for LLM scaling enthusiasts",
+       "url": "https://the-decoder.com/the-inventor-of-the-bitter-lesson-has-a-bitter-lesson-for-llm-scaling-enthusiasts/",
+       "name": "The Decoder",
+       "kind": "press"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-08T11:44:41Z",
+     "checked": {
+      "model": "anthropic:claude-sonnet-5-5",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "Richard Sutton argues that raw compute alone is not enough and new learning methods are needed, which challenges the LLM scaling approach.",
+     "rank": 10,
+     "id": "2026-11-08-richard-sutton-says-compute-alone-is-not-enough-for-intellig",
+     "date": "2026-11-08"
+    },
+    {
+     "title": "Karpathy says he built HackerTube in a weekend with Claude",
+     "one_liner": "Andrej Karpathy says he used Claude Opus 5.5 to turn 43 million Hacker News comments into 6,454 curated videos, beating YouTube's recommendations.",
+     "summary": "Andrej Karpathy built HackerTube over a weekend using Claude's Opus 5.5 model. Claude filtered 43 million comments from 20 years of Hacker News and distilled them into 6,454 videos that keep getting recommended there. Karpathy writes on X that the result is a \"significantly better viewing experience\" than YouTube's own recommendations. The site needs no login, shows a single mid-video frame instead of optimized thumbnails, and stores state locally in the browser. He then built TristanTube with Claude Code, with 47,000 videos drawn from a YouTube channel list by Tristan Hume. Karpathy says Claude Code did nearly all the work.",
+     "eli5": "Imagine a huge pile of notes from grown-ups saying which videos they like. A helper reads all the notes and picks the best videos for you to watch.",
+     "why_it_matters": "Projects that used to take weeks can now be done in a few hours with a coding agent handling data analysis and server setup, according to Karpathy.",
+     "topic": "agents",
+     "type": "product",
+     "labs": [
+      "anthropic"
+     ],
+     "people": [
+      "andrej-karpathy"
+     ],
+     "concepts": [
+      "coding-assistant",
+      "vibe-coding",
+      "agent"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "Andrej Karpathy built a curated video platform in a weekend using Claude and 20 years of Hacker News",
+       "url": "https://the-decoder.com/andrej-karpathy-built-a-curated-video-platform-in-a-weekend-using-claude-and-20-years-of-hacker-news/",
+       "name": "The Decoder",
+       "kind": "press"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-08T14:23:00Z",
+     "checked": {
+      "model": "anthropic:claude-sonnet-5-5",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "Andrej Karpathy used Claude to filter 43 million Hacker News comments into 6,454 curated videos in a weekend, a practical example of building with an LLM.",
+     "rank": 11,
+     "id": "2026-11-08-karpathy-says-he-built-hackertube-in-a-weekend-with-claude",
+     "date": "2026-11-08"
+    }
+   ],
+   "stats": {
+    "items": 16,
+    "stories": 16,
+    "sources_ok": 42,
+    "sources_failed": [],
+    "published": 12,
+    "dropped": 0,
+    "llm_calls": 31,
+    "cache_hits": 0,
+    "models": {
+     "anthropic:claude-sonnet-5-5": 31
+    },
+    "fallbacks": [
+     {
+      "tag": "writer",
+      "used": "anthropic:claude-sonnet-5-5",
+      "after": [
+       "anthropic:claude-sonnet-5-5: bad JSON (JSONDecodeError)"
+      ]
+     }
+    ],
+    "seconds": 194
+   }
+  },
+  "2026-11-09": {
+   "date": "2026-11-09",
+   "generated_at": "2026-11-09T13:02:52Z",
+   "stories": [
+    {
+     "title": "Nvidia's board investigates after Jensen Huang admits a relationship with a woman reportedly suspected of spying for China",
+     "one_liner": "Jensen Huang told staff he had an affair with a suspected Chinese spy, and Nvidia's board has opened a probe into whether he was targeted.",
+     "summary": "Nvidia CEO Jensen Huang admitted to a romantic relationship with a suspected Chinese spy in an email to staff. Per Axios, he took \"full responsibility\" and said he fell short of his duties to the board, shareholders and employees. Nvidia's board is investigating whether Huang was targeted by a foreign spy plot. Per Bloomberg, the board said it has no reason to believe Nvidia secrets were compromised. Yale's Jeffrey Sonnenfeld estimates his job odds at \"about a 50-50\". President Trump called Huang a \"fine person\" and said he should stay on as CEO.",
+     "eli5": "The head of a big company said he made a serious mistake with someone who may have been trying to trick him. The company's bosses are now checking what really happened.",
+     "why_it_matters": "Nvidia's leadership is under board review, and the sources describe its CEO as central to the company and its role in the AI race, so teams that rely on its chips should watch the outcome.",
+     "topic": "industry",
+     "type": "event",
+     "labs": [
+      "nvidia",
+      "government"
+     ],
+     "people": [],
+     "concepts": [],
+     "spotlight": true,
+     "spotlight_reason": "The CEO of the company that supplies most AI chips faces a board investigation, and Nvidia says it has no reason to believe its secrets were compromised. It drew 590 comments on Hacker News.",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "Nvidia CEO Jensen Huang's letter to staff about affair",
+       "url": "https://nvidianews.nvidia.com/news/a-message-to-our-company",
+       "name": "nvidianews.nvidia.com",
+       "kind": "original"
+      },
+      {
+       "title": "Discussion on Hacker News",
+       "url": "https://news.ycombinator.com/item?id=50418016",
+       "name": "Hacker News",
+       "kind": "discussion"
+      },
+      {
+       "title": "Statement from Nvidia board of directors",
+       "url": "https://nvidianews.nvidia.com/news/statement-from-nvidia-board-of-directors",
+       "name": "nvidianews.nvidia.com",
+       "kind": "original"
+      },
+      {
+       "title": "Discussion on Hacker News",
+       "url": "https://news.ycombinator.com/item?id=50416801",
+       "name": "Hacker News",
+       "kind": "discussion"
+      },
+      {
+       "title": "Nvidia Board to Probe Spying Case After CEO Admits Affair",
+       "url": "https://www.bloomberg.com/news/articles/2026-11-08/nvidia-board-to-probe-spying-case-after-ceo-jensen-huang-admits-infidelity",
+       "name": "bloomberg.com",
+       "kind": "press"
+      },
+      {
+       "title": "Discussion on Hacker News",
+       "url": "https://news.ycombinator.com/item?id=50416679",
+       "name": "Hacker News",
+       "kind": "discussion"
+      },
+      {
+       "title": "Email to staff: Jensen Huang admits an affair, takes \"full responsibility\", and says he fell short of his duties to Nvidia's board, shareholders, and employees (Madison Mills/Axios)",
+       "url": "https://www.techmeme.com/261108/p14#a261108p14",
+       "name": "Techmeme",
+       "kind": "press"
+      },
+      {
+       "title": "Nvidia will investigate CEO Jensen Huang’s relationship with possible Chinese spy",
+       "url": "https://techcrunch.com/2026/11/08/nvidia-says-its-investigating-ceo-jensen-huangs-relationship-with-possible-chinese-spy/",
+       "name": "TechCrunch AI",
+       "kind": "press"
+      }
+     ],
+     "buzz": 3,
+     "published": "2026-11-08T20:14:16Z",
+     "checked": {
+      "model": "anthropic:claude-sonnet-5-5",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "Nvidia's CEO admitted an affair in a staff email and the board is probing a suspected Chinese spy case, which is a leadership and national security story for the biggest AI chip company.",
+     "rank": 1,
+     "id": "2026-11-09-nvidia-ceo-jensen-huang-admits-affair-board-probes-reported",
+     "date": "2026-11-09"
+    },
+    {
+     "title": "Report: Goldman Sachs limits Claude Code and GitHub to engineers, not traders or bankers",
+     "one_liner": "Bloomberg reports Goldman Sachs updated guidance in October so only its engineers can use Anthropic's Claude Code and Microsoft's GitHub, cutting off most traders and bankers.",
+     "summary": "Bloomberg News reported that Goldman Sachs updated internal guidance in October to restrict Anthropic's Claude Code and Microsoft's GitHub to its engineers. This followed a review of productivity and risk concerns. Strats, who work across trading, quantitative research and software engineering, still have access. Traders had used the tools to monitor client trading flows and model market moves. In July, chief information officer Marco Argenti had praised \"vibe coding\" by non-technical staff. Goldman's in-house AI assistant is still available across the firm. Goldman is also a lead underwriter on Anthropic's IPO.",
+     "eli5": "Imagine a school lets only the shop teachers use the power saws, not every kid. The saws are useful, but a mistake can cause real harm, so only trained people get them.",
+     "why_it_matters": "Regulated firms may split AI coding agent access by role, so teams building these tools should plan for review, testing and access controls before non-engineers can use them.",
+     "topic": "industry",
+     "type": "event",
+     "labs": [
+      "anthropic",
+      "microsoft",
+      "other"
+     ],
+     "people": [],
+     "concepts": [
+      "coding-assistant",
+      "vibe-coding",
+      "ai-governance"
+     ],
+     "spotlight": true,
+     "spotlight_reason": "A major bank pulling an AI coding tool from staff, with 729 HN points, marks a visible shift in how large firms decide whether to allow AI in daily work.",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "Goldman Sachs is pulling Claude Code from its bankers and traders",
+       "url": "https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers",
+       "name": "thestateofai.com",
+       "kind": "press"
+      },
+      {
+       "title": "Discussion on Hacker News",
+       "url": "https://news.ycombinator.com/item?id=50415628",
+       "name": "Hacker News",
+       "kind": "discussion"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-08T18:16:07Z",
+     "checked": {
+      "model": "anthropic:claude-sonnet-5-5",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "Goldman Sachs is pulling Claude Code from its bankers and traders, a notable enterprise move on AI coding tools that drew heavy discussion on Hacker News.",
+     "rank": 2,
+     "id": "2026-11-09-report-goldman-sachs-limits-claude-code-and-github-to-engine",
+     "date": "2026-11-09"
+    },
+    {
+     "title": "Report: Apple pushes to make Siri more agentic, with third-party app control",
+     "one_liner": "Bloomberg's Mark Gurman reports Apple is pressing to speed up Siri, adding first-party app control soon and third-party app integration in the Spring.",
+     "summary": "Bloomberg's Mark Gurman says CEO John Ternus is pressuring AI czar Craig Federighi to speed up the Siri roadmap. The goal is a powerful AI agent that can compete with OpenAI's Dots or Meta's Muse. Two improvements are expected in the coming months. The first gives Siri fine-grained control over Apple's first-party apps, such as rotating and cropping images in Photos and organizing Safari tabs. It is expected with iOS 27.3. The second is third-party app integration, likely in the Spring, such as ordering through Grubhub or booking through OpenTable. Gurman says Apple wants Siri to handle ongoing tasks.",
+     "eli5": "Think of Siri as a helper who can only do one small chore when you ask. Apple wants a helper who can keep working on a bigger job by itself, using lots of different toys.",
+     "why_it_matters": "If the report is right, Siri could soon act inside third-party apps, which would make app integration with Apple's assistant something builders need to plan for.",
+     "topic": "products",
+     "type": "product",
+     "labs": [
+      "other"
+     ],
+     "people": [],
+     "concepts": [
+      "agent",
+      "tool-use"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "Apple is racing to make Siri more agentic",
+       "url": "https://www.theverge.com/ai-artificial-intelligence/1029552/apple-siri-ai-agentic",
+       "name": "The Verge AI",
+       "kind": "press"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-08T19:18:19Z",
+     "checked": {
+      "model": "anthropic:claude-sonnet-5-5",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "Bloomberg reports Apple's new CEO is pushing to speed up a more agentic Siri that can compete with leading AI agents.",
+     "rank": 3,
+     "id": "2026-11-09-report-apple-pushes-to-make-siri-more-agentic-with-third-par",
+     "date": "2026-11-09"
+    },
+    {
+     "title": "NVIDIA releases Dynamo deployment recipes for four Korean open models",
+     "one_liner": "NVIDIA released Dynamo-optimized deployment recipes for Korean open models from SK Telecom, LG AI Research, Upstage and Motif Technologies, tuned for B200 GPUs.",
+     "summary": "NVIDIA is releasing deployment recipes built on NVIDIA Dynamo for four Korean open models: A.X K2 from SK Telecom, K-EXAONE 2.0 from LG AI Research, Solar Open 2 from Upstage and Motif-3 from Motif Technologies. Dynamo is an open source, distributed inference-serving framework for multi-node deployment at data center scale. It handles request routing and communication when models are split across multiple GPUs. The recipes are optimized for NVIDIA B200 GPUs. NVIDIA says they deliver up to 2x performance out of the box and help developers bring these models into production faster.",
+     "eli5": "Some computer brains are too big for one machine, so many machines have to share the work. Dynamo is like a good team captain who tells each player what to do so the team runs fast.",
+     "why_it_matters": "Ready-made, tuned recipes for large open models on B200 GPUs cut the trial and error of multi-GPU serving, so teams can reach production sooner.",
+     "topic": "dev-tools",
+     "type": "product",
+     "labs": [
+      "nvidia",
+      "other"
+     ],
+     "people": [],
+     "concepts": [
+      "inference",
+      "gpu",
+      "open-weight-model"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [
+      {
+       "term": "distributed inference serving",
+       "definition": "Running a model across multiple GPUs or nodes, with careful coordination of request routing and communication to keep performance high."
+      }
+     ],
+     "sources": [
+      {
+       "title": "NVIDIA Dynamo Recipes Bring Korea’s Leading Open Models to Production",
+       "url": "https://blogs.nvidia.com/blog/nvidia-dynamo-korea-open-models/",
+       "name": "NVIDIA Blog",
+       "kind": "original"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-09T05:00:00Z",
+     "checked": {
+      "model": "anthropic:claude-sonnet-5-5",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "NVIDIA released Dynamo-optimized deployment recipes for Korean open models such as A.X K2, K-EXAONE 2.0 and Solar Open, which helps teams run them in production.",
+     "rank": 4,
+     "id": "2026-11-09-nvidia-releases-dynamo-deployment-recipes-for-four-korean-op",
+     "date": "2026-11-09"
+    },
+    {
+     "title": "NVIDIA Details Korea Physical AI Work With Samsung, Kakao Mobility and LG",
+     "one_liner": "NVIDIA says Samsung, Kakao Mobility and LG Electronics are applying accelerated computing, AI and simulation to chips, autonomous driving and factory robots in Korea.",
+     "summary": "NVIDIA described physical AI projects with three Korean companies. Samsung is using GPU tools for semiconductor engineering. In one AI homogenization case, simulation time fell from about 18 hours on a 32-core CPU to 41 seconds, a roughly 1,600x speedup. Samsung's sMOL platform ran selected quantum chemical calculations up to 5x faster end to end. Kakao Mobility plans to build a level 4 autonomous driving system on NVIDIA Hyperion and Halos, starting with Kia purpose-built vehicles. LG Electronics demonstrated GR00T-powered manipulation with its CLOiD robot in an actual manufacturing environment.",
+     "eli5": "Imagine practicing a hard game on a much faster computer, so you learn in seconds instead of hours. Factories, cars and robots can practice the same way before doing the real job.",
+     "why_it_matters": "GPU-accelerated simulation, with AI standing in for heavy physics solves, can cut engineering runs from hours to seconds, and robot teams get a repeatable loop of data, training and testing to follow.",
+     "topic": "industry",
+     "type": "event",
+     "labs": [
+      "nvidia",
+      "other"
+     ],
+     "people": [],
+     "concepts": [
+      "physical-ai",
+      "gpu",
+      "world-model"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [
+      {
+       "term": "AI homogenization",
+       "definition": "Combining AI-predicted effective material properties with coarser grids and GPU acceleration to speed up chip-scale thermal and mechanical simulation."
+      },
+      {
+       "term": "physical AI data flywheel",
+       "definition": "A loop that connects real-world data collection, data augmentation, model training, onboard computing and simulation-based evaluation to keep improving a robot."
+      }
+     ],
+     "sources": [
+      {
+       "title": "Korea Advances Physical AI Across Industries With NVIDIA",
+       "url": "https://blogs.nvidia.com/blog/korea-physical-ai-ecosystem/",
+       "name": "NVIDIA Blog",
+       "kind": "original"
+      },
+      {
+       "title": "Korea’s AI Ecosystem Advances and Secures Agentic AI With NVIDIA",
+       "url": "https://blogs.nvidia.com/blog/korea-secure-agentic-ai/",
+       "name": "NVIDIA Blog",
+       "kind": "original"
+      },
+      {
+       "title": "From Chips to Skills, NVIDIA and Korea Expand Sovereign AI Collaboration",
+       "url": "https://blogs.nvidia.com/blog/korea-sovereign-ai-collaboration/",
+       "name": "NVIDIA Blog",
+       "kind": "original"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-09T05:00:04Z",
+     "checked": {
+      "model": "anthropic:claude-sonnet-5-5",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "NVIDIA is expanding physical AI, agentic AI security and sovereign AI work in Korea with industry leaders, Hyundai and the science ministry.",
+     "rank": 5,
+     "id": "2026-11-09-nvidia-details-korea-physical-ai-work-with-samsung-kakao-mob",
+     "date": "2026-11-09"
+    },
+    {
+     "title": "Report: Commerce AI safety center officials asked to informally report to White House office",
+     "one_liner": "Sources told the Associated Press that officials at the Commerce Department's AI safety center CAISSI were asked to informally report to a White House office.",
+     "summary": "The Associated Press reports, citing sources, that officials at the Commerce Department's AI safety center, called CAISSI, were asked to informally report to a White House office. The report says this raises concerns about the center's independence. The story is by Garance Burke. It describes CAISSI as a tiny U.S. government division. It also notes growing public anxiety over mounting reports about out-of-control artificial intelligence agents. The available text is only a headline and a short excerpt, so further details are not given.",
+     "eli5": "Imagine a referee who checks whether a game is played safely. Now someone from the team's office asks the referee to quietly report to them. People worry the referee may not be fair anymore.",
+     "why_it_matters": "If a government AI safety center is not independent, the safety checks and guidance that teams building AI agents rely on may carry less weight.",
+     "topic": "policy",
+     "type": "event",
+     "labs": [
+      "government"
+     ],
+     "people": [],
+     "concepts": [
+      "ai-safety",
+      "ai-governance",
+      "agent"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "Sources: officials at the Commerce Department's AI safety center CAISSI were asked to informally report to a White House office, raising independence concerns (Garance Burke/Associated Press)",
+       "url": "https://www.techmeme.com/261108/p16#a261108p16",
+       "name": "Techmeme",
+       "kind": "press"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-08T22:55:01Z",
+     "checked": {
+      "model": "anthropic:claude-sonnet-5-5",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "AP reports officials at the Commerce Department's AI safety center CAISSI were asked to informally report to a White House official, which raises questions about the center's independence.",
+     "rank": 6,
+     "id": "2026-11-09-report-commerce-ai-safety-center-officials-asked-to-informal",
+     "date": "2026-11-09"
+    },
+    {
+     "title": "Tencent AI chief scientist says Anthropic has a \"strong argument\" for closed models, SCMP.",
+     "one_liner": "Tencent's chief AI scientist Yao Shunyu says AI's biology abilities will soon make it \"possible to do harm\", South China Morning Post reports.",
+     "summary": "The South China Morning Post reports on comments by Yao Shunyu, Tencent's chief AI scientist. He says AI models will soon be powerful enough to master biology. The report says this brings both benefits and risks. In his words, AI's bio abilities will soon make it \"possible to do harm\". He also says Anthropic has a \"strong argument\" for closed models. The report is by Vincent Chow. The source text is a short Techmeme excerpt, so it gives no further detail on his reasoning or on what he proposes.",
+     "eli5": "Imagine a very smart helper that is getting good at science. Some people worry it could be used the wrong way, so they talk about who should be allowed to use it.",
+     "why_it_matters": "A senior AI scientist at Tencent says AI's biology skills could soon allow harm, which adds to the debate over closed models and may shape how model access is discussed.",
+     "topic": "policy",
+     "type": "person",
+     "labs": [
+      "other",
+      "anthropic"
+     ],
+     "people": [],
+     "concepts": [
+      "ai-safety",
+      "open-weight-model"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "Tencent's chief AI scientist Yao Shunyu says AI's bio abilities will soon make it \"possible to do harm\" and Anthropic has a \"strong argument\" for closed models (Vincent Chow/South China Morning Post)",
+       "url": "https://www.techmeme.com/261108/p21#a261108p21",
+       "name": "Techmeme",
+       "kind": "press"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-09T03:15:01Z",
+     "checked": {
+      "model": "anthropic:claude-sonnet-5-5",
+      "rounds": 2,
+      "hype_flags": []
+     },
+     "editor_reason": "Tencent's chief AI scientist says AI's biology abilities will soon make it possible to do harm, adding to the safety debate.",
+     "rank": 7,
+     "id": "2026-11-09-tencent-ai-chief-scientist-says-anthropic-has-a-strong-argum",
+     "date": "2026-11-09"
+    },
+    {
+     "title": "Report: Drugmaker CEOs doubt Silicon Valley claims that AI will cure disease",
+     "one_liner": "A Hacker News-linked story says drugmaker CEOs are not convinced by Silicon Valley promises that AI will cure disease.",
+     "summary": "A story shared on Hacker News is titled \"Silicon Valley Promises AI Will Cure Disease. Drugmaker CEOs Aren't Buying It.\" The headline says tech leaders in Silicon Valley are promising that AI will cure disease. It also says CEOs of drug companies do not accept that claim. The source text gives only the headline. It names no companies, executives, numbers or specific arguments, so the reasons for the doubt are not stated.",
+     "eli5": "Some people say a new smart helper can fix sickness. The people who make medicine say they are not sure that is true.",
+     "why_it_matters": "Claims that AI will transform drug discovery face open doubt from drug company leaders, so teams building for pharma should expect buyers to want proof over promises.",
+     "topic": "industry",
+     "type": "event",
+     "labs": [
+      "other"
+     ],
+     "people": [],
+     "concepts": [],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "Silicon Valley Promises AI Will Cure Disease. Drugmaker CEOs Aren't Buying It",
+       "url": "https://www.wsj.com/tech/ai/silicon-valley-promises-ai-will-cure-disease-drugmaker-ceos-arent-buying-it-5218511c",
+       "name": "wsj.com",
+       "kind": "press"
+      },
+      {
+       "title": "Discussion on Hacker News",
+       "url": "https://news.ycombinator.com/item?id=50415817",
+       "name": "Hacker News",
+       "kind": "discussion"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-08T18:43:07Z",
+     "checked": {
+      "model": "anthropic:claude-sonnet-5-5",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "Drugmaker CEOs are pushing back on Silicon Valley claims that AI will cure disease, a useful reality check on AI in pharma.",
+     "rank": 8,
+     "id": "2026-11-09-report-drugmaker-ceos-doubt-silicon-valley-claims-that-ai-wi",
+     "date": "2026-11-09"
+    },
+    {
+     "title": "Simon Willison hides agent-written PR descriptions behind a collapsible details tag",
+     "one_liner": "Simon Willison puts a short human-written opener at the top of AI-generated PRs and folds the full agent description into a collapsed details/summary block.",
+     "summary": "Simon Willison says most changes to his projects now arrive as PRs opened by Claude Code or Codex. He finds the agent-written descriptions accurate and comprehensive, but they read like slop and are too long. His fix uses the HTML <details><summary> elements, which GitHub Markdown supports. A short, human-chosen opener goes first, sometimes with a screenshot. The full agent text follows inside the collapsed block, with the model name and often the effort level as the summary, such as \"Claude Opus 5.5 Medium\". He lists recent examples from datasette, datasette-agent and llm.",
+     "eli5": "Imagine a friend hands you a huge storybook, but first tells you the best part in one sentence. The long book is still there if you want it, just closed until you open it.",
+     "why_it_matters": "A short human-written opener with the full agent text collapsed below keeps AI-generated PRs readable for reviewers without discarding the detail the agent produced.",
+     "topic": "dev-tools",
+     "type": "product",
+     "labs": [
+      "microsoft",
+      "anthropic",
+      "openai"
+     ],
+     "people": [],
+     "concepts": [
+      "coding-assistant",
+      "agent"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "Hide your slop PR descriptions behind",
+       "url": "https://simonwillison.net/2026/Nov/9/details-summary/",
+       "name": "Simon Willison",
+       "kind": "press"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-09T04:25:05Z",
+     "checked": {
+      "model": "anthropic:claude-sonnet-5-5",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "Simon Willison shares a practical way to handle PR descriptions written by Claude Code or Codex, as agent-opened PRs become a normal unit of work.",
+     "rank": 9,
+     "id": "2026-11-09-simon-willison-hides-agent-written-pr-descriptions-behind-a",
+     "date": "2026-11-09"
+    },
+    {
+     "title": "Google unveils TPU 8tx and TPU 8i Max chips, launching 2027",
+     "one_liner": "Google announced two specialized TPUs: the TPU 8tx, paired with AMD CPUs, and the TPU 8i Max, a dual-chip package for long-context tasks, launching 2027.",
+     "summary": "Google is widening its range of AI chips with two new variants in the TPU 8 family. The TPU 8tx is to be paired with AMD CPUs. The Decoder reports it keeps sensitive data encrypted even during processing. The TPU 8i Max places two chips on a single package, which doubles compute power and memory. Bloomberg says it targets long-context window tasks and launches in 2027. The Decoder reports Google now has nearly 100 external customers for its TPUs. It says Google is positioning these in-house chips as an alternative to Nvidia's GPUs.",
+     "eli5": "Imagine a bakery that used to have one kind of oven. Now it has two special ovens, one that keeps the recipe secret while baking, and one that is twice as big for huge cakes.",
+     "why_it_matters": "Teams that run long-context or sensitive-data workloads get more hardware choices beyond Nvidia GPUs, with the TPU 8i Max launching in 2027.",
+     "topic": "industry",
+     "type": "product",
+     "labs": [
+      "google",
+      "other"
+     ],
+     "people": [],
+     "concepts": [
+      "context-window",
+      "gpu",
+      "inference"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "Google unveils two specialized TPUs, the TPU 8tx, to be paired with AMD CPUs, and TPU 8i Max, a dual-chip package for long-context window tasks, launching 2027 (Dina Bass/Bloomberg)",
+       "url": "https://www.techmeme.com/261109/p22#a261109p22",
+       "name": "Techmeme",
+       "kind": "press"
+      },
+      {
+       "title": "Google ships four TPU variants in one year as it ramps up competition with Nvidia",
+       "url": "https://the-decoder.com/google-ships-four-tpu-variants-in-one-year-as-it-ramps-up-competition-with-nvidia/",
+       "name": "The Decoder",
+       "kind": "press"
+      }
+     ],
+     "buzz": 2,
+     "published": "2026-11-09T12:50:00Z",
+     "checked": {
+      "model": "anthropic:claude-sonnet-5-5",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "Google adds two specialized TPU 8 chips, one for encrypted processing paired with AMD CPUs and one dual-chip package for long context, raising the pressure on Nvidia.",
+     "rank": 10,
+     "id": "2026-11-09-google-unveils-tpu-8tx-and-tpu-8i-max-chips-launching-2027",
+     "date": "2026-11-09"
+    },
+    {
+     "title": "Nvidia board opens probe into CEO Jensen Huang after he admits affair, reports say",
+     "one_liner": "Nvidia's board opened an independent investigation into CEO Jensen Huang after he admitted an affair with a woman US intelligence agencies classify as a suspected Chinese informant.",
+     "summary": "Nvidia's board has opened an independent investigation into CEO Jensen Huang after he admitted to an extramarital affair, according to the Financial Times and The Decoder. The woman is classed by US intelligence agencies as a suspected Chinese informant. Bloomberg reports she founded Megaspeed in 2023, and that Megaspeed's Nvidia imports top $4.6B. Nvidia shares fell about 5% pre-market. The New York Times says Huang manages 60+ direct reports and owns a 3.56% stake, which challenges the 10-person board. His daughter Madison Huang cancelled a Seoul appearance, citing a \"family matter\". The Decoder says the case weakens his lobbying against tighter AI chip export controls.",
+     "eli5": "Imagine the head of a big toy company admits to a secret friendship with someone people worry is a spy. The company's helpers now have to check carefully what happened.",
+     "why_it_matters": "A weaker Nvidia lobby on export controls and a new Congress focused on chip smuggling could mean tighter limits on AI chip supply, which would affect GPU access and planning for teams.",
+     "topic": "industry",
+     "type": "event",
+     "labs": [
+      "nvidia",
+      "government"
+     ],
+     "people": [],
+     "concepts": [
+      "gpu",
+      "ai-governance"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "Nvidia Senior Director Madison Huang, daughter of Jensen, cancels a high-profile Seoul appearance citing a \"family matter\", throwing the event into disarray (Yoolim Lee/Bloomberg)",
+       "url": "https://www.techmeme.com/261109/p12#a261109p12",
+       "name": "Techmeme",
+       "kind": "press"
+      },
+      {
+       "title": "Nvidia drops ~5% pre-market after its board opens a probe into Jensen Huang; Nvidia previously dismissed the interactions as \"nothing unusual or unexpected\" (Demetri Sevastopulo/Financial Times)",
+       "url": "https://www.techmeme.com/261109/p11#a261109p11",
+       "name": "Techmeme",
+       "kind": "press"
+      },
+      {
+       "title": "Nvidia espionage scandal weakens Huang's lobby against tighter AI chip export controls",
+       "url": "https://the-decoder.com/nvidia-espionage-scandal-weakens-huangs-lobby-against-tighter-ai-chip-export-controls/",
+       "name": "The Decoder",
+       "kind": "press"
+      },
+      {
+       "title": "Jensen Huang maintains deep control over Nvidia, managing 60+ direct reports and owning a 3.56% stake, presenting a challenge for Nvidia's 10-person board (New York Times)",
+       "url": "https://www.techmeme.com/261109/p13#a261109p13",
+       "name": "Techmeme",
+       "kind": "press"
+      },
+      {
+       "title": "A profile of Alice Huang, a suspected Chinese spy who founded Megaspeed in 2023 and spent years in Jensen Huang's orbit; Megaspeed's Nvidia imports top $4.6B (Mark Anderson/Bloomberg)",
+       "url": "https://www.techmeme.com/261109/p18#a261109p18",
+       "name": "Techmeme",
+       "kind": "press"
+      }
+     ],
+     "buzz": 2,
+     "published": "2026-11-09T10:40:00Z",
+     "checked": {
+      "model": "anthropic:claude-sonnet-5-5",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "Nvidia's board has opened a probe into Jensen Huang, the stock fell about 5% pre-market, and coverage links it to a suspected Chinese informant and export control lobbying.",
+     "rank": 11,
+     "id": "2026-11-09-nvidia-board-opens-probe-into-ceo-jensen-huang-after-he-admi",
+     "date": "2026-11-09"
+    },
+    {
+     "title": "US prosecutors say AI voice scam calls cost businesses $129M+",
+     "one_liner": "US federal prosecutors say scam calls using AI-generated voices to mimic company executives cost businesses $129M+ in the 18 months since July 2024.",
+     "summary": "US federal prosecutors say businesses have lost $129M+ to scam calls that use AI-generated voices to mimic company executives. The losses cover the 18 months since July 2024. According to the New York Times, a federal indictment alleges that three men used generative A.I. to impersonate the voices of chief executives and lawyers. The indictment says they used these voices to defraud companies of millions of dollars. These are allegations from prosecutors. The sources do not say how the calls were made, which companies were hit, or how the case will be decided.",
+     "eli5": "Imagine someone copies your teacher's voice on the phone and tells you to hand over your lunch money. A computer can now copy voices like that, and some people are using it to trick companies.",
+     "why_it_matters": "Voice alone is no longer proof of who is calling, so teams building voice or payment tools need other ways to verify identity.",
+     "topic": "policy",
+     "type": "event",
+     "labs": [
+      "government"
+     ],
+     "people": [],
+     "concepts": [
+      "generative-model",
+      "ai-safety"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [
+      {
+       "term": "AI voice impersonation",
+       "definition": "Using generative A.I. to mimic the voices of real people, such as chief executives and lawyers, to defraud companies."
+      }
+     ],
+     "sources": [
+      {
+       "title": "US federal prosecutors say businesses have lost $129M+ to scam calls using AI-generated voices to mimic company executives in the 18 months since July 2024 (Adeel Hassan/New York Times)",
+       "url": "https://www.techmeme.com/261109/p9#a261109p9",
+       "name": "Techmeme",
+       "kind": "press"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-09T09:50:00Z",
+     "checked": {
+      "model": "anthropic:claude-sonnet-5-5",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "US prosecutors say AI-voice scam calls impersonating executives have cost businesses more than $129M, a concrete risk for anyone building voice products.",
+     "rank": 12,
+     "id": "2026-11-09-us-prosecutors-say-ai-voice-scam-calls-cost-businesses-129m",
+     "date": "2026-11-09"
+    },
+    {
+     "title": "Harwood, North Dakota voters reject measure opposing Applied Digital's $3B data center",
+     "one_liner": "Voters in Harwood, North Dakota rejected a ballot measure against Applied Digital's $3B data center, going against a nationwide backlash, the Washington Post reports.",
+     "summary": "The Washington Post reports that voters in Harwood, North Dakota rejected a ballot measure that opposed Applied Digital's $3B data center. The data center is set to open in 2027. The result bucks a nationwide backlash. According to the report, on Election Day much of the country turned against the massive projects that power AI. The article, by Miriam Waldvogel, looks at why Harwood did not. The source text is only a Techmeme summary of the piece. It does not give vote totals, the ballot measure's exact wording, or the reasons voters gave.",
+     "eli5": "Imagine a town voting on whether to let a giant new building be built nearby. Many towns said no, but this one said yes.",
+     "why_it_matters": "Local votes on data centers can shape where and when new AI computing capacity gets built, which affects the infrastructure that AI projects depend on.",
+     "topic": "industry",
+     "type": "event",
+     "labs": [
+      "other"
+     ],
+     "people": [],
+     "concepts": [],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "US voters in Harwood, North Dakota rejected a ballot measure that opposed Applied Digital's $3B data center, set to open in 2027, bucking a nationwide backlash (Miriam Waldvogel/Washington Post)",
+       "url": "https://www.techmeme.com/261109/p17#a261109p17",
+       "name": "Techmeme",
+       "kind": "press"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-09T11:50:00Z",
+     "checked": {
+      "model": "anthropic:claude-sonnet-5-5",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "Voters in Harwood, North Dakota rejected a measure opposing a $3B AI data center, a sign of how local politics shapes AI compute buildout.",
+     "rank": 13,
+     "id": "2026-11-09-harwood-north-dakota-voters-reject-measure-opposing-applied",
+     "date": "2026-11-09"
+    },
+    {
+     "title": "Meta expands Instagram AI age estimation worldwide to find teens who misstated age",
+     "one_liner": "Meta says it is expanding Instagram's AI age estimation globally, to apply Teen Account protections to teens aged 13 to 17 who misrepresented their age.",
+     "summary": "Meta says it is globally expanding Instagram's AI age estimation technology. The goal is to apply Teen Account protections to teens aged 13 to 17 who misrepresented their age. The Verge's Jess Weatherbed reports the news. According to the report, Meta says it will extend Teen Account protections to millions more kids, even if they have misrepresented their age. The source text does not say how the age estimation works, which countries get it first, or when the rollout will finish.",
+     "eli5": "Imagine a playground with a rule that little kids get a safe play area. Some kids say they are older to skip it, so a helper now tries to guess who is really little and moves them there.",
+     "why_it_matters": "AI age estimation is moving into large consumer platforms worldwide, so teams building apps used by teens should expect age signals to rely on model predictions and not only on the age a user types in.",
+     "topic": "policy",
+     "type": "event",
+     "labs": [
+      "meta"
+     ],
+     "people": [],
+     "concepts": [
+      "ai-governance",
+      "machine-learning"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [
+      {
+       "term": "AI age estimation",
+       "definition": "Technology that uses AI to estimate a user's age, here used to find teens who misrepresented their age."
+      }
+     ],
+     "sources": [
+      {
+       "title": "Meta says it is globally expanding Instagram's AI age estimation tech to apply Teen Account protections to teens aged 13 to 17 who misrepresented their age (Jess Weatherbed/The Verge)",
+       "url": "https://www.techmeme.com/261109/p19#a261109p19",
+       "name": "Techmeme",
+       "kind": "press"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-09T12:15:00Z",
+     "checked": {
+      "model": "anthropic:claude-sonnet-5-5",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "Meta is expanding Instagram's AI age estimation globally to apply Teen Account protections to teens aged 13 to 17.",
+     "rank": 14,
+     "id": "2026-11-09-meta-expands-instagram-ai-age-estimation-worldwide-to-find-t",
+     "date": "2026-11-09"
+    },
+    {
+     "title": "NVIDIA announces investment in Point2 and plans more in three Korean startups",
+     "one_liner": "NVIDIA announced an investment in Korean startup Point2 and planned investments in Motif Technologies, RLWRLD and Upstage at a forum with Korea's science ministry.",
+     "summary": "Korea's Ministry of Science and ICT and NVIDIA hosted the MSIT-NVIDIA AI Startup Partnership Forum at COEX. Vice minister Ryu Je-myung joined NVIDIA leaders to meet over 20 Korean startups. NVIDIA announced an investment in Point2, which builds radio frequency-based interconnects for AI factories. It plans further investments in Motif Technologies, RLWRLD and Upstage. Motif released Motif-3, a large language model with open weights. RLWRLD builds robotics foundation models, and Upstage makes Solar language models and document AI tools. NVIDIA also noted more than 1,000 Korea-based members of NVIDIA Inception.",
+     "eli5": "Imagine a big company giving money to several small workshops that each make a different part of a toy, like the wheels, the brain and the arms. That helps all the parts get built.",
+     "why_it_matters": "NVIDIA backing for startups across interconnects, open-weight models, robotics models and document AI signals where Korean AI tooling may grow, including an open-weight LLM in Motif-3.",
+     "topic": "industry",
+     "type": "event",
+     "labs": [
+      "nvidia",
+      "government"
+     ],
+     "people": [],
+     "concepts": [
+      "physical-ai",
+      "foundation-model",
+      "open-weight-model"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [
+      {
+       "term": "AI interconnect",
+       "definition": "Technology that moves data between chips and racks in AI factories, such as radio frequency-based links offered as an alternative to copper and optical interconnects."
+      }
+     ],
+     "sources": [
+      {
+       "title": "NVIDIA Announces New Planned Investments in Korean Startups at the MSIT-NVIDIA AI Startup Partnership Forum",
+       "url": "https://blogs.nvidia.com/blog/korean-startup-investments-msit/",
+       "name": "NVIDIA Blog",
+       "kind": "original"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-09T08:00:53Z",
+     "checked": {
+      "model": "anthropic:claude-sonnet-5-5",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "NVIDIA announced planned investments in Korean startups at a forum with Korea's Ministry of Science and ICT.",
+     "rank": 15,
+     "id": "2026-11-09-nvidia-announces-investment-in-point2-and-plans-more-in-thre",
+     "date": "2026-11-09"
+    },
+    {
+     "title": "Open-source MCP server links AI assistants to Roblox Studio",
+     "one_liner": "A new GitHub repo, roblox-studio-mcp, says it lets AI assistants like Claude, Cursor and Cline read Roblox Studio object trees and automate Lua scripting.",
+     "summary": "A new GitHub repo, Nanoutrolley/roblox-studio-mcp, is a Model Context Protocol server for Roblox Studio. Its README says AI assistants such as Claude, Cursor and Cline can read object trees, edit Lua scripts and run playtests. It describes a Node.js and TypeScript stack, though the listing shows Python as the language. Settings include RBX_MCP_PORT, default 44755, and RBX_MCP_SAFE_MODE to disable destructive actions. The repo has 279 stars and an MIT license. The quick start tells users to run ProjectFiles.exe, which differs from the npx setup shown later.",
+     "eli5": "Imagine a translator who sits between you and a toy-building game, so a helper robot can look at your toys and help build them. This repo is that translator for Roblox Studio.",
+     "why_it_matters": "Roblox creators can wire an MCP-aware assistant into Studio for scripting help, but the README gives two different install paths and conflicting language details, so check the setup before running anything.",
+     "topic": "dev-tools",
+     "type": "product",
+     "labs": [],
+     "people": [],
+     "concepts": [
+      "mcp",
+      "coding-assistant"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "Nanoutrolley/roblox-studio-mcp: Model Context Protocol (MCP) server for Roblox Studio. Connect AI assistants (Claude, Cursor, Cline) to read object trees, automate Lua scripting, and run playtests safely. Open-source AI bridge.",
+       "url": "https://github.com/Nanoutrolley/roblox-studio-mcp",
+       "name": "GitHub new AI repos",
+       "kind": "original"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-09T08:58:06Z",
+     "checked": {
+      "model": "anthropic:claude-sonnet-5-5",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "An MCP server lets Claude, Cursor and Cline read object trees, write Lua scripts and run playtests in Roblox Studio.",
+     "rank": 16,
+     "id": "2026-11-09-open-source-mcp-server-links-ai-assistants-to-roblox-studio",
+     "date": "2026-11-09"
+    },
+    {
+     "title": "Google ships four TPU variants in one year as it competes with Nvidia",
+     "one_liner": "Google released four TPU variants in a single year, as it steps up competition with Nvidia, according to The Decoder.",
+     "summary": "The Decoder reports that Google shipped four TPU variants in one year. The report frames this as part of Google ramping up its competition with Nvidia. The source text gives only the headline. It does not say what the four variants are called, what they do, how they perform, or when each one launched. No specs, prices or customer details are stated. Readers who want those details will need to check the full article or Google's own announcements.",
+     "eli5": "Imagine a bakery that makes four new kinds of bread in one year to win customers from the big bakery down the street.",
+     "why_it_matters": "Google is putting out more of its own TPU chips as an alternative to Nvidia, which may widen the hardware choices for teams running AI workloads.",
+     "topic": "industry",
+     "type": "event",
+     "labs": [
+      "google",
+      "nvidia"
+     ],
+     "people": [],
+     "concepts": [
+      "gpu"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "The Decoder",
+       "url": "https://the-decoder.com/",
+       "name": "The Decoder",
+       "kind": "press"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-09T13:02:52Z",
+     "checked": {
+      "model": "anthropic:claude-sonnet-5-5",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "Added by the editor after the nightly run missed it.",
+     "added_by_editor": "2026-11-09",
+     "id": "2026-11-09-google-ships-four-tpu-variants-in-one-year-as-it-competes-wi",
+     "date": "2026-11-09",
+     "rank": 17
+    },
+    {
+     "title": "Anthropic reportedly to proceed with IPO roadshow ahead of Nov 20 debut",
+     "one_liner": "Anthropic is expected to launch its public roadshow, with shares set to debut on November 20, according to a newsletter citing The Information.",
+     "summary": "A newsletter dated November 9, 2026 says Anthropic is expected to launch its public roadshow, with shares set to debut on November 20. A separate headline, citing The Information, says Anthropic will proceed with its IPO roadshow ahead of next week's listing. The newsletter calls it the first real public price on a frontier lab. It pairs the story with a report that Nvidia's board opened an independent investigation after reports that Jensen Huang was targeted by a Chinese spy operation. The sources give no share price, deal size or valuation.",
+     "eli5": "Imagine a lemonade stand owned by a few friends. Soon it will let the whole neighborhood buy a small piece, so everyone can see what the stand is worth.",
+     "why_it_matters": "A public listing puts the first real market price on a frontier lab, giving the wider market a clear signal of how investors value one.",
+     "topic": "industry",
+     "type": "event",
+     "labs": [
+      "anthropic"
+     ],
+     "people": [],
+     "concepts": [],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "Monday November 9, 2026",
+       "url": "https://bitdigest.substack.com/p/monday-november-9-2026",
+       "name": "bitdigest.substack.com",
+       "kind": "press"
+      },
+      {
+       "title": "AI News Today, November 9: Top Stories | AI Weekly",
+       "url": "https://aiweekly.co/ai-news-today",
+       "name": "AI Weekly",
+       "kind": "press"
+      }
+     ],
+     "buzz": 2,
+     "published": "2026-11-09T13:02:52Z",
+     "checked": {
+      "model": "anthropic:claude-sonnet-5-5",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "Added by the editor after the nightly run missed it.",
+     "added_by_editor": "2026-11-09",
+     "id": "2026-11-09-anthropic-reportedly-to-proceed-with-ipo-roadshow-ahead-of-n",
+     "date": "2026-11-09",
+     "rank": 18
+    },
+    {
+     "title": "Mistral Large 4 released as open weights with one trillion parameters",
+     "one_liner": "Mistral released Large 4 as open weights at 1T parameters under a modified MIT licence, with a separate deal needed for Model-as-a-Service resellers.",
+     "summary": "Mistral Large 4 is an open weight model with 1T total parameters. Mistral put it on Hugging Face. The weights are downloadable under a modified MIT licence. Businesses that run a Model-as-a-Service offering need a separate commercial agreement from Mistral. So the model is open weights, but not unrestricted. On the Artificial Analysis Coding Agent Index, it ties GLM-5.3 while using 47% fewer tokens.",
+     "eli5": "Imagine a baker gives away a huge recipe book for free. You can cook from it at home, but if you want to sell the food in a shop, you must ask the baker first.",
+     "why_it_matters": "Teams can download and run a trillion-parameter model themselves, but anyone selling it as a hosted service must read the licence and sign a separate agreement with Mistral.",
+     "topic": "models",
+     "type": "model",
+     "labs": [
+      "mistral"
+     ],
+     "people": [],
+     "concepts": [
+      "open-weight-model",
+      "tokens",
+      "benchmark"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "AI News, 9 November 2026: Five Stories That Matter",
+       "url": "https://aitoolsrecap.com/Blog/ai-news-november-09-2026",
+       "name": "aitoolsrecap.com",
+       "kind": "press"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-09T13:02:52Z",
+     "checked": {
+      "model": "anthropic:claude-sonnet-5-5",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "Added by the editor after the nightly run missed it.",
+     "added_by_editor": "2026-11-09",
+     "id": "2026-11-09-mistral-large-4-released-as-open-weights-with-one-trillion-p",
+     "date": "2026-11-09",
+     "rank": 19
+    }
+   ],
+   "stats": {
+    "items": 14,
+    "stories": 14,
+    "sources_ok": 42,
+    "sources_failed": [],
+    "published": 19,
+    "dropped": 0,
+    "llm_calls": 15,
+    "cache_hits": 0,
+    "models": {
+     "anthropic:claude-sonnet-5-5": 15
+    },
+    "fallbacks": [],
+    "seconds": 94
+   }
   }
  }
 }

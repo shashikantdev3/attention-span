@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-05T20:01:13Z",
+ "updated_at": "2026-11-09T13:04:57Z",
  "window_days": 7,
  "groups": [
   {
@@ -791,6 +791,51 @@
    "group": "builders",
    "known_for": "Founding product lead for Claude Code at Anthropic; joined OpenAI in November 2026",
    "x": "_catwu",
+   "bsky": null,
+   "bsky_check": null
+  },
+  {
+   "id": "soumith-chintala",
+   "name": "Soumith Chintala",
+   "group": "researchers",
+   "known_for": "Co-created PyTorch",
+   "x": "soumithchintala",
+   "bsky": null,
+   "bsky_check": null
+  },
+  {
+   "id": "casey-newton",
+   "name": "Casey Newton",
+   "group": "explainers",
+   "known_for": "Writes Platformer, a newsletter on tech and AI",
+   "x": "CaseyNewton",
+   "bsky": null,
+   "bsky_check": null
+  },
+  {
+   "id": "kyle-chan",
+   "name": "Kyle Chan",
+   "group": "explainers",
+   "known_for": "Writes about China's technology and industrial policy",
+   "x": "kyleichan",
+   "bsky": null,
+   "bsky_check": null
+  },
+  {
+   "id": "x-thinking-machines",
+   "name": "Thinking Machines Lab",
+   "group": "official",
+   "known_for": "AI lab behind the Inkling models and the Tinker fine-tuning service",
+   "x": "thinkymachines",
+   "bsky": null,
+   "bsky_check": null
+  },
+  {
+   "id": "x-nous-research",
+   "name": "Nous Research",
+   "group": "official",
+   "known_for": "Open-source AI lab behind the Hermes models",
+   "x": "NousResearch",
    "bsky": null,
    "bsky_check": null
   },
@@ -1832,6 +1877,383 @@
  ],
  "posts": [
   {
+   "id": "x-2119692253233103264",
+   "platform": "x",
+   "url": "https://x.com/elonmusk/status/2119692253233103264",
+   "posted_at": "2026-11-09T07:23:09Z",
+   "date_only": false,
+   "text": "🙏",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"qme\" dir=\"ltr\">🙏</p>&mdash; Elon Musk (@elonmusk) <a href=\"https://x.com/elonmusk/status/2119692253233103264?ref_src=twsrc%5Etfw\">November 9, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "elon-musk",
+   "meaning": "Elon Musk posts only a praying-hands emoji, with no claim, announcement or link about AI.",
+   "concepts": [],
+   "story": null,
+   "model": "anthropic:claude-haiku-5-5",
+   "checked": null,
+   "added": "2026-11-09"
+  },
+  {
+   "id": "bsky-simonwillison.net-3mzu42ujywk24",
+   "person": "simon-willison",
+   "platform": "bluesky",
+   "url": "https://bsky.app/profile/simonwillison.net/post/3mzu42ujywk24",
+   "posted_at": "2026-11-09T04:36:33Z",
+   "text": "I've recently started hiding the bulk of my AI-generated GitHub PR descriptions behind a collapsed <details><summary> HTML tag (thankfully supported by GitHub Markdown) and I think it's a useful pattern for making PR slop a little bit less exhausting simonwillison.net/2026/Nov/9/d...",
+   "links": [
+    {
+     "text": "simonwillison.net/2026/Nov/9/d...",
+     "url": "https://simonwillison.net/2026/Nov/9/details-summary/"
+    }
+   ],
+   "context": {
+    "kind": "link",
+    "url": "https://simonwillison.net/2026/Nov/9/details-summary/",
+    "title": "Hide your slop PR descriptions behind <details><summary>",
+    "text": "Most of the changes I make to my projects these days come in the form of PRs opened for me by Claude Code or Codex. The PR is my unit …"
+   },
+   "likes": 181,
+   "reposts": 13,
+   "via": "feed",
+   "meaning": "Simon Willison says he now hides the bulk of his AI-generated GitHub PR descriptions inside a collapsed details tag. He argues this makes the flood of agent-written pull requests less tiring to read.",
+   "concepts": [
+    "coding-assistant",
+    "agent"
+   ],
+   "story": "2026-11-09-simon-willison-hides-agent-written-pr-descriptions-behind-a",
+   "model": "anthropic:claude-haiku-5-5",
+   "checked": "anthropic:claude-sonnet-5-5",
+   "added": "2026-11-09"
+  },
+  {
+   "id": "x-2119162511203131591",
+   "platform": "x",
+   "url": "https://x.com/SemiAnalysis_/status/2119162511203131591",
+   "posted_at": "2026-11-07T20:18:09Z",
+   "date_only": false,
+   "text": "We Visited China’s Stargate in Inner Mongolia \nA wind-powered 800MW campus, \n120MW built within a year, \na 5MW SST-native 800V DC pilot and a cooling design without central chillers https://t.co/t1CnGzAVgG",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">We Visited China’s Stargate in Inner Mongolia <br>A wind-powered 800MW campus, <br>120MW built within a year, <br>a 5MW SST-native 800V DC pilot and a cooling design without central chillers <a href=\"https://t.co/t1CnGzAVgG\">https://t.co/t1CnGzAVgG</a></p>&mdash; SemiAnalysis (@SemiAnalysis_) <a href=\"https://x.com/SemiAnalysis_/status/2119162511203131591?ref_src=twsrc%5Etfw\">November 7, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "x-semianalysis",
+   "meaning": "SemiAnalysis shares details from visiting an 800MW wind-powered data center campus in Inner Mongolia, highlighting its fast build time, DC pilot, and cooling design.",
+   "concepts": [
+    "hyperscaler"
+   ],
+   "story": null,
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "anthropic:claude-sonnet-5-5",
+   "added": "2026-11-09"
+  },
+  {
+   "id": "bsky-emollick.bsky.social-3mzqkydpmfd2h",
+   "person": "ethan-mollick",
+   "platform": "bluesky",
+   "url": "https://bsky.app/profile/emollick.bsky.social/post/3mzqkydpmfd2h",
+   "posted_at": "2026-11-07T18:52:55Z",
+   "text": "I think there is too much concern expressed about verification of AI output in everyday work due to a risk of factual errors (there might be things to verify beyond errors, though)\n\nIt used to be true, but data on more recent models suggest they beat human experts in finding facts & checking claims.",
+   "links": [],
+   "context": null,
+   "likes": 133,
+   "reposts": 15,
+   "via": "feed",
+   "meaning": "Ethan Mollick argues that worry about verifying everyday AI output is overblown. He says newer models reportedly beat human experts at finding facts and checking claims, though other verification needs may remain.",
+   "concepts": [
+    "hallucination"
+   ],
+   "story": null,
+   "model": "anthropic:claude-haiku-5-5",
+   "checked": "anthropic:claude-sonnet-5-5",
+   "added": "2026-11-09"
+  },
+  {
+   "id": "bsky-emollick.bsky.social-3mzq6762vuc25",
+   "person": "ethan-mollick",
+   "platform": "bluesky",
+   "url": "https://bsky.app/profile/emollick.bsky.social/post/3mzq6762vuc25",
+   "posted_at": "2026-11-07T15:04:06Z",
+   "text": "This can be a golden age of investigative journalism. Analyzing filings, records and public data to go deep into a company or government or whatever used to be something that took a team of journalists a long time, so was relatively rare. Now LLMs can 10x investigative research to help reporting",
+   "links": [],
+   "context": null,
+   "likes": 83,
+   "reposts": 6,
+   "via": "feed",
+   "meaning": "Mollick argues investigative journalism could enter a golden age. He says LLMs could make research into filings, records and public data about ten times faster, helping reporters go deeper.",
+   "concepts": [
+    "llm"
+   ],
+   "story": null,
+   "model": "anthropic:claude-haiku-5-5",
+   "checked": "anthropic:claude-sonnet-5-5",
+   "added": "2026-11-09"
+  },
+  {
+   "id": "bsky-emollick.bsky.social-3mzp6wfzwgt2h",
+   "person": "ethan-mollick",
+   "platform": "bluesky",
+   "url": "https://bsky.app/profile/emollick.bsky.social/post/3mzp6wfzwgt2h",
+   "posted_at": "2026-11-07T05:44:26Z",
+   "text": "As a longtime reader (and writer of two small pieces in the 1990s) of WIRED, I was curious if the coverage of the AI era really does differ from its coverage of the early internet. A couple of experiments with Astra shows it does. Interpretation depends on your view of AI, though",
+   "links": [],
+   "context": null,
+   "likes": 55,
+   "reposts": 2,
+   "via": "feed",
+   "meaning": "Mollick says he tested WIRED's coverage of the AI era against its early internet coverage and found they differ. He notes the meaning of that difference depends on one's view of AI.",
+   "concepts": [],
+   "story": null,
+   "model": "anthropic:claude-haiku-5-5",
+   "checked": "anthropic:claude-sonnet-5-5",
+   "added": "2026-11-09"
+  },
+  {
+   "id": "bsky-emollick.bsky.social-3mzomjgktvd2h",
+   "person": "ethan-mollick",
+   "platform": "bluesky",
+   "url": "https://bsky.app/profile/emollick.bsky.social/post/3mzomjgktvd2h",
+   "posted_at": "2026-11-07T00:15:03Z",
+   "text": "Some new data from Anthropic looking at the impact of AI on the sciences by field: \"With current capabilities, if adopted widely, AI could take on 27–52% of the researcher time needed to produce a new study, with a median of 38% across fields...\"\nHere: www.anthropic.com/research/how...",
+   "links": [
+    {
+     "text": "www.anthropic.com/research/how...",
+     "url": "https://www.anthropic.com/research/how-researchers-use-claude"
+    }
+   ],
+   "context": null,
+   "likes": 69,
+   "reposts": 9,
+   "via": "feed",
+   "meaning": "Mollick shares Anthropic data estimating AI could take 27 to 52 percent of the researcher time needed for a new study, with a median of 38 percent across fields. He points readers to the Anthropic research.",
+   "concepts": [],
+   "story": null,
+   "model": "anthropic:claude-haiku-5-5",
+   "checked": "anthropic:claude-sonnet-5-5",
+   "added": "2026-11-09"
+  },
+  {
+   "id": "x-2118822925445050435",
+   "platform": "x",
+   "url": "https://x.com/NousResearch/status/2118822925445050435",
+   "posted_at": "2026-11-06T21:48:45Z",
+   "date_only": false,
+   "text": "Introducing Arete-27B: Qwen3.8-27B, post-trained to reinforce Western values.\n\nChinese open models are currently the strongest available, but they ship with state-aligned behavior in the weights. We built an 803-prompt eval across seven value categories, including freedom of…",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">Introducing Arete-27B: Qwen3.8-27B, post-trained to reinforce Western values.<br><br>Chinese open models are currently the strongest available, but they ship with state-aligned behavior in the weights. We built an 803-prompt eval across seven value categories, including freedom of… <a href=\"https://t.co/WT7YTVdm8H\">pic.twitter.com/WT7YTVdm8H</a></p>&mdash; Nous Research (@NousResearch) <a href=\"https://x.com/NousResearch/status/2118822925445050435?ref_src=twsrc%5Etfw\">November 6, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "x-nous-research",
+   "meaning": "Nous Research releases Arete-27B, a post-trained version of Qwen3.8-27B designed to reinforce Western values, evaluated across a custom 803-prompt benchmark.",
+   "concepts": [
+    "open-weight-model",
+    "fine-tuning"
+   ],
+   "story": null,
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "anthropic:claude-sonnet-5-5",
+   "added": "2026-11-09"
+  },
+  {
+   "id": "x-2118776729481478465",
+   "platform": "x",
+   "url": "https://x.com/alexandr_wang/status/2118776729481478465",
+   "posted_at": "2026-11-06T18:45:11Z",
+   "date_only": false,
+   "text": "2/ in muse, this shows up at as a 2.4x reduction in forgetting critical information and a 67% better at seeing everyday tasks through when things don't go to plan more in our research blog here:https://t.co/bqVItxp5As",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">2/ in muse, this shows up at as a 2.4x reduction in forgetting critical information and a 67% better at seeing everyday tasks through when things don&#39;t go to plan more in our research blog here:<a href=\"https://t.co/bqVItxp5As\">https://t.co/bqVItxp5As</a></p>&mdash; Alexandr Wang (@alexandr_wang) <a href=\"https://x.com/alexandr_wang/status/2118776729481478465?ref_src=twsrc%5Etfw\">November 6, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "alexandr-wang",
+   "meaning": "Alexandr Wang notes that Meta's upgraded Muse models achieve a 2.4x reduction in forgetting critical information and improve task completion when plans fail.",
+   "concepts": [
+    "agent-memory"
+   ],
+   "story": null,
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "anthropic:claude-sonnet-5-5",
+   "added": "2026-11-09"
+  },
+  {
+   "id": "x-2118767522782626104",
+   "platform": "x",
+   "url": "https://x.com/finkd/status/2118767522782626104",
+   "posted_at": "2026-11-06T18:08:36Z",
+   "date_only": false,
+   "text": "Upgraded the models for Muse and Meta Al, bringing Active Memory and Active Focus from Muse Wonder to everyone. In Muse, these new specialized models are 2.4x less likely to forget critical info and are 67% better at self correcting and completing everyday tasks which means less…",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">Upgraded the models for Muse and Meta Al, bringing Active Memory and Active Focus from Muse Wonder to everyone. In Muse, these new specialized models are 2.4x less likely to forget critical info and are 67% better at self correcting and completing everyday tasks which means less…</p>&mdash; Mark Zuckerberg (@finkd) <a href=\"https://x.com/finkd/status/2118767522782626104?ref_src=twsrc%5Etfw\">November 6, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "mark-zuckerberg",
+   "meaning": "Mark Zuckerberg announces upgraded models for Muse and Meta AI featuring Active Memory and Active Focus, reducing critical information loss and improving task self-correction.",
+   "concepts": [
+    "agent-memory"
+   ],
+   "story": null,
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "anthropic:claude-sonnet-5-5",
+   "added": "2026-11-09"
+  },
+  {
+   "id": "bsky-simonwillison.net-3mznxnk6tfc2q",
+   "person": "simon-willison",
+   "platform": "bluesky",
+   "url": "https://bsky.app/profile/simonwillison.net/post/3mznxnk6tfc2q",
+   "posted_at": "2026-11-06T18:01:32Z",
+   "text": "Loved this riff about AI products by @reckless.bsky.social on the latest episode of the Vergecast - \"The products aren't good enough to sell people on the costs.\" www.youtube.com/watch?v=-U4t...",
+   "links": [
+    {
+     "text": "www.youtube.com/watch?v=-U4t...",
+     "url": "https://www.youtube.com/watch?v=-U4thshDTL8&t=422s"
+    }
+   ],
+   "context": null,
+   "likes": 179,
+   "reposts": 35,
+   "via": "feed",
+   "meaning": "Simon Willison praises a riff by @reckless.bsky.social on the latest Vergecast episode. The speaker argues that AI products aren't good enough to justify their costs to people.",
+   "concepts": [],
+   "story": null,
+   "model": "anthropic:claude-haiku-5-5",
+   "checked": "anthropic:claude-sonnet-5-5",
+   "added": "2026-11-09"
+  },
+  {
+   "id": "bsky-emollick.bsky.social-3mzmigrod7k2h",
+   "person": "ethan-mollick",
+   "platform": "bluesky",
+   "url": "https://bsky.app/profile/emollick.bsky.social/post/3mzmigrod7k2h",
+   "posted_at": "2026-11-06T03:56:40Z",
+   "text": "One ongoing frustration is the lack of effort I see being put towards near-term, achievable crash projects to do good with AI at a national scale, whether those efforts are by the AI labs or by policymakers & NGOs using free models.\n\nWe should be more ambitious about trying to solve hard problems.",
+   "links": [],
+   "context": null,
+   "likes": 64,
+   "reposts": 6,
+   "via": "feed",
+   "meaning": "Mollick says he is frustrated by the lack of effort on near-term, achievable projects that use AI for good at national scale. He urges AI labs, policymakers and NGOs to aim higher at hard problems.",
+   "concepts": [],
+   "story": null,
+   "model": "anthropic:claude-haiku-5-5",
+   "checked": "anthropic:claude-sonnet-5-5",
+   "added": "2026-11-09"
+  },
+  {
+   "id": "bsky-emollick.bsky.social-3mzm3zygknk24",
+   "person": "ethan-mollick",
+   "platform": "bluesky",
+   "url": "https://bsky.app/profile/emollick.bsky.social/post/3mzm3zygknk24",
+   "posted_at": "2026-11-06T00:14:45Z",
+   "text": "As I have written many times in the past years, any potential financial downturn in AI stocks will not greatly change the AI trajectory\n\nAI is not going away, companies are not slowing down adoption, nor is development slowing. We still need policy & effort so that AI is used to help us all thrive.",
+   "links": [],
+   "context": null,
+   "likes": 167,
+   "reposts": 15,
+   "via": "feed",
+   "meaning": "Mollick argues that a financial downturn in AI stocks would not greatly change AI's trajectory, since adoption and development continue. He says policy and effort are still needed so people benefit from AI.",
+   "concepts": [],
+   "story": null,
+   "model": "anthropic:claude-haiku-5-5",
+   "checked": "anthropic:claude-sonnet-5-5",
+   "added": "2026-11-09"
+  },
+  {
+   "id": "x-2118490925634556026",
+   "platform": "x",
+   "url": "https://x.com/soumithchintala/status/2118490925634556026",
+   "posted_at": "2026-11-05T23:49:30Z",
+   "date_only": false,
+   "text": "Our v2 small model is here.\nI've been using it daily for a variety of things.\n\nThe pre-training ran for 68 hours on GB300s. Post-training was 17 million rollouts over 9 days.\nEntirely pre-mid-post trained in NVFP4.\n\nAvailable to train and fine-tune on Tinker right now.\nOpen… https://t.co/DqecGJocN7",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">Our v2 small model is here.<br>I&#39;ve been using it daily for a variety of things.<br><br>The pre-training ran for 68 hours on GB300s. Post-training was 17 million rollouts over 9 days.<br>Entirely pre-mid-post trained in NVFP4.<br><br>Available to train and fine-tune on Tinker right now.<br>Open… <a href=\"https://t.co/DqecGJocN7\">https://t.co/DqecGJocN7</a></p>&mdash; Soumith Chintala (@soumithchintala) <a href=\"https://x.com/soumithchintala/status/2118490925634556026?ref_src=twsrc%5Etfw\">November 5, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "soumith-chintala",
+   "meaning": "Soumith Chintala announces a new v2 small model trained entirely in NVFP4, detailing its pre-training and post-training duration, and availability on Tinker.",
+   "concepts": [
+    "small-language-model",
+    "pretraining",
+    "fine-tuning"
+   ],
+   "story": null,
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "anthropic:claude-sonnet-5-5",
+   "added": "2026-11-09"
+  },
+  {
+   "id": "x-2118489527362912566",
+   "platform": "x",
+   "url": "https://x.com/thinkymachines/status/2118489527362912566",
+   "posted_at": "2026-11-05T23:43:57Z",
+   "date_only": false,
+   "text": "Introducing Inkling 2 Small. Scoring 31 on the AA Intelligence Index, it's a big jump over its predecessor.\n\nInkling 2 Small is available for fine-tuning and inference on Tinker today, with full weight release planned soon.https://t.co/VR02tw73fJ",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">Introducing Inkling 2 Small. Scoring 31 on the AA Intelligence Index, it&#39;s a big jump over its predecessor.<br><br>Inkling 2 Small is available for fine-tuning and inference on Tinker today, with full weight release planned soon.<a href=\"https://t.co/VR02tw73fJ\">https://t.co/VR02tw73fJ</a></p>&mdash; Thinking Machines (@thinkymachines) <a href=\"https://x.com/thinkymachines/status/2118489527362912566?ref_src=twsrc%5Etfw\">November 5, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "x-thinking-machines",
+   "meaning": "Thinking Machines Lab introduces Inkling 2 Small, scoring 31 on the AA Intelligence Index, with immediate availability for fine-tuning on Tinker and a full weight release planned.",
+   "concepts": [
+    "small-language-model",
+    "benchmark"
+   ],
+   "story": null,
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "anthropic:claude-sonnet-5-5",
+   "added": "2026-11-09"
+  },
+  {
+   "id": "x-2118420279882092681",
+   "platform": "x",
+   "url": "https://x.com/AndrewCurran_/status/2118420279882092681",
+   "posted_at": "2026-11-05T19:08:47Z",
+   "date_only": false,
+   "text": "METR says Anthropic has probably hit the 2x Responsible Scaling Policy acceleration threshold, and may now be running as high as 3x! 'We guess that a majority (perhaps ≈80%) of the current (October 2026) acceleration is due to AI.' https://t.co/8rmQUXFQMm",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">METR says Anthropic has probably hit the 2x Responsible Scaling Policy acceleration threshold, and may now be running as high as 3x! &#39;We guess that a majority (perhaps ≈80%) of the current (October 2026) acceleration is due to AI.&#39; <a href=\"https://t.co/8rmQUXFQMm\">https://t.co/8rmQUXFQMm</a> <a href=\"https://t.co/nDqAgyaz7Q\">pic.twitter.com/nDqAgyaz7Q</a></p>&mdash; Andrew Curran (@AndrewCurran_) <a href=\"https://x.com/AndrewCurran_/status/2118420279882092681?ref_src=twsrc%5Etfw\">November 5, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "andrew-curran",
+   "meaning": "Andrew Curran reports that METR estimates Anthropic has crossed its Responsible Scaling Policy acceleration threshold, with AI driving a major share of current development speedups.",
+   "concepts": [],
+   "story": "2026-11-07-cotra-metr-report-suggests-anthropic-s-ai-driven-research-sp",
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "anthropic:claude-sonnet-5-5",
+   "added": "2026-11-09"
+  },
+  {
+   "id": "x-2118415214437896261",
+   "platform": "x",
+   "url": "https://x.com/kyleichan/status/2118415214437896261",
+   "posted_at": "2026-11-05T18:48:40Z",
+   "date_only": false,
+   "text": "600,000 Nvidia H200 chips are reportedly piled up in Hong Kong, blocked by Beijing from import into mainland China. https://t.co/WZiGGxfQF1",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">600,000 Nvidia H200 chips are reportedly piled up in Hong Kong, blocked by Beijing from import into mainland China. <a href=\"https://t.co/WZiGGxfQF1\">https://t.co/WZiGGxfQF1</a></p>&mdash; Kyle Chan (@kyleichan) <a href=\"https://x.com/kyleichan/status/2118415214437896261?ref_src=twsrc%5Etfw\">November 5, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "kyle-chan",
+   "meaning": "Kyle Chan shares a report that about 600,000 Nvidia H200 chips are piled up in Hong Kong because Beijing has not approved their import into mainland China.",
+   "concepts": [
+    "gpu"
+   ],
+   "story": null,
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "editor",
+   "added": "2026-11-09"
+  },
+  {
+   "id": "x-2118414569643376997",
+   "platform": "x",
+   "url": "https://x.com/CaseyNewton/status/2118414569643376997",
+   "posted_at": "2026-11-05T18:46:06Z",
+   "date_only": false,
+   "text": "\"We submitted a ~100-page full report on our assessment to Anthropic. For the public version, Anthropic redacted a majority of the evidence we found most informative. As a consequence, the public must rely on our judgment more than we consider ideal.\" ☹️ https://t.co/LW1lmTI8lS",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">&quot;We submitted a ~100-page full report on our assessment to Anthropic. For the public version, Anthropic redacted a majority of the evidence we found most informative. As a consequence, the public must rely on our judgment more than we consider ideal.&quot; ☹️ <a href=\"https://t.co/LW1lmTI8lS\">https://t.co/LW1lmTI8lS</a></p>&mdash; Casey Newton (@CaseyNewton) <a href=\"https://x.com/CaseyNewton/status/2118414569643376997?ref_src=twsrc%5Etfw\">November 5, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "casey-newton",
+   "meaning": "Casey Newton quotes METR: Anthropic redacted most of the evidence METR found most informative from the public version of its report, so readers have to lean on METR's judgment.",
+   "concepts": [],
+   "story": "2026-11-07-metr-report-says-anthropic-s-ai-models-improve-twice-as-fast",
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "editor",
+   "added": "2026-11-09"
+  },
+  {
    "id": "x-2118412189833085248",
    "platform": "x",
    "url": "https://x.com/METR_Evals/status/2118412189833085248",
@@ -1850,6 +2272,24 @@
    "model": "gemini:gemini-3.1-flash-lite",
    "checked": "anthropic:claude-sonnet-5-5",
    "added": "2026-11-05"
+  },
+  {
+   "id": "x-2118412183860351084",
+   "platform": "x",
+   "url": "https://x.com/METR_Evals/status/2118412183860351084",
+   "posted_at": "2026-11-05T18:36:37Z",
+   "date_only": false,
+   "text": "Since August, a team within METR has worked with internal Anthropic information to assess whether AI itself is accelerating AI development.\n\nWe are now publishing a report summarizing the results of this risk assessment.",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">Since August, a team within METR has worked with internal Anthropic information to assess whether AI itself is accelerating AI development.<br><br>We are now publishing a report summarizing the results of this risk assessment.</p>&mdash; METR (@METR_Evals) <a href=\"https://x.com/METR_Evals/status/2118412183860351084?ref_src=twsrc%5Etfw\">November 5, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "x-metr",
+   "meaning": "METR announces the publication of a risk assessment report evaluating whether AI systems are actively accelerating their own development using internal Anthropic information.",
+   "concepts": [],
+   "story": "2026-11-07-metr-report-says-anthropic-s-ai-models-improve-twice-as-fast",
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "anthropic:claude-sonnet-5-5",
+   "added": "2026-11-09"
   },
   {
    "id": "x-2118403114890137895",
@@ -1916,8 +2356,8 @@
     "title": "Reinforcement Learning | RLHF and Post-Training Book by Nathan Lambert",
     "text": "Policy gradient methods for RLHF and LLM post-training, including PPO, REINFORCE, RLOO, GRPO, and implementation details."
    },
-   "likes": 26,
-   "reposts": 1,
+   "likes": 44,
+   "reposts": 3,
    "via": "feed",
    "meaning": "Nathan Lambert added score-centering to the reinforcement learning chapter of his book, noting it helps mitigate training-inference mismatch in async RL. Model builders working on post-training alignment will find this derivation useful for understanding modern methods.",
    "concepts": [
@@ -2355,6 +2795,30 @@
    "added": "2026-11-04"
   },
   {
+   "id": "bsky-marcorus.bsky.social-3mzirmdqbao2x",
+   "person": "marco-russo",
+   "platform": "bluesky",
+   "url": "https://bsky.app/profile/marcorus.bsky.social/post/3mzirmdqbao2x",
+   "posted_at": "2026-11-04T16:30:11Z",
+   "text": "Yesterday's article on optimizing DAX with AI was supposed to come with a video, and the video was missing at launch. Now it's online: the same test, human vs AI vs human plus AI, in video form.\n\nhttps://youtu.be/F52wwF9IiKk\n\n#dax #powerbi #ai",
+   "links": [
+    {
+     "text": "https://youtu.be/F52wwF9IiKk",
+     "url": "https://youtu.be/F52wwF9IiKk"
+    }
+   ],
+   "context": null,
+   "likes": 0,
+   "reposts": 0,
+   "via": "feed",
+   "meaning": "Marco Russo shares a video of a test comparing human, AI, and human-plus-AI work on optimizing DAX, the formula language used in Power BI. It completes an article he said was missing its video.",
+   "concepts": [],
+   "story": null,
+   "model": "anthropic:claude-haiku-5-5",
+   "checked": "anthropic:claude-sonnet-5-5",
+   "added": "2026-11-09"
+  },
+  {
    "id": "bsky-emollick.bsky.social-3mziqgazkbc2x",
    "person": "ethan-mollick",
    "platform": "bluesky",
@@ -2368,8 +2832,8 @@
     }
    ],
    "context": null,
-   "likes": 131,
-   "reposts": 17,
+   "likes": 134,
+   "reposts": 19,
    "via": "feed",
    "meaning": "Ethan Mollick highlights a paper showing that visual symbols strongly affect AIs in ways the models do not recognize in their own reasoning chains, and differently than humans interpret them.",
    "concepts": [
@@ -2419,6 +2883,37 @@
    "model": "gemini:gemini-3.5-flash-lite",
    "checked": "editor",
    "added": "2026-11-04"
+  },
+  {
+   "id": "bsky-marcorus.bsky.social-3mzhwuit27y2o",
+   "person": "marco-russo",
+   "platform": "bluesky",
+   "url": "https://bsky.app/profile/marcorus.bsky.social/post/3mzhwuit27y2o",
+   "posted_at": "2026-11-04T08:31:34Z",
+   "text": "Live today: Inside DAXBench v2, with Maxim Anatsko. The benchmark results and your questions.\n16:00 CET / 15:00 UTC / 10:00 ET / 07:00 PT\nhttps://www.youtube.com/live/ct3g7PQiPBQ\n#DAX #PowerBI",
+   "links": [
+    {
+     "text": "https://www.youtube.com/live/ct3g7PQiPBQ",
+     "url": "https://www.youtube.com/live/ct3g7PQiPBQ"
+    }
+   ],
+   "context": {
+    "kind": "link",
+    "url": "https://www.youtube.com/live/ct3g7PQiPBQ",
+    "title": "Inside DAXBench v2: Results and Your Questions",
+    "text": "How well do AI models write DAX? DAXBench is a public leaderboard t..."
+   },
+   "likes": 1,
+   "reposts": 0,
+   "via": "feed",
+   "meaning": "Marco Russo announces a live session on DAXBench v2, a public leaderboard measuring how well AI models write DAX formulas, covering the benchmark results and audience questions.",
+   "concepts": [
+    "benchmark"
+   ],
+   "story": null,
+   "model": "anthropic:claude-haiku-5-5",
+   "checked": "anthropic:claude-sonnet-5-5",
+   "added": "2026-11-09"
   },
   {
    "id": "x-2117887087815139440",
@@ -2707,8 +3202,8 @@
    "text": "We are in an era of flux & fighting over how AI should be used to review academic work & by whom.\n\nBut it is worth proving to yourself that yes, AI used properly can be very insightful at this, by asking GPT-6 Pro/Opus 5.5 High to give helpful, substantive feedback on one of your papers.",
    "links": [],
    "context": null,
-   "likes": 49,
-   "reposts": 3,
+   "likes": 53,
+   "reposts": 6,
    "via": "feed",
    "meaning": "Ethan Mollick argues that advanced AI models can provide insightful and substantive feedback when properly used to review academic papers.",
    "concepts": [],
@@ -2875,7 +3370,7 @@
     "title": "Qwen 3.8 27B on my laptop can interpret model weights, too",
     "text": "Yesterday’s hot paper was Sparks of Weight-Space Programming: LLMs can natively read &amp; write neural network weights by Rikiya Takehi, Jayden Teoh, Alex Zhang, and Omar Khattab. The paper found …"
    },
-   "likes": 218,
+   "likes": 219,
    "reposts": 23,
    "via": "feed",
    "meaning": "Simon Willison tested a paper on models interpreting neural network weights directly and found that a local model running on his laptop could achieve the same capability.",
@@ -2886,6 +3381,30 @@
    "model": "gemini:gemini-3.5-flash-lite",
    "checked": "anthropic:claude-sonnet-5-5",
    "added": "2026-11-04"
+  },
+  {
+   "id": "bsky-marcorus.bsky.social-3mzfp2iivzd2g",
+   "person": "marco-russo",
+   "platform": "bluesky",
+   "url": "https://bsky.app/profile/marcorus.bsky.social/post/3mzfp2iivzd2g",
+   "posted_at": "2026-11-03T11:06:25Z",
+   "text": "We optimized a DAX measure, and AI optimized it on its own: no clear winner. Then AI refined our version, and the slowest query went from 4,396 ms to 1,538 ms.\n\nhttps://www.sqlbi.com/articles/optimizing-dax-with-ai/\n\n#dax #ai",
+   "links": [
+    {
+     "text": "https://www.sqlbi.com/articles/optimizing-dax-with-ai/",
+     "url": "https://www.sqlbi.com/articles/optimizing-dax-with-ai/"
+    }
+   ],
+   "context": null,
+   "likes": 2,
+   "reposts": 0,
+   "via": "feed",
+   "meaning": "Marco Russo reports that AI optimized a DAX measure on its own with no clear winner over the human version. When AI refined the human version, the slowest query dropped from 4,396 ms to 1,538 ms.",
+   "concepts": [],
+   "story": null,
+   "model": "anthropic:claude-haiku-5-5",
+   "checked": "anthropic:claude-sonnet-5-5",
+   "added": "2026-11-09"
   },
   {
    "id": "bsky-emollick.bsky.social-3mzesndbbxs2l",
@@ -3042,7 +3561,7 @@
     "title": "Sparks of Weight-Space Programming: LLMs can natively read & write neural network weights",
     "text": "We find that frontier LLMs are surprisingly good at natively reading and writing neural network weights, well past what we’d expect from humans or conventional algorithms."
    },
-   "likes": 256,
+   "likes": 254,
    "reposts": 36,
    "via": "feed",
    "meaning": "Mollick shares a potentially big development where a model was used to directly edit a tiny fraction of another model's weights to improve math and fix reasoning without training. Builders may care because frontier models might be able to natively manipulate neural network weights.",
