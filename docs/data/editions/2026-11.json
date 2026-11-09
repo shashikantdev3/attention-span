@@ -4939,70 +4939,6 @@
      "date": "2026-11-09"
     },
     {
-     "title": "Nvidia board opens probe into CEO Jensen Huang after he admits affair, reports say",
-     "one_liner": "Nvidia's board opened an independent investigation into CEO Jensen Huang after he admitted an affair with a woman US intelligence agencies classify as a suspected Chinese informant.",
-     "summary": "Nvidia's board has opened an independent investigation into CEO Jensen Huang after he admitted to an extramarital affair, according to the Financial Times and The Decoder. The woman is classed by US intelligence agencies as a suspected Chinese informant. Bloomberg reports she founded Megaspeed in 2023, and that Megaspeed's Nvidia imports top $4.6B. Nvidia shares fell about 5% pre-market. The New York Times says Huang manages 60+ direct reports and owns a 3.56% stake, which challenges the 10-person board. His daughter Madison Huang cancelled a Seoul appearance, citing a \"family matter\". The Decoder says the case weakens his lobbying against tighter AI chip export controls.",
-     "eli5": "Imagine the head of a big toy company admits to a secret friendship with someone people worry is a spy. The company's helpers now have to check carefully what happened.",
-     "why_it_matters": "A weaker Nvidia lobby on export controls and a new Congress focused on chip smuggling could mean tighter limits on AI chip supply, which would affect GPU access and planning for teams.",
-     "topic": "industry",
-     "type": "event",
-     "labs": [
-      "nvidia",
-      "government"
-     ],
-     "people": [],
-     "concepts": [
-      "gpu",
-      "ai-governance"
-     ],
-     "spotlight": false,
-     "spotlight_reason": "",
-     "new_terms": [],
-     "sources": [
-      {
-       "title": "Nvidia Senior Director Madison Huang, daughter of Jensen, cancels a high-profile Seoul appearance citing a \"family matter\", throwing the event into disarray (Yoolim Lee/Bloomberg)",
-       "url": "https://www.techmeme.com/261109/p12#a261109p12",
-       "name": "Techmeme",
-       "kind": "press"
-      },
-      {
-       "title": "Nvidia drops ~5% pre-market after its board opens a probe into Jensen Huang; Nvidia previously dismissed the interactions as \"nothing unusual or unexpected\" (Demetri Sevastopulo/Financial Times)",
-       "url": "https://www.techmeme.com/261109/p11#a261109p11",
-       "name": "Techmeme",
-       "kind": "press"
-      },
-      {
-       "title": "Nvidia espionage scandal weakens Huang's lobby against tighter AI chip export controls",
-       "url": "https://the-decoder.com/nvidia-espionage-scandal-weakens-huangs-lobby-against-tighter-ai-chip-export-controls/",
-       "name": "The Decoder",
-       "kind": "press"
-      },
-      {
-       "title": "Jensen Huang maintains deep control over Nvidia, managing 60+ direct reports and owning a 3.56% stake, presenting a challenge for Nvidia's 10-person board (New York Times)",
-       "url": "https://www.techmeme.com/261109/p13#a261109p13",
-       "name": "Techmeme",
-       "kind": "press"
-      },
-      {
-       "title": "A profile of Alice Huang, a suspected Chinese spy who founded Megaspeed in 2023 and spent years in Jensen Huang's orbit; Megaspeed's Nvidia imports top $4.6B (Mark Anderson/Bloomberg)",
-       "url": "https://www.techmeme.com/261109/p18#a261109p18",
-       "name": "Techmeme",
-       "kind": "press"
-      }
-     ],
-     "buzz": 2,
-     "published": "2026-11-09T10:40:00Z",
-     "checked": {
-      "model": "anthropic:claude-sonnet-5-5",
-      "rounds": 1,
-      "hype_flags": []
-     },
-     "editor_reason": "Nvidia's board has opened a probe into Jensen Huang, the stock fell about 5% pre-market, and coverage links it to a suspected Chinese informant and export control lobbying.",
-     "rank": 11,
-     "id": "2026-11-09-nvidia-board-opens-probe-into-ceo-jensen-huang-after-he-admi",
-     "date": "2026-11-09"
-    },
-    {
      "title": "US prosecutors say AI voice scam calls cost businesses $129M+",
      "one_liner": "US federal prosecutors say scam calls using AI-generated voices to mimic company executives cost businesses $129M+ in the 18 months since July 2024.",
      "summary": "US federal prosecutors say businesses have lost $129M+ to scam calls that use AI-generated voices to mimic company executives. The losses cover the 18 months since July 2024. According to the New York Times, a federal indictment alleges that three men used generative A.I. to impersonate the voices of chief executives and lawyers. The indictment says they used these voices to defraud companies of millions of dollars. These are allegations from prosecutors. The sources do not say how the calls were made, which companies were hit, or how the case will be decided.",
@@ -5042,7 +4978,7 @@
       "hype_flags": []
      },
      "editor_reason": "US prosecutors say AI-voice scam calls impersonating executives have cost businesses more than $129M, a concrete risk for anyone building voice products.",
-     "rank": 12,
+     "rank": 11,
      "id": "2026-11-09-us-prosecutors-say-ai-voice-scam-calls-cost-businesses-129m",
      "date": "2026-11-09"
     },
@@ -5078,7 +5014,7 @@
       "hype_flags": []
      },
      "editor_reason": "Voters in Harwood, North Dakota rejected a measure opposing a $3B AI data center, a sign of how local politics shapes AI compute buildout.",
-     "rank": 13,
+     "rank": 12,
      "id": "2026-11-09-harwood-north-dakota-voters-reject-measure-opposing-applied",
      "date": "2026-11-09"
     },
@@ -5122,7 +5058,7 @@
       "hype_flags": []
      },
      "editor_reason": "Meta is expanding Instagram's AI age estimation globally to apply Teen Account protections to teens aged 13 to 17.",
-     "rank": 14,
+     "rank": 13,
      "id": "2026-11-09-meta-expands-instagram-ai-age-estimation-worldwide-to-find-t",
      "date": "2026-11-09"
     },
@@ -5168,7 +5104,7 @@
       "hype_flags": []
      },
      "editor_reason": "NVIDIA announced planned investments in Korean startups at a forum with Korea's Ministry of Science and ICT.",
-     "rank": 15,
+     "rank": 14,
      "id": "2026-11-09-nvidia-announces-investment-in-point2-and-plans-more-in-thre",
      "date": "2026-11-09"
     },
@@ -5205,133 +5141,9 @@
       "hype_flags": []
      },
      "editor_reason": "An MCP server lets Claude, Cursor and Cline read object trees, write Lua scripts and run playtests in Roblox Studio.",
-     "rank": 16,
+     "rank": 15,
      "id": "2026-11-09-open-source-mcp-server-links-ai-assistants-to-roblox-studio",
      "date": "2026-11-09"
-    },
-    {
-     "title": "Google ships four TPU variants in one year as it competes with Nvidia",
-     "one_liner": "Google released four TPU variants in a single year, as it steps up competition with Nvidia, according to The Decoder.",
-     "summary": "The Decoder reports that Google shipped four TPU variants in one year. The report frames this as part of Google ramping up its competition with Nvidia. The source text gives only the headline. It does not say what the four variants are called, what they do, how they perform, or when each one launched. No specs, prices or customer details are stated. Readers who want those details will need to check the full article or Google's own announcements.",
-     "eli5": "Imagine a bakery that makes four new kinds of bread in one year to win customers from the big bakery down the street.",
-     "why_it_matters": "Google is putting out more of its own TPU chips as an alternative to Nvidia, which may widen the hardware choices for teams running AI workloads.",
-     "topic": "industry",
-     "type": "event",
-     "labs": [
-      "google",
-      "nvidia"
-     ],
-     "people": [],
-     "concepts": [
-      "gpu"
-     ],
-     "spotlight": false,
-     "spotlight_reason": "",
-     "new_terms": [],
-     "sources": [
-      {
-       "title": "The Decoder",
-       "url": "https://the-decoder.com/",
-       "name": "The Decoder",
-       "kind": "press"
-      }
-     ],
-     "buzz": 1,
-     "published": "2026-11-09T13:02:52Z",
-     "checked": {
-      "model": "anthropic:claude-sonnet-5-5",
-      "rounds": 1,
-      "hype_flags": []
-     },
-     "editor_reason": "Added by the editor after the nightly run missed it.",
-     "added_by_editor": "2026-11-09",
-     "id": "2026-11-09-google-ships-four-tpu-variants-in-one-year-as-it-competes-wi",
-     "date": "2026-11-09",
-     "rank": 17
-    },
-    {
-     "title": "Anthropic reportedly to proceed with IPO roadshow ahead of Nov 20 debut",
-     "one_liner": "Anthropic is expected to launch its public roadshow, with shares set to debut on November 20, according to a newsletter citing The Information.",
-     "summary": "A newsletter dated November 9, 2026 says Anthropic is expected to launch its public roadshow, with shares set to debut on November 20. A separate headline, citing The Information, says Anthropic will proceed with its IPO roadshow ahead of next week's listing. The newsletter calls it the first real public price on a frontier lab. It pairs the story with a report that Nvidia's board opened an independent investigation after reports that Jensen Huang was targeted by a Chinese spy operation. The sources give no share price, deal size or valuation.",
-     "eli5": "Imagine a lemonade stand owned by a few friends. Soon it will let the whole neighborhood buy a small piece, so everyone can see what the stand is worth.",
-     "why_it_matters": "A public listing puts the first real market price on a frontier lab, giving the wider market a clear signal of how investors value one.",
-     "topic": "industry",
-     "type": "event",
-     "labs": [
-      "anthropic"
-     ],
-     "people": [],
-     "concepts": [],
-     "spotlight": false,
-     "spotlight_reason": "",
-     "new_terms": [],
-     "sources": [
-      {
-       "title": "Monday November 9, 2026",
-       "url": "https://bitdigest.substack.com/p/monday-november-9-2026",
-       "name": "bitdigest.substack.com",
-       "kind": "press"
-      },
-      {
-       "title": "AI News Today, November 9: Top Stories | AI Weekly",
-       "url": "https://aiweekly.co/ai-news-today",
-       "name": "AI Weekly",
-       "kind": "press"
-      }
-     ],
-     "buzz": 2,
-     "published": "2026-11-09T13:02:52Z",
-     "checked": {
-      "model": "anthropic:claude-sonnet-5-5",
-      "rounds": 1,
-      "hype_flags": []
-     },
-     "editor_reason": "Added by the editor after the nightly run missed it.",
-     "added_by_editor": "2026-11-09",
-     "id": "2026-11-09-anthropic-reportedly-to-proceed-with-ipo-roadshow-ahead-of-n",
-     "date": "2026-11-09",
-     "rank": 18
-    },
-    {
-     "title": "Mistral Large 4 released as open weights with one trillion parameters",
-     "one_liner": "Mistral released Large 4 as open weights at 1T parameters under a modified MIT licence, with a separate deal needed for Model-as-a-Service resellers.",
-     "summary": "Mistral Large 4 is an open weight model with 1T total parameters. Mistral put it on Hugging Face. The weights are downloadable under a modified MIT licence. Businesses that run a Model-as-a-Service offering need a separate commercial agreement from Mistral. So the model is open weights, but not unrestricted. On the Artificial Analysis Coding Agent Index, it ties GLM-5.3 while using 47% fewer tokens.",
-     "eli5": "Imagine a baker gives away a huge recipe book for free. You can cook from it at home, but if you want to sell the food in a shop, you must ask the baker first.",
-     "why_it_matters": "Teams can download and run a trillion-parameter model themselves, but anyone selling it as a hosted service must read the licence and sign a separate agreement with Mistral.",
-     "topic": "models",
-     "type": "model",
-     "labs": [
-      "mistral"
-     ],
-     "people": [],
-     "concepts": [
-      "open-weight-model",
-      "tokens",
-      "benchmark"
-     ],
-     "spotlight": false,
-     "spotlight_reason": "",
-     "new_terms": [],
-     "sources": [
-      {
-       "title": "AI News, 9 November 2026: Five Stories That Matter",
-       "url": "https://aitoolsrecap.com/Blog/ai-news-november-09-2026",
-       "name": "aitoolsrecap.com",
-       "kind": "press"
-      }
-     ],
-     "buzz": 1,
-     "published": "2026-11-09T13:02:52Z",
-     "checked": {
-      "model": "anthropic:claude-sonnet-5-5",
-      "rounds": 1,
-      "hype_flags": []
-     },
-     "editor_reason": "Added by the editor after the nightly run missed it.",
-     "added_by_editor": "2026-11-09",
-     "id": "2026-11-09-mistral-large-4-released-as-open-weights-with-one-trillion-p",
-     "date": "2026-11-09",
-     "rank": 19
     }
    ],
    "stats": {

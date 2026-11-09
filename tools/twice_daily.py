@@ -23,6 +23,7 @@ import sys
 import time
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
+from urllib.parse import urlsplit
 
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT))
@@ -44,7 +45,8 @@ PY = sys.executable
 # Claude first; Gemini and Groq stay as fallbacks. Any LLM_CHAIN_* line in .env still wins.
 for k, v in {"LLM_CHAIN_EDITOR": "anthropic:claude-sonnet-5-5,gemini:gemini-3.5-flash,gemini:gemini-3.5-flash-lite",
              "LLM_CHAIN_WRITER": "anthropic:claude-sonnet-5-5,gemini:gemini-3.5-flash-lite,groq:openai/gpt-oss-120b",
-             "LLM_CHAIN_HEADS": "anthropic:claude-haiku-5-5,gemini:gemini-3.5-flash-lite,groq:openai/gpt-oss-120b"}.items():
+             "LLM_CHAIN_HEADS": "anthropic:claude-haiku-5-5,gemini:gemini-3.5-flash-lite,groq:openai/gpt-oss-120b",
+             "LLM_CHAIN_DEDUPE": "anthropic:claude-haiku-5-5,gemini:gemini-3.5-flash-lite,groq:openai/gpt-oss-120b"}.items():
     os.environ.setdefault(k, v)
 os.environ.setdefault("PYTHONUTF8", "1")
 PRICE = {"claude-sonnet-5-5": (2.0, 10.0), "claude-haiku-5-5": (1.0, 5.0), "claude-opus-5-5": (5.0, 25.0)}
@@ -158,6 +160,10 @@ def restore(day, old, new, prev=()):
             log(f"   dropped a repeat: {s['title'][:80]}")
             continue
         fresh.append(s)
+    reps = llm_repeats([s["title"] for s in fresh], [o["title"] for o in old] + titles_of(prev))
+    for i in sorted(reps, reverse=True):
+        log(f"   dropped a repeat: {fresh[i]['title'][:70]} (same news as: {reps[i][:50]})")
+        del fresh[i]
     lead_new = [s for s in fresh if s.get("spotlight")]
     rest_new = [s for s in fresh if not s.get("spotlight")]
     stories = lead_new + old + rest_new
@@ -206,6 +212,39 @@ def same_story(a, b):
     return bool(money(a) & money(b) and names)
 
 
+def titles_of(days):
+    return [s["title"] for d in days for s in month(d)["editions"].get(d, {}).get("stories", [])]
+
+
+def llm_repeats(new_titles, old_titles):
+    """One cheap call: which new headlines report the same news as an earlier one? Returns {new index: old title}.
+    Word overlap misses rewordings ("board opens probe" vs "board investigates"), so a model reads them."""
+    if not new_titles or not old_titles:
+        return {}
+    from pipeline import llm
+    system = ("You check a daily news site for repeated stories. A new headline is a repeat if it reports the same "
+              "event, launch, deal or announcement as an earlier headline, even if worded differently or with a small "
+              "extra detail. A genuinely new development (a later decision, a different product, new numbers from a "
+              'different event) is not a repeat. Answer JSON: {"repeats": {"<new number>": <earlier number>}}; '
+              "leave out new headlines that are not repeats.")
+    user = ("Earlier headlines:\n" + "\n".join(f"{i}. {x}" for i, x in enumerate(old_titles))
+            + "\n\nNew headlines:\n" + "\n".join(f"{i}. {x}" for i, x in enumerate(new_titles)))
+    try:
+        res, _ = llm.ask_json(system, user, max_tokens=600, tag="dedupe")
+    except Exception as exc:  # noqa: BLE001  the word check still ran; never stop the run for this
+        log(f"   repeat check skipped: {type(exc).__name__}")
+        return {}
+    out = {}
+    for k, v in (res.get("repeats") or {}).items():
+        try:
+            k, v = int(k), int(v)
+        except (TypeError, ValueError):
+            continue
+        if 0 <= k < len(new_titles) and 0 <= v < len(old_titles):
+            out[k] = old_titles[v]
+    return out
+
+
 def is_dup(title, days):
     for d in days:
         for s in month(d)["editions"].get(d, {}).get("stories", []):
@@ -216,7 +255,8 @@ def is_dup(title, days):
 
 # aggregators and pages that refuse plain requests or sit behind paywalls: never a story's source
 BLOCKED = re.compile(r"techmeme\.com|killtheai|theneuron\.ai|bloomberg\.com|wsj\.com|ft\.com|reuters\.com|nytimes\.com|"
-                     r"theinformation\.com|x\.com|twitter\.com|news\.google|ycombinator\.com", re.I)
+                     r"theinformation\.com|x\.com|twitter\.com|news\.google|ycombinator\.com|substack\.com|"
+                     r"recap|digest|roundup|aitools|ai-news-(?:today|\w+-\d)|top-\d+-ai-news", re.I)
 
 
 def missed_stories(since, until, touched, max_add):
@@ -227,10 +267,8 @@ def missed_stories(since, until, touched, max_add):
     res = read(ROOT / "state" / "research" / f"{until:%Y-%m-%d}-news.json", {})
     seen = read(ROOT / "state" / "seen.json", {})
     have = sorted(editions())
-    added, tried, notes = [], 0, []
+    added, tried, notes, queue = [], 0, [], []
     for st in res.get("stories", []):
-        if len(added) >= max_add or tried >= max_add + 3:
-            break
         url = (st.get("url") or "").strip()
         if not url.startswith("http") or norm_url(url) in seen:
             continue
@@ -242,9 +280,18 @@ def missed_stories(since, until, touched, max_add):
         if dup:
             notes.append(f"skipped (already covered as \"{dup[:60]}\"): {st.get('headline', '')[:80]}")
             continue
-        urls = [u for u in [url] + list(st.get("also") or []) if u.startswith("http") and not BLOCKED.search(u)][:2]
+        urls = [u for u in [url] + list(st.get("also") or []) if u.startswith("http") and not BLOCKED.search(u)
+                and urlsplit(u).path.strip("/")][:2]                 # a home page is not a source
         if not urls:
             notes.append(f"skipped (only aggregator or paywalled links): {st.get('headline', '')[:80]}")
+            continue
+        queue.append((st, d, urls))
+    reps = llm_repeats([st.get("headline", "") for st, _, _ in queue], titles_of(have[-6:]))
+    for i, (st, d, urls) in enumerate(queue):
+        if len(added) >= max_add or tried >= max_add + 3:
+            break
+        if i in reps:
+            notes.append(f"skipped (same news as \"{reps[i][:60]}\"): {st.get('headline', '')[:80]}")
             continue
         tried += 1
         code, o = run(["tools/add_story.py", *urls, "--date", d], timeout=600)
@@ -401,7 +448,9 @@ def main():
 
     ed = editions()
     leads = [ed[d]["lead"] for d in touched if d in ed and ed[d].get("lead")]
-    lead = re.sub(r"['\"`$]", "", leads[-1])[:90] if leads else ""
+    lead = re.sub(r"[\"`$]", "", leads[-1]).replace("'", "\u2019") if leads else ""
+    if len(lead) > 90:
+        lead = lead[:90].rsplit(" ", 1)[0]       # cut at a word, not mid-word
     days = ", ".join(touched) if touched else "no edition changes"
     msg = f"Editions {days}" + (f" (lead story: {lead})" if lead else "") + f"; Context Window: {n_posts} posts"
     cmds = (f"cd \"{ROOT}\"\ngit add README.md docs pipeline seed state tools\ngit commit -m '{msg}'\ngit push\n")
