@@ -1195,5 +1195,54 @@
   "first_seen": "2026-11-09",
   "story": "2026-11-09-nvidia-announces-investment-in-point2-and-plans-more-in-thre",
   "source": "https://blogs.nvidia.com/blog/korean-startup-investments-msit/"
+ },
+ {
+  "term": "recursive self-improvement",
+  "definition": "A phenomenon in which AI meaningfully contributes to its own advancement and AI progress potentially spins out of control.",
+  "first_seen": "2026-11-09",
+  "story": "2026-11-09-scott-wiener-wins-pelosi-s-seat-and-says-he-will-push-federa",
+  "source": "https://www.technologyreview.com/2026/11/09/1148182/nancy-pelosis-replacement-is-ready-to-regulate-ai/"
+ },
+ {
+  "term": "modular data centers",
+  "definition": "Data centers built from standardized factory-made modules that include electrical distribution, cooling, computing racks and supporting infrastructure, then shipped to a customer site.",
+  "first_seen": "2026-11-09",
+  "story": "2026-11-09-startup-funding-roundup-onodrim-mavria-t-therapeutics-and-bo",
+  "source": "https://techstartups.com/2026/11/09/startup-funding-news-today-november-9-2026-boson-ai-onodrim-mavria-t-therapeutics-more/"
+ },
+ {
+  "term": "advisor and orchestrator roles",
+  "definition": "A large model either helps smaller models solve harder problems (Advisor) or hands simpler tasks to smaller models (Orchestrator).",
+  "first_seen": "2026-11-10",
+  "story": "2026-11-10-anthropic-releases-claude-fable-5-2-and-mythos-5-2-with-lowe",
+  "source": "https://www.anthropic.com/claude-fable-and-mythos-5-2"
+ },
+ {
+  "term": "multi-round editing",
+  "definition": "Editing an image over many repeated passes while keeping unchanged areas preserved at the pixel level and free of color shifts.",
+  "first_seen": "2026-11-10",
+  "story": "2026-11-10-bytedance-says-seedream-5-5-supports-100-rounds-of-pixel-sta",
+  "source": "https://the-decoder.com/bytedances-seedream-5-5-promises-pixel-stable-image-editing-across-100-rounds-without-color-drift/"
+ },
+ {
+  "term": "native RGBA generation",
+  "definition": "Generating images with a transparent background so the elements can serve directly as design assets without manual cutouts.",
+  "first_seen": "2026-11-10",
+  "story": "2026-11-10-bytedance-says-seedream-5-5-supports-100-rounds-of-pixel-sta",
+  "source": "https://the-decoder.com/bytedances-seedream-5-5-promises-pixel-stable-image-editing-across-100-rounds-without-color-drift/"
+ },
+ {
+  "term": "subagents",
+  "definition": "Separate agents spun up by a main model to do parts of a job or to check its work independently.",
+  "first_seen": "2026-11-10",
+  "story": "2026-11-10-anthropic-ships-claude-fable-5-2-tops-artificial-analysis-in",
+  "source": "https://latent.space/p/ainews-fable-5-2-retakes-world-1-llm-spot-as-ant-ipo-roadshow-begins/"
+ },
+ {
+  "term": "credit default swap",
+  "definition": "A contract that lets investors insure against default, with rising prices showing they want more protection against default.",
+  "first_seen": "2026-11-10",
+  "story": "2026-11-10-coreweave-bond-yield-tops-16-as-ai-credit-stress-rises",
+  "source": "https://www.cnbc.com/2026/11/06/coreweave-bond-yield-tops-16percent-as-ai-credit-stress-rises.html"
  }
 ]

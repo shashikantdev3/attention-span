@@ -3,14 +3,14 @@
   {
    "date": "2026-11-10",
    "file": "2026-11.json",
-   "count": 10,
-   "spotlight": 1,
-   "lead": "User claims nobody understands code a year after 100% AI mandate"
+   "count": 16,
+   "spotlight": 2,
+   "lead": "DeepMind's AlphaProof Code agents verify Signal's core encryption in Lean, per Google and Wired"
   },
   {
    "date": "2026-11-09",
    "file": "2026-11.json",
-   "count": 21,
+   "count": 20,
    "spotlight": 2,
    "lead": "Nvidia's board investigates after Jensen Huang admits a relationship with a woman reportedly suspected of spying for China"
   },
@@ -240,5 +240,5 @@
   }
  ],
  "latest": "2026-11-10",
- "updated": "2026-11-10T01:06:31Z"
+ "updated": "2026-11-10T13:02:32Z"
 }

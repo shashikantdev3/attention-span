@@ -146,6 +146,11 @@ def build_day(day, items, health):
     return out, len(added)
 
 
+# a story built from a headline alone (the writer says so in the summary) is not a story
+NO_TEXT = re.compile(r"title is the only text|only (?:a |the )?(?:headline|title)s? (?:is|are|was|were) (?:given|provided)|"
+                     r"sources? (?:give|gives|provide|provides) only (?:a |the )?headlines?|only text provided", re.I)
+
+
 def restore(day, old, new, prev=()):
     """Old stories keep their places; new ones that repeat a story from today or the two days before are dropped."""
     F = DATA / "editions" / f"{day[:7]}.json"
@@ -155,6 +160,9 @@ def restore(day, old, new, prev=()):
     fresh = []
     for s in new:
         if s["id"] in old_ids or ({x["url"] for x in s["sources"]} & old_urls):
+            continue
+        if NO_TEXT.search(s.get("summary", "")):
+            log(f"   dropped a headline-only story: {s['title'][:80]}")
             continue
         if any(same_story(s["title"], o["title"]) for o in old) or is_dup(s["title"], prev):
             log(f"   dropped a repeat: {s['title'][:80]}")
@@ -271,6 +279,9 @@ def missed_stories(since, until, touched, max_add):
     for st in res.get("stories", []):
         url = (st.get("url") or "").strip()
         if not url.startswith("http") or norm_url(url) in seen:
+            continue
+        if re.search(r"\b(roundup|round-up|recap|digest|weekly|this week in|top \d+)\b", st.get("headline", ""), re.I):
+            notes.append(f"skipped (a roundup, not one story): {st.get('headline', '')[:80]}")
             continue
         d = st.get("date") or touched[-1]
         if d not in have:

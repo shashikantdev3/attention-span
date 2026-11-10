@@ -257,13 +257,24 @@ def clip_words(text, n):
     return cut[:end + 1] if end > len(cut) * 0.5 else cut.rstrip(",;:") + "."
 
 
+def clip_title(text, n=20):
+    """Headlines are never cut mid-phrase (14 words with a full stop gave "told him to get ready to go to.").
+    Up to n words are kept as written; a longer one is cut at its last comma, semicolon or colon."""
+    words = text.split()
+    if len(words) <= n:
+        return text
+    cut = " ".join(words[:n])
+    end = max(cut.rfind(", "), cut.rfind("; "), cut.rfind(": "))
+    return cut[:end] if end > len(cut) * 0.4 else text
+
+
 def finalize(draft, meta, concept_ids, people, topic_hint):
     lab_ids = {l["id"] for l in meta["labs"]}
     people_ids = {p["id"] for p in people}
     types = {t["id"] for t in meta["types"]}
     topics = {t["id"] for t in meta["topics"]}
     out = {k: tidy(draft.get(k, "")) for k in ("title", "one_liner", "summary", "eli5", "why_it_matters")}
-    out["title"] = clip_words(out["title"], 14)
+    out["title"] = clip_title(out["title"])
     out["one_liner"] = clip_words(out["one_liner"], 30)
     out["summary"] = clip_words(out["summary"], 125)
     out["eli5"] = clip_words(out["eli5"], 45)
