@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-09T13:04:57Z",
+ "updated_at": "2026-11-10T01:09:13Z",
  "window_days": 7,
  "groups": [
   {
@@ -1877,6 +1877,357 @@
  ],
  "posts": [
   {
+   "id": "bsky-emollick.bsky.social-3mzvxvkdmd22e",
+   "person": "ethan-mollick",
+   "platform": "bluesky",
+   "url": "https://bsky.app/profile/emollick.bsky.social/post/3mzvxvkdmd22e",
+   "posted_at": "2026-11-09T22:27:19Z",
+   "text": "In one of my favorite experiments, I told Fable 5.2 to build an endless, hands-off journey through 3D worlds linked by portals. \n\n25,000 agents created over 450 worlds inspired by books, art, places, all in code.\n\nPlay (its neat): portals-endless-worlds.netlify.app\nGithub: github.com/emollick/ai-...",
+   "links": [
+    {
+     "text": "github.com/emollick/ai-...",
+     "url": "https://github.com/emollick/ai-portals"
+    }
+   ],
+   "context": null,
+   "likes": 67,
+   "reposts": 8,
+   "via": "feed",
+   "meaning": "Ethan Mollick shares an experiment where Fable 5.2 used 25,000 agents to create over 450 interconnected 3D worlds in code, inspired by various books, art, and places.",
+   "concepts": [
+    "agent",
+    "coding-assistant"
+   ],
+   "story": null,
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "anthropic:claude-sonnet-5-5",
+   "added": "2026-11-10"
+  },
+  {
+   "id": "bsky-natolambert.bsky.social-3mzvu4akioi2s",
+   "person": "nathan-lambert",
+   "platform": "bluesky",
+   "url": "https://bsky.app/profile/natolambert.bsky.social/post/3mzvu4akioi2s",
+   "posted_at": "2026-11-09T21:19:29Z",
+   "text": "Im very excited for more labs to compete with Anthropic and distribute AI research abilties, knowing the safety community and others will build immense value on these tools, and the lab(s) can even improve their own AI R&D abilities by looking at user data!",
+   "links": [],
+   "context": null,
+   "likes": 10,
+   "reposts": 0,
+   "via": "feed",
+   "meaning": "Nathan Lambert expresses excitement for more labs to compete with Anthropic and distribute AI research abilities, noting that the safety community will build value and labs can improve R&D using user data.",
+   "concepts": [
+    "ai-safety"
+   ],
+   "story": null,
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "anthropic:claude-sonnet-5-5",
+   "added": "2026-11-10"
+  },
+  {
+   "id": "x-2119872666752700835",
+   "platform": "x",
+   "url": "https://x.com/eliebakouch/status/2119872666752700835",
+   "posted_at": "2026-11-09T19:20:03Z",
+   "date_only": false,
+   "text": "the first agent swarm scaling laws, beautiful https://t.co/4YjKIBAebR",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">the first agent swarm scaling laws, beautiful <a href=\"https://t.co/4YjKIBAebR\">https://t.co/4YjKIBAebR</a> <a href=\"https://t.co/jnJCmvk5zQ\">pic.twitter.com/jnJCmvk5zQ</a></p>&mdash; elie (@eliebakouch) <a href=\"https://x.com/eliebakouch/status/2119872666752700835?ref_src=twsrc%5Etfw\">November 9, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "elie-bakouch",
+   "meaning": "Elie Bakouch shares excitement over the first agent swarm scaling laws.",
+   "concepts": [
+    "scaling-laws",
+    "agent"
+   ],
+   "story": null,
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "anthropic:claude-sonnet-5-5",
+   "added": "2026-11-10"
+  },
+  {
+   "id": "x-2119870150845599972",
+   "platform": "x",
+   "url": "https://x.com/emollick/status/2119870150845599972",
+   "posted_at": "2026-11-09T19:10:03Z",
+   "date_only": false,
+   "text": "I had early access to Fable 5.2 for a bit & I think  it crosses the line into being a sort of Jagged AGI. Here, I have it launch a business, do academic research, hack hardware, build 3D models & more. I think it is a good illustration of limits & powers: https://t.co/QiR0IFPrZY",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">I had early access to Fable 5.2 for a bit &amp; I think  it crosses the line into being a sort of Jagged AGI. Here, I have it launch a business, do academic research, hack hardware, build 3D models &amp; more. I think it is a good illustration of limits &amp; powers: <a href=\"https://t.co/QiR0IFPrZY\">https://t.co/QiR0IFPrZY</a></p>&mdash; Ethan Mollick (@emollick) <a href=\"https://x.com/emollick/status/2119870150845599972?ref_src=twsrc%5Etfw\">November 9, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "ethan-mollick",
+   "meaning": "Ethan Mollick says early access to Fable 5.2 crosses into a sort of Jagged AGI. He tested it on tasks including launching a business, academic research, hardware hacking and 3D modeling, which he sees as showing both its limits and powers.",
+   "concepts": [
+    "agi",
+    "agent"
+   ],
+   "story": "2026-11-10-anthropic-releases-claude-fable-5-2-and-mythos-5-2-with-lowe",
+   "model": "anthropic:claude-haiku-5-5",
+   "checked": "anthropic:claude-sonnet-5-5",
+   "added": "2026-11-10"
+  },
+  {
+   "id": "x-2119870062408691902",
+   "platform": "x",
+   "url": "https://x.com/AravSrinivas/status/2119870062408691902",
+   "posted_at": "2026-11-09T19:09:42Z",
+   "date_only": false,
+   "text": "Fable 5.2 now available on Perplexity. Use it inside Computer, or create Teammates with Fable. Fable beats Gemini Argon by a solid margin on Wide and Deep Research tasks (WANDR).",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">Fable 5.2 now available on Perplexity. Use it inside Computer, or create Teammates with Fable. Fable beats Gemini Argon by a solid margin on Wide and Deep Research tasks (WANDR). <a href=\"https://t.co/qE1f2Mr4aY\">pic.twitter.com/qE1f2Mr4aY</a></p>&mdash; Aravind Srinivas (@AravSrinivas) <a href=\"https://x.com/AravSrinivas/status/2119870062408691902?ref_src=twsrc%5Etfw\">November 9, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "aravind-srinivas",
+   "meaning": "Aravind Srinivas announces that Fable 5.2 is now available on Perplexity, beating Gemini Argon on wide and deep research tasks.",
+   "concepts": [
+    "agent",
+    "rag"
+   ],
+   "story": "2026-11-10-anthropic-releases-claude-fable-5-2-and-mythos-5-2-with-lowe",
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "anthropic:claude-sonnet-5-5",
+   "added": "2026-11-10"
+  },
+  {
+   "id": "x-2119868572386431281",
+   "platform": "x",
+   "url": "https://x.com/theo/status/2119868572386431281",
+   "posted_at": "2026-11-09T19:03:47Z",
+   "date_only": false,
+   "text": "It's CHEAPER??! omgomgomg https://t.co/l7PDj9EStW",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"et\" dir=\"ltr\">It&#39;s CHEAPER??! omgomgomg <a href=\"https://t.co/l7PDj9EStW\">https://t.co/l7PDj9EStW</a> <a href=\"https://t.co/yXAt3JXzBo\">pic.twitter.com/yXAt3JXzBo</a></p>&mdash; Theo - t3.gg (@theo) <a href=\"https://x.com/theo/status/2119868572386431281?ref_src=twsrc%5Etfw\">November 9, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "theo-browne",
+   "meaning": "Theo Browne reacts with excited surprise that something is cheaper, sharing a link. The post does not say what the thing is or why the price matters.",
+   "concepts": [],
+   "story": "2026-11-10-anthropic-releases-claude-fable-5-2-and-mythos-5-2-with-lowe",
+   "model": "anthropic:claude-haiku-5-5",
+   "checked": "anthropic:claude-sonnet-5-5",
+   "added": "2026-11-10"
+  },
+  {
+   "id": "x-2119867129751056485",
+   "platform": "x",
+   "url": "https://x.com/claudeai/status/2119867129751056485",
+   "posted_at": "2026-11-09T18:58:03Z",
+   "date_only": false,
+   "text": "A team of 1,000 Fable 5.2 agents fully formalized Fermat’s Last Theorem in 30 hours, translating the proof into a language a computer can check step by step.\n\nWith the same setup, Opus 5.5 completed only 26% in 18 hours, and barely made any more progress after 30 hours.",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">A team of 1,000 Fable 5.2 agents fully formalized Fermat’s Last Theorem in 30 hours, translating the proof into a language a computer can check step by step.<br><br>With the same setup, Opus 5.5 completed only 26% in 18 hours, and barely made any more progress after 30 hours. <a href=\"https://t.co/Lqq8ZYXd52\">pic.twitter.com/Lqq8ZYXd52</a></p>&mdash; Claude (@claudeai) <a href=\"https://x.com/claudeai/status/2119867129751056485?ref_src=twsrc%5Etfw\">November 9, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "x-claudeai",
+   "meaning": "Claude announces that a team of 1,000 Fable 5.2 agents formalized Fermat’s Last Theorem in 30 hours, outperforming Opus 5.5.",
+   "concepts": [
+    "agent"
+   ],
+   "story": "2026-11-10-anthropic-releases-claude-fable-5-2-and-mythos-5-2-with-lowe",
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "anthropic:claude-sonnet-5-5",
+   "added": "2026-11-10"
+  },
+  {
+   "id": "x-2119863129534538134",
+   "platform": "x",
+   "url": "https://x.com/AndrewCurran_/status/2119863129534538134",
+   "posted_at": "2026-11-09T18:42:09Z",
+   "date_only": false,
+   "text": "Gemini is accelerating all of this. These numbers are from the AlphaChip paper in 2024. God knows what these numbers are now, they have not been updated in over two years. Google started leaning into the AI hardware design loop long before anyone. https://t.co/OaEr3LXs1j",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">Gemini is accelerating all of this. These numbers are from the AlphaChip paper in 2024. God knows what these numbers are now, they have not been updated in over two years. Google started leaning into the AI hardware design loop long before anyone. <a href=\"https://t.co/OaEr3LXs1j\">https://t.co/OaEr3LXs1j</a> <a href=\"https://t.co/RPjJpVR5AJ\">pic.twitter.com/RPjJpVR5AJ</a></p>&mdash; Andrew Curran (@AndrewCurran_) <a href=\"https://x.com/AndrewCurran_/status/2119863129534538134?ref_src=twsrc%5Etfw\">November 9, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "andrew-curran",
+   "meaning": "Andrew Curran says Gemini is accelerating AI hardware design work. He notes the AlphaChip figures come from a 2024 paper and have not been updated in over two years, and claims Google began leaning into this approach well before others.",
+   "concepts": [
+    "multimodal-model"
+   ],
+   "story": null,
+   "model": "anthropic:claude-haiku-5-5",
+   "checked": "anthropic:claude-sonnet-5-5",
+   "added": "2026-11-10"
+  },
+  {
+   "id": "x-2119858677993844911",
+   "platform": "x",
+   "url": "https://x.com/alexandr_wang/status/2119858677993844911",
+   "posted_at": "2026-11-09T18:24:28Z",
+   "date_only": false,
+   "text": "our teeny model muse ember is now on the efficient frontier 🤗\n\nmatching haiku at 3x cheaper cost per task, and smarter than luna https://t.co/1RB66U7WER",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">our teeny model muse ember is now on the efficient frontier 🤗<br><br>matching haiku at 3x cheaper cost per task, and smarter than luna <a href=\"https://t.co/1RB66U7WER\">https://t.co/1RB66U7WER</a></p>&mdash; Alexandr Wang (@alexandr_wang) <a href=\"https://x.com/alexandr_wang/status/2119858677993844911?ref_src=twsrc%5Etfw\">November 9, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "alexandr-wang",
+   "meaning": "Alexandr Wang shares that their model Muse Ember is on the efficient frontier, matching haiku at a third of the cost per task and outscoring luna.",
+   "concepts": [
+    "small-language-model"
+   ],
+   "story": null,
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "anthropic:claude-sonnet-5-5",
+   "added": "2026-11-10"
+  },
+  {
+   "id": "x-2119857775446757697",
+   "platform": "x",
+   "url": "https://x.com/arena/status/2119857775446757697",
+   "posted_at": "2026-11-09T18:20:53Z",
+   "date_only": false,
+   "text": "Exciting news: @AIatMeta's Muse Ember (Max) is the highest-performing small model in the Code Arena: WebDev with 1608 pts, outperforming two leading small models from Anthropic and OpenAI:\n- Claude Haiku 5.5 (High): #35, 1595 pts\n- GPT-6 Luna (Max): #42, 1578 pts\n\nAt a 1608 score… https://t.co/cQCIhImDUZ",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">Exciting news: <a href=\"https://x.com/AIatMeta?ref_src=twsrc%5Etfw\">@AIatMeta</a>&#39;s Muse Ember (Max) is the highest-performing small model in the Code Arena: WebDev with 1608 pts, outperforming two leading small models from Anthropic and OpenAI:<br>- Claude Haiku 5.5 (High): #35, 1595 pts<br>- GPT-6 Luna (Max): #42, 1578 pts<br><br>At a 1608 score… <a href=\"https://t.co/cQCIhImDUZ\">https://t.co/cQCIhImDUZ</a> <a href=\"https://t.co/EKpq0Sjave\">pic.twitter.com/EKpq0Sjave</a></p>&mdash; Arena.ai (@arena) <a href=\"https://x.com/arena/status/2119857775446757697?ref_src=twsrc%5Etfw\">November 9, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "x-lmarena",
+   "meaning": "Arena reports that Meta's Muse Ember is the highest-performing small model in the Code Arena WebDev category, outperforming competing small models.",
+   "concepts": [
+    "coding-assistant",
+    "small-language-model"
+   ],
+   "story": null,
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "anthropic:claude-sonnet-5-5",
+   "added": "2026-11-10"
+  },
+  {
+   "id": "x-2119857335871164769",
+   "platform": "x",
+   "url": "https://x.com/sundarpichai/status/2119857335871164769",
+   "posted_at": "2026-11-09T18:19:08Z",
+   "date_only": false,
+   "text": "Four distinct TPU systems in a single generation in one year! Instead of waiting years for a traditional semiconductor cycle, hardware engineers co-designing systems alongside Google Deepmind means we can keep innovating quickly for customers. https://t.co/GACoImLk9r",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">Four distinct TPU systems in a single generation in one year! Instead of waiting years for a traditional semiconductor cycle, hardware engineers co-designing systems alongside Google Deepmind means we can keep innovating quickly for customers. <a href=\"https://t.co/GACoImLk9r\">https://t.co/GACoImLk9r</a></p>&mdash; Sundar Pichai (@sundarpichai) <a href=\"https://x.com/sundarpichai/status/2119857335871164769?ref_src=twsrc%5Etfw\">November 9, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "sundar-pichai",
+   "meaning": "Sundar Pichai highlights that hardware engineers co-designing systems alongside Google DeepMind allowed them to launch four distinct TPU systems in a single year.",
+   "concepts": [
+    "gpu"
+   ],
+   "story": null,
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "anthropic:claude-sonnet-5-5",
+   "added": "2026-11-10"
+  },
+  {
+   "id": "x-2119854348587123007",
+   "platform": "x",
+   "url": "https://x.com/ArtificialAnlys/status/2119854348587123007",
+   "posted_at": "2026-11-09T18:07:16Z",
+   "date_only": false,
+   "text": "Meta's newest model Muse Ember scores 36 on the Artificial Analysis Intelligence Index, matching Claude Haiku 5.5 (max) at a third of the Cost per Task\n\nMuse Ember is Meta's newest efficient-tier model line, with the same input and output token prices as Claude Haiku 5.5 and…",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">Meta&#39;s newest model Muse Ember scores 36 on the Artificial Analysis Intelligence Index, matching Claude Haiku 5.5 (max) at a third of the Cost per Task<br><br>Muse Ember is Meta&#39;s newest efficient-tier model line, with the same input and output token prices as Claude Haiku 5.5 and… <a href=\"https://t.co/ZXq4Zw8DZj\">pic.twitter.com/ZXq4Zw8DZj</a></p>&mdash; Artificial Analysis (@ArtificialAnlys) <a href=\"https://x.com/ArtificialAnlys/status/2119854348587123007?ref_src=twsrc%5Etfw\">November 9, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "x-artificialanalysis",
+   "meaning": "Artificial Analysis reports that Meta's Muse Ember matches Claude Haiku 5.5 at one-third of the cost per task on the Intelligence Index.",
+   "concepts": [
+    "small-language-model"
+   ],
+   "story": null,
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "anthropic:claude-sonnet-5-5",
+   "added": "2026-11-10"
+  },
+  {
+   "id": "x-2119853595453702580",
+   "platform": "x",
+   "url": "https://x.com/AIatMeta/status/2119853595453702580",
+   "posted_at": "2026-11-09T18:04:16Z",
+   "date_only": false,
+   "text": "For agents that perform hundreds of small tasks, efficiency matters at every step. Muse Ember is built to deliver more intelligence for the cost.\n\nOn the @ArtificialAnlys Intelligence Index, it achieves performance comparable to Claude Haiku 5.5 at roughly one-third of the cost…",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">For agents that perform hundreds of small tasks, efficiency matters at every step. Muse Ember is built to deliver more intelligence for the cost.<br><br>On the <a href=\"https://x.com/ArtificialAnlys?ref_src=twsrc%5Etfw\">@ArtificialAnlys</a> Intelligence Index, it achieves performance comparable to Claude Haiku 5.5 at roughly one-third of the cost… <a href=\"https://t.co/Pjq8xGt2Ae\">pic.twitter.com/Pjq8xGt2Ae</a></p>&mdash; AI at Meta (@AIatMeta) <a href=\"https://x.com/AIatMeta/status/2119853595453702580?ref_src=twsrc%5Etfw\">November 9, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "x-aiatmeta",
+   "meaning": "AI at Meta says Muse Ember is built to give more intelligence per dollar for agents running hundreds of small tasks. It claims comparable performance to Claude Haiku 5.5 at roughly one-third the cost on the Artificial Analysis Intelligence Index.",
+   "concepts": [
+    "agent",
+    "benchmark"
+   ],
+   "story": "2026-11-09-meta-releases-muse-ember-a-lightweight-model-for-running-age",
+   "model": "anthropic:claude-haiku-5-5",
+   "checked": "anthropic:claude-sonnet-5-5",
+   "added": "2026-11-10"
+  },
+  {
+   "id": "x-2119851180948152590",
+   "platform": "x",
+   "url": "https://x.com/finkd/status/2119851180948152590",
+   "posted_at": "2026-11-09T17:54:41Z",
+   "date_only": false,
+   "text": "Releasing Muse Ember today -- our smallest model that delivers higher intelligence per dollar than others in its class. Built for token-heavy work that agents repeat all day: tool calls, coding subtasks, routing, extraction, and long document parsing. Available today on the Meta…",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">Releasing Muse Ember today -- our smallest model that delivers higher intelligence per dollar than others in its class. Built for token-heavy work that agents repeat all day: tool calls, coding subtasks, routing, extraction, and long document parsing. Available today on the Meta…</p>&mdash; Mark Zuckerberg (@finkd) <a href=\"https://x.com/finkd/status/2119851180948152590?ref_src=twsrc%5Etfw\">November 9, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "mark-zuckerberg",
+   "meaning": "Mark Zuckerberg announces the release of Muse Ember, Meta's smallest model built to deliver high intelligence per dollar for token-heavy work like tool calls, coding subtasks, and long document parsing.",
+   "concepts": [
+    "agent",
+    "small-language-model",
+    "tool-use"
+   ],
+   "story": "2026-11-09-meta-releases-muse-ember-a-lightweight-model-for-running-age",
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "anthropic:claude-sonnet-5-5",
+   "added": "2026-11-10"
+  },
+  {
+   "id": "x-2119846627003498767",
+   "platform": "x",
+   "url": "https://x.com/edzitron/status/2119846627003498767",
+   "posted_at": "2026-11-09T17:36:35Z",
+   "date_only": false,
+   "text": "NVIDIA is a nasty company run by some really nasty and dodgy people, @kakashiii111 and @DarioCpx have been on this for YEARS https://t.co/Pw3iUxKzgr",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">NVIDIA is a nasty company run by some really nasty and dodgy people, <a href=\"https://x.com/kakashiii111?ref_src=twsrc%5Etfw\">@kakashiii111</a> and <a href=\"https://x.com/DarioCpx?ref_src=twsrc%5Etfw\">@DarioCpx</a> have been on this for YEARS <a href=\"https://t.co/Pw3iUxKzgr\">https://t.co/Pw3iUxKzgr</a></p>&mdash; Ed Zitron (@edzitron) <a href=\"https://x.com/edzitron/status/2119846627003498767?ref_src=twsrc%5Etfw\">November 9, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "ed-zitron",
+   "meaning": "",
+   "concepts": [],
+   "story": null,
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": null,
+   "added": "2026-11-10"
+  },
+  {
+   "id": "x-2119837932785979437",
+   "platform": "x",
+   "url": "https://x.com/CaseyNewton/status/2119837932785979437",
+   "posted_at": "2026-11-09T17:02:02Z",
+   "date_only": false,
+   "text": "Why would anyone trust Nvidia's \"independent investigation\" into Jensen Huang following news that the company apparently intervened to intimidate Commerce Dept. officials who were conducting their own inquiry? https://t.co/uuIjvixKLE",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">Why would anyone trust Nvidia&#39;s &quot;independent investigation&quot; into Jensen Huang following news that the company apparently intervened to intimidate Commerce Dept. officials who were conducting their own inquiry? <a href=\"https://t.co/uuIjvixKLE\">https://t.co/uuIjvixKLE</a></p>&mdash; Casey Newton (@CaseyNewton) <a href=\"https://x.com/CaseyNewton/status/2119837932785979437?ref_src=twsrc%5Etfw\">November 9, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "casey-newton",
+   "meaning": "",
+   "concepts": [],
+   "story": null,
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": null,
+   "added": "2026-11-10"
+  },
+  {
+   "id": "x-2119788086490001906",
+   "platform": "x",
+   "url": "https://x.com/Google/status/2119788086490001906",
+   "posted_at": "2026-11-09T13:43:58Z",
+   "date_only": false,
+   "text": "Today, we're expanding our eighth-generation TPU portfolio with two new systems built specifically for the agentic era — bringing our total to four distinct eighth-generation TPU systems launched in a single year.\n\nTPU 8i Max was built for massive context windows and the highest…",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">Today, we&#39;re expanding our eighth-generation TPU portfolio with two new systems built specifically for the agentic era — bringing our total to four distinct eighth-generation TPU systems launched in a single year.<br><br>TPU 8i Max was built for massive context windows and the highest… <a href=\"https://t.co/Ljj622Z5zL\">pic.twitter.com/Ljj622Z5zL</a></p>&mdash; Google (@Google) <a href=\"https://x.com/Google/status/2119788086490001906?ref_src=twsrc%5Etfw\">November 9, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "x-google",
+   "meaning": "Google is expanding its eighth-generation TPU portfolio with two new systems built for the agentic era, bringing the total to four launched in a year, including the TPU 8i Max built for massive context windows.",
+   "concepts": [
+    "gpu",
+    "context-window",
+    "agent"
+   ],
+   "story": null,
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "anthropic:claude-sonnet-5-5",
+   "added": "2026-11-10"
+  },
+  {
    "id": "x-2119692253233103264",
    "platform": "x",
    "url": "https://x.com/elonmusk/status/2119692253233103264",
@@ -1913,8 +2264,8 @@
     "title": "Hide your slop PR descriptions behind <details><summary>",
     "text": "Most of the changes I make to my projects these days come in the form of PRs opened for me by Claude Code or Codex. The PR is my unit …"
    },
-   "likes": 181,
-   "reposts": 13,
+   "likes": 266,
+   "reposts": 19,
    "via": "feed",
    "meaning": "Simon Willison says he now hides the bulk of his AI-generated GitHub PR descriptions inside a collapsed details tag. He argues this makes the flood of agent-written pull requests less tiring to read.",
    "concepts": [
@@ -1955,7 +2306,7 @@
    "text": "I think there is too much concern expressed about verification of AI output in everyday work due to a risk of factual errors (there might be things to verify beyond errors, though)\n\nIt used to be true, but data on more recent models suggest they beat human experts in finding facts & checking claims.",
    "links": [],
    "context": null,
-   "likes": 133,
+   "likes": 134,
    "reposts": 15,
    "via": "feed",
    "meaning": "Ethan Mollick argues that worry about verifying everyday AI output is overblown. He says newer models reportedly beat human experts at finding facts and checking claims, though other verification needs may remain.",
@@ -2106,8 +2457,8 @@
     }
    ],
    "context": null,
-   "likes": 179,
-   "reposts": 35,
+   "likes": 180,
+   "reposts": 36,
    "via": "feed",
    "meaning": "Simon Willison praises a riff by @reckless.bsky.social on the latest Vergecast episode. The speaker argues that AI products aren't good enough to justify their costs to people.",
    "concepts": [],
@@ -2832,7 +3183,7 @@
     }
    ],
    "context": null,
-   "likes": 134,
+   "likes": 135,
    "reposts": 19,
    "via": "feed",
    "meaning": "Ethan Mollick highlights a paper showing that visual symbols strongly affect AIs in ways the models do not recognize in their own reasoning chains, and differently than humans interpret them.",

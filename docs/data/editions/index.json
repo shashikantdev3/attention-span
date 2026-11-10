@@ -1,9 +1,16 @@
 {
  "editions": [
   {
+   "date": "2026-11-10",
+   "file": "2026-11.json",
+   "count": 10,
+   "spotlight": 1,
+   "lead": "User claims nobody understands code a year after 100% AI mandate"
+  },
+  {
    "date": "2026-11-09",
    "file": "2026-11.json",
-   "count": 15,
+   "count": 21,
    "spotlight": 2,
    "lead": "Nvidia's board investigates after Jensen Huang admits a relationship with a woman reportedly suspected of spying for China"
   },
@@ -232,6 +239,6 @@
    "lead": "Anthropic Releases Claude Haiku 5.5 and AWS Integration"
   }
  ],
- "latest": "2026-11-09",
- "updated": "2026-11-09T13:02:03Z"
+ "latest": "2026-11-10",
+ "updated": "2026-11-10T01:06:31Z"
 }

@@ -4452,7 +4452,7 @@
   },
   "2026-11-09": {
    "date": "2026-11-09",
-   "generated_at": "2026-11-09T13:02:52Z",
+   "generated_at": "2026-11-10T01:03:30Z",
    "stories": [
     {
      "title": "Nvidia's board investigates after Jensen Huang admits a relationship with a woman reportedly suspected of spying for China",
@@ -5144,22 +5144,807 @@
      "rank": 15,
      "id": "2026-11-09-open-source-mcp-server-links-ai-assistants-to-roblox-studio",
      "date": "2026-11-09"
+    },
+    {
+     "title": "Meta releases Muse Ember, a lightweight model for running agent tasks",
+     "one_liner": "Meta Superintelligence Lab released Muse Ember, its lightest and most cost-efficient model yet, priced at 10 cents per million input tokens.",
+     "summary": "Meta Superintelligence Lab released Muse Ember on Monday. Meta calls it the lab's lightest and most cost-efficient model yet. It is built for work agents repeat all day, such as tool calls, coding subtasks, routing, extraction and long document parsing. At 10 cents per million input tokens, it is cheaper than Anthropic's Haiku and OpenAI's Luna, and cost-competitive with DeepSeek V4.1 Flash and GLM 5.3 Flash. Meta designed it to pair with a larger model like Muse Wonder in an agentic harness. It also handles text, images and audio. Ember is the fourth Muse model.",
+     "eli5": "Think of a big helper who writes the rules for a game, and a small helper who plays the game over and over using those rules. Ember is the small helper, and it costs less to use.",
+     "why_it_matters": "Teams running agents at high volume get a low-priced model for repeated tasks, which can be paired with a larger model that plans the work.",
+     "topic": "models",
+     "type": "model",
+     "labs": [
+      "meta",
+      "anthropic",
+      "openai",
+      "deepseek"
+     ],
+     "people": [],
+     "concepts": [
+      "agent",
+      "multimodal-model",
+      "tool-use"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "Meta releases Muse Ember, a new lightweight model for agent execution",
+       "url": "https://techcrunch.com/2026/11/09/meta-releases-muse-ember-a-new-lightweight-model-for-agent-execution/",
+       "name": "TechCrunch AI",
+       "kind": "press"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-09T18:00:00Z",
+     "checked": {
+      "model": "anthropic:claude-sonnet-5-5",
+      "rounds": 2,
+      "hype_flags": []
+     },
+     "editor_reason": "Meta released Muse Ember, a light model for agent execution, priced at 10 cents per million input tokens.",
+     "rank": 16,
+     "id": "2026-11-09-meta-releases-muse-ember-a-lightweight-model-for-running-age",
+     "date": "2026-11-09"
+    },
+    {
+     "title": "Disney and Adobe partner to build artist-led generative AI models",
+     "one_liner": "Disney and Adobe announced a multiyear partnership at Adobe MAX to build proprietary, artist-led generative AI models for Disney's production pipeline.",
+     "summary": "The Walt Disney Company has teamed up with Adobe to develop proprietary \"artist-led\" generative AI models for its production pipeline. The multiyear deal was announced at Adobe's MAX conference. Adobe will give Disney early access to its latest technologies for theme parks, the cruise line and ESPN content. Through Adobe Firefly Foundry, the models will be tailored to Disney's properties and trained on character attributes, environments and visual styles. Adobe says Disney's Imagineering R&D division already uses the Firefly AI platform for theme park development. Adobe will also help expand creative workflows at Walt Disney Studios.",
+     "eli5": "Disney is working with Adobe to teach a drawing computer about Disney's own characters and places. It is like giving a helper a special coloring book, so it draws things that look like Disney.",
+     "why_it_matters": "Custom models trained on a company's own characters, environments and visual styles are becoming a route to outputs described as commercially safe and production-ready.",
+     "topic": "industry",
+     "type": "event",
+     "labs": [
+      "other"
+     ],
+     "people": [],
+     "concepts": [
+      "generative-model",
+      "foundation-model",
+      "fine-tuning"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "Disney and Adobe are building generative AI tools together",
+       "url": "https://www.theverge.com/tech/1029773/disney-adobe-generative-ai-partnership",
+       "name": "The Verge AI",
+       "kind": "press"
+      },
+      {
+       "title": "Disney bets on Adobe's Firefly to create brand-safe AI models for its entertainment empire",
+       "url": "https://the-decoder.com/disney-bets-on-adobes-firefly-to-create-brand-safe-ai-models-for-its-entertainment-empire/",
+       "name": "The Decoder",
+       "kind": "press"
+      }
+     ],
+     "buzz": 2,
+     "published": "2026-11-09T15:38:56Z",
+     "checked": {
+      "model": "anthropic:claude-sonnet-5-5",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "Disney and Adobe are building proprietary generative AI tools on Firefly, and two sources report it.",
+     "rank": 17,
+     "id": "2026-11-09-disney-and-adobe-partner-to-build-artist-led-generative-ai-m",
+     "date": "2026-11-09"
+    },
+    {
+     "title": "Trump claims DOJ told a top AI executive to 'get ready to go to.",
+     "one_liner": "On 60 Minutes, Trump claimed the DOJ threatened an unnamed AI company leader with jail and said AI safety risk is overstated and manageable.",
+     "summary": "In a 60 Minutes interview, Trump was asked about AI executives' warnings on model safety. He said the risk is not nearly as real as they talk and can be managed. He claimed the DOJ is managing it and said someone at an AI company was told to 'get ready to go to jail.' He refused to name the person or company, saying only it was 'One of the big ones.' He claimed the person then 'totally changed everything.' He said he would work with Democrats on AI safety and does not mind guardrails, but does not want the US in a 'deep second position.' He said China has no guardrails.",
+     "eli5": "Imagine a grown-up says the playground rules are fine and the big kids are being watched. He says one big kid was warned to stop, but he won't say who.",
+     "why_it_matters": "Trump's stated openness to guardrails, paired with a push to stay ahead of China, suggests any future US AI rules will be weighed against competitiveness, though no specific policy was named.",
+     "topic": "policy",
+     "type": "event",
+     "labs": [
+      "government"
+     ],
+     "people": [],
+     "concepts": [
+      "ai-safety",
+      "ai-regulation",
+      "ai-governance"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "Trump’s 60 Minutes interview touched on AI safety, threat to arrest an AI exec",
+       "url": "https://www.theverge.com/ai-artificial-intelligence/1029802/trump-60-minutes-ai",
+       "name": "The Verge AI",
+       "kind": "press"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-09T15:50:38Z",
+     "checked": {
+      "model": "anthropic:claude-sonnet-5-5",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "Trump said on 60 Minutes that AI safety risks are overstated and touched on a threat to arrest an AI executive.",
+     "rank": 18,
+     "id": "2026-11-09-trump-claims-doj-told-a-top-ai-executive-to-get-ready-to-go",
+     "date": "2026-11-09"
+    },
+    {
+     "title": "Scott Wiener wins Pelosi's seat and says he will push federal AI regulation",
+     "one_liner": "Scott Wiener, who wrote California's SB 1047 and SB 53, won Nancy Pelosi's open House seat and says Congress must act on AI risk.",
+     "summary": "Scott Wiener, a California state senator, won a tight race for Nancy Pelosi's open San Francisco congressional seat. He authored SB 1047 in 2024, which Governor Gavin Newsom vetoed, and sponsored SB 53, which Newsom signed. Both bills have inspired proposed federal legislation. Wiener wants a strong federal regulator, whistleblower protections, testing and auditing requirements, and a kill switch requirement. He opposes broad federal preemption of state AI laws. His campaign received over $3 million from Public First Action, which receives substantial funding from Anthropic. He calls himself only \"cautiously optimistic\" that Congress can rein in AI.",
+     "eli5": "Imagine a new playground monitor who wants clear rules before the big kids build a faster and faster slide. He says the rules need to be made soon, and they need to really work.",
+     "why_it_matters": "A new member of Congress with AI bill experience could push federal rules such as testing, auditing, whistleblower protections and a kill switch requirement, which would shape what AI builders must follow.",
+     "topic": "policy",
+     "type": "person",
+     "labs": [
+      "government",
+      "anthropic"
+     ],
+     "people": [],
+     "concepts": [
+      "ai-regulation",
+      "ai-safety",
+      "kill-switch"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [
+      {
+       "term": "recursive self-improvement",
+       "definition": "A phenomenon in which AI meaningfully contributes to its own advancement and AI progress potentially spins out of control."
+      }
+     ],
+     "sources": [
+      {
+       "title": "Nancy Pelosi’s replacement is ready to regulate AI",
+       "url": "https://www.technologyreview.com/2026/11/09/1148182/nancy-pelosis-replacement-is-ready-to-regulate-ai/",
+       "name": "MIT Technology Review AI",
+       "kind": "press"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-09T17:05:43Z",
+     "checked": {
+      "model": "anthropic:claude-sonnet-5-5",
+      "rounds": 2,
+      "hype_flags": []
+     },
+     "editor_reason": "Scott Wiener, who wrote California AI safety legislation, won a congressional seat and is ready to regulate AI at the federal level.",
+     "rank": 19,
+     "id": "2026-11-09-scott-wiener-wins-pelosi-s-seat-and-says-he-will-push-federa",
+     "date": "2026-11-09"
+    },
+    {
+     "title": "Fabric Data Warehouse to unify built-in and custom SQL pools",
+     "one_liner": "Microsoft will merge built-in and custom SQL pools in Fabric Data Warehouse into one configuration model across the UI and APIs, with changes from mid-December 2026.",
+     "summary": "Microsoft is unifying SQL pools in Fabric Data Warehouse. SQL pools are the built-in workload management capability that helps administrators control how compute is allocated. Today, configurations look different in built-in and custom pool models. The new model removes that split and uses one configuration across the UI and APIs. By mid-December 2026, customers should stop relying on the customSQLPoolsEnabled flag to retrieve previously submitted inactive pool configurations. GET APIs will return only effective configurations, and inactive ones will no longer appear in the UI or APIs. Beginning January 2027, new workspaces will get a default configuration with a single read-optimized SQL pool that has access to 100% of available compute resources. Existing workspaces keep their active configurations and workload behavior.",
+     "eli5": "Imagine a school with two different sign-up sheets for the same playground. Now they are replacing both with one sheet, so everyone reads it the same way.",
+     "why_it_matters": "Scripts that use the customSQLPoolsEnabled flag to fetch previously submitted inactive pool configurations should be changed by mid-December 2026, since GET APIs will return only effective configurations.",
+     "topic": "data-bi",
+     "type": "event",
+     "labs": [
+      "microsoft"
+     ],
+     "people": [],
+     "concepts": [
+      "microsoft-fabric"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "Unifying SQL Pools: Upcoming changes to UI and APIs",
+       "url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Unifying-SQL-Pools-Upcoming-changes-to-UI-and-APIs/ba-p/5397390",
+       "name": "Microsoft Fabric Blog",
+       "kind": "original"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-09T17:00:00Z",
+     "checked": {
+      "model": "anthropic:claude-sonnet-5-5",
+      "rounds": 2,
+      "hype_flags": []
+     },
+     "editor_reason": "Fabric Data Warehouse is unifying SQL pools with upcoming UI and API changes that admins managing workloads should prepare for.",
+     "rank": 20,
+     "id": "2026-11-09-fabric-data-warehouse-to-unify-built-in-and-custom-sql-pools",
+     "date": "2026-11-09"
+    },
+    {
+     "title": "Startup funding roundup: Onodrim, Mavria, T-Therapeutics and Boson AI raise capital",
+     "one_liner": "Onodrim raised a $300 million Series A at a $1.3 billion valuation, while Mavria, T-Therapeutics and Boson AI also announced funding.",
+     "summary": "A November 9, 2026 funding roundup lists several deals. Amsterdam-based Onodrim Industries raised a $300 million Series A at a $1.3 billion valuation. Texas-based Mavria has $130 million in cumulative funding to build factory-built data centers. Its Terrain system uses standardized five-megawatt modules, and its first unit is under construction in Houston, with testing expected in 2027. UK-based T-Therapeutics raised $133 million in Series B financing for cancer and autoimmune treatments. California-based Boson AI has accumulated $70 million to develop interactive voice models. The article notes funding alone is not proof of commercial success.",
+     "eli5": "Imagine building a toy house from big blocks made at a factory, then carrying them to your yard. That is faster than making everything in the yard. A company wants to build computer buildings this way.",
+     "why_it_matters": "Money is flowing into the physical side of AI, such as factory-built data centers, and into voice models, which may shape where computing capacity and tools come from.",
+     "topic": "industry",
+     "type": "event",
+     "labs": [
+      "other"
+     ],
+     "people": [],
+     "concepts": [],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [
+      {
+       "term": "modular data centers",
+       "definition": "Data centers built from standardized factory-made modules that include electrical distribution, cooling, computing racks and supporting infrastructure, then shipped to a customer site."
+      }
+     ],
+     "sources": [
+      {
+       "title": "Startup Funding News Today, November 9, 2026: Boson AI, Onodrim, Mavria, T-Therapeutics & More - Tech Startups",
+       "url": "https://techstartups.com/2026/11/09/startup-funding-news-today-november-9-2026-boson-ai-onodrim-mavria-t-therapeutics-more/",
+       "name": "Tech Startups - Tech News, Tech Trends & Startup Funding",
+       "kind": "press"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-09T15:42:40Z",
+     "checked": {
+      "model": "anthropic:claude-sonnet-5-5",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "Added by the editor after the nightly run missed it.",
+     "added_by_editor": "2026-11-10",
+     "id": "2026-11-09-startup-funding-roundup-onodrim-mavria-t-therapeutics-and-bo",
+     "date": "2026-11-09",
+     "rank": 21
     }
    ],
    "stats": {
-    "items": 14,
-    "stories": 14,
+    "items": 29,
+    "stories": 28,
     "sources_ok": 42,
     "sources_failed": [],
-    "published": 19,
+    "published": 21,
     "dropped": 0,
-    "llm_calls": 15,
+    "llm_calls": 23,
     "cache_hits": 0,
     "models": {
-     "anthropic:claude-sonnet-5-5": 15
+     "anthropic:claude-sonnet-5-5": 23
     },
     "fallbacks": [],
-    "seconds": 94
+    "seconds": 136
+   }
+  },
+  "2026-11-10": {
+   "date": "2026-11-10",
+   "generated_at": "2026-11-10T01:06:38Z",
+   "stories": [
+    {
+     "title": "User claims nobody understands code a year after 100% AI mandate",
+     "one_liner": "A Hacker News post claims that one year after a 100% AI mandate, nobody understands the poster's code.",
+     "summary": "A user post shared on Hacker News claims that a year after a 100% AI mandate, nobody understands their code. The title is the only text provided. The link points to a post in the r/ClaudeCode community, served through a Redlib mirror. The sources give no details on the company, the rules of the mandate, the codebase, or any measured results. The story is an unverified claim.",
+     "eli5": "Imagine a robot drew every picture in your classroom for a whole year, and you never learned how. Later, when you want to fix a picture, nobody knows how it was made.",
+     "why_it_matters": "Requiring all code to be written by AI may leave teams unable to explain or maintain their own codebase, according to this unverified user claim.",
+     "topic": "industry",
+     "type": "event",
+     "labs": [],
+     "people": [],
+     "concepts": [
+      "coding-assistant"
+     ],
+     "spotlight": true,
+     "spotlight_reason": "A well-discussed account of living with a full AI coding mandate for a year points to a shift in how engineering work is done.",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "A year after the 100% AI mandate nobody understands our code",
+       "url": "https://www.reddit.com/r/ClaudeCode/comments/1xq2n3t/a_year_after_the_100_ai_mandate_nobody/",
+       "name": "reddit.com",
+       "kind": "press"
+      },
+      {
+       "title": "Discussion on Hacker News",
+       "url": "https://news.ycombinator.com/item?id=50433079",
+       "name": "Hacker News",
+       "kind": "discussion"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-09T22:19:12Z",
+     "checked": {
+      "model": "anthropic:claude-sonnet-5-5",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "A year after a 100% AI mandate, a developer says nobody understands their code, which speaks to how AI-written code holds up over time.",
+     "rank": 1,
+     "id": "2026-11-10-user-claims-nobody-understands-code-a-year-after-100-ai-mand",
+     "date": "2026-11-10"
+    },
+    {
+     "title": "Anthropic releases Claude Fable 5.2 and Mythos 5.2 with lower prices",
+     "one_liner": "Anthropic launched Claude Fable 5.2 and Mythos 5.2, models that generate output up to 30% faster than 5.1 and cost $8 per million input tokens.",
+     "summary": "Anthropic released Claude Fable 5.2 and Claude Mythos 5.2, which it says improve coding, reasoning and vision. They are the same underlying model. Fable has cybersecurity and biology safeguards and is open to all users. Mythos is available to organizations through verification programs. Output is up to 30% faster than 5.1, at $8 per million input tokens and $40 per million output tokens. An optional fast mode speeds generation up to 2.5 times, at $16 and $80. On FrontierCode, Fable 5.2 scores 49.1% at Xhigh effort. Both models are on Amazon Bedrock.",
+     "eli5": "Imagine a very smart helper who is good at hard puzzles. There is one version anyone can use, and a special version for trusted groups who need it for careful work.",
+     "why_it_matters": "Teams get a model that Anthropic says is faster and cheaper than 5.1, with Fable 5.2 matching Opus 5.5's FrontierCode score at High effort for roughly half the cost per task.",
+     "topic": "models",
+     "type": "model",
+     "labs": [
+      "anthropic"
+     ],
+     "people": [],
+     "concepts": [
+      "benchmark",
+      "effort-controls",
+      "ai-safety"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [
+      {
+       "term": "advisor and orchestrator roles",
+       "definition": "A large model either helps smaller models solve harder problems (Advisor) or hands simpler tasks to smaller models (Orchestrator)."
+      }
+     ],
+     "sources": [
+      {
+       "title": "Claude Fable 5.2 and Mythos 5.2",
+       "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+       "name": "anthropic.com",
+       "kind": "original"
+      },
+      {
+       "title": "Discussion on Hacker News",
+       "url": "https://news.ycombinator.com/item?id=50429906",
+       "name": "Hacker News",
+       "kind": "discussion"
+      },
+      {
+       "title": "Introducing Claude Fable 5.2 on AWS",
+       "url": "https://aws.amazon.com/blogs/machine-learning/introducing-claude-fable-5-2-on-aws/",
+       "name": "AWS Machine Learning Blog",
+       "kind": "original"
+      },
+      {
+       "title": "Claude Fable 5.2 Scores 65 on Artificial Analysis, Highest So Far",
+       "url": "https://artificialanalysis.ai/models/claude-fable-5-2",
+       "name": "artificialanalysis.ai",
+       "kind": "press"
+      },
+      {
+       "title": "Discussion on Hacker News",
+       "url": "https://news.ycombinator.com/item?id=50431144",
+       "name": "Hacker News",
+       "kind": "discussion"
+      },
+      {
+       "title": "Anthropic launches new Claude Fable and Mythos 5.2 models",
+       "url": "https://www.theverge.com/ai-artificial-intelligence/1030005/anthropic-claude-fable-mythos-5-2",
+       "name": "The Verge AI",
+       "kind": "press"
+      },
+      {
+       "title": "Claude Fable 5.2 and Mythos 5.2 cement Anthropic's AI lead just before its IPO",
+       "url": "https://the-decoder.com/claude-fable-5-2-and-mythos-5-2-cement-anthropics-ai-lead-just-before-its-ipo/",
+       "name": "The Decoder",
+       "kind": "press"
+      },
+      {
+       "title": "Anthropic releases new Mythos and Fable models amid RSI concerns",
+       "url": "https://techcrunch.com/2026/11/09/anthropic-releases-new-mythos-and-fable-models-amid-rsi-concerns/",
+       "name": "TechCrunch AI",
+       "kind": "press"
+      }
+     ],
+     "buzz": 6,
+     "published": "2026-11-09T18:56:29Z",
+     "checked": {
+      "model": "anthropic:claude-sonnet-5-5",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "Anthropic launches Claude Fable 5.2 and Mythos 5.2, priced at $8 per 1M input and $40 per 1M output tokens, and the story drew 908 HN points.",
+     "rank": 2,
+     "id": "2026-11-10-anthropic-releases-claude-fable-5-2-and-mythos-5-2-with-lowe",
+     "date": "2026-11-10"
+    },
+    {
+     "title": "Report claims Google Gemini sends connected Drive and Gmail content to human reviewers",
+     "one_liner": "A GitHub write-up claims Google now routes personal Drive files and emails from Gemini's Connected Apps to human reviewers, reversing a 2023 promise.",
+     "summary": "A GitHub post says Google reversed its 2023 promise that personal Gmail, Docs and Drive content \"is not seen by human reviewers.\" It cites updated Google Help Answer 16836988 and an October 16 edit to the 2023 blogpost. Google warns reviewers may see \"the email or file.\" The author says Gemini pulls Workspace data in background chat without @Drive or @Gmail tags. Tests gave four outcomes: no retrieval, a summary, a partial quote, or the full file. The author says Google's scrubbers cannot fully deidentify narrative data.",
+     "eli5": "Imagine you tell a helper to keep your diary private, but now the helper says a few other people may peek at pages while checking its work. The helper also sometimes grabs a page without being asked.",
+     "why_it_matters": "Anyone connecting Gmail or Drive to Gemini should assume the content could reach human reviewers, and should keep confidential material out of connected accounts.",
+     "topic": "policy",
+     "type": "event",
+     "labs": [
+      "google"
+     ],
+     "people": [],
+     "concepts": [
+      "ai-governance",
+      "tool-use",
+      "llm"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "Google Gemini routes personal Drive files and emails to human annotators",
+       "url": "https://github.com/thisisme6598/gemini_files/",
+       "name": "github.com",
+       "kind": "original"
+      },
+      {
+       "title": "Discussion on Hacker News",
+       "url": "https://news.ycombinator.com/item?id=50429426",
+       "name": "Hacker News",
+       "kind": "discussion"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-09T18:24:38Z",
+     "checked": {
+      "model": "anthropic:claude-sonnet-5-5",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "Report that Google Gemini routes personal Drive files and emails to human annotators raises a privacy question for anyone building on or using it.",
+     "rank": 3,
+     "id": "2026-11-10-report-claims-google-gemini-sends-connected-drive-and-gmail",
+     "date": "2026-11-10"
+    },
+    {
+     "title": "Fireworks says hackers accessed some customer datasets, partial model weights and billing data",
+     "one_liner": "AI infrastructure provider Fireworks says hackers accessed some customers' datasets, incomplete model weights, and billing information over the past month, according to Forbes.",
+     "summary": "Forbes reporter Anna Tong reports that AI infrastructure provider Fireworks says hackers accessed some of its customers' data over the past month. The data included datasets, incomplete model weights, and billing information. Two customers told Forbes they had already substantially moved their business off Fireworks' systems. One of them described a series of problems, but the source text cuts off before giving details. The source does not say how many customers were affected, how the attackers got in, or what Fireworks is doing in response.",
+     "eli5": "Imagine you keep your toys and your drawings in a friend's big storage room. Someone sneaked in and looked at some of them, so a few kids started keeping their things somewhere else.",
+     "why_it_matters": "Teams that host datasets and model weights with a third-party AI provider face the risk that those assets and billing records can be exposed, and some customers are already moving away.",
+     "topic": "industry",
+     "type": "event",
+     "labs": [
+      "other"
+     ],
+     "people": [],
+     "concepts": [
+      "dataset"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "AI infrastructure provider Fireworks says hackers accessed some customers' datasets, incomplete model weights, and billing information over the past month (Anna Tong/Forbes)",
+       "url": "https://www.techmeme.com/261109/p42#a261109p42",
+       "name": "Techmeme",
+       "kind": "press"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-09T21:15:14Z",
+     "checked": {
+      "model": "anthropic:claude-sonnet-5-5",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "Fireworks says hackers accessed some customers' datasets, incomplete model weights and billing information, a direct security concern for teams using hosted inference.",
+     "rank": 4,
+     "id": "2026-11-10-fireworks-says-hackers-accessed-some-customer-datasets-parti",
+     "date": "2026-11-10"
+    },
+    {
+     "title": "Short seller Culper flagged Jensen Huang's ties to suspected Chinese spy in May",
+     "one_liner": "Culper Research's May 13 report questioned Jensen Huang's close ties to Megaspeed's Alice Huang, now suspected of being a Chinese spy, and Nvidia has opened an investigation.",
+     "summary": "Six months before the scandal emerged, short seller Culper Research called Jensen Huang's relationship with Alice Huang, a Megaspeed executive, \"uncomfortably close\". U.S. intelligence officials believe she was recruited by the Chinese government to collect intelligence on him and influence his view on export controls. Nvidia has opened a formal investigation after he admitted to an affair. Culper also claimed Alibaba secretly financed Megaspeed. The Financial Times reported Alibaba lent money to Megaspeed through subsidiaries. Culper stood to gain from its claims, and the chip diversion allegations are not independently verified.",
+     "eli5": "Imagine a person who sells you toys was seen being very close friends with a shopkeeper who buys lots of your toys. Someone pointed it out early, and now people are checking if that friendship was a problem.",
+     "why_it_matters": "Questions over Nvidia's leadership and its chip sales in Southeast Asia could affect how export controls on advanced AI chips are watched and enforced, which shapes GPU access.",
+     "topic": "industry",
+     "type": "event",
+     "labs": [
+      "nvidia",
+      "qwen",
+      "government"
+     ],
+     "people": [],
+     "concepts": [
+      "gpu",
+      "ai-governance"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "A short seller flagged Nvidia CEO’s ties to a suspected Chinese spy six months before the scandal",
+       "url": "https://techcrunch.com/2026/11/09/a-short-seller-flagged-nvidia-ceos-ties-to-a-suspected-chinese-spy-six-months-before-the-scandal/",
+       "name": "TechCrunch AI",
+       "kind": "press"
+      },
+      {
+       "title": "A report by short seller Culper Research from May is resurfacing because it had flagged Jensen Huang's relationship with Alice Huang as \"uncomfortably close\" (Sarah Perez/TechCrunch)",
+       "url": "https://www.techmeme.com/261109/p46#a261109p46",
+       "name": "Techmeme",
+       "kind": "press"
+      },
+      {
+       "title": "Jensen Huang reportedly engaged a PR firm with a history of handling high-profile sex scandals a year ago",
+       "url": "https://techcrunch.com/2026/11/09/jensen-huang-reportedly-engaged-a-pr-firm-with-a-history-of-handling-high-profile-sex-scandals-a-year-ago/",
+       "name": "TechCrunch AI",
+       "kind": "press"
+      },
+      {
+       "title": "The race is on to sue Nvidia",
+       "url": "https://techcrunch.com/2026/11/09/the-race-is-on-to-sue-nvidia/",
+       "name": "TechCrunch AI",
+       "kind": "press"
+      },
+      {
+       "title": "Jensen Huang pulls out of ElevenLabs Summit amid Nvidia controversy",
+       "url": "https://techcrunch.com/2026/11/09/jensen-huang-pulls-out-of-elevenlabs-summit-amid-nvidia-controversy/",
+       "name": "TechCrunch AI",
+       "kind": "press"
+      },
+      {
+       "title": "Trump says the FBI is \"looking into\" Jensen Huang's affair, and the Nvidia CEO told him he \"had absolutely no idea that the person in question was a spy\" (Associated Press)",
+       "url": "https://www.techmeme.com/261109/p44#a261109p44",
+       "name": "Techmeme",
+       "kind": "press"
+      },
+      {
+       "title": "Jensen Huang's affair shines a spotlight on Nvidia's weak board and opaque succession planning at what has become the world's most important company (Semafor)",
+       "url": "https://www.techmeme.com/261109/p43#a261109p43",
+       "name": "Techmeme",
+       "kind": "press"
+      }
+     ],
+     "buzz": 2,
+     "published": "2026-11-09T20:09:06Z",
+     "checked": {
+      "model": "anthropic:claude-sonnet-5-5",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "Nvidia's board is investigating Jensen Huang's relationship with a suspected Chinese spy, the stock fell more than 4%, and several outlets are covering it.",
+     "rank": 5,
+     "id": "2026-11-10-short-seller-culper-flagged-jensen-huang-s-ties-to-suspected",
+     "date": "2026-11-10"
+    },
+    {
+     "title": "Bytedance says Seedream 5.5 supports 100 rounds of pixel-stable image editing",
+     "one_liner": "Bytedance Seed introduced Seedream 5.5, an image model for professional workflows that, per Bytedance, keeps edits stable across up to 100 rounds and outputs transparent RGBA images.",
+     "summary": "Bytedance Seed has introduced Seedream 5.5, an image generation model built for professional production workflows. According to Bytedance, it supports stable multi-round editing across up to 100 rounds, with unchanged image areas preserved at the pixel level and no color shifts. It also generates native RGBA images with transparent backgrounds, so generated elements can serve as design assets without manual cutouts. Bytedance says it renders light, materials and skin textures more realistically and reproduces dense small text more accurately. Bytedance claims it leads models like GPT Image 2.5 Sunburst in text structure and realism. It is rolling out gradually via Jimeng, Doubao, Doubao Work, and Volcengine Ark. A Pro version is planned.",
+     "eli5": "Imagine drawing a picture and asking a helper to change small things again and again. This helper only changes the spot you point to, and the rest of the picture stays just the same.",
+     "why_it_matters": "Teams that build design and image tools get a model that, by Bytedance's claims, keeps untouched areas stable over many edits and outputs transparent assets, which could cut manual cleanup work.",
+     "topic": "models",
+     "type": "model",
+     "labs": [
+      "other"
+     ],
+     "people": [],
+     "concepts": [
+      "generative-model",
+      "diffusion-model"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [
+      {
+       "term": "multi-round editing",
+       "definition": "Editing an image over many repeated passes while keeping unchanged areas preserved at the pixel level and free of color shifts."
+      },
+      {
+       "term": "native RGBA generation",
+       "definition": "Generating images with a transparent background so the elements can serve directly as design assets without manual cutouts."
+      }
+     ],
+     "sources": [
+      {
+       "title": "Bytedance's Seedream 5.5 promises pixel-stable image editing across 100 rounds without color drift",
+       "url": "https://the-decoder.com/bytedances-seedream-5-5-promises-pixel-stable-image-editing-across-100-rounds-without-color-drift/",
+       "name": "The Decoder",
+       "kind": "press"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-09T18:50:01Z",
+     "checked": {
+      "model": "anthropic:claude-sonnet-5-5",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "Bytedance's Seedream 5.5 targets professional workflows with stable image editing over up to 100 rounds.",
+     "rank": 6,
+     "id": "2026-11-10-bytedance-says-seedream-5-5-supports-100-rounds-of-pixel-sta",
+     "date": "2026-11-10"
+    },
+    {
+     "title": "Microsoft to retire R and Python visuals in Power BI in May 2027",
+     "one_liner": "Microsoft will retire the built-in R and Python visuals in Power BI in May 2027, and reports using them must be rebuilt with other visuals.",
+     "summary": "The Power BI Blog says the built-in R and Python visuals in Power BI will retire in May 2027. The change applies only to visuals in interactive reports. Python scripts in Power Query that populate tables are not affected. In the Power BI service, these visuals will stop working in published reports, and R-powered custom visuals will stop too. Older versions of Power BI Desktop keep working locally with R and Python installed. Future Desktop versions will remove the visuals. No migration will recreate an exact visual, so teams must replace each one with a different visualization before retirement.",
+     "eli5": "Imagine a toy in your toy box that the store will stop making and soon will stop working. You need to pick a different toy to play the same game before that day comes.",
+     "why_it_matters": "Any report that relies on R or Python visuals will break after May 2027, so teams need to find them, save their scripts and rebuild them with other visuals before then.",
+     "topic": "data-bi",
+     "type": "event",
+     "labs": [
+      "microsoft"
+     ],
+     "people": [],
+     "concepts": [],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "Announcing the retirement of R and Python visuals in Power BI",
+       "url": "https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Announcing-the-retirement-of-R-and-Python-visuals-in-Power-BI/ba-p/5400748",
+       "name": "Power BI Blog",
+       "kind": "original"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-09T19:00:39Z",
+     "checked": {
+      "model": "anthropic:claude-sonnet-5-5",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "Microsoft will retire R and Python visuals in Power BI in May 2027, so teams using them need a migration plan.",
+     "rank": 7,
+     "id": "2026-11-10-microsoft-to-retire-r-and-python-visuals-in-power-bi-in-may",
+     "date": "2026-11-10"
+    },
+    {
+     "title": "ChatGPT Enterprise now available through AWS Marketplace",
+     "one_liner": "OpenAI has made ChatGPT Enterprise available in AWS Marketplace, so organizations can buy it through their existing AWS purchasing and billing relationship.",
+     "summary": "ChatGPT Enterprise is now available through AWS Marketplace. Organizations can discover, buy and manage it using their existing AWS purchasing and billing relationship, and apply eligible spend toward their AWS commitments. AWS customers get the same models, features and functionality as buying directly from OpenAI, with new features released at the same time. The listing complements the OpenAI models in Amazon Bedrock, where developers can build AI applications and agents. Eligible customers can also access ChatGPT for Healthcare and ChatGPT for Financial Services through AWS Marketplace. Customers should contact their OpenAI or AWS account team to confirm eligibility.",
+     "eli5": "Imagine your school lets you buy a new toy at the same shop where you already buy everything else, using the same wallet. It is the same toy, just easier to get.",
+     "why_it_matters": "Teams already buying through AWS can add ChatGPT Enterprise to their existing AWS billing and commitments, while still choosing between it and OpenAI models in Amazon Bedrock for building apps and agents.",
+     "topic": "products",
+     "type": "event",
+     "labs": [
+      "openai"
+     ],
+     "people": [],
+     "concepts": [],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "ChatGPT Enterprise now available in AWS Marketplace",
+       "url": "https://openai.com/index/chatgpt-enterprise-aws-marketplace",
+       "name": "OpenAI News",
+       "kind": "original"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-09T19:00:00Z",
+     "checked": {
+      "model": "anthropic:claude-sonnet-5-5",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "ChatGPT Enterprise is now available through AWS Marketplace, so companies can buy it on existing AWS billing.",
+     "rank": 8,
+     "id": "2026-11-10-chatgpt-enterprise-now-available-through-aws-marketplace",
+     "date": "2026-11-10"
+    },
+    {
+     "title": "DeepX claims inference up to 100B parameters at under 5 W",
+     "one_liner": "DeepX claims it can run inference at up to 100B parameters while using less than 5 W of power, according to a Hacker News post.",
+     "summary": "A Hacker News post reports that DeepX claims inference at up to 100B parameters at less than 5 W. The source text is only a headline. It gives no details on how this is done. It does not say what hardware is used, which models were tested, how fast inference runs, or whether anyone has checked the claim independently. The numbers are the company's own claim and should be treated as unverified until more information is available.",
+     "eli5": "Imagine someone says they can run a huge toy factory using only the power of a tiny night light. It sounds amazing, but we should see it work before we believe it.",
+     "why_it_matters": "If the claim holds up, very large models might run on far less power, but nothing is confirmed yet and the source gives no technical details to test.",
+     "topic": "industry",
+     "type": "event",
+     "labs": [
+      "other"
+     ],
+     "people": [],
+     "concepts": [
+      "inference"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "DeepX claims inference up to 100B parameters at less than 5 W",
+       "url": "https://www.eetimes.com/deepx-tapes-out-second-gen-chip-projects-6-7x-performance-gain-with-lpddr5x-pim/",
+       "name": "eetimes.com",
+       "kind": "press"
+      },
+      {
+       "title": "Discussion on Hacker News",
+       "url": "https://news.ycombinator.com/item?id=50429545",
+       "name": "Hacker News",
+       "kind": "discussion"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-09T18:33:58Z",
+     "checked": {
+      "model": "anthropic:claude-sonnet-5-5",
+      "rounds": 2,
+      "hype_flags": []
+     },
+     "editor_reason": "DeepX claims inference of models up to 100B parameters at under 5 W, a claim worth watching for edge deployment.",
+     "rank": 9,
+     "id": "2026-11-10-deepx-claims-inference-up-to-100b-parameters-at-under-5-w",
+     "date": "2026-11-10"
+    },
+    {
+     "title": "Apple adds $49.99 Intelligence Usage Packs, starting with Logic Pro",
+     "one_liner": "Apple's Logic Pro now offers a one-time $49.99 Intelligence Usage Pack so users can keep using Apple Intelligence features that have usage limits.",
+     "summary": "Apple updated Logic Pro with a \"Buy More Usage\" option for a one-time price of $49.99. The packs let users keep using certain Apple Intelligence features that have usage limits because they rely on cloud-based AI models from OpenAI or Google Gemini. Only the purchasing Apple Account can use a pack, and Family Sharing isn't supported. Unused usage rolls over month to month but expires 12 months after purchase. In Logic Pro, the limit is affected by the complexity of conversations with the assistant. Apple is expected to add the option to other Creator Studio apps this month.",
+     "eli5": "Imagine a playground ride that gives you a few free turns each month. When your turns run out, you can buy a ticket book to keep riding.",
+     "why_it_matters": "AI features backed by cloud models now come with usage caps and paid top-ups inside Apple apps, so cost and limits become part of product planning.",
+     "topic": "products",
+     "type": "product",
+     "labs": [
+      "other",
+      "openai",
+      "google"
+     ],
+     "people": [],
+     "concepts": [
+      "chatbot",
+      "tokens"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "Apple’s $50 Intelligence Usage Packs extend access to some AI features",
+       "url": "https://www.theverge.com/tech/1030084/apple-intelligence-usage-packs-ai-features-creator-studio-logic-pro",
+       "name": "The Verge AI",
+       "kind": "press"
+      },
+      {
+       "title": "Apple is now offering additional AI access via one-time $50 \"intelligence usage packs\" when monthly usage caps are met, starting in its Creator Studio apps (Ryan Christoffel/9to5Mac)",
+       "url": "https://www.techmeme.com/261109/p45#a261109p45",
+       "name": "Techmeme",
+       "kind": "press"
+      }
+     ],
+     "buzz": 2,
+     "published": "2026-11-09T19:09:58Z",
+     "checked": {
+      "model": "anthropic:claude-sonnet-5-5",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "Apple now sells $50 one-time intelligence usage packs for users who hit monthly caps on some Apple Intelligence features.",
+     "rank": 10,
+     "id": "2026-11-10-apple-adds-49-99-intelligence-usage-packs-starting-with-logi",
+     "date": "2026-11-10"
+    }
+   ],
+   "stats": {
+    "items": 39,
+    "stories": 34,
+    "sources_ok": 42,
+    "sources_failed": [],
+    "published": 12,
+    "dropped": 0,
+    "llm_calls": 27,
+    "cache_hits": 0,
+    "models": {
+     "anthropic:claude-sonnet-5-5": 27
+    },
+    "fallbacks": [
+     {
+      "tag": "checker",
+      "used": "anthropic:claude-sonnet-5-5",
+      "after": [
+       "anthropic:claude-sonnet-5-5: bad JSON (JSONDecodeError)"
+      ]
+     }
+    ],
+    "seconds": 180
    }
   }
  }
