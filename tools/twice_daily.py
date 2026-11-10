@@ -174,7 +174,10 @@ def restore(day, old, new, prev=()):
         del fresh[i]
     lead_new = [s for s in fresh if s.get("spotlight")]
     rest_new = [s for s in fresh if not s.get("spotlight")]
-    stories = lead_new + old + rest_new
+    k = 0                                   # new spotlights go right after the existing spotlighted stories,
+    while k < len(old) and old[k].get("spotlight"):   # so a later run never takes the lead from the earlier one
+        k += 1
+    stories = old[:k] + lead_new + old[k:] + rest_new
     n_spot = 0
     for r, s in enumerate(stories, 1):
         s["rank"] = r
@@ -267,6 +270,14 @@ BLOCKED = re.compile(r"techmeme\.com|killtheai|theneuron\.ai|bloomberg\.com|wsj\
                      r"recap|digest|roundup|aitools|ai-news-(?:today|\w+-\d)|top-\d+-ai-news", re.I)
 
 
+def article_url(u):
+    """A home or section page (cnbc.com/ai-artificial-intelligence/, finance.yahoo.com/technology/ai/) is not a source:
+    an article path has a digit, an .html ending, or a slug of at least four words."""
+    path = urlsplit(u).path.strip("/")
+    last = path.rsplit("/", 1)[-1]
+    return bool(path) and (bool(re.search(r"\d", path)) or last.endswith((".html", ".htm")) or last.count("-") >= 3)
+
+
 def missed_stories(since, until, touched, max_add):
     from pipeline.store import norm_url
     code, out = run(["tools/research.py", "--since", iso(since), "--until", iso(until), "--focus", "news",
@@ -292,7 +303,7 @@ def missed_stories(since, until, touched, max_add):
             notes.append(f"skipped (already covered as \"{dup[:60]}\"): {st.get('headline', '')[:80]}")
             continue
         urls = [u for u in [url] + list(st.get("also") or []) if u.startswith("http") and not BLOCKED.search(u)
-                and urlsplit(u).path.strip("/")][:2]                 # a home page is not a source
+                and article_url(u)][:2]
         if not urls:
             notes.append(f"skipped (only aggregator or paywalled links): {st.get('headline', '')[:80]}")
             continue
@@ -303,6 +314,11 @@ def missed_stories(since, until, touched, max_add):
             break
         if i in reps:
             notes.append(f"skipped (same news as \"{reps[i][:60]}\"): {st.get('headline', '')[:80]}")
+            continue
+        h = st.get("headline", "")
+        earlier = [a.split(": ", 1)[-1] for a in added]
+        if earlier and (any(same_story(h, e) for e in earlier) or llm_repeats([h], earlier)):
+            notes.append(f"skipped (same news as a story added in this run): {h[:80]}")
             continue
         tried += 1
         code, o = run(["tools/add_story.py", *urls, "--date", d], timeout=600)

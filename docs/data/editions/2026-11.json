@@ -5380,56 +5380,6 @@
    "generated_at": "2026-11-10T13:03:45Z",
    "stories": [
     {
-     "title": "DeepMind's AlphaProof Code agents verify Signal's core encryption in Lean, per Google and Wired",
-     "one_liner": "Google DeepMind says AlphaProof Code agents wrote three million lines of Lean proofs to verify Signal's core encryption in a four-week proof of concept.",
-     "summary": "Google DeepMind introduced AlphaProof Code, an agentic AI framework for verifying complex software. According to the DeepMind Blog, its agents wrote three million lines of proofs in Lean to verify Signal's core encryption. Wired, as summarized by Techmeme, reports that DeepMind researchers used the framework to verify the Signal protocol's cryptographic guarantees. The work was a four-week proof of concept. Wired says the researchers were able to formally verify that the widely used encryption protocol works as intended. The sources also mention a stretch goal, but do not say what it is.",
-     "eli5": "Imagine a robot that checks every step of a long recipe to be sure the cake always comes out right. This robot checked the steps for keeping chat messages secret.",
-     "why_it_matters": "AI agents can now write very large formal proofs in Lean, which points to a way to check security-critical code beyond ordinary testing.",
-     "topic": "research",
-     "type": "event",
-     "labs": [
-      "google"
-     ],
-     "people": [],
-     "concepts": [
-      "agent",
-      "ai-safety"
-     ],
-     "spotlight": true,
-     "spotlight_reason": "Agents writing millions of lines of machine-checked proofs to verify real-world encryption code is a new way to use AI for software assurance.",
-     "new_terms": [
-      {
-       "term": "formal verification",
-       "definition": "Proving with formal methods that software, such as an encryption protocol, works as intended."
-      }
-     ],
-     "sources": [
-      {
-       "title": "Introducing AlphaProof Code: a breakthrough in verifying complex software at depth",
-       "url": "https://deepmind.google/blog/introducing-alphaproof-code/",
-       "name": "Google DeepMind Blog",
-       "kind": "original"
-      },
-      {
-       "title": "Google DeepMind researchers used agentic AI framework AlphaProof Code to verify the Signal protocol's cryptographic guarantees, in a four-week proof-of-concept (Lily Hay Newman/Wired)",
-       "url": "https://www.techmeme.com/261110/p14#a261110p14",
-       "name": "Techmeme",
-       "kind": "press"
-      }
-     ],
-     "buzz": 2,
-     "published": "2026-11-10T11:55:00Z",
-     "checked": {
-      "model": "anthropic:claude-sonnet-5-5",
-      "rounds": 1,
-      "hype_flags": []
-     },
-     "editor_reason": "DeepMind's AlphaProof Code agents wrote three million lines of Lean proofs to verify Signal's core encryption, a practical test of AI-driven software verification.",
-     "rank": 1,
-     "id": "2026-11-10-deepmind-s-alphaproof-code-agents-verify-signal-s-core-encry",
-     "date": "2026-11-10"
-    },
-    {
      "title": "Anthropic releases Claude Fable 5.2 and Mythos 5.2: up to 30% faster than 5.1, with an optional fast mode",
      "one_liner": "Anthropic launched Claude Fable 5.2 and Mythos 5.2, models that generate output up to 30% faster than 5.1 and cost $8 per million input tokens.",
      "summary": "Anthropic released Claude Fable 5.2 and Claude Mythos 5.2, which it says improve coding, reasoning and vision. They are the same underlying model. Fable has cybersecurity and biology safeguards and is open to all users. Mythos is available to organizations through verification programs. Output is up to 30% faster than 5.1, at $8 per million input tokens and $40 per million output tokens. An optional fast mode speeds generation up to 2.5 times, at $16 and $80. On FrontierCode, Fable 5.2 scores 49.1% at Xhigh effort. Both models are on Amazon Bedrock.",
@@ -5502,6 +5452,12 @@
        "url": "https://techcrunch.com/2026/11/09/anthropic-releases-new-mythos-and-fable-models-amid-rsi-concerns/",
        "name": "TechCrunch AI",
        "kind": "press"
+      },
+      {
+       "title": "[AINews] Fable 5.2 retakes World #1 LLM spot as $ANT IPO roadshow begins",
+       "url": "https://latent.space/p/ainews-fable-5-2-retakes-world-1-llm-spot-as-ant-ipo-roadshow-begins/",
+       "name": "Latent Space (AINews)",
+       "kind": "press"
       }
      ],
      "buzz": 6,
@@ -5512,8 +5468,58 @@
       "hype_flags": []
      },
      "editor_reason": "Anthropic launches Claude Fable 5.2 and Mythos 5.2, priced at $8 per 1M input and $40 per 1M output tokens, and the story drew 908 HN points.",
-     "rank": 2,
+     "rank": 1,
      "id": "2026-11-10-anthropic-releases-claude-fable-5-2-and-mythos-5-2-with-lowe",
+     "date": "2026-11-10"
+    },
+    {
+     "title": "DeepMind's AlphaProof Code agents verify Signal's core encryption in Lean, per Google and Wired",
+     "one_liner": "Google DeepMind says AlphaProof Code agents wrote three million lines of Lean proofs to verify Signal's core encryption in a four-week proof of concept.",
+     "summary": "Google DeepMind introduced AlphaProof Code, an agentic AI framework for verifying complex software. According to the DeepMind Blog, its agents wrote three million lines of proofs in Lean to verify Signal's core encryption. Wired, as summarized by Techmeme, reports that DeepMind researchers used the framework to verify the Signal protocol's cryptographic guarantees. The work was a four-week proof of concept. Wired says the researchers were able to formally verify that the widely used encryption protocol works as intended. The sources also mention a stretch goal, but do not say what it is.",
+     "eli5": "Imagine a robot that checks every step of a long recipe to be sure the cake always comes out right. This robot checked the steps for keeping chat messages secret.",
+     "why_it_matters": "AI agents can now write very large formal proofs in Lean, which points to a way to check security-critical code beyond ordinary testing.",
+     "topic": "research",
+     "type": "event",
+     "labs": [
+      "google"
+     ],
+     "people": [],
+     "concepts": [
+      "agent",
+      "ai-safety"
+     ],
+     "spotlight": true,
+     "spotlight_reason": "Agents writing millions of lines of machine-checked proofs to verify real-world encryption code is a new way to use AI for software assurance.",
+     "new_terms": [
+      {
+       "term": "formal verification",
+       "definition": "Proving with formal methods that software, such as an encryption protocol, works as intended."
+      }
+     ],
+     "sources": [
+      {
+       "title": "Introducing AlphaProof Code: a breakthrough in verifying complex software at depth",
+       "url": "https://deepmind.google/blog/introducing-alphaproof-code/",
+       "name": "Google DeepMind Blog",
+       "kind": "original"
+      },
+      {
+       "title": "Google DeepMind researchers used agentic AI framework AlphaProof Code to verify the Signal protocol's cryptographic guarantees, in a four-week proof-of-concept (Lily Hay Newman/Wired)",
+       "url": "https://www.techmeme.com/261110/p14#a261110p14",
+       "name": "Techmeme",
+       "kind": "press"
+      }
+     ],
+     "buzz": 2,
+     "published": "2026-11-10T11:55:00Z",
+     "checked": {
+      "model": "anthropic:claude-sonnet-5-5",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "DeepMind's AlphaProof Code agents wrote three million lines of Lean proofs to verify Signal's core encryption, a practical test of AI-driven software verification.",
+     "rank": 2,
+     "id": "2026-11-10-deepmind-s-alphaproof-code-agents-verify-signal-s-core-encry",
      "date": "2026-11-10"
     },
     {
@@ -5889,58 +5895,6 @@
      "date": "2026-11-10"
     },
     {
-     "title": "Anthropic ships Claude Fable 5.2, tops Artificial Analysis index at 65",
-     "one_liner": "Anthropic released Claude Fable 5.2, which ranks first on the Artificial Analysis Intelligence Index at 65 and costs 20% less per token than Fable 5.1.",
-     "summary": "Anthropic shipped Claude Fable 5.2 and Claude Mythos 5.2 as its IPO roadshow began. Fable 5.2 scores 65 on the Artificial Analysis Intelligence Index, ahead of Gemini 4 Carbon at 60 and Opus 5.5 at 59. Price is $8 per million input tokens and $40 per million output tokens, down from $10 and $50. Cost per task rose anyway. SemiAnalysis paid $88.15 per task on GDPx, up from $67.16. Run logs show 5.2 sometimes wrote hundreds or thousands of test cases and used subagents to check its work. On FrontierCode 2.0, Anthropic says Fable at High matched Opus 5.5 at Max for about half the cost per task.",
-     "eli5": "Imagine a student who gets a cheaper price for each pencil but checks their homework again and again, so they use many more pencils. They get the best grade in class, but the bill can still go up.",
-     "why_it_matters": "A lower per-token price does not mean a lower bill, so teams should test cost per task and pick the effort setting carefully before moving to production.",
-     "topic": "models",
-     "type": "model",
-     "labs": [
-      "anthropic",
-      "google"
-     ],
-     "people": [],
-     "concepts": [
-      "benchmark",
-      "effort-controls",
-      "tokens"
-     ],
-     "spotlight": false,
-     "spotlight_reason": "",
-     "new_terms": [
-      {
-       "term": "subagents",
-       "definition": "Separate agents spun up by a main model to do parts of a job or to check its work independently."
-      }
-     ],
-     "sources": [
-      {
-       "title": "[AINews] Fable 5.2 retakes World #1 LLM spot as $ANT IPO roadshow begins",
-       "url": "https://latent.space/p/ainews-fable-5-2-retakes-world-1-llm-spot-as-ant-ipo-roadshow-begins/",
-       "name": "Latent Space (AINews)",
-       "kind": "press"
-      },
-      {
-       "title": "Anthropic's Fable 5.2 represents \"Jagged AGI\" that matches human expert levels on select tasks like game design, but lacks self-directed judgment and taste (Ethan Mollick/One Useful Thing)",
-       "url": "https://www.techmeme.com/261110/p9#a261110p9",
-       "name": "Techmeme",
-       "kind": "press"
-      }
-     ],
-     "buzz": 2,
-     "published": "2026-11-10T06:34:44Z",
-     "checked": {
-      "model": "anthropic:claude-sonnet-5-5",
-      "rounds": 2,
-      "hype_flags": []
-     },
-     "editor_reason": "Anthropic's Fable 5.2 reportedly retakes the top LLM spot, and Ethan Mollick calls it \"Jagged AGI\" that matches human experts on some tasks.",
-     "rank": 11,
-     "id": "2026-11-10-anthropic-ships-claude-fable-5-2-tops-artificial-analysis-in",
-     "date": "2026-11-10"
-    },
-    {
      "title": "Meituan releases LongCat-2.5 weights, a 1.6T-parameter MoE model, under MIT license",
      "one_liner": "Meituan released the weights for LongCat-2.5, a 1.6T-parameter MoE model for long-horizon agentic tasks, under the MIT license on Nov. 9.",
      "summary": "Meituan released the weights for LongCat-2.5 on Nov. 9, one week after introducing the model. Meituan unveiled the model on November 1. LongCat-2.5 is a 1.6T-parameter MoE model built for long-horizon agentic tasks. The weights are available under the MIT license. VentureBeat's Carl Franzen reported the release. The source describes Meituan as a Chinese food delivery company. The provided text gives no benchmark results, hardware needs or download details.",
@@ -5976,7 +5930,7 @@
       "hype_flags": []
      },
      "editor_reason": "Meituan released weights for LongCat-2.5, a 1.6T-parameter MoE model for long-horizon agentic tasks, under the MIT license.",
-     "rank": 12,
+     "rank": 11,
      "id": "2026-11-10-meituan-releases-longcat-2-5-weights-a-1-6t-parameter-moe-mo",
      "date": "2026-11-10"
     },
@@ -6026,7 +5980,7 @@
       "hype_flags": []
      },
      "editor_reason": "CoreWeave's bond yield passing 16% points to credit stress around AI infrastructure, and the story drew heavy debate on Hacker News.",
-     "rank": 13,
+     "rank": 12,
      "id": "2026-11-10-coreweave-bond-yield-tops-16-as-ai-credit-stress-rises",
      "date": "2026-11-10"
     },
@@ -6072,83 +6026,9 @@
       "hype_flags": []
      },
      "editor_reason": "A widely discussed piece argues that heavy AI use leaves a fragile codebase, a concern for teams that ship AI-written code.",
-     "rank": 14,
+     "rank": 13,
      "id": "2026-11-10-ex-meta-engineer-claims-ai-written-code-makes-codebases-frag",
      "date": "2026-11-10"
-    },
-    {
-     "title": "Anthropic sets IPO price range of $70 to $78, sources say",
-     "one_liner": "CNBC reports, citing sources, that Anthropic set an IPO price range of $70 to $78 and looks to start trading on Nov. 19.",
-     "summary": "CNBC reports that Anthropic has set a price range of $70 to $78 for its upcoming IPO. The report cites sources. It says the company looks to start trading on Nov. 19. The headline is credited to Ashley Capoot and appears on CNBC's AI page. It was also listed among CNBC's trending stories. The available text gives no other details, such as share count or total amount raised.",
-     "eli5": "Imagine a lemonade stand letting neighbors buy tiny pieces of the stand. The owners have said how much each piece might cost, and when selling could start.",
-     "why_it_matters": "Teams that build on Anthropic's models may want to watch the Nov. 19 trading start, though the sources give no details on any change to products or pricing.",
-     "topic": "industry",
-     "type": "event",
-     "labs": [
-      "anthropic"
-     ],
-     "people": [],
-     "concepts": [],
-     "spotlight": false,
-     "spotlight_reason": "",
-     "new_terms": [],
-     "sources": [
-      {
-       "title": "AI - Artificial Intelligence",
-       "url": "https://www.cnbc.com/ai-artificial-intelligence/",
-       "name": "CNBC",
-       "kind": "press"
-      }
-     ],
-     "buzz": 1,
-     "published": "2023-11-21T21:50:44Z",
-     "checked": {
-      "model": "anthropic:claude-sonnet-5-5",
-      "rounds": 1,
-      "hype_flags": []
-     },
-     "editor_reason": "Added by the editor after the nightly run missed it.",
-     "added_by_editor": "2026-11-10",
-     "id": "2026-11-10-anthropic-sets-ipo-price-range-of-70-to-78-sources-say",
-     "date": "2026-11-10",
-     "rank": 15
-    },
-    {
-     "title": "Anthropic reportedly moves toward IPO, with valuation targets above $1 trillion",
-     "one_liner": "Yahoo Finance headlines say Anthropic is reportedly pushing ahead with an IPO, with valuation targets of $1 trillion or more.",
-     "summary": "Yahoo Finance headlines point to a possible Anthropic IPO. TechCrunch says Anthropic reportedly plans to move forward with its IPO plans. The headlines give different valuation figures: $1.4 trillion in one, $1 trillion in another, and more than $1 trillion in a third. One headline says Anthropic targets $90 Billion in IPO and Placement With Big Tech. Another says Nasdaq futures slipped with Nvidia woes, with the Anthropic IPO in focus. A separate TechCrunch headline says Anthropic bought $3.4B worth of turbines.",
-     "eli5": "Imagine a very popular lemonade stand that wants to let many neighbors buy a small piece of it. People are talking about how much the whole stand might be worth.",
-     "why_it_matters": "Teams that build on Anthropic models may want to follow the reported IPO, which one headline calls a key test for the AI market.",
-     "topic": "industry",
-     "type": "event",
-     "labs": [
-      "anthropic"
-     ],
-     "people": [],
-     "concepts": [],
-     "spotlight": false,
-     "spotlight_reason": "",
-     "new_terms": [],
-     "sources": [
-      {
-       "title": "Artificial intelligence news and analysis - Yahoo Finance",
-       "url": "https://finance.yahoo.com/technology/ai/",
-       "name": "Yahoo Finance",
-       "kind": "press"
-      }
-     ],
-     "buzz": 1,
-     "published": "2026-11-10T13:03:45Z",
-     "checked": {
-      "model": "anthropic:claude-sonnet-5-5",
-      "rounds": 1,
-      "hype_flags": []
-     },
-     "editor_reason": "Added by the editor after the nightly run missed it.",
-     "added_by_editor": "2026-11-10",
-     "id": "2026-11-10-anthropic-reportedly-moves-toward-ipo-with-valuation-targets",
-     "date": "2026-11-10",
-     "rank": 16
     }
    ],
    "stats": {
