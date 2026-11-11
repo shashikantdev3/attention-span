@@ -1211,6 +1211,48 @@
   "source": "https://techstartups.com/2026/11/09/startup-funding-news-today-november-9-2026-boson-ai-onodrim-mavria-t-therapeutics-more/"
  },
  {
+  "term": "agent swarm",
+  "definition": "A setup that turns a single prompt into a coordinated team of agents that split up a complex task and whose work can be tracked in real time.",
+  "first_seen": "2026-11-11",
+  "story": "2026-11-11-google-makes-gemini-4-carbon-generally-available-after-two-w",
+  "source": "https://the-decoder.com/gemini-4-carbon-arrives-just-in-time-to-feel-like-yesterdays-news-in-the-fastest-model-cycle-yet/"
+ },
+ {
+  "term": "weight diffing",
+  "definition": "Comparing a model's weights against the original, unmodified weights to find anomalous changes, which the researchers say reliable detection requires.",
+  "first_seen": "2026-11-11",
+  "story": "2026-11-11-microsoft-researchers-describe-lazarus-a-no-training-backdoo",
+  "source": "https://www.microsoft.com/en-us/research/blog/lazare-veni-foras-reprogramming-dormant-neurons-to-backdoor-ai-agents/"
+ },
+ {
+  "term": "model provenance",
+  "definition": "Knowing where a model came from and that it has not been changed between the developer and deployment.",
+  "first_seen": "2026-11-11",
+  "story": "2026-11-11-microsoft-researchers-describe-lazarus-a-no-training-backdoo",
+  "source": "https://www.microsoft.com/en-us/research/blog/lazare-veni-foras-reprogramming-dormant-neurons-to-backdoor-ai-agents/"
+ },
+ {
+  "term": "world-action model",
+  "definition": "A model that calculates the next movement and a short video of the immediate future at the same time.",
+  "first_seen": "2026-11-11",
+  "story": "2026-11-11-nvidia-s-gr00t-2-learns-robot-tasks-from-human-videos-with-m",
+  "source": "https://the-decoder.com/nvidias-model-gr00t-2-watches-humans-on-video-then-imagines-itself-as-the-robot/"
+ },
+ {
+  "term": "teleoperation",
+  "definition": "Remotely controlling a robot by hand to collect training data, which is expensive, slow, and needs its own data for every robot model.",
+  "first_seen": "2026-11-11",
+  "story": "2026-11-11-nvidia-s-gr00t-2-learns-robot-tasks-from-human-videos-with-m",
+  "source": "https://the-decoder.com/nvidias-model-gr00t-2-watches-humans-on-video-then-imagines-itself-as-the-robot/"
+ },
+ {
+  "term": "trajectory evaluation",
+  "definition": "A check that compares the agent's actual tool path against the path you expected, for cases where how the agent got there matters as much as what it produced.",
+  "first_seen": "2026-11-11",
+  "story": "2026-11-11-aws-details-agent-evaluation-options-in-amazon-bedrock-agent",
+  "source": "https://aws.amazon.com/blogs/machine-learning/the-agent-evaluation-playbook-built-in-deepeval-and-autoeval-on-agentcore/"
+ },
+ {
   "term": "advisor and orchestrator roles",
   "definition": "A large model either helps smaller models solve harder problems (Advisor) or hands simpler tasks to smaller models (Orchestrator).",
   "first_seen": "2026-11-10",
@@ -1232,17 +1274,17 @@
   "source": "https://the-decoder.com/bytedances-seedream-5-5-promises-pixel-stable-image-editing-across-100-rounds-without-color-drift/"
  },
  {
-  "term": "subagents",
-  "definition": "Separate agents spun up by a main model to do parts of a job or to check its work independently.",
-  "first_seen": "2026-11-10",
-  "story": "2026-11-10-anthropic-ships-claude-fable-5-2-tops-artificial-analysis-in",
-  "source": "https://latent.space/p/ainews-fable-5-2-retakes-world-1-llm-spot-as-ant-ipo-roadshow-begins/"
- },
- {
   "term": "credit default swap",
   "definition": "A contract that lets investors insure against default, with rising prices showing they want more protection against default.",
   "first_seen": "2026-11-10",
   "story": "2026-11-10-coreweave-bond-yield-tops-16-as-ai-credit-stress-rises",
   "source": "https://www.cnbc.com/2026/11/06/coreweave-bond-yield-tops-16percent-as-ai-credit-stress-rises.html"
+ },
+ {
+  "term": "vision-language-action model",
+  "definition": "A model that generates robot actions, like moving an actuator, from visual and language input.",
+  "first_seen": "2026-11-10",
+  "story": "2026-11-10-deepmind-s-gemini-robotics-2-5-reportedly-sorts-metal-parts",
+  "source": "https://arstechnica.com/google/2026/11/deepmind-reveals-gemini-robotics-2-5-and-open-safety-benchmark-asimov-jailbreak/"
  }
 ]

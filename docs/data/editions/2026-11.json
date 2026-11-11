@@ -5377,7 +5377,7 @@
   },
   "2026-11-10": {
    "date": "2026-11-10",
-   "generated_at": "2026-11-10T13:03:45Z",
+   "generated_at": "2026-11-11T01:03:20Z",
    "stories": [
     {
      "title": "Anthropic releases Claude Fable 5.2 and Mythos 5.2: up to 30% faster than 5.1, with an optional fast mode",
@@ -5523,49 +5523,105 @@
      "date": "2026-11-10"
     },
     {
-     "title": "Report claims Google Gemini sends connected Drive and Gmail content to human reviewers",
-     "one_liner": "A GitHub write-up claims Google now routes personal Drive files and emails from Gemini's Connected Apps to human reviewers, reversing a 2023 promise.",
-     "summary": "A GitHub post says Google reversed its 2023 promise that personal Gmail, Docs and Drive content \"is not seen by human reviewers.\" It cites updated Google Help Answer 16836988 and an October 16 edit to the 2023 blogpost. Google warns reviewers may see \"the email or file.\" The author says Gemini pulls Workspace data in background chat without @Drive or @Gmail tags. Tests gave four outcomes: no retrieval, a summary, a partial quote, or the full file. The author says Google's scrubbers cannot fully deidentify narrative data.",
-     "eli5": "Imagine you tell a helper to keep your diary private, but now the helper says a few other people may peek at pages while checking its work. The helper also sometimes grabs a page without being asked.",
-     "why_it_matters": "If the write-up is right, content from Gmail or Drive connected to Gemini can reach human reviewers, so confidential material is better kept out of connected accounts until Google clarifies.",
-     "topic": "policy",
-     "type": "event",
+     "title": "Google releases Gemini 4 Carbon to developers, enterprises and consumers",
+     "one_liner": "Google DeepMind made Gemini 4 Carbon, its strongest model, available via API at $2 per million input tokens and $10 per million output tokens.",
+     "summary": "Google DeepMind has made Gemini 4 Carbon available to developers, enterprises, scientists and consumers. It describes Carbon as its strongest model, with frontier performance in cybersecurity and long-horizon agentic workflows. Carbon ranks #1 on CursorBench 4.0, Perplexity's WANDR and Zapier's AutomationBench at more than 2X lower cost per task than the next best external model. It ranks #2 on the new Multimodal Knowledge Agent benchmark. The API price matches Gemini 4 Argon: $2 per million input tokens and $10 per million output tokens. Google also previews /swarm in Google Antigravity, which turns one prompt into a team of agents.",
+     "eli5": "Imagine a team of helpers where one very smart helper plans the big job and quicker helpers do the small parts. Carbon is the very smart helper that thinks hard about tricky jobs.",
+     "why_it_matters": "Teams building agents and coding tools get a top-ranked model at the same listed token price as Argon, so they can choose between the two based on task difficulty and token use.",
+     "topic": "models",
+     "type": "model",
      "labs": [
       "google"
      ],
      "people": [],
      "concepts": [
-      "ai-governance",
-      "tool-use",
-      "llm"
+      "agent",
+      "benchmark",
+      "coding-assistant"
      ],
      "spotlight": false,
      "spotlight_reason": "",
      "new_terms": [],
      "sources": [
       {
-       "title": "Google Gemini routes personal Drive files and emails to human annotators",
-       "url": "https://github.com/thisisme6598/gemini_files/",
-       "name": "github.com",
+       "title": "Gemini 4 Carbon is now available",
+       "url": "https://deepmind.google/blog/gemini-4-carbon-is-now-available/",
+       "name": "Google DeepMind Blog",
+       "kind": "original"
+      },
+      {
+       "title": "Gemini 4 Carbon is now available",
+       "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/",
+       "name": "blog.google",
        "kind": "original"
       },
       {
        "title": "Discussion on Hacker News",
-       "url": "https://news.ycombinator.com/item?id=50429426",
+       "url": "https://news.ycombinator.com/item?id=50442303",
        "name": "Hacker News",
        "kind": "discussion"
       }
      ],
-     "buzz": 1,
-     "published": "2026-11-09T18:24:38Z",
+     "buzz": 2,
+     "published": "2026-11-10T16:03:47Z",
      "checked": {
       "model": "anthropic:claude-sonnet-5-5",
       "rounds": 1,
       "hype_flags": []
      },
-     "editor_reason": "Report that Google Gemini routes personal Drive files and emails to human annotators raises a privacy question for anyone building on or using it.",
+     "editor_reason": "Google DeepMind has released Gemini 4 Carbon, and the Hacker News thread (272 points, 147 comments) shows builders are paying attention.",
      "rank": 3,
-     "id": "2026-11-10-report-claims-google-gemini-sends-connected-drive-and-gmail",
+     "id": "2026-11-10-google-releases-gemini-4-carbon-to-developers-enterprises-an",
+     "date": "2026-11-10"
+    },
+    {
+     "title": "DeepMind's Gemini Robotics 2.5 reportedly sorts metal parts at 96 percent in Mercedes-Benz pilot",
+     "one_liner": "Google DeepMind released Gemini Robotics 2.5, and in a Mercedes-Benz pilot the Apollo 2 robot reportedly sorted metal parts with a 96 percent success rate.",
+     "summary": "Google DeepMind introduced Gemini Robotics 2.5, a new control model for robots. It tested the model with Apptronik on active Mercedes-Benz production lines in Hungary and Germany. The humanoid robot Apollo 2 sorted metal parts there with a reported success rate of 96 percent. The platform has two main layers. Gemini Embodied Reasoning is a vision-language model that plans tasks from instructions and live video. Gemini Robotics is the vision-language-action model that generates robot actions. DeepMind says version 2.5 is much better at dexterous tasks. It was evaluated across more than 200 activities, and Apollo 2 can now tie a bow.",
+     "eli5": "Think of a robot with two helpers in its head. One looks and makes a plan, like a coach. The other tells the hands how to move, like a player following the plan.",
+     "why_it_matters": "Robot control now splits into a planning model and an action model, and the factory pilots give builders an early look at how such systems perform on real production lines.",
+     "topic": "research",
+     "type": "model",
+     "labs": [
+      "google"
+     ],
+     "people": [],
+     "concepts": [
+      "physical-ai",
+      "multimodal-model"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [
+      {
+       "term": "vision-language-action model",
+       "definition": "A model that generates robot actions, like moving an actuator, from visual and language input."
+      }
+     ],
+     "sources": [
+      {
+       "title": "DeepMind reveals Gemini Robotics 2.5 and open safety benchmark \"ASIMOV-jailbreak\"",
+       "url": "https://arstechnica.com/google/2026/11/deepmind-reveals-gemini-robotics-2-5-and-open-safety-benchmark-asimov-jailbreak/",
+       "name": "Ars Technica AI",
+       "kind": "press"
+      },
+      {
+       "title": "Google DeepMind's Gemini Robotics 2.5 scores 96 percent sorting metal parts in a Mercedes-Benz assembly pilot",
+       "url": "https://the-decoder.com/google-deepminds-gemini-robotics-2-5-scores-96-percent-sorting-metal-parts-in-a-mercedes-benz-assembly-pilot/",
+       "name": "The Decoder",
+       "kind": "press"
+      }
+     ],
+     "buzz": 2,
+     "published": "2026-11-10T15:00:39Z",
+     "checked": {
+      "model": "anthropic:claude-sonnet-5-5",
+      "rounds": 2,
+      "hype_flags": []
+     },
+     "editor_reason": "Gemini Robotics 2.5 scored 96 percent sorting metal parts in a Mercedes-Benz pilot, and DeepMind also released an open safety benchmark called ASIMOV-jailbreak.",
+     "rank": 4,
+     "id": "2026-11-10-deepmind-s-gemini-robotics-2-5-reportedly-sorts-metal-parts",
      "date": "2026-11-10"
     },
     {
@@ -5602,8 +5658,175 @@
       "hype_flags": []
      },
      "editor_reason": "Fireworks says hackers accessed some customers' datasets, incomplete model weights and billing information, a direct security concern for teams using hosted inference.",
-     "rank": 4,
+     "rank": 5,
      "id": "2026-11-10-fireworks-says-hackers-accessed-some-customer-datasets-parti",
+     "date": "2026-11-10"
+    },
+    {
+     "title": "Eight countries and top AI labs sign Paris AI safety declaration",
+     "one_liner": "Eight countries and firms including OpenAI, Anthropic, Microsoft and Mistral AI signed the Paris Call for AI Safety and Security, which has no sanctions or deadlines.",
+     "summary": "Representatives of eight countries, tech companies and civil-society groups signed the \"Paris Call for AI Safety and Security,\" adopted on Nov. 9, at Emmanuel Macron's initiative. Sam Altman, Dario Amodei, Brad Smith, Arthur Mensch, Yoshua Bengio and U.S. Treasury Secretary Scott Bessent joined. Germany did not sign. The companies pledge shutdown mechanisms for models under their control, independent audits, and disclosure of known risks. Non-sensitive test results are to be published in a standard format. The text is a political commitment. It sets neither deadlines nor sanctions, and shared standards still have to be worked out.",
+     "eli5": "Imagine all the kids who own powerful toys promise to build an off switch for them and to tell everyone if something goes wrong. It is a promise, not yet a rule with a punishment.",
+     "why_it_matters": "Labs have pledged shutdown mechanisms, standardized test result reports and outside audits, so teams building on their models may see more formal safety disclosures, though nothing is binding yet.",
+     "topic": "policy",
+     "type": "event",
+     "labs": [
+      "openai",
+      "anthropic",
+      "microsoft",
+      "mistral",
+      "government"
+     ],
+     "people": [
+      "sam-altman",
+      "dario-amodei"
+     ],
+     "concepts": [
+      "ai-safety",
+      "kill-switch",
+      "ai-governance"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "Eight countries and top AI labs agree to shutdown mechanisms in new Paris declaration",
+       "url": "https://the-decoder.com/eight-countries-and-top-ai-labs-agree-to-shutdown-mechanisms-in-new-paris-declaration/",
+       "name": "The Decoder",
+       "kind": "press"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-10T13:37:16Z",
+     "checked": {
+      "model": "anthropic:claude-sonnet-5-5",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "Eight countries and labs including OpenAI, Anthropic, Microsoft and Mistral AI signed the Paris Call for AI Safety and Security, which includes shutdown mechanisms.",
+     "rank": 6,
+     "id": "2026-11-10-eight-countries-and-top-ai-labs-sign-paris-ai-safety-declara",
+     "date": "2026-11-10"
+    },
+    {
+     "title": "ChatGPT Enterprise now available through AWS Marketplace",
+     "one_liner": "OpenAI has made ChatGPT Enterprise available in AWS Marketplace, so organizations can buy it through their existing AWS purchasing and billing relationship.",
+     "summary": "ChatGPT Enterprise is now available through AWS Marketplace. Organizations can discover, buy and manage it using their existing AWS purchasing and billing relationship, and apply eligible spend toward their AWS commitments. AWS customers get the same models, features and functionality as buying directly from OpenAI, with new features released at the same time. The listing complements the OpenAI models in Amazon Bedrock, where developers can build AI applications and agents. Eligible customers can also access ChatGPT for Healthcare and ChatGPT for Financial Services through AWS Marketplace. Customers should contact their OpenAI or AWS account team to confirm eligibility.",
+     "eli5": "Imagine your school lets you buy a new toy at the same shop where you already buy everything else, using the same wallet. It is the same toy, just easier to get.",
+     "why_it_matters": "Teams already buying through AWS can add ChatGPT Enterprise to their existing AWS billing and commitments, while still choosing between it and OpenAI models in Amazon Bedrock for building apps and agents.",
+     "topic": "products",
+     "type": "event",
+     "labs": [
+      "openai"
+     ],
+     "people": [],
+     "concepts": [],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "ChatGPT Enterprise now available in AWS Marketplace",
+       "url": "https://openai.com/index/chatgpt-enterprise-aws-marketplace",
+       "name": "OpenAI News",
+       "kind": "original"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-09T19:00:00Z",
+     "checked": {
+      "model": "anthropic:claude-sonnet-5-5",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "ChatGPT Enterprise is now available through AWS Marketplace, so companies can buy it on existing AWS billing.",
+     "rank": 7,
+     "id": "2026-11-10-chatgpt-enterprise-now-available-through-aws-marketplace",
+     "date": "2026-11-10"
+    },
+    {
+     "title": "Meituan releases LongCat-2.5 weights, a 1.6T-parameter MoE model, under MIT license",
+     "one_liner": "Meituan released the weights for LongCat-2.5, a 1.6T-parameter MoE model for long-horizon agentic tasks, under the MIT license on Nov. 9.",
+     "summary": "Meituan released the weights for LongCat-2.5 on Nov. 9, one week after introducing the model. Meituan unveiled the model on November 1. LongCat-2.5 is a 1.6T-parameter MoE model built for long-horizon agentic tasks. The weights are available under the MIT license. VentureBeat's Carl Franzen reported the release. The source describes Meituan as a Chinese food delivery company. The provided text gives no benchmark results, hardware needs or download details.",
+     "eli5": "Imagine a huge team of helpers where only the right few jump in for each job. A company has now shared the team's recipe book so anyone can use it.",
+     "why_it_matters": "A 1.6T-parameter MoE model built for long-horizon agentic tasks now has open weights under the permissive MIT license, so teams can use it without special licensing terms.",
+     "topic": "models",
+     "type": "model",
+     "labs": [
+      "other"
+     ],
+     "people": [],
+     "concepts": [
+      "mixture-of-experts",
+      "open-weight-model",
+      "agent"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "Meituan releases weights for LongCat-2.5, a 1.6T-parameter MoE model for long-horizon agentic tasks, under the MIT license, after unveiling it on November 1 (Carl Franzen/VentureBeat)",
+       "url": "https://www.techmeme.com/261110/p5#a261110p5",
+       "name": "Techmeme",
+       "kind": "press"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-10T08:50:03Z",
+     "checked": {
+      "model": "anthropic:claude-sonnet-5-5",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "Meituan released weights for LongCat-2.5, a 1.6T-parameter MoE model for long-horizon agentic tasks, under the MIT license.",
+     "rank": 8,
+     "id": "2026-11-10-meituan-releases-longcat-2-5-weights-a-1-6t-parameter-moe-mo",
+     "date": "2026-11-10"
+    },
+    {
+     "title": "DeepX claims inference up to 100B parameters at under 5 W",
+     "one_liner": "DeepX claims it can run inference at up to 100B parameters while using less than 5 W of power, according to a Hacker News post.",
+     "summary": "A Hacker News post reports that DeepX claims inference at up to 100B parameters at less than 5 W. The source text is only a headline. It gives no details on how this is done. It does not say what hardware is used, which models were tested, how fast inference runs, or whether anyone has checked the claim independently. The numbers are the company's own claim and should be treated as unverified until more information is available.",
+     "eli5": "Imagine someone says they can run a huge toy factory using only the power of a tiny night light. It sounds amazing, but we should see it work before we believe it.",
+     "why_it_matters": "If the claim holds up, very large models might run on far less power, but nothing is confirmed yet and the source gives no technical details to test.",
+     "topic": "industry",
+     "type": "event",
+     "labs": [
+      "other"
+     ],
+     "people": [],
+     "concepts": [
+      "inference"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "DeepX claims inference up to 100B parameters at less than 5 W",
+       "url": "https://www.eetimes.com/deepx-tapes-out-second-gen-chip-projects-6-7x-performance-gain-with-lpddr5x-pim/",
+       "name": "eetimes.com",
+       "kind": "press"
+      },
+      {
+       "title": "Discussion on Hacker News",
+       "url": "https://news.ycombinator.com/item?id=50429545",
+       "name": "Hacker News",
+       "kind": "discussion"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-09T18:33:58Z",
+     "checked": {
+      "model": "anthropic:claude-sonnet-5-5",
+      "rounds": 2,
+      "hype_flags": []
+     },
+     "editor_reason": "DeepX claims inference of models up to 100B parameters at under 5 W, a claim worth watching for edge deployment.",
+     "rank": 9,
+     "id": "2026-11-10-deepx-claims-inference-up-to-100b-parameters-at-under-5-w",
      "date": "2026-11-10"
     },
     {
@@ -5679,259 +5902,8 @@
       "hype_flags": []
      },
      "editor_reason": "Nvidia's board is investigating Jensen Huang's relationship with a suspected Chinese spy, the stock fell more than 4%, and several outlets are covering it.",
-     "rank": 5,
-     "id": "2026-11-10-short-seller-culper-flagged-jensen-huang-s-ties-to-suspected",
-     "date": "2026-11-10"
-    },
-    {
-     "title": "Bytedance says Seedream 5.5 supports 100 rounds of pixel-stable image editing",
-     "one_liner": "Bytedance Seed introduced Seedream 5.5, an image model for professional workflows that, per Bytedance, keeps edits stable across up to 100 rounds and outputs transparent RGBA images.",
-     "summary": "Bytedance Seed has introduced Seedream 5.5, an image generation model built for professional production workflows. According to Bytedance, it supports stable multi-round editing across up to 100 rounds, with unchanged image areas preserved at the pixel level and no color shifts. It also generates native RGBA images with transparent backgrounds, so generated elements can serve as design assets without manual cutouts. Bytedance says it renders light, materials and skin textures more realistically and reproduces dense small text more accurately. Bytedance claims it leads models like GPT Image 2.5 Sunburst in text structure and realism. It is rolling out gradually via Jimeng, Doubao, Doubao Work, and Volcengine Ark. A Pro version is planned.",
-     "eli5": "Imagine drawing a picture and asking a helper to change small things again and again. This helper only changes the spot you point to, and the rest of the picture stays just the same.",
-     "why_it_matters": "Teams that build design and image tools get a model that, by Bytedance's claims, keeps untouched areas stable over many edits and outputs transparent assets, which could cut manual cleanup work.",
-     "topic": "models",
-     "type": "model",
-     "labs": [
-      "other"
-     ],
-     "people": [],
-     "concepts": [
-      "generative-model",
-      "diffusion-model"
-     ],
-     "spotlight": false,
-     "spotlight_reason": "",
-     "new_terms": [
-      {
-       "term": "multi-round editing",
-       "definition": "Editing an image over many repeated passes while keeping unchanged areas preserved at the pixel level and free of color shifts."
-      },
-      {
-       "term": "native RGBA generation",
-       "definition": "Generating images with a transparent background so the elements can serve directly as design assets without manual cutouts."
-      }
-     ],
-     "sources": [
-      {
-       "title": "Bytedance's Seedream 5.5 promises pixel-stable image editing across 100 rounds without color drift",
-       "url": "https://the-decoder.com/bytedances-seedream-5-5-promises-pixel-stable-image-editing-across-100-rounds-without-color-drift/",
-       "name": "The Decoder",
-       "kind": "press"
-      }
-     ],
-     "buzz": 1,
-     "published": "2026-11-09T18:50:01Z",
-     "checked": {
-      "model": "anthropic:claude-sonnet-5-5",
-      "rounds": 1,
-      "hype_flags": []
-     },
-     "editor_reason": "Bytedance's Seedream 5.5 targets professional workflows with stable image editing over up to 100 rounds.",
-     "rank": 6,
-     "id": "2026-11-10-bytedance-says-seedream-5-5-supports-100-rounds-of-pixel-sta",
-     "date": "2026-11-10"
-    },
-    {
-     "title": "Microsoft to retire R and Python visuals in Power BI in May 2027",
-     "one_liner": "Microsoft will retire the built-in R and Python visuals in Power BI in May 2027, and reports using them must be rebuilt with other visuals.",
-     "summary": "The Power BI Blog says the built-in R and Python visuals in Power BI will retire in May 2027. The change applies only to visuals in interactive reports. Python scripts in Power Query that populate tables are not affected. In the Power BI service, these visuals will stop working in published reports, and R-powered custom visuals will stop too. Older versions of Power BI Desktop keep working locally with R and Python installed. Future Desktop versions will remove the visuals. No migration will recreate an exact visual, so teams must replace each one with a different visualization before retirement.",
-     "eli5": "Imagine a toy in your toy box that the store will stop making and soon will stop working. You need to pick a different toy to play the same game before that day comes.",
-     "why_it_matters": "Any report that relies on R or Python visuals will break after May 2027, so teams need to find them, save their scripts and rebuild them with other visuals before then.",
-     "topic": "data-bi",
-     "type": "event",
-     "labs": [
-      "microsoft"
-     ],
-     "people": [],
-     "concepts": [],
-     "spotlight": false,
-     "spotlight_reason": "",
-     "new_terms": [],
-     "sources": [
-      {
-       "title": "Announcing the retirement of R and Python visuals in Power BI",
-       "url": "https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Announcing-the-retirement-of-R-and-Python-visuals-in-Power-BI/ba-p/5400748",
-       "name": "Power BI Blog",
-       "kind": "original"
-      }
-     ],
-     "buzz": 1,
-     "published": "2026-11-09T19:00:39Z",
-     "checked": {
-      "model": "anthropic:claude-sonnet-5-5",
-      "rounds": 1,
-      "hype_flags": []
-     },
-     "editor_reason": "Microsoft will retire R and Python visuals in Power BI in May 2027, so teams using them need a migration plan.",
-     "rank": 7,
-     "id": "2026-11-10-microsoft-to-retire-r-and-python-visuals-in-power-bi-in-may",
-     "date": "2026-11-10"
-    },
-    {
-     "title": "ChatGPT Enterprise now available through AWS Marketplace",
-     "one_liner": "OpenAI has made ChatGPT Enterprise available in AWS Marketplace, so organizations can buy it through their existing AWS purchasing and billing relationship.",
-     "summary": "ChatGPT Enterprise is now available through AWS Marketplace. Organizations can discover, buy and manage it using their existing AWS purchasing and billing relationship, and apply eligible spend toward their AWS commitments. AWS customers get the same models, features and functionality as buying directly from OpenAI, with new features released at the same time. The listing complements the OpenAI models in Amazon Bedrock, where developers can build AI applications and agents. Eligible customers can also access ChatGPT for Healthcare and ChatGPT for Financial Services through AWS Marketplace. Customers should contact their OpenAI or AWS account team to confirm eligibility.",
-     "eli5": "Imagine your school lets you buy a new toy at the same shop where you already buy everything else, using the same wallet. It is the same toy, just easier to get.",
-     "why_it_matters": "Teams already buying through AWS can add ChatGPT Enterprise to their existing AWS billing and commitments, while still choosing between it and OpenAI models in Amazon Bedrock for building apps and agents.",
-     "topic": "products",
-     "type": "event",
-     "labs": [
-      "openai"
-     ],
-     "people": [],
-     "concepts": [],
-     "spotlight": false,
-     "spotlight_reason": "",
-     "new_terms": [],
-     "sources": [
-      {
-       "title": "ChatGPT Enterprise now available in AWS Marketplace",
-       "url": "https://openai.com/index/chatgpt-enterprise-aws-marketplace",
-       "name": "OpenAI News",
-       "kind": "original"
-      }
-     ],
-     "buzz": 1,
-     "published": "2026-11-09T19:00:00Z",
-     "checked": {
-      "model": "anthropic:claude-sonnet-5-5",
-      "rounds": 1,
-      "hype_flags": []
-     },
-     "editor_reason": "ChatGPT Enterprise is now available through AWS Marketplace, so companies can buy it on existing AWS billing.",
-     "rank": 8,
-     "id": "2026-11-10-chatgpt-enterprise-now-available-through-aws-marketplace",
-     "date": "2026-11-10"
-    },
-    {
-     "title": "DeepX claims inference up to 100B parameters at under 5 W",
-     "one_liner": "DeepX claims it can run inference at up to 100B parameters while using less than 5 W of power, according to a Hacker News post.",
-     "summary": "A Hacker News post reports that DeepX claims inference at up to 100B parameters at less than 5 W. The source text is only a headline. It gives no details on how this is done. It does not say what hardware is used, which models were tested, how fast inference runs, or whether anyone has checked the claim independently. The numbers are the company's own claim and should be treated as unverified until more information is available.",
-     "eli5": "Imagine someone says they can run a huge toy factory using only the power of a tiny night light. It sounds amazing, but we should see it work before we believe it.",
-     "why_it_matters": "If the claim holds up, very large models might run on far less power, but nothing is confirmed yet and the source gives no technical details to test.",
-     "topic": "industry",
-     "type": "event",
-     "labs": [
-      "other"
-     ],
-     "people": [],
-     "concepts": [
-      "inference"
-     ],
-     "spotlight": false,
-     "spotlight_reason": "",
-     "new_terms": [],
-     "sources": [
-      {
-       "title": "DeepX claims inference up to 100B parameters at less than 5 W",
-       "url": "https://www.eetimes.com/deepx-tapes-out-second-gen-chip-projects-6-7x-performance-gain-with-lpddr5x-pim/",
-       "name": "eetimes.com",
-       "kind": "press"
-      },
-      {
-       "title": "Discussion on Hacker News",
-       "url": "https://news.ycombinator.com/item?id=50429545",
-       "name": "Hacker News",
-       "kind": "discussion"
-      }
-     ],
-     "buzz": 1,
-     "published": "2026-11-09T18:33:58Z",
-     "checked": {
-      "model": "anthropic:claude-sonnet-5-5",
-      "rounds": 2,
-      "hype_flags": []
-     },
-     "editor_reason": "DeepX claims inference of models up to 100B parameters at under 5 W, a claim worth watching for edge deployment.",
-     "rank": 9,
-     "id": "2026-11-10-deepx-claims-inference-up-to-100b-parameters-at-under-5-w",
-     "date": "2026-11-10"
-    },
-    {
-     "title": "Apple adds $49.99 Intelligence Usage Packs, starting with Logic Pro",
-     "one_liner": "Apple's Logic Pro now offers a one-time $49.99 Intelligence Usage Pack so users can keep using Apple Intelligence features that have usage limits.",
-     "summary": "Apple updated Logic Pro with a \"Buy More Usage\" option for a one-time price of $49.99. The packs let users keep using certain Apple Intelligence features that have usage limits because they rely on cloud-based AI models from OpenAI or Google Gemini. Only the purchasing Apple Account can use a pack, and Family Sharing isn't supported. Unused usage rolls over month to month but expires 12 months after purchase. In Logic Pro, the limit is affected by the complexity of conversations with the assistant. Apple is expected to add the option to other Creator Studio apps this month.",
-     "eli5": "Imagine a playground ride that gives you a few free turns each month. When your turns run out, you can buy a ticket book to keep riding.",
-     "why_it_matters": "AI features backed by cloud models now come with usage caps and paid top-ups inside Apple apps, so cost and limits become part of product planning.",
-     "topic": "products",
-     "type": "product",
-     "labs": [
-      "other",
-      "openai",
-      "google"
-     ],
-     "people": [],
-     "concepts": [
-      "chatbot",
-      "tokens"
-     ],
-     "spotlight": false,
-     "spotlight_reason": "",
-     "new_terms": [],
-     "sources": [
-      {
-       "title": "Apple’s $50 Intelligence Usage Packs extend access to some AI features",
-       "url": "https://www.theverge.com/tech/1030084/apple-intelligence-usage-packs-ai-features-creator-studio-logic-pro",
-       "name": "The Verge AI",
-       "kind": "press"
-      },
-      {
-       "title": "Apple is now offering additional AI access via one-time $50 \"intelligence usage packs\" when monthly usage caps are met, starting in its Creator Studio apps (Ryan Christoffel/9to5Mac)",
-       "url": "https://www.techmeme.com/261109/p45#a261109p45",
-       "name": "Techmeme",
-       "kind": "press"
-      }
-     ],
-     "buzz": 2,
-     "published": "2026-11-09T19:09:58Z",
-     "checked": {
-      "model": "anthropic:claude-sonnet-5-5",
-      "rounds": 1,
-      "hype_flags": []
-     },
-     "editor_reason": "Apple now sells $50 one-time intelligence usage packs for users who hit monthly caps on some Apple Intelligence features.",
      "rank": 10,
-     "id": "2026-11-10-apple-adds-49-99-intelligence-usage-packs-starting-with-logi",
-     "date": "2026-11-10"
-    },
-    {
-     "title": "Meituan releases LongCat-2.5 weights, a 1.6T-parameter MoE model, under MIT license",
-     "one_liner": "Meituan released the weights for LongCat-2.5, a 1.6T-parameter MoE model for long-horizon agentic tasks, under the MIT license on Nov. 9.",
-     "summary": "Meituan released the weights for LongCat-2.5 on Nov. 9, one week after introducing the model. Meituan unveiled the model on November 1. LongCat-2.5 is a 1.6T-parameter MoE model built for long-horizon agentic tasks. The weights are available under the MIT license. VentureBeat's Carl Franzen reported the release. The source describes Meituan as a Chinese food delivery company. The provided text gives no benchmark results, hardware needs or download details.",
-     "eli5": "Imagine a huge team of helpers where only the right few jump in for each job. A company has now shared the team's recipe book so anyone can use it.",
-     "why_it_matters": "A 1.6T-parameter MoE model built for long-horizon agentic tasks now has open weights under the permissive MIT license, so teams can use it without special licensing terms.",
-     "topic": "models",
-     "type": "model",
-     "labs": [
-      "other"
-     ],
-     "people": [],
-     "concepts": [
-      "mixture-of-experts",
-      "open-weight-model",
-      "agent"
-     ],
-     "spotlight": false,
-     "spotlight_reason": "",
-     "new_terms": [],
-     "sources": [
-      {
-       "title": "Meituan releases weights for LongCat-2.5, a 1.6T-parameter MoE model for long-horizon agentic tasks, under the MIT license, after unveiling it on November 1 (Carl Franzen/VentureBeat)",
-       "url": "https://www.techmeme.com/261110/p5#a261110p5",
-       "name": "Techmeme",
-       "kind": "press"
-      }
-     ],
-     "buzz": 1,
-     "published": "2026-11-10T08:50:03Z",
-     "checked": {
-      "model": "anthropic:claude-sonnet-5-5",
-      "rounds": 1,
-      "hype_flags": []
-     },
-     "editor_reason": "Meituan released weights for LongCat-2.5, a 1.6T-parameter MoE model for long-horizon agentic tasks, under the MIT license.",
-     "rank": 11,
-     "id": "2026-11-10-meituan-releases-longcat-2-5-weights-a-1-6t-parameter-moe-mo",
+     "id": "2026-11-10-short-seller-culper-flagged-jensen-huang-s-ties-to-suspected",
      "date": "2026-11-10"
     },
     {
@@ -5980,8 +5952,226 @@
       "hype_flags": []
      },
      "editor_reason": "CoreWeave's bond yield passing 16% points to credit stress around AI infrastructure, and the story drew heavy debate on Hacker News.",
-     "rank": 12,
+     "rank": 11,
      "id": "2026-11-10-coreweave-bond-yield-tops-16-as-ai-credit-stress-rises",
+     "date": "2026-11-10"
+    },
+    {
+     "title": "Report claims Google Gemini sends connected Drive and Gmail content to human reviewers",
+     "one_liner": "A GitHub write-up claims Google now routes personal Drive files and emails from Gemini's Connected Apps to human reviewers, reversing a 2023 promise.",
+     "summary": "A GitHub post says Google reversed its 2023 promise that personal Gmail, Docs and Drive content \"is not seen by human reviewers.\" It cites updated Google Help Answer 16836988 and an October 16 edit to the 2023 blogpost. Google warns reviewers may see \"the email or file.\" The author says Gemini pulls Workspace data in background chat without @Drive or @Gmail tags. Tests gave four outcomes: no retrieval, a summary, a partial quote, or the full file. The author says Google's scrubbers cannot fully deidentify narrative data.",
+     "eli5": "Imagine you tell a helper to keep your diary private, but now the helper says a few other people may peek at pages while checking its work. The helper also sometimes grabs a page without being asked.",
+     "why_it_matters": "If the write-up is right, content from Gmail or Drive connected to Gemini can reach human reviewers, so confidential material is better kept out of connected accounts until Google clarifies.",
+     "topic": "policy",
+     "type": "event",
+     "labs": [
+      "google"
+     ],
+     "people": [],
+     "concepts": [
+      "ai-governance",
+      "tool-use",
+      "llm"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "Google Gemini routes personal Drive files and emails to human annotators",
+       "url": "https://github.com/thisisme6598/gemini_files/",
+       "name": "github.com",
+       "kind": "original"
+      },
+      {
+       "title": "Discussion on Hacker News",
+       "url": "https://news.ycombinator.com/item?id=50429426",
+       "name": "Hacker News",
+       "kind": "discussion"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-09T18:24:38Z",
+     "checked": {
+      "model": "anthropic:claude-sonnet-5-5",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "Report that Google Gemini routes personal Drive files and emails to human annotators raises a privacy question for anyone building on or using it.",
+     "rank": 12,
+     "id": "2026-11-10-report-claims-google-gemini-sends-connected-drive-and-gmail",
+     "date": "2026-11-10"
+    },
+    {
+     "title": "Bytedance says Seedream 5.5 supports 100 rounds of pixel-stable image editing",
+     "one_liner": "Bytedance Seed introduced Seedream 5.5, an image model for professional workflows that, per Bytedance, keeps edits stable across up to 100 rounds and outputs transparent RGBA images.",
+     "summary": "Bytedance Seed has introduced Seedream 5.5, an image generation model built for professional production workflows. According to Bytedance, it supports stable multi-round editing across up to 100 rounds, with unchanged image areas preserved at the pixel level and no color shifts. It also generates native RGBA images with transparent backgrounds, so generated elements can serve as design assets without manual cutouts. Bytedance says it renders light, materials and skin textures more realistically and reproduces dense small text more accurately. Bytedance claims it leads models like GPT Image 2.5 Sunburst in text structure and realism. It is rolling out gradually via Jimeng, Doubao, Doubao Work, and Volcengine Ark. A Pro version is planned.",
+     "eli5": "Imagine drawing a picture and asking a helper to change small things again and again. This helper only changes the spot you point to, and the rest of the picture stays just the same.",
+     "why_it_matters": "Teams that build design and image tools get a model that, by Bytedance's claims, keeps untouched areas stable over many edits and outputs transparent assets, which could cut manual cleanup work.",
+     "topic": "models",
+     "type": "model",
+     "labs": [
+      "other"
+     ],
+     "people": [],
+     "concepts": [
+      "generative-model",
+      "diffusion-model"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [
+      {
+       "term": "multi-round editing",
+       "definition": "Editing an image over many repeated passes while keeping unchanged areas preserved at the pixel level and free of color shifts."
+      },
+      {
+       "term": "native RGBA generation",
+       "definition": "Generating images with a transparent background so the elements can serve directly as design assets without manual cutouts."
+      }
+     ],
+     "sources": [
+      {
+       "title": "Bytedance's Seedream 5.5 promises pixel-stable image editing across 100 rounds without color drift",
+       "url": "https://the-decoder.com/bytedances-seedream-5-5-promises-pixel-stable-image-editing-across-100-rounds-without-color-drift/",
+       "name": "The Decoder",
+       "kind": "press"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-09T18:50:01Z",
+     "checked": {
+      "model": "anthropic:claude-sonnet-5-5",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "Bytedance's Seedream 5.5 targets professional workflows with stable image editing over up to 100 rounds.",
+     "rank": 13,
+     "id": "2026-11-10-bytedance-says-seedream-5-5-supports-100-rounds-of-pixel-sta",
+     "date": "2026-11-10"
+    },
+    {
+     "title": "Apple adds $49.99 Intelligence Usage Packs, starting with Logic Pro",
+     "one_liner": "Apple's Logic Pro now offers a one-time $49.99 Intelligence Usage Pack so users can keep using Apple Intelligence features that have usage limits.",
+     "summary": "Apple updated Logic Pro with a \"Buy More Usage\" option for a one-time price of $49.99. The packs let users keep using certain Apple Intelligence features that have usage limits because they rely on cloud-based AI models from OpenAI or Google Gemini. Only the purchasing Apple Account can use a pack, and Family Sharing isn't supported. Unused usage rolls over month to month but expires 12 months after purchase. In Logic Pro, the limit is affected by the complexity of conversations with the assistant. Apple is expected to add the option to other Creator Studio apps this month.",
+     "eli5": "Imagine a playground ride that gives you a few free turns each month. When your turns run out, you can buy a ticket book to keep riding.",
+     "why_it_matters": "AI features backed by cloud models now come with usage caps and paid top-ups inside Apple apps, so cost and limits become part of product planning.",
+     "topic": "products",
+     "type": "product",
+     "labs": [
+      "other",
+      "openai",
+      "google"
+     ],
+     "people": [],
+     "concepts": [
+      "chatbot",
+      "tokens"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "Apple’s $50 Intelligence Usage Packs extend access to some AI features",
+       "url": "https://www.theverge.com/tech/1030084/apple-intelligence-usage-packs-ai-features-creator-studio-logic-pro",
+       "name": "The Verge AI",
+       "kind": "press"
+      },
+      {
+       "title": "Apple is now offering additional AI access via one-time $50 \"intelligence usage packs\" when monthly usage caps are met, starting in its Creator Studio apps (Ryan Christoffel/9to5Mac)",
+       "url": "https://www.techmeme.com/261109/p45#a261109p45",
+       "name": "Techmeme",
+       "kind": "press"
+      }
+     ],
+     "buzz": 2,
+     "published": "2026-11-09T19:09:58Z",
+     "checked": {
+      "model": "anthropic:claude-sonnet-5-5",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "Apple now sells $50 one-time intelligence usage packs for users who hit monthly caps on some Apple Intelligence features.",
+     "rank": 14,
+     "id": "2026-11-10-apple-adds-49-99-intelligence-usage-packs-starting-with-logi",
+     "date": "2026-11-10"
+    },
+    {
+     "title": "Microsoft to retire R and Python visuals in Power BI in May 2027",
+     "one_liner": "Microsoft will retire the built-in R and Python visuals in Power BI in May 2027, and reports using them must be rebuilt with other visuals.",
+     "summary": "The Power BI Blog says the built-in R and Python visuals in Power BI will retire in May 2027. The change applies only to visuals in interactive reports. Python scripts in Power Query that populate tables are not affected. In the Power BI service, these visuals will stop working in published reports, and R-powered custom visuals will stop too. Older versions of Power BI Desktop keep working locally with R and Python installed. Future Desktop versions will remove the visuals. No migration will recreate an exact visual, so teams must replace each one with a different visualization before retirement.",
+     "eli5": "Imagine a toy in your toy box that the store will stop making and soon will stop working. You need to pick a different toy to play the same game before that day comes.",
+     "why_it_matters": "Any report that relies on R or Python visuals will break after May 2027, so teams need to find them, save their scripts and rebuild them with other visuals before then.",
+     "topic": "data-bi",
+     "type": "event",
+     "labs": [
+      "microsoft"
+     ],
+     "people": [],
+     "concepts": [],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "Announcing the retirement of R and Python visuals in Power BI",
+       "url": "https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Announcing-the-retirement-of-R-and-Python-visuals-in-Power-BI/ba-p/5400748",
+       "name": "Power BI Blog",
+       "kind": "original"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-09T19:00:39Z",
+     "checked": {
+      "model": "anthropic:claude-sonnet-5-5",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "Microsoft will retire R and Python visuals in Power BI in May 2027, so teams using them need a migration plan.",
+     "rank": 15,
+     "id": "2026-11-10-microsoft-to-retire-r-and-python-visuals-in-power-bi-in-may",
+     "date": "2026-11-10"
+    },
+    {
+     "title": "Anthropic's Fable 5.2 completes 41.3 percent of freelance jobs on Remote Labor Index",
+     "one_liner": "Anthropic's Fable 5.2 leads the Remote Labor Index at 41.3 percent, up from the 2.5 percent top score when the benchmark launched a year ago.",
+     "summary": "Anthropic's Fable 5.2 scores 41.3 percent on the Remote Labor Index from Scale Labs and the Center for AI Safety. The test measures how often AI agents finish real freelance jobs well enough for a paying client to accept. A year ago, the top system, Manus, managed 2.5 percent. Fable 5.1 scored just under 18 percent. Opus 5.5 reached 21.25 percent and GPT 6 Astra 20.83 percent. Gains were largest in audio editing, architecture and 3D models. Industrial product design and animation remain weak. The dataset has 240 projects worth about $144,000, and human experts check the results.",
+     "eli5": "Imagine a kid who could finish almost none of the chores on a list last year. Now the kid finishes about four out of every ten, and a grown-up checks each one.",
+     "why_it_matters": "Agent progress on full, paid work projects is now measurable, so teams can judge where agents may handle real tasks and where they still fail, such as product design and animation.",
+     "topic": "models",
+     "type": "model",
+     "labs": [
+      "anthropic",
+      "openai",
+      "google"
+     ],
+     "people": [],
+     "concepts": [
+      "benchmark",
+      "agent"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "Anthropic's Fable 5.2 completes 41 percent of real freelance jobs, up from 2.5 percent a year ago",
+       "url": "https://the-decoder.com/anthropics-fable-5-2-completes-41-percent-of-real-freelance-jobs-up-from-2-5-percent-a-year-ago/",
+       "name": "The Decoder",
+       "kind": "press"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-10T14:07:47Z",
+     "checked": {
+      "model": "anthropic:claude-sonnet-5-5",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "Anthropic's Fable 5.2 completes 41.3 percent of real freelance jobs at professional quality on the Remote Labor Index, up from 2.5 percent a year ago.",
+     "rank": 16,
+     "id": "2026-11-10-anthropic-s-fable-5-2-completes-41-3-percent-of-freelance-jo",
      "date": "2026-11-10"
     },
     {
@@ -6026,17 +6216,17 @@
       "hype_flags": []
      },
      "editor_reason": "A widely discussed piece argues that heavy AI use leaves a fragile codebase, a concern for teams that ship AI-written code.",
-     "rank": 13,
+     "rank": 17,
      "id": "2026-11-10-ex-meta-engineer-claims-ai-written-code-makes-codebases-frag",
      "date": "2026-11-10"
     }
    ],
    "stats": {
-    "items": 25,
-    "stories": 25,
+    "items": 32,
+    "stories": 30,
     "sources_ok": 42,
     "sources_failed": [],
-    "published": 16,
+    "published": 18,
     "dropped": 0,
     "llm_calls": 19,
     "cache_hits": 0,
@@ -6044,7 +6234,514 @@
      "anthropic:claude-sonnet-5-5": 19
     },
     "fallbacks": [],
-    "seconds": 121
+    "seconds": 109
+   }
+  },
+  "2026-11-11": {
+   "date": "2026-11-11",
+   "generated_at": "2026-11-11T01:05:23Z",
+   "stories": [
+    {
+     "title": "Anthropic adds Sheets, Whiteboards and Interactive Connectors to Claude, with Meetings coming soon",
+     "one_liner": "Anthropic is adding spreadsheet, whiteboard, dashboard and partner app features to Claude, and says a call-joining Meetings tool is coming soon.",
+     "summary": "Anthropic is adding several collaboration features to the Claude app. Claude Sheets lets teams create and edit spreadsheets with AI assistance, including formulas and multiple tabs. Claude Whiteboards lets teams brainstorm and have Claude summarize the ideas. Claude Data, formerly Dashboards, connects to tools like Snowflake and Salesforce to build dashboards and data visualizations. Interactive Connectors let partners like Adobe, Atlassian, and Salesforce embed their apps in Claude. Anthropic says Claude Meetings, which can join calls and take notes, is launching soon. Enterprise customers get audit logs, isolated virtual machines, and a compliance API.",
+     "eli5": "Imagine one big desk where you can do your math, draw with friends, and use your other tools, all in the same spot. Claude is becoming that kind of desk for teams.",
+     "why_it_matters": "Teams that build on Claude can now reach spreadsheets, dashboards and partner apps from one place, and enterprise buyers get audit logs, isolated virtual machines and a compliance API.",
+     "topic": "products",
+     "type": "product",
+     "labs": [
+      "anthropic"
+     ],
+     "people": [],
+     "concepts": [
+      "tool-use"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "Anthropic turns Claude into a full workspace with Plugins, spreadsheets, whiteboards, and soon Meeting notes",
+       "url": "https://the-decoder.com/anthropic-turns-claude-into-a-full-workspace-with-plugins-spreadsheets-whiteboards-and-soon-meeting-notes/",
+       "name": "The Decoder",
+       "kind": "press"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-10T19:48:40Z",
+     "checked": {
+      "model": "anthropic:claude-sonnet-5-5",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "Claude gains Sheets, Whiteboards and Interactive Connectors that let partners like Adobe and Atlassian embed apps inside it.",
+     "rank": 1,
+     "id": "2026-11-11-anthropic-adds-sheets-whiteboards-and-interactive-connectors",
+     "date": "2026-11-11"
+    },
+    {
+     "title": "Anthropic S-1: each of seven co-founders to sell 3,378,378 shares in IPO",
+     "one_liner": "Anthropic's S-1 says each of its seven co-founders will sell 3,378,378 shares, about $250 million each at the $74 midpoint.",
+     "summary": "Anthropic's new S-1 filing shows each of its seven co-founders plans to sell 3,378,378 shares in the IPO. The initial price range is $70 to $78 a share. At $74, each founder would take in just shy of $250 million. At $70 it is just over $236 million, and at $78 just under $264 million. After the sale, each will own about 3.2% of Class A shares, roughly 22% together. Each also gets one Class F share with supervoting rights. Together the founders will control 51.1% of the votes. Financial Times sources say bankers are weighing a higher IPO price after heavy demand.",
+     "eli5": "Imagine seven friends who started a lemonade stand together. Now the stand is opening to the public, and each friend sells the same number of their shares but still keeps the most say in how it runs.",
+     "why_it_matters": "The founders keep 51.1% of the votes after the IPO, so Anthropic's direction and its safety focus stay in the hands of the same seven people who started it.",
+     "topic": "industry",
+     "type": "event",
+     "labs": [
+      "anthropic",
+      "nvidia"
+     ],
+     "people": [
+      "dario-amodei"
+     ],
+     "concepts": [],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "All 7 Anthropic founders will each cash out about $250M in IPO",
+       "url": "https://techcrunch.com/2026/11/10/all-7-anthropic-founders-will-each-cash-out-about-250m-in-ipo/",
+       "name": "TechCrunch AI",
+       "kind": "press"
+      },
+      {
+       "title": "Sources: Anthropic's bankers are weighing plans to raise its IPO price following heavy demand, which could increase the valuation target to $1.5T or more (Financial Times)",
+       "url": "https://www.techmeme.com/261110/p60#a261110p60",
+       "name": "Techmeme",
+       "kind": "press"
+      },
+      {
+       "title": "S-1: Nvidia plans to invest ~$10B in Anthropic after its IPO, or ~10% of the total new cash Anthropic is expected to raise in November, including in its IPO (Cory Weinberg/New York Times)",
+       "url": "https://www.techmeme.com/261110/p50#a261110p50",
+       "name": "Techmeme",
+       "kind": "press"
+      }
+     ],
+     "buzz": 2,
+     "published": "2026-11-10T19:57:52Z",
+     "checked": {
+      "model": "anthropic:claude-sonnet-5-5",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "Anthropic's IPO filing shows founder payouts, a possible higher price on heavy demand, and a planned ~$10B Nvidia investment.",
+     "rank": 2,
+     "id": "2026-11-11-anthropic-s-1-each-of-seven-co-founders-to-sell-3-378-378-sh",
+     "date": "2026-11-11"
+    },
+    {
+     "title": "OpenAI launches Business Hub in ChatGPT for company profiles and agents",
+     "one_liner": "OpenAI launched a beta Business Hub in ChatGPT where companies can verify profiles, track user interactions and, if eligible, launch a business agent.",
+     "summary": "OpenAI rolled out a Business Hub in ChatGPT on Tuesday. Companies can create business profiles to verify and update information about their products and services. The feature is in beta. Eligible companies can also launch a business agent that lets ChatGPT users ask questions about the business and its products. The Hub gives limited insights, including profile views, business mentions and website clicks. Profiles must be verified, but OpenAI did not share specifics. The Decoder reports that Business Agents are for eligible US e-commerce providers. In March, OpenAI retired an earlier commission-based checkout effort.",
+     "eli5": "Think of a town phone book where each shop can write its own page and answer questions from visitors. ChatGPT is adding something like that for businesses.",
+     "why_it_matters": "Teams that build for or sell through ChatGPT now have a verified profile, a business agent and basic usage metrics to work with, though verification details are still unclear.",
+     "topic": "products",
+     "type": "product",
+     "labs": [
+      "openai"
+     ],
+     "people": [],
+     "concepts": [
+      "agent",
+      "chatbot"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "OpenAI rolls out new business profiles, making ChatGPT just a little bit more like Google",
+       "url": "https://techcrunch.com/2026/11/10/openai-rolls-out-new-business-profiles-making-chatgpt-just-a-little-bit-more-like-google/",
+       "name": "TechCrunch AI",
+       "kind": "press"
+      },
+      {
+       "title": "OpenAI turns ChatGPT into a business directory with AI agents that handle customer questions",
+       "url": "https://the-decoder.com/openai-turns-chatgpt-into-a-business-directory-with-ai-agents-that-handle-customer-questions/",
+       "name": "The Decoder",
+       "kind": "press"
+      }
+     ],
+     "buzz": 2,
+     "published": "2026-11-10T18:49:52Z",
+     "checked": {
+      "model": "anthropic:claude-sonnet-5-5",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "OpenAI adds a Business Hub and business profiles to ChatGPT, with agents that answer customer questions.",
+     "rank": 3,
+     "id": "2026-11-11-openai-launches-business-hub-in-chatgpt-for-company-profiles",
+     "date": "2026-11-11"
+    },
+    {
+     "title": "New York opens registration portal as RAISE Act AI safety law nears",
+     "one_liner": "New York opened a registration portal for large frontier AI developers like OpenAI and Anthropic, who must register by January 1, 2027 under the RAISE Act.",
+     "summary": "New York opened a registration portal Tuesday for large frontier AI developers, including Anthropic and OpenAI. They must register by January 1, 2027. The RAISE Act covers companies with more than $500 million in annual revenue. They must publish safety frameworks on their websites, report critical safety incidents within 72 hours, and issue public model transparency reports. A new office called DIGIT will implement the law. Penalties can reach $1 million for one violation and $3 million for later ones. Governor Kathy Hochul also launched the New York Center for AI Responsibility and Research at Binghamton University.",
+     "eli5": "Imagine a big playground where the biggest kids now have to sign in at the door and tell everyone their safety rules. If someone gets hurt, they must tell a grown-up quickly.",
+     "why_it_matters": "Large AI labs serving New York face fixed deadlines for registration, published safety frameworks and 72-hour incident reports, which may shape the compliance duties and disclosures that come with their models.",
+     "topic": "policy",
+     "type": "event",
+     "labs": [
+      "openai",
+      "anthropic",
+      "government",
+      "academia"
+     ],
+     "people": [],
+     "concepts": [
+      "ai-regulation",
+      "ai-safety",
+      "ai-governance"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "OpenAI, Anthropic face new oversight as New York’s AI safety law takes effect",
+       "url": "https://techcrunch.com/2026/11/10/openai-anthropic-face-new-oversight-as-new-yorks-ai-safety-law-takes-effect/",
+       "name": "TechCrunch AI",
+       "kind": "press"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-10T20:52:13Z",
+     "checked": {
+      "model": "anthropic:claude-sonnet-5-5",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "New York's AI safety law takes effect, so OpenAI, Anthropic and other major developers must register and disclose safety practices.",
+     "rank": 4,
+     "id": "2026-11-11-new-york-opens-registration-portal-as-raise-act-ai-safety-la",
+     "date": "2026-11-11"
+    },
+    {
+     "title": "Report: Apple has a new Mac app coming to ease running local AI models",
+     "one_liner": "9to5mac reports Apple has a new Mac app coming that is meant to make running local AI models easy.",
+     "summary": "9to5mac reports that Apple has a new Mac app coming. The app is meant to make running local AI models easy. The story was also shared on Hacker News. The source text gives no other details. It does not say when the app will ship, what it is called, which models it supports, or which Macs it will run on. The same page also carries a separate headline saying iOS 27.2.1 has fixes for security issues in Messages, AirPlay, and more. The source text does not expand on that item either.",
+     "eli5": "Imagine a toy that is hard to set up. Now someone is making a simple box where you just press a button and the toy works on your own table.",
+     "why_it_matters": "A simple Apple-made way to run AI models locally on a Mac could lower the setup work for anyone who wants to test models on their own machine.",
+     "topic": "dev-tools",
+     "type": "product",
+     "labs": [
+      "other"
+     ],
+     "people": [],
+     "concepts": [
+      "inference"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "Apple has new Mac app coming to make running local AI models easy",
+       "url": "https://9to5mac.com/2026/11/10/apple-has-new-mac-app-coming-to-make-running-local-ai-models-easy/",
+       "name": "9to5mac.com",
+       "kind": "press"
+      },
+      {
+       "title": "Discussion on Hacker News",
+       "url": "https://news.ycombinator.com/item?id=50446520",
+       "name": "Hacker News",
+       "kind": "discussion"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-10T21:25:03Z",
+     "checked": {
+      "model": "anthropic:claude-sonnet-5-5",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "Apple is reportedly building a Mac app to make running local AI models easy, and HN is discussing it (100 points).",
+     "rank": 5,
+     "id": "2026-11-11-report-apple-has-a-new-mac-app-coming-to-ease-running-local",
+     "date": "2026-11-11"
+    },
+    {
+     "title": "Claroc research says Grok Build share links leak confidential data, including SpaceXSI's own",
+     "one_liner": "Security firm Claroc says Grok Build share links let anyone enumerate thousands of live projects and see sensitive data, including from 24 SpaceXSI apps.",
+     "summary": "Research from security firm Claroc shows that Grok Build, a vibe-coding agent from SpaceXSI, is leaking data from thousands of its users. The leak comes through links that let users share their apps. Grok randomizes the URLs so only people who know the exact URL can reach the data. A design decision by the platform's developers defeats this and lets anyone enumerate thousands of live projects. Except in rare cases, clicking a link opens the app and shows all its data. Exposed data includes internal business plans, ad proposals, medical exam results and employee names and ID numbers. Claroc found 24 apps built by SpaceXSI itself, including a confidential onboarding plan and a sales territory map of 594 accounts.",
+     "eli5": "Imagine you hide your diary under a bed and give it a secret, hard-to-guess name. But the house has a list of every name on the front door, so anyone can read the list and find it.",
+     "why_it_matters": "Share links on AI app builders can expose private project data if the URLs can be enumerated, so anything put into such tools may be public.",
+     "topic": "dev-tools",
+     "type": "event",
+     "labs": [
+      "other"
+     ],
+     "people": [],
+     "concepts": [
+      "vibe-coding",
+      "coding-assistant",
+      "agent"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "Grok Build coding agent leaks oodles of confidential info, some belonging to SpaceXSI",
+       "url": "https://arstechnica.com/security/2026/11/grok-build-coding-agent-leaks-oodles-of-confidential-info-some-belonging-to-spacexsi/",
+       "name": "Ars Technica AI",
+       "kind": "press"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-10T21:12:59Z",
+     "checked": {
+      "model": "anthropic:claude-sonnet-5-5",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "Grok Build coding agent is reported to leak confidential data from thousands of users, a clear security warning for agent tools.",
+     "rank": 6,
+     "id": "2026-11-11-claroc-research-says-grok-build-share-links-leak-confidentia",
+     "date": "2026-11-11"
+    },
+    {
+     "title": "Microsoft researchers describe Lazarus, a no-training backdoor that edits fewer than 10 neurons",
+     "one_liner": "Microsoft researchers say reprogramming fewer than 10 dormant neurons can backdoor an LLM agent without training, triggered by cues like a date change.",
+     "summary": "Microsoft researchers describe \"Lazarus,\" a backdoor technique that reprograms dormant neurons in an AI model. They find that weight-reprogramming fewer than 10 dormant neurons in an LLM is enough to backdoor an agent, with no training. The model passes standard evals and acts normally until a trigger appears, such as the clock passing midnight into 2027. The agent can then download and run attacker code with its access. The researchers say frontier agents can spot anomalous weight edits if asked, but no scan can prove a model is safe. Reliable detection needs diffing against the original weights, so provenance matters.",
+     "eli5": "Imagine a toy robot that behaves well every day. But someone secretly changed a few tiny parts inside it, so on one special day it does something naughty. The fix is to check that the robot is the same one the maker built.",
+     "why_it_matters": "Teams that run open-weight models in agents with tool or terminal access need to verify where the weights came from and that they were not changed, because normal evals will not catch this backdoor.",
+     "topic": "research",
+     "type": "paper",
+     "labs": [
+      "microsoft"
+     ],
+     "people": [],
+     "concepts": [
+      "ai-safety",
+      "open-weight-model",
+      "red-teaming"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [
+      {
+       "term": "weight diffing",
+       "definition": "Comparing a model's weights against the original, unmodified weights to find anomalous changes, which the researchers say reliable detection requires."
+      },
+      {
+       "term": "model provenance",
+       "definition": "Knowing where a model came from and that it has not been changed between the developer and deployment."
+      }
+     ],
+     "sources": [
+      {
+       "title": "Lazare, veni foras: Reprogramming Dormant Neurons to Backdoor AI Agents",
+       "url": "https://www.microsoft.com/en-us/research/blog/lazare-veni-foras-reprogramming-dormant-neurons-to-backdoor-ai-agents/",
+       "name": "Microsoft Research",
+       "kind": "original"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-10T20:52:56Z",
+     "checked": {
+      "model": "anthropic:claude-sonnet-5-5",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "Microsoft researchers describe 'Lazarus', a backdoor that reprograms dormant neurons so a normal-looking AI agent behaves maliciously.",
+     "rank": 7,
+     "id": "2026-11-11-microsoft-researchers-describe-lazarus-a-no-training-backdoo",
+     "date": "2026-11-11"
+    },
+    {
+     "title": "Leaked documents reportedly show OpenAI's adjusted operating margin improved to -109% in Q3",
+     "one_liner": "Leaked documents reported by the Wall Street Journal say OpenAI's adjusted operating margin rose from -150% to -109% between Q2 and Q3.",
+     "summary": "The Wall Street Journal reports, citing leaked documents, that OpenAI's adjusted operating margin improved from -150% in the second quarter to -109% in the third quarter. The report says the company remains far off from profitability. It also says OpenAI grew revenue by roughly 50% to $10 billion from the second to the third quarter. The Information, citing a source, reports that OpenAI told investors on Tuesday that revenue jumped nearly 50% to $10 billion in Q3. That compares with 17% growth in Q2. The Information says growth rebounded from a period of slower growth. These figures come from leaks and sources, not from an official company release.",
+     "eli5": "Imagine a lemonade stand that sold a lot more cups this month. It still spends much more than it earns, so it is not making money yet, but the gap got smaller.",
+     "why_it_matters": "Reported figures show OpenAI is still far from profitable even as revenue grows, which is a useful signal for teams judging how stable a vendor's finances are.",
+     "topic": "industry",
+     "type": "event",
+     "labs": [
+      "openai"
+     ],
+     "people": [],
+     "concepts": [],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "Leaked documents: OpenAI's adjusted operating margin improved from -150% to -109% from Q2 to Q3 (Berber Jin/Wall Street Journal)",
+       "url": "https://www.techmeme.com/261110/p56#a261110p56",
+       "name": "Techmeme",
+       "kind": "press"
+      },
+      {
+       "title": "Source: OpenAI told investors on Tuesday that its revenue jumped 50% to around $10B in Q3, up from 17% growth in Q2 (The Information)",
+       "url": "https://www.techmeme.com/261110/p51#a261110p51",
+       "name": "Techmeme",
+       "kind": "press"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-10T21:22:07Z",
+     "checked": {
+      "model": "anthropic:claude-sonnet-5-5",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "Leaked documents and investor briefings show OpenAI's Q3 revenue up 50% to about $10B while its adjusted operating margin remains deeply negative.",
+     "rank": 8,
+     "id": "2026-11-11-leaked-documents-reportedly-show-openai-s-adjusted-operating",
+     "date": "2026-11-11"
+    },
+    {
+     "title": "Nvidia's GR00T 2 learns robot tasks from human videos, with mixed success rates",
+     "one_liner": "Nvidia's GR00T 2 predicts video of a robot arm doing a task, learned from human videos, to cut teleoperation, with 10 to 80 percent success.",
+     "summary": "Nvidia introduced GR00T 2, a model meant to cut the hours engineers spend teleoperating robots. It works as a world-action model, which calculates the next movement and a short video of the immediate future at the same time. Nvidia trained it on more than a thousand GB300 chips, using about 400,000 hours of head-camera video of people doing tasks. In lab tests, a robot with five-fingered hands lit a match, sliced a banana and tossed packages onto a conveyor belt without task-specific teleoperation. Success rates ranged from 10 to 80 percent. The team says the model does not yet process direct touch sensor data and sometimes misses subtle errors like half-turned screws.",
+     "eli5": "Imagine learning to tie a shoe by watching a grown-up, then picturing your own hands doing it before you try. The robot does something like that, picturing its own arm doing the job after watching people.",
+     "why_it_matters": "Teams building robot systems may be able to collect task data from people wearing cameras or gloves instead of paying for hours of teleoperation on each robot model.",
+     "topic": "models",
+     "type": "model",
+     "labs": [
+      "nvidia"
+     ],
+     "people": [],
+     "concepts": [
+      "physical-ai",
+      "world-model",
+      "foundation-model"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [
+      {
+       "term": "world-action model",
+       "definition": "A model that calculates the next movement and a short video of the immediate future at the same time."
+      },
+      {
+       "term": "teleoperation",
+       "definition": "Remotely controlling a robot by hand to collect training data, which is expensive, slow, and needs its own data for every robot model."
+      }
+     ],
+     "sources": [
+      {
+       "title": "Nvidia's model GR00T 2 watches humans on video, then imagines itself as the robot",
+       "url": "https://the-decoder.com/nvidias-model-gr00t-2-watches-humans-on-video-then-imagines-itself-as-the-robot/",
+       "name": "The Decoder",
+       "kind": "press"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-10T18:41:52Z",
+     "checked": {
+      "model": "anthropic:claude-sonnet-5-5",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "Nvidia's GR00T 2 learns robot tasks from human video, which could reduce the need for teleoperation.",
+     "rank": 9,
+     "id": "2026-11-11-nvidia-s-gr00t-2-learns-robot-tasks-from-human-videos-with-m",
+     "date": "2026-11-11"
+    },
+    {
+     "title": "Point72's Cubist alleges fired analyst used Claude and Codex to steal code",
+     "one_liner": "Point72's quant unit Cubist alleges in a lawsuit that a fired lead research analyst used Claude and Codex to steal source code before joining a competitor.",
+     "summary": "Bloomberg reports on a lawsuit filing by Cubist, the quantitative trading unit of Point72 Asset Management. Cubist claims a former lead research analyst, who was fired, used Anthropic's Claude and OpenAI's Codex to steal source code. The suit says this happened before the analyst left for a competitor. These are allegations from the filing. The source text does not say how the tools were used, what code was taken, or how the analyst or the competitor responded.",
+     "eli5": "Imagine a kid who copies a classmate's secret drawings using a helpful robot before switching to another school. The classmate's team says this happened, but nobody has proved it yet.",
+     "why_it_matters": "AI coding tools can show up in legal claims over stolen code, so teams may want clear rules on how staff use them with sensitive source code.",
+     "topic": "policy",
+     "type": "event",
+     "labs": [
+      "anthropic",
+      "openai",
+      "other"
+     ],
+     "people": [],
+     "concepts": [
+      "coding-assistant"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "Lawsuit filing: Point72's quant unit Cubist claims its fired lead research analyst used Claude and Codex to steal source code before leaving for a competitor (Bloomberg)",
+       "url": "https://www.techmeme.com/261110/p48#a261110p48",
+       "name": "Techmeme",
+       "kind": "press"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-10T20:05:01Z",
+     "checked": {
+      "model": "anthropic:claude-sonnet-5-5",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "A lawsuit alleges an analyst used Claude and Codex to steal source code, raising legal questions about AI coding tools and data exfiltration.",
+     "rank": 10,
+     "id": "2026-11-11-point72-s-cubist-alleges-fired-analyst-used-claude-and-codex",
+     "date": "2026-11-11"
+    },
+    {
+     "title": "AWS details agent evaluation options in Amazon Bedrock AgentCore Evaluations",
+     "one_liner": "AWS explains how to evaluate production agents on Amazon Bedrock AgentCore using built-in, DeepEval and AutoEval evaluators, starting from business outcomes rather than metric names.",
+     "summary": "An AWS Machine Learning Blog post lays out how to evaluate agents on Amazon Bedrock AgentCore. It says teams should define success in business terms, break it into observable behaviors, and map each behavior to an evaluator at trace or session level. AgentCore offers three evaluator sources. Built-in evaluators are authored and quality-tested by AWS, referenced by ID such as Builtin.GoalSuccessRate. Third-party managed evaluators come from DeepEval and AutoEval, with AgentCore hosting the code and running inference. Custom evaluators start from a built-in or third-party one, so you can swap in your own model and change the prompt or rubric.",
+     "eli5": "Checking an AI helper is like checking a kid's homework. You don't just see that they finished. You check each part, like whether they got the answers right and followed the steps.",
+     "why_it_matters": "Teams running agents in production can score task completion, tool use and safety separately, so a high score on one measure cannot hide a failure on another.",
+     "topic": "agents",
+     "type": "product",
+     "labs": [
+      "other"
+     ],
+     "people": [],
+     "concepts": [
+      "agent",
+      "benchmark",
+      "tool-use"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [
+      {
+       "term": "trajectory evaluation",
+       "definition": "A check that compares the agent's actual tool path against the path you expected, for cases where how the agent got there matters as much as what it produced."
+      }
+     ],
+     "sources": [
+      {
+       "title": "The agent evaluation playbook: Built-in, DeepEval, and AutoEval on Amazon Bedrock AgentCore Evaluations",
+       "url": "https://aws.amazon.com/blogs/machine-learning/the-agent-evaluation-playbook-built-in-deepeval-and-autoeval-on-agentcore/",
+       "name": "AWS Machine Learning Blog",
+       "kind": "original"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-10T22:35:03Z",
+     "checked": {
+      "model": "anthropic:claude-sonnet-5-5",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "AWS lays out how to evaluate production agents using built-in, DeepEval and AutoEval options on Bedrock AgentCore.",
+     "rank": 11,
+     "id": "2026-11-11-aws-details-agent-evaluation-options-in-amazon-bedrock-agent",
+     "date": "2026-11-11"
+    }
+   ],
+   "stats": {
+    "items": 33,
+    "stories": 33,
+    "sources_ok": 42,
+    "sources_failed": [],
+    "published": 12,
+    "dropped": 0,
+    "llm_calls": 25,
+    "cache_hits": 0,
+    "models": {
+     "anthropic:claude-sonnet-5-5": 25
+    },
+    "fallbacks": [],
+    "seconds": 115
    }
   }
  }

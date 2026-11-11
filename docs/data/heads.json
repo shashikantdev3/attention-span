@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-10T13:07:28Z",
+ "updated_at": "2026-11-11T04:10:31Z",
  "window_days": 7,
  "groups": [
   {
@@ -881,6 +881,51 @@
    "group": "official",
    "known_for": "AI company for legal work",
    "x": "harvey",
+   "bsky": null,
+   "bsky_check": null
+  },
+  {
+   "id": "buck-shlegeris",
+   "name": "Buck Shlegeris",
+   "group": "researchers",
+   "known_for": "CEO of Redwood Research, an AI safety lab",
+   "x": "bshlgrs",
+   "bsky": null,
+   "bsky_check": null
+  },
+  {
+   "id": "daniel-kokotajlo",
+   "name": "Daniel Kokotajlo",
+   "group": "researchers",
+   "known_for": "Former OpenAI researcher; leads the AI Futures Project behind AI 2027",
+   "x": "DKokotajlo",
+   "bsky": null,
+   "bsky_check": null
+  },
+  {
+   "id": "berber-jin",
+   "name": "Berber Jin",
+   "group": "explainers",
+   "known_for": "Wall Street Journal reporter covering AI companies",
+   "x": "berber_jin1",
+   "bsky": null,
+   "bsky_check": null
+  },
+  {
+   "id": "x-google-devs",
+   "name": "Google for Developers",
+   "group": "official",
+   "known_for": "Google's account for developers: Gemini API, Android, Cloud",
+   "x": "googledevs",
+   "bsky": null,
+   "bsky_check": null
+  },
+  {
+   "id": "x-gov-hochul",
+   "name": "Governor Kathy Hochul",
+   "group": "official",
+   "known_for": "Governor of New York, which passed the RAISE Act on frontier AI safety",
+   "x": "GovKathyHochul",
    "bsky": null,
    "bsky_check": null
   },
@@ -1922,6 +1967,489 @@
  ],
  "posts": [
   {
+   "id": "bsky-emollick.bsky.social-3mzyzlpr6lk2r",
+   "person": "ethan-mollick",
+   "platform": "bluesky",
+   "url": "https://bsky.app/profile/emollick.bsky.social/post/3mzyzlpr6lk2r",
+   "posted_at": "2026-11-11T03:35:36Z",
+   "text": "I asked Fable 5.2 & Gemini Carbon to \"Solve the Fermi Paradox. Marshal data, test hypotheses, pressure test them against critics, give me likely answers if you cant get a definite conclusion\"\n\nThey did not solve it, but did do interesting stuff.\n\nFable 5.2: where-is-everybody-fermi.netlify.app",
+   "links": [
+    {
+     "text": "where-is-everybody-fermi.netlify.app",
+     "url": "https://where-is-everybody-fermi.netlify.app/"
+    }
+   ],
+   "context": {
+    "kind": "link",
+    "url": "https://where-is-everybody-fermi.netlify.app/",
+    "title": "Where is everybody? The Fermi paradox, investigated with public data",
+    "text": "The Milky Way is old enough to have been settled many times over, yet we see no sign of anyone. An AI built a model and ran 22 studies of public data. The evidence rules out one explanation, and the r..."
+   },
+   "likes": 12,
+   "reposts": 0,
+   "via": "feed",
+   "meaning": "Ethan Mollick asked Fable 5.2 and Gemini Carbon to solve the Fermi paradox. He says neither solved it, but both did interesting work, and he links a Fable 5.2 write-up that ran 22 studies on public data and ruled out one explanation.",
+   "concepts": [],
+   "story": null,
+   "model": "anthropic:claude-haiku-5-5",
+   "checked": "anthropic:claude-sonnet-5-5",
+   "added": "2026-11-11"
+  },
+  {
+   "id": "x-2120292399520124993",
+   "platform": "x",
+   "url": "https://x.com/berber_jin1/status/2120292399520124993",
+   "posted_at": "2026-11-10T23:07:55Z",
+   "date_only": false,
+   "text": "scoop - openai continued to suffer heavy  losses in the third quarter, though it grew revenue  by roughly 50% to $10 billion\n\nits operating margin improved from -150% to -109%, though that is still a long ways off from profitability\n\nstory below:https://t.co/IYrzKFZXEk",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">scoop - openai continued to suffer heavy  losses in the third quarter, though it grew revenue  by roughly 50% to $10 billion<br><br>its operating margin improved from -150% to -109%, though that is still a long ways off from profitability<br><br>story below:<a href=\"https://t.co/IYrzKFZXEk\">https://t.co/IYrzKFZXEk</a></p>&mdash; Berber Jin (@berber_jin1) <a href=\"https://x.com/berber_jin1/status/2120292399520124993?ref_src=twsrc%5Etfw\">November 10, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "berber-jin",
+   "meaning": "Berber Jin reports, in a scoop, that OpenAI kept losing heavily in the third quarter while revenue grew about 50% to $10 billion. Its operating margin improved from -150% to -109%, which Jin notes is still far from profitability.",
+   "concepts": [],
+   "story": "2026-11-11-leaked-documents-reportedly-show-openai-s-adjusted-operating",
+   "model": "anthropic:claude-haiku-5-5",
+   "checked": "anthropic:claude-sonnet-5-5",
+   "added": "2026-11-11"
+  },
+  {
+   "id": "x-2120269982689063060",
+   "platform": "x",
+   "url": "https://x.com/edzitron/status/2120269982689063060",
+   "posted_at": "2026-11-10T21:38:51Z",
+   "date_only": false,
+   "text": "no info on costs https://t.co/xaTlEAYSrk",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">no info on costs <a href=\"https://t.co/xaTlEAYSrk\">https://t.co/xaTlEAYSrk</a></p>&mdash; Ed Zitron (@edzitron) <a href=\"https://x.com/edzitron/status/2120269982689063060?ref_src=twsrc%5Etfw\">November 10, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "ed-zitron",
+   "meaning": "",
+   "concepts": [],
+   "story": null,
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": null,
+   "added": "2026-11-11"
+  },
+  {
+   "id": "x-2120264238669423052",
+   "platform": "x",
+   "url": "https://x.com/bshlgrs/status/2120264238669423052",
+   "posted_at": "2026-11-10T21:16:01Z",
+   "date_only": false,
+   "text": "The Gemini 4 Argon safety report seems to describe intentional training on the CoT. They cite Kaufmann et al, a paper which (unpersuasively to us) argues that a particular category of CoT training is fine.\n\nWe're very confused, because GDM also says elsewhere that they don't…",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">The Gemini 4 Argon safety report seems to describe intentional training on the CoT. They cite Kaufmann et al, a paper which (unpersuasively to us) argues that a particular category of CoT training is fine.<br><br>We&#39;re very confused, because GDM also says elsewhere that they don&#39;t… <a href=\"https://t.co/Xw5cXJhPXs\">pic.twitter.com/Xw5cXJhPXs</a></p>&mdash; Buck Shlegeris (@bshlgrs) <a href=\"https://x.com/bshlgrs/status/2120264238669423052?ref_src=twsrc%5Etfw\">November 10, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "buck-shlegeris",
+   "meaning": "Buck Shlegeris says Google DeepMind's Gemini 4 Argon safety report seems to describe intentionally training on the model's chain of thought. He finds the cited Kaufmann et al. paper unpersuasive and says DeepMind elsewhere claims it does not do this.",
+   "concepts": [
+    "chain-of-thought",
+    "ai-safety"
+   ],
+   "story": null,
+   "model": "anthropic:claude-haiku-5-5",
+   "checked": "anthropic:claude-sonnet-5-5",
+   "added": "2026-11-11"
+  },
+  {
+   "id": "bsky-simonwillison.net-3mzyd7r6ttc24",
+   "person": "simon-willison",
+   "platform": "bluesky",
+   "url": "https://bsky.app/profile/simonwillison.net/post/3mzyd7r6ttc24",
+   "posted_at": "2026-11-10T20:55:12Z",
+   "text": "Gemini 4 Carbon is good at pelican SVGs, but that's nothing new for Gemini\n\n\"Make a three js animation where yonkers stands up as a big mech (cool stand up motion) and stomps around manhattan and queens and Brooklyn, use openstreetmap mapping data\"\nsimonwillison.net/2026/Nov/10/...",
+   "links": [
+    {
+     "text": "simonwillison.net/2026/Nov/10/...",
+     "url": "https://simonwillison.net/2026/Nov/10/llm-gemini/"
+    }
+   ],
+   "context": null,
+   "likes": 79,
+   "reposts": 5,
+   "via": "feed",
+   "meaning": "Simon Willison reports that Gemini 4 Carbon is good at drawing pelican SVGs, though he says that is not new for Gemini. He shares a test prompt asking for a three.js animation of a mech stomping through New York boroughs using OpenStreetMap data.",
+   "concepts": [
+    "foundation-model",
+    "benchmark"
+   ],
+   "story": null,
+   "model": "anthropic:claude-haiku-5-5",
+   "checked": "anthropic:claude-sonnet-5-5",
+   "added": "2026-11-11"
+  },
+  {
+   "id": "bsky-emollick.bsky.social-3mzyaxkti4k2r",
+   "person": "ethan-mollick",
+   "platform": "bluesky",
+   "url": "https://bsky.app/profile/emollick.bsky.social/post/3mzyaxkti4k2r",
+   "posted_at": "2026-11-10T20:14:50Z",
+   "text": "Another weird AI game project: I asked Claude Fable 5.2 for a fantasy transport sim with Discworld meets Lord of the Rings vibes. Then I left it to a bunch of agents arguing about art, lore and jokes. Now here is Dread & District, where good logistics defeats evil. dread-and-district.netlify.app",
+   "links": [
+    {
+     "text": "dread-and-district.netlify.app",
+     "url": "http://dread-and-district.netlify.app"
+    }
+   ],
+   "context": null,
+   "likes": 28,
+   "reposts": 1,
+   "via": "feed",
+   "meaning": "Ethan Mollick describes building a fantasy transport game with Claude Fable 5.2, then letting multiple agents argue over art, lore and jokes. The result is a game called Dread & District.",
+   "concepts": [
+    "agent",
+    "llm"
+   ],
+   "story": null,
+   "model": "anthropic:claude-haiku-5-5",
+   "checked": "anthropic:claude-sonnet-5-5",
+   "added": "2026-11-11"
+  },
+  {
+   "id": "x-2120224500491210772",
+   "platform": "x",
+   "url": "https://x.com/_NathanCalvin/status/2120224500491210772",
+   "posted_at": "2026-11-10T18:38:07Z",
+   "date_only": false,
+   "text": "Eli Lifland is a very smart and careful forecaster (he works with Daniel K at AIFP). Last year he thought we had until 2034 before top expert dominating AI (AI better than top human experts at everything), now he thinks we have until 2028, with automated AI research going into… https://t.co/4kXgKpOb63",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">Eli Lifland is a very smart and careful forecaster (he works with Daniel K at AIFP). Last year he thought we had until 2034 before top expert dominating AI (AI better than top human experts at everything), now he thinks we have until 2028, with automated AI research going into… <a href=\"https://t.co/4kXgKpOb63\">https://t.co/4kXgKpOb63</a> <a href=\"https://t.co/2Ub2aQB2jG\">pic.twitter.com/2Ub2aQB2jG</a></p>&mdash; Nathan Calvin (@_NathanCalvin) <a href=\"https://x.com/_NathanCalvin/status/2120224500491210772?ref_src=twsrc%5Etfw\">November 10, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "nathan-calvin",
+   "meaning": "Nathan Calvin praises forecaster Eli Lifland as careful and says Lifland now expects AI to outperform top human experts at everything by 2028, earlier than his 2034 estimate from last year. The post cuts off before giving Lifland's reasons.",
+   "concepts": [
+    "agi"
+   ],
+   "story": null,
+   "model": "anthropic:claude-haiku-5-5",
+   "checked": "anthropic:claude-sonnet-5-5",
+   "added": "2026-11-11"
+  },
+  {
+   "id": "x-2120222471412666562",
+   "platform": "x",
+   "url": "https://x.com/gdb/status/2120222471412666562",
+   "posted_at": "2026-11-10T18:30:03Z",
+   "date_only": false,
+   "text": "claim your business on ChatGPT and engage with customers in new ways: https://t.co/wQG3UspXYh",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">claim your business on ChatGPT and engage with customers in new ways: <a href=\"https://t.co/wQG3UspXYh\">https://t.co/wQG3UspXYh</a></p>&mdash; Greg Brockman (@gdb) <a href=\"https://x.com/gdb/status/2120222471412666562?ref_src=twsrc%5Etfw\">November 10, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "greg-brockman",
+   "meaning": "",
+   "concepts": [],
+   "story": null,
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": null,
+   "added": "2026-11-11"
+  },
+  {
+   "id": "x-2120216592395174382",
+   "platform": "x",
+   "url": "https://x.com/OpenAI/status/2120216592395174382",
+   "posted_at": "2026-11-10T18:06:42Z",
+   "date_only": false,
+   "text": "Now in beta: Businesses in ChatGPT.\n\nClaim your business, manage your information, and get insights on how people engage with you.\n\nEligible businesses can also build a Business Agent to answer customers’ questions and help them explore what you offer.https://t.co/N2GEZX0mFT",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">Now in beta: Businesses in ChatGPT.<br><br>Claim your business, manage your information, and get insights on how people engage with you.<br><br>Eligible businesses can also build a Business Agent to answer customers’ questions and help them explore what you offer.<a href=\"https://t.co/N2GEZX0mFT\">https://t.co/N2GEZX0mFT</a> <a href=\"https://t.co/lYj2Z48fhQ\">pic.twitter.com/lYj2Z48fhQ</a></p>&mdash; OpenAI (@OpenAI) <a href=\"https://x.com/OpenAI/status/2120216592395174382?ref_src=twsrc%5Etfw\">November 10, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "x-openai",
+   "meaning": "OpenAI launched a beta allowing businesses to claim profiles in ChatGPT, manage company information, and build custom business agents to interact with customers. This gives developers and enterprises new ways to deploy customer facing agents directly inside ChatGPT.",
+   "concepts": [
+    "agent",
+    "chatbot"
+   ],
+   "story": "2026-11-11-openai-launches-business-hub-in-chatgpt-for-company-profiles",
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "anthropic:claude-sonnet-5-5",
+   "added": "2026-11-11"
+  },
+  {
+   "id": "x-2120208455965569262",
+   "platform": "x",
+   "url": "https://x.com/AravSrinivas/status/2120208455965569262",
+   "posted_at": "2026-11-10T17:34:22Z",
+   "date_only": false,
+   "text": "Rolling out Gemini 4 Carbon to all Perplexity Pro and Max subscribers. You can create persistent Teammates with them or use it for one off agentic sessions in Computer. Carbon is 2.5x cheaper than Fable 5.2 with similar capabilities on agentic research tasks.",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">Rolling out Gemini 4 Carbon to all Perplexity Pro and Max subscribers. You can create persistent Teammates with them or use it for one off agentic sessions in Computer. Carbon is 2.5x cheaper than Fable 5.2 with similar capabilities on agentic research tasks. <a href=\"https://t.co/mhYOtxD2b0\">pic.twitter.com/mhYOtxD2b0</a></p>&mdash; Aravind Srinivas (@AravSrinivas) <a href=\"https://x.com/AravSrinivas/status/2120208455965569262?ref_src=twsrc%5Etfw\">November 10, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "aravind-srinivas",
+   "meaning": "Srinivas announces the rollout of Gemini 4 Carbon for Perplexity Pro and Max subscribers, highlighting its lower cost and strong agentic research capabilities compared to competing models. Developers building agent workflows gain another cost effective option for research tasks.",
+   "concepts": [
+    "agent",
+    "multimodal-model"
+   ],
+   "story": "2026-11-10-google-releases-gemini-4-carbon-to-developers-enterprises-an",
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "anthropic:claude-sonnet-5-5",
+   "added": "2026-11-11"
+  },
+  {
+   "id": "x-2120206365759094857",
+   "platform": "x",
+   "url": "https://x.com/claudeai/status/2120206365759094857",
+   "posted_at": "2026-11-10T17:26:03Z",
+   "date_only": false,
+   "text": "Starting to roll out today: Claude Whiteboards, Claude Sheets and Claude Data.\n\nThink a plan through on a board, build a tracker in a sheet, and tell a story with your data.",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">Starting to roll out today: Claude Whiteboards, Claude Sheets and Claude Data.<br><br>Think a plan through on a board, build a tracker in a sheet, and tell a story with your data. <a href=\"https://t.co/S8M32FMrce\">pic.twitter.com/S8M32FMrce</a></p>&mdash; Claude (@claudeai) <a href=\"https://x.com/claudeai/status/2120206365759094857?ref_src=twsrc%5Etfw\">November 10, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "x-claudeai",
+   "meaning": "Anthropic is rolling out interactive tools including Claude Whiteboards, Sheets, and Data to help users plan, track, and visualize information directly within Claude. Developers building with AI assistants can look to these features as examples of native productivity tool integration.",
+   "concepts": [
+    "tool-use"
+   ],
+   "story": "2026-11-11-anthropic-adds-sheets-whiteboards-and-interactive-connectors",
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "anthropic:claude-sonnet-5-5",
+   "added": "2026-11-11"
+  },
+  {
+   "id": "x-2120204075803500595",
+   "platform": "x",
+   "url": "https://x.com/DKokotajlo/status/2120204075803500595",
+   "posted_at": "2026-11-10T17:16:57Z",
+   "date_only": false,
+   "text": "Unfortunately, it seems like the intelligence explosion will be happening in 2027 after all. Most of this post analyzes the new METR report (though other sources of evidence are also important). If they’re right, that implies an AI-driven acceleration that is 5 months ahead of…",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">Unfortunately, it seems like the intelligence explosion will be happening in 2027 after all. Most of this post analyzes the new METR report (though other sources of evidence are also important). If they’re right, that implies an AI-driven acceleration that is 5 months ahead of…</p>&mdash; Daniel Kokotajlo (@DKokotajlo) <a href=\"https://x.com/DKokotajlo/status/2120204075803500595?ref_src=twsrc%5Etfw\">November 10, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "daniel-kokotajlo",
+   "meaning": "Daniel Kokotajlo argues, based mainly on a new METR report, that the intelligence explosion will happen in 2027. If the report is right, he says it implies AI-driven acceleration about five months ahead of a prior expectation.",
+   "concepts": [
+    "agi"
+   ],
+   "story": null,
+   "model": "anthropic:claude-haiku-5-5",
+   "checked": "anthropic:claude-sonnet-5-5",
+   "added": "2026-11-11"
+  },
+  {
+   "id": "x-2120203777936662703",
+   "platform": "x",
+   "url": "https://x.com/_philschmid/status/2120203777936662703",
+   "posted_at": "2026-11-10T17:15:46Z",
+   "date_only": false,
+   "text": "Gemini 4 Carbon is #1 on CursorBench and available in Cursor. Give it a try! https://t.co/89UkI1JbIP",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">Gemini 4 Carbon is #1 on CursorBench and available in Cursor. Give it a try! <a href=\"https://t.co/89UkI1JbIP\">https://t.co/89UkI1JbIP</a></p>&mdash; Philipp Schmid (@_philschmid) <a href=\"https://x.com/_philschmid/status/2120203777936662703?ref_src=twsrc%5Etfw\">November 10, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "philipp-schmid",
+   "meaning": "Schmid shares that Gemini 4 Carbon is now available in Cursor and ranks #1 on CursorBench. Coding assistant users can leverage this model for improved programming workflows.",
+   "concepts": [
+    "coding-assistant"
+   ],
+   "story": "2026-11-10-google-releases-gemini-4-carbon-to-developers-enterprises-an",
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "anthropic:claude-sonnet-5-5",
+   "added": "2026-11-11"
+  },
+  {
+   "id": "bsky-emollick.bsky.social-3mzxw7q2jgs2r",
+   "person": "ethan-mollick",
+   "platform": "bluesky",
+   "url": "https://bsky.app/profile/emollick.bsky.social/post/3mzxw7q2jgs2r",
+   "posted_at": "2026-11-10T17:02:32Z",
+   "text": "Had early access to Gemini 4 Carbon, it is a very good model that improves on Argon. It is useful to have an AI that thinks differently than Claude/GPT & is still highly capable, but has its own strengths & weakness\n\nOne fun demo: I gave Carbon a video clip & it reproduced it in 3js very well",
+   "links": [],
+   "context": null,
+   "likes": 114,
+   "reposts": 10,
+   "via": "feed",
+   "meaning": "Ethan Mollick, after early access, calls Gemini 4 Carbon a very good model that improves on Argon. He says it thinks differently from Claude and GPT, has its own strengths and weaknesses, and shares a demo recreating a video clip in three.js.",
+   "concepts": [
+    "foundation-model"
+   ],
+   "story": null,
+   "model": "anthropic:claude-haiku-5-5",
+   "checked": "anthropic:claude-sonnet-5-5",
+   "added": "2026-11-11"
+  },
+  {
+   "id": "x-2120198832202125322",
+   "platform": "x",
+   "url": "https://x.com/emollick/status/2120198832202125322",
+   "posted_at": "2026-11-10T16:56:07Z",
+   "date_only": false,
+   "text": "Had early access to Gemini 4 Carbon, it is a very good model that improves on Argon. It is useful to have an AI that thinks differently than Claude/GPT & is still highly capable, but has its own strengths & weakness\n\nOne fun demo: I gave Carbon a video clip & it reproduced in 3js",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">Had early access to Gemini 4 Carbon, it is a very good model that improves on Argon. It is useful to have an AI that thinks differently than Claude/GPT &amp; is still highly capable, but has its own strengths &amp; weakness<br><br>One fun demo: I gave Carbon a video clip &amp; it reproduced in 3js <a href=\"https://t.co/IDOdrQtReH\">pic.twitter.com/IDOdrQtReH</a></p>&mdash; Ethan Mollick (@emollick) <a href=\"https://x.com/emollick/status/2120198832202125322?ref_src=twsrc%5Etfw\">November 10, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "ethan-mollick",
+   "meaning": "Mollick shares that Gemini 4 Carbon offers different reasoning strengths compared to Claude and GPT models, successfully reproducing a video clip into a 3js demo. This diversity in model behavior helps developers choose varied architectures for specific creative tasks.",
+   "concepts": [
+    "multimodal-model"
+   ],
+   "story": "2026-11-10-google-releases-gemini-4-carbon-to-developers-enterprises-an",
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "anthropic:claude-sonnet-5-5",
+   "added": "2026-11-11"
+  },
+  {
+   "id": "x-2120193584670580857",
+   "platform": "x",
+   "url": "https://x.com/cursor_ai/status/2120193584670580857",
+   "posted_at": "2026-11-10T16:35:16Z",
+   "date_only": false,
+   "text": "Gemini 4 Carbon is now available in Cursor!\n\nAt high effort, it's the top model on CursorBench at 60.4%",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">Gemini 4 Carbon is now available in Cursor!<br><br>At high effort, it&#39;s the top model on CursorBench at 60.4% <a href=\"https://t.co/4I32nozQsb\">pic.twitter.com/4I32nozQsb</a></p>&mdash; Cursor (@cursor_ai) <a href=\"https://x.com/cursor_ai/status/2120193584670580857?ref_src=twsrc%5Etfw\">November 10, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "x-cursor",
+   "meaning": "Cursor announces that Gemini 4 Carbon is available in Cursor and achieves a top score of 60.4% on CursorBench at high effort. Developers using AI coding tools get access to a high performing model for software development tasks.",
+   "concepts": [
+    "coding-assistant",
+    "benchmark"
+   ],
+   "story": "2026-11-10-google-releases-gemini-4-carbon-to-developers-enterprises-an",
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "anthropic:claude-sonnet-5-5",
+   "added": "2026-11-11"
+  },
+  {
+   "id": "x-2120191804641517602",
+   "platform": "x",
+   "url": "https://x.com/googledevs/status/2120191804641517602",
+   "posted_at": "2026-11-10T16:28:12Z",
+   "date_only": false,
+   "text": "Gemini 4 Carbon is here!\n\nOur strongest model is now available, with frontier performance in cybersecurity and long-horizon capabilities. Built for your toughest engineering work, Carbon takes the time to explore thoroughly, reason deeply, and run extended verification loops to…",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">Gemini 4 Carbon is here!<br><br>Our strongest model is now available, with frontier performance in cybersecurity and long-horizon capabilities. Built for your toughest engineering work, Carbon takes the time to explore thoroughly, reason deeply, and run extended verification loops to… <a href=\"https://t.co/jORDvP5ytY\">pic.twitter.com/jORDvP5ytY</a></p>&mdash; Google for Developers (@googledevs) <a href=\"https://x.com/googledevs/status/2120191804641517602?ref_src=twsrc%5Etfw\">November 10, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "x-google-devs",
+   "meaning": "Google for Developers announces Gemini 4 Carbon, its strongest model, claiming frontier performance in cybersecurity and long-horizon work. It is built for hard engineering tasks, exploring thoroughly and running extended verification loops.",
+   "concepts": [
+    "foundation-model",
+    "reasoning-model"
+   ],
+   "story": "2026-11-10-google-releases-gemini-4-carbon-to-developers-enterprises-an",
+   "model": "anthropic:claude-haiku-5-5",
+   "checked": "anthropic:claude-sonnet-5-5",
+   "added": "2026-11-11"
+  },
+  {
+   "id": "x-2120188528311288233",
+   "platform": "x",
+   "url": "https://x.com/GovKathyHochul/status/2120188528311288233",
+   "posted_at": "2026-11-10T16:15:11Z",
+   "date_only": false,
+   "text": "AI companies can’t be left to police themselves.\n\nThat’s why New York is launching the nation’s first state-led effort to independently test AI systems, identify risks and hold Big Tech accountable.\n\nJoin us live: https://t.co/19mbSBm6Vx",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">AI companies can’t be left to police themselves.<br><br>That’s why New York is launching the nation’s first state-led effort to independently test AI systems, identify risks and hold Big Tech accountable.<br><br>Join us live: <a href=\"https://t.co/19mbSBm6Vx\">https://t.co/19mbSBm6Vx</a></p>&mdash; Governor Kathy Hochul (@GovKathyHochul) <a href=\"https://x.com/GovKathyHochul/status/2120188528311288233?ref_src=twsrc%5Etfw\">November 10, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "x-gov-hochul",
+   "meaning": "Governor Kathy Hochul says AI companies cannot police themselves. She announces that New York is launching the nation's first state-led effort to independently test AI systems, identify risks and hold Big Tech accountable, and invites readers to a live event.",
+   "concepts": [
+    "ai-governance",
+    "ai-regulation",
+    "ai-safety"
+   ],
+   "story": null,
+   "model": "anthropic:claude-haiku-5-5",
+   "checked": "anthropic:claude-sonnet-5-5",
+   "added": "2026-11-11"
+  },
+  {
+   "id": "x-2120187153950871798",
+   "platform": "x",
+   "url": "https://x.com/natolambert/status/2120187153950871798",
+   "posted_at": "2026-11-10T16:09:43Z",
+   "date_only": false,
+   "text": "It could be vastly underestimated how much human expertise is needed to diffuse the benefits of AI to the long-tail of knowledge work. I think more data companies should figure out this branding, where experts help AI companies understand how to improve the tools that make them… https://t.co/UGSaUVZSzb",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">It could be vastly underestimated how much human expertise is needed to diffuse the benefits of AI to the long-tail of knowledge work. I think more data companies should figure out this branding, where experts help AI companies understand how to improve the tools that make them… <a href=\"https://t.co/UGSaUVZSzb\">https://t.co/UGSaUVZSzb</a></p>&mdash; Nathan Lambert (@natolambert) <a href=\"https://x.com/natolambert/status/2120187153950871798?ref_src=twsrc%5Etfw\">November 10, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "nathan-lambert",
+   "meaning": "Lambert argues that diffusing AI benefits into the long tail of knowledge work may heavily depend on human domain expertise, suggesting data companies should brand themselves around helping AI labs improve tools. Builders should consider how expert feedback loops can refine specialized workflows.",
+   "concepts": [
+    "machine-learning"
+   ],
+   "story": null,
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "anthropic:claude-sonnet-5-5",
+   "added": "2026-11-11"
+  },
+  {
+   "id": "x-2120186714358702187",
+   "platform": "x",
+   "url": "https://x.com/koraykv/status/2120186714358702187",
+   "posted_at": "2026-11-10T16:07:58Z",
+   "date_only": false,
+   "text": "Gemini 4 Carbon is now available for users, developers and enterprises!\n\nWe are heavily using Carbon internally at Google for hardest long horizon tasks, our teams have used it to help mathematically prove the core cryptographic protocol of Signal — and it’s topping independent…",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">Gemini 4 Carbon is now available for users, developers and enterprises!<br><br>We are heavily using Carbon internally at Google for hardest long horizon tasks, our teams have used it to help mathematically prove the core cryptographic protocol of Signal — and it’s topping independent… <a href=\"https://t.co/bvmnYBwNp7\">pic.twitter.com/bvmnYBwNp7</a></p>&mdash; koray kavukcuoglu (@koraykv) <a href=\"https://x.com/koraykv/status/2120186714358702187?ref_src=twsrc%5Etfw\">November 10, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "koray-kavukcuoglu",
+   "meaning": "Koray Kavukcuoglu announces Gemini 4 Carbon for users, developers and enterprises. He says Google uses it internally for hard long-horizon tasks and that teams used it to help mathematically prove Signal's core cryptographic protocol.",
+   "concepts": [
+    "foundation-model"
+   ],
+   "story": null,
+   "model": "anthropic:claude-haiku-5-5",
+   "checked": "anthropic:claude-sonnet-5-5",
+   "added": "2026-11-11"
+  },
+  {
+   "id": "x-2120186016254624039",
+   "platform": "x",
+   "url": "https://x.com/OfficialLoganK/status/2120186016254624039",
+   "posted_at": "2026-11-10T16:05:12Z",
+   "date_only": false,
+   "text": "Gemini 4 Carbon, now available in the Gemini API and to Ultra subscribers!\n\nJust a few weeks after Argon was launched, this model makes significant progress on lots of the feedback from Argon and pushes the frontier in cyber, knowledge work, and code! It's a great model : )",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">Gemini 4 Carbon, now available in the Gemini API and to Ultra subscribers!<br><br>Just a few weeks after Argon was launched, this model makes significant progress on lots of the feedback from Argon and pushes the frontier in cyber, knowledge work, and code! It&#39;s a great model : )</p>&mdash; Logan Kilpatrick (@OfficialLoganK) <a href=\"https://x.com/OfficialLoganK/status/2120186016254624039?ref_src=twsrc%5Etfw\">November 10, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "logan-kilpatrick",
+   "meaning": "Logan Kilpatrick announces Gemini 4 Carbon in the Gemini API and for Ultra subscribers. He says it follows Argon, responds to its feedback, and pushes the frontier in cyber, knowledge work and code.",
+   "concepts": [
+    "foundation-model"
+   ],
+   "story": null,
+   "model": "anthropic:claude-haiku-5-5",
+   "checked": "anthropic:claude-sonnet-5-5",
+   "added": "2026-11-11"
+  },
+  {
+   "id": "x-2120185896469496180",
+   "platform": "x",
+   "url": "https://x.com/sundarpichai/status/2120185896469496180",
+   "posted_at": "2026-11-10T16:04:43Z",
+   "date_only": false,
+   "text": "Gemini 4 Carbon is rolling out today. It’s built for sustained, long-horizon tasks, reasoning deeply through complex software engineering, cybersecurity, and scientific discovery.\n\nComing globally via the Gemini API in @GoogleAIStudio and Gemini for business, and for Ultra…",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">Gemini 4 Carbon is rolling out today. It’s built for sustained, long-horizon tasks, reasoning deeply through complex software engineering, cybersecurity, and scientific discovery.<br><br>Coming globally via the Gemini API in <a href=\"https://x.com/GoogleAIStudio?ref_src=twsrc%5Etfw\">@GoogleAIStudio</a> and Gemini for business, and for Ultra…</p>&mdash; Sundar Pichai (@sundarpichai) <a href=\"https://x.com/sundarpichai/status/2120185896469496180?ref_src=twsrc%5Etfw\">November 10, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "sundar-pichai",
+   "meaning": "Sundar Pichai says Gemini 4 Carbon is rolling out, built for sustained long-horizon work such as complex software engineering, cybersecurity and scientific discovery. It is coming through the Gemini API and Gemini for business.",
+   "concepts": [
+    "foundation-model"
+   ],
+   "story": null,
+   "model": "anthropic:claude-haiku-5-5",
+   "checked": "anthropic:claude-sonnet-5-5",
+   "added": "2026-11-11"
+  },
+  {
+   "id": "x-2120173038457290958",
+   "platform": "x",
+   "url": "https://x.com/GergelyOrosz/status/2120173038457290958",
+   "posted_at": "2026-11-10T15:13:37Z",
+   "date_only": false,
+   "text": "Holy shit this isn't a RCA, it's a novel\n\nI wasn't sure what I'll do the hour it takes to get from Heathrow to central London but now I do: reading this extremely detailed postmortem\n\nThese attacks are happening everywhere and FINALLY someone gives proper details https://t.co/amSCLpwC8c",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">Holy shit this isn&#39;t a RCA, it&#39;s a novel<br><br>I wasn&#39;t sure what I&#39;ll do the hour it takes to get from Heathrow to central London but now I do: reading this extremely detailed postmortem<br><br>These attacks are happening everywhere and FINALLY someone gives proper details <a href=\"https://t.co/amSCLpwC8c\">https://t.co/amSCLpwC8c</a></p>&mdash; Gergely Orosz (@GergelyOrosz) <a href=\"https://x.com/GergelyOrosz/status/2120173038457290958?ref_src=twsrc%5Etfw\">November 10, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "gergely-orosz",
+   "meaning": "",
+   "concepts": [],
+   "story": null,
+   "model": "anthropic:claude-haiku-5-5",
+   "checked": null,
+   "added": "2026-11-11"
+  },
+  {
    "id": "x-2120117722230968385",
    "platform": "x",
    "url": "https://x.com/AnthropicAI/status/2120117722230968385",
@@ -2363,8 +2891,8 @@
     }
    ],
    "context": null,
-   "likes": 165,
-   "reposts": 16,
+   "likes": 193,
+   "reposts": 19,
    "via": "feed",
    "meaning": "Ethan Mollick shares an experiment where Fable 5.2 used 25,000 agents to create over 450 interconnected 3D worlds in code, inspired by various books, art, and places.",
    "concepts": [
@@ -2385,7 +2913,7 @@
    "text": "Im very excited for more labs to compete with Anthropic and distribute AI research abilties, knowing the safety community and others will build immense value on these tools, and the lab(s) can even improve their own AI R&D abilities by looking at user data!",
    "links": [],
    "context": null,
-   "likes": 14,
+   "likes": 16,
    "reposts": 0,
    "via": "feed",
    "meaning": "Nathan Lambert expresses excitement for more labs to compete with Anthropic and distribute AI research abilities, noting that the safety community will build value and labs can improve R&D using user data.",
@@ -2831,8 +3359,8 @@
     "title": "Hide your slop PR descriptions behind <details><summary>",
     "text": "Most of the changes I make to my projects these days come in the form of PRs opened for me by Claude Code or Codex. The PR is my unit …"
    },
-   "likes": 272,
-   "reposts": 19,
+   "likes": 277,
+   "reposts": 20,
    "via": "feed",
    "meaning": "Simon Willison says he now hides the bulk of his AI-generated GitHub PR descriptions inside a collapsed details tag. He argues this makes the flood of agent-written pull requests less tiring to read.",
    "concepts": [

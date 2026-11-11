@@ -151,6 +151,29 @@ NO_TEXT = re.compile(r"title is the only text|only (?:a |the )?(?:headline|title
                      r"sources? (?:give|gives|provide|provides) only (?:a |the )?headlines?|only text provided", re.I)
 
 
+def rerank(stories):
+    """One model call orders an extended edition by importance. The lead stays first unless a new story is clearly
+    bigger; spotlighted stories stay at the top. Any bad answer keeps the order as it was."""
+    from pipeline import llm
+    rows = "\n".join(f"{i}. {s['title']} ({len(s['sources'])} sources)" for i, s in enumerate(stories))
+    system = ("You order the stories of a daily AI news edition for people who build with AI, most important first: "
+              "frontier model launches, major lab announcements, big deals, security incidents and policy that changes "
+              "what builders can do come before minor product updates, opinion posts and small releases. "
+              "Keep story 0 first unless another is clearly bigger news. "
+              'Answer JSON: {"order": [every story number exactly once]}')
+    try:
+        res, _ = llm.ask_json(system, rows, max_tokens=400, tag="dedupe")
+        order = [int(i) for i in res.get("order", [])]
+    except Exception as exc:  # noqa: BLE001
+        log(f"   reorder skipped: {type(exc).__name__}")
+        return stories
+    if sorted(order) != list(range(len(stories))):
+        log("   reorder skipped: the answer did not list every story once")
+        return stories
+    out = [stories[i] for i in order]
+    return [s for s in out if s.get("spotlight")] + [s for s in out if not s.get("spotlight")]
+
+
 def restore(day, old, new, prev=()):
     """Old stories keep their places; new ones that repeat a story from today or the two days before are dropped."""
     F = DATA / "editions" / f"{day[:7]}.json"
@@ -185,6 +208,8 @@ def restore(day, old, new, prev=()):
             n_spot += 1
             if n_spot > 2:
                 s["spotlight"], s["spotlight_reason"] = False, ""
+    if old and fresh:
+        stories = rerank(stories)
     ed = m["editions"].setdefault(day, {"date": day, "stats": {}})
     ed["stories"] = stories
     ed["generated_at"] = iso(datetime.now(timezone.utc))
@@ -217,7 +242,7 @@ def words(t):
 def same_story(a, b):
     """Two headlines about the same news: many shared words, or the same amount of money and the same company."""
     w, v = words(a), words(b)
-    if len(w & v) >= 3 and len(w & v) / len(w | v) >= 0.35:
+    if len(w & v) >= 5 or (len(w & v) >= 3 and len(w & v) / len(w | v) >= 0.35):
         return True
     names = (set(NAME.findall(a)) & set(NAME.findall(b))) - SKIP
     return bool(money(a) & money(b) and names)
@@ -251,9 +276,20 @@ def llm_repeats(new_titles, old_titles):
             k, v = int(k), int(v)
         except (TypeError, ValueError):
             continue
-        if 0 <= k < len(new_titles) and 0 <= v < len(old_titles):
+        # guard against a mixed-up number ("Claude Sheets" matched to an AlphaProof story on 10 Nov):
+        # the two headlines must share a word that is not a company name
+        if 0 <= k < len(new_titles) and 0 <= v < len(old_titles) and topic_words(new_titles[k]) & topic_words(old_titles[v]):
             out[k] = old_titles[v]
     return out
+
+
+COMMON = {"anthropic", "openai", "google", "nvidia", "meta", "microsoft", "apple", "amazon", "claude", "chatgpt", "report",
+          "reports", "reportedly", "says", "with", "from", "after", "launches", "releases", "about", "into", "over", "their",
+          "the", "and", "for", "new", "its", "says", "that", "this", "will", "than", "more", "per"}
+
+
+def topic_words(t):
+    return {w for w in re.findall(r"[a-z0-9][a-z0-9.$-]{2,}", t.lower().replace("'s", "")) if w not in COMMON}
 
 
 def is_dup(title, days):
@@ -267,7 +303,8 @@ def is_dup(title, days):
 # aggregators and pages that refuse plain requests or sit behind paywalls: never a story's source
 BLOCKED = re.compile(r"techmeme\.com|killtheai|theneuron\.ai|bloomberg\.com|wsj\.com|ft\.com|reuters\.com|nytimes\.com|"
                      r"theinformation\.com|x\.com|twitter\.com|news\.google|ycombinator\.com|substack\.com|"
-                     r"recap|digest|roundup|aitools|ai-news-(?:today|\w+-\d)|top-\d+-ai-news", re.I)
+                     r"recap|digest|roundup|aitools|ai-news-(?:today|\w+-\d)|top-\d+-ai-news|anothercodingblog|newsletter|"
+                     r"latent\.space/p/ainews", re.I)
 
 
 def article_url(u):
