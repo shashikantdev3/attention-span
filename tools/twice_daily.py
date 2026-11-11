@@ -166,11 +166,17 @@ def rerank(stories):
         order = [int(i) for i in res.get("order", [])]
     except Exception as exc:  # noqa: BLE001
         log(f"   reorder skipped: {type(exc).__name__}")
-        return stories
+        return [s for s in stories if not s.pop("_new", None) or True]
     if sorted(order) != list(range(len(stories))):
         log("   reorder skipped: the answer did not list every story once")
-        return stories
+        return [s for s in stories if not s.pop("_new", None) or True]
     out = [stories[i] for i in order]
+    # stories already in the edition keep their order (an earlier review may have set it); new ones take the
+    # places the model gave them among the old ones
+    old_seq = iter([s for s in stories if not s.get("_new")])
+    out = [s if s.get("_new") else next(old_seq) for s in out]
+    for s in out:
+        s.pop("_new", None)
     return [s for s in out if s.get("spotlight")] + [s for s in out if not s.get("spotlight")]
 
 
@@ -195,6 +201,16 @@ def restore(day, old, new, prev=()):
     for i in sorted(reps, reverse=True):
         log(f"   dropped a repeat: {fresh[i]['title'][:70]} (same news as: {reps[i][:50]})")
         del fresh[i]
+    kept = []                                   # two new stories about the same news: keep the one with more sources
+    for s in sorted(fresh, key=lambda s: -len(s["sources"])):
+        twin = next((k for k in kept if same_story(s["title"], k["title"])), None)
+        if twin is None and kept and llm_repeats([s["title"]], [k["title"] for k in kept]):
+            twin = True
+        if twin:
+            log(f"   dropped a repeat within this run: {s['title'][:70]}")
+        else:
+            kept.append(s)
+    fresh = [s for s in fresh if s in kept]
     lead_new = [s for s in fresh if s.get("spotlight")]
     rest_new = [s for s in fresh if not s.get("spotlight")]
     k = 0                                   # new spotlights go right after the existing spotlighted stories,
@@ -209,6 +225,8 @@ def restore(day, old, new, prev=()):
             if n_spot > 2:
                 s["spotlight"], s["spotlight_reason"] = False, ""
     if old and fresh:
+        for s in fresh:
+            s["_new"] = True
         stories = rerank(stories)
     ed = m["editions"].setdefault(day, {"date": day, "stats": {}})
     ed["stories"] = stories
@@ -289,7 +307,8 @@ COMMON = {"anthropic", "openai", "google", "nvidia", "meta", "microsoft", "apple
 
 
 def topic_words(t):
-    return {w for w in re.findall(r"[a-z0-9][a-z0-9.$-]{2,}", t.lower().replace("'s", "")) if w not in COMMON}
+    toks = re.findall(r"[a-z0-9][a-z0-9.$-]+", t.lower().replace("'s", ""))
+    return {w for w in toks if (len(w) >= 3 or re.search(r"\d", w)) and w not in COMMON}
 
 
 def is_dup(title, days):

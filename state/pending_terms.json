@@ -1211,11 +1211,11 @@
   "source": "https://techstartups.com/2026/11/09/startup-funding-news-today-november-9-2026-boson-ai-onodrim-mavria-t-therapeutics-more/"
  },
  {
-  "term": "agent swarm",
-  "definition": "A setup that turns a single prompt into a coordinated team of agents that split up a complex task and whose work can be tracked in real time.",
+  "term": "passive DNS",
+  "definition": "Commercial databases that record an app's subdomain name after the first visit and can be searched by pattern.",
   "first_seen": "2026-11-11",
-  "story": "2026-11-11-google-makes-gemini-4-carbon-generally-available-after-two-w",
-  "source": "https://the-decoder.com/gemini-4-carbon-arrives-just-in-time-to-feel-like-yesterdays-news-in-the-fastest-model-cycle-yet/"
+  "story": "2026-11-11-claroc-report-most-grok-built-apps-open-to-anyone-without-lo",
+  "source": "https://the-decoder.com/grok-built-apps-exposed-patient-data-plaintext-passwords-and-spacexsis-own-sales-pipeline/"
  },
  {
   "term": "weight diffing",
@@ -1232,6 +1232,20 @@
   "source": "https://www.microsoft.com/en-us/research/blog/lazare-veni-foras-reprogramming-dormant-neurons-to-backdoor-ai-agents/"
  },
  {
+  "term": "AI-free assessment",
+  "definition": "Assessment methods such as written exams and in-person presentations that do not allow AI to produce the student's work.",
+  "first_seen": "2026-11-11",
+  "story": "2026-11-11-england-s-university-regulator-says-ai-makes-coursework-grad",
+  "source": "https://www.techmeme.com/261111/p10#a261111p10"
+ },
+ {
+  "term": "trajectory evaluation",
+  "definition": "A check that compares the agent's actual tool path against the path you expected, for cases where how the agent got there matters as much as what it produced.",
+  "first_seen": "2026-11-11",
+  "story": "2026-11-11-aws-details-agent-evaluation-options-in-amazon-bedrock-agent",
+  "source": "https://aws.amazon.com/blogs/machine-learning/the-agent-evaluation-playbook-built-in-deepeval-and-autoeval-on-agentcore/"
+ },
+ {
   "term": "world-action model",
   "definition": "A model that calculates the next movement and a short video of the immediate future at the same time.",
   "first_seen": "2026-11-11",
@@ -1246,18 +1260,25 @@
   "source": "https://the-decoder.com/nvidias-model-gr00t-2-watches-humans-on-video-then-imagines-itself-as-the-robot/"
  },
  {
-  "term": "trajectory evaluation",
-  "definition": "A check that compares the agent's actual tool path against the path you expected, for cases where how the agent got there matters as much as what it produced.",
-  "first_seen": "2026-11-11",
-  "story": "2026-11-11-aws-details-agent-evaluation-options-in-amazon-bedrock-agent",
-  "source": "https://aws.amazon.com/blogs/machine-learning/the-agent-evaluation-playbook-built-in-deepeval-and-autoeval-on-agentcore/"
- },
- {
   "term": "advisor and orchestrator roles",
   "definition": "A large model either helps smaller models solve harder problems (Advisor) or hands simpler tasks to smaller models (Orchestrator).",
   "first_seen": "2026-11-10",
   "story": "2026-11-10-anthropic-releases-claude-fable-5-2-and-mythos-5-2-with-lowe",
   "source": "https://www.anthropic.com/claude-fable-and-mythos-5-2"
+ },
+ {
+  "term": "vision-language-action model",
+  "definition": "A model that generates robot actions, like moving an actuator, from visual and language input.",
+  "first_seen": "2026-11-10",
+  "story": "2026-11-10-deepmind-s-gemini-robotics-2-5-reportedly-sorts-metal-parts",
+  "source": "https://arstechnica.com/google/2026/11/deepmind-reveals-gemini-robotics-2-5-and-open-safety-benchmark-asimov-jailbreak/"
+ },
+ {
+  "term": "credit default swap",
+  "definition": "A contract that lets investors insure against default, with rising prices showing they want more protection against default.",
+  "first_seen": "2026-11-10",
+  "story": "2026-11-10-coreweave-bond-yield-tops-16-as-ai-credit-stress-rises",
+  "source": "https://www.cnbc.com/2026/11/06/coreweave-bond-yield-tops-16percent-as-ai-credit-stress-rises.html"
  },
  {
   "term": "multi-round editing",
@@ -1274,17 +1295,17 @@
   "source": "https://the-decoder.com/bytedances-seedream-5-5-promises-pixel-stable-image-editing-across-100-rounds-without-color-drift/"
  },
  {
-  "term": "credit default swap",
-  "definition": "A contract that lets investors insure against default, with rising prices showing they want more protection against default.",
+  "term": "token rotation",
+  "definition": "Changing administrative access tokens more often, so a stolen token is useful for less time.",
   "first_seen": "2026-11-10",
-  "story": "2026-11-10-coreweave-bond-yield-tops-16-as-ai-credit-stress-rises",
-  "source": "https://www.cnbc.com/2026/11/06/coreweave-bond-yield-tops-16percent-as-ai-credit-stress-rises.html"
+  "story": "2026-11-10-hugging-face-exec-warns-cyberattacks-could-make-open-source",
+  "source": "https://techcrunch.com/2026/11/10/cyberattacks-threaten-to-make-open-source-ai-a-little-less-open-hugging-face-exec-warns/"
  },
  {
-  "term": "vision-language-action model",
-  "definition": "A model that generates robot actions, like moving an actuator, from visual and language input.",
+  "term": "software supply chain security",
+  "definition": "Protecting the packages and publishing steps that open source projects rely on from malicious code injected to spread malware.",
   "first_seen": "2026-11-10",
-  "story": "2026-11-10-deepmind-s-gemini-robotics-2-5-reportedly-sorts-metal-parts",
-  "source": "https://arstechnica.com/google/2026/11/deepmind-reveals-gemini-robotics-2-5-and-open-safety-benchmark-asimov-jailbreak/"
+  "story": "2026-11-10-hugging-face-exec-warns-cyberattacks-could-make-open-source",
+  "source": "https://techcrunch.com/2026/11/10/cyberattacks-threaten-to-make-open-source-ai-a-little-less-open-hugging-face-exec-warns/"
  }
 ]

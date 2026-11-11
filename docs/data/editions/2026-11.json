@@ -6219,6 +6219,97 @@
      "rank": 17,
      "id": "2026-11-10-ex-meta-engineer-claims-ai-written-code-makes-codebases-frag",
      "date": "2026-11-10"
+    },
+    {
+     "title": "Hugging Face exec warns cyberattacks could make open source AI less open",
+     "one_liner": "Hugging Face's Irene Solaiman warns that attacks on open AI platforms could push them toward tighter restrictions, though Hugging Face is trying to avoid that route.",
+     "summary": "Irene Solaiman, chief policy officer and SVP of strategy at Hugging Face, said on the Equity podcast that open AI platforms are valuable but also easier to attack. She pointed to the October attack on OpenCode, which targeted users' third-party API keys, and a summer breach of Hugging Face by an OpenAI agent swarm. Fireworks also disclosed that attackers accessed some customers' model weights, datasets and billing information. Hugging Face now rotates administrative access tokens more often and has stricter network controls. GitHub has tightened security requirements for publishing packages to the npm registry and revoked older authentication tokens.",
+     "eli5": "Imagine a playground where anyone can come and play. That is great, but sometimes a few kids cause trouble, and the grown-ups might add gates and rules. People hope to keep the playground open and still keep it safe.",
+     "why_it_matters": "Open AI platforms may add stricter identity checks, vetting or upload limits, so teams relying on open models and shared datasets should expect tighter access and rotate keys and tokens more often.",
+     "topic": "industry",
+     "type": "event",
+     "labs": [
+      "openai",
+      "microsoft",
+      "other"
+     ],
+     "people": [],
+     "concepts": [
+      "open-weight-model",
+      "ai-safety",
+      "dataset"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [
+      {
+       "term": "token rotation",
+       "definition": "Changing administrative access tokens more often, so a stolen token is useful for less time."
+      },
+      {
+       "term": "software supply chain security",
+       "definition": "Protecting the packages and publishing steps that open source projects rely on from malicious code injected to spread malware."
+      }
+     ],
+     "sources": [
+      {
+       "title": "Cyberattacks threaten to make open source AI a little less open, Hugging Face exec warns  | TechCrunch",
+       "url": "https://techcrunch.com/2026/11/10/cyberattacks-threaten-to-make-open-source-ai-a-little-less-open-hugging-face-exec-warns/",
+       "name": "TechCrunch AI",
+       "kind": "press"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-10T13:00:00Z",
+     "checked": {
+      "model": "anthropic:claude-sonnet-5-5",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "Added by the editor after the nightly run missed it.",
+     "added_by_editor": "2026-11-11",
+     "id": "2026-11-10-hugging-face-exec-warns-cyberattacks-could-make-open-source",
+     "date": "2026-11-10",
+     "rank": 18
+    },
+    {
+     "title": "Oura to acquire AI-native primary care startup Counsel Health for $625M",
+     "one_liner": "Oura announced it is acquiring Counsel Health, an AI-powered primary care company, for $625 million, weeks after postponing its IPO indefinitely.",
+     "summary": "Oura announced on Tuesday that it is acquiring Counsel Health for $625 million. Counsel offers a chat-based medical experience with access to licensed physicians, and it was integrated into the Oura app in June. The companies plan to build across preventative care, acute care, and specialty and chronic care. Counsel CEO Muthu Alagappan will become Oura's chief clinical AI officer, and Bloomberg reports the company's 70 employees will join too. Counsel will keep serving enterprise partners. The deal is expected to close before the end of 2027. Oura's revenue for the quarter ended September 30 was $533 million, up 153% year-over-year.",
+     "eli5": "Imagine your toy watch tells you how you slept, and now it also has a helper you can ask questions, with a real doctor ready when you need one. Oura is buying the company that makes that helper.",
+     "why_it_matters": "Medical AI that keeps physicians in the loop for clinical decisions is now attracting large acquisitions, and pairing it with wearable data is a pattern builders in health apps can expect more of.",
+     "topic": "industry",
+     "type": "event",
+     "labs": [
+      "other"
+     ],
+     "people": [],
+     "concepts": [
+      "chatbot"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "Oura to acquire AI-native primary care startup Counsel Health for $625M | TechCrunch",
+       "url": "https://techcrunch.com/2026/11/10/oura-to-acquire-ai-native-primary-care-startup-counsel-health-for-625m/",
+       "name": "TechCrunch AI",
+       "kind": "press"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-10T19:23:34Z",
+     "checked": {
+      "model": "anthropic:claude-sonnet-5-5",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "Added by the editor after the nightly run missed it.",
+     "added_by_editor": "2026-11-11",
+     "id": "2026-11-10-oura-to-acquire-ai-native-primary-care-startup-counsel-healt",
+     "date": "2026-11-10",
+     "rank": 19
     }
    ],
    "stats": {
@@ -6226,7 +6317,7 @@
     "stories": 30,
     "sources_ok": 42,
     "sources_failed": [],
-    "published": 18,
+    "published": 19,
     "dropped": 0,
     "llm_calls": 19,
     "cache_hits": 0,
@@ -6239,7 +6330,7 @@
   },
   "2026-11-11": {
    "date": "2026-11-11",
-   "generated_at": "2026-11-11T01:05:23Z",
+   "generated_at": "2026-11-11T13:03:54Z",
    "stories": [
     {
      "title": "Anthropic adds Sheets, Whiteboards and Interactive Connectors to Claude, with Meetings coming soon",
@@ -6331,6 +6422,95 @@
      "date": "2026-11-11"
     },
     {
+     "title": "NYT reports Amazon and Google own 25%+ of Anthropic as it prepares to IPO",
+     "one_liner": "The New York Times reports that Amazon and Google collectively own 25%+ of Anthropic, which is preparing to IPO, and their stakes could gain hundreds of billions in value.",
+     "summary": "Karen Weise of the New York Times reports that Anthropic is preparing to IPO. Amazon and Google are the largest investors in the A.I. start-up. Together they own 25%+ of the company. Amazon's $18B investment could reach $250B+ in value. Google's $33B investment could hit $140B. The report says their shares could gain hundreds of billions of dollars in value. The source is a Techmeme summary of the Times piece, dated November 11, 2026. It does not say when an IPO would happen or confirm that one will take place.",
+     "eli5": "Imagine two friends each paid for a big part of a lemonade stand. If the stand is later worth much more, their parts are worth much more too.",
+     "why_it_matters": "Anthropic's biggest backers hold 25%+ of the company, and a possible IPO could put a large value on those stakes.",
+     "topic": "industry",
+     "type": "event",
+     "labs": [
+      "anthropic",
+      "google",
+      "other"
+     ],
+     "people": [],
+     "concepts": [],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "As Anthropic prepares to IPO, Amazon and Google collectively own 25%+; Amazon's $18B investment could reach $250B+ in value and Google's $33B could hit $140B (Karen Weise/New York Times)",
+       "url": "https://www.techmeme.com/261111/p19#a261111p19",
+       "name": "Techmeme",
+       "kind": "press"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-11T12:05:51Z",
+     "checked": {
+      "model": "anthropic:claude-sonnet-5-5",
+      "rounds": 2,
+      "hype_flags": []
+     },
+     "editor_reason": "As Anthropic prepares to IPO, Amazon and Google together own more than 25 percent, which shows how tied the lab is to its cloud backers.",
+     "rank": 3,
+     "id": "2026-11-11-nyt-reports-amazon-and-google-own-25-of-anthropic-as-it-prep",
+     "date": "2026-11-11"
+    },
+    {
+     "title": "OpenAI Q3 revenue reportedly hits $10 billion, still behind Anthropic's $17 billion",
+     "one_liner": "Reports say OpenAI's Q3 revenue grew about 50 percent to $10 billion, but it posted a $10.9 billion adjusted operating loss and trails Anthropic.",
+     "summary": "The Wall Street Journal and The Information report that OpenAI grew revenue about 50 percent quarter over quarter in Q3 to $10 billion. Adjusted operating losses rose from $10.1 billion to $10.9 billion. Anthropic brought in $17 billion over the same period, with an operating loss of $567 million. OpenAI is cutting prices on new models, has put more resources into Codex, and hired Dali Rajic as head of sales. Greg Brockman said the enterprise business doubled in Q3. ChatGPT has 100 million paying subscribers.",
+     "eli5": "Imagine two lemonade stands. One sells more lemonade and spends much less to make it. The other is catching up fast, but it still spends more money than it earns.",
+     "why_it_matters": "Price cuts on new OpenAI models and a push into enterprise sales and Codex mean teams choosing between OpenAI and Anthropic APIs may see cheaper options.",
+     "topic": "industry",
+     "type": "event",
+     "labs": [
+      "openai",
+      "anthropic"
+     ],
+     "people": [],
+     "concepts": [
+      "coding-assistant"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "Enterprise sales push OpenAI's quarterly revenue to $10 billion, though it still trails Anthropic",
+       "url": "https://the-decoder.com/enterprise-sales-push-openais-quarterly-revenue-to-10-billion-though-it-still-trails-anthropic/",
+       "name": "The Decoder",
+       "kind": "press"
+      },
+      {
+       "title": "Leaked documents: OpenAI's adjusted operating margin improved from -150% to -109% from Q2 to Q3 (Berber Jin/Wall Street Journal)",
+       "url": "https://www.techmeme.com/261110/p56#a261110p56",
+       "name": "Techmeme",
+       "kind": "press"
+      },
+      {
+       "title": "Source: OpenAI told investors on Tuesday that its revenue jumped 50% to around $10B in Q3, up from 17% growth in Q2 (The Information)",
+       "url": "https://www.techmeme.com/261110/p51#a261110p51",
+       "name": "Techmeme",
+       "kind": "press"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-11T12:12:47Z",
+     "checked": {
+      "model": "anthropic:claude-sonnet-5-5",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "OpenAI's quarterly revenue grew 50 percent to $10 billion on enterprise sales, but adjusted operating losses reached $10.9 billion and it still trails Anthropic.",
+     "rank": 4,
+     "id": "2026-11-11-openai-q3-revenue-reportedly-hits-10-billion-still-behind-an",
+     "date": "2026-11-11"
+    },
+    {
      "title": "OpenAI launches Business Hub in ChatGPT for company profiles and agents",
      "one_liner": "OpenAI launched a beta Business Hub in ChatGPT where companies can verify profiles, track user interactions and, if eligible, launch a business agent.",
      "summary": "OpenAI rolled out a Business Hub in ChatGPT on Tuesday. Companies can create business profiles to verify and update information about their products and services. The feature is in beta. Eligible companies can also launch a business agent that lets ChatGPT users ask questions about the business and its products. The Hub gives limited insights, including profile views, business mentions and website clicks. Profiles must be verified, but OpenAI did not share specifics. The Decoder reports that Business Agents are for eligible US e-commerce providers. In March, OpenAI retired an earlier commission-based checkout effort.",
@@ -6371,95 +6551,8 @@
       "hype_flags": []
      },
      "editor_reason": "OpenAI adds a Business Hub and business profiles to ChatGPT, with agents that answer customer questions.",
-     "rank": 3,
-     "id": "2026-11-11-openai-launches-business-hub-in-chatgpt-for-company-profiles",
-     "date": "2026-11-11"
-    },
-    {
-     "title": "New York opens registration portal as RAISE Act AI safety law nears",
-     "one_liner": "New York opened a registration portal for large frontier AI developers like OpenAI and Anthropic, who must register by January 1, 2027 under the RAISE Act.",
-     "summary": "New York opened a registration portal Tuesday for large frontier AI developers, including Anthropic and OpenAI. They must register by January 1, 2027. The RAISE Act covers companies with more than $500 million in annual revenue. They must publish safety frameworks on their websites, report critical safety incidents within 72 hours, and issue public model transparency reports. A new office called DIGIT will implement the law. Penalties can reach $1 million for one violation and $3 million for later ones. Governor Kathy Hochul also launched the New York Center for AI Responsibility and Research at Binghamton University.",
-     "eli5": "Imagine a big playground where the biggest kids now have to sign in at the door and tell everyone their safety rules. If someone gets hurt, they must tell a grown-up quickly.",
-     "why_it_matters": "Large AI labs serving New York face fixed deadlines for registration, published safety frameworks and 72-hour incident reports, which may shape the compliance duties and disclosures that come with their models.",
-     "topic": "policy",
-     "type": "event",
-     "labs": [
-      "openai",
-      "anthropic",
-      "government",
-      "academia"
-     ],
-     "people": [],
-     "concepts": [
-      "ai-regulation",
-      "ai-safety",
-      "ai-governance"
-     ],
-     "spotlight": false,
-     "spotlight_reason": "",
-     "new_terms": [],
-     "sources": [
-      {
-       "title": "OpenAI, Anthropic face new oversight as New York’s AI safety law takes effect",
-       "url": "https://techcrunch.com/2026/11/10/openai-anthropic-face-new-oversight-as-new-yorks-ai-safety-law-takes-effect/",
-       "name": "TechCrunch AI",
-       "kind": "press"
-      }
-     ],
-     "buzz": 1,
-     "published": "2026-11-10T20:52:13Z",
-     "checked": {
-      "model": "anthropic:claude-sonnet-5-5",
-      "rounds": 1,
-      "hype_flags": []
-     },
-     "editor_reason": "New York's AI safety law takes effect, so OpenAI, Anthropic and other major developers must register and disclose safety practices.",
-     "rank": 4,
-     "id": "2026-11-11-new-york-opens-registration-portal-as-raise-act-ai-safety-la",
-     "date": "2026-11-11"
-    },
-    {
-     "title": "Report: Apple has a new Mac app coming to ease running local AI models",
-     "one_liner": "9to5mac reports Apple has a new Mac app coming that is meant to make running local AI models easy.",
-     "summary": "9to5mac reports that Apple has a new Mac app coming. The app is meant to make running local AI models easy. The story was also shared on Hacker News. The source text gives no other details. It does not say when the app will ship, what it is called, which models it supports, or which Macs it will run on. The same page also carries a separate headline saying iOS 27.2.1 has fixes for security issues in Messages, AirPlay, and more. The source text does not expand on that item either.",
-     "eli5": "Imagine a toy that is hard to set up. Now someone is making a simple box where you just press a button and the toy works on your own table.",
-     "why_it_matters": "A simple Apple-made way to run AI models locally on a Mac could lower the setup work for anyone who wants to test models on their own machine.",
-     "topic": "dev-tools",
-     "type": "product",
-     "labs": [
-      "other"
-     ],
-     "people": [],
-     "concepts": [
-      "inference"
-     ],
-     "spotlight": false,
-     "spotlight_reason": "",
-     "new_terms": [],
-     "sources": [
-      {
-       "title": "Apple has new Mac app coming to make running local AI models easy",
-       "url": "https://9to5mac.com/2026/11/10/apple-has-new-mac-app-coming-to-make-running-local-ai-models-easy/",
-       "name": "9to5mac.com",
-       "kind": "press"
-      },
-      {
-       "title": "Discussion on Hacker News",
-       "url": "https://news.ycombinator.com/item?id=50446520",
-       "name": "Hacker News",
-       "kind": "discussion"
-      }
-     ],
-     "buzz": 1,
-     "published": "2026-11-10T21:25:03Z",
-     "checked": {
-      "model": "anthropic:claude-sonnet-5-5",
-      "rounds": 1,
-      "hype_flags": []
-     },
-     "editor_reason": "Apple is reportedly building a Mac app to make running local AI models easy, and HN is discussing it (100 points).",
      "rank": 5,
-     "id": "2026-11-11-report-apple-has-a-new-mac-app-coming-to-ease-running-local",
+     "id": "2026-11-11-openai-launches-business-hub-in-chatgpt-for-company-profiles",
      "date": "2026-11-11"
     },
     {
@@ -6487,6 +6580,12 @@
        "title": "Grok Build coding agent leaks oodles of confidential info, some belonging to SpaceXSI",
        "url": "https://arstechnica.com/security/2026/11/grok-build-coding-agent-leaks-oodles-of-confidential-info-some-belonging-to-spacexsi/",
        "name": "Ars Technica AI",
+       "kind": "press"
+      },
+      {
+       "title": "Grok-built apps exposed patient data, plaintext passwords, and SpaceXSI's own sales pipeline",
+       "url": "https://the-decoder.com/grok-built-apps-exposed-patient-data-plaintext-passwords-and-spacexsis-own-sales-pipeline/",
+       "name": "The Decoder",
        "kind": "press"
       }
      ],
@@ -6552,45 +6651,265 @@
      "date": "2026-11-11"
     },
     {
-     "title": "Leaked documents reportedly show OpenAI's adjusted operating margin improved to -109% in Q3",
-     "one_liner": "Leaked documents reported by the Wall Street Journal say OpenAI's adjusted operating margin rose from -150% to -109% between Q2 and Q3.",
-     "summary": "The Wall Street Journal reports, citing leaked documents, that OpenAI's adjusted operating margin improved from -150% in the second quarter to -109% in the third quarter. The report says the company remains far off from profitability. It also says OpenAI grew revenue by roughly 50% to $10 billion from the second to the third quarter. The Information, citing a source, reports that OpenAI told investors on Tuesday that revenue jumped nearly 50% to $10 billion in Q3. That compares with 17% growth in Q2. The Information says growth rebounded from a period of slower growth. These figures come from leaks and sources, not from an official company release.",
-     "eli5": "Imagine a lemonade stand that sold a lot more cups this month. It still spends much more than it earns, so it is not making money yet, but the gap got smaller.",
-     "why_it_matters": "Reported figures show OpenAI is still far from profitable even as revenue grows, which is a useful signal for teams judging how stable a vendor's finances are.",
-     "topic": "industry",
+     "title": "Point72's Cubist alleges fired analyst used Claude and Codex to steal code",
+     "one_liner": "Point72's quant unit Cubist alleges in a lawsuit that a fired lead research analyst used Claude and Codex to steal source code before joining a competitor.",
+     "summary": "Bloomberg reports on a lawsuit filing by Cubist, the quantitative trading unit of Point72 Asset Management. Cubist claims a former lead research analyst, who was fired, used Anthropic's Claude and OpenAI's Codex to steal source code. The suit says this happened before the analyst left for a competitor. These are allegations from the filing. The source text does not say how the tools were used, what code was taken, or how the analyst or the competitor responded.",
+     "eli5": "Imagine a kid who copies a classmate's secret drawings using a helpful robot before switching to another school. The classmate's team says this happened, but nobody has proved it yet.",
+     "why_it_matters": "AI coding tools can show up in legal claims over stolen code, so teams may want clear rules on how staff use them with sensitive source code.",
+     "topic": "policy",
      "type": "event",
      "labs": [
-      "openai"
+      "anthropic",
+      "openai",
+      "other"
      ],
      "people": [],
-     "concepts": [],
+     "concepts": [
+      "coding-assistant"
+     ],
      "spotlight": false,
      "spotlight_reason": "",
      "new_terms": [],
      "sources": [
       {
-       "title": "Leaked documents: OpenAI's adjusted operating margin improved from -150% to -109% from Q2 to Q3 (Berber Jin/Wall Street Journal)",
-       "url": "https://www.techmeme.com/261110/p56#a261110p56",
-       "name": "Techmeme",
-       "kind": "press"
-      },
-      {
-       "title": "Source: OpenAI told investors on Tuesday that its revenue jumped 50% to around $10B in Q3, up from 17% growth in Q2 (The Information)",
-       "url": "https://www.techmeme.com/261110/p51#a261110p51",
+       "title": "Lawsuit filing: Point72's quant unit Cubist claims its fired lead research analyst used Claude and Codex to steal source code before leaving for a competitor (Bloomberg)",
+       "url": "https://www.techmeme.com/261110/p48#a261110p48",
        "name": "Techmeme",
        "kind": "press"
       }
      ],
      "buzz": 1,
-     "published": "2026-11-10T21:22:07Z",
+     "published": "2026-11-10T20:05:01Z",
      "checked": {
       "model": "anthropic:claude-sonnet-5-5",
       "rounds": 1,
       "hype_flags": []
      },
-     "editor_reason": "Leaked documents and investor briefings show OpenAI's Q3 revenue up 50% to about $10B while its adjusted operating margin remains deeply negative.",
+     "editor_reason": "A lawsuit alleges an analyst used Claude and Codex to steal source code, raising legal questions about AI coding tools and data exfiltration.",
      "rank": 8,
-     "id": "2026-11-11-leaked-documents-reportedly-show-openai-s-adjusted-operating",
+     "id": "2026-11-11-point72-s-cubist-alleges-fired-analyst-used-claude-and-codex",
+     "date": "2026-11-11"
+    },
+    {
+     "title": "New York opens registration portal as RAISE Act AI safety law nears",
+     "one_liner": "New York opened a registration portal for large frontier AI developers like OpenAI and Anthropic, who must register by January 1, 2027 under the RAISE Act.",
+     "summary": "New York opened a registration portal Tuesday for large frontier AI developers, including Anthropic and OpenAI. They must register by January 1, 2027. The RAISE Act covers companies with more than $500 million in annual revenue. They must publish safety frameworks on their websites, report critical safety incidents within 72 hours, and issue public model transparency reports. A new office called DIGIT will implement the law. Penalties can reach $1 million for one violation and $3 million for later ones. Governor Kathy Hochul also launched the New York Center for AI Responsibility and Research at Binghamton University.",
+     "eli5": "Imagine a big playground where the biggest kids now have to sign in at the door and tell everyone their safety rules. If someone gets hurt, they must tell a grown-up quickly.",
+     "why_it_matters": "Large AI labs serving New York face fixed deadlines for registration, published safety frameworks and 72-hour incident reports, which may shape the compliance duties and disclosures that come with their models.",
+     "topic": "policy",
+     "type": "event",
+     "labs": [
+      "openai",
+      "anthropic",
+      "government",
+      "academia"
+     ],
+     "people": [],
+     "concepts": [
+      "ai-regulation",
+      "ai-safety",
+      "ai-governance"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "OpenAI, Anthropic face new oversight as New York’s AI safety law takes effect",
+       "url": "https://techcrunch.com/2026/11/10/openai-anthropic-face-new-oversight-as-new-yorks-ai-safety-law-takes-effect/",
+       "name": "TechCrunch AI",
+       "kind": "press"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-10T20:52:13Z",
+     "checked": {
+      "model": "anthropic:claude-sonnet-5-5",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "New York's AI safety law takes effect, so OpenAI, Anthropic and other major developers must register and disclose safety practices.",
+     "rank": 9,
+     "id": "2026-11-11-new-york-opens-registration-portal-as-raise-act-ai-safety-la",
+     "date": "2026-11-11"
+    },
+    {
+     "title": "England's university regulator says AI makes coursework grading \"close to impossible\"",
+     "one_liner": "The Office for Students, England's university regulator, says AI makes grading coursework \"close to impossible\" and recommends a return to \"AI-free assessment\" such as written exams.",
+     "summary": "England's university regulator, the Office for Students, says AI has made it \"close to impossible\" to grade coursework. It recommends that institutions in England return to traditional exams and in-person presentations, which it calls \"AI-free assessment\". The Guardian reported the story. The Decoder adds that an investigation found students having ChatGPT write entire papers undetected, without being able to recall basic content afterward. The Decoder also reports that universities face sanctions if they do not adopt AI-proof exam formats. The stated aim is to protect the credibility of degrees.",
+     "eli5": "Imagine a teacher can't tell if you did your homework or if a robot did it for you. So the teacher says, \"Let's do the test in the classroom, where I can watch.\"",
+     "why_it_matters": "The Office for Students' push for AI-free exams in England shows that regulators may treat AI-written coursework as a problem for degree credibility, which matters to anyone building AI writing tools used by students.",
+     "topic": "policy",
+     "type": "event",
+     "labs": [
+      "government"
+     ],
+     "people": [],
+     "concepts": [
+      "ai-regulation",
+      "chatbot"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [
+      {
+       "term": "AI-free assessment",
+       "definition": "Assessment methods such as written exams and in-person presentations that do not allow AI to produce the student's work."
+      }
+     ],
+     "sources": [
+      {
+       "title": "England's university regulator says AI makes grading coursework \"close to impossible\" and recommends a return to \"AI-free assessment\" methods like written exams (Richard Adams/The Guardian)",
+       "url": "https://www.techmeme.com/261111/p10#a261111p10",
+       "name": "Techmeme",
+       "kind": "press"
+      },
+      {
+       "title": "UK regulator threatens universities with sanctions unless they adopt AI-proof exam formats",
+       "url": "https://the-decoder.com/uk-regulator-threatens-universities-with-sanctions-unless-they-adopt-ai-proof-exam-formats/",
+       "name": "The Decoder",
+       "kind": "press"
+      }
+     ],
+     "buzz": 2,
+     "published": "2026-11-11T10:38:23Z",
+     "checked": {
+      "model": "anthropic:claude-sonnet-5-5",
+      "rounds": 2,
+      "hype_flags": []
+     },
+     "editor_reason": "England's university regulator says AI makes grading coursework close to impossible and wants AI-proof assessment formats, a notable policy move on AI in education.",
+     "rank": 10,
+     "id": "2026-11-11-england-s-university-regulator-says-ai-makes-coursework-grad",
+     "date": "2026-11-11"
+    },
+    {
+     "title": "Report: Apple has a new Mac app coming to ease running local AI models",
+     "one_liner": "9to5mac reports Apple has a new Mac app coming that is meant to make running local AI models easy.",
+     "summary": "9to5mac reports that Apple has a new Mac app coming. The app is meant to make running local AI models easy. The story was also shared on Hacker News. The source text gives no other details. It does not say when the app will ship, what it is called, which models it supports, or which Macs it will run on. The same page also carries a separate headline saying iOS 27.2.1 has fixes for security issues in Messages, AirPlay, and more. The source text does not expand on that item either.",
+     "eli5": "Imagine a toy that is hard to set up. Now someone is making a simple box where you just press a button and the toy works on your own table.",
+     "why_it_matters": "A simple Apple-made way to run AI models locally on a Mac could lower the setup work for anyone who wants to test models on their own machine.",
+     "topic": "dev-tools",
+     "type": "product",
+     "labs": [
+      "other"
+     ],
+     "people": [],
+     "concepts": [
+      "inference"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "Apple has new Mac app coming to make running local AI models easy",
+       "url": "https://9to5mac.com/2026/11/10/apple-has-new-mac-app-coming-to-make-running-local-ai-models-easy/",
+       "name": "9to5mac.com",
+       "kind": "press"
+      },
+      {
+       "title": "Discussion on Hacker News",
+       "url": "https://news.ycombinator.com/item?id=50446520",
+       "name": "Hacker News",
+       "kind": "discussion"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-10T21:25:03Z",
+     "checked": {
+      "model": "anthropic:claude-sonnet-5-5",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "Apple is reportedly building a Mac app to make running local AI models easy, and HN is discussing it (100 points).",
+     "rank": 11,
+     "id": "2026-11-11-report-apple-has-a-new-mac-app-coming-to-ease-running-local",
+     "date": "2026-11-11"
+    },
+    {
+     "title": "Kimi K3.1 Pro Highspeed from Moonshot AI now available on Amazon Bedrock",
+     "one_liner": "Moonshot AI's Kimi K3.1 Pro Highspeed is now on Amazon Bedrock, with Moonshot AI reporting 2–3 times the speed of Kimi K3.1 Pro.",
+     "summary": "Kimi K3.1 Pro Highspeed from Moonshot AI is now on Amazon Bedrock. It is a post-trained version of Kimi K3 with the same 3T-class open-weight architecture and 1-million-token context window. Moonshot AI says the extra post-training targets long-horizon agentic work and fewer factual errors. Moonshot AI also reports 2–3 times the speed of Kimi K3.1 Pro. It uses the same endpoint, APIs and features as Kimi K3, so existing Kimi K3 users can try it by changing the model ID. It supports tool calling, structured output, configurable reasoning, image input and streaming. The Flex tier costs half the Standard price.",
+     "eli5": "Imagine a smart helper who studied extra hard after finishing school, and now also works faster. You can swap them in for your old helper just by calling a new name.",
+     "why_it_matters": "Teams already using Kimi K3 on Bedrock can switch by changing one model ID, and can cut costs on non-urgent work with the Flex tier at half the Standard price.",
+     "topic": "models",
+     "type": "model",
+     "labs": [
+      "other"
+     ],
+     "people": [],
+     "concepts": [
+      "open-weight-model",
+      "context-window",
+      "reasoning-model"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "Introducing Kimi K3.1 Pro on Amazon Bedrock",
+       "url": "https://aws.amazon.com/blogs/machine-learning/introducing-kimi-k3-1-pro-on-amazon-bedrock/",
+       "name": "AWS Machine Learning Blog",
+       "kind": "original"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-11T01:07:19Z",
+     "checked": {
+      "model": "anthropic:claude-sonnet-5-5",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "Moonshot AI's Kimi K3.1 Pro Highspeed is now available on Amazon Bedrock, giving builders a new hosted model option.",
+     "rank": 12,
+     "id": "2026-11-11-kimi-k3-1-pro-highspeed-from-moonshot-ai-now-available-on-am",
+     "date": "2026-11-11"
+    },
+    {
+     "title": "AWS details agent evaluation options in Amazon Bedrock AgentCore Evaluations",
+     "one_liner": "AWS explains how to evaluate production agents on Amazon Bedrock AgentCore using built-in, DeepEval and AutoEval evaluators, starting from business outcomes rather than metric names.",
+     "summary": "An AWS Machine Learning Blog post lays out how to evaluate agents on Amazon Bedrock AgentCore. It says teams should define success in business terms, break it into observable behaviors, and map each behavior to an evaluator at trace or session level. AgentCore offers three evaluator sources. Built-in evaluators are authored and quality-tested by AWS, referenced by ID such as Builtin.GoalSuccessRate. Third-party managed evaluators come from DeepEval and AutoEval, with AgentCore hosting the code and running inference. Custom evaluators start from a built-in or third-party one, so you can swap in your own model and change the prompt or rubric.",
+     "eli5": "Checking an AI helper is like checking a kid's homework. You don't just see that they finished. You check each part, like whether they got the answers right and followed the steps.",
+     "why_it_matters": "Teams running agents in production can score task completion, tool use and safety separately, so a high score on one measure cannot hide a failure on another.",
+     "topic": "agents",
+     "type": "product",
+     "labs": [
+      "other"
+     ],
+     "people": [],
+     "concepts": [
+      "agent",
+      "benchmark",
+      "tool-use"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [
+      {
+       "term": "trajectory evaluation",
+       "definition": "A check that compares the agent's actual tool path against the path you expected, for cases where how the agent got there matters as much as what it produced."
+      }
+     ],
+     "sources": [
+      {
+       "title": "The agent evaluation playbook: Built-in, DeepEval, and AutoEval on Amazon Bedrock AgentCore Evaluations",
+       "url": "https://aws.amazon.com/blogs/machine-learning/the-agent-evaluation-playbook-built-in-deepeval-and-autoeval-on-agentcore/",
+       "name": "AWS Machine Learning Blog",
+       "kind": "original"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-10T22:35:03Z",
+     "checked": {
+      "model": "anthropic:claude-sonnet-5-5",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "AWS lays out how to evaluate production agents using built-in, DeepEval and AutoEval options on Bedrock AgentCore.",
+     "rank": 13,
+     "id": "2026-11-11-aws-details-agent-evaluation-options-in-amazon-bedrock-agent",
      "date": "2026-11-11"
     },
     {
@@ -6638,23 +6957,61 @@
       "hype_flags": []
      },
      "editor_reason": "Nvidia's GR00T 2 learns robot tasks from human video, which could reduce the need for teleoperation.",
-     "rank": 9,
+     "rank": 14,
      "id": "2026-11-11-nvidia-s-gr00t-2-learns-robot-tasks-from-human-videos-with-m",
      "date": "2026-11-11"
     },
     {
-     "title": "Point72's Cubist alleges fired analyst used Claude and Codex to steal code",
-     "one_liner": "Point72's quant unit Cubist alleges in a lawsuit that a fired lead research analyst used Claude and Codex to steal source code before joining a competitor.",
-     "summary": "Bloomberg reports on a lawsuit filing by Cubist, the quantitative trading unit of Point72 Asset Management. Cubist claims a former lead research analyst, who was fired, used Anthropic's Claude and OpenAI's Codex to steal source code. The suit says this happened before the analyst left for a competitor. These are allegations from the filing. The source text does not say how the tools were used, what code was taken, or how the analyst or the competitor responded.",
-     "eli5": "Imagine a kid who copies a classmate's secret drawings using a helpful robot before switching to another school. The classmate's team says this happened, but nobody has proved it yet.",
-     "why_it_matters": "AI coding tools can show up in legal claims over stolen code, so teams may want clear rules on how staff use them with sensitive source code.",
-     "topic": "policy",
+     "title": "OpenAI workshop shows Codex cloud handoff, voice control and personal agents",
+     "one_liner": "At the AI Engineer Code Summit, OpenAI engineers showed how Codex now blends local and cloud work, uses voice, and pairs with personal agents called dots.",
+     "summary": "OpenAI hosted a workshop called \"New Ways of Working with Codex\" at the AI Engineer Code Summit. Developer Experience engineers Dominik Kundel and Charlie Guo led it. Codex launched in May 2025 as a cloud-based agent for parallel tasks. Codex Cloud version 2 was announced after DevDay in late September. You publish an environment once and run multiple tasks in isolated instances. Kundel said local and cloud Codex are \"merging together\" and that he asks Codex to push a branch and start a cloud thread. Guo uses voice as a control plane. He said dots feel a little awkward to work with as a Codex power user.",
+     "eli5": "Think of a helper who can work at your desk or in another room, and you can talk to them or write notes. The workshop showed how to switch between these ways of working.",
+     "why_it_matters": "Moving a task between local and cloud Codex, and steering it by voice, may reduce friction in daily coding, though OpenAI says the cloud handoff still needs to get easier.",
+     "topic": "dev-tools",
      "type": "event",
      "labs": [
-      "anthropic",
       "openai",
-      "other"
+      "anthropic",
+      "google"
      ],
+     "people": [],
+     "concepts": [
+      "coding-assistant",
+      "agent",
+      "personal-agent"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "AI Engineer Code Summit: OpenAI on New Ways of Working With Codex",
+       "url": "https://latent.space/p/codex-work/",
+       "name": "Latent Space (AINews)",
+       "kind": "press"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-11T04:49:48Z",
+     "checked": {
+      "model": "anthropic:claude-sonnet-5-5",
+      "rounds": 2,
+      "hype_flags": []
+     },
+     "editor_reason": "OpenAI presented new ways of working with Codex at the AI Engineer Code Summit, which points to how engineering work is changing.",
+     "rank": 15,
+     "id": "2026-11-11-openai-workshop-shows-codex-cloud-handoff-voice-control-and",
+     "date": "2026-11-11"
+    },
+    {
+     "title": "Immich listed on site tracking open source projects banning AI-generated contributions",
+     "one_liner": "A site called osssaysno.com lists open source projects that ban AI-generated contributions, and it includes the immich-app/immich photo and video project under policy.",
+     "summary": "A page on osssaysno.com is titled \"OSS projects banning AI-generated contributions\". It was shared on Hacker News under the same title. One entry in the list is immich-app/immich, described as a high performance self-hosted photo and video management solution. The entry is marked as Policy. The source text does not give the wording of the policy, the date it was set, or the reasons behind it. It also does not say how many other projects are on the list or which ones they are.",
+     "eli5": "Imagine a club that has a rule: you can only add to the group drawing if you drew your part yourself, not if a machine drew it for you. Some software projects have a rule a bit like that.",
+     "why_it_matters": "Open source maintainers are setting written rules on AI-generated contributions, so anyone sending AI-assisted code to a project needs to check its policy first.",
+     "topic": "policy",
+     "type": "event",
+     "labs": [],
      "people": [],
      "concepts": [
       "coding-assistant"
@@ -6664,84 +7021,123 @@
      "new_terms": [],
      "sources": [
       {
-       "title": "Lawsuit filing: Point72's quant unit Cubist claims its fired lead research analyst used Claude and Codex to steal source code before leaving for a competitor (Bloomberg)",
-       "url": "https://www.techmeme.com/261110/p48#a261110p48",
-       "name": "Techmeme",
+       "title": "OSS projects banning AI-generated contributions",
+       "url": "https://osssaysno.com",
+       "name": "osssaysno.com",
        "kind": "press"
+      },
+      {
+       "title": "Discussion on Hacker News",
+       "url": "https://news.ycombinator.com/item?id=50451102",
+       "name": "Hacker News",
+       "kind": "discussion"
       }
      ],
      "buzz": 1,
-     "published": "2026-11-10T20:05:01Z",
+     "published": "2026-11-11T08:51:45Z",
      "checked": {
       "model": "anthropic:claude-sonnet-5-5",
       "rounds": 1,
       "hype_flags": []
      },
-     "editor_reason": "A lawsuit alleges an analyst used Claude and Codex to steal source code, raising legal questions about AI coding tools and data exfiltration.",
-     "rank": 10,
-     "id": "2026-11-11-point72-s-cubist-alleges-fired-analyst-used-claude-and-codex",
+     "editor_reason": "Open source projects banning AI-generated contributions drew 87 comments on Hacker News, and it affects how maintainers and contributors work.",
+     "rank": 16,
+     "id": "2026-11-11-immich-listed-on-site-tracking-open-source-projects-banning",
      "date": "2026-11-11"
     },
     {
-     "title": "AWS details agent evaluation options in Amazon Bedrock AgentCore Evaluations",
-     "one_liner": "AWS explains how to evaluate production agents on Amazon Bedrock AgentCore using built-in, DeepEval and AutoEval evaluators, starting from business outcomes rather than metric names.",
-     "summary": "An AWS Machine Learning Blog post lays out how to evaluate agents on Amazon Bedrock AgentCore. It says teams should define success in business terms, break it into observable behaviors, and map each behavior to an evaluator at trace or session level. AgentCore offers three evaluator sources. Built-in evaluators are authored and quality-tested by AWS, referenced by ID such as Builtin.GoalSuccessRate. Third-party managed evaluators come from DeepEval and AutoEval, with AgentCore hosting the code and running inference. Custom evaluators start from a built-in or third-party one, so you can swap in your own model and change the prompt or rubric.",
-     "eli5": "Checking an AI helper is like checking a kid's homework. You don't just see that they finished. You check each part, like whether they got the answers right and followed the steps.",
-     "why_it_matters": "Teams running agents in production can score task completion, tool use and safety separately, so a high score on one measure cannot hide a failure on another.",
-     "topic": "agents",
+     "title": "OneLake external-location support for Azure Databricks Unity Catalog reaches GA in Fabric",
+     "one_liner": "Supported Unity Catalog-managed data can now be stored directly in OneLake, generally available in Fabric and in preview on the Azure Databricks side.",
+     "summary": "Microsoft says OneLake external-location support for Azure Databricks Unity Catalog is now generally available in Microsoft Fabric. OneLake Security is enabled by default for Azure Databricks Storage items. On the Azure Databricks side, the feature is in preview. Supported Unity Catalog-managed data can be stored directly in OneLake. Azure Databricks keeps providing compute and Unity Catalog management. OneLake provides the storage destination and Fabric-side data-access controls. Microsoft says this can reduce data copies, synchronization pipelines and separate access management across storage locations. The release builds on an earlier Beta announcement.",
+     "eli5": "Imagine two friends who each kept their toys in separate boxes and had to copy toys back and forth. Now they share one toy box, so nobody needs copies.",
+     "why_it_matters": "Teams running both Azure Databricks and Fabric can keep one copy of data in OneLake, which cuts sync pipelines and splits of access control across storage locations.",
+     "topic": "data-bi",
      "type": "product",
      "labs": [
-      "other"
+      "microsoft"
      ],
      "people": [],
      "concepts": [
-      "agent",
-      "benchmark",
-      "tool-use"
+      "onelake",
+      "microsoft-fabric"
      ],
      "spotlight": false,
      "spotlight_reason": "",
-     "new_terms": [
-      {
-       "term": "trajectory evaluation",
-       "definition": "A check that compares the agent's actual tool path against the path you expected, for cases where how the agent got there matters as much as what it produced."
-      }
-     ],
+     "new_terms": [],
      "sources": [
       {
-       "title": "The agent evaluation playbook: Built-in, DeepEval, and AutoEval on Amazon Bedrock AgentCore Evaluations",
-       "url": "https://aws.amazon.com/blogs/machine-learning/the-agent-evaluation-playbook-built-in-deepeval-and-autoeval-on-agentcore/",
-       "name": "AWS Machine Learning Blog",
+       "title": "Use OneLake as native storage for Azure Databricks (Preview)",
+       "url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Use-OneLake-as-native-storage-for-Azure-Databricks-Preview/ba-p/5377939",
+       "name": "Microsoft Fabric Blog",
        "kind": "original"
       }
      ],
      "buzz": 1,
-     "published": "2026-11-10T22:35:03Z",
+     "published": "2026-11-11T12:13:55Z",
      "checked": {
       "model": "anthropic:claude-sonnet-5-5",
       "rounds": 1,
       "hype_flags": []
      },
-     "editor_reason": "AWS lays out how to evaluate production agents using built-in, DeepEval and AutoEval options on Bedrock AgentCore.",
-     "rank": 11,
-     "id": "2026-11-11-aws-details-agent-evaluation-options-in-amazon-bedrock-agent",
+     "editor_reason": "OneLake can now serve as native storage for Azure Databricks in preview, which matters for teams using Fabric and Databricks together.",
+     "rank": 17,
+     "id": "2026-11-11-onelake-external-location-support-for-azure-databricks-unity",
      "date": "2026-11-11"
+    },
+    {
+     "title": "VulnCheck report: Project Glasswing findings outpace fixes after seven months",
+     "one_liner": "VulnCheck says Anthropic's Project Glasswing has 37,966 findings but only 217 marked fixed, and just 2 of 442 tracked CVEs were exploited.",
+     "summary": "VulnCheck's Patrick Garrity reports on Project Glasswing seven months in. He has tracked 442 CVEs attributable to Anthropic, about 0.5% of the 93,450 CVEs published this year. Only 2 were exploited in the wild. Anthropic's ledger lists 37,966 findings, with 7,349 (19.4%) made public and 217 marked fixed. About 1,654 are duplicates and 419 are withdrawn. Since September, nearly 12,000 findings were added and 15 more fixes recorded. Anthropic's claimed true positive rate rose from 90.8% to 94.2%, which VulnCheck questions.",
+     "eli5": "Imagine a helper who finds thousands of broken toys but only a few get fixed, and some toys were reported twice. The people fixing toys end up with a huge pile to check.",
+     "why_it_matters": "AI bug finders can produce far more reports than maintainers can check, so teams that receive them need to plan for triage, duplicates and invalid findings.",
+     "topic": "industry",
+     "type": "event",
+     "labs": [
+      "anthropic"
+     ],
+     "people": [],
+     "concepts": [
+      "ai-safety"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "After 7-months, Glasswing Overwelms Maintainers with Underwhelming Findings  | Blog | VulnCheck",
+       "url": "https://www.vulncheck.com/blog/anthropic-glasswing-november-update",
+       "name": "VulnCheck",
+       "kind": "press"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-11T13:03:54Z",
+     "checked": {
+      "model": "anthropic:claude-sonnet-5-5",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "Added by the editor after the nightly run missed it.",
+     "added_by_editor": "2026-11-11",
+     "id": "2026-11-11-vulncheck-report-project-glasswing-findings-outpace-fixes-af",
+     "date": "2026-11-11",
+     "rank": 18
     }
    ],
    "stats": {
-    "items": 33,
-    "stories": 33,
+    "items": 25,
+    "stories": 25,
     "sources_ok": 42,
     "sources_failed": [],
-    "published": 12,
+    "published": 21,
     "dropped": 0,
-    "llm_calls": 25,
+    "llm_calls": 23,
     "cache_hits": 0,
     "models": {
-     "anthropic:claude-sonnet-5-5": 25
+     "anthropic:claude-sonnet-5-5": 23
     },
     "fallbacks": [],
-    "seconds": 115
+    "seconds": 136
    }
   }
  }

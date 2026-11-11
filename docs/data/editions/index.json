@@ -3,14 +3,14 @@
   {
    "date": "2026-11-11",
    "file": "2026-11.json",
-   "count": 11,
+   "count": 18,
    "spotlight": 0,
    "lead": "Anthropic adds Sheets, Whiteboards and Interactive Connectors to Claude, with Meetings coming soon"
   },
   {
    "date": "2026-11-10",
    "file": "2026-11.json",
-   "count": 17,
+   "count": 19,
    "spotlight": 2,
    "lead": "Anthropic releases Claude Fable 5.2 and Mythos 5.2: up to 30% faster than 5.1, with an optional fast mode"
   },
@@ -247,5 +247,5 @@
   }
  ],
  "latest": "2026-11-11",
- "updated": "2026-11-11T01:05:16Z"
+ "updated": "2026-11-11T13:02:39Z"
 }
