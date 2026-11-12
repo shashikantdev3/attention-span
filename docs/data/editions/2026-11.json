@@ -7518,8 +7518,52 @@
   },
   "2026-11-12": {
    "date": "2026-11-12",
-   "generated_at": "2026-11-12T05:44:30Z",
+   "generated_at": "2026-11-12T13:07:13Z",
    "stories": [
+    {
+     "title": "Anthropic Announces Initial Public Offering Timeline and Financial Highlights",
+     "one_liner": "Anthropic announced its initial public offering timeline, offering Class A common stock on Nasdaq under the ticker symbol ANT.",
+     "summary": "Anthropic announced details for its initial public offering of Class A common stock on Nasdaq under the ticker symbol ANT. The roadshow starts on November 10th. Subject to regulatory clearance, the final share price is expected to be set on November 18th, and trading is expected to begin on November 19th. As of September 30, 2026, the company reported $17.0 billion in revenue, over 11,900 customers with at least $100K trailing twelve month revenue, and a net loss of $23.3 billion driven largely by a non-cash charge related to convertible notes, derivative liabilities, and SAFEs.",
+     "eli5": "Anthropic is selling pieces of its company to the public for the first time, much like a lemonade stand selling shares to neighbors so they can own a tiny part of the business.",
+     "why_it_matters": "Public market listing provides new financial backing and valuation metrics for one of the primary frontier AI lab developers.",
+     "topic": "industry",
+     "type": "event",
+     "labs": [
+      "anthropic"
+     ],
+     "people": [],
+     "concepts": [
+      "ai-safety"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "Anthropic IPO",
+       "url": "https://ipo.anthropic.com/us/",
+       "name": "ipo.anthropic.com",
+       "kind": "original"
+      },
+      {
+       "title": "Discussion on Hacker News",
+       "url": "https://news.ycombinator.com/item?id=50465829",
+       "name": "Hacker News",
+       "kind": "discussion"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-12T11:46:41Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "Anthropic is preparing for an initial public offering, marking a major financial milestone for top AI labs.",
+     "rank": 1,
+     "id": "2026-11-12-anthropic-announces-initial-public-offering-timeline-and-fin",
+     "date": "2026-11-12"
+    },
     {
      "title": "United Airlines Bans AI Agents From Booking Flights",
      "one_liner": "United Airlines banned personal artificial intelligence agents from booking flights, citing security risks, privacy concerns, and potential federal rule violations.",
@@ -7569,7 +7613,7 @@
       "hype_flags": []
      },
      "editor_reason": "United Airlines has banned personal AI agents from booking flights on behalf of travelers, citing privacy and regulatory concerns.",
-     "rank": 1,
+     "rank": 2,
      "id": "2026-11-12-united-airlines-bans-ai-agents-from-booking-flights",
      "date": "2026-11-12"
     },
@@ -7615,7 +7659,7 @@
       "hype_flags": []
      },
      "editor_reason": "Azure Content Understanding added support for the GPT-5.6, GPT-6, and GPT-6.1 model families across document and speech workflows.",
-     "rank": 2,
+     "rank": 3,
      "id": "2026-11-12-azure-content-understanding-adds-gpt-5-6-gpt-6-and-gpt-6-1-m",
      "date": "2026-11-12"
     },
@@ -7664,7 +7708,7 @@
       "hype_flags": []
      },
      "editor_reason": "Huawei open-sourced MACaQ, its internal model quantizer aimed at optimizing local LLM inference.",
-     "rank": 3,
+     "rank": 4,
      "id": "2026-11-12-huawei-releases-macaq-internal-quantizer-for-local-inference",
      "date": "2026-11-12"
     },
@@ -7701,7 +7745,7 @@
       "hype_flags": []
      },
      "editor_reason": "AWS introduced a Web Search API for Bedrock AgentCore to let autonomous agents query real-time external data.",
-     "rank": 4,
+     "rank": 5,
      "id": "2026-11-12-amazon-announces-web-search-api-on-amazon-bedrock-agentcore",
      "date": "2026-11-12"
     },
@@ -7750,46 +7794,163 @@
       "hype_flags": []
      },
      "editor_reason": "AWS added support for OpenAI Codex inside Amazon Bedrock for software engineering workloads.",
-     "rank": 5,
+     "rank": 6,
      "id": "2026-11-12-using-openai-codex-on-amazon-bedrock-with-existing-aws-pract",
+     "date": "2026-11-12"
+    },
+    {
+     "title": "Report Looks at Potential Nvidia CEO Candidates",
+     "one_liner": "A Bloomberg report looks at potential candidates to replace Nvidia Chief Executive Officer Jensen Huang.",
+     "summary": "Nvidia Corporation is searching for a replacement for Chief Executive Officer Jensen Huang. Bloomberg published a look at potential candidates for the role at the world's most valuable chipmaker. The candidates mentioned include CFO Colette Kress, CUDA inventor Ian Buck, Arm CEO Rene Haas, and Apple Chief Hardware Officer Johny Srouji.",
+     "eli5": "Just like a popular captain of a ship might one day retire, a famous company is looking at different leaders who could take over the job.",
+     "why_it_matters": "Leadership changes at the world's most valuable chipmaker can alter hardware roadmaps and supply chains for builders relying on advanced accelerators.",
+     "topic": "industry",
+     "type": "event",
+     "labs": [
+      "nvidia"
+     ],
+     "people": [],
+     "concepts": [
+      "gpu"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "A look at potential Nvidia CEO candidates, including CFO Colette Kress, CUDA inventor Ian Buck, Arm CEO Rene Haas, and Apple Chief Hardware Officer Johny Srouji (Bloomberg)",
+       "url": "https://www.techmeme.com/261112/p14#a261112p14",
+       "name": "Techmeme",
+       "kind": "press"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-12T11:00:31Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "Reports outlined potential internal and external candidates to eventually succeed Nvidia CEO Jensen Huang.",
+     "rank": 7,
+     "id": "2026-11-12-report-looks-at-potential-nvidia-ceo-candidates",
+     "date": "2026-11-12"
+    },
+    {
+     "title": "Report: Jev used for rapid document ranking and UI prediction",
+     "one_liner": "At the AI Engineer Code Summit, Jev powered fast document chunk ranking and a time-off UI filler.",
+     "summary": "The AI Engineer Code Summit highlighted system one models, non‑generative models that return structured choices, scores, or probabilities and are faster and cheaper than reasoning LLMs. Diogo Almeida, co‑founder and CEO of TypeSafe AI, introduced Jev, released in September, as \"reliable intelligence\" for automating tasks. Glean uses Jev for zero‑shot flexibility without fine‑tuning. UiPath demonstrated a Jev tournament that ranked document chunks in under a second, even with thousands of calls. Workday showed a prototype where Jev pre‑fills a time‑off card while the user types.",
+     "eli5": "Imagine a quick helper that can pick the best pieces of a puzzle or finish filling out a form while you are still writing.",
+     "why_it_matters": "It shows that lightweight, fast models can handle real‑time decisions, reducing reliance on slower generative LLMs.",
+     "topic": "dev-tools",
+     "type": "event",
+     "labs": [],
+     "people": [],
+     "concepts": [
+      "system-1-system-2",
+      "discriminative-model",
+      "structured-outputs"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [
+      {
+       "term": "fast model call",
+       "definition": "A fast model call can change what the software itself does."
+      },
+      {
+       "term": "building block",
+       "definition": "Jev is a building block that can be adjusted and combined with strategies to get more intelligent outcomes."
+      }
+     ],
+     "sources": [
+      {
+       "title": "The Jev Revolution: What Engineers Are Already Building with System One Models",
+       "url": "https://latent.space/p/jev-revolution/",
+       "name": "Latent Space (AINews)",
+       "kind": "press"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-12T05:08:20Z",
+     "checked": {
+      "model": "groq:openai/gpt-oss-120b",
+      "rounds": 2,
+      "hype_flags": []
+     },
+     "editor_reason": "Engineers at the AI Engineer Code Summit focused on system one models that yield structured choices and probabilities.",
+     "rank": 8,
+     "id": "2026-11-12-report-jev-used-for-rapid-document-ranking-and-ui-prediction",
+     "date": "2026-11-12"
+    },
+    {
+     "title": "Google Launches Tabletop AI Personal Planning Platform",
+     "one_liner": "Google launched Tabletop, an experimental AI platform for personal planning and coordination hubs, in beta via a waitlist.",
+     "summary": "Google launched Tabletop, an experimental AI platform. The platform builds customizable and collaborative personal planning and coordination hubs. Tabletop provides customizable, collaborative spaces for personal planning needs. The release is currently in beta and is available via a waitlist. Jess Weatherbed reported the news for The Verge on November 12, 2026.",
+     "eli5": "Google made a new digital workspace where you can build custom planning hubs with AI. It is like having a digital room that helps you organize your schedule with other people.",
+     "why_it_matters": "Experimental AI platforms now target personal planning and collaborative coordination spaces.",
+     "topic": "products",
+     "type": "event",
+     "labs": [
+      "google"
+     ],
+     "people": [],
+     "concepts": [
+      "personal-agent"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "Google launches Tabletop, an experimental AI platform to build customizable, collaborative personal planning and coordination hubs, in beta via a waitlist (Jess Weatherbed/The Verge)",
+       "url": "https://www.techmeme.com/261112/p21#a261112p21",
+       "name": "Techmeme",
+       "kind": "press"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-12T12:05:00Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "Google introduced Tabletop, an experimental AI platform for collaborative personal planning and coordination.",
+     "rank": 9,
+     "id": "2026-11-12-google-launches-tabletop-ai-personal-planning-platform",
      "date": "2026-11-12"
     }
    ],
    "stats": {
-    "items": 55,
-    "stories": 52,
+    "items": 15,
+    "stories": 15,
     "sources_ok": 42,
     "sources_failed": [],
-    "published": 7,
+    "published": 5,
     "dropped": 2,
-    "llm_calls": 23,
+    "llm_calls": 17,
     "cache_hits": 0,
     "models": {
      "gemini:gemini-3.5-flash": 1,
-     "gemini:gemini-3.5-flash-lite": 11,
-     "groq:openai/gpt-oss-120b": 6,
-     "groq:qwen/qwen3.8-27b": 5
+     "gemini:gemini-3.5-flash-lite": 5,
+     "groq:openai/gpt-oss-120b": 9,
+     "groq:qwen/qwen3.8-27b": 2
     },
     "fallbacks": [
      {
-      "tag": "checker",
-      "used": "groq:qwen/qwen3.8-27b",
+      "tag": "writer",
+      "used": "gemini:gemini-3.5-flash-lite",
       "after": [
-       "groq:openai/gpt-oss-120b: HTTP 400 {\"error\":{\"message\":\"Failed to validate JSON. Please adjust your prompt. See 'failed_generation' for more details.\",\"type\":\"invalid_request_error\",\"code\":\"json_validate_failed\",\"failed_generation\":\"\"}"
+       "gemini:gemini-3.5-flash-lite: HTTP 503 [{\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n]"
       ]
      },
      {
-      "tag": "checker",
-      "used": "groq:qwen/qwen3.8-27b",
+      "tag": "writer",
+      "used": "groq:openai/gpt-oss-120b",
       "after": [
-       "groq:openai/gpt-oss-120b: HTTP 400 {\"error\":{\"message\":\"Failed to validate JSON. Please adjust your prompt. See 'failed_generation' for more details.\",\"type\":\"invalid_request_error\",\"code\":\"json_validate_failed\",\"failed_generation\":\"\"}"
-      ]
-     },
-     {
-      "tag": "checker",
-      "used": "groq:qwen/qwen3.8-27b",
-      "after": [
-       "groq:openai/gpt-oss-120b: HTTP 400 {\"error\":{\"message\":\"Failed to validate JSON. Please adjust your prompt. See 'failed_generation' for more details.\",\"type\":\"invalid_request_error\",\"code\":\"json_validate_failed\",\"failed_generation\":\"\"}"
+       "gemini:gemini-3.5-flash-lite: HTTP 503 [{\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n]",
+       "gemini:gemini-3.5-flash-lite: HTTP 503 [{\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n]"
       ]
      },
      {
@@ -7801,20 +7962,28 @@
      },
      {
       "tag": "writer",
-      "used": "gemini:gemini-3.5-flash-lite",
+      "used": "groq:openai/gpt-oss-120b",
       "after": [
+       "gemini:gemini-3.5-flash-lite: HTTP 503 [{\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n]",
        "gemini:gemini-3.5-flash-lite: HTTP 503 [{\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n]"
       ]
      },
      {
       "tag": "checker",
-      "used": "groq:qwen/qwen3.8-27b",
+      "used": "groq:openai/gpt-oss-120b",
       "after": [
-       "groq:openai/gpt-oss-120b: HTTP 400 {\"error\":{\"message\":\"Failed to validate JSON. Please adjust your prompt. See 'failed_generation' for more details.\",\"type\":\"invalid_request_error\",\"code\":\"json_validate_failed\",\"failed_generation\":\"\"}"
+       "groq:openai/gpt-oss-120b: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m4e2y3jzet7vqfgnag5gc2as` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 5254, Req"
+      ]
+     },
+     {
+      "tag": "writer",
+      "used": "gemini:gemini-3.5-flash-lite",
+      "after": [
+       "gemini:gemini-3.5-flash-lite: HTTP 503 [{\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n]"
       ]
      }
     ],
-    "seconds": 187
+    "seconds": 369
    }
   }
  }

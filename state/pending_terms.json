@@ -1295,38 +1295,24 @@
   "source": "https://machinelearning.apple.com/research/faster-retrieval"
  },
  {
-  "term": "Lean proof language",
-  "definition": "AI agents built on Gemini Carbon wrote over six million lines in the Lean proof language, flagging roughly one percent of the codebase for human review.",
+  "term": "DNA methylation",
+  "definition": "Chemical tags that act as molecular switches to silence or activate genes.",
   "first_seen": "2026-11-12",
-  "story": "2026-11-12-google-deepmind-unveils-alphaproof-code-for-software-securit",
-  "source": "https://the-decoder.com/google-deepminds-alphaproof-code-verified-signals-cryptographic-core-in-four-weeks-instead-of-years/"
+  "story": "2026-11-12-google-deepmind-announces-alphagenome-2-for-single-cell-geno",
+  "source": "https://the-decoder.com/google-deepmind-shifts-genomics-ai-from-bulk-tissue-predictions-to-single-cell-type-resolution-with-alphagenome-2/"
  },
  {
-  "term": "document segmentation",
-  "definition": "Segmentation splits a file into logical documents, so test it separately from extracting fields.",
+  "term": "fast model call",
+  "definition": "A fast model call can change what the software itself does.",
   "first_seen": "2026-11-12",
-  "story": "2026-11-12-azure-content-understanding-adds-gpt-5-6-gpt-6-and-gpt-6-1-m",
-  "source": "https://devblogs.microsoft.com/foundry/content-understanding-adds-gpt-5-6-gpt-6-and-gpt-6-1-choose-the-right-model-for-your-workload/"
+  "story": "2026-11-12-report-jev-used-for-rapid-document-ranking-and-ui-prediction",
+  "source": "https://latent.space/p/jev-revolution/"
  },
  {
-  "term": "MACaQ-R",
-  "definition": "MACaQ-R refines the weight codes in a quantized GGUF while preserving its native formats and block scales.",
+  "term": "building block",
+  "definition": "Jev is a building block that can be adjusted and combined with strategies to get more intelligent outcomes.",
   "first_seen": "2026-11-12",
-  "story": "2026-11-12-huawei-releases-macaq-internal-quantizer-for-local-inference",
-  "source": "https://github.com/huawei-csl/MACaQ"
- },
- {
-  "term": "Native AWS Access",
-  "definition": "A default rollout path used for a small, least-privilege pilot when AWS identity and IAM controls are enough.",
-  "first_seen": "2026-11-12",
-  "story": "2026-11-12-using-openai-codex-on-amazon-bedrock-with-existing-aws-pract",
-  "source": "https://aws.amazon.com/blogs/machine-learning/openai-codex-on-amazon-bedrock/"
- },
- {
-  "term": "AgentCore Gateway",
-  "definition": "A capability of Amazonbedrock Agentcore that provides AWS managed gateway infrastructure for routing or Amazon Bedrock Guardrails.",
-  "first_seen": "2026-11-12",
-  "story": "2026-11-12-using-openai-codex-on-amazon-bedrock-with-existing-aws-pract",
-  "source": "https://aws.amazon.com/blogs/machine-learning/openai-codex-on-amazon-bedrock/"
+  "story": "2026-11-12-report-jev-used-for-rapid-document-ranking-and-ui-prediction",
+  "source": "https://latent.space/p/jev-revolution/"
  }
 ]
