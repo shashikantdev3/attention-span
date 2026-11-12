@@ -1211,55 +1211,6 @@
   "source": "https://techstartups.com/2026/11/09/startup-funding-news-today-november-9-2026-boson-ai-onodrim-mavria-t-therapeutics-more/"
  },
  {
-  "term": "passive DNS",
-  "definition": "Commercial databases that record an app's subdomain name after the first visit and can be searched by pattern.",
-  "first_seen": "2026-11-11",
-  "story": "2026-11-11-claroc-report-most-grok-built-apps-open-to-anyone-without-lo",
-  "source": "https://the-decoder.com/grok-built-apps-exposed-patient-data-plaintext-passwords-and-spacexsis-own-sales-pipeline/"
- },
- {
-  "term": "weight diffing",
-  "definition": "Comparing a model's weights against the original, unmodified weights to find anomalous changes, which the researchers say reliable detection requires.",
-  "first_seen": "2026-11-11",
-  "story": "2026-11-11-microsoft-researchers-describe-lazarus-a-no-training-backdoo",
-  "source": "https://www.microsoft.com/en-us/research/blog/lazare-veni-foras-reprogramming-dormant-neurons-to-backdoor-ai-agents/"
- },
- {
-  "term": "model provenance",
-  "definition": "Knowing where a model came from and that it has not been changed between the developer and deployment.",
-  "first_seen": "2026-11-11",
-  "story": "2026-11-11-microsoft-researchers-describe-lazarus-a-no-training-backdoo",
-  "source": "https://www.microsoft.com/en-us/research/blog/lazare-veni-foras-reprogramming-dormant-neurons-to-backdoor-ai-agents/"
- },
- {
-  "term": "AI-free assessment",
-  "definition": "Assessment methods such as written exams and in-person presentations that do not allow AI to produce the student's work.",
-  "first_seen": "2026-11-11",
-  "story": "2026-11-11-england-s-university-regulator-says-ai-makes-coursework-grad",
-  "source": "https://www.techmeme.com/261111/p10#a261111p10"
- },
- {
-  "term": "trajectory evaluation",
-  "definition": "A check that compares the agent's actual tool path against the path you expected, for cases where how the agent got there matters as much as what it produced.",
-  "first_seen": "2026-11-11",
-  "story": "2026-11-11-aws-details-agent-evaluation-options-in-amazon-bedrock-agent",
-  "source": "https://aws.amazon.com/blogs/machine-learning/the-agent-evaluation-playbook-built-in-deepeval-and-autoeval-on-agentcore/"
- },
- {
-  "term": "world-action model",
-  "definition": "A model that calculates the next movement and a short video of the immediate future at the same time.",
-  "first_seen": "2026-11-11",
-  "story": "2026-11-11-nvidia-s-gr00t-2-learns-robot-tasks-from-human-videos-with-m",
-  "source": "https://the-decoder.com/nvidias-model-gr00t-2-watches-humans-on-video-then-imagines-itself-as-the-robot/"
- },
- {
-  "term": "teleoperation",
-  "definition": "Remotely controlling a robot by hand to collect training data, which is expensive, slow, and needs its own data for every robot model.",
-  "first_seen": "2026-11-11",
-  "story": "2026-11-11-nvidia-s-gr00t-2-learns-robot-tasks-from-human-videos-with-m",
-  "source": "https://the-decoder.com/nvidias-model-gr00t-2-watches-humans-on-video-then-imagines-itself-as-the-robot/"
- },
- {
   "term": "advisor and orchestrator roles",
   "definition": "A large model either helps smaller models solve harder problems (Advisor) or hands simpler tasks to smaller models (Orchestrator).",
   "first_seen": "2026-11-10",
@@ -1307,5 +1258,75 @@
   "first_seen": "2026-11-10",
   "story": "2026-11-10-hugging-face-exec-warns-cyberattacks-could-make-open-source",
   "source": "https://techcrunch.com/2026/11/10/cyberattacks-threaten-to-make-open-source-ai-a-little-less-open-hugging-face-exec-warns/"
+ },
+ {
+  "term": "Warehouse Item Definition APIs",
+  "definition": "Warehouse Item Definition APIs opened the same lifecycle to automation.",
+  "first_seen": "2026-11-11",
+  "story": "2026-11-11-microsoft-fabric-blog-details-evolution-of-ci-cd-in-fabric-w",
+  "source": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/The-next-chapter-for-CI-CD-in-Fabric-Warehouse-Preview/ba-p/5401222"
+ },
+ {
+  "term": "conditional model",
+  "definition": "A model that takes a target biological condition as input alongside an input DNA sequence to predict DNA effects for one condition at a time.",
+  "first_seen": "2026-11-11",
+  "story": "2026-11-11-google-deepmind-announces-alphagenome-2-for-cell-level-dna-a",
+  "source": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/"
+ },
+ {
+  "term": "cross-modality imputation",
+  "definition": "A capability enabling the model to predict missing experimental data by separating a cell's biological state from its outputs.",
+  "first_seen": "2026-11-11",
+  "story": "2026-11-11-google-deepmind-announces-alphagenome-2-for-cell-level-dna-a",
+  "source": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/"
+ },
+ {
+  "term": "SupportNet",
+  "definition": "A neural network architecture that can learn the support function directly using a loosely constrained input convex neural network.",
+  "first_seen": "2026-11-11",
+  "story": "2026-11-11-apple-researchers-propose-faster-maximum-inner-product-searc",
+  "source": "https://machinelearning.apple.com/research/faster-retrieval"
+ },
+ {
+  "term": "KeyNet",
+  "definition": "A model that learns to directly output the best-matching key vector when fed a query.",
+  "first_seen": "2026-11-11",
+  "story": "2026-11-11-apple-researchers-propose-faster-maximum-inner-product-searc",
+  "source": "https://machinelearning.apple.com/research/faster-retrieval"
+ },
+ {
+  "term": "Lean proof language",
+  "definition": "AI agents built on Gemini Carbon wrote over six million lines in the Lean proof language, flagging roughly one percent of the codebase for human review.",
+  "first_seen": "2026-11-12",
+  "story": "2026-11-12-google-deepmind-unveils-alphaproof-code-for-software-securit",
+  "source": "https://the-decoder.com/google-deepminds-alphaproof-code-verified-signals-cryptographic-core-in-four-weeks-instead-of-years/"
+ },
+ {
+  "term": "document segmentation",
+  "definition": "Segmentation splits a file into logical documents, so test it separately from extracting fields.",
+  "first_seen": "2026-11-12",
+  "story": "2026-11-12-azure-content-understanding-adds-gpt-5-6-gpt-6-and-gpt-6-1-m",
+  "source": "https://devblogs.microsoft.com/foundry/content-understanding-adds-gpt-5-6-gpt-6-and-gpt-6-1-choose-the-right-model-for-your-workload/"
+ },
+ {
+  "term": "MACaQ-R",
+  "definition": "MACaQ-R refines the weight codes in a quantized GGUF while preserving its native formats and block scales.",
+  "first_seen": "2026-11-12",
+  "story": "2026-11-12-huawei-releases-macaq-internal-quantizer-for-local-inference",
+  "source": "https://github.com/huawei-csl/MACaQ"
+ },
+ {
+  "term": "Native AWS Access",
+  "definition": "A default rollout path used for a small, least-privilege pilot when AWS identity and IAM controls are enough.",
+  "first_seen": "2026-11-12",
+  "story": "2026-11-12-using-openai-codex-on-amazon-bedrock-with-existing-aws-pract",
+  "source": "https://aws.amazon.com/blogs/machine-learning/openai-codex-on-amazon-bedrock/"
+ },
+ {
+  "term": "AgentCore Gateway",
+  "definition": "A capability of Amazonbedrock Agentcore that provides AWS managed gateway infrastructure for routing or Amazon Bedrock Guardrails.",
+  "first_seen": "2026-11-12",
+  "story": "2026-11-12-using-openai-codex-on-amazon-bedrock-with-existing-aws-pract",
+  "source": "https://aws.amazon.com/blogs/machine-learning/openai-codex-on-amazon-bedrock/"
  }
 ]

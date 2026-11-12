@@ -21,9 +21,20 @@ if (-not $real -and -not (Get-Command py -ErrorAction SilentlyContinue)) {
 }
 
 $action   = New-ScheduledTaskAction -Execute "cmd.exe" -Argument "/c `"$Bat`"" -WorkingDirectory $Repo
+# Catch-up starts: at sign-in and when the laptop is unlocked (5 minutes later). The script only does work at those
+# starts if a 06:30 or 18:30 run was missed, for example because the laptop was shut down or hibernating.
+$logon = New-ScheduledTaskTrigger -AtLogOn -User $env:USERNAME
+$logon.Delay = "PT5M"
+$class  = Get-CimClass -ClassName MSFT_TaskSessionStateChangeTrigger -Namespace Root/Microsoft/Windows/TaskScheduler
+$unlock = New-CimInstance -CimClass $class -ClientOnly
+$unlock.StateChange = 8          # session unlock
+$unlock.UserId = "$env:USERDOMAIN\$env:USERNAME"
+$unlock.Delay = "PT5M"
 $triggers = @(
   (New-ScheduledTaskTrigger -Daily -At ([datetime]"06:30")),
-  (New-ScheduledTaskTrigger -Daily -At ([datetime]"18:30"))
+  (New-ScheduledTaskTrigger -Daily -At ([datetime]"18:30")),
+  $logon,
+  $unlock
 )
 $settings = New-ScheduledTaskSettingsSet -StartWhenAvailable -WakeToRun -AllowStartIfOnBatteries `
             -DontStopIfGoingOnBatteries -ExecutionTimeLimit (New-TimeSpan -Hours 2) -MultipleInstances IgnoreNew
@@ -37,7 +48,7 @@ if (Get-ScheduledTask -TaskName "Attention Span nightly" -ErrorAction SilentlyCo
 }
 
 $info = Get-ScheduledTaskInfo -TaskName $TaskName
-Write-Host "Registered '$TaskName': every day at 06:30 and 18:30."
+Write-Host "Registered '$TaskName': every day at 06:30 and 18:30, plus a catch-up at sign-in and unlock."
 Write-Host "  Next run:  $($info.NextRunTime)"
 Write-Host "  Report:    $Repo\state\tmp\publish\PUBLISH.md (opens in Notepad after each run)"
 Write-Host "  Run now:   Start-ScheduledTask -TaskName '$TaskName'"

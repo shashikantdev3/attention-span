@@ -177,7 +177,10 @@ def rerank(stories):
     out = [s if s.get("_new") else next(old_seq) for s in out]
     for s in out:
         s.pop("_new", None)
-    return [s for s in out if s.get("spotlight")] + [s for s in out if not s.get("spotlight")]
+    # a new story only takes the lead if it is widely covered (3+ sources); otherwise the old lead stays first
+    if out and out[0] is not stories[0] and len(out[0]["sources"]) < 3:
+        out.remove(stories[0]); out.insert(0, stories[0])
+    return out
 
 
 def restore(day, old, new, prev=()):
@@ -216,6 +219,7 @@ def restore(day, old, new, prev=()):
     k = 0                                   # new spotlights go right after the existing spotlighted stories,
     while k < len(old) and old[k].get("spotlight"):   # so a later run never takes the lead from the earlier one
         k += 1
+    k = max(k, 1) if old else 0               # the published lead stays first
     stories = old[:k] + lead_new + old[k:] + rest_new
     n_spot = 0
     for r, s in enumerate(stories, 1):
@@ -228,6 +232,8 @@ def restore(day, old, new, prev=()):
         for s in fresh:
             s["_new"] = True
         stories = rerank(stories)
+    for r, s in enumerate(stories, 1):         # ranks follow the final order
+        s["rank"] = r
     ed = m["editions"].setdefault(day, {"date": day, "stats": {}})
     ed["stories"] = stories
     ed["generated_at"] = iso(datetime.now(timezone.utc))
@@ -453,6 +459,27 @@ def privacy_scan():
     return hits, ("CLEAN" if not hits else f"STOP: {len(hits)} blocked term(s) found, do not push")
 
 
+# ---------------------------------------------------------------- catch-up guard
+
+def slot_missed(now):
+    """The task also starts at sign-in and on unlock, so a run skipped while the laptop was off or asleep is
+    caught up. Those extra starts only do work if a scheduled slot (RUN_SLOTS, laptop time) has passed since
+    the last finished run."""
+    st = read(STATE_F, {})
+    if not st.get("finished"):
+        return True
+    last = ts(st["finished"])
+    local = datetime.now().astimezone()
+    for back in (0, 1):
+        day = (local - timedelta(days=back)).date()
+        for hm in os.getenv("RUN_SLOTS", "06:30,18:30").split(","):
+            h, m = (int(x) for x in hm.strip().split(":"))
+            slot = datetime(day.year, day.month, day.day, h, m, tzinfo=local.tzinfo)
+            if last < slot.astimezone(timezone.utc) <= now:
+                return True
+    return False
+
+
 # ---------------------------------------------------------------- main
 
 def main():
@@ -460,9 +487,13 @@ def main():
     ap.add_argument("--plan", action="store_true")
     ap.add_argument("--skip-research", action="store_true")
     ap.add_argument("--skip-x", action="store_true")
+    ap.add_argument("--force", action="store_true", help="run even if no scheduled slot was missed")
     args = ap.parse_args()
     t0 = time.time()
     now = datetime.now(timezone.utc)
+    if not (args.force or args.plan or slot_missed(now)):
+        print("Nothing to catch up: the last run is newer than the latest scheduled slot.")
+        return
     since, until = window(now)
     log(f"Window {iso(since)} to {iso(until)} ({(until - since).total_seconds() / 3600:.1f} hours)")
     if args.plan:
@@ -528,6 +559,11 @@ def main():
     hits, verdict = privacy_scan()
     log(f"   {verdict}")
     spend = spend_from(alltext)
+    if re.search(r"usage limits|credit balance", alltext):
+        m_ = re.search(r"regain access on ([\d-]+)", alltext)
+        problems.insert(0, "Claude API limit reached" + (f" (back on {m_.group(1)})" if m_ else "")
+                        + ": stories were written by the free fallback models, and the missed-story search, X post "
+                        "picks and repeat checks were skipped. Raise the limit in the Anthropic console to restore them.")
 
     ed = editions()
     leads = [ed[d]["lead"] for d in touched if d in ed and ed[d].get("lead")]
@@ -539,8 +575,9 @@ def main():
     cmds = (f"cd \"{ROOT}\"\ngit add README.md docs pipeline seed state tools\ngit commit -m '{msg}'\ngit push\n")
 
     OUT.mkdir(parents=True, exist_ok=True)
-    report = [f"# Attention Span twice-daily run, {datetime.now():%d %b %Y %H:%M}", "",
-              f"Privacy scan: {verdict}"] + [f"- {h}" for h in (hits or [])] + ["",
+    report = [f"# Attention Span twice-daily run, {datetime.now():%d %b %Y %H:%M}", ""]
+    report += [f"**WARNING: {problems[0]}**", ""] if problems and problems[0].startswith("Claude API limit") else []
+    report += [f"Privacy scan: {verdict}"] + [f"- {h}" for h in (hits or [])] + ["",
               "## Publish (run in PowerShell or Git Bash)" if hits == [] else "## Publish: DO NOT run until the scan is clean",
               "```", cmds.strip(), "```", "",
               f"Stories written: {written} across {days}. Missed stories added: {len(added)}. "
