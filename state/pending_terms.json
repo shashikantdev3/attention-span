@@ -1295,62 +1295,6 @@
   "source": "https://machinelearning.apple.com/research/faster-retrieval"
  },
  {
-  "term": "model router",
-  "definition": "A static system that guesses task difficulty from a first prompt and routes the entire task to the cheapest model that is good enough to complete it.",
-  "first_seen": "2026-11-13",
-  "story": "2026-11-13-google-releases-gemini-4-hydrogen-and-orchestrator",
-  "source": "https://antigravity.google/blog/gemini-4-hydrogen-in-google-antigravity/"
- },
- {
-  "term": "hardware fingerprinting",
-  "definition": "Recovering traces of a model's initial values from its published weights, then searching for the hardware configurations that reproduce them.",
-  "first_seen": "2026-11-13",
-  "story": "2026-11-13-report-claims-six-chinese-ai-models-show-fingerprints-of-exp",
-  "source": "https://unemploymentlabs.com/checkpoint-forensics"
- },
- {
-  "term": "ping-based location verification",
-  "definition": "A method where a GPU sends a signal of its location when it comes online, which is the hardest tracking option to circumvent.",
-  "first_seen": "2026-11-13",
-  "story": "2026-11-13-lawmaker-says-nvidia-privately-said-chip-tracking-is-possibl",
-  "source": "https://www.technologyreview.com/2026/11/12/1148483/nvidia-chip-tracking/"
- },
- {
-  "term": "guided generation",
-  "definition": "A built-in framework capability for steering what a language model produces, supported across on-device and server models.",
-  "first_seen": "2026-11-13",
-  "story": "2026-11-13-apple-s-foundation-models-framework-adds-server-models-dynam",
-  "source": "https://developer.apple.com/foundation-models-framework/"
- },
- {
-  "term": "multimodal prompts",
-  "definition": "Prompts that pass images alongside text so an app can reason about visual content.",
-  "first_seen": "2026-11-13",
-  "story": "2026-11-13-apple-s-foundation-models-framework-adds-server-models-dynam",
-  "source": "https://developer.apple.com/foundation-models-framework/"
- },
- {
-  "term": "asset-backed financing",
-  "definition": "Loans backed by customer contracts, so the future value of data centers helps pay for building them.",
-  "first_seen": "2026-11-13",
-  "story": "2026-11-13-nebius-plans-40-billion-in-2027-spending-as-microsoft-site-d",
-  "source": "https://techcrunch.com/2026/11/12/nebius-tests-the-neocloud-playbook-with-40-billion-in-planned-spending/"
- },
- {
-  "term": "customer prepayments",
-  "definition": "Money customers pay long before delivery, which Nebius uses to help fund building capacity.",
-  "first_seen": "2026-11-13",
-  "story": "2026-11-13-nebius-plans-40-billion-in-2027-spending-as-microsoft-site-d",
-  "source": "https://techcrunch.com/2026/11/12/nebius-tests-the-neocloud-playbook-with-40-billion-in-planned-spending/"
- },
- {
-  "term": "PD disaggregation",
-  "definition": "A prefill server computes the prompt KV cache and transfers it to a decode server, which then generates the remaining tokens.",
-  "first_seen": "2026-11-13",
-  "story": "2026-11-13-sglang-neuron-brings-sglang-serving-to-aws-trainium-via-deep",
-  "source": "https://aws.amazon.com/blogs/machine-learning/deploy-frontier-ai-models-on-aws-trainium-with-sglang-neuron/"
- },
- {
   "term": "automated health checks",
   "definition": "Automated checks that decide whether a server is working, and servers that fail them become unavailable.",
   "first_seen": "2026-11-12",
@@ -1447,5 +1391,82 @@
   "first_seen": "2026-11-12",
   "story": "2026-11-12-report-jev-used-for-rapid-document-ranking-and-ui-prediction",
   "source": "https://latent.space/p/jev-revolution/"
+ },
+ {
+  "term": "penetration testing",
+  "definition": "Testing a system, such as a web app, to find security flaws.",
+  "first_seen": "2026-11-13",
+  "story": "2026-11-13-openai-launches-daybreak-red-team-and-daybreak-defense-facto",
+  "source": "https://www.techmeme.com/261113/p5#a261113p5"
+ },
+ {
+  "term": "hardware fingerprinting",
+  "definition": "Recovering traces of a model's initial values from its published weights, then searching for the hardware configurations that reproduce them.",
+  "first_seen": "2026-11-13",
+  "story": "2026-11-13-report-claims-six-chinese-ai-models-show-fingerprints-of-exp",
+  "source": "https://unemploymentlabs.com/checkpoint-forensics"
+ },
+ {
+  "term": "residual value support",
+  "definition": "A backstop that Nvidia offered, set at 25%, as part of a planned $500B AI financing vehicle.",
+  "first_seen": "2026-11-13",
+  "story": "2026-11-13-report-nvidia-faced-pressure-to-raise-25-backstop-on-500b-ai",
+  "source": "https://www.techmeme.com/261112/p69#a261112p69"
+ },
+ {
+  "term": "ping-based location verification",
+  "definition": "A method where a GPU sends a signal of its location when it comes online, which is the hardest tracking option to circumvent.",
+  "first_seen": "2026-11-13",
+  "story": "2026-11-13-lawmaker-says-nvidia-privately-said-chip-tracking-is-possibl",
+  "source": "https://www.technologyreview.com/2026/11/12/1148483/nvidia-chip-tracking/"
+ },
+ {
+  "term": "x402 protocol",
+  "definition": "An open payment protocol where a request without payment gets an HTTP 402 Payment Required response, and the client pays and retries.",
+  "first_seen": "2026-11-13",
+  "story": "2026-11-13-brave-search-api-now-accepts-agentic-payments-via-x402-proto",
+  "source": "https://brave.com/blog/search-api-agentic-payments/"
+ },
+ {
+  "term": "agentic payments",
+  "definition": "Instant, pay-as-you-go payments that developers and autonomous AI agents make programmatically, settling requests in real time.",
+  "first_seen": "2026-11-13",
+  "story": "2026-11-13-brave-search-api-now-accepts-agentic-payments-via-x402-proto",
+  "source": "https://brave.com/blog/search-api-agentic-payments/"
+ },
+ {
+  "term": "guided generation",
+  "definition": "A built-in framework capability for steering what a language model produces, supported across on-device and server models.",
+  "first_seen": "2026-11-13",
+  "story": "2026-11-13-apple-s-foundation-models-framework-adds-server-models-dynam",
+  "source": "https://developer.apple.com/foundation-models-framework/"
+ },
+ {
+  "term": "multimodal prompts",
+  "definition": "Prompts that pass images alongside text so an app can reason about visual content.",
+  "first_seen": "2026-11-13",
+  "story": "2026-11-13-apple-s-foundation-models-framework-adds-server-models-dynam",
+  "source": "https://developer.apple.com/foundation-models-framework/"
+ },
+ {
+  "term": "asset-backed financing",
+  "definition": "Loans backed by customer contracts, so the future value of data centers helps pay for building them.",
+  "first_seen": "2026-11-13",
+  "story": "2026-11-13-nebius-plans-40-billion-in-2027-spending-as-microsoft-site-d",
+  "source": "https://techcrunch.com/2026/11/12/nebius-tests-the-neocloud-playbook-with-40-billion-in-planned-spending/"
+ },
+ {
+  "term": "customer prepayments",
+  "definition": "Money customers pay long before delivery, which Nebius uses to help fund building capacity.",
+  "first_seen": "2026-11-13",
+  "story": "2026-11-13-nebius-plans-40-billion-in-2027-spending-as-microsoft-site-d",
+  "source": "https://techcrunch.com/2026/11/12/nebius-tests-the-neocloud-playbook-with-40-billion-in-planned-spending/"
+ },
+ {
+  "term": "PD disaggregation",
+  "definition": "A prefill server computes the prompt KV cache and transfers it to a decode server, which then generates the remaining tokens.",
+  "first_seen": "2026-11-13",
+  "story": "2026-11-13-sglang-neuron-brings-sglang-serving-to-aws-trainium-via-deep",
+  "source": "https://aws.amazon.com/blogs/machine-learning/deploy-frontier-ai-models-on-aws-trainium-with-sglang-neuron/"
  }
 ]

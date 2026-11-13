@@ -8329,7 +8329,7 @@
   },
   "2026-11-13": {
    "date": "2026-11-13",
-   "generated_at": "2026-11-13T01:06:58Z",
+   "generated_at": "2026-11-13T13:03:11Z",
    "stories": [
     {
      "title": "Reuters: Jensen Huang also had a relationship with a second Nvidia employee before resigning, sources say",
@@ -8414,6 +8414,87 @@
      "date": "2026-11-13"
     },
     {
+     "title": "OpenAI launches Daybreak Red Team and Daybreak Defense Factory security products",
+     "one_liner": "OpenAI has launched two security products: Daybreak Red Team in early access for testing web apps, and Daybreak Defense Factory for finding, validating and fixing flaws.",
+     "summary": "OpenAI has launched two new security products, according to a report by Jessica Lyons of The Register. One is for penetration testing and the other is for defense. Daybreak Red Team is in early access and is built to test web apps for flaws. Daybreak Defense Factory is meant to automate finding, validating and fixing those flaws. The report also says OpenAI warned organizations about something, but the available text cuts off before saying what. The source gives no details on pricing, availability dates or how the tools work.",
+     "eli5": "Imagine one helper who tries to find weak spots in your treehouse, and another helper who checks the weak spots are real and fixes them. OpenAI made two helpers like that for websites.",
+     "why_it_matters": "Teams that ship web apps may soon be able to use OpenAI tools to test for security flaws and automate the work of fixing them.",
+     "topic": "dev-tools",
+     "type": "product",
+     "labs": [
+      "openai"
+     ],
+     "people": [],
+     "concepts": [
+      "red-teaming",
+      "agent"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [
+      {
+       "term": "penetration testing",
+       "definition": "Testing a system, such as a web app, to find security flaws."
+      }
+     ],
+     "sources": [
+      {
+       "title": "OpenAI launches Daybreak Red Team in early access to test web apps for flaws and Daybreak Defense Factory to automate finding, validating, and fixing them (Jessica Lyons/The Register)",
+       "url": "https://www.techmeme.com/261113/p5#a261113p5",
+       "name": "Techmeme",
+       "kind": "press"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-13T07:25:02Z",
+     "checked": {
+      "model": "anthropic:claude-sonnet-5-5",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "OpenAI opens early access to Daybreak Red Team for testing web apps for flaws, plus Daybreak Defense Factory for automating security work.",
+     "rank": 2,
+     "id": "2026-11-13-openai-launches-daybreak-red-team-and-daybreak-defense-facto",
+     "date": "2026-11-13"
+    },
+    {
+     "title": "Mirendil, founded by ex-Anthropic researchers, raises $1B Series A, WSJ reports",
+     "one_liner": "Mirendil, founded by former Anthropic researchers to build tools for frontier AI R&D, raised a $1B Series A led by Kleiner Perkins and Clearlake Capital.",
+     "summary": "Mirendil raised a $1B Series A, according to a Wall Street Journal report by Sarah Klearman. Kleiner Perkins and Clearlake Capital led the round. Former Anthropic researchers founded the company to build tools for frontier AI R&D. The new funding comes six months after Mirendil, founded by Anthropic alumni, announced a $200 million seed round. The sources do not say what the tools do, what the company is valued at, or how the money will be used.",
+     "eli5": "Some people who used to work at a big AI team started a new company to make tools for building smarter AI. Lots of grown-ups gave them a very big pile of money to help.",
+     "why_it_matters": "Investors are putting large sums into companies that build tools for frontier AI research, so more specialized R&D tooling may reach the market.",
+     "topic": "industry",
+     "type": "event",
+     "labs": [
+      "anthropic",
+      "other"
+     ],
+     "people": [],
+     "concepts": [],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "Mirendil, founded by former Anthropic researchers to build tools for frontier AI R&D, raised a $1B Series A led by Kleiner Perkins and Clearlake Capital (Sarah Klearman/Wall Street Journal)",
+       "url": "https://www.techmeme.com/261112/p74#a261112p74",
+       "name": "Techmeme",
+       "kind": "press"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-13T04:45:01Z",
+     "checked": {
+      "model": "anthropic:claude-sonnet-5-5",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "Mirendil, founded by former Anthropic researchers to build tools for frontier AI R&D, raised a $1B Series A.",
+     "rank": 3,
+     "id": "2026-11-13-mirendil-founded-by-ex-anthropic-researchers-raises-1b-serie",
+     "date": "2026-11-13"
+    },
+    {
      "title": "Report claims six Chinese AI models show fingerprints of export-controlled Blackwell GPUs",
      "one_liner": "A forensic analysis by Will DePue claims six models from DeepSeek, Moonshot AI, MiniMax and Ant Group carry numerical patterns matching NVIDIA Blackwell GPUs.",
      "summary": "Will DePue of Unemployment Labs analysed published model weights. He reports that six models released since April 2026 from DeepSeek, Moonshot AI, MiniMax and Ant Group match Blackwell hardware, while earlier models match the older Hopper generation. For DeepSeek-V4-Flash and Kimi K3, the match was also confirmed on physical Blackwell chips. The author says this supports, without proving, that Blackwell did the training. It does not show where the chips were, how access was obtained, or whether export controls were broken. The author estimates each run needed roughly 1,500 to 3,500 Blackwell GPUs.",
@@ -8468,8 +8549,96 @@
       "hype_flags": []
      },
      "editor_reason": "Analysis of six open-weight Chinese models finds fingerprints of export-controlled GPUs, relevant to chip policy and open model supply.",
-     "rank": 2,
+     "rank": 4,
      "id": "2026-11-13-report-claims-six-chinese-ai-models-show-fingerprints-of-exp",
+     "date": "2026-11-13"
+    },
+    {
+     "title": "Nscale filing says it needs more funding for Anthropic deal, clouding $35B IPO",
+     "one_liner": "Nscale told investors it needs more financing for its 2027 commitments after ordering Nvidia chips for a $45B Anthropic deal, per the Financial Times.",
+     "summary": "The Financial Times reports that a filing from Nscale says the company needs more funding for its 2027 commitments. Nscale, an Nvidia-backed 'neocloud', ordered Nvidia chips for a $45B Anthropic deal. The report says this casts doubt on its planned $35B IPO. CNBC reports that Nscale released an updated IPO prospectus on Thursday for a U.S. offering. It shows Q3 revenue up 1,344% year over year to $307.5M, up from $140.6M in Q2. Net loss widened to $1.69B, up from $1.02B in Q2.",
+     "eli5": "Imagine a lemonade stand that bought a huge pile of lemons for a big order. It now needs more money to pay for everything it promised.",
+     "why_it_matters": "Teams that rely on specialist GPU cloud providers for AI capacity should watch how well those providers can fund their large contracts.",
+     "topic": "industry",
+     "type": "event",
+     "labs": [
+      "anthropic",
+      "nvidia",
+      "other"
+     ],
+     "people": [],
+     "concepts": [
+      "gpu",
+      "hyperscaler"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "Filing: Nscale says it needs more funding for its 2027 commitments after ordering Nvidia chips for a $45B Anthropic deal, casting doubt on its planned $35B IPO (Financial Times)",
+       "url": "https://www.techmeme.com/261113/p3#a261113p3",
+       "name": "Techmeme",
+       "kind": "press"
+      },
+      {
+       "title": "Nscale's updated IPO prospectus shows Q3 revenue up 1,344% YoY to $307.5M, up from $140.6M in Q2; net loss widened to $1.69B, up from $1.02B in Q2 (Jordan Novet/CNBC)",
+       "url": "https://www.techmeme.com/261113/p2#a261113p2",
+       "name": "Techmeme",
+       "kind": "press"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-13T05:50:02Z",
+     "checked": {
+      "model": "anthropic:claude-sonnet-5-5",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "Nscale's filing says it needs more funding for 2027 after ordering Nvidia chips for a $45B Anthropic deal, and its updated IPO prospectus shows Q3 revenue of $307.5M and a widened net loss.",
+     "rank": 5,
+     "id": "2026-11-13-nscale-filing-says-it-needs-more-funding-for-anthropic-deal",
+     "date": "2026-11-13"
+    },
+    {
+     "title": "Report: Nvidia faced pressure to raise 25% backstop on $500B AI financing vehicle",
+     "one_liner": "Bloomberg, citing sources, reports Nvidia faced pressure to increase its 25% residual value support backstop on a planned $500B AI financing vehicle.",
+     "summary": "Bloomberg reports, citing sources, that Nvidia faced pressure to boost its 25% residual value support backstop. The backstop was tied to a planned $500B AI financing vehicle. The vehicle was being planned with asset managers. The pressure came before Nvidia was thrown into turmoil by the ouster of longtime chief executive Jensen Huang. The source text does not say who applied the pressure. It also does not say how the plan stands now. Only the headline and the opening lines of the Bloomberg report are available in the source.",
+     "eli5": "Imagine you lend out a toy and promise to cover part of the cost if it comes back broken. People wanted that promise to be bigger. The story does not say who asked.",
+     "why_it_matters": "The report points to how much financial backing Nvidia may need to offer around its AI hardware, which could shape how AI infrastructure gets funded.",
+     "topic": "industry",
+     "type": "event",
+     "labs": [
+      "nvidia"
+     ],
+     "people": [],
+     "concepts": [],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [
+      {
+       "term": "residual value support",
+       "definition": "A backstop that Nvidia offered, set at 25%, as part of a planned $500B AI financing vehicle."
+      }
+     ],
+     "sources": [
+      {
+       "title": "Sources: Nvidia faced pressure to boost its 25% residual value support backstop on a planned $500B AI financing vehicle with asset managers before Huang's exit (Bloomberg)",
+       "url": "https://www.techmeme.com/261112/p69#a261112p69",
+       "name": "Techmeme",
+       "kind": "press"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-13T02:11:02Z",
+     "checked": {
+      "model": "anthropic:claude-sonnet-5-5",
+      "rounds": 2,
+      "hype_flags": []
+     },
+     "editor_reason": "Bloomberg reports Nvidia faced pressure to raise its 25% residual value support on a planned $500B AI financing vehicle, which bears on how AI compute gets funded.",
+     "rank": 6,
+     "id": "2026-11-13-report-nvidia-faced-pressure-to-raise-25-backstop-on-500b-ai",
      "date": "2026-11-13"
     },
     {
@@ -8520,7 +8689,7 @@
       "hype_flags": []
      },
      "editor_reason": "Nvidia told a US lawmaker that chip tracking against smuggling is technically possible, and OpenAI backs a bipartisan effort to curb China's access to AI chips.",
-     "rank": 3,
+     "rank": 7,
      "id": "2026-11-13-lawmaker-says-nvidia-privately-said-chip-tracking-is-possibl",
      "date": "2026-11-13"
     },
@@ -8560,8 +8729,63 @@
       "hype_flags": []
      },
      "editor_reason": "Claude Code adds experimental Code Mode, where Claude writes JavaScript to call its tools.",
-     "rank": 4,
+     "rank": 8,
      "id": "2026-11-13-claude-code-v2-1-323-adds-experimental-code-mode-and-plugin",
+     "date": "2026-11-13"
+    },
+    {
+     "title": "Brave Search API now accepts agentic payments via x402 protocol",
+     "one_liner": "Brave Search API now lets AI agents pay per request in USDC on Base using the x402 protocol, with no API key or account needed.",
+     "summary": "Brave added support for x402 agentic payments to its Brave Search API. Endpoints behind x402 require payment on every request instead of authentication. A request without payment gets an HTTP 402 Payment Required response with the price and payment details. The agent signs a USDC payment and retries. Once verified, the search runs and results come back with a receipt from the Base blockchain. Brave runs its own facilitator that accepts USDC on Base. Other networks and stablecoins are coming soon. LLM Context, web, news, image, video and local endpoints each cost $0.005 ($5 per 1,000). Gas fees are covered for a limited time. Brave points to Purl Wallet, a Stripe-developed CLI wallet, as the easiest path.",
+     "eli5": "Imagine a vending machine. You don't need a membership card. You just put in coins each time and get your snack. Now a robot helper can do the same to ask for search answers.",
+     "why_it_matters": "Agents can buy search results on demand with a funded wallet, so there is no account signup, plan choice or API key to manage.",
+     "topic": "agents",
+     "type": "product",
+     "labs": [
+      "other"
+     ],
+     "people": [],
+     "concepts": [
+      "agent",
+      "tool-use",
+      "rag"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [
+      {
+       "term": "x402 protocol",
+       "definition": "An open payment protocol where a request without payment gets an HTTP 402 Payment Required response, and the client pays and retries."
+      },
+      {
+       "term": "agentic payments",
+       "definition": "Instant, pay-as-you-go payments that developers and autonomous AI agents make programmatically, settling requests in real time."
+      }
+     ],
+     "sources": [
+      {
+       "title": "Brave Search API now accepts agentic payments via the x402 protocol",
+       "url": "https://brave.com/blog/search-api-agentic-payments/",
+       "name": "brave.com",
+       "kind": "press"
+      },
+      {
+       "title": "Discussion on Hacker News",
+       "url": "https://news.ycombinator.com/item?id=50477649",
+       "name": "Hacker News",
+       "kind": "discussion"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-13T03:08:08Z",
+     "checked": {
+      "model": "anthropic:claude-sonnet-5-5",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "Brave Search API now accepts agentic payments via the x402 protocol, a concrete step for agents that pay for tools themselves.",
+     "rank": 9,
+     "id": "2026-11-13-brave-search-api-now-accepts-agentic-payments-via-x402-proto",
      "date": "2026-11-13"
     },
     {
@@ -8617,7 +8841,7 @@
       "hype_flags": []
      },
      "editor_reason": "A Foundation Models framework post drew 115 points on Hacker News and is worth a look for developers building on on-device models.",
-     "rank": 5,
+     "rank": 10,
      "id": "2026-11-13-apple-s-foundation-models-framework-adds-server-models-dynam",
      "date": "2026-11-13"
     },
@@ -8662,7 +8886,7 @@
       "hype_flags": []
      },
      "editor_reason": "AI-generated app submissions are straining Apple's app review for synth developers, a concrete example of AI side effects on platforms.",
-     "rank": 6,
+     "rank": 11,
      "id": "2026-11-13-synth-developers-report-weeks-long-apple-app-store-delays-an",
      "date": "2026-11-13"
     },
@@ -8700,8 +8924,62 @@
       "hype_flags": []
      },
      "editor_reason": "Protests in seven cities call for AI moratoriums in schools after backlash over Google's Gemini pilot.",
-     "rank": 7,
+     "rank": 12,
      "id": "2026-11-13-families-protest-in-seven-cities-over-google-s-ai-in-schools",
+     "date": "2026-11-13"
+    },
+    {
+     "title": "Claude status page reports elevated errors on claude.ai, Claude Code and platform.claude.com",
+     "one_liner": "Anthropic's status page reported elevated errors on claude.ai, Claude Code, and platform.claude.com, and Hacker News users posted that Claude was down.",
+     "summary": "The status page at status.claude.com posted an incident titled \"Elevated errors on claude.ai, Claude Code, and platform.claude.com\". The page lists the stages Resolved, Monitoring and Investigating. Two Hacker News posts discussed the incident. One used the same title as the status page. The other was titled \"Claude Is Down\". The sources do not say what caused the errors. They do not give a start time, an end time, or the number of users affected. They also do not describe any fix.",
+     "eli5": "Imagine your favorite toy shop is having trouble and some doors will not open. The shop puts up a sign saying it is working on the problem.",
+     "why_it_matters": "Teams that rely on Claude for apps or coding work should expect occasional errors and watch the status page when requests fail.",
+     "topic": "products",
+     "type": "event",
+     "labs": [
+      "anthropic"
+     ],
+     "people": [],
+     "concepts": [],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "Elevated errors on claude.ai, Claude Code, and platform.claude.com",
+       "url": "https://status.claude.com/incidents/nn11wk485zfn",
+       "name": "status.claude.com",
+       "kind": "original"
+      },
+      {
+       "title": "Discussion on Hacker News",
+       "url": "https://news.ycombinator.com/item?id=50481187",
+       "name": "Hacker News",
+       "kind": "discussion"
+      },
+      {
+       "title": "Claude Is Down",
+       "url": "https://status.claude.com/history",
+       "name": "status.claude.com",
+       "kind": "original"
+      },
+      {
+       "title": "Discussion on Hacker News",
+       "url": "https://news.ycombinator.com/item?id=50481220",
+       "name": "Hacker News",
+       "kind": "discussion"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-13T10:18:13Z",
+     "checked": {
+      "model": "anthropic:claude-sonnet-5-5",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "Elevated errors and an outage on claude.ai, Claude Code and the platform hit developers who depend on Claude, and the HN discussion was heated.",
+     "rank": 13,
+     "id": "2026-11-13-claude-status-page-reports-elevated-errors-on-claude-ai-clau",
      "date": "2026-11-13"
     },
     {
@@ -8750,7 +9028,7 @@
       "hype_flags": []
      },
      "editor_reason": "Nebius plans $40 billion in AI infrastructure spending funded by customer prepayments and loans, while a Microsoft data center delay raises questions.",
-     "rank": 8,
+     "rank": 14,
      "id": "2026-11-13-nebius-plans-40-billion-in-2027-spending-as-microsoft-site-d",
      "date": "2026-11-13"
     },
@@ -8795,53 +9073,119 @@
       "hype_flags": []
      },
      "editor_reason": "SGLang-Neuron is now publicly available for deploying frontier models on AWS Trainium via a Deep Learning Container.",
-     "rank": 9,
+     "rank": 15,
      "id": "2026-11-13-sglang-neuron-brings-sglang-serving-to-aws-trainium-via-deep",
      "date": "2026-11-13"
+    },
+    {
+     "title": "Report: Commerce Secretary Lutnick agrees to testify on Nvidia China chip exports",
+     "one_liner": "Commerce Secretary Howard Lutnick has reportedly agreed to appear before the Senate Banking Committee on Dec. 10 over Nvidia chip exports to China.",
+     "summary": "Commerce Secretary Howard Lutnick has agreed to appear voluntarily before the Senate Banking Committee, according to NBC. Chairman Tim Scott asked him to testify on Dec. 10. Lawmakers are examining the Commerce Department's oversight of Nvidia chip exports to China and its enforcement of export controls. Scott also asked Jensen Huang to appear on Dec. 3. Huang resigned on Thursday after acknowledging an affair with an executive at Megaspeed, a Singapore-based company that has bought over $4.8 billion of advanced Nvidia AI chips over the past two years. Scrutiny of the department's chip policy is bipartisan.",
+     "eli5": "Imagine a school has a rule about who can borrow special toys. Now the grown-ups want the teacher to explain how the rule was checked and whether it was followed.",
+     "why_it_matters": "Export rules for advanced AI chips face tougher congressional review, so teams that depend on Nvidia hardware and global supply should watch for policy changes.",
+     "topic": "policy",
+     "type": "event",
+     "labs": [
+      "nvidia",
+      "government"
+     ],
+     "people": [],
+     "concepts": [
+      "ai-governance",
+      "gpu"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "Nvidia scandal draws in Commerce Secretary Lutnick, who reportedly agrees to testify about China chip sales",
+       "url": "https://www.cnbc.com/2026/11/13/nvidia-scandal-lutnick-chip-sales.html",
+       "name": "CNBC",
+       "kind": "press"
+      },
+      {
+       "title": "Calls for crackdown on China chip exports – as it happened | Nvidia - Peter Theil",
+       "url": "https://www.petertheil.com/171432/",
+       "name": "Peter Theil",
+       "kind": "press"
+      }
+     ],
+     "buzz": 2,
+     "published": "2026-11-13T10:54:40Z",
+     "checked": {
+      "model": "anthropic:claude-sonnet-5-5",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "Added by the editor after the nightly run missed it.",
+     "added_by_editor": "2026-11-13",
+     "id": "2026-11-13-report-commerce-secretary-lutnick-agrees-to-testify-on-nvidi",
+     "date": "2026-11-13",
+     "rank": 16
+    },
+    {
+     "title": "Singapore bars the Megaspeed executive linked to the Nvidia case and says the U.S. gave limited help in its chip probe",
+     "one_liner": "Singapore barred the Megaspeed executive from re-entering and said U.S. authorities gave limited help in its yearlong probe tied to Nvidia chip servers.",
+     "summary": "Singapore said Thursday it had barred the Megaspeed executive, former Megaspeed CEO, from re-entering the country after she gave inaccurate information about her role. Authorities found insufficient evidence that she committed offenses tied to the declarations under investigation. Singapore is examining whether servers exported through it to Malaysia were rerouted elsewhere, contrary to declarations. It said it received \"limited information or assistance\" from U.S. authorities about Super Micro Computer Inc. A fifth person was charged on Friday in a related fraud case. Prosecutors said the alleged transactions totaled about $390 million. Megaspeed has denied wrongdoing.",
+     "eli5": "Imagine a school checking whether a box of toys went where the label said. The teachers asked another school for details about the box, but they only got a little help.",
+     "why_it_matters": "Cross-border checks on where Nvidia chips and servers end up are under active investigation in Singapore, so teams buying AI hardware through the region are working in a space under close official scrutiny.",
+     "topic": "policy",
+     "type": "event",
+     "labs": [
+      "nvidia",
+      "government"
+     ],
+     "people": [],
+     "concepts": [
+      "gpu",
+      "ai-regulation"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "Why Singapore keeps turning up in the fight over Nvidia chips and China",
+       "url": "https://www.cnbc.com/2026/11/13/nvidia-jensen-huang-alice-spy-megaspeed-.html",
+       "name": "CNBC",
+       "kind": "press"
+      },
+      {
+       "title": "AI News November 13, 2026: 22 Stories Explained",
+       "url": "https://explainx.ai/catch-up-on-ai/2026-11-13",
+       "name": "explainx.ai",
+       "kind": "press"
+      }
+     ],
+     "buzz": 2,
+     "published": "2026-11-13T00:00:00Z",
+     "checked": {
+      "model": "anthropic:claude-sonnet-5-5",
+      "rounds": 2,
+      "hype_flags": []
+     },
+     "editor_reason": "Added by the editor after the nightly run missed it.",
+     "added_by_editor": "2026-11-13",
+     "id": "2026-11-13-singapore-bars-alice-huang-says-u-s-gave-limited-help-in-nvi",
+     "date": "2026-11-13",
+     "rank": 17
     }
    ],
    "stats": {
-    "items": 48,
-    "stories": 45,
+    "items": 23,
+    "stories": 23,
     "sources_ok": 42,
     "sources_failed": [],
-    "published": 12,
+    "published": 18,
     "dropped": 0,
-    "llm_calls": 27,
+    "llm_calls": 19,
     "cache_hits": 0,
     "models": {
-     "anthropic:claude-sonnet-5-5": 24,
-     "gemini:gemini-3.5-flash-lite": 2,
-     "groq:openai/gpt-oss-120b": 1
+     "anthropic:claude-sonnet-5-5": 19
     },
-    "fallbacks": [
-     {
-      "tag": "writer",
-      "used": "gemini:gemini-3.5-flash-lite",
-      "after": [
-       "anthropic:claude-sonnet-5-5: bad JSON (JSONDecodeError)",
-       "anthropic:claude-sonnet-5-5: bad JSON (JSONDecodeError)"
-      ]
-     },
-     {
-      "tag": "checker",
-      "used": "groq:openai/gpt-oss-120b",
-      "after": [
-       "anthropic:claude-sonnet-5-5: bad JSON (JSONDecodeError)",
-       "anthropic:claude-haiku-5-5: bad JSON (JSONDecodeError)",
-       "anthropic:claude-haiku-5-5: bad JSON (JSONDecodeError)"
-      ]
-     },
-     {
-      "tag": "writer",
-      "used": "gemini:gemini-3.5-flash-lite",
-      "after": [
-       "anthropic:claude-sonnet-5-5: bad JSON (JSONDecodeError)",
-       "anthropic:claude-sonnet-5-5: bad JSON (JSONDecodeError)"
-      ]
-     }
-    ],
-    "seconds": 189
+    "fallbacks": [],
+    "seconds": 123
    }
   }
  }

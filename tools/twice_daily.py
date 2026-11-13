@@ -340,6 +340,29 @@ def article_url(u):
     return bool(path) and (bool(re.search(r"\d", path)) or last.endswith((".html", ".htm")) or last.count("-") >= 3)
 
 
+def is_dup_written(day, title, have):
+    """The research headline can differ from the title the writer gives the story, so the written story is checked
+    again; a repeat is taken back out of the edition (its page is removed at the end of the run)."""
+    days = [x for x in have if x <= day][-5:]
+    others = [x for x in titles_of(days) if x != title]
+    if not (any(same_story(title, o) for o in others) or llm_repeats([title], others)):
+        return False
+    F = DATA / "editions" / f"{day[:7]}.json"
+    m = month(day)
+    st = m["editions"][day]["stories"]
+    m["editions"][day]["stories"] = [s for s in st if s["title"] != title]
+    for r, s in enumerate(m["editions"][day]["stories"], 1):
+        s["rank"] = r
+    write(F, m)
+    I = DATA / "editions" / "index.json"
+    idx = read(I, {"editions": []})
+    for e in idx["editions"]:
+        if e["date"] == day:
+            e["count"] = len(m["editions"][day]["stories"])
+    write(I, idx)
+    return True
+
+
 def missed_stories(since, until, touched, max_add):
     from pipeline.store import norm_url
     code, out = run(["tools/research.py", "--since", iso(since), "--until", iso(until), "--focus", "news",
@@ -386,7 +409,9 @@ def missed_stories(since, until, touched, max_add):
         code, o = run(["tools/add_story.py", *urls, "--date", d], timeout=600)
         out += "\n" + o
         m = re.search(r"Added at rank \d+ of \d+ in ([\d-]+): (.+)", o)
-        if m:
+        if m and is_dup_written(m.group(1), m.group(2).strip(), have):
+            notes.append(f"removed after writing (repeats an existing story): {m.group(2)[:80]}")
+        elif m:
             added.append(f"{m.group(1)}: {m.group(2)}")
         else:
             last = o.strip().splitlines()[-1][:140] if o.strip() else str(code)
