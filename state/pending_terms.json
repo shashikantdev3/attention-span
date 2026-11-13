@@ -1295,55 +1295,6 @@
   "source": "https://machinelearning.apple.com/research/faster-retrieval"
  },
  {
-  "term": "multi-model workflow",
-  "definition": "Rather than using one model from start to finish, a session switches between models, with a frontier model for deep judgment and a faster model for execution.",
-  "first_seen": "2026-11-12",
-  "story": "2026-11-12-google-releases-gemini-4-hydrogen-a-fast-model-for-coding-an",
-  "source": "https://deepmind.google/blog/introducing-gemini-4-hydrogen/"
- },
- {
-  "term": "parallel agents",
-  "definition": "A coordinator model directs worker and verifier agents that build and test changes at the same time in isolated workspaces.",
-  "first_seen": "2026-11-12",
-  "story": "2026-11-12-google-releases-gemini-4-hydrogen-a-fast-model-for-coding-an",
-  "source": "https://deepmind.google/blog/introducing-gemini-4-hydrogen/"
- },
- {
-  "term": "CoT controllability",
-  "definition": "A model's ability to deliberately manipulate its chain of thought on command, such as inserting \"meow\" after every word or using only lowercase letters.",
-  "first_seen": "2026-11-12",
-  "story": "2026-11-12-openai-research-training-choices-make-frontier-models-reason",
-  "source": "https://the-decoder.com/openais-data-suggests-that-frontier-models-are-hiding-their-thoughts-because-developers-optimize-for-capability-and-compute/"
- },
- {
-  "term": "No-CoT capability",
-  "definition": "A model's ability to reason silently and solve problems without writing out a scratchpad.",
-  "first_seen": "2026-11-12",
-  "story": "2026-11-12-openai-research-training-choices-make-frontier-models-reason",
-  "source": "https://the-decoder.com/openais-data-suggests-that-frontier-models-are-hiding-their-thoughts-because-developers-optimize-for-capability-and-compute/"
- },
- {
-  "term": "expert paging from flash",
-  "definition": "Popular experts of a mixture-of-experts model stay in RAM, while others are read from flash on demand and the next layer's are prefetched.",
-  "first_seen": "2026-11-12",
-  "story": "2026-11-12-smolmaxxing-runs-8b-and-16b-models-on-about-1-gb-of-ram",
-  "source": "https://github.com/hyperionaidev/smolmaxxing/"
- },
- {
-  "term": "vocabulary row dropping",
-  "definition": "Most of a small model's vocabulary is rarely used, so those output rows are dropped to save RAM.",
-  "first_seen": "2026-11-12",
-  "story": "2026-11-12-smolmaxxing-runs-8b-and-16b-models-on-about-1-gb-of-ram",
-  "source": "https://github.com/hyperionaidev/smolmaxxing/"
- },
- {
-  "term": "speaker diarization",
-  "definition": "Working out which speaker said what in a conversation with several people.",
-  "first_seen": "2026-11-12",
-  "story": "2026-11-12-elevenlabs-releases-scribe-v3-and-scribe-v3-live-speech-to-t",
-  "source": "https://the-decoder.com/elevenlabs-scribe-v3-live-uses-conversational-context-to-stop-voice-agents-from-cutting-off-callers-mid-sentence/"
- },
- {
   "term": "model router",
   "definition": "A static system that guesses task difficulty from a first prompt and routes the entire task to the cheapest model that is good enough to complete it.",
   "first_seen": "2026-11-13",
@@ -1398,5 +1349,103 @@
   "first_seen": "2026-11-13",
   "story": "2026-11-13-sglang-neuron-brings-sglang-serving-to-aws-trainium-via-deep",
   "source": "https://aws.amazon.com/blogs/machine-learning/deploy-frontier-ai-models-on-aws-trainium-with-sglang-neuron/"
+ },
+ {
+  "term": "automated health checks",
+  "definition": "Automated checks that decide whether a server is working, and servers that fail them become unavailable.",
+  "first_seen": "2026-11-12",
+  "story": "2026-11-12-microsoft-365-and-outlook-outage-continues-thursday-night-as",
+  "source": "https://www.newsweek.com/microsoft-outlook-down-not-working-incident-server-12707459"
+ },
+ {
+  "term": "multi-model workflow",
+  "definition": "Rather than using one model from start to finish, a session switches between models, with a frontier model for deep judgment and a faster model for execution.",
+  "first_seen": "2026-11-12",
+  "story": "2026-11-12-google-releases-gemini-4-hydrogen-a-fast-model-for-coding-an",
+  "source": "https://deepmind.google/blog/introducing-gemini-4-hydrogen/"
+ },
+ {
+  "term": "parallel agents",
+  "definition": "A coordinator model directs worker and verifier agents that build and test changes at the same time in isolated workspaces.",
+  "first_seen": "2026-11-12",
+  "story": "2026-11-12-google-releases-gemini-4-hydrogen-a-fast-model-for-coding-an",
+  "source": "https://deepmind.google/blog/introducing-gemini-4-hydrogen/"
+ },
+ {
+  "term": "CoT controllability",
+  "definition": "A model's ability to deliberately manipulate its chain of thought on command, such as inserting \"meow\" after every word or using only lowercase letters.",
+  "first_seen": "2026-11-12",
+  "story": "2026-11-12-openai-research-training-choices-make-frontier-models-reason",
+  "source": "https://the-decoder.com/openais-data-suggests-that-frontier-models-are-hiding-their-thoughts-because-developers-optimize-for-capability-and-compute/"
+ },
+ {
+  "term": "No-CoT capability",
+  "definition": "A model's ability to reason silently and solve problems without writing out a scratchpad.",
+  "first_seen": "2026-11-12",
+  "story": "2026-11-12-openai-research-training-choices-make-frontier-models-reason",
+  "source": "https://the-decoder.com/openais-data-suggests-that-frontier-models-are-hiding-their-thoughts-because-developers-optimize-for-capability-and-compute/"
+ },
+ {
+  "term": "document segmentation",
+  "definition": "Segmentation splits a file into logical documents, so test it separately from extracting fields.",
+  "first_seen": "2026-11-12",
+  "story": "2026-11-12-azure-content-understanding-adds-gpt-5-6-gpt-6-and-gpt-6-1-m",
+  "source": "https://devblogs.microsoft.com/foundry/content-understanding-adds-gpt-5-6-gpt-6-and-gpt-6-1-choose-the-right-model-for-your-workload/"
+ },
+ {
+  "term": "MACaQ-R",
+  "definition": "MACaQ-R refines the weight codes in a quantized GGUF while preserving its native formats and block scales.",
+  "first_seen": "2026-11-12",
+  "story": "2026-11-12-huawei-releases-macaq-internal-quantizer-for-local-inference",
+  "source": "https://github.com/huawei-csl/MACaQ"
+ },
+ {
+  "term": "speaker diarization",
+  "definition": "Working out which speaker said what in a conversation with several people.",
+  "first_seen": "2026-11-12",
+  "story": "2026-11-12-elevenlabs-releases-scribe-v3-and-scribe-v3-live-speech-to-t",
+  "source": "https://the-decoder.com/elevenlabs-scribe-v3-live-uses-conversational-context-to-stop-voice-agents-from-cutting-off-callers-mid-sentence/"
+ },
+ {
+  "term": "Native AWS Access",
+  "definition": "A default rollout path used for a small, least-privilege pilot when AWS identity and IAM controls are enough.",
+  "first_seen": "2026-11-12",
+  "story": "2026-11-12-using-openai-codex-on-amazon-bedrock-with-existing-aws-pract",
+  "source": "https://aws.amazon.com/blogs/machine-learning/openai-codex-on-amazon-bedrock/"
+ },
+ {
+  "term": "AgentCore Gateway",
+  "definition": "A capability of Amazonbedrock Agentcore that provides AWS managed gateway infrastructure for routing or Amazon Bedrock Guardrails.",
+  "first_seen": "2026-11-12",
+  "story": "2026-11-12-using-openai-codex-on-amazon-bedrock-with-existing-aws-pract",
+  "source": "https://aws.amazon.com/blogs/machine-learning/openai-codex-on-amazon-bedrock/"
+ },
+ {
+  "term": "expert paging from flash",
+  "definition": "Popular experts of a mixture-of-experts model stay in RAM, while others are read from flash on demand and the next layer's are prefetched.",
+  "first_seen": "2026-11-12",
+  "story": "2026-11-12-smolmaxxing-runs-8b-and-16b-models-on-about-1-gb-of-ram",
+  "source": "https://github.com/hyperionaidev/smolmaxxing/"
+ },
+ {
+  "term": "vocabulary row dropping",
+  "definition": "Most of a small model's vocabulary is rarely used, so those output rows are dropped to save RAM.",
+  "first_seen": "2026-11-12",
+  "story": "2026-11-12-smolmaxxing-runs-8b-and-16b-models-on-about-1-gb-of-ram",
+  "source": "https://github.com/hyperionaidev/smolmaxxing/"
+ },
+ {
+  "term": "fast model call",
+  "definition": "A fast model call can change what the software itself does.",
+  "first_seen": "2026-11-12",
+  "story": "2026-11-12-report-jev-used-for-rapid-document-ranking-and-ui-prediction",
+  "source": "https://latent.space/p/jev-revolution/"
+ },
+ {
+  "term": "building block",
+  "definition": "Jev is a building block that can be adjusted and combined with strategies to get more intelligent outcomes.",
+  "first_seen": "2026-11-12",
+  "story": "2026-11-12-report-jev-used-for-rapid-document-ranking-and-ui-prediction",
+  "source": "https://latent.space/p/jev-revolution/"
  }
 ]

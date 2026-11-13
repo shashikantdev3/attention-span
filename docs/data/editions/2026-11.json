@@ -7599,6 +7599,54 @@
      "date": "2026-11-12"
     },
     {
+     "title": "Microsoft 365 outage takes down Outlook and Teams for hours; Microsoft says a core server process was overwhelmed",
+     "one_liner": "Microsoft says restarting servers is showing positive results after a Thursday outage hit Outlook, Teams and other Microsoft 365 services, with thousands of reports still open.",
+     "summary": "Microsoft 365 services, including Outlook and Teams, had problems on Thursday. Outlook reports peaked at more than 130,000 on Downdetector at 1:15 p.m. By 10 p.m., about 25,000 Outlook reports and more than 8,700 Microsoft 365 reports remained. Microsoft said a core process on affected servers was becoming overwhelmed, and that servers were failing automated health checks. It is restarting servers in stages and checking them before applying the fix more widely. The cause of the servers going offline is still unclear. Microsoft has not said when service will fully return.",
+     "eli5": "Imagine a row of helpers who each hold up part of a big tent. Some helpers suddenly sat down, so the rest got too tired. Microsoft is waking the helpers up one at a time to make sure they stay standing.",
+     "why_it_matters": "Teams that rely on Microsoft 365 tools such as Exchange Online, Teams, Power BI and Copilot 365 should plan for outages, since one server health problem can disrupt many linked services at once.",
+     "topic": "microsoft",
+     "type": "event",
+     "labs": [
+      "microsoft"
+     ],
+     "people": [],
+     "concepts": [],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [
+      {
+       "term": "automated health checks",
+       "definition": "Automated checks that decide whether a server is working, and servers that fail them become unavailable."
+      }
+     ],
+     "sources": [
+      {
+       "title": "Is Microsoft Outlook still down? New update as thousands report problems",
+       "url": "https://www.newsweek.com/microsoft-outlook-down-not-working-incident-server-12707459",
+       "name": "Newsweek",
+       "kind": "press"
+      },
+      {
+       "title": "Microsoft 365 Outage Cuts Off Outlook for Hours; Microsoft Has Not Named a Root Cause",
+       "url": "https://www.webpronews.com/microsoft-365-outlook-outage-servers-health-checks-no-root-cause",
+       "name": "WebProNews",
+       "kind": "press"
+      }
+     ],
+     "buzz": 2,
+     "published": "2026-11-12T19:28:27Z",
+     "checked": {
+      "model": "anthropic:claude-sonnet-5-5",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "Added by the editor after the nightly run missed it.",
+     "added_by_editor": "2026-11-13",
+     "id": "2026-11-12-microsoft-365-and-outlook-outage-continues-thursday-night-as",
+     "date": "2026-11-12",
+     "rank": 2
+    },
+    {
      "title": "Google releases Gemini 4 Hydrogen, a fast model for coding and agent workflows",
      "one_liner": "Google DeepMind introduced Gemini 4 Hydrogen, built for fast execution in coding and agent tasks, priced at $1.50 per million input tokens and $7.50 per million output tokens.",
      "summary": "Google DeepMind launched Gemini 4 Hydrogen on Nov 12, 2026. It is built for rapid execution in everyday coding and agentic workflows. It scores 51 on the Artificial Analysis Intelligence Index at its default high thinking level, against 50 for Gemini 4 Argon, and 54 at xhigh. Pricing is flat across a 1 million-token context window: $1.50 per million input tokens and $7.50 per million output tokens. Google also added Orchestrator in Google Antigravity, which switches between models like Carbon and Hydrogen in one session. On Terminal-Bench 4.0 it used 24% less quota and finished 19% faster. Against Gemini 3.8 Flash, Hydrogen finishes tasks 2.5 times faster.",
@@ -7661,7 +7709,7 @@
       "hype_flags": []
      },
      "editor_reason": "Google's own launch of Gemini 4 Hydrogen, rolling into Search globally, was carried by three sources and drew heavy discussion on Hacker News.",
-     "rank": 2,
+     "rank": 3,
      "id": "2026-11-12-google-releases-gemini-4-hydrogen-a-fast-model-for-coding-an",
      "date": "2026-11-12"
     },
@@ -7705,7 +7753,7 @@
       "hype_flags": []
      },
      "editor_reason": "Anthropic is preparing for an initial public offering, marking a major financial milestone for top AI labs.",
-     "rank": 3,
+     "rank": 4,
      "id": "2026-11-12-anthropic-announces-initial-public-offering-timeline-and-fin",
      "date": "2026-11-12"
     },
@@ -7758,7 +7806,7 @@
       "hype_flags": []
      },
      "editor_reason": "United Airlines has banned personal AI agents from booking flights on behalf of travelers, citing privacy and regulatory concerns.",
-     "rank": 4,
+     "rank": 5,
      "id": "2026-11-12-united-airlines-bans-ai-agents-from-booking-flights",
      "date": "2026-11-12"
     },
@@ -7809,7 +7857,7 @@
       "hype_flags": []
      },
      "editor_reason": "OpenAI's safety team studied why chains of thought in frontier models like GPT-6 Astra increasingly evade oversight, which matters for anyone relying on reasoning traces for monitoring.",
-     "rank": 5,
+     "rank": 6,
      "id": "2026-11-12-openai-research-training-choices-make-frontier-models-reason",
      "date": "2026-11-12"
     },
@@ -7855,7 +7903,7 @@
       "hype_flags": []
      },
      "editor_reason": "Azure Content Understanding added support for the GPT-5.6, GPT-6, and GPT-6.1 model families across document and speech workflows.",
-     "rank": 6,
+     "rank": 7,
      "id": "2026-11-12-azure-content-understanding-adds-gpt-5-6-gpt-6-and-gpt-6-1-m",
      "date": "2026-11-12"
     },
@@ -7904,7 +7952,7 @@
       "hype_flags": []
      },
      "editor_reason": "Huawei open-sourced MACaQ, its internal model quantizer aimed at optimizing local LLM inference.",
-     "rank": 7,
+     "rank": 8,
      "id": "2026-11-12-huawei-releases-macaq-internal-quantizer-for-local-inference",
      "date": "2026-11-12"
     },
@@ -7941,7 +7989,7 @@
       "hype_flags": []
      },
      "editor_reason": "AWS introduced a Web Search API for Bedrock AgentCore to let autonomous agents query real-time external data.",
-     "rank": 8,
+     "rank": 9,
      "id": "2026-11-12-amazon-announces-web-search-api-on-amazon-bedrock-agentcore",
      "date": "2026-11-12"
     },
@@ -7981,7 +8029,7 @@
       "hype_flags": []
      },
      "editor_reason": "AWS announced a next-generation AgentCore runtime aimed at running long, multi-step agent workloads securely.",
-     "rank": 9,
+     "rank": 10,
      "id": "2026-11-12-aws-updates-agentcore-runtime-with-faster-starts-and-larger",
      "date": "2026-11-12"
     },
@@ -8031,7 +8079,7 @@
       "hype_flags": []
      },
      "editor_reason": "ElevenLabs released Scribe v3 and Scribe v3 Live, speech recognition models built to handle noise and crosstalk and to stop voice agents cutting callers off.",
-     "rank": 10,
+     "rank": 11,
      "id": "2026-11-12-elevenlabs-releases-scribe-v3-and-scribe-v3-live-speech-to-t",
      "date": "2026-11-12"
     },
@@ -8080,7 +8128,7 @@
       "hype_flags": []
      },
      "editor_reason": "AWS added support for OpenAI Codex inside Amazon Bedrock for software engineering workloads.",
-     "rank": 11,
+     "rank": 12,
      "id": "2026-11-12-using-openai-codex-on-amazon-bedrock-with-existing-aws-pract",
      "date": "2026-11-12"
     },
@@ -8135,7 +8183,7 @@
       "hype_flags": []
      },
      "editor_reason": "A widely discussed project (275 points on Hacker News) on making LLMs run on small and old devices.",
-     "rank": 12,
+     "rank": 13,
      "id": "2026-11-12-smolmaxxing-runs-8b-and-16b-models-on-about-1-gb-of-ram",
      "date": "2026-11-12"
     },
@@ -8173,7 +8221,7 @@
       "hype_flags": []
      },
      "editor_reason": "Reports outlined potential internal and external candidates to eventually succeed Nvidia CEO Jensen Huang.",
-     "rank": 13,
+     "rank": 14,
      "id": "2026-11-12-report-looks-at-potential-nvidia-ceo-candidates",
      "date": "2026-11-12"
     },
@@ -8220,7 +8268,7 @@
       "hype_flags": []
      },
      "editor_reason": "Engineers at the AI Engineer Code Summit focused on system one models that yield structured choices and probabilities.",
-     "rank": 14,
+     "rank": 15,
      "id": "2026-11-12-report-jev-used-for-rapid-document-ranking-and-ui-prediction",
      "date": "2026-11-12"
     },
@@ -8258,7 +8306,7 @@
       "hype_flags": []
      },
      "editor_reason": "Google introduced Tabletop, an experimental AI platform for collaborative personal planning and coordination.",
-     "rank": 15,
+     "rank": 16,
      "id": "2026-11-12-google-launches-tabletop-ai-personal-planning-platform",
      "date": "2026-11-12"
     }
@@ -8268,7 +8316,7 @@
     "stories": 38,
     "sources_ok": 42,
     "sources_failed": [],
-    "published": 8,
+    "published": 16,
     "dropped": 0,
     "llm_calls": 19,
     "cache_hits": 0,

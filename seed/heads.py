@@ -138,6 +138,7 @@ HEADS = [
     H("berber-jin", "Berber Jin", "explainers", "Wall Street Journal reporter covering AI companies", "berber_jin1"),
     H("x-google-devs", "Google for Developers", "official", "Google's account for developers: Gemini API, Android, Cloud", "googledevs"),
     H("x-gov-hochul", "Governor Kathy Hochul", "official", "Governor of New York, which passed the RAISE Act on frontier AI safety", "GovKathyHochul"),
+    H("x-msft365status", "Microsoft 365 Status", "official", "Microsoft's account for Microsoft 365 service incidents", "MSFT365Status"),
     H("mark-gurman", "Mark Gurman", "explainers", "Bloomberg reporter who covers Apple", "markgurman"),
     H("gergely-orosz", "Gergely Orosz", "explainers", "Writes The Pragmatic Engineer newsletter on software engineering", "GergelyOrosz"),
     H("clint-gibler", "Clint Gibler", "explainers", "Security researcher; writes the tl;dr sec newsletter", "clintgibler"),

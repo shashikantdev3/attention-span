@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-13T01:09:00Z",
+ "updated_at": "2026-11-13T04:09:57Z",
  "window_days": 7,
  "groups": [
   {
@@ -926,6 +926,15 @@
    "group": "official",
    "known_for": "Governor of New York, which passed the RAISE Act on frontier AI safety",
    "x": "GovKathyHochul",
+   "bsky": null,
+   "bsky_check": null
+  },
+  {
+   "id": "x-msft365status",
+   "name": "Microsoft 365 Status",
+   "group": "official",
+   "known_for": "Microsoft's account for Microsoft 365 service incidents",
+   "x": "MSFT365Status",
    "bsky": null,
    "bsky_check": null
   },
@@ -1980,8 +1989,8 @@
     }
    ],
    "context": null,
-   "likes": 13,
-   "reposts": 3,
+   "likes": 26,
+   "reposts": 4,
    "via": "feed",
    "meaning": "Simon Willison discusses the confusing pricing structure of the new Gemini 4 models, noting token prices for Argon, Carbon, and Hydrogen, and upcoming price increases.",
    "concepts": [
@@ -2006,8 +2015,8 @@
     }
    ],
    "context": null,
-   "likes": 67,
-   "reposts": 15,
+   "likes": 79,
+   "reposts": 16,
    "via": "feed",
    "meaning": "Ethan Mollick announces Primer, an open source agent-driven system from Penn's Generative AI Lab. Teachers describe a lesson and get a playable student simulation grounded in pedagogy. Paper, prompts and code are published for others to build on.",
    "concepts": [
@@ -2090,6 +2099,24 @@
    "story": "2026-11-13-report-claims-six-chinese-ai-models-show-fingerprints-of-exp",
    "model": "gemini:gemini-3.5-flash-lite",
    "checked": "anthropic:claude-sonnet-5-5",
+   "added": "2026-11-13"
+  },
+  {
+   "id": "x-2120974801388904932",
+   "platform": "x",
+   "url": "https://x.com/MSFT365Status/status/2120974801388904932",
+   "posted_at": "2026-11-12T20:19:33Z",
+   "date_only": false,
+   "text": "We've not identified any recent change correlated with the start of impact; however, our investigation indicates the failed health checks may originate from a specific component that's responsible for processing server health. We've taken steps to prevent additional servers from…",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">We&#39;ve not identified any recent change correlated with the start of impact; however, our investigation indicates the failed health checks may originate from a specific component that&#39;s responsible for processing server health. We&#39;ve taken steps to prevent additional servers from…</p>&mdash; Microsoft 365 Status (@MSFT365Status) <a href=\"https://x.com/MSFT365Status/status/2120974801388904932?ref_src=twsrc%5Etfw\">November 12, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "x-msft365status",
+   "meaning": "Microsoft 365 Status says it has not found a recent change linked to the start of the outage. It suspects failed health checks come from a component that processes server health, and it has taken steps to stop more servers from being affected.",
+   "concepts": [],
+   "story": "2026-11-12-microsoft-365-and-outlook-outage-continues-thursday-night-as",
+   "model": "anthropic:claude-haiku-5-5",
+   "checked": null,
    "added": "2026-11-13"
   },
   {
@@ -2203,8 +2230,8 @@
    "text": "People who have no contact with coders seem to have no idea how much an entire profession transformed in less than a year due to AI. It is so weird to still see comments here that AI hasn’t changed anything or that AI code is bad or that companies are retreating from AI use. Does not match reality.",
    "links": [],
    "context": null,
-   "likes": 516,
-   "reposts": 66,
+   "likes": 521,
+   "reposts": 67,
    "via": "feed",
    "meaning": "Mollick argues that people outside programming underestimate how much AI has transformed software work in under a year. He says claims that AI code is bad or that companies are retreating from AI do not match his experience.",
    "concepts": [
@@ -2469,7 +2496,7 @@
     }
    ],
    "context": null,
-   "likes": 32,
+   "likes": 33,
    "reposts": 1,
    "via": "feed",
    "meaning": "Ethan Mollick describes building a fantasy transport game with Claude Fable 5.2, then letting multiple agents argue over art, lore and jokes. The result is a game called Dread & District.",
