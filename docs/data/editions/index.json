@@ -1,11 +1,18 @@
 {
  "editions": [
   {
-   "date": "2026-11-12",
+   "date": "2026-11-13",
    "file": "2026-11.json",
    "count": 9,
-   "spotlight": 1,
-   "lead": "Anthropic Announces Initial Public Offering Timeline and Financial Highlights"
+   "spotlight": 0,
+   "lead": "Reuters: Jensen Huang also had a relationship with a second Nvidia employee before resigning, sources say"
+  },
+  {
+   "date": "2026-11-12",
+   "file": "2026-11.json",
+   "count": 15,
+   "spotlight": 2,
+   "lead": "Jensen Huang resigns as Nvidia CEO; CFO Colette Kress named interim"
   },
   {
    "date": "2026-11-11",
@@ -253,6 +260,6 @@
    "lead": "Anthropic Releases Claude Haiku 5.5 and AWS Integration"
   }
  ],
- "latest": "2026-11-12",
- "updated": "2026-11-12T13:06:32Z"
+ "latest": "2026-11-13",
+ "updated": "2026-11-13T01:06:36Z"
 }

@@ -7518,8 +7518,153 @@
   },
   "2026-11-12": {
    "date": "2026-11-12",
-   "generated_at": "2026-11-12T13:07:13Z",
+   "generated_at": "2026-11-13T01:03:27Z",
    "stories": [
+    {
+     "title": "Jensen Huang resigns as Nvidia CEO; CFO Colette Kress named interim",
+     "one_liner": "Jensen Huang resigned as Nvidia CEO, president and board member after a board investigation into reported affairs, and CFO Colette Kress is interim CEO.",
+     "summary": "Jensen Huang resigned as CEO, president and board member of Nvidia, effective immediately, according to a statement dated November 12, 2026. The Verge reports the board had opened an investigation into multiple extramarital affairs, including one with a direct report and one with an alleged Chinese spy. The New York Times reported a second affair on Wednesday, and a board meeting that night ended with his resignation. CFO Colette Kress is interim CEO. Harvey Jones is the first Chair of the Board. The Decoder reports the scandal wiped out $1.4 trillion in market value.",
+     "eli5": "Imagine the head of a big team leaves suddenly, and another grown-up from the team steps in to lead for now. The team keeps playing while it decides what to do next.",
+     "why_it_matters": "Teams that depend on Nvidia GPUs now buy from a company run by an interim CEO, so leadership changes there are worth watching.",
+     "topic": "industry",
+     "type": "person",
+     "labs": [
+      "nvidia"
+     ],
+     "people": [],
+     "concepts": [],
+     "spotlight": true,
+     "spotlight_reason": "Widely discussed: it speaks to how AI is changing the way software is built, 374 points on Hacker News.",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "Jensen Huang resigns as Nvidia CEO immediately",
+       "url": "https://www.reuters.com/live/nvidia-live-board-meets-fate-ceo-jensen-huang-after-affair-reports-2026-11-12/",
+       "name": "reuters.com",
+       "kind": "press"
+      },
+      {
+       "title": "Discussion on Hacker News",
+       "url": "https://news.ycombinator.com/item?id=50467132",
+       "name": "Hacker News",
+       "kind": "discussion"
+      },
+      {
+       "title": "Nvidia CEO Jensen Huang resigns after reports of second affair deepened scandal",
+       "url": "https://www.bbc.co.uk/news/live/c6zjry11v8w1t",
+       "name": "bbc.co.uk",
+       "kind": "press"
+      },
+      {
+       "title": "Discussion on Hacker News",
+       "url": "https://news.ycombinator.com/item?id=50467139",
+       "name": "Hacker News",
+       "kind": "discussion"
+      },
+      {
+       "title": "Nvidia CEO Jensen Huang resigns after reports of extramarital relationships",
+       "url": "https://www.nbcnews.com/tech/tech-news/nvidia-ceo-jensen-huang-resigns-reports-extramarital-relationships-rcna608402",
+       "name": "nbcnews.com",
+       "kind": "press"
+      },
+      {
+       "title": "Discussion on Hacker News",
+       "url": "https://news.ycombinator.com/item?id=50467191",
+       "name": "Hacker News",
+       "kind": "discussion"
+      },
+      {
+       "title": "Jensen Huang resigns as Nvidia CEO after espionage scandal wipes out $1.4 trillion in market value",
+       "url": "https://the-decoder.com/jensen-huang-resigns-as-nvidia-ceo-after-espionage-scandal-wipes-out-1-4-trillion-in-market-value/",
+       "name": "The Decoder",
+       "kind": "press"
+      },
+      {
+       "title": "Jensen Huang is out at Nvidia — who is Colette Kress, his interim replacement?",
+       "url": "https://techcrunch.com/2026/11/12/jensen-huang-is-out-at-nvidia-who-is-colette-kress-his-interim-replacement/",
+       "name": "TechCrunch AI",
+       "kind": "press"
+      }
+     ],
+     "buzz": 4,
+     "published": "2026-11-12T13:56:11Z",
+     "checked": {
+      "model": "anthropic:claude-sonnet-5-5",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "Jensen Huang resigned as Nvidia CEO effective immediately, with Colette Kress as interim replacement, which affects the company most AI builders depend on.",
+     "rank": 1,
+     "id": "2026-11-12-jensen-huang-resigns-as-nvidia-ceo-cfo-colette-kress-named-i",
+     "date": "2026-11-12"
+    },
+    {
+     "title": "Google releases Gemini 4 Hydrogen, a fast model for coding and agent workflows",
+     "one_liner": "Google DeepMind introduced Gemini 4 Hydrogen, built for fast execution in coding and agent tasks, priced at $1.50 per million input tokens and $7.50 per million output tokens.",
+     "summary": "Google DeepMind launched Gemini 4 Hydrogen on Nov 12, 2026. It is built for rapid execution in everyday coding and agentic workflows. It scores 51 on the Artificial Analysis Intelligence Index at its default high thinking level, against 50 for Gemini 4 Argon, and 54 at xhigh. Pricing is flat across a 1 million-token context window: $1.50 per million input tokens and $7.50 per million output tokens. Google also added Orchestrator in Google Antigravity, which switches between models like Carbon and Hydrogen in one session. On Terminal-Bench 4.0 it used 24% less quota and finished 19% faster. Against Gemini 3.8 Flash, Hydrogen finishes tasks 2.5 times faster.",
+     "eli5": "Think of a team where one expert plans the big project and a quick helper does the hands-on work. Hydrogen is the quick helper that gets the jobs done fast.",
+     "why_it_matters": "Teams can pair a fast, flat-priced execution model with Carbon or Argon, and let Orchestrator switch between them, to cut quota use and time on coding agent work.",
+     "topic": "models",
+     "type": "model",
+     "labs": [
+      "google"
+     ],
+     "people": [],
+     "concepts": [
+      "agent",
+      "context-window",
+      "benchmark"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [
+      {
+       "term": "multi-model workflow",
+       "definition": "Rather than using one model from start to finish, a session switches between models, with a frontier model for deep judgment and a faster model for execution."
+      },
+      {
+       "term": "parallel agents",
+       "definition": "A coordinator model directs worker and verifier agents that build and test changes at the same time in isolated workspaces."
+      }
+     ],
+     "sources": [
+      {
+       "title": "Introducing Gemini 4 Hydrogen",
+       "url": "https://deepmind.google/blog/introducing-gemini-4-hydrogen/",
+       "name": "Google DeepMind Blog",
+       "kind": "original"
+      },
+      {
+       "title": "Google Search gets a major upgrade with Gemini 4 Hydrogen",
+       "url": "https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade/",
+       "name": "Google AI Blog",
+       "kind": "original"
+      },
+      {
+       "title": "Gemini 4 Hydrogen",
+       "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/",
+       "name": "blog.google",
+       "kind": "original"
+      },
+      {
+       "title": "Discussion on Hacker News",
+       "url": "https://news.ycombinator.com/item?id=50471431",
+       "name": "Hacker News",
+       "kind": "discussion"
+      }
+     ],
+     "buzz": 3,
+     "published": "2026-11-12T18:00:00Z",
+     "checked": {
+      "model": "anthropic:claude-sonnet-5-5",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "Google's own launch of Gemini 4 Hydrogen, rolling into Search globally, was carried by three sources and drew heavy discussion on Hacker News.",
+     "rank": 2,
+     "id": "2026-11-12-google-releases-gemini-4-hydrogen-a-fast-model-for-coding-an",
+     "date": "2026-11-12"
+    },
     {
      "title": "Anthropic Announces Initial Public Offering Timeline and Financial Highlights",
      "one_liner": "Anthropic announced its initial public offering timeline, offering Class A common stock on Nasdaq under the ticker symbol ANT.",
@@ -7560,7 +7705,7 @@
       "hype_flags": []
      },
      "editor_reason": "Anthropic is preparing for an initial public offering, marking a major financial milestone for top AI labs.",
-     "rank": 1,
+     "rank": 3,
      "id": "2026-11-12-anthropic-announces-initial-public-offering-timeline-and-fin",
      "date": "2026-11-12"
     },
@@ -7613,8 +7758,59 @@
       "hype_flags": []
      },
      "editor_reason": "United Airlines has banned personal AI agents from booking flights on behalf of travelers, citing privacy and regulatory concerns.",
-     "rank": 2,
+     "rank": 4,
      "id": "2026-11-12-united-airlines-bans-ai-agents-from-booking-flights",
+     "date": "2026-11-12"
+    },
+    {
+     "title": "OpenAI research: training choices make frontier models' reasoning harder to monitor",
+     "one_liner": "OpenAI's safety team says four training steps, including architecture and reinforcement learning, make GPT-6 Astra's chains of thought harder to monitor, and that this is tied to capability and cost.",
+     "summary": "OpenAI's safety team studied models from GPT-5 through GPT-6 Astra to find why chains of thought are harder for monitors to read. It traced the problem to four main causes across the training cycle. Silent reasoning without a scratchpad rises with base model capability. One of three anonymized architectures, \"Architecture 2\", favored silent multi-step reasoning. Reinforcement learning now increases control over the reasoning log in Astra-class and internal \"Terra\" models. Student models inherit a teacher's high CoT controllability. OpenAI says the loss of transparency is not purely a law of nature. A smaller model that reasons at greater length can be easier to monitor, but it raises compute costs.",
+     "eli5": "Imagine a kid who used to say each math step out loud, so the teacher could follow along. Now the kid does the steps quietly in their head, and the teacher can't see how they got the answer.",
+     "why_it_matters": "Choices about architecture, teacher models and chain-of-thought length shape how well safety monitors can read a model's reasoning, so monitorability becomes a design and cost decision.",
+     "topic": "research",
+     "type": "paper",
+     "labs": [
+      "openai",
+      "anthropic",
+      "government"
+     ],
+     "people": [],
+     "concepts": [
+      "chain-of-thought",
+      "ai-safety",
+      "reinforcement-learning"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [
+      {
+       "term": "CoT controllability",
+       "definition": "A model's ability to deliberately manipulate its chain of thought on command, such as inserting \"meow\" after every word or using only lowercase letters."
+      },
+      {
+       "term": "No-CoT capability",
+       "definition": "A model's ability to reason silently and solve problems without writing out a scratchpad."
+      }
+     ],
+     "sources": [
+      {
+       "title": "OpenAI’s data suggests that frontier models are hiding their thoughts because developers optimize for capability and compute",
+       "url": "https://the-decoder.com/openais-data-suggests-that-frontier-models-are-hiding-their-thoughts-because-developers-optimize-for-capability-and-compute/",
+       "name": "The Decoder",
+       "kind": "press"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-12T16:58:11Z",
+     "checked": {
+      "model": "anthropic:claude-sonnet-5-5",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "OpenAI's safety team studied why chains of thought in frontier models like GPT-6 Astra increasingly evade oversight, which matters for anyone relying on reasoning traces for monitoring.",
+     "rank": 5,
+     "id": "2026-11-12-openai-research-training-choices-make-frontier-models-reason",
      "date": "2026-11-12"
     },
     {
@@ -7659,7 +7855,7 @@
       "hype_flags": []
      },
      "editor_reason": "Azure Content Understanding added support for the GPT-5.6, GPT-6, and GPT-6.1 model families across document and speech workflows.",
-     "rank": 3,
+     "rank": 6,
      "id": "2026-11-12-azure-content-understanding-adds-gpt-5-6-gpt-6-and-gpt-6-1-m",
      "date": "2026-11-12"
     },
@@ -7708,7 +7904,7 @@
       "hype_flags": []
      },
      "editor_reason": "Huawei open-sourced MACaQ, its internal model quantizer aimed at optimizing local LLM inference.",
-     "rank": 4,
+     "rank": 7,
      "id": "2026-11-12-huawei-releases-macaq-internal-quantizer-for-local-inference",
      "date": "2026-11-12"
     },
@@ -7745,8 +7941,98 @@
       "hype_flags": []
      },
      "editor_reason": "AWS introduced a Web Search API for Bedrock AgentCore to let autonomous agents query real-time external data.",
-     "rank": 5,
+     "rank": 8,
      "id": "2026-11-12-amazon-announces-web-search-api-on-amazon-bedrock-agentcore",
+     "date": "2026-11-12"
+    },
+    {
+     "title": "AWS updates AgentCore runtime with faster starts and larger agent sessions",
+     "one_liner": "AWS announced updates to Amazon Bedrock AgentCore runtime: sessions start up to 15x faster, scale to 4x more compute, and run up to 68% more efficiently.",
+     "summary": "AWS announced updates to AgentCore runtime, the managed compute layer of Amazon Bedrock AgentCore. Every session still runs in its own hardware-isolated Firecracker MicroVM, with its own identity, policy, and audit trail. Sessions now start up to 15x faster, scale to 4x more compute, and run up to 68% more efficiently. Sessions go up to 8 vCPUs and 32 GB, with container images up to 10 GB. They start in under 2 seconds, independent of image size and concurrency, so warm pools and pre-provisioned clusters are no longer needed. Customers Coinbase, Mission Cloud, Zuora and Rescale gave feedback.",
+     "eli5": "Imagine every kid gets their own sandbox to play in, so nobody can mess up anyone else's castle. Now the sandboxes are ready almost instantly and can be made bigger when a kid needs more room.",
+     "why_it_matters": "Teams running many agent sessions can keep strong per-session isolation without keeping warm pools or pre-provisioned clusters to avoid cold starts.",
+     "topic": "agents",
+     "type": "product",
+     "labs": [
+      "other"
+     ],
+     "people": [],
+     "concepts": [
+      "agent-sandbox",
+      "agent",
+      "inference"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "Run agents securely and efficiently with the next generation AgentCore runtime",
+       "url": "https://aws.amazon.com/blogs/machine-learning/run-agents-securely-and-efficiently-with-the-next-generation-agentcore-runtime/",
+       "name": "AWS Machine Learning Blog",
+       "kind": "original"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-12T17:59:59Z",
+     "checked": {
+      "model": "anthropic:claude-sonnet-5-5",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "AWS announced a next-generation AgentCore runtime aimed at running long, multi-step agent workloads securely.",
+     "rank": 9,
+     "id": "2026-11-12-aws-updates-agentcore-runtime-with-faster-starts-and-larger",
+     "date": "2026-11-12"
+    },
+    {
+     "title": "ElevenLabs releases Scribe v3 and Scribe v3 Live speech-to-text models",
+     "one_liner": "ElevenLabs released Scribe v3 for recorded audio and Scribe v3 Live for real-time use, built for crosstalk and background noise.",
+     "summary": "ElevenLabs has released two speech-to-text models, Scribe v3 for pre-recorded audio and Scribe v3 Live for low-latency real-time use. The company says Scribe v3 cuts word errors by about 25 percent versus its predecessor across 102 languages. Artificial Analysis benchmarks put Scribe v3 among the most accurate models, but Microsoft and xAI models run many times faster and cost roughly half as much. Scribe v3 Live analyzes conversational context to tell when a speaker has finished. Both models are available through the ElevenAPI and the ElevenAgents platform.",
+     "eli5": "Imagine a friend who listens to you talk and waits until you are really done before answering. This tool tries to do that, so it does not jump in when you just stop to think.",
+     "why_it_matters": "Teams building voice agents get a real-time transcription option that judges when a caller is done speaking instead of using a fixed pause timer, though the benchmark only tested recorded files.",
+     "topic": "models",
+     "type": "model",
+     "labs": [
+      "nvidia",
+      "microsoft",
+      "google",
+      "openai",
+      "mistral",
+      "qwen",
+      "other"
+     ],
+     "people": [],
+     "concepts": [
+      "benchmark",
+      "inference"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [
+      {
+       "term": "speaker diarization",
+       "definition": "Working out which speaker said what in a conversation with several people."
+      }
+     ],
+     "sources": [
+      {
+       "title": "ElevenLabs Scribe v3 Live uses conversational context to stop voice agents from cutting off callers mid-sentence",
+       "url": "https://the-decoder.com/elevenlabs-scribe-v3-live-uses-conversational-context-to-stop-voice-agents-from-cutting-off-callers-mid-sentence/",
+       "name": "The Decoder",
+       "kind": "press"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-12T13:48:19Z",
+     "checked": {
+      "model": "anthropic:claude-sonnet-5-5",
+      "rounds": 2,
+      "hype_flags": []
+     },
+     "editor_reason": "ElevenLabs released Scribe v3 and Scribe v3 Live, speech recognition models built to handle noise and crosstalk and to stop voice agents cutting callers off.",
+     "rank": 10,
+     "id": "2026-11-12-elevenlabs-releases-scribe-v3-and-scribe-v3-live-speech-to-t",
      "date": "2026-11-12"
     },
     {
@@ -7794,8 +8080,63 @@
       "hype_flags": []
      },
      "editor_reason": "AWS added support for OpenAI Codex inside Amazon Bedrock for software engineering workloads.",
-     "rank": 6,
+     "rank": 11,
      "id": "2026-11-12-using-openai-codex-on-amazon-bedrock-with-existing-aws-pract",
+     "date": "2026-11-12"
+    },
+    {
+     "title": "smolmaxxing runs 8B and 16B models on about 1 GB of RAM",
+     "one_liner": "An open-source llama.cpp patch called smolmaxxing runs 8B and 16B mixture-of-experts models on about 1 GB of RAM by streaming weights from flash.",
+     "summary": "smolmaxxing is a patch on llama.cpp that aims to run the biggest language model possible on small, old hardware such as TV boxes, old tablets, single-board computers and routers. Two devices are covered so far, and both run 8B and 16B mixture-of-experts models on about 1 GB of RAM. It keeps part of each model in memory and reads the rest from flash as needed. Other techniques include a 1-bit lookup-table kernel, dropping rarely used vocabulary output rows, and streaming for dense models bigger than RAM. All numbers were measured on the devices. Stock llama.cpp cannot load the model files.",
+     "eli5": "Imagine your desk is too small for all your toys, so you keep your favorite ones on it and fetch the others from a shelf when you need them. This lets a small computer use a big brain the same way.",
+     "why_it_matters": "Old TV boxes, tablets and other low-memory hardware can now run 8B and 16B models locally, which widens where on-device inference is possible.",
+     "topic": "dev-tools",
+     "type": "product",
+     "labs": [
+      "other"
+     ],
+     "people": [],
+     "concepts": [
+      "mixture-of-experts",
+      "inference",
+      "quantization"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [
+      {
+       "term": "expert paging from flash",
+       "definition": "Popular experts of a mixture-of-experts model stay in RAM, while others are read from flash on demand and the next layer's are prefetched."
+      },
+      {
+       "term": "vocabulary row dropping",
+       "definition": "Most of a small model's vocabulary is rarely used, so those output rows are dropped to save RAM."
+      }
+     ],
+     "sources": [
+      {
+       "title": "I'm making LLMs work on small and old devices",
+       "url": "https://github.com/hyperionaidev/smolmaxxing/",
+       "name": "github.com",
+       "kind": "original"
+      },
+      {
+       "title": "Discussion on Hacker News",
+       "url": "https://news.ycombinator.com/item?id=50468888",
+       "name": "Hacker News",
+       "kind": "discussion"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-12T15:23:10Z",
+     "checked": {
+      "model": "anthropic:claude-sonnet-5-5",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "A widely discussed project (275 points on Hacker News) on making LLMs run on small and old devices.",
+     "rank": 12,
+     "id": "2026-11-12-smolmaxxing-runs-8b-and-16b-models-on-about-1-gb-of-ram",
      "date": "2026-11-12"
     },
     {
@@ -7832,7 +8173,7 @@
       "hype_flags": []
      },
      "editor_reason": "Reports outlined potential internal and external candidates to eventually succeed Nvidia CEO Jensen Huang.",
-     "rank": 7,
+     "rank": 13,
      "id": "2026-11-12-report-looks-at-potential-nvidia-ceo-candidates",
      "date": "2026-11-12"
     },
@@ -7879,7 +8220,7 @@
       "hype_flags": []
      },
      "editor_reason": "Engineers at the AI Engineer Code Summit focused on system one models that yield structured choices and probabilities.",
-     "rank": 8,
+     "rank": 14,
      "id": "2026-11-12-report-jev-used-for-rapid-document-ranking-and-ui-prediction",
      "date": "2026-11-12"
     },
@@ -7917,73 +8258,542 @@
       "hype_flags": []
      },
      "editor_reason": "Google introduced Tabletop, an experimental AI platform for collaborative personal planning and coordination.",
-     "rank": 9,
+     "rank": 15,
      "id": "2026-11-12-google-launches-tabletop-ai-personal-planning-platform",
      "date": "2026-11-12"
     }
    ],
    "stats": {
-    "items": 15,
-    "stories": 15,
+    "items": 41,
+    "stories": 38,
     "sources_ok": 42,
     "sources_failed": [],
-    "published": 5,
-    "dropped": 2,
-    "llm_calls": 17,
+    "published": 8,
+    "dropped": 0,
+    "llm_calls": 19,
     "cache_hits": 0,
     "models": {
-     "gemini:gemini-3.5-flash": 1,
-     "gemini:gemini-3.5-flash-lite": 5,
-     "groq:openai/gpt-oss-120b": 9,
-     "groq:qwen/qwen3.8-27b": 2
+     "anthropic:claude-sonnet-5-5": 19
+    },
+    "fallbacks": [],
+    "seconds": 112
+   }
+  },
+  "2026-11-13": {
+   "date": "2026-11-13",
+   "generated_at": "2026-11-13T01:06:58Z",
+   "stories": [
+    {
+     "title": "Reuters: Jensen Huang also had a relationship with a second Nvidia employee before resigning, sources say",
+     "one_liner": "Reuters, citing two people familiar, reports ousted Nvidia CEO Jensen Huang had an intimate relationship with a second employee before he resigned.",
+     "summary": "Reuters reports, citing two people familiar with the matter, that Jensen Huang had an intimate relationship with a second Nvidia employee. Reuters is withholding her name. Nvidia announced Thursday that Huang resigned as president, CEO and board member, effective immediately. This followed reports of an affair with a woman U.S. intelligence officials reportedly concluded was a Chinese spy, and a second affair with a direct report. CFO Colette Kress is interim CEO while the board searches for a permanent one. Harvey Jones becomes first board chair. Nvidia shares fell more than 13% in early trading. Democrats have launched an investigation.",
+     "eli5": "Imagine the head of a big toy company quit after news came out about secret things he did. Now someone else is running the company for a while until they find a new boss.",
+     "why_it_matters": "Nvidia's leadership is in transition, so teams that depend on its GPUs, open source work and models face uncertainty about the company's direction and its commitment to open source AI.",
+     "topic": "industry",
+     "type": "person",
+     "labs": [
+      "nvidia",
+      "government"
+     ],
+     "people": [],
+     "concepts": [
+      "gpu",
+      "ai-governance"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "Former Nvidia CEO Huang had a relationship with a second employee, sources say",
+       "url": "https://www.reuters.com/technology/former-nvidia-ceo-huang-had-relationship-with-second-employee-sources-say-2026-11-12/",
+       "name": "reuters.com",
+       "kind": "press"
+      },
+      {
+       "title": "Discussion on Hacker News",
+       "url": "https://news.ycombinator.com/item?id=50473190",
+       "name": "Hacker News",
+       "kind": "discussion"
+      },
+      {
+       "title": "Sources: Jensen Huang had an intimate relationship with a second employee; revelations about two other extramarital affairs led to his resignation (Reuters)",
+       "url": "https://www.techmeme.com/261112/p52#a261112p52",
+       "name": "Techmeme",
+       "kind": "press"
+      },
+      {
+       "title": "The unfolding Jensen Huang scandal: a timeline",
+       "url": "https://techcrunch.com/2026/11/12/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
+       "name": "TechCrunch AI",
+       "kind": "press"
+      },
+      {
+       "title": "Jensen Huang was having a third affair, Reuters reports",
+       "url": "https://techcrunch.com/2026/11/12/jensen-huang-was-having-a-third-affair-reuters-reports/",
+       "name": "TechCrunch AI",
+       "kind": "press"
+      },
+      {
+       "title": "Democrats launch Nvidia investigation, write scathing letter on Huang’s ‘scheme’ with Trump",
+       "url": "https://techcrunch.com/2026/11/12/democrats-launch-nvidia-investigation-write-scathing-letter-on-huangs-scheme-with-trump/",
+       "name": "TechCrunch AI",
+       "kind": "press"
+      },
+      {
+       "title": "Sources: President Trump urged Jensen Huang to keep fighting for his job in a Tuesday call; aides say Trump saw the company as essentially too big to fail (New York Times)",
+       "url": "https://www.techmeme.com/261112/p66#a261112p66",
+       "name": "Techmeme",
+       "kind": "press"
+      },
+      {
+       "title": "Jensen Huang’s exit puts Nvidia’s support for open source in question",
+       "url": "https://techcrunch.com/2026/11/12/jensen-huangs-exit-puts-nvidias-support-for-open-source-in-question/",
+       "name": "TechCrunch AI",
+       "kind": "press"
+      }
+     ],
+     "buzz": 4,
+     "published": "2026-11-12T18:39:23Z",
+     "checked": {
+      "model": "anthropic:claude-sonnet-5-5",
+      "rounds": 2,
+      "hype_flags": []
+     },
+     "editor_reason": "Jensen Huang has resigned as Nvidia CEO after reports of relationships with employees, Colette Kress is interim CEO, and Congress has opened investigations into Nvidia's China sales.",
+     "rank": 1,
+     "id": "2026-11-13-reuters-reports-nvidia-s-ousted-ceo-huang-had-relationship-w",
+     "date": "2026-11-13"
+    },
+    {
+     "title": "Report claims six Chinese AI models show fingerprints of export-controlled Blackwell GPUs",
+     "one_liner": "A forensic analysis by Will DePue claims six models from DeepSeek, Moonshot AI, MiniMax and Ant Group carry numerical patterns matching NVIDIA Blackwell GPUs.",
+     "summary": "Will DePue of Unemployment Labs analysed published model weights. He reports that six models released since April 2026 from DeepSeek, Moonshot AI, MiniMax and Ant Group match Blackwell hardware, while earlier models match the older Hopper generation. For DeepSeek-V4-Flash and Kimi K3, the match was also confirmed on physical Blackwell chips. The author says this supports, without proving, that Blackwell did the training. It does not show where the chips were, how access was obtained, or whether export controls were broken. The author estimates each run needed roughly 1,500 to 3,500 Blackwell GPUs.",
+     "eli5": "Imagine every pencil leaves its own kind of mark on paper. Someone looked at the marks in finished drawings and says they match a certain pencil that was not supposed to be sold to those artists.",
+     "why_it_matters": "Published open weights can carry traces of the hardware that made them, so the hardware used to build a model may be checked from the weights alone.",
+     "topic": "policy",
+     "type": "event",
+     "labs": [
+      "deepseek",
+      "nvidia",
+      "other"
+     ],
+     "people": [],
+     "concepts": [
+      "gpu",
+      "open-weight-model",
+      "pretraining"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [
+      {
+       "term": "hardware fingerprinting",
+       "definition": "Recovering traces of a model's initial values from its published weights, then searching for the hardware configurations that reproduce them."
+      }
+     ],
+     "sources": [
+      {
+       "title": "Chinese frontier AI models carry the fingerprint of export-controlled GPUs",
+       "url": "https://unemploymentlabs.com/checkpoint-forensics",
+       "name": "unemploymentlabs.com",
+       "kind": "press"
+      },
+      {
+       "title": "Discussion on Hacker News",
+       "url": "https://news.ycombinator.com/item?id=50474883",
+       "name": "Hacker News",
+       "kind": "discussion"
+      },
+      {
+       "title": "Analysis of open weights: six models from DeepSeek, Moonshot, MiniMax, and Ant Group released since April carry fingerprints of export-controlled Blackwell GPUs (Will DePue/Unemployment Labs)",
+       "url": "https://www.techmeme.com/261112/p62#a261112p62",
+       "name": "Techmeme",
+       "kind": "press"
+      }
+     ],
+     "buzz": 2,
+     "published": "2026-11-12T21:56:11Z",
+     "checked": {
+      "model": "anthropic:claude-sonnet-5-5",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "Analysis of six open-weight Chinese models finds fingerprints of export-controlled GPUs, relevant to chip policy and open model supply.",
+     "rank": 2,
+     "id": "2026-11-13-report-claims-six-chinese-ai-models-show-fingerprints-of-exp",
+     "date": "2026-11-13"
+    },
+    {
+     "title": "Lawmaker says Nvidia privately said chip tracking is possible, despite industry group's doubts",
+     "one_liner": "Rep. Bill Foster says Nvidia representatives told him privately that Chip Security Act tracking is technically possible, though nothing was put in writing.",
+     "summary": "Illinois Rep. Bill Foster, a cosponsor of the Chip Security Act, told MIT Technology Review that Nvidia representatives said it could implement the bill's anti-smuggling measures. He says they never put anything in writing. In March 2026, the Semiconductor Industry Association, which includes Nvidia, called the mandates \"new, untested, and potentially infeasible.\" Nvidia did not respond to requests for comment on Foster's account. The act would require chip location checks through inspections, company attestations, or ping-based mechanisms. It is one of three chip-security bills being considered for the Senate's National Defense Authorization Act. Separately, Bloomberg sources say OpenAI told lawmakers it would support a bipartisan effort to curb China's access to AI chips.",
+     "eli5": "Imagine a toy company tells a teacher in private that it can put name tags on all its toys. In public, its club says name tags might not work. People now want to know which is true.",
+     "why_it_matters": "If chip location tracking becomes law, advanced GPU sellers and data center operators may have to verify and report where chips are, which could affect how AI hardware is bought and run.",
+     "topic": "policy",
+     "type": "event",
+     "labs": [
+      "nvidia",
+      "government",
+      "openai"
+     ],
+     "people": [],
+     "concepts": [
+      "ai-regulation",
+      "gpu"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [
+      {
+       "term": "ping-based location verification",
+       "definition": "A method where a GPU sends a signal of its location when it comes online, which is the hardest tracking option to circumvent."
+      }
+     ],
+     "sources": [
+      {
+       "title": "Nvidia privately confirmed it could track chips to fight smuggling, even as industry publicly questioned feasibility",
+       "url": "https://www.technologyreview.com/2026/11/12/1148483/nvidia-chip-tracking/",
+       "name": "MIT Technology Review AI",
+       "kind": "press"
+      },
+      {
+       "title": "Sources: OpenAI confirmed to lawmakers this week that it would support a bipartisan effort in Congress to curb China's access to AI chips and chipmaking tools (Bloomberg)",
+       "url": "https://www.techmeme.com/261112/p59#a261112p59",
+       "name": "Techmeme",
+       "kind": "press"
+      }
+     ],
+     "buzz": 2,
+     "published": "2026-11-12T20:16:24Z",
+     "checked": {
+      "model": "anthropic:claude-sonnet-5-5",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "Nvidia told a US lawmaker that chip tracking against smuggling is technically possible, and OpenAI backs a bipartisan effort to curb China's access to AI chips.",
+     "rank": 3,
+     "id": "2026-11-13-lawmaker-says-nvidia-privately-said-chip-tracking-is-possibl",
+     "date": "2026-11-13"
+    },
+    {
+     "title": "Claude Code v2.1.323 adds experimental Code Mode and plugin version limits",
+     "one_liner": "Claude Code v2.1.323 adds Code Mode, where Claude writes JavaScript to call its tools, plus plugin version checks and many sign-in and stability fixes.",
+     "summary": "Anthropic released Claude Code v2.1.323. It adds Code Mode, an experimental opt-in in which Claude writes JavaScript to call its tools. Organizations can turn it off. Plugins can now set engines[\"claude-code\"] in plugin.json, and plugins outside the stated version range are not installed, updated or loaded. The claude plugin validate command now type checks a plugin's TypeScript hooks module. Hooks that run long in claude -p and SDK sessions send a progress heartbeat every 30 seconds. The release also fixes many sign-in problems for background sessions, a memory spike after a very large file change, and /compact summarizing away an unanswered message.",
+     "eli5": "Imagine a helper who used to ask for one tool at a time. Now, in a test mode, the helper can write a short to-do list first and then use many tools from that list.",
+     "why_it_matters": "Plugin authors can now pin the Claude Code versions they support, and teams get an opt-in test of Code Mode with an organization-level off switch, plus steadier long-running hooks and background sessions.",
+     "topic": "dev-tools",
+     "type": "product",
+     "labs": [
+      "anthropic"
+     ],
+     "people": [],
+     "concepts": [
+      "coding-assistant",
+      "tool-use",
+      "agent"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "Claude Code v2.1.323",
+       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.323",
+       "name": "Claude Code",
+       "kind": "original"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-12T22:12:13Z",
+     "checked": {
+      "model": "anthropic:claude-sonnet-5-5",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "Claude Code adds experimental Code Mode, where Claude writes JavaScript to call its tools.",
+     "rank": 4,
+     "id": "2026-11-13-claude-code-v2-1-323-adds-experimental-code-mode-and-plugin",
+     "date": "2026-11-13"
+    },
+    {
+     "title": "Apple's Foundation Models framework adds server models, Dynamic Profiles, image input and an fm CLI",
+     "one_liner": "Apple's Foundation Models framework now reaches server models like Claude and Gemini through one Swift API, and adds Dynamic Profiles, image understanding, Evaluations and an fm command line tool.",
+     "summary": "Apple describes the Foundation Models framework as a native Swift API for using large language models in apps. It gives direct access to Apple Foundation Models on-device and in Private Cloud Compute. It now extends to server models like Claude and Gemini through the same API. Model providers can ship a Swift package that conforms to the Language Model protocol. New pieces include Dynamic Profiles, image understanding, an Evaluations framework, and the fm command line tool in macOS 27. Open source options include a utilities package and a Python SDK.",
+     "eli5": "Imagine one remote control that works with many different toys. You learn the buttons once, and you can swap the toy without learning a new remote.",
+     "why_it_matters": "One Swift API now covers on-device, Private Cloud Compute and third-party server models, so swapping models in an Apple app needs less rewriting, and the Evaluations framework offers a way to test prompts before shipping.",
+     "topic": "dev-tools",
+     "type": "product",
+     "labs": [
+      "other",
+      "anthropic",
+      "google"
+     ],
+     "people": [],
+     "concepts": [
+      "foundation-model",
+      "tool-use",
+      "structured-outputs"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [
+      {
+       "term": "guided generation",
+       "definition": "A built-in framework capability for steering what a language model produces, supported across on-device and server models."
+      },
+      {
+       "term": "multimodal prompts",
+       "definition": "Prompts that pass images alongside text so an app can reason about visual content."
+      }
+     ],
+     "sources": [
+      {
+       "title": "Foundation Models framework",
+       "url": "https://developer.apple.com/foundation-models-framework/",
+       "name": "developer.apple.com",
+       "kind": "original"
+      },
+      {
+       "title": "Discussion on Hacker News",
+       "url": "https://news.ycombinator.com/item?id=50474361",
+       "name": "Hacker News",
+       "kind": "discussion"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-12T21:13:26Z",
+     "checked": {
+      "model": "anthropic:claude-sonnet-5-5",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "A Foundation Models framework post drew 115 points on Hacker News and is worth a look for developers building on on-device models.",
+     "rank": 5,
+     "id": "2026-11-13-apple-s-foundation-models-framework-adds-server-models-dynam",
+     "date": "2026-11-13"
+    },
+    {
+     "title": "Synth developers report weeks-long Apple App Store delays and rejections they blame on AI",
+     "one_liner": "Synth developers say Apple's app review is stalling for weeks and issuing odd rejections, as an estimated 10–20 new iOS music apps arrive daily.",
+     "summary": "Synth Anatomy reports that a flood of AI-made iOS music apps, estimated at 10–20 new apps a day, is straining Apple's app review. Apple's guidelines say it reviews at least 50% of submissions in under 24 hours and 90% in under 48 hours. Developers including AudioThing, Igor Vasiliev and Sugar Bytes say apps sat in review for weeks. Unfiltered Audio's Michael Hetrick says Sinusoidal Run Rhythm was rejected 4 times and he believes Apple uses AI for reviews. Marek Dendes says CRUX Synth was rejected four times in a row, with no reply to his appeals.",
+     "eli5": "Imagine a teacher who has to check a huge pile of homework, and the pile suddenly gets much bigger. Everyone waits longer, and some good work gets marked wrong by mistake.",
+     "why_it_matters": "Shipping an iOS app, even a well-made one, now carries risk of long waits and unexplained rejections, so release plans need extra time and a backup path.",
+     "topic": "industry",
+     "type": "event",
+     "labs": [
+      "other"
+     ],
+     "people": [],
+     "concepts": [
+      "vibe-coding",
+      "hallucination"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "AI is turning Apple's app review process into a nightmare for synth developers",
+       "url": "https://synthanatomy.com/2026/11/ai-is-turning-apples-app-review-process-into-a-nightmare-for-developers.html",
+       "name": "synthanatomy.com",
+       "kind": "press"
+      },
+      {
+       "title": "Discussion on Hacker News",
+       "url": "https://news.ycombinator.com/item?id=50474311",
+       "name": "Hacker News",
+       "kind": "discussion"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-12T21:09:49Z",
+     "checked": {
+      "model": "anthropic:claude-sonnet-5-5",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "AI-generated app submissions are straining Apple's app review for synth developers, a concrete example of AI side effects on platforms.",
+     "rank": 6,
+     "id": "2026-11-13-synth-developers-report-weeks-long-apple-app-store-delays-an",
+     "date": "2026-11-13"
+    },
+    {
+     "title": "Families protest in seven cities over Google's AI in schools, no AI-free Search option",
+     "one_liner": "Families protested in seven US cities against Google's AI in schools after Google confirmed students cannot use Google Search without AI.",
+     "summary": "Families joined protests in seven cities nationwide on Wednesday. They object to what they see as Google's bid to entrench its AI models in schools. The backlash follows a Google statement last week confirming there will be no way for students to use Google Search without AI. Google said it was giving schools \"more choice, not less\" by turning off Search, Gemini, and Gemini Notebook by default. It would not offer Search without AI. Parents worried that students would have to remember to add \"-ai\" to every query. In Chicago, dozens of protesters marched to Google's downtown office despite cold, rainy weather.",
+     "eli5": "Imagine your school library only had books with a helper robot stuck inside every page, and you could not pick plain books. Some families are saying they want a choice.",
+     "why_it_matters": "Education customers are pushing back on AI features that cannot be switched off, so products sold to schools may need a real AI-free mode, not just defaults that are turned off.",
+     "topic": "policy",
+     "type": "event",
+     "labs": [
+      "google"
+     ],
+     "people": [],
+     "concepts": [
+      "ai-governance"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "Google faces calls for AI moratoriums in schools after Gemini pilot backlash",
+       "url": "https://arstechnica.com/tech-policy/2026/11/families-fight-to-keep-googles-disturbing-ai-off-school-issued-chromebooks/",
+       "name": "Ars Technica AI",
+       "kind": "press"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-12T18:57:45Z",
+     "checked": {
+      "model": "anthropic:claude-sonnet-5-5",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "Protests in seven cities call for AI moratoriums in schools after backlash over Google's Gemini pilot.",
+     "rank": 7,
+     "id": "2026-11-13-families-protest-in-seven-cities-over-google-s-ai-in-schools",
+     "date": "2026-11-13"
+    },
+    {
+     "title": "Nebius plans $40 billion in 2027 spending as Microsoft site delays mount",
+     "one_liner": "Nebius laid out $40 billion in planned 2027 spending, funded by prepayments and contract-backed loans, while a delayed Microsoft site in New Jersey raises risk.",
+     "summary": "On its third-quarter call, Nebius said it plans $40 billion in spending for 2027, far above Wall Street expectations. It expects prepayments plus asset-backed financing to cover up to 85% of the $40 to $45 billion capex. Its Microsoft contract is worth up to $19.4 billion, but the Vineland, New Jersey site is months behind. Only just over half of that capacity is planned by year end, with the rest in Q2 2027. Nebius cut its 2026 revenue forecast by $200 million to $3 billion. Shares ended the day down 17%.",
+     "eli5": "Imagine you ask friends to pay for toys before you build them, then borrow more using their promises. If the building is late, you still owe money and your friends may get upset.",
+     "why_it_matters": "Capacity from neocloud providers may arrive later than promised, so teams planning AI workloads on rented GPU capacity should expect schedule risk and keep backup options.",
+     "topic": "industry",
+     "type": "event",
+     "labs": [
+      "microsoft",
+      "meta",
+      "other"
+     ],
+     "people": [],
+     "concepts": [
+      "gpu",
+      "hyperscaler"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [
+      {
+       "term": "asset-backed financing",
+       "definition": "Loans backed by customer contracts, so the future value of data centers helps pay for building them."
+      },
+      {
+       "term": "customer prepayments",
+       "definition": "Money customers pay long before delivery, which Nebius uses to help fund building capacity."
+      }
+     ],
+     "sources": [
+      {
+       "title": "Nebius tests the neocloud playbook with $40 billion in planned spending",
+       "url": "https://techcrunch.com/2026/11/12/nebius-tests-the-neocloud-playbook-with-40-billion-in-planned-spending/",
+       "name": "TechCrunch AI",
+       "kind": "press"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-12T21:27:10Z",
+     "checked": {
+      "model": "anthropic:claude-sonnet-5-5",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "Nebius plans $40 billion in AI infrastructure spending funded by customer prepayments and loans, while a Microsoft data center delay raises questions.",
+     "rank": 8,
+     "id": "2026-11-13-nebius-plans-40-billion-in-2027-spending-as-microsoft-site-d",
+     "date": "2026-11-13"
+    },
+    {
+     "title": "SGLang-Neuron brings SGLang serving to AWS Trainium via Deep Learning Container",
+     "one_liner": "Amazon says SGLang-Neuron is publicly available, letting developers serve models and run RL rollouts with SGLang on AWS Trainium through a Deep Learning Container.",
+     "summary": "Amazon announced that SGLang-Neuron is publicly available through an AWS Deep Learning Container. RadixArk released it with Annapurna Labs. You can serve models and generate reinforcement learning (RL) rollouts with SGLang on AWS Trainium using the same SGLang interface. It is an out-of-tree plugin that runs on native PyTorch. SGLang core keeps the API server, request lifecycle, RadixAttention and prefix-cache bookkeeping. The plugin handles Trainium-specific models, attention, mixture of experts (MoE) and the graph runner. It also supports PD disaggregation, using NIXL over Elastic Fabric Adapter (EFA). The walkthrough serves openai/gpt-oss-120b on a Trainium3 EC2 instance.",
+     "eli5": "Imagine you have a favorite toy remote that works your TV. Now someone built a way for the same remote to work a new, different TV too, so you do not have to learn new buttons.",
+     "why_it_matters": "Teams already serving models with SGLang can try AWS Trainium chips without changing their server interface or generation APIs.",
+     "topic": "dev-tools",
+     "type": "product",
+     "labs": [
+      "other"
+     ],
+     "people": [],
+     "concepts": [
+      "inference",
+      "mixture-of-experts",
+      "kv-cache"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [
+      {
+       "term": "PD disaggregation",
+       "definition": "A prefill server computes the prompt KV cache and transfers it to a decode server, which then generates the remaining tokens."
+      }
+     ],
+     "sources": [
+      {
+       "title": "Deploy frontier AI models on AWS Trainium with SGLang-Neuron",
+       "url": "https://aws.amazon.com/blogs/machine-learning/deploy-frontier-ai-models-on-aws-trainium-with-sglang-neuron/",
+       "name": "AWS Machine Learning Blog",
+       "kind": "original"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-12T22:03:34Z",
+     "checked": {
+      "model": "anthropic:claude-sonnet-5-5",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "SGLang-Neuron is now publicly available for deploying frontier models on AWS Trainium via a Deep Learning Container.",
+     "rank": 9,
+     "id": "2026-11-13-sglang-neuron-brings-sglang-serving-to-aws-trainium-via-deep",
+     "date": "2026-11-13"
+    }
+   ],
+   "stats": {
+    "items": 48,
+    "stories": 45,
+    "sources_ok": 42,
+    "sources_failed": [],
+    "published": 12,
+    "dropped": 0,
+    "llm_calls": 27,
+    "cache_hits": 0,
+    "models": {
+     "anthropic:claude-sonnet-5-5": 24,
+     "gemini:gemini-3.5-flash-lite": 2,
+     "groq:openai/gpt-oss-120b": 1
     },
     "fallbacks": [
      {
       "tag": "writer",
       "used": "gemini:gemini-3.5-flash-lite",
       "after": [
-       "gemini:gemini-3.5-flash-lite: HTTP 503 [{\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n]"
-      ]
-     },
-     {
-      "tag": "writer",
-      "used": "groq:openai/gpt-oss-120b",
-      "after": [
-       "gemini:gemini-3.5-flash-lite: HTTP 503 [{\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n]",
-       "gemini:gemini-3.5-flash-lite: HTTP 503 [{\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n]"
-      ]
-     },
-     {
-      "tag": "checker",
-      "used": "groq:qwen/qwen3.8-27b",
-      "after": [
-       "groq:openai/gpt-oss-120b: HTTP 400 {\"error\":{\"message\":\"Failed to validate JSON. Please adjust your prompt. See 'failed_generation' for more details.\",\"type\":\"invalid_request_error\",\"code\":\"json_validate_failed\",\"failed_generation\":\"\"}"
-      ]
-     },
-     {
-      "tag": "writer",
-      "used": "groq:openai/gpt-oss-120b",
-      "after": [
-       "gemini:gemini-3.5-flash-lite: HTTP 503 [{\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n]",
-       "gemini:gemini-3.5-flash-lite: HTTP 503 [{\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n]"
+       "anthropic:claude-sonnet-5-5: bad JSON (JSONDecodeError)",
+       "anthropic:claude-sonnet-5-5: bad JSON (JSONDecodeError)"
       ]
      },
      {
       "tag": "checker",
       "used": "groq:openai/gpt-oss-120b",
       "after": [
-       "groq:openai/gpt-oss-120b: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m4e2y3jzet7vqfgnag5gc2as` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 5254, Req"
+       "anthropic:claude-sonnet-5-5: bad JSON (JSONDecodeError)",
+       "anthropic:claude-haiku-5-5: bad JSON (JSONDecodeError)",
+       "anthropic:claude-haiku-5-5: bad JSON (JSONDecodeError)"
       ]
      },
      {
       "tag": "writer",
       "used": "gemini:gemini-3.5-flash-lite",
       "after": [
-       "gemini:gemini-3.5-flash-lite: HTTP 503 [{\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n]"
+       "anthropic:claude-sonnet-5-5: bad JSON (JSONDecodeError)",
+       "anthropic:claude-sonnet-5-5: bad JSON (JSONDecodeError)"
       ]
      }
     ],
-    "seconds": 369
+    "seconds": 189
    }
   }
  }

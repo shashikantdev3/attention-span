@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-11T13:07:20Z",
+ "updated_at": "2026-11-13T01:09:00Z",
  "window_days": 7,
  "groups": [
   {
@@ -1967,6 +1967,274 @@
  ],
  "posts": [
   {
+   "id": "bsky-simonwillison.net-3n25qivmljs2t",
+   "person": "simon-willison",
+   "platform": "bluesky",
+   "url": "https://bsky.app/profile/simonwillison.net/post/3n25qivmljs2t",
+   "posted_at": "2026-11-13T00:36:16Z",
+   "text": "The pricing for Gemini 4 is pretty confusing - Argon and Carbon are the same token price as each other, and the new Hydrogen is only a 25% discount on that price - though Carbon/Argon will 2x in price on Dec 1st\n\nHydrogen's pelicans are notably worse simonwillison.net/2026/Nov/12/...",
+   "links": [
+    {
+     "text": "simonwillison.net/2026/Nov/12/...",
+     "url": "https://simonwillison.net/2026/Nov/12/llm-gemini/"
+    }
+   ],
+   "context": null,
+   "likes": 13,
+   "reposts": 3,
+   "via": "feed",
+   "meaning": "Simon Willison discusses the confusing pricing structure of the new Gemini 4 models, noting token prices for Argon, Carbon, and Hydrogen, and upcoming price increases.",
+   "concepts": [
+    "tokens"
+   ],
+   "story": "2026-11-12-google-releases-gemini-4-hydrogen-a-fast-model-for-coding-an",
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "anthropic:claude-sonnet-5-5",
+   "added": "2026-11-13"
+  },
+  {
+   "id": "bsky-emollick.bsky.social-3n25jpzcdtk2p",
+   "person": "ethan-mollick",
+   "platform": "bluesky",
+   "url": "https://bsky.app/profile/emollick.bsky.social/post/3n25jpzcdtk2p",
+   "posted_at": "2026-11-12T22:34:59Z",
+   "text": "🚨 Our Generative AI Lab is releasing Primer: an open source agent-driven system where a teacher talks through lessons & gets back a playable simulation for their students, grounded in pedagogy. We hope educators & researchers build on it. Paper/prompts/code are open: gail.wharton.upenn.edu/primer/",
+   "links": [
+    {
+     "text": "gail.wharton.upenn.edu/primer/",
+     "url": "https://gail.wharton.upenn.edu/primer/"
+    }
+   ],
+   "context": null,
+   "likes": 67,
+   "reposts": 15,
+   "via": "feed",
+   "meaning": "Ethan Mollick announces Primer, an open source agent-driven system from Penn's Generative AI Lab. Teachers describe a lesson and get a playable student simulation grounded in pedagogy. Paper, prompts and code are published for others to build on.",
+   "concepts": [
+    "agent"
+   ],
+   "story": null,
+   "model": "anthropic:claude-haiku-5-5",
+   "checked": "anthropic:claude-sonnet-5-5",
+   "added": "2026-11-13"
+  },
+  {
+   "id": "x-2121003011057037574",
+   "platform": "x",
+   "url": "https://x.com/eliebakouch/status/2121003011057037574",
+   "posted_at": "2026-11-12T22:11:38Z",
+   "date_only": false,
+   "text": "uh, it's quite obvious, still good to have this kind of analysis but this shouldn't be news imo (just an example here but there is more https://t.co/dkDZoUk3Yx)",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">uh, it&#39;s quite obvious, still good to have this kind of analysis but this shouldn&#39;t be news imo (just an example here but there is more <a href=\"https://t.co/dkDZoUk3Yx\">https://t.co/dkDZoUk3Yx</a>)</p>&mdash; elie (@eliebakouch) <a href=\"https://x.com/eliebakouch/status/2121003011057037574?ref_src=twsrc%5Etfw\">November 12, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "elie-bakouch",
+   "meaning": "",
+   "concepts": [],
+   "story": null,
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": null,
+   "added": "2026-11-13"
+  },
+  {
+   "id": "x-2121002644252524568",
+   "platform": "x",
+   "url": "https://x.com/willdepue/status/2121002644252524568",
+   "posted_at": "2026-11-12T22:10:11Z",
+   "date_only": false,
+   "text": "sometimes the things dylan patel knows as obvious long before others, like jensen huang's many affairs or the gpt-4 architecture, are not common knowledge!",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">sometimes the things dylan patel knows as obvious long before others, like jensen huang&#39;s many affairs or the gpt-4 architecture, are not common knowledge!</p>&mdash; will depue (@willdepue) <a href=\"https://x.com/willdepue/status/2121002644252524568?ref_src=twsrc%5Etfw\">November 12, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "will-depue",
+   "meaning": "",
+   "concepts": [],
+   "story": null,
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": null,
+   "added": "2026-11-13"
+  },
+  {
+   "id": "x-2121002286470369669",
+   "platform": "x",
+   "url": "https://x.com/dylan522p/status/2121002286470369669",
+   "posted_at": "2026-11-12T22:08:46Z",
+   "date_only": false,
+   "text": "This is retarded LMFAO. One can just look at the code that Moonshot and DeepSeek open sources and realizes it is only for Blackwell",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">This is retarded LMFAO. One can just look at the code that Moonshot and DeepSeek open sources and realizes it is only for Blackwell</p>&mdash; Dylan Patel (@dylan522p) <a href=\"https://x.com/dylan522p/status/2121002286470369669?ref_src=twsrc%5Etfw\">November 12, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "dylan-patel",
+   "meaning": "",
+   "concepts": [],
+   "story": null,
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": null,
+   "added": "2026-11-13"
+  },
+  {
+   "id": "x-2120993573231538502",
+   "platform": "x",
+   "url": "https://x.com/tszzl/status/2120993573231538502",
+   "posted_at": "2026-11-12T21:34:08Z",
+   "date_only": false,
+   "text": "really bad. all major Chinese models are being trained on Blackwell class chips https://t.co/7yA4qmF30Q",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">really bad. all major Chinese models are being trained on Blackwell class chips <a href=\"https://t.co/7yA4qmF30Q\">https://t.co/7yA4qmF30Q</a></p>&mdash; roon (@tszzl) <a href=\"https://x.com/tszzl/status/2120993573231538502?ref_src=twsrc%5Etfw\">November 12, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "roon",
+   "meaning": "Roon claims that all major Chinese models are being trained on Blackwell class chips.",
+   "concepts": [
+    "gpu"
+   ],
+   "story": "2026-11-13-report-claims-six-chinese-ai-models-show-fingerprints-of-exp",
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "anthropic:claude-sonnet-5-5",
+   "added": "2026-11-13"
+  },
+  {
+   "id": "x-2120942605466800374",
+   "platform": "x",
+   "url": "https://x.com/demishassabis/status/2120942605466800374",
+   "posted_at": "2026-11-12T18:11:37Z",
+   "date_only": false,
+   "text": "Very excited to release Gemini 4 Hydrogen! Incredible speed and intelligence for everyday coding, agentic work and all-round use. I think you'll love this model. More info in the blog - enjoy! https://t.co/952K09CUnd https://t.co/U4B7yhNt91",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">Very excited to release Gemini 4 Hydrogen! Incredible speed and intelligence for everyday coding, agentic work and all-round use. I think you&#39;ll love this model. More info in the blog - enjoy! <a href=\"https://t.co/952K09CUnd\">https://t.co/952K09CUnd</a> <a href=\"https://t.co/U4B7yhNt91\">https://t.co/U4B7yhNt91</a></p>&mdash; Demis Hassabis (@demishassabis) <a href=\"https://x.com/demishassabis/status/2120942605466800374?ref_src=twsrc%5Etfw\">November 12, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "demis-hassabis",
+   "meaning": "Demis Hassabis announces the release of Gemini 4 Hydrogen, highlighting its speed and intelligence for everyday coding and agentic work.",
+   "concepts": [
+    "coding-assistant",
+    "agent",
+    "multimodal-model"
+   ],
+   "story": "2026-11-12-google-releases-gemini-4-hydrogen-a-fast-model-for-coding-an",
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "anthropic:claude-sonnet-5-5",
+   "added": "2026-11-13"
+  },
+  {
+   "id": "x-2120941511223185722",
+   "platform": "x",
+   "url": "https://x.com/ArtificialAnlys/status/2120941511223185722",
+   "posted_at": "2026-11-12T18:07:16Z",
+   "date_only": false,
+   "text": "Google's new Gemini 4 Hydrogen has Intelligence just below Claude Sonnet 5.5 and GPT-6.1 Sol, at a third of Sonnet’s cost but ~2.5x that of GPT-6.1 Sol@GoogleDeepMind has released their third new model in six weeks. Gemini 4 Hydrogen introduces an xhigh reasoning level and…",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">Google&#39;s new Gemini 4 Hydrogen has Intelligence just below Claude Sonnet 5.5 and GPT-6.1 Sol, at a third of Sonnet’s cost but ~2.5x that of GPT-6.1 Sol<a href=\"https://x.com/GoogleDeepMind?ref_src=twsrc%5Etfw\">@GoogleDeepMind</a> has released their third new model in six weeks. Gemini 4 Hydrogen introduces an xhigh reasoning level and… <a href=\"https://t.co/mtn4GzkVVq\">pic.twitter.com/mtn4GzkVVq</a></p>&mdash; Artificial Analysis (@ArtificialAnlys) <a href=\"https://x.com/ArtificialAnlys/status/2120941511223185722?ref_src=twsrc%5Etfw\">November 12, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "x-artificialanalysis",
+   "meaning": "Google released Gemini 4 Hydrogen, offering intelligence close to top models with a new xhigh reasoning level. It costs one third of Sonnet and about 2.5 times the cost of GPT-6.1 Sol, marking Google's third model release in six weeks.",
+   "concepts": [
+    "reasoning-model"
+   ],
+   "story": "2026-11-12-google-releases-gemini-4-hydrogen-a-fast-model-for-coding-an",
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "anthropic:claude-sonnet-5-5",
+   "added": "2026-11-13"
+  },
+  {
+   "id": "x-2120941424028029030",
+   "platform": "x",
+   "url": "https://x.com/OfficialLoganK/status/2120941424028029030",
+   "posted_at": "2026-11-12T18:06:55Z",
+   "date_only": false,
+   "text": "Gemini 4 Hydrogen, alongside Carbon and Argon, brings us fully into the Gemini 4 era. So excited for everyone to feel the magic of this model. I have been using it daily (alongside thousands of people across Google) and have loved it so far.\n\nRead more: https://t.co/2Q7TGfLWEO",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">Gemini 4 Hydrogen, alongside Carbon and Argon, brings us fully into the Gemini 4 era. So excited for everyone to feel the magic of this model. I have been using it daily (alongside thousands of people across Google) and have loved it so far.<br><br>Read more: <a href=\"https://t.co/2Q7TGfLWEO\">https://t.co/2Q7TGfLWEO</a></p>&mdash; Logan Kilpatrick (@OfficialLoganK) <a href=\"https://x.com/OfficialLoganK/status/2120941424028029030?ref_src=twsrc%5Etfw\">November 12, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "logan-kilpatrick",
+   "meaning": "Logan Kilpatrick announces the release of Gemini 4 Hydrogen alongside Carbon and Argon, marking the full arrival of the Gemini 4 era.",
+   "concepts": [
+    "multimodal-model"
+   ],
+   "story": "2026-11-12-google-releases-gemini-4-hydrogen-a-fast-model-for-coding-an",
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "anthropic:claude-sonnet-5-5",
+   "added": "2026-11-13"
+  },
+  {
+   "id": "x-2120940236805169182",
+   "platform": "x",
+   "url": "https://x.com/sundarpichai/status/2120940236805169182",
+   "posted_at": "2026-11-12T18:02:12Z",
+   "date_only": false,
+   "text": "Following Carbon + Argon, Gemini 4 Hydrogen brings cutting-edge intelligence to everyone. Built for speed and efficiency for everyday tasks, coding and agentic workflows.\n\nCompared to 3.8 Flash, it finishes tasks 2.5x faster. Also has 4 thinking levels, so you only wait and pay…",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">Following Carbon + Argon, Gemini 4 Hydrogen brings cutting-edge intelligence to everyone. Built for speed and efficiency for everyday tasks, coding and agentic workflows.<br><br>Compared to 3.8 Flash, it finishes tasks 2.5x faster. Also has 4 thinking levels, so you only wait and pay…</p>&mdash; Sundar Pichai (@sundarpichai) <a href=\"https://x.com/sundarpichai/status/2120940236805169182?ref_src=twsrc%5Etfw\">November 12, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "sundar-pichai",
+   "meaning": "Sundar Pichai announces Gemini 4 Hydrogen, built for speed and efficiency in everyday tasks, coding, and agentic workflows, featuring four thinking levels to control cost and latency.",
+   "concepts": [
+    "coding-assistant",
+    "agent",
+    "effort-controls"
+   ],
+   "story": "2026-11-12-google-releases-gemini-4-hydrogen-a-fast-model-for-coding-an",
+   "model": "gemini:gemini-3.5-flash-lite",
+   "checked": "anthropic:claude-sonnet-5-5",
+   "added": "2026-11-13"
+  },
+  {
+   "id": "x-2120880180516245867",
+   "platform": "x",
+   "url": "https://x.com/tomwarren/status/2120880180516245867",
+   "posted_at": "2026-11-12T14:03:33Z",
+   "date_only": false,
+   "text": "Nvidia CEO Jensen Huang resigns amid spy, affair scandals. After reports of Huang’s two extramarital affairs with an alleged spy and an Nvidia executive, he’s out, and Nvidia CFO Colette Kress is in https://t.co/IFh8kr0oUO",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">Nvidia CEO Jensen Huang resigns amid spy, affair scandals. After reports of Huang’s two extramarital affairs with an alleged spy and an Nvidia executive, he’s out, and Nvidia CFO Colette Kress is in <a href=\"https://t.co/IFh8kr0oUO\">https://t.co/IFh8kr0oUO</a></p>&mdash; Tom Warren (@tomwarren) <a href=\"https://x.com/tomwarren/status/2120880180516245867?ref_src=twsrc%5Etfw\">November 12, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "tom-warren",
+   "meaning": "Tom Warren reports that Nvidia CEO Jensen Huang is out after reports of two extramarital affairs, one with an alleged spy and one with an Nvidia executive. He says CFO Colette Kress is in. Nvidia is a central AI chip company, so its leadership change matters to people building with AI.",
+   "concepts": [],
+   "story": "2026-11-12-jensen-huang-resigns-as-nvidia-ceo-cfo-colette-kress-named-i",
+   "model": "anthropic:claude-haiku-5-5",
+   "checked": "anthropic:claude-sonnet-5-5",
+   "added": "2026-11-13"
+  },
+  {
+   "id": "bsky-emollick.bsky.social-3n22xdtz4kk2i",
+   "person": "ethan-mollick",
+   "platform": "bluesky",
+   "url": "https://bsky.app/profile/emollick.bsky.social/post/3n22xdtz4kk2i",
+   "posted_at": "2026-11-11T22:00:44Z",
+   "text": "People who have no contact with coders seem to have no idea how much an entire profession transformed in less than a year due to AI. It is so weird to still see comments here that AI hasn’t changed anything or that AI code is bad or that companies are retreating from AI use. Does not match reality.",
+   "links": [],
+   "context": null,
+   "likes": 516,
+   "reposts": 66,
+   "via": "feed",
+   "meaning": "Mollick argues that people outside programming underestimate how much AI has transformed software work in under a year. He says claims that AI code is bad or that companies are retreating from AI do not match his experience.",
+   "concepts": [
+    "coding-assistant"
+   ],
+   "story": null,
+   "model": "anthropic:claude-haiku-5-5",
+   "checked": "anthropic:claude-sonnet-5-5",
+   "added": "2026-11-13"
+  },
+  {
+   "id": "bsky-emollick.bsky.social-3mzzzl3lbbs2i",
+   "person": "ethan-mollick",
+   "platform": "bluesky",
+   "url": "https://bsky.app/profile/emollick.bsky.social/post/3mzzzl3lbbs2i",
+   "posted_at": "2026-11-11T13:07:54Z",
+   "text": "In a little over a week we will see the release of The Last Human Game.\n\nThere will never be another AAA game at the scale of GTA 6 with no AI assistance. People in the future will look back at an all-human game with an billion dollar budget and wonder how they did it, like the Pyramids.",
+   "links": [],
+   "context": null,
+   "likes": 176,
+   "reposts": 12,
+   "via": "feed",
+   "meaning": "Mollick predicts that a large AAA game like GTA 6 will never again be made with no AI assistance. He suggests future players will see all-human, big-budget games as remarkable, like the pyramids.",
+   "concepts": [],
+   "story": null,
+   "model": "anthropic:claude-haiku-5-5",
+   "checked": "anthropic:claude-sonnet-5-5",
+   "added": "2026-11-13"
+  },
+  {
    "id": "x-2120495047892165064",
    "platform": "x",
    "url": "https://x.com/emollick/status/2120495047892165064",
@@ -2039,8 +2307,8 @@
     "title": "Where is everybody? The Fermi paradox, investigated with public data",
     "text": "The Milky Way is old enough to have been settled many times over, yet we see no sign of anyone. An AI built a model and ran 22 studies of public data. The evidence rules out one explanation, and the r..."
    },
-   "likes": 40,
-   "reposts": 2,
+   "likes": 48,
+   "reposts": 3,
    "via": "feed",
    "meaning": "Ethan Mollick asked Fable 5.2 and Gemini Carbon to solve the Fermi paradox. He says neither solved it, but both did interesting work, and he links a Fable 5.2 write-up that ran 22 studies on public data and ruled out one explanation.",
    "concepts": [],
@@ -2174,8 +2442,8 @@
     }
    ],
    "context": null,
-   "likes": 95,
-   "reposts": 6,
+   "likes": 115,
+   "reposts": 7,
    "via": "feed",
    "meaning": "Simon Willison reports that Gemini 4 Carbon is good at drawing pelican SVGs, though he says that is not new for Gemini. He shares a test prompt asking for a three.js animation of a mech stomping through New York boroughs using OpenStreetMap data.",
    "concepts": [
@@ -2201,7 +2469,7 @@
     }
    ],
    "context": null,
-   "likes": 31,
+   "likes": 32,
    "reposts": 1,
    "via": "feed",
    "meaning": "Ethan Mollick describes building a fantasy transport game with Claude Fable 5.2, then letting multiple agents argue over art, lore and jokes. The result is a game called Dread & District.",
@@ -2363,7 +2631,7 @@
    "text": "Had early access to Gemini 4 Carbon, it is a very good model that improves on Argon. It is useful to have an AI that thinks differently than Claude/GPT & is still highly capable, but has its own strengths & weakness\n\nOne fun demo: I gave Carbon a video clip & it reproduced it in 3js very well",
    "links": [],
    "context": null,
-   "likes": 124,
+   "likes": 127,
    "reposts": 10,
    "via": "feed",
    "meaning": "Ethan Mollick, after early access, calls Gemini 4 Carbon a very good model that improves on Argon. He says it thinks differently from Claude and GPT, has its own strengths and weaknesses, and shares a demo recreating a video clip in three.js.",
@@ -2999,8 +3267,8 @@
     }
    ],
    "context": null,
-   "likes": 193,
-   "reposts": 19,
+   "likes": 196,
+   "reposts": 20,
    "via": "feed",
    "meaning": "Ethan Mollick shares an experiment where Fable 5.2 used 25,000 agents to create over 450 interconnected 3D worlds in code, inspired by various books, art, and places.",
    "concepts": [
@@ -3530,8 +3798,8 @@
    "text": "This can be a golden age of investigative journalism. Analyzing filings, records and public data to go deep into a company or government or whatever used to be something that took a team of journalists a long time, so was relatively rare. Now LLMs can 10x investigative research to help reporting",
    "links": [],
    "context": null,
-   "likes": 83,
-   "reposts": 6,
+   "likes": 84,
+   "reposts": 7,
    "via": "feed",
    "meaning": "Mollick argues investigative journalism could enter a golden age. He says LLMs could make research into filings, records and public data about ten times faster, helping reporters go deeper.",
    "concepts": [
@@ -3660,7 +3928,7 @@
     }
    ],
    "context": null,
-   "likes": 180,
+   "likes": 181,
    "reposts": 36,
    "via": "feed",
    "meaning": "Simon Willison praises a riff by @reckless.bsky.social on the latest Vergecast episode. The speaker argues that AI products aren't good enough to justify their costs to people.",

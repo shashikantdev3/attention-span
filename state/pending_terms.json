@@ -1295,24 +1295,108 @@
   "source": "https://machinelearning.apple.com/research/faster-retrieval"
  },
  {
-  "term": "DNA methylation",
-  "definition": "Chemical tags that act as molecular switches to silence or activate genes.",
+  "term": "multi-model workflow",
+  "definition": "Rather than using one model from start to finish, a session switches between models, with a frontier model for deep judgment and a faster model for execution.",
   "first_seen": "2026-11-12",
-  "story": "2026-11-12-google-deepmind-announces-alphagenome-2-for-single-cell-geno",
-  "source": "https://the-decoder.com/google-deepmind-shifts-genomics-ai-from-bulk-tissue-predictions-to-single-cell-type-resolution-with-alphagenome-2/"
+  "story": "2026-11-12-google-releases-gemini-4-hydrogen-a-fast-model-for-coding-an",
+  "source": "https://deepmind.google/blog/introducing-gemini-4-hydrogen/"
  },
  {
-  "term": "fast model call",
-  "definition": "A fast model call can change what the software itself does.",
+  "term": "parallel agents",
+  "definition": "A coordinator model directs worker and verifier agents that build and test changes at the same time in isolated workspaces.",
   "first_seen": "2026-11-12",
-  "story": "2026-11-12-report-jev-used-for-rapid-document-ranking-and-ui-prediction",
-  "source": "https://latent.space/p/jev-revolution/"
+  "story": "2026-11-12-google-releases-gemini-4-hydrogen-a-fast-model-for-coding-an",
+  "source": "https://deepmind.google/blog/introducing-gemini-4-hydrogen/"
  },
  {
-  "term": "building block",
-  "definition": "Jev is a building block that can be adjusted and combined with strategies to get more intelligent outcomes.",
+  "term": "CoT controllability",
+  "definition": "A model's ability to deliberately manipulate its chain of thought on command, such as inserting \"meow\" after every word or using only lowercase letters.",
   "first_seen": "2026-11-12",
-  "story": "2026-11-12-report-jev-used-for-rapid-document-ranking-and-ui-prediction",
-  "source": "https://latent.space/p/jev-revolution/"
+  "story": "2026-11-12-openai-research-training-choices-make-frontier-models-reason",
+  "source": "https://the-decoder.com/openais-data-suggests-that-frontier-models-are-hiding-their-thoughts-because-developers-optimize-for-capability-and-compute/"
+ },
+ {
+  "term": "No-CoT capability",
+  "definition": "A model's ability to reason silently and solve problems without writing out a scratchpad.",
+  "first_seen": "2026-11-12",
+  "story": "2026-11-12-openai-research-training-choices-make-frontier-models-reason",
+  "source": "https://the-decoder.com/openais-data-suggests-that-frontier-models-are-hiding-their-thoughts-because-developers-optimize-for-capability-and-compute/"
+ },
+ {
+  "term": "expert paging from flash",
+  "definition": "Popular experts of a mixture-of-experts model stay in RAM, while others are read from flash on demand and the next layer's are prefetched.",
+  "first_seen": "2026-11-12",
+  "story": "2026-11-12-smolmaxxing-runs-8b-and-16b-models-on-about-1-gb-of-ram",
+  "source": "https://github.com/hyperionaidev/smolmaxxing/"
+ },
+ {
+  "term": "vocabulary row dropping",
+  "definition": "Most of a small model's vocabulary is rarely used, so those output rows are dropped to save RAM.",
+  "first_seen": "2026-11-12",
+  "story": "2026-11-12-smolmaxxing-runs-8b-and-16b-models-on-about-1-gb-of-ram",
+  "source": "https://github.com/hyperionaidev/smolmaxxing/"
+ },
+ {
+  "term": "speaker diarization",
+  "definition": "Working out which speaker said what in a conversation with several people.",
+  "first_seen": "2026-11-12",
+  "story": "2026-11-12-elevenlabs-releases-scribe-v3-and-scribe-v3-live-speech-to-t",
+  "source": "https://the-decoder.com/elevenlabs-scribe-v3-live-uses-conversational-context-to-stop-voice-agents-from-cutting-off-callers-mid-sentence/"
+ },
+ {
+  "term": "model router",
+  "definition": "A static system that guesses task difficulty from a first prompt and routes the entire task to the cheapest model that is good enough to complete it.",
+  "first_seen": "2026-11-13",
+  "story": "2026-11-13-google-releases-gemini-4-hydrogen-and-orchestrator",
+  "source": "https://antigravity.google/blog/gemini-4-hydrogen-in-google-antigravity/"
+ },
+ {
+  "term": "hardware fingerprinting",
+  "definition": "Recovering traces of a model's initial values from its published weights, then searching for the hardware configurations that reproduce them.",
+  "first_seen": "2026-11-13",
+  "story": "2026-11-13-report-claims-six-chinese-ai-models-show-fingerprints-of-exp",
+  "source": "https://unemploymentlabs.com/checkpoint-forensics"
+ },
+ {
+  "term": "ping-based location verification",
+  "definition": "A method where a GPU sends a signal of its location when it comes online, which is the hardest tracking option to circumvent.",
+  "first_seen": "2026-11-13",
+  "story": "2026-11-13-lawmaker-says-nvidia-privately-said-chip-tracking-is-possibl",
+  "source": "https://www.technologyreview.com/2026/11/12/1148483/nvidia-chip-tracking/"
+ },
+ {
+  "term": "guided generation",
+  "definition": "A built-in framework capability for steering what a language model produces, supported across on-device and server models.",
+  "first_seen": "2026-11-13",
+  "story": "2026-11-13-apple-s-foundation-models-framework-adds-server-models-dynam",
+  "source": "https://developer.apple.com/foundation-models-framework/"
+ },
+ {
+  "term": "multimodal prompts",
+  "definition": "Prompts that pass images alongside text so an app can reason about visual content.",
+  "first_seen": "2026-11-13",
+  "story": "2026-11-13-apple-s-foundation-models-framework-adds-server-models-dynam",
+  "source": "https://developer.apple.com/foundation-models-framework/"
+ },
+ {
+  "term": "asset-backed financing",
+  "definition": "Loans backed by customer contracts, so the future value of data centers helps pay for building them.",
+  "first_seen": "2026-11-13",
+  "story": "2026-11-13-nebius-plans-40-billion-in-2027-spending-as-microsoft-site-d",
+  "source": "https://techcrunch.com/2026/11/12/nebius-tests-the-neocloud-playbook-with-40-billion-in-planned-spending/"
+ },
+ {
+  "term": "customer prepayments",
+  "definition": "Money customers pay long before delivery, which Nebius uses to help fund building capacity.",
+  "first_seen": "2026-11-13",
+  "story": "2026-11-13-nebius-plans-40-billion-in-2027-spending-as-microsoft-site-d",
+  "source": "https://techcrunch.com/2026/11/12/nebius-tests-the-neocloud-playbook-with-40-billion-in-planned-spending/"
+ },
+ {
+  "term": "PD disaggregation",
+  "definition": "A prefill server computes the prompt KV cache and transfers it to a decode server, which then generates the remaining tokens.",
+  "first_seen": "2026-11-13",
+  "story": "2026-11-13-sglang-neuron-brings-sglang-serving-to-aws-trainium-via-deep",
+  "source": "https://aws.amazon.com/blogs/machine-learning/deploy-frontier-ai-models-on-aws-trainium-with-sglang-neuron/"
  }
 ]
