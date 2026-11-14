@@ -8414,6 +8414,160 @@
      "date": "2026-11-13"
     },
     {
+     "title": "OpenAI launches ChatGPT Wallet so agents can pay without seeing card details",
+     "one_liner": "OpenAI introduced ChatGPT Wallet, which lets agents pay with payment tokens instead of real card details and requires a security check for every purchase.",
+     "summary": "OpenAI introduced ChatGPT Wallet on November 13, 2026. It lets agents pay on a user's behalf without access to the user's actual card details. Users add a card once, then review the items, total and card before approving each purchase with a security check such as Face ID or a fingerprint scan. The payment network supplies a payment token in place of the real card. It was built with American Express, Mastercard and Visa. It starts in dots for ChatGPT Pro subscribers aged 18 and older in the US with eligible US-issued cards. OpenAI also published a Commerce Partner Playbook for businesses.",
+     "eli5": "Imagine a helper who goes shopping for you but carries a pretend coin instead of your real wallet. You say yes to each buy first, and the shop never sees your real money.",
+     "why_it_matters": "Agents can now complete purchases through existing checkout flows using payment tokens, so teams building shopping or checkout systems must make sure agents are not blocked and that risk systems recognize legitimate agent purchases.",
+     "topic": "agents",
+     "type": "product",
+     "labs": [
+      "openai"
+     ],
+     "people": [],
+     "concepts": [
+      "agent",
+      "tool-use"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [
+      {
+       "term": "payment token",
+       "definition": "A substitute for the user's actual card details, with a card number, security code, and expiration date, provided by the payment network."
+      },
+      {
+       "term": "Web Bot Auth",
+       "definition": "A way to sign requests so a CDN or firewall can recognize ChatGPT agents and not block them."
+      }
+     ],
+     "sources": [
+      {
+       "title": "Introducing ChatGPT Wallet",
+       "url": "https://openai.com/index/introducing-chatgpt-wallet",
+       "name": "OpenAI News",
+       "kind": "original"
+      },
+      {
+       "title": "ChatGPT’s new Wallet lets AI agents shop and check out for you",
+       "url": "https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you/",
+       "name": "TechCrunch AI",
+       "kind": "press"
+      }
+     ],
+     "buzz": 2,
+     "published": "2026-11-13T15:00:00Z",
+     "checked": {
+      "model": "anthropic:claude-sonnet-5-5",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "OpenAI's ChatGPT Wallet lets agents in ChatGPT Work and Codex complete purchases with user approval and existing card protections.",
+     "rank": 2,
+     "id": "2026-11-13-openai-launches-chatgpt-wallet-so-agents-can-pay-without-see",
+     "date": "2026-11-13"
+    },
+    {
+     "title": "OpenAI disbands stand-alone robotics team, moves researchers to general AI teams",
+     "one_liner": "OpenAI folded its robotics team into its main research and Applied groups after finding its general models, including GPT-6 Astra, can be applied directly to robotics.",
+     "summary": "OpenAI has disbanded its stand-alone robotics team and confirmed this to Fortune. The robotics research team now reports to Chief Research Officer Mark Chen. The applied robotics and hardware teams moved to the Applied organization under President Greg Brockman. OpenAI says general-purpose frontier models, including GPT-6 Astra, have shown they can be applied directly to robotics. In an Nvidia study, an Astra-powered agent reached a 74.8% success rate on a simulated manipulation benchmark, versus 51.0% for the best specialized robotic models. OpenAI says it still plans to bring general-purpose robots to market, and Sam Altman targets a first public humanoid demo in 2027.",
+     "eli5": "Imagine you had one very smart helper who learned to read, draw and solve puzzles. Now you find out that same helper can also steer a toy robot, so you don't need a separate robot-only helper.",
+     "why_it_matters": "If general-purpose models can steer robots directly, teams may be able to try robot control with a frontier model before building a specialized robotics model.",
+     "topic": "industry",
+     "type": "event",
+     "labs": [
+      "openai",
+      "nvidia",
+      "academia"
+     ],
+     "people": [
+      "sam-altman"
+     ],
+     "concepts": [
+      "physical-ai",
+      "foundation-model",
+      "benchmark"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [
+      {
+       "term": "embodied AI",
+       "definition": "AI models that control devices that can act in the physical world, such as robots, driverless cars, or drones."
+      }
+     ],
+     "sources": [
+      {
+       "title": "OpenAI disbands its robotics team as its general models start running robots",
+       "url": "https://fortune.com/2026/11/13/openai-disbands-robotics-team-as-its-general-models-start-running-robots/",
+       "name": "fortune.com",
+       "kind": "press"
+      },
+      {
+       "title": "Discussion on Hacker News",
+       "url": "https://news.ycombinator.com/item?id=50487184",
+       "name": "Hacker News",
+       "kind": "discussion"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-13T17:55:23Z",
+     "checked": {
+      "model": "anthropic:claude-sonnet-5-5",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "OpenAI is disbanding its robotics team as its general models start running robots, a signal about where robotics work is heading.",
+     "rank": 3,
+     "id": "2026-11-13-openai-disbands-stand-alone-robotics-team-moves-researchers",
+     "date": "2026-11-13"
+    },
+    {
+     "title": "Bloomberg: Anthropic IPO six times oversubscribed, on track to be largest ever",
+     "one_liner": "Bloomberg reports Anthropic's IPO has orders six times the available shares, with up to $64.4 billion targeted in the public offering.",
+     "summary": "Bloomberg reports that Anthropic's IPO is six times oversubscribed and on track to be the largest public offering ever. The company and its co-founders aim to raise up to $64.4 billion publicly and another $26 billion through a private placement. The target valuation is roughly $1.4 trillion, and existing investors get priority. Annualized revenue reached $81 billion by late October, up from $71 billion in September. Nvidia is buying $10 billion in stock through the private placement. Goldman Sachs and Morgan Stanley manage the Nasdaq listing under the ticker ANT. Separately, banks are rejecting orders from mainland China and Hong Kong, citing ITAR export control rules.",
+     "eli5": "Imagine a bakery selling a few cookies, and six times more kids line up than there are cookies. Everyone wants a piece, so the bakery can pick who gets one.",
+     "why_it_matters": "A heavily funded, publicly listed Anthropic signals a long-term vendor for teams building on Claude, though the sources give no product or pricing changes.",
+     "topic": "industry",
+     "type": "event",
+     "labs": [
+      "anthropic",
+      "nvidia"
+     ],
+     "people": [
+      "dario-amodei"
+     ],
+     "concepts": [],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "Anthropic's IPO is six times oversubscribed and on track to become the largest public offering in history",
+       "url": "https://the-decoder.com/anthropics-ipo-is-six-times-oversubscribed-and-on-track-to-become-the-largest-public-offering-in-history/",
+       "name": "The Decoder",
+       "kind": "press"
+      },
+      {
+       "title": "Banks bar Chinese and Hong Kong investors from Anthropic IPO over US export controls",
+       "url": "https://the-decoder.com/banks-bar-chinese-and-hong-kong-investors-from-anthropic-ipo-over-us-export-controls/",
+       "name": "The Decoder",
+       "kind": "press"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-13T15:15:08Z",
+     "checked": {
+      "model": "anthropic:claude-sonnet-5-5",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "Anthropic's IPO is reported six times oversubscribed, and banks are turning away Chinese and Hong Kong buy orders because of US export controls.",
+     "rank": 4,
+     "id": "2026-11-13-bloomberg-anthropic-ipo-six-times-oversubscribed-on-track-to",
+     "date": "2026-11-13"
+    },
+    {
      "title": "OpenAI launches Daybreak Red Team and Daybreak Defense Factory security products",
      "one_liner": "OpenAI has launched two security products: Daybreak Red Team in early access for testing web apps, and Daybreak Defense Factory for finding, validating and fixing flaws.",
      "summary": "OpenAI has launched two new security products, according to a report by Jessica Lyons of The Register. One is for penetration testing and the other is for defense. Daybreak Red Team is in early access and is built to test web apps for flaws. Daybreak Defense Factory is meant to automate finding, validating and fixing those flaws. The report also says OpenAI warned organizations about something, but the available text cuts off before saying what. The source gives no details on pricing, availability dates or how the tools work.",
@@ -8453,7 +8607,7 @@
       "hype_flags": []
      },
      "editor_reason": "OpenAI opens early access to Daybreak Red Team for testing web apps for flaws, plus Daybreak Defense Factory for automating security work.",
-     "rank": 2,
+     "rank": 5,
      "id": "2026-11-13-openai-launches-daybreak-red-team-and-daybreak-defense-facto",
      "date": "2026-11-13"
     },
@@ -8490,7 +8644,7 @@
       "hype_flags": []
      },
      "editor_reason": "Mirendil, founded by former Anthropic researchers to build tools for frontier AI R&D, raised a $1B Series A.",
-     "rank": 3,
+     "rank": 6,
      "id": "2026-11-13-mirendil-founded-by-ex-anthropic-researchers-raises-1b-serie",
      "date": "2026-11-13"
     },
@@ -8549,53 +8703,8 @@
       "hype_flags": []
      },
      "editor_reason": "Analysis of six open-weight Chinese models finds fingerprints of export-controlled GPUs, relevant to chip policy and open model supply.",
-     "rank": 4,
+     "rank": 7,
      "id": "2026-11-13-report-claims-six-chinese-ai-models-show-fingerprints-of-exp",
-     "date": "2026-11-13"
-    },
-    {
-     "title": "Bloomberg: Anthropic IPO six times oversubscribed, on track to be largest ever",
-     "one_liner": "Bloomberg reports Anthropic's IPO has orders six times the available shares, with up to $64.4 billion targeted in the public offering.",
-     "summary": "Bloomberg reports that Anthropic's IPO is six times oversubscribed and on track to be the largest public offering ever. The company and its co-founders aim to raise up to $64.4 billion publicly and another $26 billion through a private placement. The target valuation is roughly $1.4 trillion, and existing investors get priority. Annualized revenue reached $81 billion by late October, up from $71 billion in September. Nvidia is buying $10 billion in stock through the private placement. Goldman Sachs and Morgan Stanley manage the Nasdaq listing under the ticker ANT. Separately, banks are rejecting orders from mainland China and Hong Kong, citing ITAR export control rules.",
-     "eli5": "Imagine a bakery selling a few cookies, and six times more kids line up than there are cookies. Everyone wants a piece, so the bakery can pick who gets one.",
-     "why_it_matters": "A heavily funded, publicly listed Anthropic signals a long-term vendor for teams building on Claude, though the sources give no product or pricing changes.",
-     "topic": "industry",
-     "type": "event",
-     "labs": [
-      "anthropic",
-      "nvidia"
-     ],
-     "people": [
-      "dario-amodei"
-     ],
-     "concepts": [],
-     "spotlight": false,
-     "spotlight_reason": "",
-     "new_terms": [],
-     "sources": [
-      {
-       "title": "Anthropic's IPO is six times oversubscribed and on track to become the largest public offering in history",
-       "url": "https://the-decoder.com/anthropics-ipo-is-six-times-oversubscribed-and-on-track-to-become-the-largest-public-offering-in-history/",
-       "name": "The Decoder",
-       "kind": "press"
-      },
-      {
-       "title": "Banks bar Chinese and Hong Kong investors from Anthropic IPO over US export controls",
-       "url": "https://the-decoder.com/banks-bar-chinese-and-hong-kong-investors-from-anthropic-ipo-over-us-export-controls/",
-       "name": "The Decoder",
-       "kind": "press"
-      }
-     ],
-     "buzz": 1,
-     "published": "2026-11-13T15:15:08Z",
-     "checked": {
-      "model": "anthropic:claude-sonnet-5-5",
-      "rounds": 1,
-      "hype_flags": []
-     },
-     "editor_reason": "Anthropic's IPO is reported six times oversubscribed, and banks are turning away Chinese and Hong Kong buy orders because of US export controls.",
-     "rank": 5,
-     "id": "2026-11-13-bloomberg-anthropic-ipo-six-times-oversubscribed-on-track-to",
      "date": "2026-11-13"
     },
     {
@@ -8641,7 +8750,7 @@
       "hype_flags": []
      },
      "editor_reason": "Nscale's filing says it needs more funding for 2027 after ordering Nvidia chips for a $45B Anthropic deal, and its updated IPO prospectus shows Q3 revenue of $307.5M and a widened net loss.",
-     "rank": 6,
+     "rank": 8,
      "id": "2026-11-13-nscale-filing-says-it-needs-more-funding-for-anthropic-deal",
      "date": "2026-11-13"
     },
@@ -8682,7 +8791,7 @@
       "hype_flags": []
      },
      "editor_reason": "Bloomberg reports Nvidia faced pressure to raise its 25% residual value support on a planned $500B AI financing vehicle, which bears on how AI compute gets funded.",
-     "rank": 7,
+     "rank": 9,
      "id": "2026-11-13-report-nvidia-faced-pressure-to-raise-25-backstop-on-500b-ai",
      "date": "2026-11-13"
     },
@@ -8734,7 +8843,7 @@
       "hype_flags": []
      },
      "editor_reason": "Nvidia told a US lawmaker that chip tracking against smuggling is technically possible, and OpenAI backs a bipartisan effort to curb China's access to AI chips.",
-     "rank": 8,
+     "rank": 10,
      "id": "2026-11-13-lawmaker-says-nvidia-privately-said-chip-tracking-is-possibl",
      "date": "2026-11-13"
     },
@@ -8774,7 +8883,7 @@
       "hype_flags": []
      },
      "editor_reason": "Claude Code adds experimental Code Mode, where Claude writes JavaScript to call its tools.",
-     "rank": 9,
+     "rank": 11,
      "id": "2026-11-13-claude-code-v2-1-323-adds-experimental-code-mode-and-plugin",
      "date": "2026-11-13"
     },
@@ -8829,7 +8938,7 @@
       "hype_flags": []
      },
      "editor_reason": "Brave Search API now accepts agentic payments via the x402 protocol, a concrete step for agents that pay for tools themselves.",
-     "rank": 10,
+     "rank": 12,
      "id": "2026-11-13-brave-search-api-now-accepts-agentic-payments-via-x402-proto",
      "date": "2026-11-13"
     },
@@ -8886,117 +8995,8 @@
       "hype_flags": []
      },
      "editor_reason": "A Foundation Models framework post drew 115 points on Hacker News and is worth a look for developers building on on-device models.",
-     "rank": 11,
-     "id": "2026-11-13-apple-s-foundation-models-framework-adds-server-models-dynam",
-     "date": "2026-11-13"
-    },
-    {
-     "title": "OpenAI launches ChatGPT Wallet so agents can pay without seeing card details",
-     "one_liner": "OpenAI introduced ChatGPT Wallet, which lets agents pay with payment tokens instead of real card details and requires a security check for every purchase.",
-     "summary": "OpenAI introduced ChatGPT Wallet on November 13, 2026. It lets agents pay on a user's behalf without access to the user's actual card details. Users add a card once, then review the items, total and card before approving each purchase with a security check such as Face ID or a fingerprint scan. The payment network supplies a payment token in place of the real card. It was built with American Express, Mastercard and Visa. It starts in dots for ChatGPT Pro subscribers aged 18 and older in the US with eligible US-issued cards. OpenAI also published a Commerce Partner Playbook for businesses.",
-     "eli5": "Imagine a helper who goes shopping for you but carries a pretend coin instead of your real wallet. You say yes to each buy first, and the shop never sees your real money.",
-     "why_it_matters": "Agents can now complete purchases through existing checkout flows using payment tokens, so teams building shopping or checkout systems must make sure agents are not blocked and that risk systems recognize legitimate agent purchases.",
-     "topic": "agents",
-     "type": "product",
-     "labs": [
-      "openai"
-     ],
-     "people": [],
-     "concepts": [
-      "agent",
-      "tool-use"
-     ],
-     "spotlight": false,
-     "spotlight_reason": "",
-     "new_terms": [
-      {
-       "term": "payment token",
-       "definition": "A substitute for the user's actual card details, with a card number, security code, and expiration date, provided by the payment network."
-      },
-      {
-       "term": "Web Bot Auth",
-       "definition": "A way to sign requests so a CDN or firewall can recognize ChatGPT agents and not block them."
-      }
-     ],
-     "sources": [
-      {
-       "title": "Introducing ChatGPT Wallet",
-       "url": "https://openai.com/index/introducing-chatgpt-wallet",
-       "name": "OpenAI News",
-       "kind": "original"
-      },
-      {
-       "title": "ChatGPT’s new Wallet lets AI agents shop and check out for you",
-       "url": "https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you/",
-       "name": "TechCrunch AI",
-       "kind": "press"
-      }
-     ],
-     "buzz": 2,
-     "published": "2026-11-13T15:00:00Z",
-     "checked": {
-      "model": "anthropic:claude-sonnet-5-5",
-      "rounds": 1,
-      "hype_flags": []
-     },
-     "editor_reason": "OpenAI's ChatGPT Wallet lets agents in ChatGPT Work and Codex complete purchases with user approval and existing card protections.",
-     "rank": 12,
-     "id": "2026-11-13-openai-launches-chatgpt-wallet-so-agents-can-pay-without-see",
-     "date": "2026-11-13"
-    },
-    {
-     "title": "OpenAI disbands stand-alone robotics team, moves researchers to general AI teams",
-     "one_liner": "OpenAI folded its robotics team into its main research and Applied groups after finding its general models, including GPT-6 Astra, can be applied directly to robotics.",
-     "summary": "OpenAI has disbanded its stand-alone robotics team and confirmed this to Fortune. The robotics research team now reports to Chief Research Officer Mark Chen. The applied robotics and hardware teams moved to the Applied organization under President Greg Brockman. OpenAI says general-purpose frontier models, including GPT-6 Astra, have shown they can be applied directly to robotics. In an Nvidia study, an Astra-powered agent reached a 74.8% success rate on a simulated manipulation benchmark, versus 51.0% for the best specialized robotic models. OpenAI says it still plans to bring general-purpose robots to market, and Sam Altman targets a first public humanoid demo in 2027.",
-     "eli5": "Imagine you had one very smart helper who learned to read, draw and solve puzzles. Now you find out that same helper can also steer a toy robot, so you don't need a separate robot-only helper.",
-     "why_it_matters": "If general-purpose models can steer robots directly, teams may be able to try robot control with a frontier model before building a specialized robotics model.",
-     "topic": "industry",
-     "type": "event",
-     "labs": [
-      "openai",
-      "nvidia",
-      "academia"
-     ],
-     "people": [
-      "sam-altman"
-     ],
-     "concepts": [
-      "physical-ai",
-      "foundation-model",
-      "benchmark"
-     ],
-     "spotlight": false,
-     "spotlight_reason": "",
-     "new_terms": [
-      {
-       "term": "embodied AI",
-       "definition": "AI models that control devices that can act in the physical world, such as robots, driverless cars, or drones."
-      }
-     ],
-     "sources": [
-      {
-       "title": "OpenAI disbands its robotics team as its general models start running robots",
-       "url": "https://fortune.com/2026/11/13/openai-disbands-robotics-team-as-its-general-models-start-running-robots/",
-       "name": "fortune.com",
-       "kind": "press"
-      },
-      {
-       "title": "Discussion on Hacker News",
-       "url": "https://news.ycombinator.com/item?id=50487184",
-       "name": "Hacker News",
-       "kind": "discussion"
-      }
-     ],
-     "buzz": 1,
-     "published": "2026-11-13T17:55:23Z",
-     "checked": {
-      "model": "anthropic:claude-sonnet-5-5",
-      "rounds": 1,
-      "hype_flags": []
-     },
-     "editor_reason": "OpenAI is disbanding its robotics team as its general models start running robots, a signal about where robotics work is heading.",
      "rank": 13,
-     "id": "2026-11-13-openai-disbands-stand-alone-robotics-team-moves-researchers",
+     "id": "2026-11-13-apple-s-foundation-models-framework-adds-server-models-dynam",
      "date": "2026-11-13"
     },
     {
