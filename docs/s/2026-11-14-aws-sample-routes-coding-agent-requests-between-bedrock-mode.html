@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AWS sample routes coding agent requests between Bedrock models using NVIDIA NeMo Switchyard | Attention Span</title>
+<meta name="description" content="AWS published a sample that deploys LiteLLM with the NVIDIA NeMo Switchyard plugin on Amazon Bedrock to route coding agent requests and measure cost per solved task.">
+<link rel="canonical" href="https://shashikantdev3.github.io/attention-span/s/2026-11-14-aws-sample-routes-coding-agent-requests-between-bedrock-mode.html">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Attention Span">
+<meta property="og:title" content="AWS sample routes coding agent requests between Bedrock models using NVIDIA NeMo Switchyard">
+<meta property="og:description" content="AWS published a sample that deploys LiteLLM with the NVIDIA NeMo Switchyard plugin on Amazon Bedrock to route coding agent requests and measure cost per solved task.">
+<meta property="og:url" content="https://shashikantdev3.github.io/attention-span/s/2026-11-14-aws-sample-routes-coding-agent-requests-between-bedrock-mode.html">
+<meta property="og:image" content="https://shashikantdev3.github.io/attention-span/assets/og.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#EDF0EA">
+<link rel="alternate" type="application/rss+xml" title="Attention Span" href="../feed.xml">
+<script>try{var t=localStorage.getItem("as-theme");if(!t)t=matchMedia("(prefers-color-scheme: dark)").matches?"night":"day";if(t==="night")document.documentElement.setAttribute("data-theme","night")}catch(e){}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;0,6..72,700;1,6..72,400&family=Bodoni+Moda:opsz,wght@6..96,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/style.css">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "NewsArticle", "headline": "AWS sample routes coding agent requests between Bedrock models using NVIDIA NeMo Switchyard", "description": "AWS published a sample that deploys LiteLLM with the NVIDIA NeMo Switchyard plugin on Amazon Bedrock to route coding agent requests and measure cost per solved task.", "datePublished": "2026-11-13T22:30:12Z", "dateModified": "2026-11-14", "author": {"@type": "Organization", "name": "Attention Span", "url": "https://shashikantdev3.github.io/attention-span/"}, "publisher": {"@type": "Organization", "name": "Attention Span", "url": "https://shashikantdev3.github.io/attention-span/"}, "mainEntityOfPage": "https://shashikantdev3.github.io/attention-span/s/2026-11-14-aws-sample-routes-coding-agent-requests-between-bedrock-mode.html", "image": "https://shashikantdev3.github.io/attention-span/assets/og.png", "isBasedOn": ["https://aws.amazon.com/blogs/machine-learning/route-coding-agent-requests-to-the-right-model-on-amazon-bedrock-with-nvidia-nemo-switchyard/"]}</script>
+</head>
+<body class="static">
+<header class="masthead static-head"><div class="wrap">
+  <a class="brand" href="../index.html"><span class="static-name">Attention Span</span></a>
+  <span class="tagline">Today&#x27;s AI news, traced back to its roots.</span>
+</div></header>
+<main id="main"><div class="wrap static-body">
+<article class="static-story">
+<p class="static-kicker"><a href="../e/2026-11-14.html">Saturday, 14 November 2026</a>, Dev tools,
+1 source</p>
+<h1>AWS sample routes coding agent requests between Bedrock models using NVIDIA NeMo Switchyard</h1>
+<p class="one-liner">AWS published a sample that deploys LiteLLM with the NVIDIA NeMo Switchyard plugin on Amazon Bedrock to route coding agent requests and measure cost per solved task.</p>
+<p>An AWS Machine Learning Blog post shows how to deploy LiteLLM with the Switchyard routing plugin using the AWS CDK. LiteLLM calls models on Amazon Bedrock. Switchyard offers Stage routing, which picks between two candidate models, and Random routing, which splits traffic by weight. The post says to judge routing by cost per solved task: total run cost divided by runs whose tests pass. The sample includes benchmark runners to compare a routed group with single-model baselines. It installs switchyard-server 0.3.0 and runs LiteLLM v1.102.0. It is experimental sample code for non-production use.</p>
+<div class="eli5"><h4>Like I am 5</h4><p>Imagine you have a big helper and a small helper for chores. You send easy chores to the small helper and hard chores to the big one. Then you count how much it cost for each chore that got finished.</p></div>
+<div class="why"><h4>Why it matters</h4><p>Routing coding agent calls between a capable model and a cheaper one can be judged by cost per solved task, which gives teams a clearer way to compare routing against single-model setups on their own workloads.</p></div>
+<div class="sources"><h4>Sources, original first</h4><ol><li><a href="https://aws.amazon.com/blogs/machine-learning/route-coding-agent-requests-to-the-right-model-on-amazon-bedrock-with-nvidia-nemo-switchyard/" rel="noopener">AWS Machine Learning Blog: Route coding agent requests to the right model on Amazon Bedrock with NVIDIA NeMo Switchyard</a> <span class="kind">original</span></li></ol></div>
+<div class="tags"><span class="chip">NVIDIA</span><a class="chip concept" href="../c/coding-assistant.html">AI coding assistant</a><a class="chip concept" href="../c/agent.html">AI agent</a><a class="chip concept" href="../c/inference.html">Inference</a></div>
+<p class="asof">Written from the sources above and checked by a second AI model; every number was matched against the sources.</p>
+</article>
+<p class="static-app"><a href="../index.html#/today/2026-11-14/2026-11-14-aws-sample-routes-coding-agent-requests-between-bedrock-mode">Open this in Attention Span</a>, where every story links to its history,
+concepts and the people behind it.</p>
+</div></main>
+<footer class="site"><div class="wrap">
+  <span>Attention Span is built by <a href="https://github.com/shashikantdev3">Shashikant</a>. Every entry links its source.</span>
+  <span>Data under <a href="https://creativecommons.org/licenses/by-nc/4.0/" rel="license">CC BY-NC 4.0</a>. Code under MIT.</span>
+</div></footer>
+</body>
+</html>

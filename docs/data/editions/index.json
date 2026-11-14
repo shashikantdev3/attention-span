@@ -1,9 +1,16 @@
 {
  "editions": [
   {
+   "date": "2026-11-14",
+   "file": "2026-11.json",
+   "count": 9,
+   "spotlight": 1,
+   "lead": "AIE Code Summit 2026 speakers and attendees publish 'No AI Slop' manifesto"
+  },
+  {
    "date": "2026-11-13",
    "file": "2026-11.json",
-   "count": 17,
+   "count": 22,
    "spotlight": 0,
    "lead": "Reuters: Jensen Huang also had a relationship with a second Nvidia employee before resigning, sources say"
   },
@@ -260,6 +267,6 @@
    "lead": "Anthropic Releases Claude Haiku 5.5 and AWS Integration"
   }
  ],
- "latest": "2026-11-13",
- "updated": "2026-11-13T13:02:27Z"
+ "latest": "2026-11-14",
+ "updated": "2026-11-14T01:05:54Z"
 }

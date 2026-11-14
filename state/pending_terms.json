@@ -1393,80 +1393,73 @@
   "source": "https://latent.space/p/jev-revolution/"
  },
  {
+  "term": "payment token",
+  "definition": "A substitute for the user's actual card details, with a card number, security code, and expiration date, provided by the payment network.",
+  "first_seen": "2026-11-13",
+  "story": "2026-11-13-openai-launches-chatgpt-wallet-so-agents-can-pay-without-see",
+  "source": "https://openai.com/index/introducing-chatgpt-wallet"
+ },
+ {
+  "term": "Web Bot Auth",
+  "definition": "A way to sign requests so a CDN or firewall can recognize ChatGPT agents and not block them.",
+  "first_seen": "2026-11-13",
+  "story": "2026-11-13-openai-launches-chatgpt-wallet-so-agents-can-pay-without-see",
+  "source": "https://openai.com/index/introducing-chatgpt-wallet"
+ },
+ {
   "term": "penetration testing",
-  "definition": "Testing a system, such as a web app, to find security flaws.",
+  "definition": "Probing an application for security weaknesses by acting like an attacker, here done by AI agents that map attack paths.",
   "first_seen": "2026-11-13",
-  "story": "2026-11-13-openai-launches-daybreak-red-team-and-daybreak-defense-facto",
-  "source": "https://www.techmeme.com/261113/p5#a261113p5"
+  "story": "2026-11-13-openai-launches-two-daybreak-security-products-red-team-and",
+  "source": "https://the-decoder.com/openai-enters-the-cybersecurity-market-with-two-daybreak-products/"
  },
  {
-  "term": "hardware fingerprinting",
-  "definition": "Recovering traces of a model's initial values from its published weights, then searching for the hardware configurations that reproduce them.",
+  "term": "weight initialization fingerprinting",
+  "definition": "A method that reads the pattern of random starting values left in a model's weights to infer which GPU generation initialized them.",
   "first_seen": "2026-11-13",
-  "story": "2026-11-13-report-claims-six-chinese-ai-models-show-fingerprints-of-exp",
-  "source": "https://unemploymentlabs.com/checkpoint-forensics"
+  "story": "2026-11-13-researcher-claims-chinese-ai-models-show-signs-of-nvidia-bla",
+  "source": "https://the-decoder.com/former-openai-researcher-says-he-found-nvidia-blackwell-fingerprints-hidden-inside-six-chinese-ai-models/"
  },
  {
-  "term": "residual value support",
-  "definition": "A backstop that Nvidia offered, set at 25%, as part of a planned $500B AI financing vehicle.",
+  "term": "embodied AI",
+  "definition": "AI models that control devices that can act in the physical world, such as robots, driverless cars, or drones.",
   "first_seen": "2026-11-13",
-  "story": "2026-11-13-report-nvidia-faced-pressure-to-raise-25-backstop-on-500b-ai",
-  "source": "https://www.techmeme.com/261112/p69#a261112p69"
+  "story": "2026-11-13-openai-disbands-stand-alone-robotics-team-moves-researchers",
+  "source": "https://fortune.com/2026/11/13/openai-disbands-robotics-team-as-its-general-models-start-running-robots/"
  },
  {
-  "term": "ping-based location verification",
-  "definition": "A method where a GPU sends a signal of its location when it comes online, which is the hardest tracking option to circumvent.",
-  "first_seen": "2026-11-13",
-  "story": "2026-11-13-lawmaker-says-nvidia-privately-said-chip-tracking-is-possibl",
-  "source": "https://www.technologyreview.com/2026/11/12/1148483/nvidia-chip-tracking/"
+  "term": "AI slop",
+  "definition": "Slop is when we put less effort into producing something than we ask the consumer to spend understanding it.",
+  "first_seen": "2026-11-14",
+  "story": "2026-11-14-aie-code-summit-2026-speakers-and-attendees-publish-no-ai-sl",
+  "source": "https://www.slopmanifesto.com/"
  },
  {
-  "term": "x402 protocol",
-  "definition": "An open payment protocol where a request without payment gets an HTTP 402 Payment Required response, and the client pays and retries.",
-  "first_seen": "2026-11-13",
-  "story": "2026-11-13-brave-search-api-now-accepts-agentic-payments-via-x402-proto",
-  "source": "https://brave.com/blog/search-api-agentic-payments/"
+  "term": "bidirectional attention",
+  "definition": "A design where each token can use context from the entire input, instead of only itself and the tokens before it as in causal attention.",
+  "first_seen": "2026-11-14",
+  "story": "2026-11-14-perplexity-releases-decider-v1-3-and-decider-flash-v1-3-deci",
+  "source": "https://www.perplexity.ai/hub/blog/perplexity-decider"
  },
  {
-  "term": "agentic payments",
-  "definition": "Instant, pay-as-you-go payments that developers and autonomous AI agents make programmatically, settling requests in real time.",
-  "first_seen": "2026-11-13",
-  "story": "2026-11-13-brave-search-api-now-accepts-agentic-payments-via-x402-proto",
-  "source": "https://brave.com/blog/search-api-agentic-payments/"
+  "term": "decision head",
+  "definition": "A learned linear output layer that maps the hidden state at a marker token to scores for a question's answer options, which are then converted to probabilities.",
+  "first_seen": "2026-11-14",
+  "story": "2026-11-14-perplexity-releases-decider-v1-3-and-decider-flash-v1-3-deci",
+  "source": "https://www.perplexity.ai/hub/blog/perplexity-decider"
  },
  {
-  "term": "guided generation",
-  "definition": "A built-in framework capability for steering what a language model produces, supported across on-device and server models.",
-  "first_seen": "2026-11-13",
-  "story": "2026-11-13-apple-s-foundation-models-framework-adds-server-models-dynam",
-  "source": "https://developer.apple.com/foundation-models-framework/"
+  "term": "cost per solved task",
+  "definition": "The total cost of your runs divided by the number of runs whose tests pass.",
+  "first_seen": "2026-11-14",
+  "story": "2026-11-14-aws-sample-routes-coding-agent-requests-between-bedrock-mode",
+  "source": "https://aws.amazon.com/blogs/machine-learning/route-coding-agent-requests-to-the-right-model-on-amazon-bedrock-with-nvidia-nemo-switchyard/"
  },
  {
-  "term": "multimodal prompts",
-  "definition": "Prompts that pass images alongside text so an app can reason about visual content.",
-  "first_seen": "2026-11-13",
-  "story": "2026-11-13-apple-s-foundation-models-framework-adds-server-models-dynam",
-  "source": "https://developer.apple.com/foundation-models-framework/"
- },
- {
-  "term": "asset-backed financing",
-  "definition": "Loans backed by customer contracts, so the future value of data centers helps pay for building them.",
-  "first_seen": "2026-11-13",
-  "story": "2026-11-13-nebius-plans-40-billion-in-2027-spending-as-microsoft-site-d",
-  "source": "https://techcrunch.com/2026/11/12/nebius-tests-the-neocloud-playbook-with-40-billion-in-planned-spending/"
- },
- {
-  "term": "customer prepayments",
-  "definition": "Money customers pay long before delivery, which Nebius uses to help fund building capacity.",
-  "first_seen": "2026-11-13",
-  "story": "2026-11-13-nebius-plans-40-billion-in-2027-spending-as-microsoft-site-d",
-  "source": "https://techcrunch.com/2026/11/12/nebius-tests-the-neocloud-playbook-with-40-billion-in-planned-spending/"
- },
- {
-  "term": "PD disaggregation",
-  "definition": "A prefill server computes the prompt KV cache and transfers it to a decode server, which then generates the remaining tokens.",
-  "first_seen": "2026-11-13",
-  "story": "2026-11-13-sglang-neuron-brings-sglang-serving-to-aws-trainium-via-deep",
-  "source": "https://aws.amazon.com/blogs/machine-learning/deploy-frontier-ai-models-on-aws-trainium-with-sglang-neuron/"
+  "term": "stage routing",
+  "definition": "A strategy that reads the recent tool activity and results in the request history, then picks one of two candidate models.",
+  "first_seen": "2026-11-14",
+  "story": "2026-11-14-aws-sample-routes-coding-agent-requests-between-bedrock-mode",
+  "source": "https://aws.amazon.com/blogs/machine-learning/route-coding-agent-requests-to-the-right-model-on-amazon-bedrock-with-nvidia-nemo-switchyard/"
  }
 ]

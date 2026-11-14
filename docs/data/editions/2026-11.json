@@ -8329,7 +8329,7 @@
   },
   "2026-11-13": {
    "date": "2026-11-13",
-   "generated_at": "2026-11-13T13:03:11Z",
+   "generated_at": "2026-11-14T01:03:36Z",
    "stories": [
     {
      "title": "Reuters: Jensen Huang also had a relationship with a second Nvidia employee before resigning, sources say",
@@ -8554,6 +8554,51 @@
      "date": "2026-11-13"
     },
     {
+     "title": "Bloomberg: Anthropic IPO six times oversubscribed, on track to be largest ever",
+     "one_liner": "Bloomberg reports Anthropic's IPO has orders six times the available shares, with up to $64.4 billion targeted in the public offering.",
+     "summary": "Bloomberg reports that Anthropic's IPO is six times oversubscribed and on track to be the largest public offering ever. The company and its co-founders aim to raise up to $64.4 billion publicly and another $26 billion through a private placement. The target valuation is roughly $1.4 trillion, and existing investors get priority. Annualized revenue reached $81 billion by late October, up from $71 billion in September. Nvidia is buying $10 billion in stock through the private placement. Goldman Sachs and Morgan Stanley manage the Nasdaq listing under the ticker ANT. Separately, banks are rejecting orders from mainland China and Hong Kong, citing ITAR export control rules.",
+     "eli5": "Imagine a bakery selling a few cookies, and six times more kids line up than there are cookies. Everyone wants a piece, so the bakery can pick who gets one.",
+     "why_it_matters": "A heavily funded, publicly listed Anthropic signals a long-term vendor for teams building on Claude, though the sources give no product or pricing changes.",
+     "topic": "industry",
+     "type": "event",
+     "labs": [
+      "anthropic",
+      "nvidia"
+     ],
+     "people": [
+      "dario-amodei"
+     ],
+     "concepts": [],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "Anthropic's IPO is six times oversubscribed and on track to become the largest public offering in history",
+       "url": "https://the-decoder.com/anthropics-ipo-is-six-times-oversubscribed-and-on-track-to-become-the-largest-public-offering-in-history/",
+       "name": "The Decoder",
+       "kind": "press"
+      },
+      {
+       "title": "Banks bar Chinese and Hong Kong investors from Anthropic IPO over US export controls",
+       "url": "https://the-decoder.com/banks-bar-chinese-and-hong-kong-investors-from-anthropic-ipo-over-us-export-controls/",
+       "name": "The Decoder",
+       "kind": "press"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-13T15:15:08Z",
+     "checked": {
+      "model": "anthropic:claude-sonnet-5-5",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "Anthropic's IPO is reported six times oversubscribed, and banks are turning away Chinese and Hong Kong buy orders because of US export controls.",
+     "rank": 5,
+     "id": "2026-11-13-bloomberg-anthropic-ipo-six-times-oversubscribed-on-track-to",
+     "date": "2026-11-13"
+    },
+    {
      "title": "Nscale filing says it needs more funding for Anthropic deal, clouding $35B IPO",
      "one_liner": "Nscale told investors it needs more financing for its 2027 commitments after ordering Nvidia chips for a $45B Anthropic deal, per the Financial Times.",
      "summary": "The Financial Times reports that a filing from Nscale says the company needs more funding for its 2027 commitments. Nscale, an Nvidia-backed 'neocloud', ordered Nvidia chips for a $45B Anthropic deal. The report says this casts doubt on its planned $35B IPO. CNBC reports that Nscale released an updated IPO prospectus on Thursday for a U.S. offering. It shows Q3 revenue up 1,344% year over year to $307.5M, up from $140.6M in Q2. Net loss widened to $1.69B, up from $1.02B in Q2.",
@@ -8596,7 +8641,7 @@
       "hype_flags": []
      },
      "editor_reason": "Nscale's filing says it needs more funding for 2027 after ordering Nvidia chips for a $45B Anthropic deal, and its updated IPO prospectus shows Q3 revenue of $307.5M and a widened net loss.",
-     "rank": 5,
+     "rank": 6,
      "id": "2026-11-13-nscale-filing-says-it-needs-more-funding-for-anthropic-deal",
      "date": "2026-11-13"
     },
@@ -8637,7 +8682,7 @@
       "hype_flags": []
      },
      "editor_reason": "Bloomberg reports Nvidia faced pressure to raise its 25% residual value support on a planned $500B AI financing vehicle, which bears on how AI compute gets funded.",
-     "rank": 6,
+     "rank": 7,
      "id": "2026-11-13-report-nvidia-faced-pressure-to-raise-25-backstop-on-500b-ai",
      "date": "2026-11-13"
     },
@@ -8689,7 +8734,7 @@
       "hype_flags": []
      },
      "editor_reason": "Nvidia told a US lawmaker that chip tracking against smuggling is technically possible, and OpenAI backs a bipartisan effort to curb China's access to AI chips.",
-     "rank": 7,
+     "rank": 8,
      "id": "2026-11-13-lawmaker-says-nvidia-privately-said-chip-tracking-is-possibl",
      "date": "2026-11-13"
     },
@@ -8729,7 +8774,7 @@
       "hype_flags": []
      },
      "editor_reason": "Claude Code adds experimental Code Mode, where Claude writes JavaScript to call its tools.",
-     "rank": 8,
+     "rank": 9,
      "id": "2026-11-13-claude-code-v2-1-323-adds-experimental-code-mode-and-plugin",
      "date": "2026-11-13"
     },
@@ -8784,7 +8829,7 @@
       "hype_flags": []
      },
      "editor_reason": "Brave Search API now accepts agentic payments via the x402 protocol, a concrete step for agents that pay for tools themselves.",
-     "rank": 9,
+     "rank": 10,
      "id": "2026-11-13-brave-search-api-now-accepts-agentic-payments-via-x402-proto",
      "date": "2026-11-13"
     },
@@ -8841,8 +8886,117 @@
       "hype_flags": []
      },
      "editor_reason": "A Foundation Models framework post drew 115 points on Hacker News and is worth a look for developers building on on-device models.",
-     "rank": 10,
+     "rank": 11,
      "id": "2026-11-13-apple-s-foundation-models-framework-adds-server-models-dynam",
+     "date": "2026-11-13"
+    },
+    {
+     "title": "OpenAI launches ChatGPT Wallet so agents can pay without seeing card details",
+     "one_liner": "OpenAI introduced ChatGPT Wallet, which lets agents pay with payment tokens instead of real card details and requires a security check for every purchase.",
+     "summary": "OpenAI introduced ChatGPT Wallet on November 13, 2026. It lets agents pay on a user's behalf without access to the user's actual card details. Users add a card once, then review the items, total and card before approving each purchase with a security check such as Face ID or a fingerprint scan. The payment network supplies a payment token in place of the real card. It was built with American Express, Mastercard and Visa. It starts in dots for ChatGPT Pro subscribers aged 18 and older in the US with eligible US-issued cards. OpenAI also published a Commerce Partner Playbook for businesses.",
+     "eli5": "Imagine a helper who goes shopping for you but carries a pretend coin instead of your real wallet. You say yes to each buy first, and the shop never sees your real money.",
+     "why_it_matters": "Agents can now complete purchases through existing checkout flows using payment tokens, so teams building shopping or checkout systems must make sure agents are not blocked and that risk systems recognize legitimate agent purchases.",
+     "topic": "agents",
+     "type": "product",
+     "labs": [
+      "openai"
+     ],
+     "people": [],
+     "concepts": [
+      "agent",
+      "tool-use"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [
+      {
+       "term": "payment token",
+       "definition": "A substitute for the user's actual card details, with a card number, security code, and expiration date, provided by the payment network."
+      },
+      {
+       "term": "Web Bot Auth",
+       "definition": "A way to sign requests so a CDN or firewall can recognize ChatGPT agents and not block them."
+      }
+     ],
+     "sources": [
+      {
+       "title": "Introducing ChatGPT Wallet",
+       "url": "https://openai.com/index/introducing-chatgpt-wallet",
+       "name": "OpenAI News",
+       "kind": "original"
+      },
+      {
+       "title": "ChatGPT’s new Wallet lets AI agents shop and check out for you",
+       "url": "https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you/",
+       "name": "TechCrunch AI",
+       "kind": "press"
+      }
+     ],
+     "buzz": 2,
+     "published": "2026-11-13T15:00:00Z",
+     "checked": {
+      "model": "anthropic:claude-sonnet-5-5",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "OpenAI's ChatGPT Wallet lets agents in ChatGPT Work and Codex complete purchases with user approval and existing card protections.",
+     "rank": 12,
+     "id": "2026-11-13-openai-launches-chatgpt-wallet-so-agents-can-pay-without-see",
+     "date": "2026-11-13"
+    },
+    {
+     "title": "OpenAI disbands stand-alone robotics team, moves researchers to general AI teams",
+     "one_liner": "OpenAI folded its robotics team into its main research and Applied groups after finding its general models, including GPT-6 Astra, can be applied directly to robotics.",
+     "summary": "OpenAI has disbanded its stand-alone robotics team and confirmed this to Fortune. The robotics research team now reports to Chief Research Officer Mark Chen. The applied robotics and hardware teams moved to the Applied organization under President Greg Brockman. OpenAI says general-purpose frontier models, including GPT-6 Astra, have shown they can be applied directly to robotics. In an Nvidia study, an Astra-powered agent reached a 74.8% success rate on a simulated manipulation benchmark, versus 51.0% for the best specialized robotic models. OpenAI says it still plans to bring general-purpose robots to market, and Sam Altman targets a first public humanoid demo in 2027.",
+     "eli5": "Imagine you had one very smart helper who learned to read, draw and solve puzzles. Now you find out that same helper can also steer a toy robot, so you don't need a separate robot-only helper.",
+     "why_it_matters": "If general-purpose models can steer robots directly, teams may be able to try robot control with a frontier model before building a specialized robotics model.",
+     "topic": "industry",
+     "type": "event",
+     "labs": [
+      "openai",
+      "nvidia",
+      "academia"
+     ],
+     "people": [
+      "sam-altman"
+     ],
+     "concepts": [
+      "physical-ai",
+      "foundation-model",
+      "benchmark"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [
+      {
+       "term": "embodied AI",
+       "definition": "AI models that control devices that can act in the physical world, such as robots, driverless cars, or drones."
+      }
+     ],
+     "sources": [
+      {
+       "title": "OpenAI disbands its robotics team as its general models start running robots",
+       "url": "https://fortune.com/2026/11/13/openai-disbands-robotics-team-as-its-general-models-start-running-robots/",
+       "name": "fortune.com",
+       "kind": "press"
+      },
+      {
+       "title": "Discussion on Hacker News",
+       "url": "https://news.ycombinator.com/item?id=50487184",
+       "name": "Hacker News",
+       "kind": "discussion"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-13T17:55:23Z",
+     "checked": {
+      "model": "anthropic:claude-sonnet-5-5",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "OpenAI is disbanding its robotics team as its general models start running robots, a signal about where robotics work is heading.",
+     "rank": 13,
+     "id": "2026-11-13-openai-disbands-stand-alone-robotics-team-moves-researchers",
      "date": "2026-11-13"
     },
     {
@@ -8886,7 +9040,7 @@
       "hype_flags": []
      },
      "editor_reason": "AI-generated app submissions are straining Apple's app review for synth developers, a concrete example of AI side effects on platforms.",
-     "rank": 11,
+     "rank": 14,
      "id": "2026-11-13-synth-developers-report-weeks-long-apple-app-store-delays-an",
      "date": "2026-11-13"
     },
@@ -8924,7 +9078,7 @@
       "hype_flags": []
      },
      "editor_reason": "Protests in seven cities call for AI moratoriums in schools after backlash over Google's Gemini pilot.",
-     "rank": 12,
+     "rank": 15,
      "id": "2026-11-13-families-protest-in-seven-cities-over-google-s-ai-in-schools",
      "date": "2026-11-13"
     },
@@ -8978,7 +9132,7 @@
       "hype_flags": []
      },
      "editor_reason": "Elevated errors and an outage on claude.ai, Claude Code and the platform hit developers who depend on Claude, and the HN discussion was heated.",
-     "rank": 13,
+     "rank": 16,
      "id": "2026-11-13-claude-status-page-reports-elevated-errors-on-claude-ai-clau",
      "date": "2026-11-13"
     },
@@ -9028,7 +9182,7 @@
       "hype_flags": []
      },
      "editor_reason": "Nebius plans $40 billion in AI infrastructure spending funded by customer prepayments and loans, while a Microsoft data center delay raises questions.",
-     "rank": 14,
+     "rank": 17,
      "id": "2026-11-13-nebius-plans-40-billion-in-2027-spending-as-microsoft-site-d",
      "date": "2026-11-13"
     },
@@ -9073,7 +9227,7 @@
       "hype_flags": []
      },
      "editor_reason": "SGLang-Neuron is now publicly available for deploying frontier models on AWS Trainium via a Deep Learning Container.",
-     "rank": 15,
+     "rank": 18,
      "id": "2026-11-13-sglang-neuron-brings-sglang-serving-to-aws-trainium-via-deep",
      "date": "2026-11-13"
     },
@@ -9122,7 +9276,90 @@
      "added_by_editor": "2026-11-13",
      "id": "2026-11-13-report-commerce-secretary-lutnick-agrees-to-testify-on-nvidi",
      "date": "2026-11-13",
-     "rank": 16
+     "rank": 19
+    },
+    {
+     "title": "Anthropic releases Claude for Manufacturing plugin for factory software",
+     "one_liner": "Anthropic released Claude for Manufacturing, a plugin that connects Claude to industrial software like Autodesk Fusion, Oracle NetSuite, Microsoft 365 and Infor to automate factory workflows.",
+     "summary": "Anthropic has released Claude for Manufacturing, a plugin that gives the AI direct access to industrial software. It connects via four universal interfaces to Autodesk Fusion, Oracle NetSuite, Microsoft 365, and Infor. It has 17 specific skills, including drafting quotes from actual inventory, comparing suppliers and generating quality reports. With an added Infor plugin, Claude can order from backup suppliers and reschedule production after human approval. Results link to source documents for employee review. It is available to Team and Enterprise customers. It does not control physical machines yet.",
+     "eli5": "Imagine a helper who can use all the tools in a toy factory's office and write up the orders. But a grown-up must say yes before the helper sends anything important.",
+     "why_it_matters": "Claude can now work inside common business and design tools with human approval and source links, so teams building factory automation can test agent workflows without writing custom integrations for each system.",
+     "topic": "agents",
+     "type": "product",
+     "labs": [
+      "anthropic",
+      "microsoft"
+     ],
+     "people": [],
+     "concepts": [
+      "agent",
+      "tool-use",
+      "physical-ai"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "Anthropic's Claude for Manufacturing plugs AI directly into factory software to automate industrial workflows",
+       "url": "https://the-decoder.com/anthropics-claude-for-manufacturing-plugs-ai-directly-into-factory-software-to-automate-industrial-workflows/",
+       "name": "The Decoder",
+       "kind": "press"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-13T16:37:01Z",
+     "checked": {
+      "model": "anthropic:claude-sonnet-5-5",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "Claude for Manufacturing connects Claude to Autodesk Fusion, Oracle NetSuite and Infor through 17 specialized skills.",
+     "rank": 20,
+     "id": "2026-11-13-anthropic-releases-claude-for-manufacturing-plugin-for-facto",
+     "date": "2026-11-13"
+    },
+    {
+     "title": "llama.cpp reaches v1.0.0 and ties API and ABI breaks to major versions",
+     "one_liner": "llama.cpp and ggml released v1.0.0 libraries, and API and ABI incompatibilities will now be reflected in major-version bumps.",
+     "summary": "The llama.cpp team at Hugging Face released v1.0.0 of its libraries, 3.5 years after the project began. Both llama.cpp and ggml will now reflect API and ABI incompatibilities with major-version bumps. The team says many downstream applications depend on its work. It is investing in CI infrastructure, using HF Buckets and HF Jobs, with hardware support from NVIDIA, AMD, Qualcomm, Arm, IBM and Intel for self-hosted runners. llama.cpp supports more than 150 architecture variants and all mainstream speculative decoding methods. Each ggml backend can be compiled as a dynamic library and optionally loaded at runtime.",
+     "eli5": "Imagine a big box of building blocks that many kids use for their toys. The builders now put a big new number on the box whenever the new blocks no longer fit the old ones.",
+     "why_it_matters": "A major-version bump will now mark API and ABI incompatibilities in llama.cpp and ggml, so teams building on these libraries can see where breaking changes sit.",
+     "topic": "dev-tools",
+     "type": "product",
+     "labs": [
+      "nvidia",
+      "ibm",
+      "other"
+     ],
+     "people": [],
+     "concepts": [
+      "inference",
+      "speculative-decoding",
+      "quantization"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "llama.cpp v1.0.0 : A stronger foundation for the local AI ecosystem",
+       "url": "https://huggingface.co/blog/ggml-org/llama-cpp-v1",
+       "name": "Hugging Face Blog",
+       "kind": "original"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-13T14:05:22Z",
+     "checked": {
+      "model": "anthropic:claude-sonnet-5-5",
+      "rounds": 2,
+      "hype_flags": []
+     },
+     "editor_reason": "llama.cpp reaches v1.0.0, a milestone for the foundation of local AI tooling.",
+     "rank": 21,
+     "id": "2026-11-13-llama-cpp-reaches-v1-0-0-and-ties-api-and-abi-breaks-to-majo",
+     "date": "2026-11-13"
     },
     {
      "title": "Singapore bars the Megaspeed executive linked to the Nvidia case and says the U.S. gave limited help in its chip probe",
@@ -9169,23 +9406,476 @@
      "added_by_editor": "2026-11-13",
      "id": "2026-11-13-singapore-bars-alice-huang-says-u-s-gave-limited-help-in-nvi",
      "date": "2026-11-13",
-     "rank": 17
+     "rank": 22
     }
    ],
    "stats": {
-    "items": 23,
-    "stories": 23,
+    "items": 28,
+    "stories": 26,
     "sources_ok": 42,
     "sources_failed": [],
-    "published": 18,
-    "dropped": 0,
-    "llm_calls": 19,
+    "published": 7,
+    "dropped": 1,
+    "llm_calls": 21,
     "cache_hits": 0,
     "models": {
-     "anthropic:claude-sonnet-5-5": 19
+     "anthropic:claude-sonnet-5-5": 20,
+     "gemini:gemini-3.5-flash-lite": 1
+    },
+    "fallbacks": [
+     {
+      "tag": "writer",
+      "used": "gemini:gemini-3.5-flash-lite",
+      "after": [
+       "anthropic:claude-sonnet-5-5: bad JSON (JSONDecodeError)",
+       "anthropic:claude-sonnet-5-5: bad JSON (JSONDecodeError)"
+      ]
+     }
+    ],
+    "seconds": 125
+   }
+  },
+  "2026-11-14": {
+   "date": "2026-11-14",
+   "generated_at": "2026-11-14T01:06:12Z",
+   "stories": [
+    {
+     "title": "AIE Code Summit 2026 speakers and attendees publish 'No AI Slop' manifesto",
+     "one_liner": "Speakers and attendees of AIE Code Summit 2026 wrote a manifesto saying people must own the quality of AI output and not pass on unreviewed work.",
+     "summary": "Speakers and attendees of AIE Code Summit 2026 published the No AI Slop manifesto. It is modeled on the 2001 Agile Manifesto. It lists five values, including outcomes over output and understanding over speed. It defines slop as putting less effort into producing something than the consumer must spend understanding it. It says using AI does not by itself make something slop. It resolves that people own what they ship, say when an agent wrote it, and review at least some output, depending on the stakes. It also says anything a linter or type checker can catch should be left to it. Signatures are collected through gist comments.",
+     "eli5": "Imagine a friend hands you a huge pile of drawings they made in one second, and you must look at every one. That is unfair, so the manifesto says to check your work before you share it.",
+     "why_it_matters": "The manifesto gives teams a shared set of rules for AI-written code and docs: review what matters, disclose agent output, and push repeat mistakes into linters and checks.",
+     "topic": "industry",
+     "type": "event",
+     "labs": [],
+     "people": [],
+     "concepts": [
+      "vibe-coding",
+      "coding-assistant",
+      "agent"
+     ],
+     "spotlight": true,
+     "spotlight_reason": "A high-signal manifesto against AI slop suggests builders and readers are pushing back on how AI content is made and used.",
+     "new_terms": [
+      {
+       "term": "AI slop",
+       "definition": "Slop is when we put less effort into producing something than we ask the consumer to spend understanding it."
+      }
+     ],
+     "sources": [
+      {
+       "title": "No AI Slop: A Manifesto",
+       "url": "https://www.slopmanifesto.com/",
+       "name": "slopmanifesto.com",
+       "kind": "press"
+      },
+      {
+       "title": "Discussion on Hacker News",
+       "url": "https://news.ycombinator.com/item?id=50488769",
+       "name": "Hacker News",
+       "kind": "discussion"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-13T19:51:56Z",
+     "checked": {
+      "model": "anthropic:claude-sonnet-5-5",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "The 'No AI Slop' manifesto has a high signal score (71) and points to a shift in how people think about AI-generated content.",
+     "rank": 1,
+     "id": "2026-11-14-aie-code-summit-2026-speakers-and-attendees-publish-no-ai-sl",
+     "date": "2026-11-14"
+    },
+    {
+     "title": "ASI says FAA ground stop is not caused by its SMART AI tool",
+     "one_liner": "ASI, maker of the FAA's SMART AI tool, says the current nationwide ground stop is not a result of SMART, its products, or its FAA integration.",
+     "summary": "ASI, the developer of the AI tool SMART, said the FAA ground stop \"is not based on or a result of the SMART system, any product of ASI, or our integration with FAA and ATC.\" Homeland Security Secretary Markwayne Mullin said a link to SMART can't be ruled out yet. He described a telecommunications outage affecting the FAA's air traffic control centers, with the cause not yet known. The FAA said Tuesday it was expanding SMART to all 22 of its en route centers. Microsoft said its own outage was a \"technical issue\" from a \"network capacity upgrade\" and not related to cyber or AI/agents.",
+     "eli5": "Imagine the school bell stops working and everyone blames the new helper robot. The robot's maker says, \"It wasn't me.\" Grown-ups are still checking what broke.",
+     "why_it_matters": "When an AI tool is rolled out widely just before a major outage, its makers face quick questions about whether it is to blame, so teams need clear logs and system boundaries to answer them.",
+     "topic": "policy",
+     "type": "event",
+     "labs": [
+      "microsoft",
+      "government",
+      "other"
+     ],
+     "people": [],
+     "concepts": [
+      "ai-governance"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "ASI, developer of AI tool SMART, says the FAA outage \"is not based on or a result of the SMART system, any product of ASI, or our integration with FAA and ATC\" (Asi/@airspaceintel)",
+       "url": "https://www.techmeme.com/261113/p34#a261113p34",
+       "name": "Techmeme",
+       "kind": "press"
+      },
+      {
+       "title": "DHS chief sees no link between Microsoft outage and FAA ground stop, doesn’t rule out AI",
+       "url": "https://www.geekwire.com/2026/dhs-chief-sees-no-microsoft-link-to-faa-ground-stop-says-possible-ai-role-being-investigated/",
+       "name": "GeekWire",
+       "kind": "press"
+      },
+      {
+       "title": "Microsoft apologizes for the outage, calling it a \"technical issue\" from a \"network capacity upgrade\", and says it was \"not related to cyber or AI/agents\" (@microsoft)",
+       "url": "https://www.techmeme.com/261113/p28#a261113p28",
+       "name": "Techmeme",
+       "kind": "press"
+      }
+     ],
+     "buzz": 2,
+     "published": "2026-11-13T20:40:02Z",
+     "checked": {
+      "model": "anthropic:claude-sonnet-5-5",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "The FAA ground stop and the Microsoft 365 outage are being linked, and the AI tool maker ASI denies its SMART system caused the outage.",
+     "rank": 2,
+     "id": "2026-11-14-asi-says-faa-ground-stop-is-not-caused-by-its-smart-ai-tool",
+     "date": "2026-11-14"
+    },
+    {
+     "title": "Reported $11.4M of Nvidia hardware disappears in transit from Oakland to Fort Worth",
+     "one_liner": "Six pallets of NVIDIA computer hardware, reportedly worth $11.4 million, vanished on a trip from Oakland, California to Fort Worth, Texas, and police are investigating.",
+     "summary": "Six pallets of NVIDIA computer hardware, reportedly worth $11.4 million, disappeared during a shipment from California to Texas. A truck picked up the load in Oakland on Aug. 29 for delivery to Fort Worth. Investigators reportedly tracked it through several long stops before losing it in San Bernardino County. Oakland police confirmed a grand theft investigation after a complaint filed Sept. 13, 2026. Police have not confirmed the $11.4 million value or the specific merchandise. They have not named the owner, shipper, carrier or driver, and report no arrests or recovery. NVIDIA has not responded.",
+     "eli5": "Imagine a big box of toys that was sent to a friend far away, but the delivery truck never arrived and nobody knows where the box went. Now the grown-ups are looking for it.",
+     "why_it_matters": "Teams that depend on shipped computer hardware face real theft risk in transit, so carrier verification and shipment visibility matter for high-value loads.",
+     "topic": "industry",
+     "type": "event",
+     "labs": [
+      "nvidia",
+      "government"
+     ],
+     "people": [],
+     "concepts": [],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "$11.4M in Nvidia hardware vanishes during shipment from CA to TX",
+       "url": "https://www.freightwaves.com/news/11-4-million-in-nvidia-hardware-vanishes-during-shipment-from-california-to-texas",
+       "name": "freightwaves.com",
+       "kind": "press"
+      },
+      {
+       "title": "Discussion on Hacker News",
+       "url": "https://news.ycombinator.com/item?id=50487864",
+       "name": "Hacker News",
+       "kind": "discussion"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-13T18:40:44Z",
+     "checked": {
+      "model": "anthropic:claude-sonnet-5-5",
+      "rounds": 2,
+      "hype_flags": []
+     },
+     "editor_reason": "$11.4M of Nvidia hardware vanished in transit from CA to TX, a story with 279 points and 159 comments on Hacker News.",
+     "rank": 3,
+     "id": "2026-11-14-reported-11-4m-of-nvidia-hardware-disappears-in-transit-from",
+     "date": "2026-11-14"
+    },
+    {
+     "title": "Bloomberg: Amodei calls compute planning Anthropic's \"deepest business dilemma\"",
+     "one_liner": "Anthropic CEO Dario Amodei says deciding how much computing to secure a year or two ahead is the company's \"deepest business dilemma.\"",
+     "summary": "Bloomberg reports that Anthropic PBC Chief Executive Officer Dario Amodei named sourcing computing power as one of the artificial intelligence industry's challenges. He said figuring out how much computing the company needs in a year or two is Anthropic's \"deepest business dilemma.\" The reason he gave is that revenue is unpredictable. The source text is a Techmeme summary of the Bloomberg story and gives no further details, such as figures, deals or timelines.",
+     "eli5": "Imagine you run a lemonade stand and must order lemons far ahead. You do not know how many people will come, so you might buy too many or too few.",
+     "why_it_matters": "Compute supply at AI labs depends on how well they can forecast demand, so teams building on these models should know capacity planning is a stated business challenge for Anthropic.",
+     "topic": "industry",
+     "type": "person",
+     "labs": [
+      "anthropic"
+     ],
+     "people": [
+      "dario-amodei"
+     ],
+     "concepts": [
+      "gpu"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "Dario Amodei says figuring out how much computing is needed in a year or two is Anthropic's \"deepest business dilemma\" due to the unpredictability of revenue (Bloomberg)",
+       "url": "https://www.techmeme.com/261113/p25#a261113p25",
+       "name": "Techmeme",
+       "kind": "press"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-13T19:20:01Z",
+     "checked": {
+      "model": "anthropic:claude-sonnet-5-5",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "Dario Amodei calls forecasting compute needs Anthropic's deepest business dilemma, which shows how hard capacity planning is at a major lab.",
+     "rank": 4,
+     "id": "2026-11-14-bloomberg-amodei-calls-compute-planning-anthropic-s-deepest",
+     "date": "2026-11-14"
+    },
+    {
+     "title": "LangChain raises $300 million Series C at $3 billion valuation",
+     "one_liner": "LangChain raised a $300 million Series C at a $3 billion valuation, led by CapitalG, and claims 7,000 LangSmith customers.",
+     "summary": "LangChain, an agent management startup, has raised a $300 million Series C at a $3 billion valuation. CapitalG led the round. GIC, DFJ Growth, IVP, and Sapphire Ventures also took part. The valuation is more than double the $1.25 billion it had when it raised $125 million about a year ago. LangChain started in 2022 as an open source project. It now focuses on managing AI agents through its LangSmith software. The company says LangSmith does not lock users into any particular model, cloud, or ecosystem. It claims 7,000 LangSmith customers, including Harvey, Rippling, Clay, Nvidia, Toyota, and Salesforce.",
+     "eli5": "Imagine you have many toy robot helpers, and you need one control box to tell them what to do. LangChain makes that control box, and it works with any brand of robot.",
+     "why_it_matters": "Teams building agents get a well-funded option that says it works across any model, cloud, or ecosystem, which may reduce lock-in to one vendor.",
+     "topic": "agents",
+     "type": "event",
+     "labs": [
+      "nvidia",
+      "other"
+     ],
+     "people": [],
+     "concepts": [
+      "agent"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "AI agent startup LangChain hits $3B valuation",
+       "url": "https://techcrunch.com/2026/11/13/ai-agent-startup-langchain-hits-3b-valuation/",
+       "name": "TechCrunch AI",
+       "kind": "press"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-13T19:37:57Z",
+     "checked": {
+      "model": "anthropic:claude-sonnet-5-5",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "LangChain reaches a $3B valuation and claims 7,000 LangSmith customers for its agent management tool.",
+     "rank": 5,
+     "id": "2026-11-14-langchain-raises-300-million-series-c-at-3-billion-valuation",
+     "date": "2026-11-14"
+    },
+    {
+     "title": "Anthropic launches Claude Meetings beta, letting Claude join video calls as a participant",
+     "one_liner": "Claude can now join video calls as a visible participant, answer questions, build docs and whiteboards live, and write notes, in beta on Team and Enterprise plans.",
+     "summary": "Anthropic released Claude Meetings in beta on Team and Enterprise plans. Claude joins a call as a visible participant and posts a notice in the chat. Teammates can ask it questions out loud or in chat. By default it answers in writing and uses connected tools with permission. It can build docs and whiteboards while teammates edit them, and it writes notes and action items. It saves a transcript, summary and screen descriptions, not audio. Support is currently available for Google Meet. By default, Claude stays out of calls with outside guests unless an admin allows it.",
+     "eli5": "Imagine a helpful classmate who sits in on your group project, writes down everything said, and helps build the poster while you talk. Claude can now do that in video calls.",
+     "why_it_matters": "Meeting notes, action items and shared docs can now be produced inside the call, and the beta's admin controls, connected-tool permissions and plan exclusions (ZDR, HIPAA-ready, CMEK) shape whether teams can adopt it.",
+     "topic": "products",
+     "type": "product",
+     "labs": [
+      "anthropic"
+     ],
+     "people": [],
+     "concepts": [
+      "agent",
+      "tool-use"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "Claude Meetings",
+       "url": "https://claude.com/resources/articles/claude-meetings",
+       "name": "claude.com",
+       "kind": "original"
+      },
+      {
+       "title": "Discussion on Hacker News",
+       "url": "https://news.ycombinator.com/item?id=50491097",
+       "name": "Hacker News",
+       "kind": "discussion"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-13T22:39:15Z",
+     "checked": {
+      "model": "anthropic:claude-sonnet-5-5",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "Claude Meetings is a lab's own post that drew 58 comments on Hacker News.",
+     "rank": 6,
+     "id": "2026-11-14-anthropic-launches-claude-meetings-beta-letting-claude-join",
+     "date": "2026-11-14"
+    },
+    {
+     "title": "Dwarkesh Patel essay argues AI could match top human experts by 2030",
+     "one_liner": "Dwarkesh Patel now expects AIs as good as the best humans at AI research within a couple of years, and superintelligence by 2030.",
+     "summary": "In a Nov 13, 2026 essay, Dwarkesh Patel says he has moved his timeline for superintelligence from at least the better part of a decade to by 2030, possibly next year. He points to rapid progress in math, where AI solved a Millennium Prize problem in 88 hours. He cites METR, which found Anthropic's progress on well-scoped tasks is 2x what it was a year ago. Anthropic says Claude leads more than 26% of its AI R&D work, up from under 1% in February. OpenAI says its heaviest 10% of researcher users went from around $1,000 a day to over $7,000 a day in coding agent use.",
+     "eli5": "Imagine a kid who gets so good at puzzles that he starts building better puzzle tools for himself. Then he gets even better, even faster.",
+     "why_it_matters": "If AI keeps speeding up AI research as these figures suggest, teams building with AI should expect model capabilities and internal tooling to change much faster than past timelines assumed.",
+     "topic": "research",
+     "type": "person",
+     "labs": [
+      "anthropic",
+      "openai",
+      "other"
+     ],
+     "people": [
+      "dario-amodei"
+     ],
+     "concepts": [
+      "agi",
+      "coding-assistant",
+      "scaling-laws"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "The avalanche that hit math is coming for AI development",
+       "url": "https://www.dwarkesh.com/p/rsi",
+       "name": "dwarkesh.com",
+       "kind": "press"
+      },
+      {
+       "title": "Discussion on Hacker News",
+       "url": "https://news.ycombinator.com/item?id=50487854",
+       "name": "Hacker News",
+       "kind": "discussion"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-13T18:39:42Z",
+     "checked": {
+      "model": "anthropic:claude-sonnet-5-5",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "A heated Hacker News debate (101 comments) on whether the disruption that hit math is now coming for AI development.",
+     "rank": 7,
+     "id": "2026-11-14-dwarkesh-patel-essay-argues-ai-could-match-top-human-experts",
+     "date": "2026-11-14"
+    },
+    {
+     "title": "Perplexity releases Decider v1.3 and Decider Flash v1.3 decision models",
+     "one_liner": "Perplexity released Decider v1.3 and a smaller Flash version, general-purpose classifiers that return probabilities and add a new locate feature for extracting text.",
+     "summary": "Perplexity released Decider v1.3 and Decider Flash v1.3, a smaller model distilled from Decider v1.3. Both are on Hugging Face under Apache license, through OpenRouter, and the Perplexity Decisions API. A decision model takes an input and several questions, then returns a probability distribution over answers in a single forward pass. It handles Yes/No, multiple choice and score questions. Version 1.3 uses bidirectional attention, better-curated training data and a refined training recipe. It also adds locate, which returns exact matching text from the input with start and end character positions, for tasks like named entity recognition and extractive question answering.",
+     "eli5": "Imagine a helper who reads a story once and then answers many quick questions about it by pointing to A, B or C, instead of writing out long answers. It can also underline the exact words you ask for.",
+     "why_it_matters": "Routing, moderation, reranking and judging tasks can run on a model that scores several questions about one input in a single pass, rather than a generative LLM writing out answers token by token.",
+     "topic": "models",
+     "type": "model",
+     "labs": [
+      "other"
+     ],
+     "people": [],
+     "concepts": [
+      "decision-model",
+      "distillation",
+      "attention"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [
+      {
+       "term": "bidirectional attention",
+       "definition": "A design where each token can use context from the entire input, instead of only itself and the tokens before it as in causal attention."
+      },
+      {
+       "term": "decision head",
+       "definition": "A learned linear output layer that maps the hidden state at a marker token to scores for a question's answer options, which are then converted to probabilities."
+      }
+     ],
+     "sources": [
+      {
+       "title": "Perplexity Decider v1.3: Training, eval, and use cases",
+       "url": "https://www.perplexity.ai/hub/blog/perplexity-decider",
+       "name": "perplexity.ai",
+       "kind": "press"
+      },
+      {
+       "title": "Discussion on Hacker News",
+       "url": "https://news.ycombinator.com/item?id=50488464",
+       "name": "Hacker News",
+       "kind": "discussion"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-13T19:24:47Z",
+     "checked": {
+      "model": "anthropic:claude-sonnet-5-5",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "Perplexity published Decider v1.3 with training, eval and use cases, which is useful for people building on routing or ranking models.",
+     "rank": 8,
+     "id": "2026-11-14-perplexity-releases-decider-v1-3-and-decider-flash-v1-3-deci",
+     "date": "2026-11-14"
+    },
+    {
+     "title": "AWS sample routes coding agent requests between Bedrock models using NVIDIA NeMo Switchyard",
+     "one_liner": "AWS published a sample that deploys LiteLLM with the NVIDIA NeMo Switchyard plugin on Amazon Bedrock to route coding agent requests and measure cost per solved task.",
+     "summary": "An AWS Machine Learning Blog post shows how to deploy LiteLLM with the Switchyard routing plugin using the AWS CDK. LiteLLM calls models on Amazon Bedrock. Switchyard offers Stage routing, which picks between two candidate models, and Random routing, which splits traffic by weight. The post says to judge routing by cost per solved task: total run cost divided by runs whose tests pass. The sample includes benchmark runners to compare a routed group with single-model baselines. It installs switchyard-server 0.3.0 and runs LiteLLM v1.102.0. It is experimental sample code for non-production use.",
+     "eli5": "Imagine you have a big helper and a small helper for chores. You send easy chores to the small helper and hard chores to the big one. Then you count how much it cost for each chore that got finished.",
+     "why_it_matters": "Routing coding agent calls between a capable model and a cheaper one can be judged by cost per solved task, which gives teams a clearer way to compare routing against single-model setups on their own workloads.",
+     "topic": "dev-tools",
+     "type": "product",
+     "labs": [
+      "nvidia"
+     ],
+     "people": [],
+     "concepts": [
+      "coding-assistant",
+      "agent",
+      "inference"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [
+      {
+       "term": "cost per solved task",
+       "definition": "The total cost of your runs divided by the number of runs whose tests pass."
+      },
+      {
+       "term": "stage routing",
+       "definition": "A strategy that reads the recent tool activity and results in the request history, then picks one of two candidate models."
+      }
+     ],
+     "sources": [
+      {
+       "title": "Route coding agent requests to the right model on Amazon Bedrock with NVIDIA NeMo Switchyard",
+       "url": "https://aws.amazon.com/blogs/machine-learning/route-coding-agent-requests-to-the-right-model-on-amazon-bedrock-with-nvidia-nemo-switchyard/",
+       "name": "AWS Machine Learning Blog",
+       "kind": "original"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-13T22:30:12Z",
+     "checked": {
+      "model": "anthropic:claude-sonnet-5-5",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "NVIDIA NeMo Switchyard routes coding agent requests to the right model on Amazon Bedrock, which helps teams running Claude Code or Codex CLI.",
+     "rank": 9,
+     "id": "2026-11-14-aws-sample-routes-coding-agent-requests-between-bedrock-mode",
+     "date": "2026-11-14"
+    }
+   ],
+   "stats": {
+    "items": 29,
+    "stories": 28,
+    "sources_ok": 42,
+    "sources_failed": [],
+    "published": 11,
+    "dropped": 1,
+    "llm_calls": 29,
+    "cache_hits": 0,
+    "models": {
+     "anthropic:claude-sonnet-5-5": 29
     },
     "fallbacks": [],
-    "seconds": 123
+    "seconds": 138
    }
   }
  }
