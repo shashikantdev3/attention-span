@@ -10373,46 +10373,6 @@
      "date": "2026-11-15"
     },
     {
-     "title": "Meituan Releases LongCat-2.5, a 1.6-Trillion-Parameter Agent Model",
-     "one_liner": "Meituan has released LongCat-2.5, a 1.6-trillion-parameter agent model built entirely on Chinese hardware without Nvidia GPUs.",
-     "summary": "Chinese food delivery company Meituan has released the weights for LongCat-2.5, a 1.6-trillion-parameter mixture-of-experts model built for autonomous AI agents. The model was trained entirely on Chinese hardware and never touched an Nvidia GPU. It features a context window that handles up to one million tokens and generates responses up to 128,000 tokens long. A sample deployment runs on 194 Huawei Ascend accelerators. The model handles text, images, and video, and its weights are available under the MIT license.",
-     "eli5": "Meituan built a giant computer brain that helps software agents do long chores, and they trained it using special computer chips instead of the popular American brand.",
-     "why_it_matters": "Open-weight models optimized for non-Nvidia hardware make alternative chip architectures much more viable for large-scale deployments.",
-     "topic": "models",
-     "type": "model",
-     "labs": [
-      "other"
-     ],
-     "people": [],
-     "concepts": [
-      "agent",
-      "mixture-of-experts",
-      "open-weight-model"
-     ],
-     "spotlight": false,
-     "spotlight_reason": "",
-     "new_terms": [],
-     "sources": [
-      {
-       "title": "Meituan releases a 1.6-trillion-parameter agent model that never touched an Nvidia GPU",
-       "url": "https://the-decoder.com/meituan-releases-a-1-6-trillion-parameter-agent-model-that-never-touched-an-nvidia-gpu/",
-       "name": "The Decoder",
-       "kind": "press"
-      }
-     ],
-     "buzz": 1,
-     "published": "2026-11-15T10:06:06Z",
-     "checked": {
-      "model": "gemini:gemini-3.5-flash-lite",
-      "rounds": 1,
-      "hype_flags": []
-     },
-     "editor_reason": "Meituan released open weights for LongCat-2.5, a 1.6-trillion-parameter agent model trained entirely on non-Nvidia hardware.",
-     "rank": 2,
-     "id": "2026-11-15-meituan-releases-longcat-2-5-a-1-6-trillion-parameter-agent",
-     "date": "2026-11-15"
-    },
-    {
      "title": "TSMC Plans New $500 Million Fund for Chip Startups",
      "one_liner": "TSMC plans to set up a new $500 million fund to invest in chip startups, suppliers, and upstream partners.",
      "summary": "Taiwan Semiconductor Manufacturing Co. plans to set up a new $500 million venture fund. The fund is intended to invest in chip startups, suppliers, and other upstream partners. According to Cheng Ting-Fang of Nikkei Asia, the company stated that they also want to support the future's Nvidia. The plan was reported on Techmeme based on the Nikkei Asia report from Tokyo.",
@@ -10446,7 +10406,7 @@
       "hype_flags": []
      },
      "editor_reason": "TSMC plans to establish a $500 million fund to invest in chip startups and supply chain partners.",
-     "rank": 3,
+     "rank": 2,
      "id": "2026-11-15-tsmc-plans-new-500-million-fund-for-chip-startups",
      "date": "2026-11-15"
     },
@@ -10484,7 +10444,7 @@
       "hype_flags": []
      },
      "editor_reason": "Nebuly launched tech for enterprises to analyze the business impact and ROI of deployed AI agents.",
-     "rank": 4,
+     "rank": 3,
      "id": "2026-11-15-nebuly-raises-21m-series-a-to-measure-ai-agent-value",
      "date": "2026-11-15"
     },
@@ -10523,7 +10483,7 @@
       "hype_flags": []
      },
      "editor_reason": "Australia central bank reported that AI adoption is reducing entry-level hiring in software development and customer service.",
-     "rank": 5,
+     "rank": 4,
      "id": "2026-11-15-analysis-finds-ai-hitting-young-workers-first-in-exposed-fie",
      "date": "2026-11-15"
     }
