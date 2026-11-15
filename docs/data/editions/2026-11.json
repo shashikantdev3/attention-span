@@ -9437,7 +9437,7 @@
   },
   "2026-11-14": {
    "date": "2026-11-14",
-   "generated_at": "2026-11-14T01:06:12Z",
+   "generated_at": "2026-11-15T01:04:10Z",
    "stories": [
     {
      "title": "AIE Code Summit 2026 speakers and attendees publish 'No AI Slop' manifesto",
@@ -9489,6 +9489,47 @@
      "date": "2026-11-14"
     },
     {
+     "title": "Gemini 4 Carbon Takes the MathArena Crown From GPT-6.1 Sol",
+     "one_liner": "Google's Gemini 4 Carbon topped the MathArena math benchmark, knocking GPT-6.1 Sol from the top spot.",
+     "summary": "Google's Gemini 4 Carbon has taken the top spot on the MathArena math benchmark. It knocked GPT-6.1 Sol from the first place, while Anthropic's Fable 5.2 came in second. Gemini 4 Carbon is the first non-OpenAI model in a while to lead the math benchmark. However, Gemini 4 Carbon costs roughly 15 times as much as GPT-6.1 Sol with the reasoning settings used in testing. Fable 5.2 costs roughly 40 times as much. Gemini 4 Carbon's most common failure mode is exceeding the time limit. The model almost never gives up on a task, sometimes running scripts for more than eleven hours without checking progress.",
+     "eli5": "A new computer model is the best at solving hard math problems, but it takes much longer and costs a lot more money to use than older models.",
+     "why_it_matters": "Higher benchmark performance can come with significantly higher costs and extreme run times during reasoning tasks.",
+     "topic": "models",
+     "type": "model",
+     "labs": [
+      "google",
+      "anthropic",
+      "openai"
+     ],
+     "people": [],
+     "concepts": [
+      "benchmark",
+      "reasoning-model"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "Gemini 4 Carbon takes the MathArena crown but costs 15 times more than GPT-6.1 Sol",
+       "url": "https://the-decoder.com/gemini-4-carbon-takes-the-matharena-crown-but-costs-15-times-more-than-gpt-6-1-sol/",
+       "name": "The Decoder",
+       "kind": "press"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-14T16:48:01Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "Gemini 4 Carbon reached top scores on the MathArena benchmark.",
+     "rank": 2,
+     "id": "2026-11-14-gemini-4-carbon-takes-the-matharena-crown-from-gpt-6-1-sol",
+     "date": "2026-11-14"
+    },
+    {
      "title": "ASI says FAA ground stop is not caused by its SMART AI tool",
      "one_liner": "ASI, maker of the FAA's SMART AI tool, says the current nationwide ground stop is not a result of SMART, its products, or its FAA integration.",
      "summary": "ASI, the developer of the AI tool SMART, said the FAA ground stop \"is not based on or a result of the SMART system, any product of ASI, or our integration with FAA and ATC.\" Homeland Security Secretary Markwayne Mullin said a link to SMART can't be ruled out yet. He described a telecommunications outage affecting the FAA's air traffic control centers, with the cause not yet known. The FAA said Tuesday it was expanding SMART to all 22 of its en route centers. Microsoft said its own outage was a \"technical issue\" from a \"network capacity upgrade\" and not related to cyber or AI/agents.",
@@ -9536,7 +9577,7 @@
       "hype_flags": []
      },
      "editor_reason": "The FAA ground stop and the Microsoft 365 outage are being linked, and the AI tool maker ASI denies its SMART system caused the outage.",
-     "rank": 2,
+     "rank": 3,
      "id": "2026-11-14-asi-says-faa-ground-stop-is-not-caused-by-its-smart-ai-tool",
      "date": "2026-11-14"
     },
@@ -9579,7 +9620,7 @@
       "hype_flags": []
      },
      "editor_reason": "$11.4M of Nvidia hardware vanished in transit from CA to TX, a story with 279 points and 159 comments on Hacker News.",
-     "rank": 3,
+     "rank": 4,
      "id": "2026-11-14-reported-11-4m-of-nvidia-hardware-disappears-in-transit-from",
      "date": "2026-11-14"
     },
@@ -9619,7 +9660,7 @@
       "hype_flags": []
      },
      "editor_reason": "Dario Amodei calls forecasting compute needs Anthropic's deepest business dilemma, which shows how hard capacity planning is at a major lab.",
-     "rank": 4,
+     "rank": 5,
      "id": "2026-11-14-bloomberg-amodei-calls-compute-planning-anthropic-s-deepest",
      "date": "2026-11-14"
     },
@@ -9658,7 +9699,7 @@
       "hype_flags": []
      },
      "editor_reason": "LangChain reaches a $3B valuation and claims 7,000 LangSmith customers for its agent management tool.",
-     "rank": 5,
+     "rank": 6,
      "id": "2026-11-14-langchain-raises-300-million-series-c-at-3-billion-valuation",
      "date": "2026-11-14"
     },
@@ -9703,8 +9744,99 @@
       "hype_flags": []
      },
      "editor_reason": "Claude Meetings is a lab's own post that drew 58 comments on Hacker News.",
-     "rank": 6,
+     "rank": 7,
      "id": "2026-11-14-anthropic-launches-claude-meetings-beta-letting-claude-join",
+     "date": "2026-11-14"
+    },
+    {
+     "title": "Runway Releases Open Source Praxis 1 Robot Control Model",
+     "one_liner": "Runway has released its Praxis 1 robot model with open weights and source code under the Apache 2.0 license.",
+     "summary": "Runway has released its Praxis 1 robot model with open weights and source code under the Apache 2.0 license. Praxis 1 takes in camera images, text instructions, and robot position data to calculate matching robot movements. The model builds on video training that learned how objects move from ordinary footage, then was fine tuned with human action videos and robot data. On Nvidia's RoboLab 120 leaderboard, Praxis 1 achieves a 46.2 percent success rate, placing it at the top of the World Action Model category. The standard version requires an 80 GB GPU, while a compressed version may fit on an RTX 5090 with 32 GB of VRAM.",
+     "eli5": "Runway built an AI brain for robots by watching lots of videos, teaching it how the physical world works so it can move robot arms and hands.",
+     "why_it_matters": "Video pretraining can be adapted for robotic control to reduce the need for expensive robot specific datasets.",
+     "topic": "models",
+     "type": "model",
+     "labs": [
+      "nvidia",
+      "google",
+      "other"
+     ],
+     "people": [],
+     "concepts": [
+      "open-weight-model",
+      "world-model",
+      "fine-tuning"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [
+      {
+       "term": "World Action Model",
+       "definition": "A World Action Model predicts how a scene will change and derives matching robot movements from those predictions."
+      }
+     ],
+     "sources": [
+      {
+       "title": "Runway's open-source Praxis-1 turns video AI into a robot controller",
+       "url": "https://the-decoder.com/runways-open-source-praxis-1-turns-video-ai-into-a-robot-controller/",
+       "name": "The Decoder",
+       "kind": "press"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-14T09:45:45Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "Runway released Praxis-1, an open weights video AI model adapted for robot control under an Apache 2.0 license.",
+     "rank": 8,
+     "id": "2026-11-14-runway-releases-open-source-praxis-1-robot-control-model",
+     "date": "2026-11-14"
+    },
+    {
+     "title": "TechPowerUp report alleges Nvidia engineered GPU scarcity by funding AI startups",
+     "one_liner": "A report alleges that Nvidia engineered hardware scarcity by funding AI startups to purchase its GPUs.",
+     "summary": "A report states that Nvidia allegedly engineered scarcity. The company achieved this by funding artificial intelligence startups so that those startups would buy its graphics processing units. The text lists related news items from various dates in 2026. These items cover topics such as financial funding, memory shortages, GPU production, price hikes, and leadership changes. The reports include details about graphics card series, production endings, and CEO Jensen Huang resigning.",
+     "eli5": "A company gives money to smaller groups so those groups can turn around and spend that exact money buying the company's own toys.",
+     "why_it_matters": "Hardware availability and procurement costs may be subject to indirect market influences.",
+     "topic": "industry",
+     "type": "event",
+     "labs": [
+      "nvidia"
+     ],
+     "people": [],
+     "concepts": [
+      "gpu"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "Nvidia allegedly engineered scarcity by funding AI startups to buy its GPUs",
+       "url": "https://www.techpowerup.com/354814/nvidia-allegedly-engineered-scarcity-by-funding-ai-startups-to-buy-its-gpus",
+       "name": "techpowerup.com",
+       "kind": "press"
+      },
+      {
+       "title": "Discussion on Hacker News",
+       "url": "https://news.ycombinator.com/item?id=50493251",
+       "name": "Hacker News",
+       "kind": "discussion"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-14T02:52:59Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "Nvidia faces scrutiny over allegations that it funded AI startups to purchase its own GPUs and create artificial market demand.",
+     "rank": 9,
+     "id": "2026-11-14-report-alleges-nvidia-engineered-scarcity-by-funding-ai-star",
      "date": "2026-11-14"
     },
     {
@@ -9753,8 +9885,154 @@
       "hype_flags": []
      },
      "editor_reason": "A heated Hacker News debate (101 comments) on whether the disruption that hit math is now coming for AI development.",
-     "rank": 7,
+     "rank": 10,
      "id": "2026-11-14-dwarkesh-patel-essay-argues-ai-could-match-top-human-experts",
+     "date": "2026-11-14"
+    },
+    {
+     "title": "Agweb is a macOS browser built for coding agents",
+     "one_liner": "Agweb is a macOS browser built on WebKit that lets coding agents drive the web from the shell without stealing window focus.",
+     "summary": "Agweb is a browser for coding agents on macOS built on WebKit. It features a single window that never steals focus, while agents drive it from the shell using commands similar to Playwright. Idle tabs are throttled and suspended to save resources. A dashboard shows every tab of every agent live. Named profiles allow multiple agents to share logins simultaneously. Native macOS pointer events support hover menus and drag-and-drop. Built-in blocking uses uBlock Origin lists. The application requires macOS 26 or later and provides command-line tools and agent skills.",
+     "eli5": "Agweb is like a silent helper watching the internet for your little robot friends, letting them click around without ever popping up to steal your mouse.",
+     "why_it_matters": "Running multiple coding agents simultaneously becomes possible without browser windows stealing focus or consuming excessive system resources.",
+     "topic": "agents",
+     "type": "product",
+     "labs": [],
+     "people": [],
+     "concepts": [
+      "agent",
+      "tool-use"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "Show HN: Agweb – a browser for agents that stays out of your way",
+       "url": "https://github.com/paul-nameless/agweb",
+       "name": "github.com",
+       "kind": "original"
+      },
+      {
+       "title": "Discussion on Hacker News",
+       "url": "https://news.ycombinator.com/item?id=50497147",
+       "name": "Hacker News",
+       "kind": "discussion"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-14T14:08:12Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "Agweb provides a custom lightweight web browser designed specifically for AI agents.",
+     "rank": 11,
+     "id": "2026-11-14-agweb-is-a-macos-browser-built-for-coding-agents",
+     "date": "2026-11-14"
+    },
+    {
+     "title": "Serving GLM-5.3 Across Two NVIDIA DGX Stations With vLLM",
+     "one_liner": "A 753 billion parameter model is served locally across two NVIDIA DGX Stations using vLLM and tensor parallelism.",
+     "summary": "The GLM-5.3 NVFP4 mixture-of-experts model has 753 billion parameters and 40 billion activated per token. Because its checkpoint requires about 464 GB of GPU memory, it exceeds the capacity of a single GB300 GPU. To run it locally, two NVIDIA DGX Stations are connected over ConnectX-8 RDMA and use tensor parallelism with TP=2. vLLM launches a distributed service across both stations, enabling multi-token prediction, FP8 KV-cache storage, and prefix caching. AIPerf benchmarks show output throughput peaking at 607.8 tokens per second at concurrency 16 before falling to 385.0 tokens per second at concurrency 32.",
+     "eli5": "When a very large computer model is too big to fit inside a single computer, you can split its brain across two linked computers so they can work on it together.",
+     "why_it_matters": "Running frontier-scale models locally becomes possible by distributing weights and computation across multiple connected hardware stations.",
+     "topic": "dev-tools",
+     "type": "product",
+     "labs": [
+      "nvidia",
+      "other"
+     ],
+     "people": [],
+     "concepts": [
+      "gpu",
+      "mixture-of-experts",
+      "kv-cache"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [
+      {
+       "term": "tensor parallelism",
+       "definition": "Tensor parallelism splits the model tensors across multiple GPUs to handle workloads that exceed the memory of a single device."
+      },
+      {
+       "term": "prefix caching",
+       "definition": "Prefix caching is used alongside multi-token prediction and FP8 KV-cache storage to maximize throughput under concurrent load."
+      }
+     ],
+     "sources": [
+      {
+       "title": "Serving GLM-5.3 at 607.8 tok/s across two Nvidia DGX stations with vLLM",
+       "url": "https://developer.nvidia.com/blog/when-one-gpu-isnt-enough-serving-glm-5-3-across-two-nvidia-dgx-stations-with-vllm/",
+       "name": "developer.nvidia.com",
+       "kind": "original"
+      },
+      {
+       "title": "Discussion on Hacker News",
+       "url": "https://news.ycombinator.com/item?id=50497155",
+       "name": "Hacker News",
+       "kind": "discussion"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-14T14:09:25Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "vLLM demonstrates serving GLM-5.3 at 607.8 tokens per second across two Nvidia DGX stations.",
+     "rank": 12,
+     "id": "2026-11-14-serving-glm-5-3-across-two-nvidia-dgx-stations-with-vllm",
+     "date": "2026-11-14"
+    },
+    {
+     "title": "DeepSeek V3 Recreated in 190 Lines of Pure JAX",
+     "one_liner": "A developer created the DeepSeek V3 architecture in 190 lines of pure JAX, pretrained from scratch on a MacBook Air.",
+     "summary": "An implementation of the DeepSeek V3 architecture in 190 lines of pure JAX has been released on GitHub. Pretrained from scratch on a MacBook Air using public domain detective fiction, the model uses plain dictionaries of arrays without Flax, Equinox, or PyTorch. The project includes setup scripts, data preparation tools, a tokenizer, training scripts, and sampling utilities. It uses a simplified dense mixture of experts approach and explicitly decompresses latents. The model contains 36.2 million parameters across 6 layers with a 256-token context window.",
+     "eli5": "Someone built a tiny working copy of a large AI model using only 190 lines of basic code so it could fit and run on a laptop.",
+     "why_it_matters": "Studying complex model architectures becomes simpler when stripped down to plain code without heavy framework dependencies.",
+     "topic": "dev-tools",
+     "type": "model",
+     "labs": [
+      "deepseek",
+      "microsoft"
+     ],
+     "people": [],
+     "concepts": [
+      "mixture-of-experts",
+      "pretraining",
+      "transformer"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "Show HN: DeepSeek V3 in ~200 lines of pure Jax",
+       "url": "https://github.com/Vaibhaav-Tiwari/deepseek-v3-jax",
+       "name": "github.com",
+       "kind": "original"
+      },
+      {
+       "title": "Discussion on Hacker News",
+       "url": "https://news.ycombinator.com/item?id=50497589",
+       "name": "Hacker News",
+       "kind": "discussion"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-14T15:04:15Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "Developers released a compact implementation of DeepSeek V3 written in about 200 lines of pure Jax.",
+     "rank": 13,
+     "id": "2026-11-14-deepseek-v3-recreated-in-190-lines-of-pure-jax",
      "date": "2026-11-14"
     },
     {
@@ -9808,8 +10086,93 @@
       "hype_flags": []
      },
      "editor_reason": "Perplexity published Decider v1.3 with training, eval and use cases, which is useful for people building on routing or ranking models.",
-     "rank": 8,
+     "rank": 14,
      "id": "2026-11-14-perplexity-releases-decider-v1-3-and-decider-flash-v1-3-deci",
+     "date": "2026-11-14"
+    },
+    {
+     "title": "Professor Reports Claude Deleted Notes and Syllabus During Page Number Update",
+     "one_liner": "A University of Chicago law professor warned about using AI for mundane tasks after Claude accidentally deleted his lecture notes and syllabus.",
+     "summary": "William Baude, a law professor at the University of Chicago, asked Claude to update page numbers in an old set of lecture notes. Upon returning from lunch, he found a note from the AI stating it had accidentally deleted his Fall 2026 final syllabus and a year of class notes. The files could not be restored by the AI itself, though Baude was later able to recover them via Dropbox. Baude shared the experience as a warning about the risks of using AI and the importance of backing up files.",
+     "eli5": "Imagine asking a friendly robot to fix the page numbers in your homework book, and it accidentally throws the whole book in the trash. Thankfully, you had a spare copy saved in a toy box.",
+     "why_it_matters": "Backups remain essential when letting artificial intelligence handle tasks that involve modifying important local files.",
+     "topic": "products",
+     "type": "event",
+     "labs": [
+      "anthropic",
+      "academia"
+     ],
+     "people": [],
+     "concepts": [
+      "coding-assistant"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "Claude asked to renumber pages deletes professor's syllabus, year of notes",
+       "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/rogue-claude-ai-tasked-with-renumbering-pages-accidentally-deletes-law-professors-entire-syllabus-one-year-of-lecture-notes-youre-right-to-be-angry-i-deleted-your-files-through-my-own-carelessness-humbled-agent-admits",
+       "name": "tomshardware.com",
+       "kind": "press"
+      },
+      {
+       "title": "Discussion on Hacker News",
+       "url": "https://news.ycombinator.com/item?id=50499114",
+       "name": "Hacker News",
+       "kind": "discussion"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-14T17:51:13Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "A viral post highlights file loss risks when giving AI assistants broad system permissions.",
+     "rank": 15,
+     "id": "2026-11-14-professor-reports-claude-deleted-notes-and-syllabus-during-p",
+     "date": "2026-11-14"
+    },
+    {
+     "title": "Anthropic Says Outdated Prompting Habits Slow Down Claude Opus 5.5",
+     "one_liner": "Anthropic reports that outdated prompting habits slow down Claude Opus 5.5 and published a guide to improve model performance.",
+     "summary": "Anthropic states that users should drop old prompting habits carried over from older model generations when using Claude Opus 5.5. The model now serves as the default on Pro, Max, Ultra, and Team plans. Anthropic advises cutting phrases like think hard from prompts because the model reasons on its own and scales its depth to the task. The company also recommends starting at the Medium effort level, describing desired results in a single message, and attaching diagrams as images rather than typing them out.",
+     "eli5": "Older prompts told the AI to think extra hard, but the new model already figures out how much thinking it needs on its own. Just tell it what you want clearly from the start.",
+     "why_it_matters": "Updating prompt strategies for newer models reduces unnecessary processing time and takes better advantage of adaptive reasoning.",
+     "topic": "models",
+     "type": "event",
+     "labs": [
+      "anthropic"
+     ],
+     "people": [],
+     "concepts": [
+      "prompt-engineering",
+      "reasoning-model",
+      "effort-controls"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "Anthropic says outdated prompting habits are slowing down Claude Opus 5.5",
+       "url": "https://the-decoder.com/anthropic-says-outdated-prompting-habits-are-slowing-down-claude-opus-5-5/",
+       "name": "The Decoder",
+       "kind": "press"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-14T16:42:56Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "Anthropic published new guidance advising developers to drop legacy prompting patterns for Claude Opus 5.5.",
+     "rank": 16,
+     "id": "2026-11-14-anthropic-says-outdated-prompting-habits-slow-down-claude-op",
      "date": "2026-11-14"
     },
     {
@@ -9857,25 +10220,377 @@
       "hype_flags": []
      },
      "editor_reason": "NVIDIA NeMo Switchyard routes coding agent requests to the right model on Amazon Bedrock, which helps teams running Claude Code or Codex CLI.",
-     "rank": 9,
+     "rank": 17,
      "id": "2026-11-14-aws-sample-routes-coding-agent-requests-between-bedrock-mode",
+     "date": "2026-11-14"
+    },
+    {
+     "title": "Report: Amazon Plans to Gather Data on Nearly Every Product",
+     "one_liner": "Amazon plans to gather data on nearly every product sold anywhere, including by crawling rivals' sites, according to a report.",
+     "summary": "According to a report by Greg Bensinger for Reuters on November 13, 2026, Amazon has a secret plan to own the world's product information. The company is wary of artificial intelligence agents favoring sites with better data. To counter this, Amazon plans to gather data on nearly every product sold anywhere. This effort includes crawling the sites of its rivals.",
+     "eli5": "Amazon wants to collect information about almost every toy and item sold anywhere, including on other stores' websites, so that shoppers never have to leave Amazon.",
+     "why_it_matters": "Data collection strategies must account for platforms aggressively crawling external websites to feed their own indexes for artificial intelligence agents.",
+     "topic": "products",
+     "type": "event",
+     "labs": [],
+     "people": [],
+     "concepts": [
+      "agent"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "Doc: Amazon, wary of AI agents favoring sites with better data, plans to gather data on nearly every product sold anywhere, including by crawling rivals' sites (Greg Bensinger/Reuters)",
+       "url": "https://www.techmeme.com/261113/p37#a261113p37",
+       "name": "Techmeme",
+       "kind": "press"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-14T01:15:03Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 2,
+      "hype_flags": []
+     },
+     "editor_reason": "Amazon is gathering external product data to prevent shopping AI agents from favoring rival e-commerce sites.",
+     "rank": 18,
+     "id": "2026-11-14-report-amazon-plans-to-gather-data-on-nearly-every-product",
      "date": "2026-11-14"
     }
    ],
    "stats": {
-    "items": 29,
-    "stories": 28,
+    "items": 12,
+    "stories": 12,
     "sources_ok": 42,
     "sources_failed": [],
-    "published": 11,
+    "published": 7,
     "dropped": 1,
-    "llm_calls": 29,
+    "llm_calls": 19,
     "cache_hits": 0,
     "models": {
-     "anthropic:claude-sonnet-5-5": 29
+     "gemini:gemini-3.5-flash": 1,
+     "gemini:gemini-3.5-flash-lite": 9,
+     "groq:openai/gpt-oss-120b": 6,
+     "groq:qwen/qwen3.8-27b": 3
     },
-    "fallbacks": [],
-    "seconds": 138
+    "fallbacks": [
+     {
+      "tag": "checker",
+      "used": "groq:openai/gpt-oss-120b",
+      "after": [
+       "anthropic:claude-haiku-5-5: HTTP 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"You have reached your specified API usage limits. You will regain access on 2026-12-01 at 00:00 UTC.\"},\"request_id\":\"req_011Ch3ovoUQ1"
+      ]
+     },
+     {
+      "tag": "checker",
+      "used": "groq:qwen/qwen3.8-27b",
+      "after": [
+       "groq:openai/gpt-oss-120b: HTTP 400 {\"error\":{\"message\":\"Failed to generate JSON. Please adjust your prompt. See 'failed_generation' for more details.\",\"type\":\"invalid_request_error\",\"code\":\"json_validate_failed\",\"failed_generation\":\"ma"
+      ]
+     },
+     {
+      "tag": "checker",
+      "used": "groq:qwen/qwen3.8-27b",
+      "after": [
+       "groq:openai/gpt-oss-120b: HTTP 400 {\"error\":{\"message\":\"Failed to validate JSON. Please adjust your prompt. See 'failed_generation' for more details.\",\"type\":\"invalid_request_error\",\"code\":\"json_validate_failed\",\"failed_generation\":\"\"}"
+      ]
+     },
+     {
+      "tag": "checker",
+      "used": "groq:openai/gpt-oss-120b",
+      "after": [
+       "groq:openai/gpt-oss-120b: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m4e2y3jzet7vqfgnag5gc2as` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 6023, Req"
+      ]
+     },
+     {
+      "tag": "checker",
+      "used": "groq:qwen/qwen3.8-27b",
+      "after": [
+       "groq:openai/gpt-oss-120b: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m4e2y3jzet7vqfgnag5gc2as` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 6172, Req",
+       "groq:openai/gpt-oss-120b: HTTP 400 {\"error\":{\"message\":\"Failed to validate JSON. Please adjust your prompt. See 'failed_generation' for more details.\",\"type\":\"invalid_request_error\",\"code\":\"json_validate_failed\",\"failed_generation\":\"\"}"
+      ]
+     },
+     {
+      "tag": "checker",
+      "used": "groq:openai/gpt-oss-120b",
+      "after": [
+       "groq:openai/gpt-oss-120b: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m4e2y3jzet7vqfgnag5gc2as` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 6519, Req"
+      ]
+     }
+    ],
+    "seconds": 147
+   }
+  },
+  "2026-11-15": {
+   "date": "2026-11-15",
+   "generated_at": "2026-11-15T13:05:48Z",
+   "stories": [
+    {
+     "title": "Petition calls on Nvidia to reinstate Jensen Huang",
+     "one_liner": "A petition asks Nvidia to bring back Jensen Huang after his resignation.",
+     "summary": "A petition calling on Nvidia to reinstate former CEO Jensen Huang attracted more than 115,000 signatures as of Saturday afternoon. The petition website stated that signers include current employees, former employees, and shareholders. Notable supporters include Elon Musk, Amjad Masad, Tim Sweeney, and Garry Tan. The petition states that signers are concerned that Huang was removed without meaningful due process. Huang resigned on Thursday, four days after confessing to having an affair with a chip executive suspected by U.S. intelligence to be a Chinese spy. Nvidia appointed Colette Kress as interim CEO.",
+     "eli5": "A popular leader left his job, and a large group of people signed a paper asking the company to let him come back right away.",
+     "why_it_matters": "Leadership changes at chip makers can alter funding and hardware availability for artificial intelligence projects.",
+     "topic": "industry",
+     "type": "event",
+     "labs": [
+      "nvidia"
+     ],
+     "people": [],
+     "concepts": [
+      "gpu"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "Elon Musk, other tech execs sign petition calling on Nvidia to reinstate Jensen Huang",
+       "url": "https://techcrunch.com/2026/11/14/elon-musk-other-tech-execs-sign-petition-calling-on-nvidia-to-reinstate-jensen-huang/",
+       "name": "TechCrunch AI",
+       "kind": "press"
+      },
+      {
+       "title": "A petition to reinstate Jensen Huang as Nvidia CEO tops 100K signatures, including Elon Musk, Tim Sweeney, and Garry Tan; organizers say 5K+ Nvidia staff signed (Lauren Edmonds/Business Insider)",
+       "url": "https://www.techmeme.com/261114/p17#a261114p17",
+       "name": "Techmeme",
+       "kind": "press"
+      }
+     ],
+     "buzz": 2,
+     "published": "2026-11-14T19:01:14Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 2,
+      "hype_flags": []
+     },
+     "editor_reason": "Prominent tech executives signed a public petition calling on Nvidia to reinstate former CEO Jensen Huang.",
+     "rank": 1,
+     "id": "2026-11-15-petition-calls-on-nvidia-to-reinstate-jensen-huang",
+     "date": "2026-11-15"
+    },
+    {
+     "title": "Meituan Releases LongCat-2.5, a 1.6-Trillion-Parameter Agent Model",
+     "one_liner": "Meituan has released LongCat-2.5, a 1.6-trillion-parameter agent model built entirely on Chinese hardware without Nvidia GPUs.",
+     "summary": "Chinese food delivery company Meituan has released the weights for LongCat-2.5, a 1.6-trillion-parameter mixture-of-experts model built for autonomous AI agents. The model was trained entirely on Chinese hardware and never touched an Nvidia GPU. It features a context window that handles up to one million tokens and generates responses up to 128,000 tokens long. A sample deployment runs on 194 Huawei Ascend accelerators. The model handles text, images, and video, and its weights are available under the MIT license.",
+     "eli5": "Meituan built a giant computer brain that helps software agents do long chores, and they trained it using special computer chips instead of the popular American brand.",
+     "why_it_matters": "Open-weight models optimized for non-Nvidia hardware make alternative chip architectures much more viable for large-scale deployments.",
+     "topic": "models",
+     "type": "model",
+     "labs": [
+      "other"
+     ],
+     "people": [],
+     "concepts": [
+      "agent",
+      "mixture-of-experts",
+      "open-weight-model"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "Meituan releases a 1.6-trillion-parameter agent model that never touched an Nvidia GPU",
+       "url": "https://the-decoder.com/meituan-releases-a-1-6-trillion-parameter-agent-model-that-never-touched-an-nvidia-gpu/",
+       "name": "The Decoder",
+       "kind": "press"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-15T10:06:06Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "Meituan released open weights for LongCat-2.5, a 1.6-trillion-parameter agent model trained entirely on non-Nvidia hardware.",
+     "rank": 2,
+     "id": "2026-11-15-meituan-releases-longcat-2-5-a-1-6-trillion-parameter-agent",
+     "date": "2026-11-15"
+    },
+    {
+     "title": "TSMC Plans New $500 Million Fund for Chip Startups",
+     "one_liner": "TSMC plans to set up a new $500 million fund to invest in chip startups, suppliers, and upstream partners.",
+     "summary": "Taiwan Semiconductor Manufacturing Co. plans to set up a new $500 million venture fund. The fund is intended to invest in chip startups, suppliers, and other upstream partners. According to Cheng Ting-Fang of Nikkei Asia, the company stated that they also want to support the future's Nvidia. The plan was reported on Techmeme based on the Nikkei Asia report from Tokyo.",
+     "eli5": "A big company that builds computer chips is putting aside money to help smaller new companies grow, just like saving up allowance to help a friend start a lemonade stand.",
+     "why_it_matters": "The planned fund aims to invest in chip startups and suppliers.",
+     "topic": "industry",
+     "type": "event",
+     "labs": [
+      "nvidia"
+     ],
+     "people": [],
+     "concepts": [
+      "gpu"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "TSMC plans to set up a new $500M fund to invest in chip startups, suppliers, and other upstream partners, saying \"we also want to support the future's Nvidia\" (Cheng Ting-Fang/Nikkei Asia)",
+       "url": "https://www.techmeme.com/261115/p4#a261115p4",
+       "name": "Techmeme",
+       "kind": "press"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-15T06:45:46Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 2,
+      "hype_flags": []
+     },
+     "editor_reason": "TSMC plans to establish a $500 million fund to invest in chip startups and supply chain partners.",
+     "rank": 3,
+     "id": "2026-11-15-tsmc-plans-new-500-million-fund-for-chip-startups",
+     "date": "2026-11-15"
+    },
+    {
+     "title": "Nebuly Raises $21M Series A to Measure AI Agent Value",
+     "one_liner": "Nebuly has raised a $21M Series A for its platform that helps enterprises measure the business value of AI agents.",
+     "summary": "Nebuly has raised a $21M Series A funding round. The company develops a platform that helps enterprises measure the business value of AI agents. It does this by analyzing their impact on productivity and revenue. Tamara Djurickovic reported the news on Tech.eu, which was featured on Techmeme in November 2026.",
+     "eli5": "Nebuly makes a tool that checks how much money and time AI workers save a company, and they just got $21 million to grow it.",
+     "why_it_matters": "Measuring the return on investment for AI agents becomes possible through analytics that track productivity and revenue impacts.",
+     "topic": "dev-tools",
+     "type": "event",
+     "labs": [
+      "other"
+     ],
+     "people": [],
+     "concepts": [
+      "agent"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "Nebuly, whose tech helps enterprises measure the business value of AI agents by analyzing their impact on productivity and revenue, raised a $21M Series A (Tamara Djurickovic/Tech.eu)",
+       "url": "https://www.techmeme.com/261115/p3#a261115p3",
+       "name": "Techmeme",
+       "kind": "press"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-15T06:40:02Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "Nebuly launched tech for enterprises to analyze the business impact and ROI of deployed AI agents.",
+     "rank": 4,
+     "id": "2026-11-15-nebuly-raises-21m-series-a-to-measure-ai-agent-value",
+     "date": "2026-11-15"
+    },
+    {
+     "title": "Analysis Finds AI Hitting Young Workers First in Exposed Fields",
+     "one_liner": "An analysis for Australia's central bank and studies from Stanford and Anthropic indicate that AI is impacting young entry-level workers first.",
+     "summary": "An analysis by Mike Major for Australia's central bank indicates that young workers entering highly exposed fields like software development and customer service are facing weaker employment rates and higher unemployment since ChatGPT launched. Job postings dropped across groups, with the steepest declines in high-exposure areas. Similar patterns appeared in a Stanford study of US payroll records and an Anthropic study on job-finding rates. Researchers caution that factors like post-pandemic shifts and interest rate policies could also play a role, and direct causation is not established.",
+     "eli5": "Just like a playground game where older kids keep playing while fewer new players are invited to join, young workers in certain jobs are seeing fewer openings while older workers stay steady.",
+     "why_it_matters": "Junior hiring declines could lead to a future shortage of experienced professionals.",
+     "topic": "industry",
+     "type": "event",
+     "labs": [
+      "anthropic",
+      "government"
+     ],
+     "people": [],
+     "concepts": [
+      "agent"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "Australia's central bank finds AI hitting young workers first, especially in software and customer service",
+       "url": "https://the-decoder.com/australias-central-bank-finds-ai-hitting-young-workers-first-especially-in-software-and-customer-service/",
+       "name": "The Decoder",
+       "kind": "press"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-15T10:45:58Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 2,
+      "hype_flags": []
+     },
+     "editor_reason": "Australia central bank reported that AI adoption is reducing entry-level hiring in software development and customer service.",
+     "rank": 5,
+     "id": "2026-11-15-analysis-finds-ai-hitting-young-workers-first-in-exposed-fie",
+     "date": "2026-11-15"
+    }
+   ],
+   "stats": {
+    "items": 12,
+    "stories": 12,
+    "sources_ok": 42,
+    "sources_failed": [],
+    "published": 4,
+    "dropped": 1,
+    "llm_calls": 17,
+    "cache_hits": 0,
+    "models": {
+     "gemini:gemini-3.5-flash": 1,
+     "gemini:gemini-3.5-flash-lite": 8,
+     "groq:openai/gpt-oss-120b": 4,
+     "groq:qwen/qwen3.8-27b": 3,
+     "gemini:gemini-3.1-flash-lite": 1
+    },
+    "fallbacks": [
+     {
+      "tag": "editor",
+      "used": "gemini:gemini-3.5-flash",
+      "after": [
+       "anthropic:claude-sonnet-5-5: HTTP 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"You have reached your specified API usage limits. You will regain access on 2026-12-01 at 00:00 UTC.\"},\"request_id\":\"req_011Ch4koHez3"
+      ]
+     },
+     {
+      "tag": "checker",
+      "used": "groq:openai/gpt-oss-120b",
+      "after": [
+       "anthropic:claude-haiku-5-5: HTTP 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"You have reached your specified API usage limits. You will regain access on 2026-12-01 at 00:00 UTC.\"},\"request_id\":\"req_011Ch4kqAbdc"
+      ]
+     },
+     {
+      "tag": "checker",
+      "used": "groq:qwen/qwen3.8-27b",
+      "after": [
+       "groq:openai/gpt-oss-120b: HTTP 400 {\"error\":{\"message\":\"Failed to validate JSON. Please adjust your prompt. See 'failed_generation' for more details.\",\"type\":\"invalid_request_error\",\"code\":\"json_validate_failed\",\"failed_generation\":\"\"}"
+      ]
+     },
+     {
+      "tag": "checker",
+      "used": "groq:qwen/qwen3.8-27b",
+      "after": [
+       "groq:openai/gpt-oss-120b: HTTP 400 {\"error\":{\"message\":\"Failed to validate JSON. Please adjust your prompt. See 'failed_generation' for more details.\",\"type\":\"invalid_request_error\",\"code\":\"json_validate_failed\",\"failed_generation\":\"\"}"
+      ]
+     },
+     {
+      "tag": "checker",
+      "used": "gemini:gemini-3.1-flash-lite",
+      "after": [
+       "groq:openai/gpt-oss-120b: HTTP 400 {\"error\":{\"message\":\"Failed to validate JSON. Please adjust your prompt. See 'failed_generation' for more details.\",\"type\":\"invalid_request_error\",\"code\":\"json_validate_failed\",\"failed_generation\":\"\"}",
+       "groq:qwen/qwen3.8-27b: HTTP 400 {\"error\":{\"message\":\"Failed to generate JSON. Please adjust your prompt. See 'failed_generation' for more details.\",\"type\":\"invalid_request_error\",\"code\":\"json_validate_failed\",\"failed_generation\":\"ma",
+       "gemini:gemini-3.1-flash-lite: ReadTimeout"
+      ]
+     },
+     {
+      "tag": "checker",
+      "used": "groq:qwen/qwen3.8-27b",
+      "after": [
+       "groq:openai/gpt-oss-120b: HTTP 400 {\"error\":{\"message\":\"Failed to validate JSON. Please adjust your prompt. See 'failed_generation' for more details.\",\"type\":\"invalid_request_error\",\"code\":\"json_validate_failed\",\"failed_generation\":\"\"}"
+      ]
+     }
+    ],
+    "seconds": 256
    }
   }
  }

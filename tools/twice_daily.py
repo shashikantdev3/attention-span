@@ -570,6 +570,13 @@ def main():
         except Exception as exc:  # noqa: BLE001
             problems.append(f"Context Window: {type(exc).__name__}: {exc}")
 
+    if re.search(r"usage limits|credit balance", alltext):    # free fallback models pick weak spotlights
+        for d in touched:
+            m_ = month(d)
+            for s in m_["editions"].get(d, {}).get("stories", []):
+                if s.get("spotlight") and not str(s.get("checked", {}).get("model", "")).startswith("anthropic"):
+                    s["spotlight"], s["spotlight_reason"] = False, ""
+            write(DATA / "editions" / f"{d[:7]}.json", m_)
     from bundle_data import bundle
     bundle()
     for d in touched:                  # pages of stories dropped as repeats are not linked from anywhere: remove them

@@ -1428,38 +1428,10 @@
   "source": "https://fortune.com/2026/11/13/openai-disbands-robotics-team-as-its-general-models-start-running-robots/"
  },
  {
-  "term": "AI slop",
-  "definition": "Slop is when we put less effort into producing something than we ask the consumer to spend understanding it.",
+  "term": "tensor parallelism",
+  "definition": "Tensor parallelism splits the model tensors across multiple GPUs to handle workloads that exceed the memory of a single device.",
   "first_seen": "2026-11-14",
-  "story": "2026-11-14-aie-code-summit-2026-speakers-and-attendees-publish-no-ai-sl",
-  "source": "https://www.slopmanifesto.com/"
- },
- {
-  "term": "bidirectional attention",
-  "definition": "A design where each token can use context from the entire input, instead of only itself and the tokens before it as in causal attention.",
-  "first_seen": "2026-11-14",
-  "story": "2026-11-14-perplexity-releases-decider-v1-3-and-decider-flash-v1-3-deci",
-  "source": "https://www.perplexity.ai/hub/blog/perplexity-decider"
- },
- {
-  "term": "decision head",
-  "definition": "A learned linear output layer that maps the hidden state at a marker token to scores for a question's answer options, which are then converted to probabilities.",
-  "first_seen": "2026-11-14",
-  "story": "2026-11-14-perplexity-releases-decider-v1-3-and-decider-flash-v1-3-deci",
-  "source": "https://www.perplexity.ai/hub/blog/perplexity-decider"
- },
- {
-  "term": "cost per solved task",
-  "definition": "The total cost of your runs divided by the number of runs whose tests pass.",
-  "first_seen": "2026-11-14",
-  "story": "2026-11-14-aws-sample-routes-coding-agent-requests-between-bedrock-mode",
-  "source": "https://aws.amazon.com/blogs/machine-learning/route-coding-agent-requests-to-the-right-model-on-amazon-bedrock-with-nvidia-nemo-switchyard/"
- },
- {
-  "term": "stage routing",
-  "definition": "A strategy that reads the recent tool activity and results in the request history, then picks one of two candidate models.",
-  "first_seen": "2026-11-14",
-  "story": "2026-11-14-aws-sample-routes-coding-agent-requests-between-bedrock-mode",
-  "source": "https://aws.amazon.com/blogs/machine-learning/route-coding-agent-requests-to-the-right-model-on-amazon-bedrock-with-nvidia-nemo-switchyard/"
+  "story": "2026-11-14-serving-glm-5-3-across-two-nvidia-dgx-stations-with-vllm",
+  "source": "https://developer.nvidia.com/blog/when-one-gpu-isnt-enough-serving-glm-5-3-across-two-nvidia-dgx-stations-with-vllm/"
  }
 ]
