@@ -10586,7 +10586,7 @@
   },
   "2026-11-16": {
    "date": "2026-11-16",
-   "generated_at": "2026-11-16T04:16:50Z",
+   "generated_at": "2026-11-16T13:05:12Z",
    "stories": [
     {
      "title": "Hacker News Hiring Postings Stay Near Twelve-Year Lows",
@@ -10633,6 +10633,78 @@
      "date": "2026-11-16"
     },
     {
+     "title": "LVMH Media Division Partners With OpenAI for AI Integration",
+     "one_liner": "LVMH Group's Media Division and OpenAI signed a strategic agreement to deploy AI tools and ChatGPT Enterprise across publications.",
+     "summary": "LVMH Group's Media Division and OpenAI announced a strategic agreement on November 16, 2026. The partnership brings OpenAI tools and ChatGPT Enterprise to teams across the media division. The goal is to help journalists with document research, document comparison, and preliminary translation. This allows journalists to spend more time on investigative reporting and analysis. The agreement also enhances the presence of content from LVMH Group's Media Division in ChatGPT. ChatGPT will provide summaries and excerpts with source identification and direct links to original articles.",
+     "eli5": "A big media company is giving its workers smart computer helpers so they can spend less time searching through papers and more time doing real reporting.",
+     "why_it_matters": "Media organizations can deploy enterprise AI tools to assist journalists with document research while incorporating source links directly into chatbot responses.",
+     "topic": "industry",
+     "type": "event",
+     "labs": [
+      "openai"
+     ],
+     "people": [],
+     "concepts": [
+      "chatbot"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "LVMH’s Media Division announces strategic partnership with OpenAI",
+       "url": "https://openai.com/index/lvmh-media-division-partnership",
+       "name": "OpenAI News",
+       "kind": "original"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-16T09:00:00Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 2,
+      "hype_flags": []
+     },
+     "editor_reason": "OpenAI partnered with LVMH's media division to bring its news content into ChatGPT.",
+     "rank": 2,
+     "id": "2026-11-16-lvmh-media-division-partners-with-openai-for-ai-integration",
+     "date": "2026-11-16"
+    },
+    {
+     "title": "vLLM Releases Version v0.34.0 on GitHub",
+     "one_liner": "vLLM has released version v0.34.0 on GitHub, providing new code and assets.",
+     "summary": "The vllm-project published release v0.34.0 on GitHub. The release includes version identifiers, specific commit hashes, and assets for download. Users can view the release tag and compare different versions within the repository interface. The page provides asset listings and version tracking details for the project.",
+     "eli5": "The people who make vLLM put out a new box of tools called version v0.34.0 for everyone to use.",
+     "why_it_matters": "New software versions become available for project integration.",
+     "topic": "dev-tools",
+     "type": "event",
+     "labs": [],
+     "people": [],
+     "concepts": [],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "vLLM v0.34.0",
+       "url": "https://github.com/vllm-project/vllm/releases/tag/v0.34.0",
+       "name": "vLLM",
+       "kind": "original"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-16T04:27:15Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "vLLM released version 0.34.0 of its open source model serving engine.",
+     "rank": 3,
+     "id": "2026-11-16-vllm-releases-version-v0-34-0-on-github",
+     "date": "2026-11-16"
+    },
+    {
      "title": "OpenAI Launches New Blog to Share AI Science Discoveries",
      "one_liner": "OpenAI started a science blog to share research, methods, and firsthand accounts from scientists using AI to accelerate discovery.",
      "summary": "OpenAI launched a science blog on November 15, 2026. The blog shares research results, methods, and practical guidance from OpenAI and the broader scientific community. It highlights recent work in mathematics, physics, and biology. In September, an internal OpenAI system produced a proof addressing the Navier–Stokes existence and smoothness problem. In October, OpenAI released mathematical results including the quasi-Riemann hypothesis. In biology, researchers worked with PerturbAI and Scripps Research using thousands of agents powered by GPT-Rosalind to analyze mouse brain cell data.",
@@ -10668,8 +10740,80 @@
       "hype_flags": []
      },
      "editor_reason": "OpenAI launches a dedicated science blog to cover AI-driven scientific discovery.",
-     "rank": 2,
+     "rank": 4,
      "id": "2026-11-16-openai-launches-new-blog-to-share-ai-science-discoveries",
+     "date": "2026-11-16"
+    },
+    {
+     "title": "Report: Jensen Huang's Resignation Causes Dismay in Taiwan",
+     "one_liner": "Nvidia chief executive Jensen Huang's resignation caused shock and disbelief in Taiwan, where he is known as the people's dad.",
+     "summary": "According to a New York Times report by Li Yuan, the resignation of Nvidia chief executive Jensen Huang caused dismay and disbelief in Taiwan. Huang was born in Taiwan, where people call him the people's dad. Despite the shock in his birthplace, an official expects the resignation to have little impact on TSMC. The snapshot of the Techmeme archive page was taken on November 16, 2026.",
+     "eli5": "It is like a very popular playground supervisor stepping down, making all the kids in the neighborhood sad, even though the playground equipment still works fine.",
+     "why_it_matters": "Leadership changes at chip giants create uncertainty for the hardware supply chain.",
+     "topic": "industry",
+     "type": "event",
+     "labs": [
+      "nvidia"
+     ],
+     "people": [],
+     "concepts": [],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "Jensen Huang's resignation causes dismay and disbelief in Taiwan, his birthplace and where he is \"the people's dad\"; an official expects little impact on TSMC (Li Yuan/New York Times)",
+       "url": "https://www.techmeme.com/261116/p13#a261116p13",
+       "name": "Techmeme",
+       "kind": "press"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-16T11:10:02Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "Jensen Huang's resignation as Nvidia CEO caused widespread reaction across the semiconductor industry.",
+     "rank": 5,
+     "id": "2026-11-16-report-jensen-huang-s-resignation-causes-dismay-in-taiwan",
+     "date": "2026-11-16"
+    },
+    {
+     "title": "Report: China Pushes for AI Literacy by 2030",
+     "one_liner": "China is pushing for AI literacy by 2030 as schools adopt AI curricula, classroom cameras, and AI-generated lessons.",
+     "summary": "China is pushing for artificial intelligence literacy by 2030. Schools are adopting artificial intelligence-focused curricula, classroom cameras, and artificial intelligence-generated lessons. These changes help mitigate teacher shortages. At a top private school in Beijing, a 13-year-old student named Peng Gaodi has used artificial intelligence to build more than 200 apps. Reuters reported on this push.",
+     "eli5": "Schools are using computers to help teach classes and make up for missing teachers, just like using a helpful robot helper in the classroom.",
+     "why_it_matters": "School adoptions and teacher shortages drive early usage data for specialized education models.",
+     "topic": "policy",
+     "type": "event",
+     "labs": [
+      "government"
+     ],
+     "people": [],
+     "concepts": [],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "A look at China's push for AI literacy by 2030, as schools adopt AI-focused curricula, classroom cameras, and AI-generated lessons to mitigate teacher shortages (Reuters)",
+       "url": "https://www.techmeme.com/261116/p10#a261116p10",
+       "name": "Techmeme",
+       "kind": "press"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-16T09:35:02Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "China introduced a plan to roll out AI focused curricula across schools by 2030.",
+     "rank": 6,
+     "id": "2026-11-16-report-china-pushes-for-ai-literacy-by-2030",
      "date": "2026-11-16"
     },
     {
@@ -10707,7 +10851,7 @@
       "hype_flags": []
      },
      "editor_reason": "Microsoft publishes its monthly community spotlight and tutorials for Microsoft Fabric.",
-     "rank": 3,
+     "rank": 7,
      "id": "2026-11-16-microsoft-fabric-spotlight-shares-46-community-contributions",
      "date": "2026-11-16"
     },
@@ -10746,50 +10890,39 @@
       "hype_flags": []
      },
      "editor_reason": "Apple launches an app to study how people ask everyday health questions using AI.",
-     "rank": 4,
+     "rank": 8,
      "id": "2026-11-16-apple-launches-a-new-app-to-study-ai-health-queries",
      "date": "2026-11-16"
     }
    ],
    "stats": {
-    "items": 14,
-    "stories": 14,
-    "sources_ok": 41,
-    "sources_failed": [
-     "techmeme"
-    ],
-    "published": 5,
-    "dropped": 3,
-    "llm_calls": 27,
+    "items": 11,
+    "stories": 11,
+    "sources_ok": 42,
+    "sources_failed": [],
+    "published": 4,
+    "dropped": 2,
+    "llm_calls": 17,
     "cache_hits": 0,
     "models": {
      "gemini:gemini-3.5-flash": 1,
-     "gemini:gemini-3.5-flash-lite": 13,
+     "gemini:gemini-3.5-flash-lite": 8,
      "groq:openai/gpt-oss-120b": 5,
-     "groq:qwen/qwen3.8-27b": 8
+     "groq:qwen/qwen3.8-27b": 3
     },
     "fallbacks": [
      {
-      "tag": "checker",
-      "used": "groq:qwen/qwen3.8-27b",
+      "tag": "writer",
+      "used": "gemini:gemini-3.5-flash-lite",
       "after": [
-       "groq:openai/gpt-oss-120b: HTTP 400 {\"error\":{\"message\":\"Failed to validate JSON. Please adjust your prompt. See 'failed_generation' for more details.\",\"type\":\"invalid_request_error\",\"code\":\"json_validate_failed\",\"failed_generation\":\"\"}",
-       "groq:qwen/qwen3.8-27b: ConnectionError"
+       "gemini:gemini-3.5-flash-lite: HTTP 503 [{\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n]"
       ]
      },
      {
       "tag": "checker",
       "used": "groq:qwen/qwen3.8-27b",
       "after": [
-       "groq:openai/gpt-oss-120b: HTTP 400 {\"error\":{\"message\":\"Failed to generate JSON. Please adjust your prompt. See 'failed_generation' for more details.\",\"type\":\"invalid_request_error\",\"code\":\"json_validate_failed\",\"failed_generation\":\"ma"
-      ]
-     },
-     {
-      "tag": "checker",
-      "used": "groq:qwen/qwen3.8-27b",
-      "after": [
-       "groq:openai/gpt-oss-120b: HTTP 400 {\"error\":{\"message\":\"Failed to validate JSON. Please adjust your prompt. See 'failed_generation' for more details.\",\"type\":\"invalid_request_error\",\"code\":\"json_validate_failed\",\"failed_generation\":\"\"}",
-       "groq:qwen/qwen3.8-27b: HTTP 503 {\"error\":{\"message\":\"qwen/qwen3.8-27b is currently over capacity. Please try again and back off exponentially. Visit https://groqstatus.com to see if there is an active incident.\",\"type\":\"internal_ser"
+       "groq:openai/gpt-oss-120b: HTTP 400 {\"error\":{\"message\":\"Failed to validate JSON. Please adjust your prompt. See 'failed_generation' for more details.\",\"type\":\"invalid_request_error\",\"code\":\"json_validate_failed\",\"failed_generation\":\"\"}"
       ]
      },
      {
@@ -10807,6 +10940,13 @@
       ]
      },
      {
+      "tag": "writer",
+      "used": "gemini:gemini-3.5-flash-lite",
+      "after": [
+       "gemini:gemini-3.5-flash-lite: HTTP 503 [{\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n]"
+      ]
+     },
+     {
       "tag": "checker",
       "used": "groq:qwen/qwen3.8-27b",
       "after": [
@@ -10814,7 +10954,7 @@
       ]
      }
     ],
-    "seconds": 260
+    "seconds": 214
    }
   }
  }

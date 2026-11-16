@@ -3,8 +3,8 @@
   {
    "date": "2026-11-16",
    "file": "2026-11.json",
-   "count": 4,
-   "spotlight": 1,
+   "count": 8,
+   "spotlight": 0,
    "lead": "Hacker News Hiring Postings Stay Near Twelve-Year Lows"
   },
   {
@@ -282,5 +282,5 @@
   }
  ],
  "latest": "2026-11-16",
- "updated": "2026-11-16T04:16:33Z"
+ "updated": "2026-11-16T13:03:54Z"
 }
