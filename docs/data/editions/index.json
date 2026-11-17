@@ -1,9 +1,16 @@
 {
  "editions": [
   {
+   "date": "2026-11-17",
+   "file": "2026-11.json",
+   "count": 11,
+   "spotlight": 0,
+   "lead": "Google Reports Fully Automated Cyberattacks Have Arrived"
+  },
+  {
    "date": "2026-11-16",
    "file": "2026-11.json",
-   "count": 8,
+   "count": 15,
    "spotlight": 0,
    "lead": "Hacker News Hiring Postings Stay Near Twelve-Year Lows"
   },
@@ -269,7 +276,7 @@
   {
    "date": "2026-10-09",
    "file": "2026-10.json",
-   "count": 10,
+   "count": 11,
    "spotlight": 0,
    "lead": "OpenAI Annualized Revenue Reported at $50 Billion"
   },
@@ -281,6 +288,6 @@
    "lead": "Anthropic Releases Claude Haiku 5.5 and AWS Integration"
   }
  ],
- "latest": "2026-11-16",
- "updated": "2026-11-16T13:03:54Z"
+ "latest": "2026-11-17",
+ "updated": "2026-11-17T13:03:12Z"
 }

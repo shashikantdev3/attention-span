@@ -1433,5 +1433,54 @@
   "first_seen": "2026-11-14",
   "story": "2026-11-14-serving-glm-5-3-across-two-nvidia-dgx-stations-with-vllm",
   "source": "https://developer.nvidia.com/blog/when-one-gpu-isnt-enough-serving-glm-5-3-across-two-nvidia-dgx-stations-with-vllm/"
+ },
+ {
+  "term": "Live Delivery",
+  "definition": "A feature that lets users inspect intermediate results from autonomous agents early and adjust running tasks on the fly.",
+  "first_seen": "2026-11-16",
+  "story": "2026-11-16-alibaba-launches-qwen4-max-model-with-lower-prices",
+  "source": "https://the-decoder.com/alibabas-qwen4-max-takes-on-opus-5-5-gpt-6-and-kimi-k3-1-pro-at-much-lower-prices/"
+ },
+ {
+  "term": "image classifier",
+  "definition": "A new classifier that can detect potential child sexual abuse material, including AI-generated material.",
+  "first_seen": "2026-11-16",
+  "story": "2026-11-16-openai-releases-new-csam-image-classifier-and-chatgpt-warnin",
+  "source": "https://openai.com/index/strengthening-online-child-safety"
+ },
+ {
+  "term": "HTML-in-Canvas",
+  "definition": "HTML-in-Canvas changes that by placing real page elements inside canvas graphics while keeping them fully interactive.",
+  "first_seen": "2026-11-16",
+  "story": "2026-11-16-claude-now-builds-interactive-websites-inside-canvas-graphic",
+  "source": "https://the-decoder.com/claude-now-builds-interactive-websites-inside-canvas-graphics-reviving-the-flash-era-with-real-html/"
+ },
+ {
+  "term": "total processing performance",
+  "definition": "An export-control metric the U.S. uses to measure computing power.",
+  "first_seen": "2026-11-16",
+  "story": "2026-11-16-us-tightens-ai-chip-export-controls-for-remote-compute",
+  "source": "https://techcrunch.com/2026/11/16/us-tightens-ai-chip-export-controls-to-deter-chinese-companies-from-accessing-compute-remotely/"
+ },
+ {
+  "term": "property tests",
+  "definition": "Property tests look at the edge cases that people tend to miss, which is where agents often fail.",
+  "first_seen": "2026-11-17",
+  "story": "2026-11-17-how-the-claude-code-team-thinks-about-agent-verification",
+  "source": "https://claude.dev/blog/how-the-claude-code-team-thinks-about-verification/"
+ },
+ {
+  "term": "differential tests",
+  "definition": "Differential tests run both the old system and the new system with the same inputs and see if you get different results.",
+  "first_seen": "2026-11-17",
+  "story": "2026-11-17-how-the-claude-code-team-thinks-about-agent-verification",
+  "source": "https://claude.dev/blog/how-the-claude-code-team-thinks-about-verification/"
+ },
+ {
+  "term": "Anthropic Direct",
+  "definition": "Anthropic's data center network plans committing over $900 billion through 2045.",
+  "first_seen": "2026-11-17",
+  "story": "2026-11-17-report-anthropic-plans-data-center-network-dubbed-anthropic",
+  "source": "https://www.techmeme.com/261117/p11#a261117p11"
  }
 ]
