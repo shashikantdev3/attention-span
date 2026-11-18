@@ -12037,7 +12037,7 @@
   },
   "2026-11-18": {
    "date": "2026-11-18",
-   "generated_at": "2026-11-18T01:08:42Z",
+   "generated_at": "2026-11-18T13:10:41Z",
    "stories": [
     {
      "title": "Microsoft Announces General Availability of Office Inside Copilot",
@@ -12084,6 +12084,61 @@
      "date": "2026-11-18"
     },
     {
+     "title": "Cerebras Launches Disaggregated Inference Combining GPUs and Wafer Scale Engines",
+     "one_liner": "Cerebras launched disaggregated inference, pairing GPUs for prompt processing with Cerebras systems for output generation to deliver higher throughput.",
+     "summary": "Cerebras launched a disaggregated inference solution that pairs GPUs for prompt processing, known as prefill, with Cerebras systems for output generation, known as decode. In a production deployment using AMD Instinct GPUs and Cerebras CS-3 systems, the configuration delivered five times the throughput per megawatt of a CS-3-only setup without losing token generation speed. The company plans to deploy this approach across hundreds of megawatts in the Cerebras Inference Cloud and partner deployments by the end of 2027. Infrastructure partners can adopt the solution using a reference architecture, an end-to-end software stack, or a decode-only SDK.",
+     "eli5": "Imagine a team where one person quickly reads long pages of text and hands over notes, while another person writes out the final answers at lightning speed. By splitting the work between GPUs and Cerebras chips, the system gets much more efficient.",
+     "why_it_matters": "Splitting prompt processing from output generation increases inference capacity and token throughput per megawatt while maintaining high response speeds.",
+     "topic": "dev-tools",
+     "type": "product",
+     "labs": [
+      "other"
+     ],
+     "people": [],
+     "concepts": [
+      "gpu",
+      "inference",
+      "tokens"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [
+      {
+       "term": "disaggregated inference",
+       "definition": "A solution where accelerators handle prompt processing and Cerebras systems handle output generation."
+      },
+      {
+       "term": "KV Portal",
+       "definition": "Software that acts as an interface to transfer intermediate model state, including key-value caches, between prefill and decode engines over RDMA."
+      }
+     ],
+     "sources": [
+      {
+       "title": "Cerebras Disaggregated Inference",
+       "url": "https://www.cerebras.ai/blog/cerebras-launches-disaggregated-inference",
+       "name": "cerebras.ai",
+       "kind": "press"
+      },
+      {
+       "title": "Discussion on Hacker News",
+       "url": "https://news.ycombinator.com/item?id=50540472",
+       "name": "Hacker News",
+       "kind": "discussion"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-18T00:56:23Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "Cerebras Disgraded Inference introduces new hardware routing options for high-throughput model serving.",
+     "rank": 2,
+     "id": "2026-11-18-cerebras-launches-disaggregated-inference-combining-gpus-and",
+     "date": "2026-11-18"
+    },
+    {
      "title": "Microsoft Announces Copilot SDK 2.0 with Shared Multi-Tenant Runtime",
      "one_liner": "Microsoft announced Copilot SDK 2.0 at Ignite, introducing a multi-tenant Rust-based runtime that hosts many agent sessions within a single process.",
      "summary": "Microsoft announced the new Microsoft Copilot SDK 2.0, previously named GitHub Copilot SDK, at Ignite. The update introduces a shared, multi-tenant runtime rebuilt in Rust that can host multiple agent sessions within a single process. Each session maintains separate state, credentials, tools, files, and history without needing an individual container. This architecture cuts time to first token and operating costs, improving completion times from 5.25 seconds on the TypeScript CLI down to 55.3 milliseconds with the Rust core. Memory usage and throughput also saw improvements, and the new version adds session-scoped identities and durable session journaling.",
@@ -12127,7 +12182,7 @@
       "hype_flags": []
      },
      "editor_reason": "Microsoft announced the Copilot SDK 2.0 to give developers direct programmatic access to agentic tools.",
-     "rank": 2,
+     "rank": 3,
      "id": "2026-11-18-microsoft-announces-copilot-sdk-2-0-with-shared-multi-tenant",
      "date": "2026-11-18"
     },
@@ -12164,8 +12219,63 @@
       "hype_flags": []
      },
      "editor_reason": "Model ML raised $250 million for agents that automate financial modeling and deal preparation.",
-     "rank": 3,
+     "rank": 4,
      "id": "2026-11-18-model-ml-raises-250m-to-automate-investment-banking-work",
+     "date": "2026-11-18"
+    },
+    {
+     "title": "Energy-Based Reasoners achieve efficient inference in looped models",
+     "one_liner": "Researchers introduced Energy-Based Reasoners, which use an energy function and gradient descent for looped updates in reasoning tasks.",
+     "summary": "Energy-Based Reasoners learn an energy function over latent reasoning states and formulate looped updates as gradient descent on this energy. The energy scores latent states, while its gradient guides refinement and provides a signal for stopping. Exploration-based training helps discover additional modes and shape the energy landscape over a broader set of states. Across four algorithmic reasoning benchmarks, Energy-Based Reasoners match or outperform prior recurrent reasoning models. They achieve 99.9% accuracy on Sudoku-Extreme while using 345 times less inference compute than the next-best model and maintaining comparable training compute.",
+     "eli5": "The model checks its work like a game of getting closer to a target, stopping when it reaches the right spot.",
+     "why_it_matters": "Energy-based functions can guide refinement and stopping criteria to reduce inference compute in reasoning models.",
+     "topic": "research",
+     "type": "paper",
+     "labs": [
+      "academia"
+     ],
+     "people": [],
+     "concepts": [
+      "reasoning-model",
+      "gradient-descent",
+      "benchmark"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [
+      {
+       "term": "Energy-Based Reasoners",
+       "definition": "Models that learn an energy function over latent reasoning states and formulate looped updates as gradient descent on this energy."
+      },
+      {
+       "term": "exploration-based training",
+       "definition": "Training used to discover additional modes and to better shape the energy landscape over a broader set of states."
+      }
+     ],
+     "sources": [
+      {
+       "title": "Energy-Based Reasoners: 385x more efficient inference",
+       "url": "https://energy-based-reasoners.github.io/",
+       "name": "energy-based-reasoners.github.io",
+       "kind": "press"
+      },
+      {
+       "title": "Discussion on Hacker News",
+       "url": "https://news.ycombinator.com/item?id=50543989",
+       "name": "Hacker News",
+       "kind": "discussion"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-18T09:29:32Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "Energy-based reasoners offer significantly more efficient inference, which matters for scaling model deployments.",
+     "rank": 5,
+     "id": "2026-11-18-energy-based-reasoners-achieve-efficient-inference-in-looped",
      "date": "2026-11-18"
     },
     {
@@ -12246,7 +12356,7 @@
       "hype_flags": []
      },
      "editor_reason": "Microsoft Fabric rolled out new database, analytics, and intelligent application capabilities at Ignite.",
-     "rank": 4,
+     "rank": 6,
      "id": "2026-11-18-microsoft-announces-new-capabilities-in-microsoft-fabric-at",
      "date": "2026-11-18"
     },
@@ -12289,7 +12399,7 @@
       "hype_flags": []
      },
      "editor_reason": "StarSling launched self-improving CI runners with AI agents that ship PRs for agent-volume repositories.",
-     "rank": 5,
+     "rank": 7,
      "id": "2026-11-18-starsling-launches-self-improving-ci-for-agent-volume-reposi",
      "date": "2026-11-18"
     },
@@ -12344,7 +12454,7 @@
       "hype_flags": []
      },
      "editor_reason": "A widely discussed essay on Hacker News argues that not every task requires an LLM.",
-     "rank": 6,
+     "rank": 8,
      "id": "2026-11-18-posthog-shares-production-use-cases-for-decision-models",
      "date": "2026-11-18"
     },
@@ -12382,48 +12492,78 @@
       "hype_flags": []
      },
      "editor_reason": "Suno launched Visuals to generate video clips for music videos using a MiniMax-based model.",
-     "rank": 7,
+     "rank": 9,
      "id": "2026-11-18-suno-launches-visuals-for-music-video-generation",
+     "date": "2026-11-18"
+    },
+    {
+     "title": "Codex CLI 0.170.0 Released with WebRTC Voice and Bug Fixes",
+     "one_liner": "Codex CLI version 0.170.0 adds WebRTC voice call negotiation, OpenTelemetry header refreshes, and various bug fixes.",
+     "summary": "Codex CLI version 0.170.0 introduces WebRTC negotiation for realtime voice calls in the terminal user interface. The release adds automatically refreshed authentication headers for OpenTelemetry HTTP exporters and experimental support for identically named MCP servers across environments. Bug fixes address oversized WebSocket requests falling back to HTTP, MCP OAuth credential races, automatic reconnection for Cloud conversations, Windows file replacements, sandbox permission preservation, runtime registration recovery, and duplicate file search results.",
+     "eli5": "This update gives the command-line tool a new way to talk using voice calls, much like fixing an old walkie-talkie to make its voice feature work smoothly.",
+     "why_it_matters": "Realtime voice call negotiation and improved sandbox and authentication handling enhance terminal-based workflows.",
+     "topic": "dev-tools",
+     "type": "product",
+     "labs": [
+      "openai",
+      "microsoft"
+     ],
+     "people": [],
+     "concepts": [
+      "coding-assistant",
+      "agent-sandbox"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "Codex CLI 0.170.0",
+       "url": "https://github.com/openai/codex/releases/tag/rust-v0.170.0",
+       "name": "Codex CLI",
+       "kind": "original"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-18T03:45:39Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "Codex CLI updated with WebRTC support for realtime voice calls directly inside the terminal user interface.",
+     "rank": 10,
+     "id": "2026-11-18-codex-cli-0-170-0-released-with-webrtc-voice-and-bug-fixes",
      "date": "2026-11-18"
     }
    ],
    "stats": {
-    "items": 52,
-    "stories": 49,
+    "items": 24,
+    "stories": 24,
     "sources_ok": 42,
     "sources_failed": [],
-    "published": 7,
+    "published": 6,
     "dropped": 2,
-    "llm_calls": 23,
+    "llm_calls": 21,
     "cache_hits": 0,
     "models": {
-     "gemini:gemini-3.5-flash-lite": 12,
-     "groq:qwen/qwen3.8-27b": 4,
-     "groq:openai/gpt-oss-120b": 7
+     "gemini:gemini-3.5-flash-lite": 11,
+     "groq:openai/gpt-oss-120b": 7,
+     "groq:qwen/qwen3.8-27b": 3
     },
     "fallbacks": [
      {
-      "tag": "editor",
+      "tag": "writer",
       "used": "gemini:gemini-3.5-flash-lite",
       "after": [
-       "anthropic:claude-sonnet-5-5: HTTP 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"You have reached your specified API usage limits. You will regain access on 2026-12-01 at 00:00 UTC.\"},\"request_id\":\"req_011Ch9VjhHCp",
-       "gemini:gemini-3.5-flash: HTTP 503 [{\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n]",
-       "gemini:gemini-3.5-flash: HTTP 503 [{\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n]"
+       "gemini:gemini-3.5-flash-lite: HTTP 503 [{\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n]"
       ]
      },
      {
       "tag": "checker",
-      "used": "groq:qwen/qwen3.8-27b",
+      "used": "groq:openai/gpt-oss-120b",
       "after": [
-       "anthropic:claude-haiku-5-5: HTTP 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"You have reached your specified API usage limits. You will regain access on 2026-12-01 at 00:00 UTC.\"},\"request_id\":\"req_011Ch9VmJFAJ",
-       "groq:openai/gpt-oss-120b: HTTP 400 {\"error\":{\"message\":\"Failed to validate JSON. Please adjust your prompt. See 'failed_generation' for more details.\",\"type\":\"invalid_request_error\",\"code\":\"json_validate_failed\",\"failed_generation\":\"\"}"
-      ]
-     },
-     {
-      "tag": "checker",
-      "used": "groq:qwen/qwen3.8-27b",
-      "after": [
-       "groq:openai/gpt-oss-120b: HTTP 400 {\"error\":{\"message\":\"Failed to validate JSON. Please adjust your prompt. See 'failed_generation' for more details.\",\"type\":\"invalid_request_error\",\"code\":\"json_validate_failed\",\"failed_generation\":\"\"}"
+       "anthropic:claude-haiku-5-5: HTTP 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"You have reached your specified API usage limits. You will regain access on 2026-12-01 at 00:00 UTC.\"},\"request_id\":\"req_011ChASJgy4D"
       ]
      },
      {
@@ -12437,11 +12577,25 @@
       "tag": "checker",
       "used": "groq:qwen/qwen3.8-27b",
       "after": [
-       "groq:openai/gpt-oss-120b: HTTP 400 {\"error\":{\"message\":\"Failed to generate JSON. Please adjust your prompt. See 'failed_generation' for more details.\",\"type\":\"invalid_request_error\",\"code\":\"json_validate_failed\",\"failed_generation\":\"ma"
+       "groq:openai/gpt-oss-120b: HTTP 400 {\"error\":{\"message\":\"Failed to validate JSON. Please adjust your prompt. See 'failed_generation' for more details.\",\"type\":\"invalid_request_error\",\"code\":\"json_validate_failed\",\"failed_generation\":\"\"}"
+      ]
+     },
+     {
+      "tag": "writer",
+      "used": "gemini:gemini-3.5-flash-lite",
+      "after": [
+       "gemini:gemini-3.5-flash-lite: HTTP 503 [{\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n]"
+      ]
+     },
+     {
+      "tag": "checker",
+      "used": "groq:qwen/qwen3.8-27b",
+      "after": [
+       "groq:openai/gpt-oss-120b: HTTP 400 {\"error\":{\"message\":\"Failed to validate JSON. Please adjust your prompt. See 'failed_generation' for more details.\",\"type\":\"invalid_request_error\",\"code\":\"json_validate_failed\",\"failed_generation\":\"\"}"
       ]
      }
     ],
-    "seconds": 140
+    "seconds": 487
    }
   }
  }

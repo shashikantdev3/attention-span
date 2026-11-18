@@ -1477,31 +1477,38 @@
   "source": "https://github.com/RunanywhereAI/trnrt"
  },
  {
-  "term": "session journal",
-  "definition": "An event log where the runtime appends everything it knows about the session as a conversation progresses.",
+  "term": "Energy-Based Reasoners",
+  "definition": "Models that learn an energy function over latent reasoning states and formulate looped updates as gradient descent on this energy.",
   "first_seen": "2026-11-18",
-  "story": "2026-11-18-microsoft-announces-copilot-sdk-2-0-with-shared-multi-tenant",
-  "source": "https://commandline.microsoft.com/microsoft-copilot-sdk-2-0-github/"
+  "story": "2026-11-18-energy-based-reasoners-achieve-efficient-inference-in-looped",
+  "source": "https://energy-based-reasoners.github.io/"
  },
  {
-  "term": "sessionFs",
-  "definition": "An abstraction that decides where the session state log lives by allowing the application to supply the file system.",
+  "term": "exploration-based training",
+  "definition": "Training used to discover additional modes and to better shape the energy landscape over a broader set of states.",
   "first_seen": "2026-11-18",
-  "story": "2026-11-18-microsoft-announces-copilot-sdk-2-0-with-shared-multi-tenant",
-  "source": "https://commandline.microsoft.com/microsoft-copilot-sdk-2-0-github/"
+  "story": "2026-11-18-energy-based-reasoners-achieve-efficient-inference-in-looped",
+  "source": "https://energy-based-reasoners.github.io/"
  },
  {
-  "term": "organizational knowledge layer",
-  "definition": "An organizational knowledge layer draws context from emails, meetings, calendars, chats, and files to back the agent's work.",
+  "term": "disaggregated inference",
+  "definition": "A solution where accelerators handle prompt processing and Cerebras systems handle output generation.",
   "first_seen": "2026-11-18",
-  "story": "2026-11-18-microsoft-announces-general-availability-of-office-inside-co",
-  "source": "https://arstechnica.com/gadgets/2026/11/microsoft-calls-copilot-the-new-os-for-work-at-ignite-keynote/"
+  "story": "2026-11-18-cerebras-launches-disaggregated-inference-combining-gpus-and",
+  "source": "https://www.cerebras.ai/blog/cerebras-launches-disaggregated-inference"
  },
  {
-  "term": "model router",
-  "definition": "A system that uses a decision model to pick the cheapest option that will most likely finish a task correctly on the first try.",
+  "term": "KV Portal",
+  "definition": "Software that acts as an interface to transfer intermediate model state, including key-value caches, between prefill and decode engines over RDMA.",
   "first_seen": "2026-11-18",
-  "story": "2026-11-18-posthog-shares-production-use-cases-for-decision-models",
-  "source": "https://newsletter.posthog.com/p/decision-models"
+  "story": "2026-11-18-cerebras-launches-disaggregated-inference-combining-gpus-and",
+  "source": "https://www.cerebras.ai/blog/cerebras-launches-disaggregated-inference"
+ },
+ {
+  "term": "Visuals",
+  "definition": "A feature that pairs AI generated music with AI generated video.",
+  "first_seen": "2026-11-18",
+  "story": "2026-11-18-suno-releases-visuals-feature-for-ai-generated-music-and-vid",
+  "source": "https://the-decoder.com/sunos-new-visuals-feature-pairs-ai-generated-music-with-ai-generated-video/"
  }
 ]
