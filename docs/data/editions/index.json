@@ -1,11 +1,18 @@
 {
  "editions": [
   {
+   "date": "2026-11-18",
+   "file": "2026-11.json",
+   "count": 7,
+   "spotlight": 1,
+   "lead": "Microsoft Announces General Availability of Office Inside Copilot"
+  },
+  {
    "date": "2026-11-17",
    "file": "2026-11.json",
-   "count": 11,
-   "spotlight": 0,
-   "lead": "Google Reports Fully Automated Cyberattacks Have Arrived"
+   "count": 15,
+   "spotlight": 1,
+   "lead": "OpenAI Introduces GPT-6.2 Astra and Sol Models"
   },
   {
    "date": "2026-11-16",
@@ -288,6 +295,6 @@
    "lead": "Anthropic Releases Claude Haiku 5.5 and AWS Integration"
   }
  ],
- "latest": "2026-11-17",
- "updated": "2026-11-17T13:03:12Z"
+ "latest": "2026-11-18",
+ "updated": "2026-11-18T01:08:11Z"
 }

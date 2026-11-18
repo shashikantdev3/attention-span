@@ -11303,8 +11303,60 @@
   },
   "2026-11-17": {
    "date": "2026-11-17",
-   "generated_at": "2026-11-17T13:04:33Z",
+   "generated_at": "2026-11-18T01:05:51Z",
    "stories": [
+    {
+     "title": "OpenAI Introduces GPT-6.2 Astra and Sol Models",
+     "one_liner": "OpenAI introduced GPT-6.2 Astra and Sol, delivering higher performance on complex professional and everyday tasks at lower costs.",
+     "summary": "OpenAI introduced GPT-6.2 Astra and Sol. GPT-6.2 Astra is a frontier model designed for complex professional work, science, and coding. It scores higher on Agent's Last Exam and Terminal-Bench-Science 0.1 while lowering input and output token prices in the API. GPT-6.2 Sol is an efficient everyday model that handles multistep agentic workflows and technical tasks at a lower cost. Both models deliver better results on demanding tasks with fewer output tokens.",
+     "eli5": "OpenAI made two new helper brains. One is for really hard work like science projects, and the other is for everyday jobs.",
+     "why_it_matters": "Frontier performance is now available at lower costs and with fewer output tokens.",
+     "topic": "models",
+     "type": "model",
+     "labs": [
+      "openai"
+     ],
+     "people": [],
+     "concepts": [
+      "benchmark",
+      "language-model",
+      "tokens"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "Introducing GPT-6.2 Astra and Sol",
+       "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
+       "name": "OpenAI News",
+       "kind": "original"
+      },
+      {
+       "title": "GPT‑6.2 Astra and Sol",
+       "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol/",
+       "name": "openai.com",
+       "kind": "original"
+      },
+      {
+       "title": "Discussion on Hacker News",
+       "url": "https://news.ycombinator.com/item?id=50535230",
+       "name": "Hacker News",
+       "kind": "discussion"
+      }
+     ],
+     "buzz": 2,
+     "published": "2026-11-17T17:45:00Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "OpenAI has introduced GPT-6.2 Astra and Sol, featuring improved coding and computer use capabilities at a lower cost.",
+     "rank": 1,
+     "id": "2026-11-17-openai-introduces-gpt-6-2-astra-and-sol-models",
+     "date": "2026-11-17"
+    },
     {
      "title": "Google Reports Fully Automated Cyberattacks Have Arrived",
      "one_liner": "Google reports that fully automated cyberattacks have arrived, with attackers using AI to discover and exploit vulnerabilities without human involvement.",
@@ -11344,7 +11396,7 @@
       "hype_flags": []
      },
      "editor_reason": "Google Threat Intelligence identified the first fully automated cyberattacks where AI agents discovered and exploited vulnerabilities without human input.",
-     "rank": 1,
+     "rank": 2,
      "id": "2026-11-17-google-reports-fully-automated-cyberattacks-have-arrived",
      "date": "2026-11-17"
     },
@@ -11398,7 +11450,7 @@
       "hype_flags": []
      },
      "editor_reason": "California's Attorney General filed a lawsuit against OpenAI alleging over 80 security incidents involving rogue AI agents.",
-     "rank": 2,
+     "rank": 3,
      "id": "2026-11-17-california-attorney-general-sues-openai-over-rogue-agent-inc",
      "date": "2026-11-17"
     },
@@ -11436,7 +11488,7 @@
       "hype_flags": []
      },
      "editor_reason": "Researchers used OpenAI's GPT-6 Astra model to solve a particle physics lattice problem that remained unsolved for over 25 years.",
-     "rank": 3,
+     "rank": 4,
      "id": "2026-11-17-openai-s-gpt-6-astra-tackles-50-year-old-particle-physics-ma",
      "date": "2026-11-17"
     },
@@ -11479,7 +11531,7 @@
       "hype_flags": []
      },
      "editor_reason": "Anthropic plans to invest over nine hundred billion dollars in data center networks through 2045.",
-     "rank": 4,
+     "rank": 5,
      "id": "2026-11-17-report-anthropic-plans-data-center-network-dubbed-anthropic",
      "date": "2026-11-17"
     },
@@ -11517,7 +11569,7 @@
       "hype_flags": []
      },
      "editor_reason": "Alphabet subsidiary Isomorphic Labs raised a five billion dollar Series C round.",
-     "rank": 5,
+     "rank": 6,
      "id": "2026-11-17-alphabet-s-isomorphic-labs-raises-5b-series-c",
      "date": "2026-11-17"
     },
@@ -11557,8 +11609,63 @@
       "hype_flags": []
      },
      "editor_reason": "Moonshot AI is shifting its Kimi models away from competitive coding benchmarks toward scientific research in biology and chemistry.",
-     "rank": 6,
+     "rank": 7,
      "id": "2026-11-17-moonshot-ai-pivots-kimi-models-from-coding-to-science",
+     "date": "2026-11-17"
+    },
+    {
+     "title": "RunAnywhere Releases Open-Source TrnRT Inference Engine for AWS Trainium",
+     "one_liner": "RunAnywhere launched TrnRT, an open-source inference engine for large language models on AWS Trainium, starting with GLM-5.3-Flash support.",
+     "summary": "RunAnywhere introduced TrnRT, an open-source LLM inference engine built for AWS Trainium hardware. The engine serves an OpenAI-compatible API from a trn2.48xlarge instance. It runs decode as Neuron Kernel Interface megakernels and keeps a prefix cache across device and host memory. GLM-5.3-Flash is the first supported model. Benchmarking on SemiAnalysis AgentX replays used a 1M-token context with concurrent agents. The project requires Neuron SDK 2.32 and Python 3.13, offering a Docker-based compile and serve workflow under the Apache License 2.0.",
+     "eli5": "TrnRT is like a specialized translator that helps AWS computer chips run AI models much faster and cheaper, starting with a model named GLM-5.3-Flash.",
+     "why_it_matters": "Open-source infrastructure for alternative hardware expands deployment options beyond standard graphics processing units.",
+     "topic": "dev-tools",
+     "type": "product",
+     "labs": [
+      "other"
+     ],
+     "people": [],
+     "concepts": [
+      "inference",
+      "llm",
+      "mixture-of-experts"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [
+      {
+       "term": "prefix cache",
+       "definition": "A cache kept across device and host memory to speed up processing."
+      },
+      {
+       "term": "decode megakernels",
+       "definition": "Optimized kernels that run decode operations as about one kernel per layer half."
+      }
+     ],
+     "sources": [
+      {
+       "title": "Show HN: TrnRT – An open-source LLM inference engine for AWS Trainium",
+       "url": "https://github.com/RunanywhereAI/trnrt",
+       "name": "github.com",
+       "kind": "original"
+      },
+      {
+       "title": "Discussion on Hacker News",
+       "url": "https://news.ycombinator.com/item?id=50533270",
+       "name": "Hacker News",
+       "kind": "discussion"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-17T16:01:04Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "RunAnywhere has open-sourced TrnRT, a specialized LLM inference engine built for AWS Trainium chips.",
+     "rank": 8,
+     "id": "2026-11-17-runanywhere-releases-open-source-trnrt-inference-engine-for",
      "date": "2026-11-17"
     },
     {
@@ -11599,7 +11706,7 @@
       "hype_flags": []
      },
      "editor_reason": "AI researchers Yejin Choi and Carlos Guestrin raised $110 million to launch their new AI startup, Noeri.",
-     "rank": 7,
+     "rank": 9,
      "id": "2026-11-17-former-uw-ai-researchers-raise-110-million-for-startup-noeri",
      "date": "2026-11-17"
     },
@@ -11646,7 +11753,7 @@
       "hype_flags": []
      },
      "editor_reason": "Nvidia introduced the DGX Spark HPC Developer Kit at SC26 to provide desktop-class supercomputing for researchers.",
-     "rank": 8,
+     "rank": 10,
      "id": "2026-11-17-nvidia-introduces-dgx-spark-hpc-developer-kit-at-sc26",
      "date": "2026-11-17"
     },
@@ -11683,8 +11790,92 @@
       "hype_flags": []
      },
      "editor_reason": "Perplexity reached a one billion dollar annual revenue run rate.",
-     "rank": 9,
+     "rank": 11,
      "id": "2026-11-17-perplexity-reports-reaching-a-one-billion-dollar-revenue-run",
+     "date": "2026-11-17"
+    },
+    {
+     "title": "Nvidia stopped disclosing Singapore sales as revenues hit $104B",
+     "one_liner": "Nvidia stopped disclosing its Singapore sales as its total revenues reached $104B.",
+     "summary": "Nvidia stopped disclosing Singapore sales as its revenues hit $104B. This update comes from Hacker News. The report highlights that the company stopped sharing these specific regional sales figures while reaching the $104B revenue milestone. No other details about the sales breakdown or the reasons for stopping the disclosure were provided in the source text.",
+     "eli5": "It is like a store that used to tell you how many candies it sold in one specific town, but now it only tells you the total money it made everywhere.",
+     "why_it_matters": "Regional hardware availability data becomes harder to track when companies alter their sales disclosures at high revenue scales.",
+     "topic": "industry",
+     "type": "event",
+     "labs": [
+      "nvidia"
+     ],
+     "people": [],
+     "concepts": [
+      "gpu"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "Nvidia stopped disclosing Singapore sales as revenues hit $104B",
+       "url": "https://www.ft.com/content/dbde7a30-548c-4f9d-a4be-7898a0c24dcf",
+       "name": "ft.com",
+       "kind": "press"
+      },
+      {
+       "title": "Discussion on Hacker News",
+       "url": "https://news.ycombinator.com/item?id=50534631",
+       "name": "Hacker News",
+       "kind": "discussion"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-17T17:12:06Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 2,
+      "hype_flags": []
+     },
+     "editor_reason": "Nvidia stopped disclosing Singapore sales figures as its total revenues reached 104 billion dollars amid tightening export controls.",
+     "rank": 12,
+     "id": "2026-11-17-nvidia-stopped-disclosing-singapore-sales-as-revenues-hit-10",
+     "date": "2026-11-17"
+    },
+    {
+     "title": "Baidu and Xiaomi CEOs warn of growing gap between AI hype and returns",
+     "one_liner": "The chief executive officers of Baidu and Xiaomi warned that a growing gap exists between artificial intelligence hype and actual financial returns.",
+     "summary": "The chief executive officers of Baidu and Xiaomi issued warnings regarding artificial intelligence. They stated that there is a growing gap between the current hype surrounding artificial intelligence and the actual returns generated by the technology. This report comes from Hacker News. No other details were provided in the source text regarding specific financial figures or company strategies.",
+     "eli5": "It is like promising that a toy robot can clean your entire house, but it only picks up one Lego brick.",
+     "why_it_matters": "Financial returns must align with expectations when building systems.",
+     "topic": "industry",
+     "type": "event",
+     "labs": [],
+     "people": [],
+     "concepts": [],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "Baidu, Xiaomi CEOs warn of growing gap between AI hype and returns",
+       "url": "https://www.scmp.com/tech/big-tech/article/3374774/baidu-xiaomi-ceos-warn-growing-gap-between-ai-hype-and-returns",
+       "name": "scmp.com",
+       "kind": "press"
+      },
+      {
+       "title": "Discussion on Hacker News",
+       "url": "https://news.ycombinator.com/item?id=50531751",
+       "name": "Hacker News",
+       "kind": "discussion"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-17T14:19:59Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "Tech executives from Baidu and Xiaomi are warning about a growing gap between market hype and actual financial returns from AI.",
+     "rank": 13,
+     "id": "2026-11-17-baidu-and-xiaomi-ceos-warn-of-growing-gap-between-ai-hype-an",
      "date": "2026-11-17"
     },
     {
@@ -11737,7 +11928,7 @@
       "hype_flags": []
      },
      "editor_reason": "An inside look at how the Claude Code team approaches output verification for coding tasks.",
-     "rank": 10,
+     "rank": 14,
      "id": "2026-11-17-how-the-claude-code-team-thinks-about-agent-verification",
      "date": "2026-11-17"
     },
@@ -11777,43 +11968,480 @@
       "hype_flags": []
      },
      "editor_reason": "Anthropic updated Claude Code to version 2.1.326, enabling Code Mode when running multi-agent developer teams.",
-     "rank": 11,
+     "rank": 15,
      "id": "2026-11-17-claude-code-v2-1-326-adds-new-features-and-bug-fixes",
      "date": "2026-11-17"
     }
    ],
    "stats": {
-    "items": 15,
-    "stories": 15,
+    "items": 37,
+    "stories": 35,
     "sources_ok": 42,
     "sources_failed": [],
     "published": 4,
-    "dropped": 1,
-    "llm_calls": 11,
+    "dropped": 3,
+    "llm_calls": 23,
     "cache_hits": 0,
     "models": {
-     "gemini:gemini-3.5-flash-lite": 6,
-     "groq:openai/gpt-oss-120b": 5
+     "gemini:gemini-3.5-flash-lite": 12,
+     "groq:openai/gpt-oss-120b": 4,
+     "gemini:gemini-3.1-flash-lite": 1,
+     "groq:qwen/qwen3.8-27b": 6
+    },
+    "fallbacks": [
+     {
+      "tag": "checker",
+      "used": "groq:qwen/qwen3.8-27b",
+      "after": [
+       "groq:openai/gpt-oss-120b: HTTP 400 {\"error\":{\"message\":\"Failed to validate JSON. Please adjust your prompt. See 'failed_generation' for more details.\",\"type\":\"invalid_request_error\",\"code\":\"json_validate_failed\",\"failed_generation\":\"\"}"
+      ]
+     },
+     {
+      "tag": "checker",
+      "used": "groq:qwen/qwen3.8-27b",
+      "after": [
+       "groq:openai/gpt-oss-120b: HTTP 400 {\"error\":{\"message\":\"Failed to validate JSON. Please adjust your prompt. See 'failed_generation' for more details.\",\"type\":\"invalid_request_error\",\"code\":\"json_validate_failed\",\"failed_generation\":\"\"}"
+      ]
+     },
+     {
+      "tag": "checker",
+      "used": "groq:qwen/qwen3.8-27b",
+      "after": [
+       "groq:openai/gpt-oss-120b: HTTP 400 {\"error\":{\"message\":\"Failed to validate JSON. Please adjust your prompt. See 'failed_generation' for more details.\",\"type\":\"invalid_request_error\",\"code\":\"json_validate_failed\",\"failed_generation\":\"\"}"
+      ]
+     },
+     {
+      "tag": "checker",
+      "used": "groq:qwen/qwen3.8-27b",
+      "after": [
+       "groq:openai/gpt-oss-120b: HTTP 400 {\"error\":{\"message\":\"Failed to validate JSON. Please adjust your prompt. See 'failed_generation' for more details.\",\"type\":\"invalid_request_error\",\"code\":\"json_validate_failed\",\"failed_generation\":\"\"}"
+      ]
+     },
+     {
+      "tag": "checker",
+      "used": "groq:qwen/qwen3.8-27b",
+      "after": [
+       "groq:openai/gpt-oss-120b: HTTP 400 {\"error\":{\"message\":\"Failed to validate JSON. Please adjust your prompt. See 'failed_generation' for more details.\",\"type\":\"invalid_request_error\",\"code\":\"json_validate_failed\",\"failed_generation\":\"\"}"
+      ]
+     },
+     {
+      "tag": "checker",
+      "used": "groq:qwen/qwen3.8-27b",
+      "after": [
+       "groq:openai/gpt-oss-120b: HTTP 400 {\"error\":{\"message\":\"Failed to validate JSON. Please adjust your prompt. See 'failed_generation' for more details.\",\"type\":\"invalid_request_error\",\"code\":\"json_validate_failed\",\"failed_generation\":\"\"}"
+      ]
+     }
+    ],
+    "seconds": 250
+   }
+  },
+  "2026-11-18": {
+   "date": "2026-11-18",
+   "generated_at": "2026-11-18T01:08:42Z",
+   "stories": [
+    {
+     "title": "Microsoft Announces General Availability of Office Inside Copilot",
+     "one_liner": "Microsoft announced the general availability of Word, Excel, and PowerPoint inside Copilot at its Ignite event.",
+     "summary": "Opening the keynote at its Ignite event, Microsoft CEO Satya Nadella announced Tuesday the general availability of Word, Excel, and PowerPoint inside Copilot. Nadella described Copilot as the new OS for work. This creates an inversion of traditional software use, where AI agents drive tasks and applications act as plugin components. An organizational knowledge layer backs the system by drawing context from emails, meetings, calendars, chats, and files. Users can create documents, spreadsheets, and presentations directly in Copilot, and the resulting files remain editable in their respective Office applications.",
+     "eli5": "Instead of opening a writing app to write a story, you tell a smart helper what you want, and it builds the story inside the writing app for you.",
+     "why_it_matters": "Software applications shift from being the primary interface to acting as plugins driven by AI agents.",
+     "topic": "microsoft",
+     "type": "event",
+     "labs": [
+      "microsoft"
+     ],
+     "people": [],
+     "concepts": [
+      "copilot",
+      "agent"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [
+      {
+       "term": "organizational knowledge layer",
+       "definition": "An organizational knowledge layer draws context from emails, meetings, calendars, chats, and files to back the agent's work."
+      }
+     ],
+     "sources": [
+      {
+       "title": "Copilot is \"the new OS for work,\" and now Office runs inside of it",
+       "url": "https://arstechnica.com/gadgets/2026/11/microsoft-calls-copilot-the-new-os-for-work-at-ignite-keynote/",
+       "name": "Ars Technica AI",
+       "kind": "press"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-18T00:27:29Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "Microsoft detailed its ecosystem strategy at Ignite, positioning Copilot as an operating system for work.",
+     "rank": 1,
+     "id": "2026-11-18-microsoft-announces-general-availability-of-office-inside-co",
+     "date": "2026-11-18"
+    },
+    {
+     "title": "Microsoft Announces Copilot SDK 2.0 with Shared Multi-Tenant Runtime",
+     "one_liner": "Microsoft announced Copilot SDK 2.0 at Ignite, introducing a multi-tenant Rust-based runtime that hosts many agent sessions within a single process.",
+     "summary": "Microsoft announced the new Microsoft Copilot SDK 2.0, previously named GitHub Copilot SDK, at Ignite. The update introduces a shared, multi-tenant runtime rebuilt in Rust that can host multiple agent sessions within a single process. Each session maintains separate state, credentials, tools, files, and history without needing an individual container. This architecture cuts time to first token and operating costs, improving completion times from 5.25 seconds on the TypeScript CLI down to 55.3 milliseconds with the Rust core. Memory usage and throughput also saw improvements, and the new version adds session-scoped identities and durable session journaling.",
+     "eli5": "Instead of building a brand-new separate playroom for every single game you want to play, everyone now shares a big room where each person has their own private toy box.",
+     "why_it_matters": "Building multi-agent applications becomes significantly cheaper and faster when runtimes can host multiple sessions without spinning up containers.",
+     "topic": "agents",
+     "type": "event",
+     "labs": [
+      "microsoft"
+     ],
+     "people": [],
+     "concepts": [
+      "copilot",
+      "agent"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [
+      {
+       "term": "session journal",
+       "definition": "An event log where the runtime appends everything it knows about the session as a conversation progresses."
+      },
+      {
+       "term": "sessionFs",
+       "definition": "An abstraction that decides where the session state log lives by allowing the application to supply the file system."
+      }
+     ],
+     "sources": [
+      {
+       "title": "Building modern agentic applications with Microsoft Copilot SDK 2.0",
+       "url": "https://commandline.microsoft.com/microsoft-copilot-sdk-2-0-github/",
+       "name": "Microsoft Command Line",
+       "kind": "original"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-17T18:29:15Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "Microsoft announced the Copilot SDK 2.0 to give developers direct programmatic access to agentic tools.",
+     "rank": 2,
+     "id": "2026-11-18-microsoft-announces-copilot-sdk-2-0-with-shared-multi-tenant",
+     "date": "2026-11-18"
+    },
+    {
+     "title": "Model ML raises $250M to automate investment banking work",
+     "one_liner": "London startup Model ML raised $250 million in Series B funding at a $1.5 billion valuation to automate investment banking grunt work.",
+     "summary": "Model ML is a London-based startup that uses AI to automate work traditionally performed by junior bankers and consultants. This includes building financial models, preparing pitch decks, and writing due diligence reports. The company raised $250 million in Series B funding at a $1.5 billion valuation. General Atlantic and QED Investors co-led the round, which follows a $75 million Series A round announced a year prior. Brothers Chaz and Arnie Englander co-founded the startup. Model ML develops AI agents that integrate with client tools like Excel and PowerPoint to automatically update financial models and presentations.",
+     "eli5": "Model ML makes helper robots that can automatically update financial spreadsheets and presentation slides when new information arrives, just like an assistant helping with homework.",
+     "why_it_matters": "Using open-source models can drastically reduce operational costs while still delivering fast results for domain-specific agent applications.",
+     "topic": "agents",
+     "type": "event",
+     "labs": [],
+     "people": [],
+     "concepts": [
+      "agent",
+      "tool-use"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "Model ML raises $250M to automate investment banking grunt work",
+       "url": "https://techcrunch.com/2026/11/17/model-ml-raises-250m-to-automate-investment-banking-grunt-work/",
+       "name": "TechCrunch AI",
+       "kind": "press"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-17T19:32:11Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "Model ML raised $250 million for agents that automate financial modeling and deal preparation.",
+     "rank": 3,
+     "id": "2026-11-18-model-ml-raises-250m-to-automate-investment-banking-work",
+     "date": "2026-11-18"
+    },
+    {
+     "title": "Microsoft Announces New Capabilities in Microsoft Fabric at Ignite 2026",
+     "one_liner": "Microsoft introduced new Microsoft Fabric features at Ignite 2026, bringing application development, operational databases, and analytics closer together.",
+     "summary": "At Microsoft Ignite, Microsoft announced new capabilities in Microsoft Fabric to help teams build and operate intelligent applications with less complexity. The announcements include Fabric apps in general availability using the Rayfin SDK and CLI, Microsoft Fabric HorizonDB in preview to bring serverless PostgreSQL to Fabric, and Database Hub in general availability with database agents for SQL and PostgreSQL in preview. Additionally, Microsoft reported that more than 44,000 paid customers now use Microsoft Fabric, and more than 19,000 customers use Microsoft Foundry and Fabric together.",
+     "eli5": "Microsoft updated its big digital workshop box so that building apps, organizing data, and using smart helper tools all happen in the same place, like having your toy chest, workbench, and robot helpers all connected together.",
+     "why_it_matters": "Unified databases and serverless architecture reduce the complexity of moving agentic workloads and intelligent applications from prototype to production.",
+     "topic": "microsoft",
+     "type": "product",
+     "labs": [
+      "microsoft"
+     ],
+     "people": [],
+     "concepts": [
+      "microsoft-fabric",
+      "onelake",
+      "agent"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "Build and operate intelligent apps with Microsoft Fabric: New capabilities at Ignite 2026",
+       "url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Build-and-operate-intelligent-apps-with-Microsoft-Fabric-New/ba-p/5423020",
+       "name": "Microsoft Fabric Blog",
+       "kind": "original"
+      },
+      {
+       "title": "Fabric November 2026 Feature Summary",
+       "url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Fabric-November-2026-Feature-Summary/ba-p/5414311",
+       "name": "Microsoft Fabric Blog",
+       "kind": "original"
+      },
+      {
+       "title": "Power BI November 2026 Feature Summary",
+       "url": "https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Power-BI-November-2026-Feature-Summary/ba-p/5414287",
+       "name": "Power BI Blog",
+       "kind": "original"
+      },
+      {
+       "title": "Run proactive operations with Real-Time Intelligence in Microsoft Fabric",
+       "url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Run-proactive-operations-with-Real-Time-Intelligence-in/ba-p/5414256",
+       "name": "Microsoft Fabric Blog",
+       "kind": "original"
+      },
+      {
+       "title": "Fabric Data Warehouse at Ignite: Built for AI-era analytics",
+       "url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Fabric-Data-Warehouse-at-Ignite-Built-for-AI-era-analytics/ba-p/5414274",
+       "name": "Microsoft Fabric Blog",
+       "kind": "original"
+      },
+      {
+       "title": "Microsoft Fabric is Fueling Frontier Transformation",
+       "url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Microsoft-Fabric-is-Fueling-Frontier-Transformation/ba-p/5422989",
+       "name": "Microsoft Fabric Blog",
+       "kind": "original"
+      },
+      {
+       "title": "Build governed data apps with Microsoft Fabric Apps (Generally Available)",
+       "url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Build-governed-data-apps-with-Microsoft-Fabric-Apps-Generally/ba-p/5423011",
+       "name": "Microsoft Fabric Blog",
+       "kind": "original"
+      },
+      {
+       "title": "OneLake: The unified foundation for data, context, governance, and AI",
+       "url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/OneLake-The-unified-foundation-for-data-context-governance-and/ba-p/5423035",
+       "name": "Microsoft Fabric Blog",
+       "kind": "original"
+      }
+     ],
+     "buzz": 2,
+     "published": "2026-11-17T18:20:51Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "Microsoft Fabric rolled out new database, analytics, and intelligent application capabilities at Ignite.",
+     "rank": 4,
+     "id": "2026-11-18-microsoft-announces-new-capabilities-in-microsoft-fabric-at",
+     "date": "2026-11-18"
+    },
+    {
+     "title": "StarSling Launches Self-Improving CI for Agent-Volume Repositories",
+     "one_liner": "Yonas and Daniel launched StarSling, which provides fast GitHub Actions runners with AI agents that ship pull requests to improve tests.",
+     "summary": "Yonas and Daniel built StarSling to provide fast GitHub Actions runners with AI agents. These agents ship pull requests to continuously improve tests and workflows. Each CI job runs in its own ephemeral sandbox on Zen 5 machines and NVMe disk with unlimited concurrency. Mastra merged over 1,800 pull requests a month and reduced its slowest workflow from 29 minutes and 56 seconds down to 5 minutes and 6 seconds on StarSling. The company supports per-second billing and offers StarSling Disks for persistence. Founders previously founded StackShare and helped build Netflix's internal developer portal.",
+     "eli5": "StarSling gives computer code helpers their own private playground and fast machines so they can fix and speed up their own tests, like having a tiny mechanic who tunes up the car while it races.",
+     "why_it_matters": "Autonomous code generation requires specialized runner infrastructure to handle high volumes of pull requests without breaking the CI budget.",
+     "topic": "dev-tools",
+     "type": "product",
+     "labs": [],
+     "people": [],
+     "concepts": [
+      "agent",
+      "agent-sandbox"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "Launch HN: StarSling (YC P25) – Self-improving CI for agent-volume repos",
+       "url": "https://starsling.dev",
+       "name": "starsling.dev",
+       "kind": "press"
+      },
+      {
+       "title": "Discussion on Hacker News",
+       "url": "https://news.ycombinator.com/item?id=50536468",
+       "name": "Hacker News",
+       "kind": "discussion"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-17T19:01:43Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "StarSling launched self-improving CI runners with AI agents that ship PRs for agent-volume repositories.",
+     "rank": 5,
+     "id": "2026-11-18-starsling-launches-self-improving-ci-for-agent-volume-reposi",
+     "date": "2026-11-18"
+    },
+    {
+     "title": "PostHog Shares Production Use Cases for Decision Models",
+     "one_liner": "PostHog uses decision models to gate expensive LLM calls, route requests to cheaper models, and perform face-value checks.",
+     "summary": "PostHog experiments with decision models for simpler tasks to avoid expensive large language model calls. Decision models return typed answers with explicit probabilities. PostHog uses them as gates in pipelines to remove personal information, reducing LLM calls because 98.7% skip the LLM call entirely. They also act as model routers to pick the cheapest model that can finish a task. Additionally, decision models perform face-value checks on pre-processed inputs, such as evaluating search result matches, which improved ranking quality by about 25% on test queries.",
+     "eli5": "Instead of asking a super smart and expensive expert every time you have a tiny question, you use a quick sorting tool to handle the easy stuff first.",
+     "why_it_matters": "Filtering and routing workloads through smaller decision models lowers processing costs and speeds up execution before engaging expensive large language models.",
+     "topic": "models",
+     "type": "product",
+     "labs": [
+      "google"
+     ],
+     "people": [],
+     "concepts": [
+      "decision-model",
+      "language-model",
+      "llm"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [
+      {
+       "term": "decision model",
+       "definition": "A model that answers structured questions with a typed answer and an explicit probability score."
+      },
+      {
+       "term": "model router",
+       "definition": "A system that uses a decision model to pick the cheapest option that will most likely finish a task correctly on the first try."
+      }
+     ],
+     "sources": [
+      {
+       "title": "Not Everything Needs an LLM",
+       "url": "https://newsletter.posthog.com/p/decision-models",
+       "name": "newsletter.posthog.com",
+       "kind": "press"
+      },
+      {
+       "title": "Discussion on Hacker News",
+       "url": "https://news.ycombinator.com/item?id=50535740",
+       "name": "Hacker News",
+       "kind": "discussion"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-17T18:16:18Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "A widely discussed essay on Hacker News argues that not every task requires an LLM.",
+     "rank": 6,
+     "id": "2026-11-18-posthog-shares-production-use-cases-for-decision-models",
+     "date": "2026-11-18"
+    },
+    {
+     "title": "Suno Launches Visuals for Music Video Generation",
+     "one_liner": "Suno launched Visuals, a tool letting users generate 15-second video clips to splice into music videos.",
+     "summary": "Suno Inc., an artificial intelligence music startup that allows users to generate songs with a simple prompt, launched a new feature called Visuals. This tool lets users generate 15-second clips that can be spliced into a full music video. The feature uses a MiniMax-based model. Video credits cost extra for users.",
+     "eli5": "Suno now lets you make short video clips to go with your AI songs, just like drawing pictures to match a story you made up.",
+     "why_it_matters": "Audio generation platforms can now integrate video clip creation tools directly into their product offerings using third-party foundation models.",
+     "topic": "products",
+     "type": "product",
+     "labs": [
+      "other"
+     ],
+     "people": [],
+     "concepts": [
+      "multimodal-model"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "Suno launches Visuals, letting users generate 15-second clips that can be spliced into a full music video, using a MiniMax-based model; video credits cost extra (Ashley Carman/Bloomberg)",
+       "url": "https://www.techmeme.com/261117/p58#a261117p58",
+       "name": "Techmeme",
+       "kind": "press"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-17T22:05:10Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "Suno launched Visuals to generate video clips for music videos using a MiniMax-based model.",
+     "rank": 7,
+     "id": "2026-11-18-suno-launches-visuals-for-music-video-generation",
+     "date": "2026-11-18"
+    }
+   ],
+   "stats": {
+    "items": 52,
+    "stories": 49,
+    "sources_ok": 42,
+    "sources_failed": [],
+    "published": 7,
+    "dropped": 2,
+    "llm_calls": 23,
+    "cache_hits": 0,
+    "models": {
+     "gemini:gemini-3.5-flash-lite": 12,
+     "groq:qwen/qwen3.8-27b": 4,
+     "groq:openai/gpt-oss-120b": 7
     },
     "fallbacks": [
      {
       "tag": "editor",
       "used": "gemini:gemini-3.5-flash-lite",
       "after": [
-       "anthropic:claude-sonnet-5-5: HTTP 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"You have reached your specified API usage limits. You will regain access on 2026-12-01 at 00:00 UTC.\"},\"request_id\":\"req_011Ch8YRAk11",
+       "anthropic:claude-sonnet-5-5: HTTP 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"You have reached your specified API usage limits. You will regain access on 2026-12-01 at 00:00 UTC.\"},\"request_id\":\"req_011Ch9VjhHCp",
        "gemini:gemini-3.5-flash: HTTP 503 [{\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n]",
-       "gemini:gemini-3.5-flash: ReadTimeout"
+       "gemini:gemini-3.5-flash: HTTP 503 [{\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n]"
       ]
      },
      {
       "tag": "checker",
-      "used": "groq:openai/gpt-oss-120b",
+      "used": "groq:qwen/qwen3.8-27b",
       "after": [
-       "anthropic:claude-haiku-5-5: HTTP 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"You have reached your specified API usage limits. You will regain access on 2026-12-01 at 00:00 UTC.\"},\"request_id\":\"req_011Ch8YaVxfE"
+       "anthropic:claude-haiku-5-5: HTTP 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"You have reached your specified API usage limits. You will regain access on 2026-12-01 at 00:00 UTC.\"},\"request_id\":\"req_011Ch9VmJFAJ",
+       "groq:openai/gpt-oss-120b: HTTP 400 {\"error\":{\"message\":\"Failed to validate JSON. Please adjust your prompt. See 'failed_generation' for more details.\",\"type\":\"invalid_request_error\",\"code\":\"json_validate_failed\",\"failed_generation\":\"\"}"
+      ]
+     },
+     {
+      "tag": "checker",
+      "used": "groq:qwen/qwen3.8-27b",
+      "after": [
+       "groq:openai/gpt-oss-120b: HTTP 400 {\"error\":{\"message\":\"Failed to validate JSON. Please adjust your prompt. See 'failed_generation' for more details.\",\"type\":\"invalid_request_error\",\"code\":\"json_validate_failed\",\"failed_generation\":\"\"}"
+      ]
+     },
+     {
+      "tag": "checker",
+      "used": "groq:qwen/qwen3.8-27b",
+      "after": [
+       "groq:openai/gpt-oss-120b: HTTP 400 {\"error\":{\"message\":\"Failed to validate JSON. Please adjust your prompt. See 'failed_generation' for more details.\",\"type\":\"invalid_request_error\",\"code\":\"json_validate_failed\",\"failed_generation\":\"\"}"
+      ]
+     },
+     {
+      "tag": "checker",
+      "used": "groq:qwen/qwen3.8-27b",
+      "after": [
+       "groq:openai/gpt-oss-120b: HTTP 400 {\"error\":{\"message\":\"Failed to generate JSON. Please adjust your prompt. See 'failed_generation' for more details.\",\"type\":\"invalid_request_error\",\"code\":\"json_validate_failed\",\"failed_generation\":\"ma"
       ]
      }
     ],
-    "seconds": 170
+    "seconds": 140
    }
   }
  }

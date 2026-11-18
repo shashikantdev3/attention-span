@@ -1463,24 +1463,45 @@
   "source": "https://techcrunch.com/2026/11/16/us-tightens-ai-chip-export-controls-to-deter-chinese-companies-from-accessing-compute-remotely/"
  },
  {
-  "term": "property tests",
-  "definition": "Property tests look at the edge cases that people tend to miss, which is where agents often fail.",
+  "term": "prefix cache",
+  "definition": "A cache kept across device and host memory to speed up processing.",
   "first_seen": "2026-11-17",
-  "story": "2026-11-17-how-the-claude-code-team-thinks-about-agent-verification",
-  "source": "https://claude.dev/blog/how-the-claude-code-team-thinks-about-verification/"
+  "story": "2026-11-17-runanywhere-releases-open-source-trnrt-inference-engine-for",
+  "source": "https://github.com/RunanywhereAI/trnrt"
  },
  {
-  "term": "differential tests",
-  "definition": "Differential tests run both the old system and the new system with the same inputs and see if you get different results.",
+  "term": "decode megakernels",
+  "definition": "Optimized kernels that run decode operations as about one kernel per layer half.",
   "first_seen": "2026-11-17",
-  "story": "2026-11-17-how-the-claude-code-team-thinks-about-agent-verification",
-  "source": "https://claude.dev/blog/how-the-claude-code-team-thinks-about-verification/"
+  "story": "2026-11-17-runanywhere-releases-open-source-trnrt-inference-engine-for",
+  "source": "https://github.com/RunanywhereAI/trnrt"
  },
  {
-  "term": "Anthropic Direct",
-  "definition": "Anthropic's data center network plans committing over $900 billion through 2045.",
-  "first_seen": "2026-11-17",
-  "story": "2026-11-17-report-anthropic-plans-data-center-network-dubbed-anthropic",
-  "source": "https://www.techmeme.com/261117/p11#a261117p11"
+  "term": "session journal",
+  "definition": "An event log where the runtime appends everything it knows about the session as a conversation progresses.",
+  "first_seen": "2026-11-18",
+  "story": "2026-11-18-microsoft-announces-copilot-sdk-2-0-with-shared-multi-tenant",
+  "source": "https://commandline.microsoft.com/microsoft-copilot-sdk-2-0-github/"
+ },
+ {
+  "term": "sessionFs",
+  "definition": "An abstraction that decides where the session state log lives by allowing the application to supply the file system.",
+  "first_seen": "2026-11-18",
+  "story": "2026-11-18-microsoft-announces-copilot-sdk-2-0-with-shared-multi-tenant",
+  "source": "https://commandline.microsoft.com/microsoft-copilot-sdk-2-0-github/"
+ },
+ {
+  "term": "organizational knowledge layer",
+  "definition": "An organizational knowledge layer draws context from emails, meetings, calendars, chats, and files to back the agent's work.",
+  "first_seen": "2026-11-18",
+  "story": "2026-11-18-microsoft-announces-general-availability-of-office-inside-co",
+  "source": "https://arstechnica.com/gadgets/2026/11/microsoft-calls-copilot-the-new-os-for-work-at-ignite-keynote/"
+ },
+ {
+  "term": "model router",
+  "definition": "A system that uses a decision model to pick the cheapest option that will most likely finish a task correctly on the first try.",
+  "first_seen": "2026-11-18",
+  "story": "2026-11-18-posthog-shares-production-use-cases-for-decision-models",
+  "source": "https://newsletter.posthog.com/p/decision-models"
  }
 ]

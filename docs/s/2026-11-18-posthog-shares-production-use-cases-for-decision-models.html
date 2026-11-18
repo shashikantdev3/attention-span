@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PostHog Shares Production Use Cases for Decision Models | Attention Span</title>
+<meta name="description" content="PostHog uses decision models to gate expensive LLM calls, route requests to cheaper models, and perform face-value checks.">
+<link rel="canonical" href="https://shashikantdev3.github.io/attention-span/s/2026-11-18-posthog-shares-production-use-cases-for-decision-models.html">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Attention Span">
+<meta property="og:title" content="PostHog Shares Production Use Cases for Decision Models">
+<meta property="og:description" content="PostHog uses decision models to gate expensive LLM calls, route requests to cheaper models, and perform face-value checks.">
+<meta property="og:url" content="https://shashikantdev3.github.io/attention-span/s/2026-11-18-posthog-shares-production-use-cases-for-decision-models.html">
+<meta property="og:image" content="https://shashikantdev3.github.io/attention-span/assets/og.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#EDF0EA">
+<link rel="alternate" type="application/rss+xml" title="Attention Span" href="../feed.xml">
+<script>try{var t=localStorage.getItem("as-theme");if(!t)t=matchMedia("(prefers-color-scheme: dark)").matches?"night":"day";if(t==="night")document.documentElement.setAttribute("data-theme","night")}catch(e){}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;0,6..72,700;1,6..72,400&family=Bodoni+Moda:opsz,wght@6..96,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/style.css">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "NewsArticle", "headline": "PostHog Shares Production Use Cases for Decision Models", "description": "PostHog uses decision models to gate expensive LLM calls, route requests to cheaper models, and perform face-value checks.", "datePublished": "2026-11-17T18:16:18Z", "dateModified": "2026-11-18", "author": {"@type": "Organization", "name": "Attention Span", "url": "https://shashikantdev3.github.io/attention-span/"}, "publisher": {"@type": "Organization", "name": "Attention Span", "url": "https://shashikantdev3.github.io/attention-span/"}, "mainEntityOfPage": "https://shashikantdev3.github.io/attention-span/s/2026-11-18-posthog-shares-production-use-cases-for-decision-models.html", "image": "https://shashikantdev3.github.io/attention-span/assets/og.png", "isBasedOn": ["https://newsletter.posthog.com/p/decision-models"]}</script>
+</head>
+<body class="static">
+<header class="masthead static-head"><div class="wrap">
+  <a class="brand" href="../index.html"><span class="static-name">Attention Span</span></a>
+  <span class="tagline">Today&#x27;s AI news, traced back to its roots.</span>
+</div></header>
+<main id="main"><div class="wrap static-body">
+<article class="static-story">
+<p class="static-kicker"><a href="../e/2026-11-18.html">Wednesday, 18 November 2026</a>, Models,
+1 source</p>
+<h1>PostHog Shares Production Use Cases for Decision Models</h1>
+<p class="one-liner">PostHog uses decision models to gate expensive LLM calls, route requests to cheaper models, and perform face-value checks.</p>
+<p>PostHog experiments with decision models for simpler tasks to avoid expensive large language model calls. Decision models return typed answers with explicit probabilities. PostHog uses them as gates in pipelines to remove personal information, reducing LLM calls because 98.7% skip the LLM call entirely. They also act as model routers to pick the cheapest model that can finish a task. Additionally, decision models perform face-value checks on pre-processed inputs, such as evaluating search result matches, which improved ranking quality by about 25% on test queries.</p>
+<div class="eli5"><h4>Like I am 5</h4><p>Instead of asking a super smart and expensive expert every time you have a tiny question, you use a quick sorting tool to handle the easy stuff first.</p></div>
+<div class="why"><h4>Why it matters</h4><p>Filtering and routing workloads through smaller decision models lowers processing costs and speeds up execution before engaging expensive large language models.</p></div>
+<div class="sources"><h4>Sources, original first</h4><ol><li><a href="https://newsletter.posthog.com/p/decision-models" rel="noopener">newsletter.posthog.com: Not Everything Needs an LLM</a> <span class="kind">press</span></li><li><a href="https://news.ycombinator.com/item?id=50535740" rel="noopener">Hacker News: Discussion on Hacker News</a> <span class="kind">discussion</span></li></ol></div>
+<div class="tags"><span class="chip">Google and DeepMind</span><a class="chip concept" href="../c/decision-model.html">Decision model</a><a class="chip concept" href="../c/language-model.html">Language model</a><a class="chip concept" href="../c/llm.html">Large language model (LLM)</a></div>
+<p class="asof">Written from the sources above and checked by a second AI model; every number was matched against the sources.</p>
+</article>
+<p class="static-app"><a href="../index.html#/today/2026-11-18/2026-11-18-posthog-shares-production-use-cases-for-decision-models">Open this in Attention Span</a>, where every story links to its history,
+concepts and the people behind it.</p>
+</div></main>
+<footer class="site"><div class="wrap">
+  <span>Attention Span is built by <a href="https://github.com/shashikantdev3">Shashikant</a>. Every entry links its source.</span>
+  <span>Data under <a href="https://creativecommons.org/licenses/by-nc/4.0/" rel="license">CC BY-NC 4.0</a>. Code under MIT.</span>
+</div></footer>
+</body>
+</html>
