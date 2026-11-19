@@ -1,9 +1,16 @@
 {
  "editions": [
   {
+   "date": "2026-11-19",
+   "file": "2026-11.json",
+   "count": 6,
+   "spotlight": 0,
+   "lead": "Google Releases Gemini 4 Neon Frontier Intelligence Model"
+  },
+  {
    "date": "2026-11-18",
    "file": "2026-11.json",
-   "count": 10,
+   "count": 18,
    "spotlight": 1,
    "lead": "Microsoft Announces General Availability of Office Inside Copilot"
   },
@@ -295,6 +302,6 @@
    "lead": "Anthropic Releases Claude Haiku 5.5 and AWS Integration"
   }
  ],
- "latest": "2026-11-18",
- "updated": "2026-11-18T13:08:38Z"
+ "latest": "2026-11-19",
+ "updated": "2026-11-19T01:07:27Z"
 }

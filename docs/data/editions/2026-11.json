@@ -12037,7 +12037,7 @@
   },
   "2026-11-18": {
    "date": "2026-11-18",
-   "generated_at": "2026-11-18T13:10:41Z",
+   "generated_at": "2026-11-19T01:05:45Z",
    "stories": [
     {
      "title": "Microsoft Announces General Availability of Office Inside Copilot",
@@ -12081,6 +12081,55 @@
      "editor_reason": "Microsoft detailed its ecosystem strategy at Ignite, positioning Copilot as an operating system for work.",
      "rank": 1,
      "id": "2026-11-18-microsoft-announces-general-availability-of-office-inside-co",
+     "date": "2026-11-18"
+    },
+    {
+     "title": "Google DeepMind Releases Genie 4 for Interactive World Generation",
+     "one_liner": "Google DeepMind has launched Genie 4 for Google AI Ultra subscribers, featuring real-time environment editing, native audio, and a new project agent.",
+     "summary": "Google DeepMind has released Genie 4 to eligible Google AI Ultra subscribers. The new world model enables real-time environment editing, native audio that adapts as scenes unfold, and natural language prompts to change weather or add characters mid-session. Alongside Genie 4, the update introduces the Project Genie agent for building custom worlds through conversation, updates to Genie 3 supporting extended sessions up to 3 minutes and 360-degree panorama image grounding, and a community gallery for sharing and remixing creations.",
+     "eli5": "You can now type words to instantly change a virtual world you are playing in, just like telling a friend how to change a game while you play.",
+     "why_it_matters": "Real-time world generation models now support interactive editing, native audio, and multi-minute sessions through natural language prompts.",
+     "topic": "models",
+     "type": "product",
+     "labs": [
+      "google"
+     ],
+     "people": [],
+     "concepts": [
+      "world-model",
+      "agent",
+      "multimodal-model"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [
+      {
+       "term": "world chaining",
+       "definition": "Explore for up to 3 minutes per generation, or link multiple worlds together for longer journeys."
+      },
+      {
+       "term": "panorama grounding",
+       "definition": "Seed new worlds from 360-degree panorama images."
+      }
+     ],
+     "sources": [
+      {
+       "title": "Genie 4 is now available",
+       "url": "https://deepmind.google/blog/genie-4-is-now-available/",
+       "name": "Google DeepMind Blog",
+       "kind": "original"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-18T18:13:42Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "Google DeepMind made Genie 4 available to users.",
+     "rank": 2,
+     "id": "2026-11-18-google-deepmind-releases-genie-4-for-interactive-world-gener",
      "date": "2026-11-18"
     },
     {
@@ -12134,8 +12183,66 @@
       "hype_flags": []
      },
      "editor_reason": "Cerebras Disgraded Inference introduces new hardware routing options for high-throughput model serving.",
-     "rank": 2,
+     "rank": 3,
      "id": "2026-11-18-cerebras-launches-disaggregated-inference-combining-gpus-and",
+     "date": "2026-11-18"
+    },
+    {
+     "title": "OpenAI Reports Frontier Models Improve Chip Design with AMD",
+     "one_liner": "OpenAI reports that its frontier models helped improve chip designs for its own custom inference chip and AMD hardware.",
+     "summary": "OpenAI shared details on how its models accelerated the development of its custom inference chip, Jalapeño, and improved third-party hardware with AMD. Working with AMD, OpenAI achieved up to 14 percent power, performance, and area improvement on AMD's flagship GPU IP in less than five months. This represents roughly a year of progress. AMD included some of these changes in a design sent for manufacturing. OpenAI also evaluated model performance on open-source RISC-V cores like PicoRV32 and Ibex, finding that newer models achieved higher average throughput scores.",
+     "eli5": "Just like asking a smart helper to organize a messy toy box so everything fits better, engineers use AI to rearrange tiny parts inside computer chips to make them run faster and use less space.",
+     "why_it_matters": "Frontier models can directly optimize circuit descriptions and hardware layouts to accelerate semiconductor engineering workflows.",
+     "topic": "industry",
+     "type": "event",
+     "labs": [
+      "openai",
+      "anthropic"
+     ],
+     "people": [],
+     "concepts": [
+      "gpu",
+      "benchmark",
+      "reasoning-model"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [
+      {
+       "term": "SystemVerilog RTL",
+       "definition": "Code that describes a chip's circuits."
+      }
+     ],
+     "sources": [
+      {
+       "title": "Advancing chip design with OpenAI models",
+       "url": "https://openai.com/index/advancing-chip-design-with-our-models/",
+       "name": "openai.com",
+       "kind": "original"
+      },
+      {
+       "title": "Discussion on Hacker News",
+       "url": "https://news.ycombinator.com/item?id=50549493",
+       "name": "Hacker News",
+       "kind": "discussion"
+      },
+      {
+       "title": "OpenAI says its models delivered a year's worth of chip optimization on top of AMD's own engineering",
+       "url": "https://the-decoder.com/openai-says-its-models-delivered-a-years-worth-of-chip-optimization-on-top-of-amds-own-engineering/",
+       "name": "The Decoder",
+       "kind": "press"
+      }
+     ],
+     "buzz": 2,
+     "published": "2026-11-18T17:45:47Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "OpenAI worked with AMD to optimize GPU hardware, delivering roughly a year of chip design progress in under five months.",
+     "rank": 4,
+     "id": "2026-11-18-openai-reports-frontier-models-improve-chip-design-with-amd",
      "date": "2026-11-18"
     },
     {
@@ -12182,7 +12289,7 @@
       "hype_flags": []
      },
      "editor_reason": "Microsoft announced the Copilot SDK 2.0 to give developers direct programmatic access to agentic tools.",
-     "rank": 3,
+     "rank": 5,
      "id": "2026-11-18-microsoft-announces-copilot-sdk-2-0-with-shared-multi-tenant",
      "date": "2026-11-18"
     },
@@ -12219,8 +12326,183 @@
       "hype_flags": []
      },
      "editor_reason": "Model ML raised $250 million for agents that automate financial modeling and deal preparation.",
-     "rank": 4,
+     "rank": 6,
      "id": "2026-11-18-model-ml-raises-250m-to-automate-investment-banking-work",
+     "date": "2026-11-18"
+    },
+    {
+     "title": "Microsoft Introduces Agent Controls for Enterprise AI Governance",
+     "one_liner": "Microsoft launched agent controls, a managed Azure service that helps enterprises centrally define, manage, and evaluate policies governing AI agent behavior.",
+     "summary": "Microsoft is introducing agent controls, a managed Azure service designed to help enterprises centrally define, manage, and evaluate policies governing AI agent behavior across different frameworks, platforms, and clouds. Built on the open-source Agent Control Specification and Agent Hooks, the service brings runtime governance to enterprise AI agents. It allows organizations to enforce rules at runtime without building their own policy evaluation infrastructure. The open-source primitives set a shared standard for runtime agent governance, allowing policies to follow agents across different environments.",
+     "eli5": "Just like a traffic cop makes sure cars follow the rules of the road at every intersection, this tool makes sure AI agents follow company rules before they take any actions.",
+     "why_it_matters": "Enforces enterprise policies at runtime so agents cannot take unauthorized actions or misuse tools.",
+     "topic": "microsoft",
+     "type": "product",
+     "labs": [
+      "microsoft"
+     ],
+     "people": [],
+     "concepts": [
+      "agent",
+      "ai-governance",
+      "ai-safety"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [
+      {
+       "term": "Agent Hooks",
+       "definition": "It creates a common set of intervention points across the agent lifecycle, including startup, input, model calls, tool calls, output, and shutdown."
+      },
+      {
+       "term": "Agent Control Specification",
+       "definition": "ACS is an open request-and-decision contract that gathers evidence through annotators and passes it to a policy engine to return a decision."
+      }
+     ],
+     "sources": [
+      {
+       "title": "Introducing agent controls: An enterprise control plane for agent behavior",
+       "url": "https://commandline.microsoft.com/introducing-agent-controls-an-enterprise-control-plane-for-agent-behavior/",
+       "name": "Microsoft Command Line",
+       "kind": "original"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-18T16:45:41Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "Microsoft launched agent controls on Azure to let enterprise teams manage policy governance for AI agents.",
+     "rank": 7,
+     "id": "2026-11-18-microsoft-introduces-agent-controls-for-enterprise-ai-govern",
+     "date": "2026-11-18"
+    },
+    {
+     "title": "OpenAI gives four independent auditors on-site access to systems",
+     "one_liner": "OpenAI gave four independent audit organizations direct, on-site access to its internal AI systems to investigate safety risks.",
+     "summary": "OpenAI gave four outside audit organizations direct access to its internal AI systems for the first time. The organizations are Apollo Research, METR, Transluce, and Goodfire. Depending on their assignment, they receive access at OpenAI offices to unreleased models, source code, training data, and monitoring systems. They can also speak with developers confidentially. Apollo Research examines whether models work against developer intentions. METR reviews AI misbehavior in reinforcement learning training runs. Goodfire analyzes internal model processes, and Transluce evaluates post-training safety checks. An independent safety board oversees the process. Auditors publish their findings independently, while OpenAI can redact confidential material and delay reports to fix risks.",
+     "eli5": "OpenAI let outside safety experts come into their offices and look at the secret rulebooks and brains of their AI models. It is like letting safety inspectors check the inside of a new roller coaster before anyone else rides it.",
+     "why_it_matters": "External safety audits of internal models and source code increase transparency regarding how frontier systems are tested for hidden risks.",
+     "topic": "policy",
+     "type": "event",
+     "labs": [
+      "openai"
+     ],
+     "people": [],
+     "concepts": [
+      "ai-safety",
+      "reinforcement-learning",
+      "red-teaming"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "OpenAI opens its AI systems to four independent on-site auditors for the first time",
+       "url": "https://the-decoder.com/openai-opens-its-ai-systems-to-four-independent-on-site-auditors-for-the-first-time/",
+       "name": "The Decoder",
+       "kind": "press"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-18T14:36:42Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "OpenAI gave four independent audit organizations direct access to unreleased models, source code, and training data.",
+     "rank": 8,
+     "id": "2026-11-18-openai-gives-four-independent-auditors-on-site-access-to-sys",
+     "date": "2026-11-18"
+    },
+    {
+     "title": "Coalition Challenges Anthropic Safety Claims",
+     "one_liner": "A coalition challenges Anthropic safety claims by stating that Anthropic is not a safe AI company.",
+     "summary": "A coalition challenges Anthropic safety claims through a statement posted on Hacker News. The post carries the title Anthropic Is Not a Safe AI Company. The coalition challenges the safety practices of Anthropic. No further details are provided in the source text regarding the members of the coalition or their specific technical arguments.",
+     "eli5": "Some people got together to say that a company called Anthropic is not being safe enough with its computer programs, just like kids arguing on the playground about whose rules are fair.",
+     "why_it_matters": "Public challenges against lab safety claims force teams to pay closer attention to how they evaluate their systems.",
+     "topic": "policy",
+     "type": "event",
+     "labs": [
+      "anthropic"
+     ],
+     "people": [],
+     "concepts": [
+      "ai-safety"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "\"Anthropic Is Not a Safe AI Company\" – Coalition Challenges Anthropic Safety",
+       "url": "https://www.businesswire.com/news/home/20261118974464/en/Anthropic-is-Not-a-Safe-AI-Company---Broad-Coalition-of-Scientists-Legal-Scholars-and-Tech-Leaders-Challenge-Anthropics-Safety-Branding-Ahead-of-IPO",
+       "name": "businesswire.com",
+       "kind": "press"
+      },
+      {
+       "title": "Discussion on Hacker News",
+       "url": "https://news.ycombinator.com/item?id=50548485",
+       "name": "Hacker News",
+       "kind": "discussion"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-18T16:41:22Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 2,
+      "hype_flags": []
+     },
+     "editor_reason": "A coalition of safety advocates publicly challenged Anthropic over its safety practices and commitments.",
+     "rank": 9,
+     "id": "2026-11-18-coalition-challenges-anthropic-safety-claims",
+     "date": "2026-11-18"
+    },
+    {
+     "title": "KPMG Reveals AI Agents Sometimes Asked Better Questions in Audit Trial",
+     "one_liner": "KPMG revealed that AI agents examining a FTSE 250 company's accounts sometimes asked better questions than its human audit team.",
+     "summary": "KPMG UK conducted an experiment codenamed Project Exponential, using more than 100 AI agents to examine the financial statements of an unnamed FTSE 250 company. KPMG head of audit Cath Burnet stated that the technology in several instances went deeper into issues and asked better questions than human auditors. The agents collected information, analysed data, drafted conclusions, and worked alongside one another. The experiment was not a formally approved statutory audit, and human oversight remained necessary. KPMG plans to expand the initiative to as many as 20 larger audits.",
+     "eli5": "Just like a helper toy that tries to sort building blocks before a child does, artificial intelligence was used to look at company money records and sometimes found tricky questions that the adult accountants missed.",
+     "why_it_matters": "Autonomous agents can assist with complex professional workflows like auditing, though human oversight and intervention remain necessary due to current limitations.",
+     "topic": "agents",
+     "type": "event",
+     "labs": [],
+     "people": [],
+     "concepts": [
+      "agent"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "AI agents ask better questions than KPMG accountants in audit trial",
+       "url": "https://europeanbusinessmagazine.com/ai-agents-better-questions-kpmg/",
+       "name": "europeanbusinessmagazine.com",
+       "kind": "press"
+      },
+      {
+       "title": "Discussion on Hacker News",
+       "url": "https://news.ycombinator.com/item?id=50547777",
+       "name": "Hacker News",
+       "kind": "discussion"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-18T15:49:34Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 2,
+      "hype_flags": []
+     },
+     "editor_reason": "An audit trial demonstrated that AI agents can ask better auditing questions than human accountants.",
+     "rank": 10,
+     "id": "2026-11-18-kpmg-reveals-ai-agents-sometimes-asked-better-questions-in-a",
      "date": "2026-11-18"
     },
     {
@@ -12274,7 +12556,7 @@
       "hype_flags": []
      },
      "editor_reason": "Energy-based reasoners offer significantly more efficient inference, which matters for scaling model deployments.",
-     "rank": 5,
+     "rank": 11,
      "id": "2026-11-18-energy-based-reasoners-achieve-efficient-inference-in-looped",
      "date": "2026-11-18"
     },
@@ -12356,7 +12638,7 @@
       "hype_flags": []
      },
      "editor_reason": "Microsoft Fabric rolled out new database, analytics, and intelligent application capabilities at Ignite.",
-     "rank": 6,
+     "rank": 12,
      "id": "2026-11-18-microsoft-announces-new-capabilities-in-microsoft-fabric-at",
      "date": "2026-11-18"
     },
@@ -12399,7 +12681,7 @@
       "hype_flags": []
      },
      "editor_reason": "StarSling launched self-improving CI runners with AI agents that ship PRs for agent-volume repositories.",
-     "rank": 7,
+     "rank": 13,
      "id": "2026-11-18-starsling-launches-self-improving-ci-for-agent-volume-reposi",
      "date": "2026-11-18"
     },
@@ -12454,7 +12736,7 @@
       "hype_flags": []
      },
      "editor_reason": "A widely discussed essay on Hacker News argues that not every task requires an LLM.",
-     "rank": 8,
+     "rank": 14,
      "id": "2026-11-18-posthog-shares-production-use-cases-for-decision-models",
      "date": "2026-11-18"
     },
@@ -12492,7 +12774,7 @@
       "hype_flags": []
      },
      "editor_reason": "Suno launched Visuals to generate video clips for music videos using a MiniMax-based model.",
-     "rank": 9,
+     "rank": 15,
      "id": "2026-11-18-suno-launches-visuals-for-music-video-generation",
      "date": "2026-11-18"
     },
@@ -12532,38 +12814,134 @@
       "hype_flags": []
      },
      "editor_reason": "Codex CLI updated with WebRTC support for realtime voice calls directly inside the terminal user interface.",
-     "rank": 10,
+     "rank": 16,
      "id": "2026-11-18-codex-cli-0-170-0-released-with-webrtc-voice-and-bug-fixes",
+     "date": "2026-11-18"
+    },
+    {
+     "title": "Hugging Face Routes Model Requests Through OpenRouter",
+     "one_liner": "Hugging Face now routes language model requests through OpenRouter for price, speed, and reliability.",
+     "summary": "Hugging Face now routes language model requests through OpenRouter to automatically select providers based on price, speed, and reliability. Separate API keys for language models are no longer needed, and Hugging Face bills directly without markup. Suffixes and session headers allow developers to control provider selection. OpenRouter measurements show capacity errors dropped 46 percent, time to first token improved by 16.9 percent, and throughput rose by 16.3 percent. Meanwhile, Nvidia is buying Hugging Face for $12.9 billion, and Stripe agreed to acquire OpenRouter for more than $7 billion.",
+     "eli5": "Hugging Face now uses a smart traffic controller to send your AI requests to the best helper available, so you get the best price and speed without doing extra work.",
+     "why_it_matters": "Eliminates separate API keys for language models while automatically optimizing request routing for cost and throughput.",
+     "topic": "dev-tools",
+     "type": "product",
+     "labs": [
+      "openai",
+      "anthropic",
+      "nvidia",
+      "other"
+     ],
+     "people": [],
+     "concepts": [
+      "inference",
+      "language-model",
+      "open-weight-model"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "Hugging Face now routes model requests through OpenRouter for the best price or speed",
+       "url": "https://the-decoder.com/hugging-face-now-routes-model-requests-through-openrouter-for-the-best-price-or-speed/",
+       "name": "The Decoder",
+       "kind": "press"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-18T14:33:44Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "Hugging Face now routes language model inference through OpenRouter to optimize for price or speed.",
+     "rank": 17,
+     "id": "2026-11-18-hugging-face-routes-model-requests-through-openrouter",
+     "date": "2026-11-18"
+    },
+    {
+     "title": "Microsoft extends the reach of Fabric IQ context to agents",
+     "one_liner": "At Microsoft Ignite 2026, Microsoft extended Fabric IQ to more places where work happens, including Microsoft Copilot, Excel, and ChatGPT.",
+     "summary": "Microsoft is extending the reach of Fabric IQ to more places where work happens. These places include Microsoft Copilot, Excel, ChatGPT and Codex by OpenAI, Claude by Anthropic, Fabric apps, and GitHub Copilot. Fabric IQ is part of Microsoft IQ, and it captures how a business operates. According to the 2026 Microsoft Work Trend Index, people are now handing entire tasks to agents and directing several at once. Fabric IQ turns business knowledge into an advantage for people and agents. Organizations treat business context as shared infrastructure that is built once and reused by every agent.",
+     "eli5": "Like giving everyone the same rulebook so that helpers always know how your specific playroom works.",
+     "why_it_matters": "Business context acts as shared infrastructure that is built once and reused by every agent.",
+     "topic": "data-bi",
+     "type": "event",
+     "labs": [
+      "microsoft",
+      "openai",
+      "anthropic"
+     ],
+     "people": [],
+     "concepts": [
+      "agent",
+      "copilot",
+      "microsoft-fabric"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "Bringing trusted Fabric IQ context to wherever people and agents work",
+       "url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Bringing-trusted-Fabric-IQ-context-to-wherever-people-and-agents/ba-p/5423049",
+       "name": "Microsoft Fabric Blog",
+       "kind": "original"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-18T17:59:46Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "Microsoft expanded Fabric IQ context capabilities to connect enterprise data directly into agent workflows.",
+     "rank": 18,
+     "id": "2026-11-18-microsoft-extends-the-reach-of-fabric-iq-context-to-agents",
      "date": "2026-11-18"
     }
    ],
    "stats": {
-    "items": 24,
-    "stories": 24,
+    "items": 37,
+    "stories": 37,
     "sources_ok": 42,
     "sources_failed": [],
-    "published": 6,
-    "dropped": 2,
+    "published": 8,
+    "dropped": 0,
     "llm_calls": 21,
     "cache_hits": 0,
     "models": {
-     "gemini:gemini-3.5-flash-lite": 11,
-     "groq:openai/gpt-oss-120b": 7,
-     "groq:qwen/qwen3.8-27b": 3
+     "gemini:gemini-3.5-flash": 1,
+     "gemini:gemini-3.5-flash-lite": 10,
+     "gemini:gemini-3.1-flash-lite": 1,
+     "groq:qwen/qwen3.8-27b": 4,
+     "groq:openai/gpt-oss-120b": 5
     },
     "fallbacks": [
      {
-      "tag": "writer",
-      "used": "gemini:gemini-3.5-flash-lite",
+      "tag": "editor",
+      "used": "gemini:gemini-3.5-flash",
       "after": [
-       "gemini:gemini-3.5-flash-lite: HTTP 503 [{\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n]"
+       "anthropic:claude-sonnet-5-5: HTTP 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"You have reached your specified API usage limits. You will regain access on 2026-12-01 at 00:00 UTC.\"},\"request_id\":\"req_011ChBPA4v4p"
       ]
      },
      {
       "tag": "checker",
-      "used": "groq:openai/gpt-oss-120b",
+      "used": "gemini:gemini-3.1-flash-lite",
       "after": [
-       "anthropic:claude-haiku-5-5: HTTP 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"You have reached your specified API usage limits. You will regain access on 2026-12-01 at 00:00 UTC.\"},\"request_id\":\"req_011ChASJgy4D"
+       "anthropic:claude-haiku-5-5: HTTP 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"You have reached your specified API usage limits. You will regain access on 2026-12-01 at 00:00 UTC.\"},\"request_id\":\"req_011ChBPC673n",
+       "groq:openai/gpt-oss-120b: HTTP 400 {\"error\":{\"message\":\"Failed to validate JSON. Please adjust your prompt. See 'failed_generation' for more details.\",\"type\":\"invalid_request_error\",\"code\":\"json_validate_failed\",\"failed_generation\":\"\"}",
+       "groq:qwen/qwen3.8-27b: HTTP 400 {\"error\":{\"message\":\"Failed to generate JSON. Please adjust your prompt. See 'failed_generation' for more details.\",\"type\":\"invalid_request_error\",\"code\":\"json_validate_failed\",\"failed_generation\":\"ma"
+      ]
+     },
+     {
+      "tag": "checker",
+      "used": "groq:qwen/qwen3.8-27b",
+      "after": [
+       "groq:openai/gpt-oss-120b: HTTP 400 {\"error\":{\"message\":\"Failed to validate JSON. Please adjust your prompt. See 'failed_generation' for more details.\",\"type\":\"invalid_request_error\",\"code\":\"json_validate_failed\",\"failed_generation\":\"\"}"
       ]
      },
      {
@@ -12578,13 +12956,6 @@
       "used": "groq:qwen/qwen3.8-27b",
       "after": [
        "groq:openai/gpt-oss-120b: HTTP 400 {\"error\":{\"message\":\"Failed to validate JSON. Please adjust your prompt. See 'failed_generation' for more details.\",\"type\":\"invalid_request_error\",\"code\":\"json_validate_failed\",\"failed_generation\":\"\"}"
-      ]
-     },
-     {
-      "tag": "writer",
-      "used": "gemini:gemini-3.5-flash-lite",
-      "after": [
-       "gemini:gemini-3.5-flash-lite: HTTP 503 [{\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n]"
       ]
      },
      {
@@ -12595,7 +12966,343 @@
       ]
      }
     ],
-    "seconds": 487
+    "seconds": 213
+   }
+  },
+  "2026-11-19": {
+   "date": "2026-11-19",
+   "generated_at": "2026-11-19T01:07:55Z",
+   "stories": [
+    {
+     "title": "Google Releases Gemini 4 Neon Frontier Intelligence Model",
+     "one_liner": "Google launched Gemini 4 Neon, a multimodal frontier model built for software engineering, knowledge work, and science workflows.",
+     "summary": "Google introduced Gemini 4 Neon on November 18, 2026. The new model brings frontier-level intelligence with fast end-to-end task completion across software engineering, knowledge work, and science workflows. Neon handles text, images, video, audio, and PDFs with a 1 million-token context window. It is priced at $3 per million input tokens, with cached input tokens at a 95% discount of $0.15 per million, and output tokens at $15 per million. The model is rolling out in the Gemini API in Google AI Studio, Gemini for business, Google Antigravity, and the Gemini app.",
+     "eli5": "Google made a new smart computer brain that can read text, look at pictures, and watch videos all at once to help people code and do science homework very quickly.",
+     "why_it_matters": "High-context multimodal processing and targeted editing capabilities enable autonomous agents to execute complex, multi-file software engineering tasks end-to-end.",
+     "topic": "models",
+     "type": "model",
+     "labs": [
+      "google"
+     ],
+     "people": [],
+     "concepts": [
+      "multimodal-model",
+      "context-window",
+      "coding-assistant"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "Introducing Gemini 4 Neon",
+       "url": "https://deepmind.google/blog/introducing-gemini-4-neon/",
+       "name": "Google DeepMind Blog",
+       "kind": "original"
+      },
+      {
+       "title": "Gemini 4 Neon",
+       "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/",
+       "name": "blog.google",
+       "kind": "original"
+      },
+      {
+       "title": "Discussion on Hacker News",
+       "url": "https://news.ycombinator.com/item?id=50552424",
+       "name": "Hacker News",
+       "kind": "discussion"
+      },
+      {
+       "title": "Google ships Gemini 4 Neon, its fourth new Gemini model in a month",
+       "url": "https://the-decoder.com/google-ships-gemini-4-neon-its-fourth-new-gemini-model-in-a-month/",
+       "name": "The Decoder",
+       "kind": "press"
+      },
+      {
+       "title": "Gemini 4 Neon costs $3/1M input tokens and $15/1M output tokens; the model sits between Hydrogen and Carbon and replaces Argon in the Gemini app (Abner Li/9to5Google)",
+       "url": "https://www.techmeme.com/261118/p49#a261118p49",
+       "name": "Techmeme",
+       "kind": "press"
+      },
+      {
+       "title": "Google rolls out Gemini 4 Neon, with \"fast end-to-end task completion\" across coding, knowledge work, and science, in the API, Antigravity, and the Gemini app (Koray Kavukcuoglu/Google)",
+       "url": "https://www.techmeme.com/261118/p44#a261118p44",
+       "name": "Techmeme",
+       "kind": "press"
+      }
+     ],
+     "buzz": 4,
+     "published": "2026-11-18T21:03:23Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "Google released Gemini 4 Neon, a frontier model aimed at coding, science, and end-to-end task completion.",
+     "rank": 1,
+     "id": "2026-11-19-google-releases-gemini-4-neon-frontier-intelligence-model",
+     "date": "2026-11-19"
+    },
+    {
+     "title": "Google Rebrands Gemini Spark to Tasks and Makes It Free",
+     "one_liner": "Google is rolling out its new Gemini Tasks assistant for free in six countries, using the Gemini 4 Hydrogen model.",
+     "summary": "Google has rebranded its Gemini Spark AI agent to Tasks and made it available free of charge for hundreds of millions of people. The update rolls out across the United States, Japan, Korea, Canada, Australia, and India using the Gemini 4 Hydrogen model. Tasks connects to user emails, calendars, and payment methods to handle daily chores. In the U.S., the assistant can call businesses on behalf of users, schedule appointments, analyze utility bills, and purchase items using Google Pay with the Agent Payments Protocol.",
+     "eli5": "Gemini Tasks is like a helpful digital butler that can look at your calendar, make phone calls to schedule appointments, and buy things for you.",
+     "why_it_matters": "Personal assistants moving into the OS layer to handle multi-step workflows changes how users interact with services.",
+     "topic": "agents",
+     "type": "product",
+     "labs": [
+      "google"
+     ],
+     "people": [],
+     "concepts": [
+      "agent",
+      "personal-agent",
+      "tool-use"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [
+      {
+       "term": "Agent Payments Protocol",
+       "definition": "A protocol used by Gemini to make secure purchases like shopping checkouts."
+      },
+      {
+       "term": "Universal Commerce Protocol",
+       "definition": "A protocol being integrated into Gemini for a faster and more reliable shopping experience from discovery to checkout."
+      }
+     ],
+     "sources": [
+      {
+       "title": "Google Gemini's \"Tasks\" Personal Assistant Is Now Free",
+       "url": "https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/",
+       "name": "blog.google",
+       "kind": "original"
+      },
+      {
+       "title": "Discussion on Hacker News",
+       "url": "https://news.ycombinator.com/item?id=50551601",
+       "name": "Hacker News",
+       "kind": "discussion"
+      },
+      {
+       "title": "Google rebrands its Gemini Spark AI agent as Tasks and makes it free in six countries; in the US it can call businesses and buy items with Google Pay (Emma Roth/The Verge)",
+       "url": "https://www.techmeme.com/261118/p39#a261118p39",
+       "name": "Techmeme",
+       "kind": "press"
+      }
+     ],
+     "buzz": 2,
+     "published": "2026-11-18T20:05:02Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "Google rebranded its Gemini Spark assistant as Tasks and made its automated agent features free to use.",
+     "rank": 2,
+     "id": "2026-11-19-google-rebrands-gemini-spark-to-tasks-and-makes-it-free",
+     "date": "2026-11-19"
+    },
+    {
+     "title": "Amazon Introduces Workload Recovery and Infrastructure Checks on SageMaker HyperPod",
+     "one_liner": "Amazon introduces workload recovery and infrastructure checks on SageMaker HyperPod to catch hidden training failures sooner and raise goodput.",
+     "summary": "Amazon has introduced workload recovery and expanded infrastructure checks on Amazon SageMaker HyperPod. Large training jobs often fail even when nodes look healthy due to subtle GPU faults, hung jobs on NCCL timeouts, or crashed Kubernetes device plugins. These silent failures lower goodput, which is the share of cluster time spent on useful training. The three new capabilities include MultiNodeTrainingValidation to check training correctness, the HyperPod Kubernetes Resource Monitoring Agent to watch the Kubernetes layer, and hung job detection to catch stalled Slurm jobs and automatically requeue them.",
+     "eli5": "Sometimes a machine looks fine on the outside, but its brain is making mistakes or freezing up. These new checks act like a teacher constantly testing the computers so they do not waste time running in circles.",
+     "why_it_matters": "Catching silent training failures early prevents wasted compute resources and reduces the financial cost of stalled jobs.",
+     "topic": "dev-tools",
+     "type": "product",
+     "labs": [],
+     "people": [],
+     "concepts": [
+      "gpu",
+      "deep-learning",
+      "machine-learning"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [
+      {
+       "term": "goodput",
+       "definition": "Goodput is the share of your cluster's time that goes to useful training."
+      },
+      {
+       "term": "MultiNodeTrainingValidation",
+       "definition": "MultiNodeTrainingValidation is a deep health check that trains a small model on an instance and then across instances to catch incorrect GPU computations."
+      }
+     ],
+     "sources": [
+      {
+       "title": "Introducing workload recovery and expanded infrastructure checks on Amazon SageMaker HyperPod",
+       "url": "https://aws.amazon.com/blogs/machine-learning/introducing-workload-recovery-and-expanded-infrastructure-checks-on-amazon-sagemaker-hyperpod/",
+       "name": "AWS Machine Learning Blog",
+       "kind": "original"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-18T23:03:29Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "Amazon SageMaker HyperPod introduced automated workload recovery to detect GPU faults during large model training.",
+     "rank": 3,
+     "id": "2026-11-19-amazon-introduces-workload-recovery-and-infrastructure-check",
+     "date": "2026-11-19"
+    },
+    {
+     "title": "Microsoft CEO Satya Nadella Predicts AI Agents Will Reshuffle Web Economics",
+     "one_liner": "Microsoft CEO Satya Nadella predicts that AI agents will reshape internet economics, impacting advertising business models and human web traffic.",
+     "summary": "Microsoft CEO Satya Nadella spoke at The New York Times DealBook Summit on Wednesday. He predicted that the rise of AI agents will reshape the economics of the internet. This shift will impact advertising business models and human web traffic. Companies that currently monetize ads based on eyeballs may need to transition to cost-per-click or transactional models. Nadella also discussed Amazon and its decision to block AI agents from accessing its retail website. He suggested that companies trying to protect old business models could lose out to platforms like Shopify that embrace AI agents.",
+     "eli5": "AI helpers are changing how people shop and find things online, just like search engines changed things years ago. Companies that refuse to work with these new helpers might lose customers to businesses that welcome them.",
+     "why_it_matters": "Business models relying on human eyeballs and ads must adapt as software agents take over web traffic and transactions.",
+     "topic": "industry",
+     "type": "event",
+     "labs": [
+      "microsoft"
+     ],
+     "people": [],
+     "concepts": [
+      "agent"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "Satya Nadella predicts AI agents will reshuffle the economics of the web",
+       "url": "https://techcrunch.com/2026/11/18/satya-nadella-predicts-ai-agents-will-reshuffle-the-economics-of-the-web/",
+       "name": "TechCrunch AI",
+       "kind": "press"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-18T22:58:11Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "Microsoft CEO Satya Nadella predicted that autonomous AI agents will alter the web's ad-driven business models.",
+     "rank": 4,
+     "id": "2026-11-19-microsoft-ceo-satya-nadella-predicts-ai-agents-will-reshuffl",
+     "date": "2026-11-19"
+    },
+    {
+     "title": "Sources Report Sierra Is in Talks to Raise Funding",
+     "one_liner": "Sources report that Bret Taylor's AI customer support startup Sierra is in talks to raise about $1.5 billion at a valuation of about $30 billion.",
+     "summary": "Sierra, an artificial intelligence customer support startup founded by former Salesforce co-CEO Bret Taylor, has been in talks to raise approximately $1.5 billion. The potential funding round would value the company at approximately $30 billion. This valuation marks an increase from $15.8 billion in May. Additionally, the company stated in October that it reached over $400 million in annualized revenue.",
+     "eli5": "A company is trying to get a lot of money to grow, similar to how a lemonade stand might get investments to open more stands.",
+     "why_it_matters": "Funding rounds of this size show the scale of capital moving into customer support applications built with artificial intelligence.",
+     "topic": "industry",
+     "type": "event",
+     "labs": [
+      "other"
+     ],
+     "people": [],
+     "concepts": [
+      "chatbot"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "Sources: Bret Taylor's Sierra is in talks to raise ~$1.5B at a ~$30B valuation, up from $15.8B in May; it said in October it hit $400M+ in annualized revenue (The Information)",
+       "url": "https://www.techmeme.com/261118/p40#a261118p40",
+       "name": "Techmeme",
+       "kind": "press"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-18T21:01:02Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "Enterprise agent startup Sierra is in talks to raise $1.5 billion at a $30 billion valuation.",
+     "rank": 5,
+     "id": "2026-11-19-sources-report-sierra-is-in-talks-to-raise-funding",
+     "date": "2026-11-19"
+    },
+    {
+     "title": "Palmer Luckey Warns AI Cyberattacks Are Outpacing Defenses",
+     "one_liner": "Palmer Luckey warned at the New York Times DealBook Summit that AI-powered cyberattacks are moving faster than outdated technology defenses.",
+     "summary": "Speaking at The New York Times DealBook Summit on Wednesday, Oculus and Anduril Industries co-founder Palmer Luckey warned that AI-powered cyberattacks are outpacing outdated technology systems. Advanced AI tools allow for the creation of various exploits. U.S. adversaries, with North Korea particularly involved, are exploiting the mismatch between new attack capabilities and defense capabilities for strategic and financial reasons. Luckey stated that defenders must move more quickly to use AI for defense, warning that people need to pick up the pace and start running.",
+     "eli5": "Hackers are using smart new tools to break into things faster than old locks can keep them out, so we need to upgrade our security quickly.",
+     "why_it_matters": "Organizations must adopt AI for defense faster because outdated technology leaves systems vulnerable to fast-moving attackers.",
+     "topic": "policy",
+     "type": "event",
+     "labs": [],
+     "people": [],
+     "concepts": [
+      "ai-safety"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "Palmer Luckey warns AI-powered cyberattacks are outpacing defenses: ‘It’s time to start running’",
+       "url": "https://techcrunch.com/2026/11/18/palmer-luckey-warns-ai-powered-cyberattacks-are-outpacing-defenses-its-time-to-start-running/",
+       "name": "TechCrunch AI",
+       "kind": "press"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-18T21:34:13Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "Anduril co-founder Palmer Luckey warned that AI-powered cyberattacks are moving faster than traditional defenses.",
+     "rank": 6,
+     "id": "2026-11-19-palmer-luckey-warns-ai-cyberattacks-are-outpacing-defenses",
+     "date": "2026-11-19"
+    }
+   ],
+   "stats": {
+    "items": 53,
+    "stories": 49,
+    "sources_ok": 42,
+    "sources_failed": [],
+    "published": 8,
+    "dropped": 0,
+    "llm_calls": 19,
+    "cache_hits": 0,
+    "models": {
+     "gemini:gemini-3.5-flash": 1,
+     "gemini:gemini-3.5-flash-lite": 9,
+     "groq:openai/gpt-oss-120b": 8,
+     "groq:qwen/qwen3.8-27b": 1
+    },
+    "fallbacks": [
+     {
+      "tag": "editor",
+      "used": "gemini:gemini-3.5-flash",
+      "after": [
+       "anthropic:claude-sonnet-5-5: HTTP 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"You have reached your specified API usage limits. You will regain access on 2026-12-01 at 00:00 UTC.\"},\"request_id\":\"req_011ChBPYA2zd"
+      ]
+     },
+     {
+      "tag": "checker",
+      "used": "groq:openai/gpt-oss-120b",
+      "after": [
+       "anthropic:claude-haiku-5-5: HTTP 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"You have reached your specified API usage limits. You will regain access on 2026-12-01 at 00:00 UTC.\"},\"request_id\":\"req_011ChBPZnsaf"
+      ]
+     },
+     {
+      "tag": "checker",
+      "used": "groq:qwen/qwen3.8-27b",
+      "after": [
+       "groq:openai/gpt-oss-120b: HTTP 400 {\"error\":{\"message\":\"Failed to validate JSON. Please adjust your prompt. See 'failed_generation' for more details.\",\"type\":\"invalid_request_error\",\"code\":\"json_validate_failed\",\"failed_generation\":\"\"}"
+      ]
+     }
+    ],
+    "seconds": 101
    }
   }
  }
