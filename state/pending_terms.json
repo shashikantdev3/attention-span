@@ -1512,31 +1512,59 @@
   "source": "https://deepmind.google/blog/genie-4-is-now-available/"
  },
  {
-  "term": "Agent Payments Protocol",
-  "definition": "A protocol used by Gemini to make secure purchases like shopping checkouts.",
+  "term": "holographic duality",
+  "definition": "A tool where theoretical universes can be described in two ways, as a complete universe with gravity or in quantum terms with no gravity.",
   "first_seen": "2026-11-19",
-  "story": "2026-11-19-google-rebrands-gemini-spark-to-tasks-and-makes-it-free",
-  "source": "https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/"
+  "story": "2026-11-19-claude-solves-two-open-problems-in-black-hole-physics",
+  "source": "https://www.anthropic.com/research/claude-black-hole-physics"
  },
  {
-  "term": "Universal Commerce Protocol",
-  "definition": "A protocol being integrated into Gemini for a faster and more reliable shopping experience from discovery to checkout.",
+  "term": "bootstrapping",
+  "definition": "A method used to rule out wrong theories by showing that they are internally inconsistent rather than building a single correct theory.",
   "first_seen": "2026-11-19",
-  "story": "2026-11-19-google-rebrands-gemini-spark-to-tasks-and-makes-it-free",
-  "source": "https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/"
+  "story": "2026-11-19-claude-solves-two-open-problems-in-black-hole-physics",
+  "source": "https://www.anthropic.com/research/claude-black-hole-physics"
  },
  {
-  "term": "goodput",
-  "definition": "Goodput is the share of your cluster's time that goes to useful training.",
+  "term": "Tool Retrieval",
+  "definition": "A feature that loads tool parameter schemas on demand instead of sending your full tool library in every prompt.",
   "first_seen": "2026-11-19",
-  "story": "2026-11-19-amazon-introduces-workload-recovery-and-infrastructure-check",
-  "source": "https://aws.amazon.com/blogs/machine-learning/introducing-workload-recovery-and-expanded-infrastructure-checks-on-amazon-sagemaker-hyperpod/"
+  "story": "2026-11-19-google-introduces-tool-retrieval-in-the-gemini-api",
+  "source": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval/"
  },
  {
-  "term": "MultiNodeTrainingValidation",
-  "definition": "MultiNodeTrainingValidation is a deep health check that trains a small model on an instance and then across instances to catch incorrect GPU computations.",
-  "first_seen": "2026-11-19",
-  "story": "2026-11-19-amazon-introduces-workload-recovery-and-infrastructure-check",
-  "source": "https://aws.amazon.com/blogs/machine-learning/introducing-workload-recovery-and-expanded-infrastructure-checks-on-amazon-sagemaker-hyperpod/"
+  "term": "sandboxing",
+  "definition": "Sandboxing uses protected test environments for privacy and safety.",
+  "first_seen": "2026-11-20",
+  "story": "2026-11-20-report-apple-builds-ai-agent-and-raises-competitor-barriers",
+  "source": "https://the-decoder.com/apple-joins-the-race-for-ai-agents-that-control-your-device-while-raising-new-barriers-for-competitors/"
+ },
+ {
+  "term": "periodic summaries",
+  "definition": "Periodic summaries are used alongside targeted lookups to match full-context results at a fraction of the cost.",
+  "first_seen": "2026-11-21",
+  "story": "2026-11-21-nvidia-researchers-argue-huge-ai-context-windows-are-a-dead",
+  "source": "https://the-decoder.com/nvidia-researchers-argue-huge-ai-context-windows-are-a-dead-end/"
+ },
+ {
+  "term": "targeted lookups",
+  "definition": "Targeted lookups and periodic summaries worked about as well as processing entire novels at once in many tests.",
+  "first_seen": "2026-11-21",
+  "story": "2026-11-21-nvidia-researchers-argue-huge-ai-context-windows-are-a-dead",
+  "source": "https://the-decoder.com/nvidia-researchers-argue-huge-ai-context-windows-are-a-dead-end/"
+ },
+ {
+  "term": "network injection",
+  "definition": "Network injection has to be part of the Foundry account when you first create it.",
+  "first_seen": "2026-11-21",
+  "story": "2026-11-21-fixing-azure-ai-foundry-agent-timeouts-in-virtual-networks",
+  "source": "https://devblogs.microsoft.com/foundry/hosted-agents-private-network-setup/"
+ },
+ {
+  "term": "data proxy",
+  "definition": "A single-tenant data proxy handles tool calls and outbound traffic through private endpoints.",
+  "first_seen": "2026-11-21",
+  "story": "2026-11-21-fixing-azure-ai-foundry-agent-timeouts-in-virtual-networks",
+  "source": "https://devblogs.microsoft.com/foundry/hosted-agents-private-network-setup/"
  }
 ]
