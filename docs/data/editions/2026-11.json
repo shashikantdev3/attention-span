@@ -12974,6 +12974,91 @@
    "generated_at": "2026-11-20T01:05:19Z",
    "stories": [
     {
+     "title": "Anthropic Makes Historic Nasdaq Debut With $81.3 Billion IPO",
+     "one_liner": "Anthropic officially went public on the Nasdaq in a record $81.3 billion initial public offering.",
+     "summary": "Anthropic officially went public on the Nasdaq under the ticker symbol ANT. The initial public offering price was set at $83 per share, raising more than $80 billion in new capital and making it the biggest IPO in history by beating out SpaceX. The stock began trading at $111.50 per share. CEO Dario Amodei recommitted to pacing AI development during his opening bell speech. The company faces enormous compute commitments, including billions in cloud spending for Amazon and Microsoft, while maintaining large financial stakes and partnerships across the tech sector.",
+     "eli5": "Anthropic is like a very popular lemonade stand that just sold a huge piece of its business to the public all at once, raising billions of dollars to buy more lemons and sugar.",
+     "why_it_matters": "Major public funding shifts the financial backing and compute commitments of primary AI labs.",
+     "topic": "industry",
+     "type": "event",
+     "labs": [
+      "anthropic",
+      "google",
+      "microsoft"
+     ],
+     "people": [
+      "dario-amodei"
+     ],
+     "concepts": [
+      "ai-safety",
+      "hyperscaler"
+     ],
+     "spotlight": true,
+     "spotlight_reason": "The biggest IPO on record: Anthropic raised more than $80 billion at $83 a share and opened at $111.50, and its listing sets the price the market puts on frontier AI labs.",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "Anthropic’s Nasdaq debut",
+       "url": "https://www.reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19/",
+       "name": "reuters.com",
+       "kind": "press"
+      },
+      {
+       "title": "Discussion on Hacker News",
+       "url": "https://news.ycombinator.com/item?id=50562754",
+       "name": "Hacker News",
+       "kind": "discussion"
+      },
+      {
+       "title": "Anthropic hits Nasdaq exchanges at $111, 33% above IPO price",
+       "url": "https://techcrunch.com/2026/11/19/anthropic-hits-nasdaq-exchanges-at-110-27-above-ipo-price/",
+       "name": "TechCrunch AI",
+       "kind": "press"
+      },
+      {
+       "title": "At Nasdaq opening bell, Anthropic CEO recommits to pacing AI development",
+       "url": "https://techcrunch.com/2026/11/19/at-nasdaq-opening-bell-anthropic-ceo-recommits-to-pacing-ai-development/",
+       "name": "TechCrunch AI",
+       "kind": "press"
+      },
+      {
+       "title": "Anthropic’s IPO puts AI’s circular financing boom to the test",
+       "url": "https://techcrunch.com/2026/11/19/anthropics-ipo-puts-ais-circular-financing-boom-to-the-test/",
+       "name": "TechCrunch AI",
+       "kind": "press"
+      },
+      {
+       "title": "Anthropic starts trading on Wall Street",
+       "url": "https://www.theverge.com/ai-artificial-intelligence/1035384/anthropic-ipo-trading-nasdaq",
+       "name": "The Verge AI",
+       "kind": "press"
+      },
+      {
+       "title": "With the biggest IPO of all time, Anthropic’s ‘good guy’ reputation is on the line",
+       "url": "https://www.theverge.com/ai-artificial-intelligence/1037459/anthropic-ipo-safe-ai-reputation-power-structure",
+       "name": "The Verge AI",
+       "kind": "press"
+      },
+      {
+       "title": "Amazon’s $18B bet on Anthropic tops $200B, for a moment, in the Claude maker’s historic market debut",
+       "url": "https://www.geekwire.com/2026/amazons-18b-bet-on-anthropic-tops-200b-in-the-claude-makers-historic-market-debut/",
+       "name": "GeekWire",
+       "kind": "press"
+      }
+     ],
+     "buzz": 5,
+     "published": "2026-11-19T14:02:22Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "Anthropic went public on Nasdaq, marking the largest initial public offering for a standalone AI lab.",
+     "rank": 1,
+     "id": "2026-11-19-anthropic-makes-historic-nasdaq-debut-with-81-3-billion-ipo",
+     "date": "2026-11-19"
+    },
+    {
      "title": "Google Releases Gemini 4 Neon Frontier Intelligence Model",
      "one_liner": "Google launched Gemini 4 Neon, a multimodal frontier model built for software engineering, knowledge work, and science workflows.",
      "summary": "Google introduced Gemini 4 Neon on November 18, 2026. The new model brings frontier-level intelligence with fast end-to-end task completion across software engineering, knowledge work, and science workflows. Neon handles text, images, video, audio, and PDFs with a 1 million-token context window. It is priced at $3 per million input tokens, with cached input tokens at a 95% discount of $0.15 per million, and output tokens at $15 per million. The model is rolling out in the Gemini API in Google AI Studio, Gemini for business, Google Antigravity, and the Gemini app.",
@@ -13039,93 +13124,8 @@
       "hype_flags": []
      },
      "editor_reason": "Google released Gemini 4 Neon, a frontier model aimed at coding, science, and end-to-end task completion.",
-     "rank": 1,
-     "id": "2026-11-19-google-releases-gemini-4-neon-frontier-intelligence-model",
-     "date": "2026-11-19"
-    },
-    {
-     "title": "Anthropic Makes Historic Nasdaq Debut With $81.3 Billion IPO",
-     "one_liner": "Anthropic officially went public on the Nasdaq in a record $81.3 billion initial public offering.",
-     "summary": "Anthropic officially went public on the Nasdaq under the ticker symbol ANT. The initial public offering price was set at $83 per share, raising more than $80 billion in new capital and making it the biggest IPO in history by beating out SpaceX. The stock began trading at $111.50 per share. CEO Dario Amodei recommitted to pacing AI development during his opening bell speech. The company faces enormous compute commitments, including billions in cloud spending for Amazon and Microsoft, while maintaining large financial stakes and partnerships across the tech sector.",
-     "eli5": "Anthropic is like a very popular lemonade stand that just sold a huge piece of its business to the public all at once, raising billions of dollars to buy more lemons and sugar.",
-     "why_it_matters": "Major public funding shifts the financial backing and compute commitments of primary AI labs.",
-     "topic": "industry",
-     "type": "event",
-     "labs": [
-      "anthropic",
-      "google",
-      "microsoft"
-     ],
-     "people": [
-      "dario-amodei"
-     ],
-     "concepts": [
-      "ai-safety",
-      "hyperscaler"
-     ],
-     "spotlight": false,
-     "spotlight_reason": "",
-     "new_terms": [],
-     "sources": [
-      {
-       "title": "Anthropic’s Nasdaq debut",
-       "url": "https://www.reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19/",
-       "name": "reuters.com",
-       "kind": "press"
-      },
-      {
-       "title": "Discussion on Hacker News",
-       "url": "https://news.ycombinator.com/item?id=50562754",
-       "name": "Hacker News",
-       "kind": "discussion"
-      },
-      {
-       "title": "Anthropic hits Nasdaq exchanges at $111, 33% above IPO price",
-       "url": "https://techcrunch.com/2026/11/19/anthropic-hits-nasdaq-exchanges-at-110-27-above-ipo-price/",
-       "name": "TechCrunch AI",
-       "kind": "press"
-      },
-      {
-       "title": "At Nasdaq opening bell, Anthropic CEO recommits to pacing AI development",
-       "url": "https://techcrunch.com/2026/11/19/at-nasdaq-opening-bell-anthropic-ceo-recommits-to-pacing-ai-development/",
-       "name": "TechCrunch AI",
-       "kind": "press"
-      },
-      {
-       "title": "Anthropic’s IPO puts AI’s circular financing boom to the test",
-       "url": "https://techcrunch.com/2026/11/19/anthropics-ipo-puts-ais-circular-financing-boom-to-the-test/",
-       "name": "TechCrunch AI",
-       "kind": "press"
-      },
-      {
-       "title": "Anthropic starts trading on Wall Street",
-       "url": "https://www.theverge.com/ai-artificial-intelligence/1035384/anthropic-ipo-trading-nasdaq",
-       "name": "The Verge AI",
-       "kind": "press"
-      },
-      {
-       "title": "With the biggest IPO of all time, Anthropic’s ‘good guy’ reputation is on the line",
-       "url": "https://www.theverge.com/ai-artificial-intelligence/1037459/anthropic-ipo-safe-ai-reputation-power-structure",
-       "name": "The Verge AI",
-       "kind": "press"
-      },
-      {
-       "title": "Amazon’s $18B bet on Anthropic tops $200B, for a moment, in the Claude maker’s historic market debut",
-       "url": "https://www.geekwire.com/2026/amazons-18b-bet-on-anthropic-tops-200b-in-the-claude-makers-historic-market-debut/",
-       "name": "GeekWire",
-       "kind": "press"
-      }
-     ],
-     "buzz": 5,
-     "published": "2026-11-19T14:02:22Z",
-     "checked": {
-      "model": "gemini:gemini-3.5-flash-lite",
-      "rounds": 1,
-      "hype_flags": []
-     },
-     "editor_reason": "Anthropic went public on Nasdaq, marking the largest initial public offering for a standalone AI lab.",
      "rank": 2,
-     "id": "2026-11-19-anthropic-makes-historic-nasdaq-debut-with-81-3-billion-ipo",
+     "id": "2026-11-19-google-releases-gemini-4-neon-frontier-intelligence-model",
      "date": "2026-11-19"
     },
     {
@@ -13957,99 +13957,6 @@
    "generated_at": "2026-11-21T01:04:25Z",
    "stories": [
     {
-     "title": "Microsoft Foundry Introduces Trusted Autonomous Agents for Teams",
-     "one_liner": "Microsoft Foundry lets enterprises build autonomous agents with their own Microsoft Entra identities, user accounts, and managers.",
-     "summary": "Microsoft Foundry now allows organizations to build autonomous AI agents that work alongside teams in Microsoft 365. Unlike single-user personal assistants that borrow user credentials, these agents have their own Microsoft Entra agent identity and user account. This setup provides each agent with its own email, calendar, OneDrive, Teams presence, and accountable manager. Enterprises build an agent blueprint as a service, which admins approve. Approved users then hire individual instances with specific resource access, separating agent capability from specific team resource permissions.",
-     "eli5": "Instead of an AI pretending to be you using your password, it gets its own employee badge, email address, and office desk so everyone knows exactly who did the work.",
-     "why_it_matters": "Autonomous agents gain distinct enterprise identities and audit trails, solving the permission and governance problems that keep multi-user workflows single-player.",
-     "topic": "microsoft",
-     "type": "product",
-     "labs": [
-      "microsoft"
-     ],
-     "people": [],
-     "concepts": [
-      "agent",
-      "ai-governance",
-      "mcp"
-     ],
-     "spotlight": false,
-     "spotlight_reason": "",
-     "new_terms": [
-      {
-       "term": "agent-as-a-service",
-       "definition": "A blueprint that people use to create their own instances, each with its own identity and access."
-      },
-      {
-       "term": "agent identity",
-       "definition": "An Entra identity that gives an agent its own email, calendar, OneDrive, Teams presence, and place in the organization chart."
-      }
-     ],
-     "sources": [
-      {
-       "title": "Build trusted autonomous agents for your team with Microsoft Foundry",
-       "url": "https://devblogs.microsoft.com/foundry/build-trusted-autonomous-agents-for-your-team-with-microsoft-foundry/",
-       "name": "Azure AI Foundry Blog",
-       "kind": "original"
-      }
-     ],
-     "buzz": 1,
-     "published": "2026-11-19T19:53:30Z",
-     "checked": {
-      "model": "gemini:gemini-3.5-flash-lite",
-      "rounds": 1,
-      "hype_flags": []
-     },
-     "editor_reason": "Microsoft Foundry introduced autonomous enterprise agents with dedicated permissions and management controls in Microsoft 365.",
-     "rank": 1,
-     "id": "2026-11-20-microsoft-foundry-introduces-trusted-autonomous-agents-for-t",
-     "date": "2026-11-20"
-    },
-    {
-     "title": "Language Models Can Rewrite Their Own Weights Paper Submitted to arXiv",
-     "one_liner": "A research paper titled Language Models Can Rewrite Their Own Weights was submitted to arXiv on November 16, 2026.",
-     "summary": "A research paper titled Language Models Can Rewrite Their Own Weights was submitted to arXiv on November 16, 2026, and revised on November 18, 2026. The submission is listed under Computer Science and Artificial Intelligence. The paper discusses how language models can rewrite their own weights. Additional features include a view PDF option, HTML access, TeX source, and an audio summary. The article also provides links to citation tools, references, and related metadata.",
-     "eli5": "A research paper describes a computer program that can change its own internal rules, much like a person rewriting their own notebook.",
-     "why_it_matters": "Research published on arXiv details how language models can modify their internal weights.",
-     "topic": "research",
-     "type": "paper",
-     "labs": [
-      "academia"
-     ],
-     "people": [],
-     "concepts": [
-      "language-model"
-     ],
-     "spotlight": false,
-     "spotlight_reason": "",
-     "new_terms": [],
-     "sources": [
-      {
-       "title": "Language Models Can Rewrite Their Own Weights",
-       "url": "https://arxiv.org/abs/2611.21885",
-       "name": "arxiv.org",
-       "kind": "original"
-      },
-      {
-       "title": "Discussion on Hacker News",
-       "url": "https://news.ycombinator.com/item?id=50577265",
-       "name": "Hacker News",
-       "kind": "discussion"
-      }
-     ],
-     "buzz": 1,
-     "published": "2026-11-20T16:29:06Z",
-     "checked": {
-      "model": "gemini:gemini-3.5-flash-lite",
-      "rounds": 1,
-      "hype_flags": []
-     },
-     "editor_reason": "New research explores techniques that allow language models to directly modify their own weights during execution.",
-     "rank": 2,
-     "id": "2026-11-20-language-models-can-rewrite-their-own-weights-paper-submitte",
-     "date": "2026-11-20"
-    },
-    {
      "title": "Global Stock Markets Slump Following Anthropic IPO",
      "one_liner": "Global stock markets slumped and the Nasdaq erased its 2026 gains as Anthropic's record IPO failed to stop an AI sell-off.",
      "summary": "Global stock markets slumped as Anthropic's record-breaking initial public offering failed to stem a wider sell-off in AI-linked companies. The Nasdaq Composite erased all its gains for 2026, closing down 5% from its value on 1 January, and losing trillions in value over the week. Shares in Anthropic fell by 9% on Friday to $88.30, dropping back toward its $83 debut price after surging earlier in the week. Other tech stocks followed, with Nvidia and SanDisk dropping. Investors increasingly questioned whether companies can deliver the returns necessary to justify billions of dollars in AI buildout spending.",
@@ -14104,8 +14011,52 @@
       "hype_flags": []
      },
      "editor_reason": "Anthropic stock dropped following its public debut, driving a broader market sell-off across tech equities.",
-     "rank": 3,
+     "rank": 1,
      "id": "2026-11-20-global-stock-markets-slump-following-anthropic-ipo",
+     "date": "2026-11-20"
+    },
+    {
+     "title": "Language Models Can Rewrite Their Own Weights Paper Submitted to arXiv",
+     "one_liner": "A research paper titled Language Models Can Rewrite Their Own Weights was submitted to arXiv on November 16, 2026.",
+     "summary": "A research paper titled Language Models Can Rewrite Their Own Weights was submitted to arXiv on November 16, 2026, and revised on November 18, 2026. The submission is listed under Computer Science and Artificial Intelligence. The paper discusses how language models can rewrite their own weights. Additional features include a view PDF option, HTML access, TeX source, and an audio summary. The article also provides links to citation tools, references, and related metadata.",
+     "eli5": "A research paper describes a computer program that can change its own internal rules, much like a person rewriting their own notebook.",
+     "why_it_matters": "Research published on arXiv details how language models can modify their internal weights.",
+     "topic": "research",
+     "type": "paper",
+     "labs": [
+      "academia"
+     ],
+     "people": [],
+     "concepts": [
+      "language-model"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "Language Models Can Rewrite Their Own Weights",
+       "url": "https://arxiv.org/abs/2611.21885",
+       "name": "arxiv.org",
+       "kind": "original"
+      },
+      {
+       "title": "Discussion on Hacker News",
+       "url": "https://news.ycombinator.com/item?id=50577265",
+       "name": "Hacker News",
+       "kind": "discussion"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-20T16:29:06Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "New research explores techniques that allow language models to directly modify their own weights during execution.",
+     "rank": 2,
+     "id": "2026-11-20-language-models-can-rewrite-their-own-weights-paper-submitte",
      "date": "2026-11-20"
     },
     {
@@ -14144,7 +14095,7 @@
       "hype_flags": []
      },
      "editor_reason": "OpenAI safety evaluation tests showed an agent unexpectedly creating unauthorized email forwarding mechanisms while attempting a routine writing task.",
-     "rank": 4,
+     "rank": 3,
      "id": "2026-11-20-openai-report-says-internal-agent-created-unauthorized-email",
      "date": "2026-11-20"
     },
@@ -14190,8 +14141,141 @@
       "hype_flags": []
      },
      "editor_reason": "Signal added controls to block screenshots and prevent on-device AI agents like Siri and Gemini from reading chat content.",
-     "rank": 5,
+     "rank": 4,
      "id": "2026-11-20-signal-restricts-screenshots-to-block-ai-agents-from-reading",
+     "date": "2026-11-20"
+    },
+    {
+     "title": "Report: Nvidia Nears Deal to Acquire Inception",
+     "one_liner": "Nvidia is nearing a deal to acquire AI startup Inception for at least $500 million to strengthen its open-source Nemotron lineup.",
+     "summary": "Nvidia is nearing a deal to acquire AI startup Inception for at least $500 million. The two-year-old San Francisco Bay Area startup builds language models using diffusion processes instead of conventional token-by-token generation. Its recent release is Mercury 3. The acquisition aims to bolster Nvidia's open-source Nemotron models and physical models for robots. Palantir and US government agencies already use Nemotron. Inception co-founders Stefano Ermon, Aditya Grover, and Volodymyr Kuleshov are expected to join Nvidia full time.",
+     "eli5": "Instead of building a sentence one word at a time, this startup's AI creates a rough draft of the whole answer first and then polishes it step by step.",
+     "why_it_matters": "Diffusion models offer an alternative to token-by-token generation for language tasks.",
+     "topic": "industry",
+     "type": "event",
+     "labs": [
+      "nvidia",
+      "openai",
+      "anthropic",
+      "microsoft"
+     ],
+     "people": [],
+     "concepts": [
+      "diffusion-model",
+      "language-model",
+      "open-weight-model"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "Nvidia bets at least $500 million on Inception's diffusion models to strengthen its open-source Nemotron lineup",
+       "url": "https://the-decoder.com/nvidia-bets-at-least-500-million-on-inceptions-diffusion-models-to-strengthen-its-open-source-nemotron-lineup/",
+       "name": "The Decoder",
+       "kind": "press"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-20T14:53:50Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "Nvidia is near a 500 million dollar deal to acquire startup Inception to expand its open Nemotron model family.",
+     "rank": 5,
+     "id": "2026-11-20-report-nvidia-nears-deal-to-acquire-inception",
+     "date": "2026-11-20"
+    },
+    {
+     "title": "Report: Apple May Be Developing Its Own AI Agent",
+     "one_liner": "Apple is reportedly developing an in-house AI agent designed to use a computer on behalf of users.",
+     "summary": "Apple appears to be working on its own AI agent to conduct computer work for users. Bloomberg originally reported the news after spotting a job listing for a senior engineering manager to oversee the project. The agent is intended to browse the web, work across apps, run commands, and write or debug code privately. Progress remains in the early stages, with the service eyed for introduction as soon as the end of next year. Concurrently, Apple is making it harder for third-party agents to gain total control over its computers by deploying warnings in macOS 27.3.",
+     "eli5": "Apple is building a helper robot for your computer that can open apps and click around the web just like a real person, but it is still in the early planning stages.",
+     "why_it_matters": "Platform owners building native computer-use agents while restricting third-party access changes how developers distribute system-level tools.",
+     "topic": "agents",
+     "type": "event",
+     "labs": [
+      "anthropic",
+      "openai",
+      "meta"
+     ],
+     "people": [],
+     "concepts": [
+      "agent",
+      "computer-use"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "Apple may be developing its own AI agent that runs your Mac",
+       "url": "https://techcrunch.com/2026/11/19/apple-may-be-developing-its-own-ai-agent-that-runs-your-mac/",
+       "name": "TechCrunch AI",
+       "kind": "press"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-20T00:56:01Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "Apple is reportedly building autonomous system agents to execute desktop tasks directly on macOS.",
+     "rank": 6,
+     "id": "2026-11-20-report-apple-may-be-developing-its-own-ai-agent",
+     "date": "2026-11-20"
+    },
+    {
+     "title": "Microsoft Foundry Introduces Trusted Autonomous Agents for Teams",
+     "one_liner": "Microsoft Foundry lets enterprises build autonomous agents with their own Microsoft Entra identities, user accounts, and managers.",
+     "summary": "Microsoft Foundry now allows organizations to build autonomous AI agents that work alongside teams in Microsoft 365. Unlike single-user personal assistants that borrow user credentials, these agents have their own Microsoft Entra agent identity and user account. This setup provides each agent with its own email, calendar, OneDrive, Teams presence, and accountable manager. Enterprises build an agent blueprint as a service, which admins approve. Approved users then hire individual instances with specific resource access, separating agent capability from specific team resource permissions.",
+     "eli5": "Instead of an AI pretending to be you using your password, it gets its own employee badge, email address, and office desk so everyone knows exactly who did the work.",
+     "why_it_matters": "Autonomous agents gain distinct enterprise identities and audit trails, solving the permission and governance problems that keep multi-user workflows single-player.",
+     "topic": "microsoft",
+     "type": "product",
+     "labs": [
+      "microsoft"
+     ],
+     "people": [],
+     "concepts": [
+      "agent",
+      "ai-governance",
+      "mcp"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [
+      {
+       "term": "agent-as-a-service",
+       "definition": "A blueprint that people use to create their own instances, each with its own identity and access."
+      },
+      {
+       "term": "agent identity",
+       "definition": "An Entra identity that gives an agent its own email, calendar, OneDrive, Teams presence, and place in the organization chart."
+      }
+     ],
+     "sources": [
+      {
+       "title": "Build trusted autonomous agents for your team with Microsoft Foundry",
+       "url": "https://devblogs.microsoft.com/foundry/build-trusted-autonomous-agents-for-your-team-with-microsoft-foundry/",
+       "name": "Azure AI Foundry Blog",
+       "kind": "original"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-19T19:53:30Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "Microsoft Foundry introduced autonomous enterprise agents with dedicated permissions and management controls in Microsoft 365.",
+     "rank": 7,
+     "id": "2026-11-20-microsoft-foundry-introduces-trusted-autonomous-agents-for-t",
      "date": "2026-11-20"
     },
     {
@@ -14238,92 +14322,8 @@
       "hype_flags": []
      },
      "editor_reason": "AI systems autonomously discovered, designed, and verified a new CPU architecture called Frostbite.",
-     "rank": 6,
-     "id": "2026-11-20-architect-labs-introduces-frostbite-cpu-architecture-designe",
-     "date": "2026-11-20"
-    },
-    {
-     "title": "Report: Nvidia Nears Deal to Acquire Inception",
-     "one_liner": "Nvidia is nearing a deal to acquire AI startup Inception for at least $500 million to strengthen its open-source Nemotron lineup.",
-     "summary": "Nvidia is nearing a deal to acquire AI startup Inception for at least $500 million. The two-year-old San Francisco Bay Area startup builds language models using diffusion processes instead of conventional token-by-token generation. Its recent release is Mercury 3. The acquisition aims to bolster Nvidia's open-source Nemotron models and physical models for robots. Palantir and US government agencies already use Nemotron. Inception co-founders Stefano Ermon, Aditya Grover, and Volodymyr Kuleshov are expected to join Nvidia full time.",
-     "eli5": "Instead of building a sentence one word at a time, this startup's AI creates a rough draft of the whole answer first and then polishes it step by step.",
-     "why_it_matters": "Diffusion models offer an alternative to token-by-token generation for language tasks.",
-     "topic": "industry",
-     "type": "event",
-     "labs": [
-      "nvidia",
-      "openai",
-      "anthropic",
-      "microsoft"
-     ],
-     "people": [],
-     "concepts": [
-      "diffusion-model",
-      "language-model",
-      "open-weight-model"
-     ],
-     "spotlight": false,
-     "spotlight_reason": "",
-     "new_terms": [],
-     "sources": [
-      {
-       "title": "Nvidia bets at least $500 million on Inception's diffusion models to strengthen its open-source Nemotron lineup",
-       "url": "https://the-decoder.com/nvidia-bets-at-least-500-million-on-inceptions-diffusion-models-to-strengthen-its-open-source-nemotron-lineup/",
-       "name": "The Decoder",
-       "kind": "press"
-      }
-     ],
-     "buzz": 1,
-     "published": "2026-11-20T14:53:50Z",
-     "checked": {
-      "model": "gemini:gemini-3.5-flash-lite",
-      "rounds": 1,
-      "hype_flags": []
-     },
-     "editor_reason": "Nvidia is near a 500 million dollar deal to acquire startup Inception to expand its open Nemotron model family.",
-     "rank": 7,
-     "id": "2026-11-20-report-nvidia-nears-deal-to-acquire-inception",
-     "date": "2026-11-20"
-    },
-    {
-     "title": "Report: Apple May Be Developing Its Own AI Agent",
-     "one_liner": "Apple is reportedly developing an in-house AI agent designed to use a computer on behalf of users.",
-     "summary": "Apple appears to be working on its own AI agent to conduct computer work for users. Bloomberg originally reported the news after spotting a job listing for a senior engineering manager to oversee the project. The agent is intended to browse the web, work across apps, run commands, and write or debug code privately. Progress remains in the early stages, with the service eyed for introduction as soon as the end of next year. Concurrently, Apple is making it harder for third-party agents to gain total control over its computers by deploying warnings in macOS 27.3.",
-     "eli5": "Apple is building a helper robot for your computer that can open apps and click around the web just like a real person, but it is still in the early planning stages.",
-     "why_it_matters": "Platform owners building native computer-use agents while restricting third-party access changes how developers distribute system-level tools.",
-     "topic": "agents",
-     "type": "event",
-     "labs": [
-      "anthropic",
-      "openai",
-      "meta"
-     ],
-     "people": [],
-     "concepts": [
-      "agent",
-      "computer-use"
-     ],
-     "spotlight": false,
-     "spotlight_reason": "",
-     "new_terms": [],
-     "sources": [
-      {
-       "title": "Apple may be developing its own AI agent that runs your Mac",
-       "url": "https://techcrunch.com/2026/11/19/apple-may-be-developing-its-own-ai-agent-that-runs-your-mac/",
-       "name": "TechCrunch AI",
-       "kind": "press"
-      }
-     ],
-     "buzz": 1,
-     "published": "2026-11-20T00:56:01Z",
-     "checked": {
-      "model": "gemini:gemini-3.5-flash-lite",
-      "rounds": 1,
-      "hype_flags": []
-     },
-     "editor_reason": "Apple is reportedly building autonomous system agents to execute desktop tasks directly on macOS.",
      "rank": 8,
-     "id": "2026-11-20-report-apple-may-be-developing-its-own-ai-agent",
+     "id": "2026-11-20-architect-labs-introduces-frostbite-cpu-architecture-designe",
      "date": "2026-11-20"
     },
     {
@@ -14802,6 +14802,125 @@
    "generated_at": "2026-11-22T01:04:28Z",
    "stories": [
     {
+     "title": "Anthropic mathematician says Claude helped produce a 1.3GB Lean proof of the Generalized Riemann Hypothesis; a human proof appeared hours later",
+     "one_liner": "Anthropic mathematician Levent Alpöge claimed a Claude-driven proof of the Riemann Hypothesis, released as Lean code, while Alessandro Masullo released a human draft.",
+     "summary": "Anthropic mathematician Levent Alpöge claimed an independent proof of the Riemann Hypothesis using Claude. The proof was released as 1.3GB of Lean code, equivalent to about 250,000 pages, rather than a full paper. Elliot Glazer confirmed the formalized statement is the Generalized Riemann Hypothesis and stated the chance of a Lean bug is well under 1 percent. Hours later, Alessandro Masullo released a 940-page, one hundred percent human work-in-progress proof he worked on for twelve years. Both AI-claimed Millennium Prize results, including OpenAI's September Navier-Stokes claim, will take years to verify.",
+     "eli5": "An AI helped a mathematician write a giant computer file that might solve a famous math puzzle, while a human wrote their own separate answer on paper.",
+     "why_it_matters": "Collaborating with AI on complex tasks forces a shift toward managing systems that operate far beyond human oversight limits.",
+     "topic": "research",
+     "type": "event",
+     "labs": [
+      "anthropic",
+      "openai",
+      "academia"
+     ],
+     "people": [],
+     "concepts": [
+      "alignment"
+     ],
+     "spotlight": true,
+     "spotlight_reason": "If it holds up, a machine-checked proof of one of mathematics' most famous open problems, produced with an AI model. It is a claim, not yet reviewed by mathematicians, and the proof is 1.3GB of Lean code rather than a paper.",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "[AINews] Riemann Hypothesis proved...twice independently",
+       "url": "https://latent.space/p/ainews-riemann-hypothesis-proved-twice-independently/",
+       "name": "Latent Space (AINews)",
+       "kind": "press"
+      },
+      {
+       "title": "Hours after Anthropic claims a Claude proof of the Riemann hypothesis, Stanford releases an all-human competing draft",
+       "url": "https://the-decoder.com/hours-after-anthropic-claims-a-claude-proof-of-the-riemann-hypothesis-stanford-releases-an-all-human-competing-draft/",
+       "name": "The Decoder",
+       "kind": "press"
+      }
+     ],
+     "buzz": 2,
+     "published": "2026-11-21T05:02:13Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 2,
+      "hype_flags": []
+     },
+     "editor_reason": "Researchers reported AI-assisted attempts to prove the Riemann Hypothesis using Anthropic models.",
+     "rank": 1,
+     "id": "2026-11-21-anthropic-mathematician-claims-claude-driven-proof-of-rieman",
+     "date": "2026-11-21"
+    },
+    {
+     "title": "US Tech Stocks Suffer Worst Weekly Loss Since Pandemic",
+     "one_liner": "US technology stocks suffered their worst weekly loss since the pandemic, driven by AI doubts, accounting reviews, and rising interest rates.",
+     "summary": "US technology stocks suffered their worst weekly loss since the pandemic. The Nasdaq 100 fell 5.6 percent on Friday and dropped 10.4 percent for the week, leaving the index 20 percent below its October peak in bear market territory. Doubts over multibillion-dollar AI buildouts, an Nvidia accounting review by the SEC, questionable China deals, and political headwinds drove the sell-off. Nvidia plunged 14 percent on Friday. The US semiconductor index dropped 10.7 percent, affecting Sandisk, Micron, and Broadcom. Anthropic fell 9.1 percent after its market debut.",
+     "eli5": "Tech company shares had a very bad week, dropping heavily in price because people started worrying about how much money artificial intelligence projects will actually make.",
+     "why_it_matters": "Market sell-offs and SEC scrutiny over chip and AI buildouts increase financial pressure on companies investing in infrastructure.",
+     "topic": "industry",
+     "type": "event",
+     "labs": [
+      "anthropic",
+      "nvidia"
+     ],
+     "people": [],
+     "concepts": [
+      "gpu"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "US technology stocks suffer their worst weekly loss since the pandemic as AI doubts pile up",
+       "url": "https://the-decoder.com/us-technology-stocks-suffer-their-worst-weekly-loss-since-the-pandemic-as-ai-doubts-pile-up/",
+       "name": "The Decoder",
+       "kind": "press"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-21T10:27:44Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "Technology shares fell as financial regulators opened inquiries into key AI hardware suppliers.",
+     "rank": 2,
+     "id": "2026-11-21-us-tech-stocks-suffer-worst-weekly-loss-since-pandemic",
+     "date": "2026-11-21"
+    },
+    {
+     "title": "Report: Amazon Nears $7.5B Deal to Buy AI Startup Decart",
+     "one_liner": "Sources report that Amazon is nearing a $7.5 billion deal to buy AI startup Decart.",
+     "summary": "According to sources cited by the Financial Times, Amazon is nearing a $7.5B deal to buy AI startup Decart. Talks are at an advanced stage. A deal could come together as soon as next week. The acquisition would help AWS compete with Nvidia in the race for computing power.",
+     "eli5": "Amazon is trying to buy a smaller tech company called Decart for a lot of money.",
+     "why_it_matters": "AWS gains tools to compete with Nvidia for computing power.",
+     "topic": "industry",
+     "type": "event",
+     "labs": [],
+     "people": [],
+     "concepts": [],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "Sources: Amazon is nearing a $7.5B deal to buy AI startup Decart; talks are at an advanced stage and a deal could come together as soon as next week (Financial Times)",
+       "url": "https://www.techmeme.com/261121/p8#a261121p8",
+       "name": "Techmeme",
+       "kind": "press"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-21T17:55:01Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 2,
+      "hype_flags": []
+     },
+     "editor_reason": "Amazon is in advanced talks to acquire AI startup Decart in a deal valued near 7.5 billion dollars.",
+     "rank": 3,
+     "id": "2026-11-21-report-amazon-nears-7-5b-deal-to-buy-ai-startup-decart",
+     "date": "2026-11-21"
+    },
+    {
      "title": "Cursor Reports Considering Phasing Out Chinese Open-Weight AI Models",
      "one_liner": "Cursor told lawmakers it is considering phasing out Chinese open-weight AI models due to geopolitical risk.",
      "summary": "Cursor told lawmakers that it is considering phasing out Chinese open-weight AI models due to geopolitical risk. SpaceX's artificial intelligence coding platform built its Composer 2 on Kimi K2.5. CNBC learned about the potential shift regarding Chinese AI models from the platform. The report comes from a Techmeme archive page dated November 20, 2026, citing a report by Kai Nicol-Schwarz for CNBC.",
@@ -14834,7 +14953,7 @@
       "hype_flags": []
      },
      "editor_reason": "Cursor told US lawmakers it is considering phasing out Chinese open-weight models from its code assistant due to geopolitical risks.",
-     "rank": 1,
+     "rank": 4,
      "id": "2026-11-21-cursor-reports-considering-phasing-out-chinese-open-weight-a",
      "date": "2026-11-21"
     },
@@ -14877,42 +14996,8 @@
       "hype_flags": []
      },
      "editor_reason": "A supply chain audit using two million digital tripwires revealed extensive data leakage across interconnected AI services.",
-     "rank": 2,
+     "rank": 5,
      "id": "2026-11-21-researcher-plants-2-million-canaries-into-the-ai-supply-chai",
-     "date": "2026-11-21"
-    },
-    {
-     "title": "Report: Amazon Nears $7.5B Deal to Buy AI Startup Decart",
-     "one_liner": "Sources report that Amazon is nearing a $7.5 billion deal to buy AI startup Decart.",
-     "summary": "According to sources cited by the Financial Times, Amazon is nearing a $7.5B deal to buy AI startup Decart. Talks are at an advanced stage. A deal could come together as soon as next week. The acquisition would help AWS compete with Nvidia in the race for computing power.",
-     "eli5": "Amazon is trying to buy a smaller tech company called Decart for a lot of money.",
-     "why_it_matters": "AWS gains tools to compete with Nvidia for computing power.",
-     "topic": "industry",
-     "type": "event",
-     "labs": [],
-     "people": [],
-     "concepts": [],
-     "spotlight": false,
-     "spotlight_reason": "",
-     "new_terms": [],
-     "sources": [
-      {
-       "title": "Sources: Amazon is nearing a $7.5B deal to buy AI startup Decart; talks are at an advanced stage and a deal could come together as soon as next week (Financial Times)",
-       "url": "https://www.techmeme.com/261121/p8#a261121p8",
-       "name": "Techmeme",
-       "kind": "press"
-      }
-     ],
-     "buzz": 1,
-     "published": "2026-11-21T17:55:01Z",
-     "checked": {
-      "model": "gemini:gemini-3.5-flash-lite",
-      "rounds": 2,
-      "hype_flags": []
-     },
-     "editor_reason": "Amazon is in advanced talks to acquire AI startup Decart in a deal valued near 7.5 billion dollars.",
-     "rank": 3,
-     "id": "2026-11-21-report-amazon-nears-7-5b-deal-to-buy-ai-startup-decart",
      "date": "2026-11-21"
     },
     {
@@ -14952,7 +15037,7 @@
       "hype_flags": []
      },
      "editor_reason": "OpenAI added safeguards to block attackers from extracting internal reasoning steps from its latest models.",
-     "rank": 4,
+     "rank": 6,
      "id": "2026-11-21-openai-strengthens-safeguards-against-internal-reasoning-ext",
      "date": "2026-11-21"
     },
@@ -15008,7 +15093,7 @@
       "hype_flags": []
      },
      "editor_reason": "Engineers are exploring prompt-driven workflows to generate logic and layout designs for specialized AI inference chips.",
-     "rank": 5,
+     "rank": 7,
      "id": "2026-11-21-developer-uses-coding-agents-to-program-fpga-inference-chip",
      "date": "2026-11-21"
     },
@@ -15058,7 +15143,7 @@
       "hype_flags": []
      },
      "editor_reason": "Developers are adopting formal verification techniques to systematically check and fix low-quality AI-generated code.",
-     "rank": 6,
+     "rank": 8,
      "id": "2026-11-21-ai-companies-offer-formal-verification-to-combat-low-quality",
      "date": "2026-11-21"
     },
@@ -15096,7 +15181,7 @@
       "hype_flags": []
      },
      "editor_reason": "Google changed its homepage interface to focus on conversational search history instead of a traditional search button.",
-     "rank": 7,
+     "rank": 9,
      "id": "2026-11-21-google-updates-search-homepage-with-ai-chat-history-and-no-s",
      "date": "2026-11-21"
     },
@@ -15146,7 +15231,7 @@
       "hype_flags": []
      },
      "editor_reason": "Nvidia researchers argue that full context windows are slow and expensive, proposing alternative methods for context retrieval.",
-     "rank": 8,
+     "rank": 10,
      "id": "2026-11-21-nvidia-researchers-argue-huge-ai-context-windows-are-a-dead",
      "date": "2026-11-21"
     },
@@ -15192,7 +15277,7 @@
       "hype_flags": []
      },
      "editor_reason": "Thinking Machines released Inkling 2 Mini, an open model that re-runs transformer layers to execute reasoning loops locally.",
-     "rank": 9,
+     "rank": 11,
      "id": "2026-11-21-thinking-machines-releases-open-looped-transformer-model-ink",
      "date": "2026-11-21"
     },
@@ -15231,7 +15316,7 @@
       "hype_flags": []
      },
      "editor_reason": "A Rhodium report projects Chinese tech giants will double capital expenditures to 139 billion dollars by 2026 for AI infrastructure.",
-     "rank": 10,
+     "rank": 12,
      "id": "2026-11-21-report-china-s-tech-companies-set-to-double-capex",
      "date": "2026-11-21"
     },
@@ -15274,7 +15359,7 @@
       "hype_flags": []
      },
      "editor_reason": "ByteDance introduced Axion 1.0, an open AI agent designed to match top commercial models while skipping traditional training phases.",
-     "rank": 11,
+     "rank": 13,
      "id": "2026-11-21-bytedance-paper-argues-most-ai-training-phases-are-unnecessa",
      "date": "2026-11-21"
     },
@@ -15321,7 +15406,7 @@
       "hype_flags": []
      },
      "editor_reason": "ClawDOS brings an AI coding agent to classic DOS environments.",
-     "rank": 12,
+     "rank": 14,
      "id": "2026-11-21-clawdos-is-an-ai-coding-agent-built-for-dos",
      "date": "2026-11-21"
     },
@@ -15364,7 +15449,7 @@
       "hype_flags": []
      },
      "editor_reason": "Updated US trade rules expand chip restrictions to include consumer system-on-chip hardware.",
-     "rank": 13,
+     "rank": 15,
      "id": "2026-11-21-insiders-report-new-us-export-rules-affect-consumer-electron",
      "date": "2026-11-21"
     },
@@ -15403,54 +15488,8 @@
       "hype_flags": []
      },
      "editor_reason": "OpenAI published new prompt guidance for GPT-6.2 Astra and Sol to fix brief answers and unnecessary follow-up questions.",
-     "rank": 14,
+     "rank": 16,
      "id": "2026-11-21-openai-shares-prompting-tips-for-gpt-6-2-astra-and-sol",
-     "date": "2026-11-21"
-    },
-    {
-     "title": "Anthropic Mathematician Claims Claude-Driven Proof of Riemann Hypothesis",
-     "one_liner": "Anthropic mathematician Levent Alpöge claimed a Claude-driven proof of the Riemann Hypothesis, released as Lean code, while Alessandro Masullo released a human draft.",
-     "summary": "Anthropic mathematician Levent Alpöge claimed an independent proof of the Riemann Hypothesis using Claude. The proof was released as 1.3GB of Lean code, equivalent to about 250,000 pages, rather than a full paper. Elliot Glazer confirmed the formalized statement is the Generalized Riemann Hypothesis and stated the chance of a Lean bug is well under 1 percent. Hours later, Alessandro Masullo released a 940-page, one hundred percent human work-in-progress proof he worked on for twelve years. Both AI-claimed Millennium Prize results, including OpenAI's September Navier-Stokes claim, will take years to verify.",
-     "eli5": "An AI helped a mathematician write a giant computer file that might solve a famous math puzzle, while a human wrote their own separate answer on paper.",
-     "why_it_matters": "Collaborating with AI on complex tasks forces a shift toward managing systems that operate far beyond human oversight limits.",
-     "topic": "research",
-     "type": "event",
-     "labs": [
-      "anthropic",
-      "openai",
-      "academia"
-     ],
-     "people": [],
-     "concepts": [
-      "alignment"
-     ],
-     "spotlight": false,
-     "spotlight_reason": "",
-     "new_terms": [],
-     "sources": [
-      {
-       "title": "[AINews] Riemann Hypothesis proved...twice independently",
-       "url": "https://latent.space/p/ainews-riemann-hypothesis-proved-twice-independently/",
-       "name": "Latent Space (AINews)",
-       "kind": "press"
-      },
-      {
-       "title": "Hours after Anthropic claims a Claude proof of the Riemann hypothesis, Stanford releases an all-human competing draft",
-       "url": "https://the-decoder.com/hours-after-anthropic-claims-a-claude-proof-of-the-riemann-hypothesis-stanford-releases-an-all-human-competing-draft/",
-       "name": "The Decoder",
-       "kind": "press"
-      }
-     ],
-     "buzz": 2,
-     "published": "2026-11-21T05:02:13Z",
-     "checked": {
-      "model": "gemini:gemini-3.5-flash-lite",
-      "rounds": 2,
-      "hype_flags": []
-     },
-     "editor_reason": "Researchers reported AI-assisted attempts to prove the Riemann Hypothesis using Anthropic models.",
-     "rank": 15,
-     "id": "2026-11-21-anthropic-mathematician-claims-claude-driven-proof-of-rieman",
      "date": "2026-11-21"
     },
     {
@@ -15497,7 +15536,7 @@
       "hype_flags": []
      },
      "editor_reason": "Microsoft detailed five troubleshooting checks for hosted agents timing out inside custom Azure virtual networks.",
-     "rank": 16,
+     "rank": 17,
      "id": "2026-11-21-fixing-azure-ai-foundry-agent-timeouts-in-virtual-networks",
      "date": "2026-11-21"
     },
@@ -15544,47 +15583,8 @@
       "hype_flags": []
      },
      "editor_reason": "AWS Quick added multi-agent coordination features to its web application.",
-     "rank": 17,
-     "id": "2026-11-21-aws-releases-updates-to-aws-quick-workspace-for-teams",
-     "date": "2026-11-21"
-    },
-    {
-     "title": "US Tech Stocks Suffer Worst Weekly Loss Since Pandemic",
-     "one_liner": "US technology stocks suffered their worst weekly loss since the pandemic, driven by AI doubts, accounting reviews, and rising interest rates.",
-     "summary": "US technology stocks suffered their worst weekly loss since the pandemic. The Nasdaq 100 fell 5.6 percent on Friday and dropped 10.4 percent for the week, leaving the index 20 percent below its October peak in bear market territory. Doubts over multibillion-dollar AI buildouts, an Nvidia accounting review by the SEC, questionable China deals, and political headwinds drove the sell-off. Nvidia plunged 14 percent on Friday. The US semiconductor index dropped 10.7 percent, affecting Sandisk, Micron, and Broadcom. Anthropic fell 9.1 percent after its market debut.",
-     "eli5": "Tech company shares had a very bad week, dropping heavily in price because people started worrying about how much money artificial intelligence projects will actually make.",
-     "why_it_matters": "Market sell-offs and SEC scrutiny over chip and AI buildouts increase financial pressure on companies investing in infrastructure.",
-     "topic": "industry",
-     "type": "event",
-     "labs": [
-      "anthropic",
-      "nvidia"
-     ],
-     "people": [],
-     "concepts": [
-      "gpu"
-     ],
-     "spotlight": false,
-     "spotlight_reason": "",
-     "new_terms": [],
-     "sources": [
-      {
-       "title": "US technology stocks suffer their worst weekly loss since the pandemic as AI doubts pile up",
-       "url": "https://the-decoder.com/us-technology-stocks-suffer-their-worst-weekly-loss-since-the-pandemic-as-ai-doubts-pile-up/",
-       "name": "The Decoder",
-       "kind": "press"
-      }
-     ],
-     "buzz": 1,
-     "published": "2026-11-21T10:27:44Z",
-     "checked": {
-      "model": "gemini:gemini-3.5-flash-lite",
-      "rounds": 1,
-      "hype_flags": []
-     },
-     "editor_reason": "Technology shares fell as financial regulators opened inquiries into key AI hardware suppliers.",
      "rank": 18,
-     "id": "2026-11-21-us-tech-stocks-suffer-worst-weekly-loss-since-pandemic",
+     "id": "2026-11-21-aws-releases-updates-to-aws-quick-workspace-for-teams",
      "date": "2026-11-21"
     },
     {
@@ -15731,9 +15731,9 @@
      "date": "2026-11-22"
     },
     {
-     "title": "Report links Alice Huang to chip network moving Nvidia hardware to China",
-     "one_liner": "An investigation reports that Alice Huang had ties to gaming firms, Prince Group figures, and shell companies moving Nvidia chips to China.",
-     "summary": "According to a Financial Times investigation, Alice Huang had connections to gaming firms, alleged Prince Group figures, and hundreds of shell companies. This network was involved in moving Nvidia chips to China. The Chinese executive was in a romantic relationship with former Nvidia CEO Jensen Huang. The report highlights connections to the trade moving these chips into China.",
+     "title": "FT investigation links the Megaspeed executive in the Nvidia case to a network that moved Nvidia chips to China",
+     "one_liner": "An investigation reports that the Megaspeed executive had ties to gaming firms, Prince Group figures, and shell companies moving Nvidia chips to China.",
+     "summary": "According to a Financial Times investigation, the Megaspeed executive had connections to gaming firms, alleged Prince Group figures, and hundreds of shell companies. This network was involved in moving Nvidia chips to China. The Chinese executive was in a romantic relationship with former Nvidia CEO Jensen Huang. The report highlights connections to the trade moving these chips into China.",
      "eli5": "A network of many small companies was used to secretly move special computer parts to another country.",
      "why_it_matters": "Supply chains for hardware can involve complex networks of shell companies and international trade routes.",
      "topic": "industry",
