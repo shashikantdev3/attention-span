@@ -5831,8 +5831,8 @@
     },
     {
      "title": "Short seller Culper flagged Jensen Huang's ties to suspected Chinese spy in May",
-     "one_liner": "Culper Research's May 13 report questioned Jensen Huang's close ties to Megaspeed's Alice Huang, now suspected of being a Chinese spy, and Nvidia has opened an investigation.",
-     "summary": "Six months before the scandal emerged, short seller Culper Research called Jensen Huang's relationship with Alice Huang, a Megaspeed executive, \"uncomfortably close\". U.S. intelligence officials believe she was recruited by the Chinese government to collect intelligence on him and influence his view on export controls. Nvidia has opened a formal investigation after he admitted to an affair. Culper also claimed Alibaba secretly financed Megaspeed. The Financial Times reported Alibaba lent money to Megaspeed through subsidiaries. Culper stood to gain from its claims, and the chip diversion allegations are not independently verified.",
+     "one_liner": "Culper Research's May 13 report questioned Jensen Huang's close ties to a Megaspeed executive, now suspected of being a Chinese spy, and Nvidia has opened an investigation.",
+     "summary": "Six months before the scandal emerged, short seller Culper Research called Jensen Huang's relationship with a Megaspeed executive \"uncomfortably close\". U.S. intelligence officials believe she was recruited by the Chinese government to collect intelligence on him and influence his view on export controls. Nvidia has opened a formal investigation after he admitted to an affair. Culper also claimed Alibaba secretly financed Megaspeed. The Financial Times reported Alibaba lent money to Megaspeed through subsidiaries. Culper stood to gain from its claims, and the chip diversion allegations are not independently verified.",
      "eli5": "Imagine a person who sells you toys was seen being very close friends with a shopkeeper who buys lots of your toys. Someone pointed it out early, and now people are checking if that friendship was a problem.",
      "why_it_matters": "Questions over Nvidia's leadership and its chip sales in Southeast Asia could affect how export controls on advanced AI chips are watched and enforced, which shapes GPU access.",
      "topic": "industry",
@@ -5858,7 +5858,7 @@
        "kind": "press"
       },
       {
-       "title": "A report by short seller Culper Research from May is resurfacing because it had flagged Jensen Huang's relationship with Alice Huang as \"uncomfortably close\" (Sarah Perez/TechCrunch)",
+       "title": "A report by short seller Culper Research from May is resurfacing because it had flagged Jensen Huang's relationship with a Megaspeed executive as \"uncomfortably close\" (Sarah Perez/TechCrunch)",
        "url": "https://www.techmeme.com/261109/p46#a261109p46",
        "name": "Techmeme",
        "kind": "press"
@@ -9404,7 +9404,7 @@
      },
      "editor_reason": "Added by the editor after the nightly run missed it.",
      "added_by_editor": "2026-11-13",
-     "id": "2026-11-13-singapore-bars-alice-huang-says-u-s-gave-limited-help-in-nvi",
+     "id": "2026-11-13-singapore-bars-megaspeed-executive-says-u-s-gave-limited-help-in-nvi",
      "date": "2026-11-13",
      "rank": 22
     }
@@ -15826,7 +15826,7 @@
   },
   "2026-11-22": {
    "date": "2026-11-22",
-   "generated_at": "2026-11-22T01:05:49Z",
+   "generated_at": "2026-11-22T13:05:37Z",
    "stories": [
     {
      "title": "UN Fails to Agree on Rules Regulating Killer Robots",
@@ -15867,11 +15867,99 @@
      "date": "2026-11-22"
     },
     {
-     "title": "FT investigation links the Megaspeed executive in the Nvidia case to a network that moved Nvidia chips to China",
-     "one_liner": "An investigation reports that the Megaspeed executive had ties to gaming firms, Prince Group figures, and shell companies moving Nvidia chips to China.",
-     "summary": "According to a Financial Times investigation, the Megaspeed executive had connections to gaming firms, alleged Prince Group figures, and hundreds of shell companies. This network was involved in moving Nvidia chips to China. The Chinese executive was in a romantic relationship with former Nvidia CEO Jensen Huang. The report highlights connections to the trade moving these chips into China.",
+     "title": "Security Researchers Report Data Processing Incidents on Inference Providers",
+     "one_liner": "OpenRouter responded to security researcher findings regarding data processing incidents and policy violations on certain inference providers.",
+     "summary": "Security researchers reported that certain inference providers had data compromised or showed evidence that data policies were not being upheld. OpenRouter collaborated with researchers and providers to understand the findings. These findings did not show any breach or unauthorized access of OpenRouter. OpenRouter off-boarded three providers based on investigations, removed 125 endpoints from Zero Data Retention eligibility, and notified all potentially affected customers. Work is underway to adapt the testing approach for ongoing checks, conduct technical verification of network paths, and require appropriate assurances before restoring Zero Data Retention eligibility.",
+     "eli5": "Some helpers handling AI requests broke their promises about keeping data private. The company organizing the helpers checked everyone and stopped working with the bad ones.",
+     "why_it_matters": "Platform operators must actively audit underlying providers to ensure data retention policies are strictly upheld.",
+     "topic": "dev-tools",
+     "type": "event",
+     "labs": [],
+     "people": [],
+     "concepts": [
+      "inference",
+      "ai-safety"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [
+      {
+       "term": "Zero Data Retention",
+       "definition": "An eligibility status for endpoints that ensures data is not retained."
+      }
+     ],
+     "sources": [
+      {
+       "title": "Data Processing Incidents on Inference Providers",
+       "url": "https://openrouter.ai/blog/announcements/data-processing-incidents-on-inference-providers/",
+       "name": "openrouter.ai",
+       "kind": "press"
+      },
+      {
+       "title": "Discussion on Hacker News",
+       "url": "https://news.ycombinator.com/item?id=50595554",
+       "name": "Hacker News",
+       "kind": "discussion"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-22T02:14:14Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "Security findings highlight data processing incidents and supply chain vulnerabilities on cheap inference providers.",
+     "rank": 2,
+     "id": "2026-11-22-security-researchers-report-data-processing-incidents-on-inf",
+     "date": "2026-11-22"
+    },
+    {
+     "title": "Dell, HPE, Lenovo and Supermicro ask for up to 45% more on AI server deals already signed, FT reports",
+     "one_liner": "The Financial Times reports that AI server makers are raising prices months after contracts were signed, with trading firms among those hit.",
+     "summary": "The Financial Times reported on 22 November that Dell, HPE, Lenovo and Supermicro are asking buyers to pay more for AI servers months after deals were signed, with some increases as high as 45%. Trading firms including Jane Street, Optiver and Hudson River Trading are among those affected, according to reports on the FT story, and most have accepted the higher bills to get the equipment. XTX Markets has sued Dell in an Irish court over a proposed price rise. Suppliers are passing on soaring memory and component costs.",
+     "eli5": "Imagine you ordered a toy months ago, but the store now asks you to pay much more money before you can actually take it home.",
+     "why_it_matters": "A signed contract no longer fixes what AI compute costs, which hurts buyers who borrowed or planned against fixed prices.",
+     "topic": "industry",
+     "type": "event",
+     "labs": [],
+     "people": [],
+     "concepts": [],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "Dell, HPE, Lenovo and Supermicro raise AI server prices up to 45% after signing",
+       "url": "https://startupfortune.com/dell-hpe-lenovo-and-supermicro-raise-ai-server-prices-up-to-45-after-signing/",
+       "name": "Startup Fortune",
+       "kind": "press"
+      },
+      {
+       "title": "AI server suppliers raise prices for Nvidia systems as data center costs climb",
+       "url": "https://tradersunion.com/news/companies/show/4360108-ai-server-nvidia-price-hike/",
+       "name": "Traders Union",
+       "kind": "press"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-22T05:50:01Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "AI server suppliers are demanding substantially higher prices from buyers.",
+     "rank": 3,
+     "id": "2026-11-22-report-ai-server-suppliers-demand-higher-prices-after-contra",
+     "date": "2026-11-22"
+    },
+    {
+     "title": "FT says the Megaspeed executive in the Nvidia case was part of a network of gaming firms and shell companies that moved Nvidia chips to China",
+     "one_liner": "The Financial Times reports links between the Megaspeed executive, gaming tycoons, hundreds of shell companies and an alleged Prince Group figure.",
+     "summary": "The Financial Times reported on Saturday that the former Megaspeed executive at the centre of the Nvidia scandal had links to gaming tycoons, hundreds of shell companies and an alleged figure from Cambodia's sanctioned Prince Group, which together formed a network supplying Nvidia chips to China. According to the FT's sources, Megaspeed began as an offshore shell branded as a neocloud provider, with the executive as its trusted public face. The New York Times separately traced Chinese state money to firms tied to her family. These are reported allegations, and she has not been charged. Megaspeed denies illegally shipping chips to China.",
      "eli5": "A network of many small companies was used to secretly move special computer parts to another country.",
-     "why_it_matters": "Supply chains for hardware can involve complex networks of shell companies and international trade routes.",
+     "why_it_matters": "It shows how export-controlled AI chips can reach China through layers of resellers and shell companies, which is what US investigators are now examining.",
      "topic": "industry",
      "type": "event",
      "labs": [
@@ -15887,9 +15975,15 @@
      "new_terms": [],
      "sources": [
       {
-       "title": "Investigation: Alice Huang had ties to gaming firms, alleged Prince Group figures and hundreds of shell companies in a network moving Nvidia chips to China (Financial Times)",
-       "url": "https://www.techmeme.com/261121/p9#a261121p9",
-       "name": "Techmeme",
+       "title": "FT, NYT tie the Megaspeed executive's chip network to gaming tycoons and PLA suppliers",
+       "url": "https://thenextweb.com/news/alice-huang-chip-network-ft-nyt-prince-group-pla-suppliers",
+       "name": "The Next Web",
+       "kind": "press"
+      },
+      {
+       "title": "The Nvidia chip network: what the FT found",
+       "url": "https://invezz.com/news/2026/11/21/alice-huang-nvidia-chip-network-ft/",
+       "name": "Invezz",
        "kind": "press"
       }
      ],
@@ -15901,46 +15995,124 @@
       "hype_flags": []
      },
      "editor_reason": "An investigation detailed a network of shell companies involved in routing Nvidia hardware.",
-     "rank": 2,
-     "id": "2026-11-22-report-links-alice-huang-to-chip-network-moving-nvidia-hardw",
+     "rank": 4,
+     "id": "2026-11-22-ft-links-megaspeed-executive-to-network-moving-nvidia-chips",
+     "date": "2026-11-22"
+    },
+    {
+     "title": "Tesla starts rolling out FSD v15 with Reality View, a generated photorealistic view of the car's surroundings",
+     "one_liner": "Tesla began pushing FSD (Supervised) v15 to some HW4 cars on Saturday, led by a real-time generative visualization it calls Reality View.",
+     "summary": "Tesla began rolling out Full Self-Driving (Supervised) v15 to some vehicles on Saturday, 21 November. The headline feature, Tesla Reality View, replaces the old driving display with a movable, photorealistic, full-motion view of the car's surroundings, which Tesla describes as a real-time generative visualization. Tesla AI head Ashok Elluswamy said it uses less computing power than the old visualization, and Elon Musk called it \"like GTA\". The release notes claim far better handling of safety-critical cases, but Tesla has not published data behind that claim. A wide release is planned for December.",
+     "eli5": "The car draws a realistic picture of what is around it on the fly, like a video game that builds the world as you drive without needing a game engine.",
+     "why_it_matters": "Real-time AI video generation without game engines offers a new way to render complex environments.",
+     "topic": "products",
+     "type": "product",
+     "labs": [
+      "other"
+     ],
+     "people": [],
+     "concepts": [
+      "generative-model"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "'It's Like GTA': Musk Touts Video Game-Like Update to Tesla FSD",
+       "url": "https://gizmodo.com/its-like-gta-musk-touts-video-game-like-update-to-tesla-fsd-2000843584",
+       "name": "Gizmodo",
+       "kind": "press"
+      },
+      {
+       "title": "Tesla Reality View takes FSD visualizations to an entirely new level",
+       "url": "https://driveteslacanada.ca/news/tesla-reality-view/",
+       "name": "Drive Tesla Canada",
+       "kind": "press"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-22T06:40:16Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "Tesla released FSD v15 with photorealistic surroundings and real-time AI video generation.",
+     "rank": 5,
+     "id": "2026-11-22-tesla-releases-fsd-v15-with-photorealistic-surroundings-rend",
+     "date": "2026-11-22"
+    },
+    {
+     "title": "Evaluation Shows OpenAI Models Get Direct While Scoring Lower on Transparency",
+     "one_liner": "An evaluation by Artificial Analysis shows that OpenAI's new GPT-6.2 Astra and Sol models produce shorter answers and admit uncertainty less often.",
+     "summary": "An evaluation by Artificial Analysis reveals that OpenAI's GPT-6.2 Astra and Sol models generate answers 34 to 40 percent shorter than their predecessors. They get to the point faster, use fewer headings, and impose less structure. However, they also admit uncertainty less often compared to earlier versions. Furthermore, Anthropic's Claude Fable 5.2 and Opus 5.5 score higher on transparency and structure than OpenAI's latest models, with Opus 5.5 posting the highest informativeness score among all four models.",
+     "eli5": "The new AI models give shorter answers and get straight to the point faster, but they are also much less likely to admit when they are not sure about something.",
+     "why_it_matters": "Choosing between these models requires balancing faster, more direct answers against lower transparency and less frequent admissions of uncertainty.",
+     "topic": "models",
+     "type": "model",
+     "labs": [
+      "openai",
+      "anthropic"
+     ],
+     "people": [],
+     "concepts": [
+      "benchmark",
+      "llm"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "GPT-6.2 Astra and Sol get to the point faster but score lower on transparency than Claude",
+       "url": "https://the-decoder.com/gpt-6-2-astra-and-sol-get-to-the-point-faster-but-score-lower-on-transparency-than-claude/",
+       "name": "The Decoder",
+       "kind": "press"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-22T09:41:37Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "OpenAI's latest models give shorter answers but score lower on transparency than competitors.",
+     "rank": 6,
+     "id": "2026-11-22-evaluation-shows-openai-models-get-direct-while-scoring-lowe",
      "date": "2026-11-22"
     }
    ],
    "stats": {
-    "items": 6,
-    "stories": 6,
+    "items": 14,
+    "stories": 14,
     "sources_ok": 42,
     "sources_failed": [],
-    "published": 3,
+    "published": 7,
     "dropped": 1,
-    "llm_calls": 11,
+    "llm_calls": 19,
     "cache_hits": 0,
     "models": {
-     "gemini:gemini-3.5-flash": 1,
-     "gemini:gemini-3.5-flash-lite": 5,
-     "groq:qwen/qwen3.8-27b": 3,
-     "groq:openai/gpt-oss-120b": 2
+     "gemini:gemini-3.5-flash-lite": 10,
+     "groq:qwen/qwen3.8-27b": 2,
+     "groq:openai/gpt-oss-120b": 7
     },
     "fallbacks": [
      {
       "tag": "editor",
-      "used": "gemini:gemini-3.5-flash",
+      "used": "gemini:gemini-3.5-flash-lite",
       "after": [
-       "anthropic:claude-sonnet-5-5: HTTP 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"You have reached your specified API usage limits. You will regain access on 2026-12-01 at 00:00 UTC.\"},\"request_id\":\"req_011ChH4rzTNQ"
+       "anthropic:claude-sonnet-5-5: HTTP 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"You have reached your specified API usage limits. You will regain access on 2026-12-01 at 00:00 UTC.\"},\"request_id\":\"req_011ChJ1U9GDZ",
+       "gemini:gemini-3.5-flash: HTTP 503 [{\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n]",
+       "gemini:gemini-3.5-flash: HTTP 503 [{\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n]"
       ]
      },
      {
       "tag": "checker",
       "used": "groq:qwen/qwen3.8-27b",
       "after": [
-       "anthropic:claude-haiku-5-5: HTTP 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"You have reached your specified API usage limits. You will regain access on 2026-12-01 at 00:00 UTC.\"},\"request_id\":\"req_011ChH4sxMtv",
-       "groq:openai/gpt-oss-120b: HTTP 400 {\"error\":{\"message\":\"Failed to generate JSON. Please adjust your prompt. See 'failed_generation' for more details.\",\"type\":\"invalid_request_error\",\"code\":\"json_validate_failed\",\"failed_generation\":\"ma"
-      ]
-     },
-     {
-      "tag": "checker",
-      "used": "groq:qwen/qwen3.8-27b",
-      "after": [
+       "anthropic:claude-haiku-5-5: HTTP 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"You have reached your specified API usage limits. You will regain access on 2026-12-01 at 00:00 UTC.\"},\"request_id\":\"req_011ChJ1ZFVQf",
        "groq:openai/gpt-oss-120b: HTTP 400 {\"error\":{\"message\":\"Failed to validate JSON. Please adjust your prompt. See 'failed_generation' for more details.\",\"type\":\"invalid_request_error\",\"code\":\"json_validate_failed\",\"failed_generation\":\"\"}"
       ]
      },
@@ -15949,10 +16121,24 @@
       "used": "groq:qwen/qwen3.8-27b",
       "after": [
        "groq:openai/gpt-oss-120b: HTTP 400 {\"error\":{\"message\":\"Failed to validate JSON. Please adjust your prompt. See 'failed_generation' for more details.\",\"type\":\"invalid_request_error\",\"code\":\"json_validate_failed\",\"failed_generation\":\"\"}"
+      ]
+     },
+     {
+      "tag": "writer",
+      "used": "gemini:gemini-3.5-flash-lite",
+      "after": [
+       "gemini:gemini-3.5-flash-lite: HTTP 503 [{\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n]"
+      ]
+     },
+     {
+      "tag": "writer",
+      "used": "gemini:gemini-3.5-flash-lite",
+      "after": [
+       "gemini:gemini-3.5-flash-lite: HTTP 503 [{\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n]"
       ]
      }
     ],
-    "seconds": 70
+    "seconds": 193
    }
   }
  }

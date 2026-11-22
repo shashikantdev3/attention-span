@@ -1566,5 +1566,12 @@
   "first_seen": "2026-11-21",
   "story": "2026-11-21-fixing-azure-ai-foundry-agent-timeouts-in-virtual-networks",
   "source": "https://devblogs.microsoft.com/foundry/hosted-agents-private-network-setup/"
+ },
+ {
+  "term": "Zero Data Retention",
+  "definition": "An eligibility status for endpoints that ensures data is not retained.",
+  "first_seen": "2026-11-22",
+  "story": "2026-11-22-security-researchers-report-data-processing-incidents-on-inf",
+  "source": "https://openrouter.ai/blog/announcements/data-processing-incidents-on-inference-providers/"
  }
 ]
