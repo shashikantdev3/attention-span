@@ -12084,9 +12084,52 @@
      "date": "2026-11-18"
     },
     {
+     "title": "SEC opens a civil probe into whether Nvidia's disclosures misled investors, WSJ reports",
+     "one_liner": "The Securities and Exchange Commission is investigating Nvidia after Jensen Huang's resignation, examining in part whether the company's disclosures misled investors, The Wall Street Journal reported.",
+     "summary": "Citing people familiar with the matter, The Wall Street Journal reported that the SEC has opened a civil investigation into Nvidia, looking in part at whether its disclosures misled investors. Neither the SEC nor Nvidia had confirmed the inquiry. Nvidia shares had fallen more than 10% since Huang's exit. Separately, California Attorney General Rob Bonta told Bloomberg Television his office was looking into aspects of the scandal, saying red flags had been raised around the possible diversion of chips to China. Nvidia paid $5.5 million in 2022 to settle earlier SEC charges over its disclosures about cryptomining.",
+     "eli5": "The US market watchdog is checking whether Nvidia told its investors the whole truth.",
+     "why_it_matters": "Nvidia supplies most AI chips; a federal disclosure probe on top of the leadership crisis adds uncertainty for everyone whose AI plans depend on its hardware and its China sales.",
+     "topic": "industry",
+     "type": "event",
+     "labs": [
+      "nvidia"
+     ],
+     "concepts": [],
+     "sources": [
+      {
+       "title": "Embattled Nvidia faces SEC probe as California attorney general eyes action",
+       "url": "https://www.investmentnews.com/equities/embattled-nvidia-faces-sec-probe-as-california-attorney-general-eyes-action/269054",
+       "name": "InvestmentNews",
+       "kind": "press"
+      },
+      {
+       "title": "SEC Opens Inquiry into Nvidia's Disclosures Following Jensen Huang's Exit",
+       "url": "https://www.crowdfundinsider.com/?p=323680",
+       "name": "Crowdfund Insider",
+       "kind": "press"
+      }
+     ],
+     "buzz": 2,
+     "published": "2026-11-17T21:00:00Z",
+     "editor_reason": "Added by the editor after the nightly run missed it.",
+     "added_by_editor": "2026-11-22",
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "people": [],
+     "checked": {
+      "model": "editor (written by hand from the source)",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "id": "2026-11-18-sec-opens-a-civil-probe-into-whether-nvidia-s-disclosures-mi",
+     "date": "2026-11-18",
+     "rank": 2
+    },
+    {
      "title": "Google DeepMind Releases Genie 4 for Interactive World Generation",
      "one_liner": "Google DeepMind has launched Genie 4 for Google AI Ultra subscribers, featuring real-time environment editing, native audio, and a new project agent.",
-     "summary": "Google DeepMind has released Genie 4 to eligible Google AI Ultra subscribers. The new world model enables real-time environment editing, native audio that adapts as scenes unfold, and natural language prompts to change weather or add characters mid-session. Alongside Genie 4, the update introduces the Project Genie agent for building custom worlds through conversation, updates to Genie 3 supporting extended sessions up to 3 minutes and 360-degree panorama image grounding, and a community gallery for sharing and remixing creations.",
+     "summary": "Google DeepMind has released Genie 4 to eligible Google AI Ultra subscribers. The new world model enables real-time environment editing, native audio that adapts as scenes unfold, and natural language prompts to change weather or add characters mid-session. Alongside Genie 4, the update introduces the Project Genie agent for building custom worlds through conversation, updates to Genie 3 supporting extended sessions up to 3 minutes and 360-degree panorama image grounding, and a community gallery for sharing and remixing creations. A day later Google opened Genie 4 to developers through the Gemini API and Google AI Studio, generating 720p worlds at 24fps with native audio.",
      "eli5": "You can now type words to instantly change a virtual world you are playing in, just like telling a friend how to change a game while you play.",
      "why_it_matters": "Real-time world generation models now support interactive editing, native audio, and multi-minute sessions through natural language prompts.",
      "topic": "models",
@@ -12118,6 +12161,12 @@
        "url": "https://deepmind.google/blog/genie-4-is-now-available/",
        "name": "Google DeepMind Blog",
        "kind": "original"
+      },
+      {
+       "title": "Genie 4 is now available on the Gemini API",
+       "url": "https://blog.google/innovation-and-ai/technology/developers-tools/genie-4-in-gemini-api/",
+       "name": "Google",
+       "kind": "original"
       }
      ],
      "buzz": 1,
@@ -12128,7 +12177,7 @@
       "hype_flags": []
      },
      "editor_reason": "Google DeepMind made Genie 4 available to users.",
-     "rank": 2,
+     "rank": 3,
      "id": "2026-11-18-google-deepmind-releases-genie-4-for-interactive-world-gener",
      "date": "2026-11-18"
     },
@@ -12183,7 +12232,7 @@
       "hype_flags": []
      },
      "editor_reason": "Cerebras Disgraded Inference introduces new hardware routing options for high-throughput model serving.",
-     "rank": 3,
+     "rank": 4,
      "id": "2026-11-18-cerebras-launches-disaggregated-inference-combining-gpus-and",
      "date": "2026-11-18"
     },
@@ -12241,9 +12290,52 @@
       "hype_flags": []
      },
      "editor_reason": "OpenAI worked with AMD to optimize GPU hardware, delivering roughly a year of chip design progress in under five months.",
-     "rank": 4,
+     "rank": 5,
      "id": "2026-11-18-openai-reports-frontier-models-improve-chip-design-with-amd",
      "date": "2026-11-18"
+    },
+    {
+     "title": "Tencent releases open weights for Hy4 flash: 224B parameters, 12B active, 1M-token context",
+     "one_liner": "Tencent published the weights for Hy4 flash, its cheapest Hy model, in standard, FP8 and base versions under its own Tencent Hy License, two days after launching it in its apps and cloud API.",
+     "summary": "Hy4 flash has 224 billion total parameters, including 64 billion Engram memory parameters, with 12 billion active per token. It accepts text and image inputs and supports a context of up to one million tokens. Tencent says it slightly outperforms the larger Hy4 Preview (770B total, 49B active) in overall effectiveness at much lower cost, while recommending the full Hy4 for complex, long-horizon software engineering. The weights come under the Tencent Hy License rather than Apache 2.0, and providers above $50 million in revenue or 100 million monthly users need a separate licence.",
+     "eli5": "A big Chinese tech company shared a fast, cheap AI model that anyone can download and run on their own servers.",
+     "why_it_matters": "Another strong open-weight model with a 1M-token context lowers the cost of self-hosting, though its licence has limits that teams should read before using it commercially.",
+     "topic": "models",
+     "type": "model",
+     "labs": [
+      "other"
+     ],
+     "concepts": [],
+     "sources": [
+      {
+       "title": "Tencent releases Hy4 flash model weights for local deployment",
+       "url": "https://technode.com/2026/11/19/tencent-releases-hy4-flash-model-weights-for-local-deployment/",
+       "name": "TechNode",
+       "kind": "press"
+      },
+      {
+       "title": "Tencent Launches Hy4 flash to Power High-Speed, Cost-Efficient AI Deployment",
+       "url": "https://www.plataformamedia.com/en/2026/11/17/tencent-launches-hy4-flash-to-power-high-speed-cost-efficient-ai-deployment-for-everyday-workflows/",
+       "name": "Tencent (press release)",
+       "kind": "original"
+      }
+     ],
+     "buzz": 2,
+     "published": "2026-11-18T08:00:00Z",
+     "editor_reason": "Added by the editor after the nightly run missed it.",
+     "added_by_editor": "2026-11-22",
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "people": [],
+     "checked": {
+      "model": "editor (written by hand from the source)",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "id": "2026-11-18-tencent-releases-open-weights-for-hy4-flash-224b-parameters",
+     "date": "2026-11-18",
+     "rank": 6
     },
     {
      "title": "Microsoft Announces Copilot SDK 2.0 with Shared Multi-Tenant Runtime",
@@ -12289,7 +12381,7 @@
       "hype_flags": []
      },
      "editor_reason": "Microsoft announced the Copilot SDK 2.0 to give developers direct programmatic access to agentic tools.",
-     "rank": 5,
+     "rank": 7,
      "id": "2026-11-18-microsoft-announces-copilot-sdk-2-0-with-shared-multi-tenant",
      "date": "2026-11-18"
     },
@@ -12326,7 +12418,7 @@
       "hype_flags": []
      },
      "editor_reason": "Model ML raised $250 million for agents that automate financial modeling and deal preparation.",
-     "rank": 6,
+     "rank": 8,
      "id": "2026-11-18-model-ml-raises-250m-to-automate-investment-banking-work",
      "date": "2026-11-18"
     },
@@ -12375,7 +12467,7 @@
       "hype_flags": []
      },
      "editor_reason": "Microsoft launched agent controls on Azure to let enterprise teams manage policy governance for AI agents.",
-     "rank": 7,
+     "rank": 9,
      "id": "2026-11-18-microsoft-introduces-agent-controls-for-enterprise-ai-govern",
      "date": "2026-11-18"
     },
@@ -12415,7 +12507,7 @@
       "hype_flags": []
      },
      "editor_reason": "OpenAI gave four independent audit organizations direct access to unreleased models, source code, and training data.",
-     "rank": 8,
+     "rank": 10,
      "id": "2026-11-18-openai-gives-four-independent-auditors-on-site-access-to-sys",
      "date": "2026-11-18"
     },
@@ -12459,7 +12551,7 @@
       "hype_flags": []
      },
      "editor_reason": "A coalition of safety advocates publicly challenged Anthropic over its safety practices and commitments.",
-     "rank": 9,
+     "rank": 11,
      "id": "2026-11-18-coalition-challenges-anthropic-safety-claims",
      "date": "2026-11-18"
     },
@@ -12501,7 +12593,7 @@
       "hype_flags": []
      },
      "editor_reason": "An audit trial demonstrated that AI agents can ask better auditing questions than human accountants.",
-     "rank": 10,
+     "rank": 12,
      "id": "2026-11-18-kpmg-reveals-ai-agents-sometimes-asked-better-questions-in-a",
      "date": "2026-11-18"
     },
@@ -12556,7 +12648,7 @@
       "hype_flags": []
      },
      "editor_reason": "Energy-based reasoners offer significantly more efficient inference, which matters for scaling model deployments.",
-     "rank": 11,
+     "rank": 13,
      "id": "2026-11-18-energy-based-reasoners-achieve-efficient-inference-in-looped",
      "date": "2026-11-18"
     },
@@ -12638,7 +12730,7 @@
       "hype_flags": []
      },
      "editor_reason": "Microsoft Fabric rolled out new database, analytics, and intelligent application capabilities at Ignite.",
-     "rank": 12,
+     "rank": 14,
      "id": "2026-11-18-microsoft-announces-new-capabilities-in-microsoft-fabric-at",
      "date": "2026-11-18"
     },
@@ -12681,7 +12773,7 @@
       "hype_flags": []
      },
      "editor_reason": "StarSling launched self-improving CI runners with AI agents that ship PRs for agent-volume repositories.",
-     "rank": 13,
+     "rank": 15,
      "id": "2026-11-18-starsling-launches-self-improving-ci-for-agent-volume-reposi",
      "date": "2026-11-18"
     },
@@ -12736,7 +12828,7 @@
       "hype_flags": []
      },
      "editor_reason": "A widely discussed essay on Hacker News argues that not every task requires an LLM.",
-     "rank": 14,
+     "rank": 16,
      "id": "2026-11-18-posthog-shares-production-use-cases-for-decision-models",
      "date": "2026-11-18"
     },
@@ -12774,7 +12866,7 @@
       "hype_flags": []
      },
      "editor_reason": "Suno launched Visuals to generate video clips for music videos using a MiniMax-based model.",
-     "rank": 15,
+     "rank": 17,
      "id": "2026-11-18-suno-launches-visuals-for-music-video-generation",
      "date": "2026-11-18"
     },
@@ -12814,7 +12906,7 @@
       "hype_flags": []
      },
      "editor_reason": "Codex CLI updated with WebRTC support for realtime voice calls directly inside the terminal user interface.",
-     "rank": 16,
+     "rank": 18,
      "id": "2026-11-18-codex-cli-0-170-0-released-with-webrtc-voice-and-bug-fixes",
      "date": "2026-11-18"
     },
@@ -12857,7 +12949,7 @@
       "hype_flags": []
      },
      "editor_reason": "Hugging Face now routes language model inference through OpenRouter to optimize for price or speed.",
-     "rank": 17,
+     "rank": 19,
      "id": "2026-11-18-hugging-face-routes-model-requests-through-openrouter",
      "date": "2026-11-18"
     },
@@ -12899,7 +12991,7 @@
       "hype_flags": []
      },
      "editor_reason": "Microsoft expanded Fabric IQ context capabilities to connect enterprise data directly into agent workflows.",
-     "rank": 18,
+     "rank": 20,
      "id": "2026-11-18-microsoft-extends-the-reach-of-fabric-iq-context-to-agents",
      "date": "2026-11-18"
     }
@@ -13129,6 +13221,50 @@
      "date": "2026-11-19"
     },
     {
+     "title": "House committee says the US approved about 879,000 Nvidia and AMD AI chips for China in six months",
+     "one_liner": "House Foreign Affairs Committee chair Brian Mast released Commerce licensing records showing approvals for about 879,000 Nvidia H200 and AMD MI325X-class chips for Chinese companies, out of 3.4 million requested.",
+     "summary": "Using powers under the Export Control Reform Act, committee chair Brian Mast published Commerce Department licensing records covering December 2025 to May 2026. They show applications for about 3.4 million chips and approvals for about 879,000, including 150,000 for Tencent, 75,000 for Alibaba, 43,000 for Baidu and 4,000 for BYD, all four of which are on the Pentagon's list of alleged Chinese military-linked companies. According to Unite.AI's reading of the records, every approved chip was still unshipped as of May 11, 2026. The release comes amid scrutiny of Nvidia's China sales after Jensen Huang's resignation.",
+     "eli5": "Congress showed how many powerful AI chips the government had said American companies could sell to Chinese firms.",
+     "why_it_matters": "The numbers put a scale on the US-China AI chip debate and will shape the export-control fight in Congress, which affects which chips Chinese labs can build models on.",
+     "topic": "policy",
+     "type": "event",
+     "labs": [
+      "nvidia",
+      "government"
+     ],
+     "concepts": [],
+     "sources": [
+      {
+       "title": "US signed off on sales of nearly 900,000 AI chips to China in six months, committee says",
+       "url": "https://www.thestandard.com.hk/world/article/349075/US-signed-off-on-sales-of-nearly-900000-AI-chips-to-China-in-six-months-committee-says",
+       "name": "The Standard (Reuters)",
+       "kind": "press"
+      },
+      {
+       "title": "Mast Releases NVIDIA and AMD AI Chip License Records for China",
+       "url": "https://www.unite.ai/?p=527451",
+       "name": "Unite.AI",
+       "kind": "press"
+      }
+     ],
+     "buzz": 2,
+     "published": "2026-11-19T15:00:00Z",
+     "editor_reason": "Added by the editor after the nightly run missed it.",
+     "added_by_editor": "2026-11-22",
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "people": [],
+     "checked": {
+      "model": "editor (written by hand from the source)",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "id": "2026-11-19-house-committee-says-the-us-approved-about-879-000-nvidia-an",
+     "date": "2026-11-19",
+     "rank": 3
+    },
+    {
      "title": "Claude solves two open problems in black hole physics",
      "one_liner": "An Anthropic researcher used Claude agents to solve two long-standing open problems in the physics of black holes.",
      "summary": "In August, an Anthropic researcher tested Claude's capabilities by asking it to list interesting open problems in theoretical physics. Claude generated 22 candidates, and separate background agents worked on them for about six weeks. The agents successfully solved two problems. First, Claude showed that a phase transition turning hot gas into a black hole is abrupt at tiny scales. Second, Claude Fable 5.2 calculated the precise ceiling for the lightest possible black hole in a simplified theoretical universe and proved it could not be lowered.",
@@ -13177,12 +13313,12 @@
       "hype_flags": []
      },
      "editor_reason": "Anthropic demonstrated Claude solving two unsolved theoretical physics problems regarding black hole dynamics.",
-     "rank": 3,
+     "rank": 4,
      "id": "2026-11-19-claude-solves-two-open-problems-in-black-hole-physics",
      "date": "2026-11-19"
     },
     {
-     "title": "Google Rebrands Gemini Spark to Tasks and Makes It Free",
+     "title": "Gemini Tasks goes free in six countries and can now call businesses, book appointments and pay for you",
      "one_liner": "Google is rolling out its new Gemini Tasks assistant for free in six countries, using the Gemini 4 Hydrogen model.",
      "summary": "Google has rebranded its Gemini Spark AI agent to Tasks and made it available free of charge for hundreds of millions of people. The update rolls out across the United States, Japan, Korea, Canada, Australia, and India using the Gemini 4 Hydrogen model. Tasks connects to user emails, calendars, and payment methods to handle daily chores. In the U.S., the assistant can call businesses on behalf of users, schedule appointments, analyze utility bills, and purchase items using Google Pay with the Agent Payments Protocol.",
      "eli5": "Gemini Tasks is like a helpful digital butler that can look at your calendar, make phone calls to schedule appointments, and buy things for you.",
@@ -13238,7 +13374,7 @@
       "hype_flags": []
      },
      "editor_reason": "Google rebranded its Gemini Spark assistant as Tasks and made its automated agent features free to use.",
-     "rank": 4,
+     "rank": 5,
      "id": "2026-11-19-google-rebrands-gemini-spark-to-tasks-and-makes-it-free",
      "date": "2026-11-19"
     },
@@ -13285,7 +13421,7 @@
       "hype_flags": []
      },
      "editor_reason": "Amazon SageMaker HyperPod introduced automated workload recovery to detect GPU faults during large model training.",
-     "rank": 5,
+     "rank": 6,
      "id": "2026-11-19-amazon-introduces-workload-recovery-and-infrastructure-check",
      "date": "2026-11-19"
     },
@@ -13323,7 +13459,7 @@
       "hype_flags": []
      },
      "editor_reason": "Microsoft CEO Satya Nadella predicted that autonomous AI agents will alter the web's ad-driven business models.",
-     "rank": 6,
+     "rank": 7,
      "id": "2026-11-19-microsoft-ceo-satya-nadella-predicts-ai-agents-will-reshuffl",
      "date": "2026-11-19"
     },
@@ -13361,7 +13497,7 @@
       "hype_flags": []
      },
      "editor_reason": "Snap released the Easy Lens CLI to help developers build AR Lenses using external AI coding assistants.",
-     "rank": 7,
+     "rank": 8,
      "id": "2026-11-19-snap-launches-easy-lens-cli-for-external-ai-coding-tools",
      "date": "2026-11-19"
     },
@@ -13410,7 +13546,7 @@
       "hype_flags": []
      },
      "editor_reason": "High school students filed a lawsuit after an AI tool misidentified a snack bag as a weapon.",
-     "rank": 8,
+     "rank": 9,
      "id": "2026-11-19-lawsuit-alleges-ai-weapon-detection-mistook-bag-of-chips-for",
      "date": "2026-11-19"
     },
@@ -13455,7 +13591,7 @@
       "hype_flags": []
      },
      "editor_reason": "Google added tool retrieval to the Gemini API, allowing agents to access large tool sets while consuming fewer context tokens.",
-     "rank": 9,
+     "rank": 10,
      "id": "2026-11-19-google-introduces-tool-retrieval-in-the-gemini-api",
      "date": "2026-11-19"
     },
@@ -13497,7 +13633,7 @@
       "hype_flags": []
      },
      "editor_reason": "Google updated Gemini with direct macOS integration, enabling the agent to execute desktop file management and multi-step workflows.",
-     "rank": 10,
+     "rank": 11,
      "id": "2026-11-19-google-brings-computer-use-to-gemini-desktop-app-on-macos",
      "date": "2026-11-19"
     },
@@ -13547,7 +13683,7 @@
       "hype_flags": []
      },
      "editor_reason": "Researchers introduced a previous-token prediction approach for LLM inversion and prompt reconstruction.",
-     "rank": 11,
+     "rank": 12,
      "id": "2026-11-19-new-paper-details-previous-token-prediction-based-llm-invers",
      "date": "2026-11-19"
     },
@@ -13588,7 +13724,7 @@
       "hype_flags": []
      },
      "editor_reason": "Document digitization costs have dropped significantly as open OCR models become cheaper to run at scale.",
-     "rank": 12,
+     "rank": 13,
      "id": "2026-11-19-ocr-model-costs-drop-fivefold-in-18-months",
      "date": "2026-11-19"
     },
@@ -13626,7 +13762,7 @@
       "hype_flags": []
      },
      "editor_reason": "Enterprise agent startup Sierra is in talks to raise $1.5 billion at a $30 billion valuation.",
-     "rank": 13,
+     "rank": 14,
      "id": "2026-11-19-sources-report-sierra-is-in-talks-to-raise-funding",
      "date": "2026-11-19"
     },
@@ -13669,7 +13805,7 @@
       "hype_flags": []
      },
      "editor_reason": "Canva now lets free and paid users disable its built-in generative AI features with a simple toggle.",
-     "rank": 14,
+     "rank": 15,
      "id": "2026-11-19-canva-adds-a-toggle-to-turn-off-generative-ai-features",
      "date": "2026-11-19"
     },
@@ -13705,7 +13841,7 @@
       "hype_flags": []
      },
      "editor_reason": "Anduril co-founder Palmer Luckey warned that AI-powered cyberattacks are moving faster than traditional defenses.",
-     "rank": 15,
+     "rank": 16,
      "id": "2026-11-19-palmer-luckey-warns-ai-cyberattacks-are-outpacing-defenses",
      "date": "2026-11-19"
     },
@@ -13750,7 +13886,7 @@
       "hype_flags": []
      },
      "editor_reason": "A widely discussed technical analysis outlined recurring flaws and bypass techniques in standard LLM safety guardrails.",
-     "rank": 16,
+     "rank": 17,
      "id": "2026-11-19-developer-reports-frustration-with-ai-safeguards-blocking-se",
      "date": "2026-11-19"
     },
@@ -13796,7 +13932,7 @@
       "hype_flags": []
      },
      "editor_reason": "Included automatically: widely discussed (signal 64 (HN 106 pts, 53 comments; industry shift)).",
-     "rank": 17,
+     "rank": 18,
      "id": "2026-11-19-report-details-ai-data-annotation-and-gig-work-conditions",
      "date": "2026-11-19"
     },
@@ -13834,7 +13970,7 @@
       "hype_flags": []
      },
      "editor_reason": "Microsoft CEO Satya Nadella explained his decision to offer buyouts to a large portion of employees.",
-     "rank": 18,
+     "rank": 19,
      "id": "2026-11-19-microsoft-ceo-explains-why-he-offered-buyouts-to-employees",
      "date": "2026-11-19"
     },
@@ -13882,7 +14018,7 @@
       "hype_flags": []
      },
      "editor_reason": "Pete Warden shared practical constraints and design patterns for building local voice interfaces and open models on edge hardware.",
-     "rank": 19,
+     "rank": 20,
      "id": "2026-11-19-pete-warden-discusses-local-ai-open-models-and-hardware",
      "date": "2026-11-19"
     }
