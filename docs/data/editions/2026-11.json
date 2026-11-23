@@ -15826,7 +15826,7 @@
   },
   "2026-11-22": {
    "date": "2026-11-22",
-   "generated_at": "2026-11-22T13:05:37Z",
+   "generated_at": "2026-11-23T01:03:29Z",
    "stories": [
     {
      "title": "UN Fails to Agree on Rules Regulating Killer Robots",
@@ -15864,6 +15864,58 @@
      "editor_reason": "UN diplomats failed to reach an agreement on binding regulations for autonomous weapons during talks in Geneva.",
      "rank": 1,
      "id": "2026-11-22-un-fails-to-agree-on-rules-regulating-killer-robots",
+     "date": "2026-11-22"
+    },
+    {
+     "title": "OpenAI's chief scientist proposes perplexity as a shared yardstick for a possible speed limit on AI progress, and publishes OpenAI's own numbers",
+     "one_liner": "Jakub Pachocki argues labs should report pretraining perplexity so model progress can be compared and shared safety limits can be set.",
+     "summary": "Jakub Pachocki, Chief Scientist at OpenAI, argues for establishing perplexity and cross-entropy loss as a metric to compare model developers and inform shared safety standards. OpenAI is providing transparency into its pretraining progress by sharing internal perplexity measurements. Pachocki explains that AI development relies on training a compressor on large datasets. Tracking perplexity helps measure progress on the intelligence substrate. The company outlines how models from GPT-2 to losses below 0.8 achieved new emergent capabilities. Further transformative capabilities are expected as models enter the ~0.68 to 0.7 log-perplexity window.",
+     "eli5": "Training an AI model is like teaching a child to guess the next word in a sentence, and perplexity is the score of how good the AI is at guessing.",
+     "why_it_matters": "Tracking pretraining perplexity helps teams measure progress on general intelligence and anticipate emergent capabilities as loss thresholds drop.",
+     "topic": "models",
+     "type": "event",
+     "labs": [
+      "openai"
+     ],
+     "people": [],
+     "concepts": [
+      "pretraining",
+      "loss-function",
+      "dataset"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "Perplexity and Intelligence",
+       "url": "https://openai.com/index/perplexity-and-intelligence/",
+       "name": "openai.com",
+       "kind": "original"
+      },
+      {
+       "title": "OpenAI's chief scientist has thoughts on how to limit AI development",
+       "url": "https://techcrunch.com/2026/11/22/openais-chief-scientist-has-thoughts-on-how-to-limit-ai-development/",
+       "name": "TechCrunch",
+       "kind": "press"
+      },
+      {
+       "title": "Discussion on Hacker News",
+       "url": "https://news.ycombinator.com/item?id=50601525",
+       "name": "Hacker News",
+       "kind": "discussion"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-22T17:06:27Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "Perplexity published a perspective on intelligence that generated widespread discussion across the developer community.",
+     "rank": 2,
+     "id": "2026-11-22-openai-publishes-internal-pretraining-perplexity-measurement",
      "date": "2026-11-22"
     },
     {
@@ -15910,7 +15962,7 @@
       "hype_flags": []
      },
      "editor_reason": "Security findings highlight data processing incidents and supply chain vulnerabilities on cheap inference providers.",
-     "rank": 2,
+     "rank": 3,
      "id": "2026-11-22-security-researchers-report-data-processing-incidents-on-inf",
      "date": "2026-11-22"
     },
@@ -15950,7 +16002,7 @@
       "hype_flags": []
      },
      "editor_reason": "AI server suppliers are demanding substantially higher prices from buyers.",
-     "rank": 3,
+     "rank": 4,
      "id": "2026-11-22-report-ai-server-suppliers-demand-higher-prices-after-contra",
      "date": "2026-11-22"
     },
@@ -15995,7 +16047,7 @@
       "hype_flags": []
      },
      "editor_reason": "An investigation detailed a network of shell companies involved in routing Nvidia hardware.",
-     "rank": 4,
+     "rank": 5,
      "id": "2026-11-22-ft-links-megaspeed-executive-to-network-moving-nvidia-chips",
      "date": "2026-11-22"
     },
@@ -16039,8 +16091,48 @@
       "hype_flags": []
      },
      "editor_reason": "Tesla released FSD v15 with photorealistic surroundings and real-time AI video generation.",
-     "rank": 5,
+     "rank": 6,
      "id": "2026-11-22-tesla-releases-fsd-v15-with-photorealistic-surroundings-rend",
+     "date": "2026-11-22"
+    },
+    {
+     "title": "Report Finds AI Coding Agents Fail in Simulated Workplaces",
+     "one_liner": "A new experiment shows that top AI coding agents complete fewer than one in ten tasks in a simulated workplace.",
+     "summary": "AI coding agents score high on standard benchmarks and isolated tests. However, a new experiment tests them as digital employees inside a simulated software company. The simulation includes colleagues, project boards, and chat histories with incomplete handoffs. Models such as Opus 5.5 and Astra complete fewer than one in ten tasks in this messy daily workflow. While the models finish clear and standalone assignments quickly, they lose track when acting as autonomous developers in a realistic environment.",
+     "eli5": "AI models are great at passing short quizzes alone, but they struggle when you put them in a real office with messy projects and coworkers.",
+     "why_it_matters": "Standard benchmarks do not accurately reflect how well coding agents perform in real workplace environments.",
+     "topic": "research",
+     "type": "event",
+     "labs": [
+      "anthropic",
+      "openai"
+     ],
+     "people": [],
+     "concepts": [
+      "agent",
+      "benchmark"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "AI coding agents ace isolated tests but complete fewer than one in ten tasks in a simulated workplace",
+       "url": "https://the-decoder.com/ai-coding-agents-ace-isolated-tests-but-complete-fewer-than-one-in-ten-tasks-in-a-simulated-workplace/",
+       "name": "The Decoder",
+       "kind": "press"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-22T15:15:48Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "A new benchmark found AI coding agents complete less than 10% of tasks when placed in simulated developer workplace environments.",
+     "rank": 7,
+     "id": "2026-11-22-report-finds-ai-coding-agents-fail-in-simulated-workplaces",
      "date": "2026-11-22"
     },
     {
@@ -16079,40 +16171,139 @@
       "hype_flags": []
      },
      "editor_reason": "OpenAI's latest models give shorter answers but score lower on transparency than competitors.",
-     "rank": 6,
+     "rank": 8,
      "id": "2026-11-22-evaluation-shows-openai-models-get-direct-while-scoring-lowe",
+     "date": "2026-11-22"
+    },
+    {
+     "title": "Perplexity Launches Monitor API to Watch Web on a Schedule",
+     "one_liner": "Perplexity launched a new Monitor API that searches the web on a schedule and sends relevant changes to AI agents.",
+     "summary": "Perplexity launched a new Monitor API that runs searches on a schedule and sends relevant changes directly to AI agents via webhook. The service includes web monitors for regular search topics and page monitors for tracking specific pages. A built-in decision model filters out unimportant results based on relevance, source credibility, novelty, and timeliness. The API costs $1 per 1,000 requests and aims to free engineering teams from maintaining custom code for recurring searches.",
+     "eli5": "It is like having a little robot that checks your favorite websites every few minutes and only taps you on the shoulder when something actually changes.",
+     "why_it_matters": "Automated web tracking for AI applications no longer requires custom code for duplicate removal and change detection.",
+     "topic": "agents",
+     "type": "product",
+     "labs": [
+      "nvidia"
+     ],
+     "people": [],
+     "concepts": [
+      "agent",
+      "decision-model",
+      "tool-use"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [
+      {
+       "term": "web monitor",
+       "definition": "Web monitors run a search query through Perplexity's web and news search on a regular schedule to catch developments like new funding rounds at AI infrastructure companies."
+      },
+      {
+       "term": "page monitor",
+       "definition": "Page monitors track up to 10 pages, such as pricing pages, changelogs, or policies, by storing a baseline version and returning a text diff of any changes."
+      }
+     ],
+     "sources": [
+      {
+       "title": "Perplexity's new Monitor API turns web search from a one-off query into a nonstop watchdog",
+       "url": "https://the-decoder.com/perplexitys-new-monitor-api-turns-web-search-from-a-one-off-query-into-a-nonstop-watchdog/",
+       "name": "The Decoder",
+       "kind": "press"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-22T14:20:28Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "Perplexity launched a Monitor API that runs scheduled web searches and sends webhook alerts directly to AI agents.",
+     "rank": 9,
+     "id": "2026-11-22-perplexity-launches-monitor-api-to-watch-web-on-a-schedule",
+     "date": "2026-11-22"
+    },
+    {
+     "title": "Developer Builds Browser Game Where Player Acts as LLM Subagent",
+     "one_liner": "Worker 755 is a browser game where an AI manager assigns tasks to the human player, who acts as its subagent.",
+     "summary": "Worker 755 is a browser game where a real LLM acts as a manager and treats the human player as its subagent. The manager features a task queue, read-only machine access, and a tool to spawn a subagent. Instructions land in the player terminal with a 90-second clock. The player carries them out, and the manager checks work, sends corrections, files incident reports, and writes a performance review. The game requires Node 24 or newer and supports open-source or commercial models via API keys or local servers.",
+     "eli5": "You play a game where an artificial intelligence bosses you around in a terminal window, and you have to do what it says before a timer runs out.",
+     "why_it_matters": "Understanding how orchestrator agents behave toward subagents becomes easier when experiencing the interaction from the receiving end of a task queue.",
+     "topic": "agents",
+     "type": "product",
+     "labs": [
+      "anthropic",
+      "openai",
+      "google",
+      "deepseek",
+      "qwen",
+      "mistral"
+     ],
+     "people": [],
+     "concepts": [
+      "agent",
+      "tool-use",
+      "agent-sandbox"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "Show HN: I built a game where you are an LLM's subagent",
+       "url": "https://github.com/gulivan/worker755",
+       "name": "github.com",
+       "kind": "original"
+      },
+      {
+       "title": "Discussion on Hacker News",
+       "url": "https://news.ycombinator.com/item?id=50599762",
+       "name": "Hacker News",
+       "kind": "discussion"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-22T13:56:58Z",
+     "checked": {
+      "model": "gemini:gemini-3.5-flash-lite",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "A game exploring LLM subagent orchestration gained strong community traction on Hacker News.",
+     "rank": 10,
+     "id": "2026-11-22-developer-builds-browser-game-where-player-acts-as-llm-subag",
      "date": "2026-11-22"
     }
    ],
    "stats": {
-    "items": 14,
-    "stories": 14,
+    "items": 12,
+    "stories": 12,
     "sources_ok": 42,
     "sources_failed": [],
-    "published": 7,
+    "published": 5,
     "dropped": 1,
-    "llm_calls": 19,
+    "llm_calls": 15,
     "cache_hits": 0,
     "models": {
-     "gemini:gemini-3.5-flash-lite": 10,
-     "groq:qwen/qwen3.8-27b": 2,
-     "groq:openai/gpt-oss-120b": 7
+     "gemini:gemini-3.5-flash": 1,
+     "gemini:gemini-3.5-flash-lite": 7,
+     "groq:qwen/qwen3.8-27b": 3,
+     "groq:openai/gpt-oss-120b": 4
     },
     "fallbacks": [
      {
       "tag": "editor",
-      "used": "gemini:gemini-3.5-flash-lite",
+      "used": "gemini:gemini-3.5-flash",
       "after": [
-       "anthropic:claude-sonnet-5-5: HTTP 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"You have reached your specified API usage limits. You will regain access on 2026-12-01 at 00:00 UTC.\"},\"request_id\":\"req_011ChJ1U9GDZ",
-       "gemini:gemini-3.5-flash: HTTP 503 [{\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n]",
-       "gemini:gemini-3.5-flash: HTTP 503 [{\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n]"
+       "anthropic:claude-sonnet-5-5: HTTP 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"You have reached your specified API usage limits. You will regain access on 2026-12-01 at 00:00 UTC.\"},\"request_id\":\"req_011ChJxN5cSJ"
       ]
      },
      {
       "tag": "checker",
       "used": "groq:qwen/qwen3.8-27b",
       "after": [
-       "anthropic:claude-haiku-5-5: HTTP 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"You have reached your specified API usage limits. You will regain access on 2026-12-01 at 00:00 UTC.\"},\"request_id\":\"req_011ChJ1ZFVQf",
+       "anthropic:claude-haiku-5-5: HTTP 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"You have reached your specified API usage limits. You will regain access on 2026-12-01 at 00:00 UTC.\"},\"request_id\":\"req_011ChJxP1XeW",
        "groq:openai/gpt-oss-120b: HTTP 400 {\"error\":{\"message\":\"Failed to validate JSON. Please adjust your prompt. See 'failed_generation' for more details.\",\"type\":\"invalid_request_error\",\"code\":\"json_validate_failed\",\"failed_generation\":\"\"}"
       ]
      },
@@ -16124,21 +16315,14 @@
       ]
      },
      {
-      "tag": "writer",
-      "used": "gemini:gemini-3.5-flash-lite",
+      "tag": "checker",
+      "used": "groq:qwen/qwen3.8-27b",
       "after": [
-       "gemini:gemini-3.5-flash-lite: HTTP 503 [{\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n]"
-      ]
-     },
-     {
-      "tag": "writer",
-      "used": "gemini:gemini-3.5-flash-lite",
-      "after": [
-       "gemini:gemini-3.5-flash-lite: HTTP 503 [{\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n]"
+       "groq:openai/gpt-oss-120b: HTTP 400 {\"error\":{\"message\":\"Failed to validate JSON. Please adjust your prompt. See 'failed_generation' for more details.\",\"type\":\"invalid_request_error\",\"code\":\"json_validate_failed\",\"failed_generation\":\"\"}"
       ]
      }
     ],
-    "seconds": 193
+    "seconds": 89
    }
   }
  }

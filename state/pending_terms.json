@@ -1568,10 +1568,24 @@
   "source": "https://devblogs.microsoft.com/foundry/hosted-agents-private-network-setup/"
  },
  {
-  "term": "Zero Data Retention",
-  "definition": "An eligibility status for endpoints that ensures data is not retained.",
+  "term": "web monitor",
+  "definition": "Web monitors run a search query through Perplexity's web and news search on a regular schedule to catch developments like new funding rounds at AI infrastructure companies.",
   "first_seen": "2026-11-22",
-  "story": "2026-11-22-security-researchers-report-data-processing-incidents-on-inf",
-  "source": "https://openrouter.ai/blog/announcements/data-processing-incidents-on-inference-providers/"
+  "story": "2026-11-22-perplexity-launches-monitor-api-to-watch-web-on-a-schedule",
+  "source": "https://the-decoder.com/perplexitys-new-monitor-api-turns-web-search-from-a-one-off-query-into-a-nonstop-watchdog/"
+ },
+ {
+  "term": "page monitor",
+  "definition": "Page monitors track up to 10 pages, such as pricing pages, changelogs, or policies, by storing a baseline version and returning a text diff of any changes.",
+  "first_seen": "2026-11-22",
+  "story": "2026-11-22-perplexity-launches-monitor-api-to-watch-web-on-a-schedule",
+  "source": "https://the-decoder.com/perplexitys-new-monitor-api-turns-web-search-from-a-one-off-query-into-a-nonstop-watchdog/"
+ },
+ {
+  "term": "perplexity",
+  "definition": "Perplexity measures how well a model predicts the next token on average, where lower perplexity means better predictions.",
+  "first_seen": "2026-11-23",
+  "story": "2026-11-23-openai-chief-scientist-proposes-perplexity-as-speed-limit-me",
+  "source": "https://techcrunch.com/2026/11/22/openais-chief-scientist-has-thoughts-on-how-to-limit-ai-development/"
  }
 ]
