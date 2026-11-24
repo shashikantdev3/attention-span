@@ -16324,6 +16324,437 @@
     ],
     "seconds": 89
    }
+  },
+  "2026-11-23": {
+   "date": "2026-11-23",
+   "generated_at": "2026-11-24T20:37:19Z",
+   "stories": [
+    {
+     "title": "Nvidia's board reverses course and reinstates Jensen Huang as CEO, ten days after his resignation",
+     "one_liner": "Nvidia's board voted unanimously to bring Jensen Huang back as president and CEO, saying senior US officials gave input and it sees no national security risk.",
+     "summary": "Nvidia said its board voted unanimously on Monday to reinstate Jensen Huang as president, CEO and board director, effective immediately. The board said it was satisfied with his candor and ability to lead, and that after input from senior levels of the US government it is confident his return poses no national security risk. Huang resigned on November 13 after reports of extramarital affairs, including one with a woman whom, according to those reports, US officials suspect of spying for China, and only days earlier the board chair had said there was no plan to bring him back, TechCrunch and CNBC report. A committee of independent directors with outside counsel will keep investigating, Nvidia says it has formed a National Security and Export Control Committee and is starting a search for a new Chief Compliance Officer, and Colette Kress, who served as interim CEO, stays on as CFO. Semafor reported, per TechCrunch, that President Trump dialed into a board meeting to push for Huang's return, and Trump said the government has no evidence of unlawful conduct. CNBC reports Nvidia shares closed up 31%, and TechCrunch says Huang is scheduled to testify before the Senate Banking Committee on December 3 on export controls.",
+     "eli5": "The company that makes the most important AI chips fired its famous boss over a scandal, then changed its mind and asked him to come back.",
+     "why_it_matters": "Nvidia's leadership and its standing with Washington shape GPU supply, export-control policy and pricing for almost everyone building AI.",
+     "topic": "industry",
+     "type": "event",
+     "labs": [
+      "nvidia",
+      "government"
+     ],
+     "people": [],
+     "concepts": [
+      "gpu"
+     ],
+     "spotlight": true,
+     "spotlight_reason": "The world's most important AI chip company reinstated its founder CEO amid a national security investigation, with the White House involved and Congress hearings set.",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "NVIDIA Board Reinstates Jensen Huang as President, CEO and Board Director",
+       "url": "https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director",
+       "name": "nvidianews.nvidia.com",
+       "kind": "original"
+      },
+      {
+       "title": "Jensen Huang reinstated as Nvidia CEO. Stock skyrockets 31%",
+       "url": "https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-ceo.html",
+       "name": "CNBC",
+       "kind": "press"
+      },
+      {
+       "title": "Nvidia reverses course and brings Jensen Huang back as CEO",
+       "url": "https://techcrunch.com/2026/11/23/nvidia-reverses-course-and-brings-jensen-huang-back-as-ceo/",
+       "name": "TechCrunch",
+       "kind": "press"
+      },
+      {
+       "title": "Trump reportedly called into Nvidia board meeting to advocate for Huang's return",
+       "url": "https://techcrunch.com/2026/11/23/trump-reportedly-called-into-nvidia-board-meeting-to-advocate-for-huangs-return/",
+       "name": "TechCrunch",
+       "kind": "press"
+      },
+      {
+       "title": "Jensen Huang scheduled to testify next week in Senate following reinstatement as Nvidia CEO",
+       "url": "https://techcrunch.com/2026/11/23/jensen-huang-scheduled-to-testify-next-week-in-senate-following-reinstatement-as-nvidia-ceo/",
+       "name": "TechCrunch",
+       "kind": "press"
+      },
+      {
+       "title": "Nvidia Reinstates Jensen Huang as CEO",
+       "url": "https://news.ycombinator.com/item?id=50611576",
+       "name": "Hacker News",
+       "kind": "discussion"
+      }
+     ],
+     "buzz": 3,
+     "published": "2026-11-23T13:59:00Z",
+     "checked": {
+      "model": "editor (written by hand from the sources)",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "Added by the editor from web research.",
+     "added_by_editor": "2026-11-24",
+     "rank": 1,
+     "id": "2026-11-23-nvidia-s-board-reverses-course-and-reinstates-jensen-huang-a",
+     "date": "2026-11-23"
+    },
+    {
+     "title": "CrowdStrike agrees to buy Zscaler in a $43.9 billion all-stock deal pitched around securing AI agents",
+     "one_liner": "CrowdStrike will acquire Zscaler for about $43.9 billion in stock, combining endpoint and zero-trust network security under the banner of making AI safe to deploy.",
+     "summary": "CrowdStrike and Zscaler announced a definitive agreement under which CrowdStrike will buy Zscaler in an all-stock deal valued at about $43.9 billion. Each Zscaler share converts into 1.135 CrowdStrike shares, about $260.41 per share and a roughly 34% premium to Zscaler's November 20 close, according to the companies. CrowdStrike CEO George Kurtz framed the deal around AI, saying security is now required to let AI in, and describing a single control plane to deploy and control AI and run agentic applications safely. Zscaler CEO Jay Chaudhry said AI agents are becoming the new weakest link, and the companies say combined device and network telemetry will train CrowdStrike's own security models. Chaudhry will keep leading the Zscaler business and join CrowdStrike's board. The deal needs Zscaler shareholder and regulatory approval and is expected to close in the second half of CrowdStrike's fiscal 2028, which TechCrunch puts at around November 2027.",
+     "eli5": "Two big computer-security companies are joining together, saying they want to keep AI helpers from being tricked or misused.",
+     "why_it_matters": "Agent security is becoming a platform battle, and enterprises deploying agents may soon buy network, endpoint and AI controls from one vendor.",
+     "topic": "industry",
+     "type": "event",
+     "labs": [
+      "other"
+     ],
+     "people": [],
+     "concepts": [
+      "agent",
+      "ai-safety"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "CrowdStrike to Acquire Zscaler, Bringing Network Security and Zero Trust to the Falcon Platform",
+       "url": "https://www.crowdstrike.com/en-us/press-releases/crowdstrike-to-acquire-zscaler-bringing-network-security-and-zero-trust-to-the-falcon-platform/",
+       "name": "crowdstrike.com",
+       "kind": "original"
+      },
+      {
+       "title": "CrowdStrike to acquire Zscaler for $44 billion",
+       "url": "https://techcrunch.com/2026/11/23/crowdstrike-to-acquire-zscaler-for-44-billion/",
+       "name": "TechCrunch",
+       "kind": "press"
+      }
+     ],
+     "buzz": 2,
+     "published": "2026-11-23T16:20:11Z",
+     "checked": {
+      "model": "editor (written by hand from the sources)",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "Added by the editor from web research.",
+     "added_by_editor": "2026-11-24",
+     "rank": 2,
+     "id": "2026-11-23-crowdstrike-agrees-to-buy-zscaler-in-a-43-9-billion-all-stoc",
+     "date": "2026-11-23"
+    },
+    {
+     "title": "Amazon confirms it is buying Decart's AI optimization technology and team; Bloomberg puts the price at about $7.5 billion",
+     "one_liner": "Amazon announced it will buy the technology behind the Decart Optimization Stack and hire Decart's founders, confirming last week's reports of a deal.",
+     "summary": "Amazon said it will purchase the technology behind the Decart Optimization Stack (DOS) and bring on Decart's three co-founders and their team of AI researchers and engineers. Amazon did not disclose a price, but TechCrunch and The Register cite Bloomberg as reporting the deal is worth about $7.5 billion. The Register says DOS sits between models and chips, tuning kernels, compilers and runtimes so hardware stays busy, and works on Nvidia GPUs, Google TPUs and AWS Trainium. Amazon says the technology will help optimize inference and its custom silicon so customers can train and run models faster and more cheaply. The Register reports this is an asset purchase rather than a full acquisition, and that Decart's Oasis world model and Lucy video model are not included. TechCrunch notes Amazon is preparing to sell Trainium chips to outside customers as an alternative to Nvidia. The deal still needs regulatory clearance; what is new since the FT and Calcalist reports last week is Amazon's own announcement.",
+     "eli5": "Amazon is paying a lot to buy a clever tool that makes AI computer chips work faster, plus the people who built it.",
+     "why_it_matters": "Better compiler and runtime software is how Trainium could become a practical alternative to Nvidia GPUs for training and inference.",
+     "topic": "industry",
+     "type": "event",
+     "labs": [
+      "other"
+     ],
+     "people": [],
+     "concepts": [
+      "inference",
+      "gpu",
+      "hyperscaler"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "Amazon to purchase Decart's AI optimization technology to advance chip and model innovation for customers",
+       "url": "https://www.aboutamazon.com/news/company-news/amazon-decart-ai-optimization",
+       "name": "aboutamazon.com",
+       "kind": "original"
+      },
+      {
+       "title": "Amazon snaps up Decart's AI optimization tech for $7.5B as it prepares to sell Trainium chips",
+       "url": "https://techcrunch.com/2026/11/23/amazon-snaps-up-decarts-ai-optimization-tech-for-7-5b-as-it-prepares-to-sell-trainium-chips/",
+       "name": "TechCrunch",
+       "kind": "press"
+      },
+      {
+       "title": "Amazon scoops up AI accelerator tech to keep chips busy at all times",
+       "url": "https://www.theregister.com/ai-and-ml/2026/11/23/amazon-scoops-up-ai-accelerator-tech-to-keep-chips-busy-at-all-times/5311754",
+       "name": "The Register",
+       "kind": "press"
+      }
+     ],
+     "buzz": 3,
+     "published": "2026-11-23T17:14:23Z",
+     "checked": {
+      "model": "editor (written by hand from the sources)",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "Added by the editor from web research.",
+     "added_by_editor": "2026-11-24",
+     "rank": 3,
+     "id": "2026-11-23-amazon-confirms-it-is-buying-decart-s-ai-optimization-techno",
+     "date": "2026-11-23"
+    },
+    {
+     "title": "Virginia and Oregon sue SpaceX, X and xAI over sexualized Grok images, the first state lawsuits over the chatbot",
+     "one_liner": "The two attorneys general filed coordinated consumer protection suits alleging the companies let Grok create non-consensual and child sexual images while marketing it as safe.",
+     "summary": "Virginia Attorney General Jay Jones sued SpaceX, the parent of X and of the Grok developer formerly called xAI, in Richmond Circuit Court, and Oregon Attorney General Dan Rayfield filed a separate but similar suit in Multnomah County Circuit Court, according to Virginia's announcement. The states allege the companies failed to stop Grok from generating sexualized images of real people, including children, and falsely promoted X and Grok as safe, in breach of state consumer protection laws. Virginia's release cites a research group's estimate that about 3 million sexualized images were created and posted on X over roughly 11 days around the turn of the year, about 23,000 of which appeared to depict children. CNBC reports they are the first states to sue SpaceX over Grok and that both seek injunctions, civil penalties and disgorgement of profits, with Virginia seeking up to $2,500 per willful violation, per OPB. SpaceX told CNBC it acts against accounts that try to bypass its safeguards and reports such attempts to law enforcement.",
+     "eli5": "Two US states are taking Elon Musk's companies to court, saying their chatbot made fake rude pictures of real people and kids and the companies pretended it was safe.",
+     "why_it_matters": "State consumer protection law is becoming a route to hold AI image tools liable for misuse, which raises the bar for guardrails and for how products are marketed as safe.",
+     "topic": "policy",
+     "type": "event",
+     "labs": [
+      "government",
+      "other"
+     ],
+     "people": [],
+     "concepts": [
+      "ai-regulation",
+      "generative-model",
+      "ai-safety"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "Virginia and Oregon Attorneys General sue SpaceX over sexualized images generated by Grok on X",
+       "url": "https://www.oag.state.va.us/media-center/news-releases/jay-jones/3162-attorneys-general-jones-and-rayfield-file-suit-against-spacex-parent-company-of-x-xai-and-grok-over-creation-and-promotion-of-child-exploitation-and-non-consensual-images-on-platform",
+       "name": "Office of the Attorney General of Virginia",
+       "kind": "original"
+      },
+      {
+       "title": "SpaceX sued by Oregon and Virginia over AI deepfake porn, Grok safety claims",
+       "url": "https://www.cnbc.com/2026/11/23/oregon-virginia-spacex-grok-deepfake-lawsuits.html",
+       "name": "cnbc.com",
+       "kind": "press"
+      },
+      {
+       "title": "Sexual images from Elon Musk's AI chatbot harmed consumers, Oregon and Virginia AGs argue",
+       "url": "https://www.opb.org/article/2026/11/23/sexual-images-from-elon-musk-ai-chatbot-harmed-consumers-ags-argue/",
+       "name": "opb.org",
+       "kind": "press"
+      }
+     ],
+     "buzz": 3,
+     "published": "2026-11-23T12:40:00Z",
+     "checked": {
+      "model": "editor (written by hand from the sources)",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "Added by the editor from web research.",
+     "added_by_editor": "2026-11-24",
+     "rank": 4,
+     "id": "2026-11-23-virginia-and-oregon-sue-spacex-x-and-xai-over-sexualized-gro",
+     "date": "2026-11-23"
+    },
+    {
+     "title": "Sierra raises $1.75 billion at a $30 billion valuation, doubling its value in about six months",
+     "one_liner": "Bret Taylor and Clay Bavor's customer-service agent company closed a Series F led by Greenoaks and Lightspeed.",
+     "summary": "Sierra announced a $1.75 billion Series F at a $30 billion valuation, led by Greenoaks and Lightspeed Venture Partners. Earlier backers Benchmark, Sequoia, GV and Tiger Global also took part, the company says. Sierra says it has passed $400 million in annual recurring revenue in just over two and a half years, and that it charges for outcomes rather than usage or tokens. TechCrunch reports the valuation is double the roughly $15 billion of its previous round about six months ago. The company, founded by former Salesforce co-CEO Bret Taylor and Clay Bavor, says it serves almost half of the Fortune 50. Last week's item covered reports that Sierra was in talks; this is the confirmed round.",
+     "eli5": "A company that makes AI helpers for answering customer questions just got a huge amount of money from investors.",
+     "why_it_matters": "Outcome-priced customer-service agents are one of the clearest enterprise AI businesses, and this sets the benchmark valuation for the category.",
+     "topic": "industry",
+     "type": "event",
+     "labs": [
+      "other"
+     ],
+     "people": [],
+     "concepts": [
+      "agent",
+      "chatbot"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "Building the digital front door",
+       "url": "https://sierra.ai/blog/series-f-30b",
+       "name": "sierra.ai",
+       "kind": "original"
+      },
+      {
+       "title": "Sierra doubles valuation to $30B within six months as demand for AI in CX takes off",
+       "url": "https://techcrunch.com/2026/11/23/sierra-doubles-valuation-to-30b-within-six-months-as-demand-for-ai-in-cx-takes-off/",
+       "name": "TechCrunch",
+       "kind": "press"
+      }
+     ],
+     "buzz": 2,
+     "published": "2026-11-23T14:43:03Z",
+     "checked": {
+      "model": "editor (written by hand from the sources)",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "Added by the editor from web research.",
+     "added_by_editor": "2026-11-24",
+     "rank": 5,
+     "id": "2026-11-23-sierra-raises-1-75-billion-at-a-30-billion-valuation-doublin",
+     "date": "2026-11-23"
+    },
+    {
+     "title": "Z.ai releases GLM-5.4, its first flagship model built as a looped transformer",
+     "one_liner": "GLM-5.4 reruns 28 middle layers of the GLM-5 base twice per pass, and Z.ai says it reaches the level of 2 to 3 trillion parameter models, though it published no benchmark scores.",
+     "summary": "Chinese lab Z.ai launched GLM-5.4, its first flagship built on a loop transformer design that passes 28 layers of the GLM-5 base model through twice, adding depth without adding new weights. Z.ai built it by continued training of the existing GLM-5 base rather than training from scratch, with per-token gates controlling how much each loop writes back, TestingCatalog and DataCamp report. Launch coverage puts the model at about 750 billion parameters, a figure DataCamp says Z.ai has not confirmed, and Z.ai claims intelligence comparable to 2 to 3 trillion parameter models. No benchmark scores for GLM-5.4 itself were published; the evidence offered comes from a 30B test model that improved most on math, science reasoning and long-context tasks with about 10% more training compute. The model is live in the GLM Coding Plan, ZCode and Z.ai Chat, with API access promised after a safety evaluation and open weights planned once safety hardening is done, with no date. Z.ai also acknowledges it can fall into very long thinking loops.",
+     "eli5": "Instead of making its AI bigger, a Chinese company made it think through the same part of its brain twice.",
+     "why_it_matters": "Looping layers is a way to buy more reasoning depth per parameter, and builders should test claims themselves since no benchmarks were released.",
+     "topic": "models",
+     "type": "model",
+     "labs": [
+      "other"
+     ],
+     "people": [],
+     "concepts": [
+      "transformer",
+      "reasoning-model",
+      "coding-assistant"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "Z.ai launches GLM-5.4, its first Loop Transformer model",
+       "url": "https://www.testingcatalog.com/z-ai-launches-glm-5-4-its-first-loop-transformer-model/",
+       "name": "TestingCatalog",
+       "kind": "press"
+      },
+      {
+       "title": "GLM-5.4: Z.ai's First Loop Transformer and the Push Toward Generalized Coding",
+       "url": "https://www.datacamp.com/blog/glm-5-4",
+       "name": "DataCamp",
+       "kind": "press"
+      },
+      {
+       "title": "GLM-5.4: Toward generalized coding with our first loop transformer",
+       "url": "https://news.ycombinator.com/item?id=50609685",
+       "name": "Hacker News",
+       "kind": "discussion"
+      }
+     ],
+     "buzz": 2,
+     "published": "2026-11-23T10:06:43Z",
+     "checked": {
+      "model": "editor (written by hand from the sources)",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "Added by the editor from web research.",
+     "added_by_editor": "2026-11-24",
+     "rank": 6,
+     "id": "2026-11-23-z-ai-releases-glm-5-4-its-first-flagship-model-built-as-a-lo",
+     "date": "2026-11-23"
+    },
+    {
+     "title": "Google lets Search's AI Mode read your Google Wallet, with Drive and Gemini app connections coming next",
+     "one_liner": "Google is expanding Personal Intelligence in AI Mode beyond Gmail, Calendar and Photos, starting with read-only access to Wallet.",
+     "summary": "Google says users can now start opting in to connect Google Wallet to Personal Intelligence in Search's AI Mode, with Google Drive and the Gemini app following in the coming weeks. Gmail, Calendar and Photos were already supported. Google says Wallet access is read-only, so AI Mode can help track spending or card rewards but cannot move, manage or invest money. With Drive connected, AI Mode can draw on documents, sheets and PDFs, for example to build a plan ahead of tax season. Google also plans a Personalization icon under tailored answers that shows which context was used, and says AI Overviews and AI Mode will tailor more answers to recent search activity. Connections are opt-in and can be switched off at any time.",
+     "eli5": "Google's search helper can now, if you say yes, look at your digital wallet to give answers that fit you.",
+     "why_it_matters": "Search is turning into a personal agent over users' private data, which raises the bar for consent, transparency and data-access design.",
+     "topic": "products",
+     "type": "product",
+     "labs": [
+      "google"
+     ],
+     "people": [],
+     "concepts": [
+      "personal-agent",
+      "chatbot"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "A more tailored Google Search that's uniquely yours",
+       "url": "https://blog.google/products-and-platforms/products/search/google-search-personal-intelligence-apps/",
+       "name": "blog.google",
+       "kind": "original"
+      },
+      {
+       "title": "AI Mode adding Google Drive, Wallet, & Gemini app integration",
+       "url": "https://9to5google.com/2026/11/23/ai-mode-wallet-gemini/",
+       "name": "9to5Google",
+       "kind": "press"
+      },
+      {
+       "title": "Google Search's AI Mode can now tap into Drive and Wallet for more personalized responses",
+       "url": "https://techcrunch.com/2026/11/23/google-searchs-ai-mode-can-now-tap-into-drive-and-wallet-for-more-personalized-responses/",
+       "name": "TechCrunch",
+       "kind": "press"
+      }
+     ],
+     "buzz": 3,
+     "published": "2026-11-23T17:00:00Z",
+     "checked": {
+      "model": "editor (written by hand from the sources)",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "Added by the editor from web research.",
+     "added_by_editor": "2026-11-24",
+     "rank": 7,
+     "id": "2026-11-23-google-lets-search-s-ai-mode-read-your-google-wallet-with-dr",
+     "date": "2026-11-23"
+    },
+    {
+     "title": "Gemini API adds file slicing so developers pay only for the pages, cells or clips a model reads",
+     "one_liner": "Google DeepMind's new server-side controls let the Gemini API load selected page ranges, spreadsheet cells or media segments instead of whole files.",
+     "summary": "Google introduced file slicing controls in the Gemini API that let developers ask the model to load only part of a file. For documents and slides that means page ranges, resolution and whether to use page text or page images; for spreadsheets a tab, cell range and layers such as data, formulas or visuals; for video time ranges, frame rate and transcript, frames or audio. Slicing happens on Google's side, so clients no longer need tools like LibreOffice or ffmpeg to cut files first. Developers pay only for the tokens the model inspects, and Google cites partners such as Vercel and LiteLLM reporting large token savings on PDFs and workbooks. The controls are available now in Google AI Studio and Vertex AI and work across all Gemini 4 models, Google says.",
+     "eli5": "Instead of making the AI read a whole giant book, you can now tell it to read only the pages you care about.",
+     "why_it_matters": "Server-side slicing cuts token bills and preprocessing code for document, spreadsheet and video pipelines built on Gemini.",
+     "topic": "dev-tools",
+     "type": "product",
+     "labs": [
+      "google"
+     ],
+     "people": [],
+     "concepts": [
+      "tokens",
+      "context-window",
+      "multimodal-model"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "Introducing file slicing controls in the Gemini API",
+       "url": "https://blog.google/innovation-and-ai/technology/developers-tools/file-slicing-controls/",
+       "name": "blog.google",
+       "kind": "original"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-23T16:12:00Z",
+     "checked": {
+      "model": "editor (written by hand from the sources)",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "Added by the editor from web research.",
+     "added_by_editor": "2026-11-24",
+     "rank": 8,
+     "id": "2026-11-23-gemini-api-adds-file-slicing-so-developers-pay-only-for-the",
+     "date": "2026-11-23"
+    }
+   ],
+   "stats": {
+    "items": 8,
+    "stories": 8,
+    "published": 8,
+    "dropped": 0,
+    "llm_calls": 0,
+    "models": {},
+    "fallbacks": [],
+    "editor": "written by hand from web research"
+   }
   }
  }
 }
