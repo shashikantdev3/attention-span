@@ -24,14 +24,14 @@
   {
    "date": "2026-11-21",
    "file": "2026-11.json",
-   "count": 19,
+   "count": 18,
    "spotlight": 1,
-   "lead": "Anthropic mathematician says Claude helped produce a 1.3GB Lean proof of the Generalized Riemann Hypothesis; a human proof appeared hours later"
+   "lead": "Anthropic mathematician says Claude helped produce a Lean proof of the Generalized Riemann Hypothesis; a human proof appeared hours later"
   },
   {
    "date": "2026-11-20",
    "file": "2026-11.json",
-   "count": 18,
+   "count": 20,
    "spotlight": 0,
    "lead": "Global Stock Markets Slump Following Anthropic IPO"
   },
@@ -338,5 +338,5 @@
   }
  ],
  "latest": "2026-11-24",
- "updated": "2026-11-24T20:37:47Z"
+ "updated": "2026-11-24T20:40:08Z"
 }
