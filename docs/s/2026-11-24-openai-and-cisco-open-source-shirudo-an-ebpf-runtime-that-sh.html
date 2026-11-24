@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>OpenAI and Cisco open-source Shirudo, an eBPF runtime that shields unpatched Linux systems while fixes roll out | Attention Span</title>
+<meta name="description" content="AI agents write, test and sign small kernel-level &#x27;shields&#x27; that block exploits on running systems without a reboot.">
+<link rel="canonical" href="https://shashikantdev3.github.io/attention-span/s/2026-11-24-openai-and-cisco-open-source-shirudo-an-ebpf-runtime-that-sh.html">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Attention Span">
+<meta property="og:title" content="OpenAI and Cisco open-source Shirudo, an eBPF runtime that shields unpatched Linux systems while fixes roll out">
+<meta property="og:description" content="AI agents write, test and sign small kernel-level &#x27;shields&#x27; that block exploits on running systems without a reboot.">
+<meta property="og:url" content="https://shashikantdev3.github.io/attention-span/s/2026-11-24-openai-and-cisco-open-source-shirudo-an-ebpf-runtime-that-sh.html">
+<meta property="og:image" content="https://shashikantdev3.github.io/attention-span/assets/og.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#EDF0EA">
+<link rel="alternate" type="application/rss+xml" title="Attention Span" href="../feed.xml">
+<script>try{var t=localStorage.getItem("as-theme");if(!t)t=matchMedia("(prefers-color-scheme: dark)").matches?"night":"day";if(t==="night")document.documentElement.setAttribute("data-theme","night")}catch(e){}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;0,6..72,700;1,6..72,400&family=Bodoni+Moda:opsz,wght@6..96,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/style.css">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "NewsArticle", "headline": "OpenAI and Cisco open-source Shirudo, an eBPF runtime that shields unpatched Linux systems while fixes roll ou", "description": "AI agents write, test and sign small kernel-level 'shields' that block exploits on running systems without a reboot.", "datePublished": "2026-11-23T21:30:41Z", "dateModified": "2026-11-24", "author": {"@type": "Organization", "name": "Attention Span", "url": "https://shashikantdev3.github.io/attention-span/"}, "publisher": {"@type": "Organization", "name": "Attention Span", "url": "https://shashikantdev3.github.io/attention-span/"}, "mainEntityOfPage": "https://shashikantdev3.github.io/attention-span/s/2026-11-24-openai-and-cisco-open-source-shirudo-an-ebpf-runtime-that-sh.html", "image": "https://shashikantdev3.github.io/attention-span/assets/og.png", "isBasedOn": ["https://openai.com/index/introducing-shirudo/", "https://newsroom.cisco.com/c/r/newsroom/en/us/a/y2026/m11/cisco-and-openai-launch-shirudo-a-new-project-to-safeguard-agentic-ai.html", "https://www.thefastmode.com/technology-solutions/51537-cisco-openai-launch-shirudo-to-strengthen-ai-infrastructure-security"]}</script>
+</head>
+<body class="static">
+<header class="masthead static-head"><div class="wrap">
+  <a class="brand" href="../index.html"><span class="static-name">Attention Span</span></a>
+  <span class="tagline">Today&#x27;s AI news, traced back to its roots.</span>
+</div></header>
+<main id="main"><div class="wrap static-body">
+<article class="static-story">
+<p class="static-kicker"><a href="../e/2026-11-24.html">Tuesday, 24 November 2026</a>, Dev tools,
+3 sources</p>
+<h1>OpenAI and Cisco open-source Shirudo, an eBPF runtime that shields unpatched Linux systems while fixes roll out</h1>
+<p class="one-liner">AI agents write, test and sign small kernel-level &#x27;shields&#x27; that block exploits on running systems without a reboot.</p>
+<p>OpenAI and Cisco released Shirudo, an open-source runtime that protects running Linux systems while a permanent patch is tested and deployed. It uses eBPF to apply targeted protections, called shields, to specific vulnerable code paths, and Cisco says AI agents can find a vulnerability, build a shield and test that it blocks the attack without disrupting service. Shields are cryptographically signed and verified before loading, with a TPM keeping a verifiable record, and operators can preview their effect before enforcing them. In a controlled test, OpenAI says a Codex-generated shield blocked a Java4Shell exploit against a running Elasticsearch service by adding an input check to Java&#x27;s Base64 decoder; Cisco says testing also covered a PHP flaw. The project is BSD 2-Clause licensed with dual-licensed BPF programs, and the companies are asking for outside tests and reports of shields breaking legitimate traffic, with a technical webinar on 15 December.</p>
+<div class="eli5"><h4>Like I am 5</h4><p>OpenAI and Cisco made free software that puts a quick safety cover over a computer&#x27;s weak spot so hackers cannot get in while the real fix is still being made.</p></div>
+<div class="why"><h4>Why it matters</h4><p>As AI speeds up vulnerability discovery, agent-written, signed runtime mitigations give ops teams a way to close the gap between disclosure and patch without downtime.</p></div>
+<div class="sources"><h4>Sources, original first</h4><ol><li><a href="https://openai.com/index/introducing-shirudo/" rel="noopener">openai.com: OpenAI and Cisco introduce Shirudo</a> <span class="kind">original</span></li><li><a href="https://newsroom.cisco.com/c/r/newsroom/en/us/a/y2026/m11/cisco-and-openai-launch-shirudo-a-new-project-to-safeguard-agentic-ai.html" rel="noopener">newsroom.cisco.com: Cisco and OpenAI Launch Shirudo, A New Project to Safeguard Agentic AI</a> <span class="kind">original</span></li><li><a href="https://www.thefastmode.com/technology-solutions/51537-cisco-openai-launch-shirudo-to-strengthen-ai-infrastructure-security" rel="noopener">thefastmode.com: Cisco, OpenAI Launch Shirudo to Strengthen AI Infrastructure Security</a> <span class="kind">press</span></li><li><a href="https://news.ycombinator.com/item?id=50619630" rel="noopener">Hacker News: Shirudo: OpenAI and Cisco&#x27;s open-source runtime for shielding unpatched Linux</a> <span class="kind">discussion</span></li></ol></div>
+<div class="tags"><span class="chip">OpenAI</span><span class="chip">Others</span><a class="chip concept" href="../c/agent.html">AI agent</a><a class="chip concept" href="../c/coding-assistant.html">AI coding assistant</a></div>
+<p class="asof">Written from the sources above and checked by a second AI model; every number was matched against the sources.</p>
+</article>
+<p class="static-app"><a href="../index.html#/today/2026-11-24/2026-11-24-openai-and-cisco-open-source-shirudo-an-ebpf-runtime-that-sh">Open this in Attention Span</a>, where every story links to its history,
+concepts and the people behind it.</p>
+</div></main>
+<footer class="site"><div class="wrap">
+  <span>Attention Span is built by <a href="https://github.com/shashikantdev3">Shashikant</a>. Every entry links its source.</span>
+  <span>Data under <a href="https://creativecommons.org/licenses/by-nc/4.0/" rel="license">CC BY-NC 4.0</a>. Code under MIT.</span>
+</div></footer>
+</body>
+</html>

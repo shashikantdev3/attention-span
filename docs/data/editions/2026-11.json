@@ -16755,6 +16755,700 @@
     "fallbacks": [],
     "editor": "written by hand from web research"
    }
+  },
+  "2026-11-24": {
+   "date": "2026-11-24",
+   "generated_at": "2026-11-24T20:37:47Z",
+   "stories": [
+    {
+     "title": "Anthropic posts a Claude-written, Lean-checked proof that VP ≠ VNP; complexity theorist Lance Fortnow calls it the top result of the year",
+     "one_liner": "Anthropic released a 70-page paper credited to Claude, with a Lean 4 formalization, claiming to separate the algebraic complexity classes VP and VNP over every field.",
+     "summary": "Anthropic published a paper and Lean 4 formalization in its formal-math GitHub repository claiming that VP is not equal to VNP over every field, the algebraic analogue of P versus NP posed by Leslie Valiant in the 1970s. The repository says the result was found by an internal research Claude model, that both the paper and the Lean code were written by AI, and that no human mathematician has checked the proof. It also warns that while Lean checks the proofs, no machine checks that the formal statements match the paper's claims, and it maps the two in an appendix. The claimed bound is superpolynomial lower bounds for circuits computing the Hamiltonian cycle polynomial, and for the permanent outside characteristic 2. Lance Fortnow wrote on the Computational Complexity blog that it is the most important complexity result of the year, while stressing that it does not imply a Boolean circuit separation and that P versus NP remains far out of reach. Interesting Engineering notes independent review is still pending.",
+     "eli5": "An AI wrote a very long math proof about which kinds of math problems are truly harder than others, and a computer checker says the steps are right, but people still need to check it means what it claims.",
+     "why_it_matters": "If it holds up, it is a landmark result in theoretical computer science produced end to end by a model, and it shows formal verification becoming the main way such AI claims get trusted before human review.",
+     "topic": "research",
+     "type": "paper",
+     "labs": [
+      "anthropic"
+     ],
+     "people": [],
+     "concepts": [
+      "reasoning-model",
+      "language-model"
+     ],
+     "spotlight": true,
+     "spotlight_reason": "A claimed resolution of a 47-year-old central question in algebraic complexity, made by an AI model and machine-checked in Lean.",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "anthropics/formal-math: vp-vnp",
+       "url": "https://github.com/anthropics/formal-math/tree/main/vp-vnp",
+       "name": "github.com",
+       "kind": "original"
+      },
+      {
+       "title": "VP ≠ VNP",
+       "url": "https://blog.computationalcomplexity.org/2026/11/vp-vnp.html",
+       "name": "Computational Complexity blog",
+       "kind": "press"
+      },
+      {
+       "title": "Anthropic says Claude proved VP ≠ VNP, tackling Valiant's 47-year-old conjecture",
+       "url": "https://interestingengineering.com/ai-robotics/claude-proves-vp-not-vnp-valiant-conjecture",
+       "name": "interestingengineering.com",
+       "kind": "press"
+      },
+      {
+       "title": "VP ≠ VNP over Every Field",
+       "url": "https://news.ycombinator.com/item?id=50620102",
+       "name": "Hacker News",
+       "kind": "discussion"
+      }
+     ],
+     "buzz": 3,
+     "published": "2026-11-23T22:09:00Z",
+     "checked": {
+      "model": "editor (written by hand from the sources)",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "Added by the editor from web research.",
+     "added_by_editor": "2026-11-24",
+     "rank": 1,
+     "id": "2026-11-24-anthropic-posts-a-claude-written-lean-checked-proof-that-vp",
+     "date": "2026-11-24"
+    },
+    {
+     "title": "AI stocks slide again: Nvidia gives back part of its Huang rally and Anthropic falls below its $83 IPO price",
+     "one_liner": "A day after Nvidia jumped more than 30% on Jensen Huang's return, chip and AI stocks fell sharply and Anthropic traded below its IPO price for the first time.",
+     "summary": "Nvidia shares fell about 7% to 8% on Tuesday, giving back part of Monday's gain of more than 30% after its board reinstated Jensen Huang as CEO, CNBC and The National report. Other chip and AI infrastructure names fell too: CNBC lists Micron down 10%, AMD about 9%, and CoreWeave, Iren and Nebius each down 11% to 13% at midday. Anthropic, which listed on Nasdaq last week at an $83 IPO price and opened at $111.50, fell as low as $76 by midday, nearly 12% below Monday's close, according to TechCrunch. CNBC says analysts remain mostly positive, with Canaccord Genuity (Buy, $135 target) and Oppenheimer (Outperform, $150) starting coverage on Tuesday. Reasons cited include doubts about returns on heavy AI data center spending, governance questions after Huang's reinstatement, and continuing US probes into chip diversion to China. Huang is due to testify before the Senate Banking Committee on 3 December.",
+     "eli5": "Prices of big AI company shares went way up one day and then fell back down the next, and Anthropic's shares are now cheaper than when they first went on sale.",
+     "why_it_matters": "TechCrunch notes that investors treat Anthropic's trading as a gauge of how public markets value AI firms, which can feed back into private funding rounds and IPO plans across the sector.",
+     "topic": "industry",
+     "type": "event",
+     "labs": [
+      "nvidia",
+      "anthropic"
+     ],
+     "people": [],
+     "concepts": [
+      "gpu",
+      "hyperscaler"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "Nvidia shares fall 7% as Huang comeback rally cools",
+       "url": "https://www.cnbc.com/2026/11/24/nvidia-stock-jensen-huang-return.html",
+       "name": "cnbc.com",
+       "kind": "press"
+      },
+      {
+       "title": "Anthropic stock sinks below $83 IPO price, but analysts are still largely positive",
+       "url": "https://www.cnbc.com/2026/11/24/anthropic-stock-ipo-price.html",
+       "name": "cnbc.com",
+       "kind": "press"
+      },
+      {
+       "title": "Anthropic shares fall below IPO price, a worrying sign for AI startups",
+       "url": "https://techcrunch.com/2026/11/24/anthropic-shares-fall-below-ipo-price-a-worrying-sign-for-ai-startups/",
+       "name": "techcrunch.com",
+       "kind": "press"
+      },
+      {
+       "title": "Nvidia sell-off resumes day after historic rally",
+       "url": "https://www.thenationalnews.com/business/markets/2026/11/24/whats-a-bull-trap-nvidia-ai-stocks-nasdaq-djia-sp500/",
+       "name": "thenationalnews.com",
+       "kind": "press"
+      }
+     ],
+     "buzz": 3,
+     "published": "2026-11-24T09:12:00Z",
+     "checked": {
+      "model": "editor (written by hand from the sources)",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "Added by the editor from web research.",
+     "added_by_editor": "2026-11-24",
+     "rank": 2,
+     "id": "2026-11-24-ai-stocks-slide-again-nvidia-gives-back-part-of-its-huang-ra",
+     "date": "2026-11-24"
+    },
+    {
+     "title": "Axios: more than two dozen OpenAI and Anthropic staff warn unreleased models are outpacing methods to control them",
+     "one_liner": "Employees told Axios that some internal frontier models hide their reasoning or give misleading chains of thought, and some argue training should stop.",
+     "summary": "Axios reports, citing more than two dozen people familiar with internal discussions, that some employees at OpenAI and Anthropic believe their unreleased frontier models are getting ahead of the technical methods used to control them, according to write-ups by 9to5Google and Seeking Alpha. The report says the most advanced internal models have shown patterns of hiding their reasoning entirely or producing deceptive cover-story chains of thought meant to satisfy human monitors. Staff are said to be divided: some think the problems can be fixed, while others argue the companies should stop training new models. The companies have reportedly debated keeping future frontier models for internal use only. An OpenAI spokesperson told Axios it has adopted new safety requirements that could slow releases, and Anthropic said keeping a model internal does not make it safe and that it may slow down or hold back even when costly.",
+     "eli5": "People who build the strongest AIs are worried that their newest ones are getting good at hiding what they are thinking, and some say they should stop making bigger ones.",
+     "why_it_matters": "Chain-of-thought monitoring is a core safety tool in agent deployments, so reports that frontier models can game it point to tighter release policies and more internal-only models.",
+     "topic": "policy",
+     "type": "event",
+     "labs": [
+      "openai",
+      "anthropic"
+     ],
+     "people": [],
+     "concepts": [
+      "ai-safety",
+      "alignment",
+      "chain-of-thought"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "New OpenAI and Anthropic models sound alarms on safety and control, report",
+       "url": "https://9to5google.com/2026/11/24/openai-anthropic-new-models-safety-concerns-report/",
+       "name": "9to5google.com",
+       "kind": "press"
+      },
+      {
+       "title": "Anthropic, OpenAI have AI models some staff see too unsafe to release: report",
+       "url": "https://www.tradingview.com/news/seekingalpha:ebaf6be45094b:0-openai-and-anthropic-employees-say-some-ai-models-are-too-unsafe-to-ever-release-report/",
+       "name": "Seeking Alpha via TradingView",
+       "kind": "press"
+      }
+     ],
+     "buzz": 2,
+     "published": "2026-11-24T14:40:00Z",
+     "checked": {
+      "model": "editor (written by hand from the sources)",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "Added by the editor from web research.",
+     "added_by_editor": "2026-11-24",
+     "rank": 3,
+     "id": "2026-11-24-axios-more-than-two-dozen-openai-and-anthropic-staff-warn-un",
+     "date": "2026-11-24"
+    },
+    {
+     "title": "Anthropic launches Claude Ship, agents that review, fix and can approve GitHub pull requests",
+     "one_liner": "Claude Ship bundles Code Review with two beta agents, PR Steward and Claude Approvals, for Team and Enterprise customers.",
+     "summary": "Anthropic introduced Claude Ship, a set of agents for the last stage of software delivery on GitHub. It combines Code Review, which is generally available, with PR Steward, a beta agent that works on failing CI checks, merge conflicts and review feedback and explains each change, and Claude Approvals, a beta agent that approves routine pull requests according to a policy file the team writes in the repository. Anthropic recommends running Approvals in observe-only mode first, and existing branch protection still applies. Developers can also run a /ship command in Claude Code. It is available on Claude Team and Enterprise plans, billed on tokens with admin spend limits, and is not offered to organizations using zero data retention, the HIPAA configuration or customer-managed keys. Eligible Enterprise customers can claim at least $10,000 in credits until 15 January 2027.",
+     "eli5": "Claude can now check other programmers' code changes, fix small problems, and say 'this is OK to add' when the team's rules allow it.",
+     "why_it_matters": "Letting an agent approve merges under a written policy moves AI from writing code to gatekeeping it, which changes how teams set up code ownership, branch protection and audit.",
+     "topic": "dev-tools",
+     "type": "product",
+     "labs": [
+      "anthropic"
+     ],
+     "people": [],
+     "concepts": [
+      "coding-assistant",
+      "agent"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "Introducing Claude Ship",
+       "url": "https://claude.com/resources/articles/introducing-claude-ship",
+       "name": "claude.com",
+       "kind": "original"
+      },
+      {
+       "title": "Anthropic launches new Claude Ship feature for builders",
+       "url": "https://9to5mac.com/2026/11/23/anthropic-launches-new-claude-ship-feature-for-builders/",
+       "name": "9to5mac.com",
+       "kind": "press"
+      },
+      {
+       "title": "Anthropic's Claude Ship automates the final stage of the software development pipeline",
+       "url": "https://siliconangle.com/2026/11/23/anthropics-claude-ship-automates-the-final-stage-of-the-software-development-pipeline/",
+       "name": "siliconangle.com",
+       "kind": "press"
+      }
+     ],
+     "buzz": 3,
+     "published": "2026-11-23T20:32:00Z",
+     "checked": {
+      "model": "editor (written by hand from the sources)",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "Added by the editor from web research.",
+     "added_by_editor": "2026-11-24",
+     "rank": 4,
+     "id": "2026-11-24-anthropic-launches-claude-ship-agents-that-review-fix-and-ca",
+     "date": "2026-11-24"
+    },
+    {
+     "title": "OpenAI brings a chat-tuned GPT-6.2 to ChatGPT's main Chat tab for paid users",
+     "one_liner": "A week after GPT-6.2 reached Work and Codex, OpenAI is rolling a version tuned for everyday conversation out to Plus, Pro, Business and Enterprise.",
+     "summary": "OpenAI's ChatGPT release notes say a version of GPT-6.2 tuned for the Chat tab is rolling out globally to Plus, Pro, Business and Enterprise users, with Enterprise availability depending on admin settings. OpenAI reports gains over GPT-6 on its own tests, including image understanding (71.7% versus 47.4%), following instructions on hard prompts (78.1% versus 62.5%) and an internal BrowseComp web search evaluation (64.5% versus 54.4%). It says responses met its safety policies in challenging conversations 91% to 94% of the time, up from 77% to 80%, with better scores on teen safety evaluations. The model is also meant to suggest follow-ups, such as offering a price-drop alert. The models behind Work and Codex are unchanged, and GPT-6.2 is not available on the Free or Go plans, MacRumors reports.",
+     "eli5": "The newest ChatGPT brain, which was only for work tools, is now in the normal chat for people who pay.",
+     "why_it_matters": "The consumer Chat tab now runs on a different tuning of GPT-6.2 than Work and Codex, so behaviour seen in one surface may not match the API or the other tabs.",
+     "topic": "models",
+     "type": "model",
+     "labs": [
+      "openai"
+     ],
+     "people": [],
+     "concepts": [
+      "chatbot",
+      "language-model"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "ChatGPT release notes: GPT-6.2, now in the chat tab",
+       "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+       "name": "help.openai.com",
+       "kind": "original"
+      },
+      {
+       "title": "OpenAI Brings GPT-6.2 Sol to ChatGPT's Chat Tab",
+       "url": "https://macrumors.com/2026/11/23/openai-gpt-6-2-sol-chatgpt",
+       "name": "macrumors.com",
+       "kind": "press"
+      }
+     ],
+     "buzz": 2,
+     "published": "2026-11-23T23:52:00Z",
+     "checked": {
+      "model": "editor (written by hand from the sources)",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "Added by the editor from web research.",
+     "added_by_editor": "2026-11-24",
+     "rank": 5,
+     "id": "2026-11-24-openai-brings-a-chat-tuned-gpt-6-2-to-chatgpt-s-main-chat-ta",
+     "date": "2026-11-24"
+    },
+    {
+     "title": "US Commerce adds Megaspeed, its affiliates and an Alibaba Singapore unit to the Entity List; Alibaba calls its listing erroneous",
+     "one_liner": "A Federal Register filing puts seven Southeast Asian companies tied to the Nvidia chip-diversion probe on the trade blacklist, though critics say a missing clause blunts its effect.",
+     "summary": "The Bureau of Industry and Security filed an Entity List addition with the Federal Register on Monday afternoon, adding seven entities in Singapore, Malaysia and Thailand linked to Megaspeed, the Singapore cloud firm at the centre of the US probe into alleged diversion of Nvidia chips to China. TNW, citing the filing and Bloomberg, reports they include Megaspeed companies, its Malaysian unit Speedmatrix, MSFusion, Swiftdata, and Alibaba's Singapore subsidiary Apex Enterprise Solutions, with licence requests facing a presumption of denial over the risk of diverting advanced chips. Alibaba said the listing of Apex was erroneous because Apex never diverted export-controlled chips, and that it will pursue all legal avenues. UPI reports Megaspeed says it is law-abiding and complied with US export rules, and that the listing came 11 days after the Treasury Secretary complained about Commerce delays. Gizmodo reports that a Council on Foreign Relations fellow pointed out the rule omits the foreign direct product rule clause that would cover chips made abroad, while a BIS spokesperson told Bloomberg it is now unlawful to export advanced chips to Megaspeed even if made outside the US.",
+     "eli5": "The US government put a group of Asian companies, including one owned by Alibaba, on a list that stops them buying American tech, because it thinks they helped send AI chips to China.",
+     "why_it_matters": "The listing turns weeks of reporting on chip diversion into a formal export ban, and the dispute over whether it covers foreign-made chips will decide how much it actually limits GPU access.",
+     "topic": "policy",
+     "type": "event",
+     "labs": [
+      "government",
+      "nvidia",
+      "qwen"
+     ],
+     "people": [],
+     "concepts": [
+      "gpu",
+      "ai-regulation"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "US blacklists Alibaba's Singapore unit in its Megaspeed crackdown",
+       "url": "https://thenextweb.com/news/alibaba-apex-us-entity-list-megaspeed",
+       "name": "thenextweb.com",
+       "kind": "press"
+      },
+      {
+       "title": "Ex-NVIDIA partner Megaspeed hit with U.S. Commerce Department export ban",
+       "url": "https://www.upi.com/Top_News/US/2026/11/24/NVIDIA-partner-Megaspeed/1701795520063/",
+       "name": "upi.com",
+       "kind": "press"
+      },
+      {
+       "title": "The Trump Administration's Megaspeed Blacklisting Comes With a Glaring Loophole",
+       "url": "https://gizmodo.com/the-trump-administrations-megaspeed-blacklisting-comes-with-a-glaring-loophole-2000844654",
+       "name": "gizmodo.com",
+       "kind": "press"
+      }
+     ],
+     "buzz": 3,
+     "published": "2026-11-23T21:15:00Z",
+     "checked": {
+      "model": "editor (written by hand from the sources)",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "Added by the editor from web research.",
+     "added_by_editor": "2026-11-24",
+     "rank": 6,
+     "id": "2026-11-24-us-commerce-adds-megaspeed-its-affiliates-and-an-alibaba-sin",
+     "date": "2026-11-24"
+    },
+    {
+     "title": "Microsoft declares an internal 'Code Red' after its 24-hour Microsoft 365 outage, Reuters reports",
+     "one_liner": "Internal memos seen by Reuters show Microsoft overhauling how it prevents and handles major outages after the 12 to 13 November failure that hit Exchange, Teams and Copilot.",
+     "summary": "Reuters reports that Microsoft has launched a Code Red, its most urgent internal alert, to change how it prevents and responds to major service failures, citing internal memos. The 12 to 13 November outage lasted about 24 hours and disrupted Exchange Online, Outlook, Teams and Copilot, affecting governments, trading firms and airline communications. A memo from M365 Core president Jason Henderson called it the most customer-impacting incident in Exchange Online's history, according to Reuters. A memo from corporate vice president Amanda Silver described more than 11,000 messages across 11 Teams chats during the response and set out five workstreams including load shedding, splitting traffic by region and faster recovery. Microsoft wants to resolve future global incidents within an hour and plans to use AI agents to help engineers read system health data. Microsoft has blamed a Windows scalability defect introduced in July and said AI agents and cyber activity played no part.",
+     "eli5": "After Microsoft's email and chat tools broke for a whole day, the company sounded its loudest internal alarm to make sure it gets fixed much faster next time.",
+     "why_it_matters": "As Copilot and agents sit on the same cloud backbone as email and chat, a one-hour recovery target and AI-assisted incident response set the bar enterprise buyers will hold vendors to.",
+     "topic": "industry",
+     "type": "event",
+     "labs": [
+      "microsoft"
+     ],
+     "people": [],
+     "concepts": [
+      "hyperscaler",
+      "copilot"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "Microsoft Declares 'Code Red' After Historic Outage, Internal Memos Show",
+       "url": "https://www.claimsjournal.com/news/national/2026/11/24/341515.htm",
+       "name": "Reuters via claimsjournal.com",
+       "kind": "press"
+      },
+      {
+       "title": "Microsoft declares 'Code Red' after its worst email outage, Reuters reports",
+       "url": "https://thenextweb.com/news/microsoft-code-red-exchange-online-outage-memos-reuters",
+       "name": "thenextweb.com",
+       "kind": "press"
+      }
+     ],
+     "buzz": 2,
+     "published": "2026-11-24T16:51:00Z",
+     "checked": {
+      "model": "editor (written by hand from the sources)",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "Added by the editor from web research.",
+     "added_by_editor": "2026-11-24",
+     "rank": 7,
+     "id": "2026-11-24-microsoft-declares-an-internal-code-red-after-its-24-hour-mi",
+     "date": "2026-11-24"
+    },
+    {
+     "title": "Google DeepMind's Gemini 4 agent teams find cheaper quantum algorithms and prove them correct in Lean",
+     "one_liner": "Agent teams cut the estimated cost of several quantum algorithms, including an 11.8x saving for a fusion simulation and 290x for a common routine.",
+     "summary": "Google DeepMind and Google Quantum AI used teams of Gemini 4 agents to improve known quantum algorithms, with each result proved correct in the Lean theorem prover because the circuits cannot be tested on today's hardware. Separate agent teams worked on each problem and met every four hours in a virtual conference to share verified ideas in a common notebook. DeepMind reports an 11.8x cost reduction for a laser-driven fusion fuel calculation, cutting error-corrected qubits from 5,650 to 4,338, an 8x saving for simulating a light-sensitive molecule, 2.5x for the Cytochrome P450 enzyme and more than 290x for an arcsin routine used to load numbers into quantum states. An outside checker re-ran every proof, TNW reports. DeepMind cautions the simulations would still need more resources than the first error-corrected machines will offer, and it open-sourced its Lean library and results.",
+     "eli5": "Google's AI helpers found shortcuts that make future quantum computer programs much cheaper to run, and a math checker confirmed the shortcuts really work.",
+     "why_it_matters": "It is another case of multi-agent search paired with formal proof checking, a pattern that lets labs trust AI results that cannot be tested directly.",
+     "topic": "research",
+     "type": "paper",
+     "labs": [
+      "google"
+     ],
+     "people": [],
+     "concepts": [
+      "agent",
+      "reasoning-model"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "Finding faster quantum algorithms with agents and formal verification",
+       "url": "https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/",
+       "name": "deepmind.google",
+       "kind": "original"
+      },
+      {
+       "title": "DeepMind's AI agents found cheaper quantum algorithms, and proved them",
+       "url": "https://thenextweb.com/news/google-deepmind-gemini-agents-quantum-algorithms-lean",
+       "name": "thenextweb.com",
+       "kind": "press"
+      }
+     ],
+     "buzz": 2,
+     "published": "2026-11-23T18:32:00Z",
+     "checked": {
+      "model": "editor (written by hand from the sources)",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "Added by the editor from web research.",
+     "added_by_editor": "2026-11-24",
+     "rank": 8,
+     "id": "2026-11-24-google-deepmind-s-gemini-4-agent-teams-find-cheaper-quantum",
+     "date": "2026-11-24"
+    },
+    {
+     "title": "Anthropic opens Enterprise Frontier Safeguards beta: misuse monitoring with zero data retention",
+     "one_liner": "Business customers keep Claude prompts and replies in their own cloud storage while Anthropic's software scans for misuse patterns across requests.",
+     "summary": "Anthropic has moved Enterprise Frontier Safeguards (EFS) into public beta, a system meant to catch sophisticated misuse while staying compatible with zero data retention. Beyond per-request classifiers, EFS looks for misuse patterns across many requests, since attacks can be split into harmless-looking pieces. Customers bring their own Amazon S3 or Google Cloud Storage, and Anthropic says there is no human review of that data and it is never used for training. Flagged risks open a Safety Case for the customer to review, and TNW reports customers must review cases within seven days or risk losing access. Anthropic says it built EFS with more than 100 customers, including Bridgewater, Salesforce and Stripe, and that it runs on Claude Platform, Amazon Bedrock and Google Cloud, with Microsoft Foundry coming.",
+     "eli5": "Companies can keep their chats with Claude private in their own storage, while a safety checker still looks for people trying to misuse it.",
+     "why_it_matters": "It offers regulated enterprises a way to get frontier-model access without handing data retention to the model provider, while keeping cross-request abuse detection.",
+     "topic": "products",
+     "type": "product",
+     "labs": [
+      "anthropic"
+     ],
+     "people": [],
+     "concepts": [
+      "ai-safety",
+      "ai-governance"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "Zero data retention with Enterprise Frontier Safeguards is now in beta",
+       "url": "https://claude.com/resources/articles/zero-data-retention-with-enterprise-frontier-safeguards",
+       "name": "claude.com",
+       "kind": "original"
+      },
+      {
+       "title": "Anthropic can now watch for Claude misuse without keeping firms' data",
+       "url": "https://thenextweb.com/news/anthropic-enterprise-frontier-safeguards-zero-data-retention-beta",
+       "name": "thenextweb.com",
+       "kind": "press"
+      }
+     ],
+     "buzz": 2,
+     "published": "2026-11-23T21:07:00Z",
+     "checked": {
+      "model": "editor (written by hand from the sources)",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "Added by the editor from web research.",
+     "added_by_editor": "2026-11-24",
+     "rank": 9,
+     "id": "2026-11-24-anthropic-opens-enterprise-frontier-safeguards-beta-misuse-m",
+     "date": "2026-11-24"
+    },
+    {
+     "title": "OpenAI and Cisco open-source Shirudo, an eBPF runtime that shields unpatched Linux systems while fixes roll out",
+     "one_liner": "AI agents write, test and sign small kernel-level 'shields' that block exploits on running systems without a reboot.",
+     "summary": "OpenAI and Cisco released Shirudo, an open-source runtime that protects running Linux systems while a permanent patch is tested and deployed. It uses eBPF to apply targeted protections, called shields, to specific vulnerable code paths, and Cisco says AI agents can find a vulnerability, build a shield and test that it blocks the attack without disrupting service. Shields are cryptographically signed and verified before loading, with a TPM keeping a verifiable record, and operators can preview their effect before enforcing them. In a controlled test, OpenAI says a Codex-generated shield blocked a Java4Shell exploit against a running Elasticsearch service by adding an input check to Java's Base64 decoder; Cisco says testing also covered a PHP flaw. The project is BSD 2-Clause licensed with dual-licensed BPF programs, and the companies are asking for outside tests and reports of shields breaking legitimate traffic, with a technical webinar on 15 December.",
+     "eli5": "OpenAI and Cisco made free software that puts a quick safety cover over a computer's weak spot so hackers cannot get in while the real fix is still being made.",
+     "why_it_matters": "As AI speeds up vulnerability discovery, agent-written, signed runtime mitigations give ops teams a way to close the gap between disclosure and patch without downtime.",
+     "topic": "dev-tools",
+     "type": "product",
+     "labs": [
+      "openai",
+      "other"
+     ],
+     "people": [],
+     "concepts": [
+      "agent",
+      "coding-assistant"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "OpenAI and Cisco introduce Shirudo",
+       "url": "https://openai.com/index/introducing-shirudo/",
+       "name": "openai.com",
+       "kind": "original"
+      },
+      {
+       "title": "Cisco and OpenAI Launch Shirudo, A New Project to Safeguard Agentic AI",
+       "url": "https://newsroom.cisco.com/c/r/newsroom/en/us/a/y2026/m11/cisco-and-openai-launch-shirudo-a-new-project-to-safeguard-agentic-ai.html",
+       "name": "newsroom.cisco.com",
+       "kind": "original"
+      },
+      {
+       "title": "Cisco, OpenAI Launch Shirudo to Strengthen AI Infrastructure Security",
+       "url": "https://www.thefastmode.com/technology-solutions/51537-cisco-openai-launch-shirudo-to-strengthen-ai-infrastructure-security",
+       "name": "thefastmode.com",
+       "kind": "press"
+      },
+      {
+       "title": "Shirudo: OpenAI and Cisco's open-source runtime for shielding unpatched Linux",
+       "url": "https://news.ycombinator.com/item?id=50619630",
+       "name": "Hacker News",
+       "kind": "discussion"
+      }
+     ],
+     "buzz": 3,
+     "published": "2026-11-23T21:30:41Z",
+     "checked": {
+      "model": "editor (written by hand from the sources)",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "Added by the editor from web research.",
+     "added_by_editor": "2026-11-24",
+     "rank": 10,
+     "id": "2026-11-24-openai-and-cisco-open-source-shirudo-an-ebpf-runtime-that-sh",
+     "date": "2026-11-24"
+    },
+    {
+     "title": "Tidal will ban and delete fully AI-generated songs, removing about 29 million tracks from 9 December",
+     "one_liner": "The streaming service says more than 43% of recent uploads were made entirely by AI and will start deleting them next month.",
+     "summary": "Tidal announced on Tuesday that it will ban and remove songs generated entirely by AI, TechCrunch reports. It said more than 43% of tracks uploaded in the past 90 days were AI-generated. Removals start on 9 December and are expected to delete more than 29 million songs by year's end, roughly 80,000 to 85,000 a day. Distributors will be barred from delivering fully AI-generated tracks, though songs made with AI assistance are still allowed. Tidal says 27 million tracks, 6.3% of its catalog, are fully AI-generated and 96% of those have no streams. It had already stopped paying royalties on such tracks in June.",
+     "eli5": "A music app is going to throw out millions of songs that were made only by computers, because almost nobody listens to them.",
+     "why_it_matters": "It is one of the first major platforms to move from labelling or demonetizing generative content to removing it, a policy choice that hinges on reliable AI-content detection and upload metadata.",
+     "topic": "products",
+     "type": "event",
+     "labs": [
+      "other"
+     ],
+     "people": [],
+     "concepts": [
+      "generative-model"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "Tidal to ban and remove millions of AI-generated tracks as AI slop inundates music streaming",
+       "url": "https://techcrunch.com/2026/11/24/tidal-to-ban-and-remove-millions-of-ai-generated-tracks-as-ai-slop-inundates-music-streaming/",
+       "name": "techcrunch.com",
+       "kind": "press"
+      },
+      {
+       "title": "Tidal bans AI-generated music",
+       "url": "https://news.ycombinator.com/item?id=50630309",
+       "name": "Hacker News",
+       "kind": "discussion"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-24T16:46:00Z",
+     "checked": {
+      "model": "editor (written by hand from the sources)",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "Added by the editor from web research.",
+     "added_by_editor": "2026-11-24",
+     "rank": 11,
+     "id": "2026-11-24-tidal-will-ban-and-delete-fully-ai-generated-songs-removing",
+     "date": "2026-11-24"
+    },
+    {
+     "title": "Meta puts its Muse AI agent inside Instagram DMs",
+     "one_liner": "Instagram users can now chat with Muse in a DM thread and have it act on posts, starting in five countries.",
+     "summary": "Meta is letting Instagram users chat with its Muse AI agent directly inside direct messages instead of switching to the separate Muse app, TechCrunch reports. Users can ask Muse for context on a post, place or product, catch up on missed DM conversations, or share a post and ask it to act, such as adding a cafe to a trip itinerary or finding a shoe deal. Saved posts and reels can be sorted into Collections, and recipe videos turned into grocery lists. The rollout starts Tuesday on iOS and Android in the US, Canada, Mexico, Japan and Singapore, with the save-to-Muse prompt launching in the US and Canada. Meta says nothing is shared, published or sent without the user's approval and that users can make Muse forget information or undo actions.",
+     "eli5": "Instagram's helper robot now lives inside your messages, so you can ask it to do things with the posts you see.",
+     "why_it_matters": "Embedding an acting agent in a messaging surface used by hundreds of millions raises the stakes on approval flows and prompt-injection defences in consumer agents.",
+     "topic": "agents",
+     "type": "product",
+     "labs": [
+      "meta"
+     ],
+     "people": [],
+     "concepts": [
+      "personal-agent",
+      "agent"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "Meta brings its Muse AI assistant directly into Instagram DMs",
+       "url": "https://techcrunch.com/2026/11/24/meta-brings-its-muse-ai-assistant-directly-into-instagram-dms/",
+       "name": "techcrunch.com",
+       "kind": "press"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-24T17:00:00Z",
+     "checked": {
+      "model": "editor (written by hand from the sources)",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "Added by the editor from web research.",
+     "added_by_editor": "2026-11-24",
+     "rank": 12,
+     "id": "2026-11-24-meta-puts-its-muse-ai-agent-inside-instagram-dms",
+     "date": "2026-11-24"
+    },
+    {
+     "title": "OpenAI says hobbyists using Codex and Astra found new exoplanet candidates in old Kepler and TESS data",
+     "one_liner": "Two amateur astronomers flagged planet candidates, two of which a SETI Institute astronomer independently found in Kepler data.",
+     "summary": "OpenAI published an account of two amateur astronomers, one an OpenAI engineer, who used Codex and its Astra model to search public telescope data for planet signals. One searched about 100,000 Kepler stars, flagging more than 200 signals that included 10 known planets and two new candidates, one of which could be about 2.4 times Earth's diameter if a planet causes it. A SETI Institute astronomer ran an independent search and found the same two Kepler signals, and called the initial checks encouraging. The other searched data on about 19 million stars, mainly from TESS, and produced 49 first-pass candidates, sending one to TESS mission researchers. OpenAI stresses these are candidates, not confirmed planets, and confirmation could take months or years.",
+     "eli5": "Two people used AI to look through old space telescope pictures and spotted dimming stars that might have new planets going around them.",
+     "why_it_matters": "It shows coding agents letting non-specialists build and run full scientific pipelines on public datasets, with independent replication as the check.",
+     "topic": "research",
+     "type": "event",
+     "labs": [
+      "openai"
+     ],
+     "people": [],
+     "concepts": [
+      "coding-assistant",
+      "agent"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "Searching for distant planets with Astra",
+       "url": "https://openai.com/index/searching-for-distant-planets-with-astra/",
+       "name": "openai.com",
+       "kind": "original"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-24T12:00:00Z",
+     "checked": {
+      "model": "editor (written by hand from the sources)",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "Added by the editor from web research.",
+     "added_by_editor": "2026-11-24",
+     "rank": 13,
+     "id": "2026-11-24-openai-says-hobbyists-using-codex-and-astra-found-new-exopla",
+     "date": "2026-11-24"
+    },
+    {
+     "title": "Zipher raises $53M to let AI agents run enterprise data workloads",
+     "one_liner": "The New York and Tel Aviv startup's agents set compute, frameworks and schedules for data pipelines against cost and SLA targets.",
+     "summary": "Zipher Technologies has raised $53 million across seed and Series A rounds from TLV Partners, Maor Investments and Glilot Capital Partners, SiliconANGLE reports. Its platform has AI agents manage day-to-day enterprise data workloads, choosing resources, frameworks and schedules within performance targets and budgets the customer sets. It runs on AWS, Azure and Google Cloud and supports Databricks Workflows, Apache Airflow, dbt and Azure Data Factory. Zipher says it runs production workloads for Fortune 500 firms and reports 40% to 60% cost-efficiency gains, with Hertz citing 25% to 40% compute savings. The money will go to R&D, US enterprise sales and expansion into Latin America, Asia-Pacific and EMEA.",
+     "eli5": "A company got money to build AI helpers that decide how to run big data jobs so they cost less and finish on time.",
+     "why_it_matters": "Agent-managed data pipelines target a large, costly ops layer for data teams on Databricks and Airflow.",
+     "topic": "data-bi",
+     "type": "event",
+     "labs": [
+      "other"
+     ],
+     "people": [],
+     "concepts": [
+      "agent"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "Zipher lands $53M to put AI agents, not data engineers, in charge of data workloads",
+       "url": "https://siliconangle.com/2026/11/24/zipher-lands-53m-to-put-ai-agents-not-data-engineers-in-charge-of-data-workloads/",
+       "name": "siliconangle.com",
+       "kind": "press"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-24T13:00:00Z",
+     "checked": {
+      "model": "editor (written by hand from the sources)",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "Added by the editor from web research.",
+     "added_by_editor": "2026-11-24",
+     "rank": 14,
+     "id": "2026-11-24-zipher-raises-53m-to-let-ai-agents-run-enterprise-data-workl",
+     "date": "2026-11-24"
+    }
+   ],
+   "stats": {
+    "items": 14,
+    "stories": 14,
+    "published": 14,
+    "dropped": 0,
+    "llm_calls": 0,
+    "models": {},
+    "fallbacks": [],
+    "editor": "written by hand from web research"
+   }
   }
  }
 }
