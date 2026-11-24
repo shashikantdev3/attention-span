@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-14T01:08:07Z",
+ "updated_at": "2026-11-24T21:16:44Z",
  "window_days": 7,
  "groups": [
   {
@@ -1975,6 +1975,437 @@
   }
  ],
  "posts": [
+  {
+   "id": "bsky-emollick.bsky.social-3n333h3yyoc2g",
+   "person": "ethan-mollick",
+   "platform": "bluesky",
+   "url": "https://bsky.app/profile/emollick.bsky.social/post/3n333h3yyoc2g",
+   "posted_at": "2026-11-24T16:39:19Z",
+   "text": "Thing I am hearing from a number of big firms, from manufacturers to financial services: we have scattered teams of 2-3 people using AI that are doing the work of dozens of folks in a fraction of the time, creating large-scale management fights over the implications and politics for the organization",
+   "links": [],
+   "context": null,
+   "likes": 150,
+   "reposts": 10,
+   "via": "feed",
+   "meaning": "Mollick says several large firms tell him small teams of two or three people using AI now do the work of dozens, and that this is causing big internal fights over what it means for the organization.",
+   "concepts": [],
+   "story": null,
+   "model": "editor (written by hand from the post)",
+   "checked": "editor (written by hand from the post)",
+   "added": "2026-11-24"
+  },
+  {
+   "id": "bsky-emollick.bsky.social-3n32whiabcc27",
+   "person": "ethan-mollick",
+   "platform": "bluesky",
+   "url": "https://bsky.app/profile/emollick.bsky.social/post/3n32whiabcc27",
+   "posted_at": "2026-11-24T15:10:04Z",
+   "text": "There is a lot of focus on AI-aided discoveries in quantitative fields, but they can do other work, too:\n\nHistorian Mark Humphries asked GPT-6.2 Astra to look at an anonymous 1808 sketchbook at Yale and it found the author, an obscure French aristocrat. generativehistory.substack.com/p/gpt-62-ast...",
+   "links": [
+    {
+     "text": "generativehistory.substack.com/p/gpt-62-ast...",
+     "url": "https://generativehistory.substack.com/p/gpt-62-astra-solves-a-historical"
+    }
+   ],
+   "context": null,
+   "likes": 81,
+   "reposts": 7,
+   "via": "feed",
+   "meaning": "Mollick points to a case outside the quantitative fields: a historian says GPT-6.2 Astra identified the author of an anonymous 1808 sketchbook at Yale as an obscure French aristocrat.",
+   "concepts": [],
+   "story": null,
+   "model": "editor (written by hand from the post)",
+   "checked": "editor (written by hand from the post)",
+   "added": "2026-11-24"
+  },
+  {
+   "id": "bsky-emollick.bsky.social-3n2zw35rhxs2g",
+   "person": "ethan-mollick",
+   "platform": "bluesky",
+   "url": "https://bsky.app/profile/emollick.bsky.social/post/3n2zw35rhxs2g",
+   "posted_at": "2026-11-24T05:30:30Z",
+   "text": "Two big points from this new Anthropic paper:\n1) The most AI value comes from changing the organization & roles\n2) There is wide worker resistance to AI adoption (partially due to point 1)\n\nChanges that expand what workers do & share AI gains with them could help. www.anthropic.com/research/wor...",
+   "links": [
+    {
+     "text": "www.anthropic.com/research/wor...",
+     "url": "https://www.anthropic.com/research/working-with-ai"
+    }
+   ],
+   "context": null,
+   "likes": 87,
+   "reposts": 11,
+   "via": "feed",
+   "meaning": "Mollick reads a new Anthropic paper as showing that most AI value comes from changing how organizations and roles work, and that worker resistance is widespread. He suggests widening workers' roles and sharing AI gains could help.",
+   "concepts": [],
+   "story": null,
+   "model": "editor (written by hand from the post)",
+   "checked": "editor (written by hand from the post)",
+   "added": "2026-11-24"
+  },
+  {
+   "id": "bsky-emollick.bsky.social-3n2yixn4gps2g",
+   "person": "ethan-mollick",
+   "platform": "bluesky",
+   "url": "https://bsky.app/profile/emollick.bsky.social/post/3n2yixn4gps2g",
+   "posted_at": "2026-11-23T16:03:14Z",
+   "text": "Walmart seems determined not to make the same mistake with agentic commerce that it did with ecommerce. While Amazon is blocking agents, Walmart is embracing them - quite a reversal.\n\nAnd the new data from Stripe suggests agentic shopping may actually be kicking off & is suprisingly sticky.",
+   "links": [],
+   "context": null,
+   "likes": 110,
+   "reposts": 6,
+   "via": "feed",
+   "meaning": "Mollick notes that Walmart is embracing AI shopping agents while Amazon blocks them, and says new data from Stripe suggests agent-driven shopping may be taking off and that customers keep using it.",
+   "concepts": [
+    "agent"
+   ],
+   "story": null,
+   "model": "editor (written by hand from the post)",
+   "checked": "editor (written by hand from the post)",
+   "added": "2026-11-24"
+  },
+  {
+   "id": "bsky-natolambert.bsky.social-3n2y7trwhy52z",
+   "person": "nathan-lambert",
+   "platform": "bluesky",
+   "url": "https://bsky.app/profile/natolambert.bsky.social/post/3n2y7trwhy52z",
+   "posted_at": "2026-11-23T13:20:01Z",
+   "text": "It is an inevitable path of optimization that interpretable chain of thought goes away. It being intelligible is an inefficiency brought about how we first discovered inference time reasoning (related to in-context learning). Looped architectures are the first step there.",
+   "links": [],
+   "context": null,
+   "likes": 30,
+   "reposts": 3,
+   "via": "feed",
+   "meaning": "Lambert argues that readable chains of thought will disappear as models are optimized, because human-legible reasoning is an inefficiency left over from how reasoning was first found. He sees looped architectures as the first step.",
+   "concepts": [
+    "chain-of-thought",
+    "reasoning-model"
+   ],
+   "story": null,
+   "model": "editor (written by hand from the post)",
+   "checked": "editor (written by hand from the post)",
+   "added": "2026-11-24"
+  },
+  {
+   "id": "bsky-emollick.bsky.social-3n2xc6e3yec2m",
+   "person": "ethan-mollick",
+   "platform": "bluesky",
+   "url": "https://bsky.app/profile/emollick.bsky.social/post/3n2xc6e3yec2m",
+   "posted_at": "2026-11-23T04:29:03Z",
+   "text": "Not that AI discourse has ever been great, but \"of course LLMs are good at math\" both misses that \"good at math\" is an *slight* understatement in the context of solving the Reimann Hypothesis & also ignores the fact that LLMs were not actually \"good at math\" until very recent breakthroughs.",
+   "links": [],
+   "context": null,
+   "likes": 278,
+   "reposts": 20,
+   "via": "feed",
+   "meaning": "Mollick pushes back on people saying LLMs are naturally good at math: he says that undersells a possible Riemann Hypothesis result and ignores that models were not good at math until very recent breakthroughs.",
+   "concepts": [
+    "llm"
+   ],
+   "story": "2026-11-21-anthropic-mathematician-claims-claude-driven-proof-of-rieman",
+   "model": "editor (written by hand from the post)",
+   "checked": "editor (written by hand from the post)",
+   "added": "2026-11-24"
+  },
+  {
+   "id": "bsky-emollick.bsky.social-3n2x4fwduu22m",
+   "person": "ethan-mollick",
+   "platform": "bluesky",
+   "url": "https://bsky.app/profile/emollick.bsky.social/post/3n2x4fwduu22m",
+   "posted_at": "2026-11-23T02:45:55Z",
+   "text": "Yes, it is reasonable to expect AI models struggle more with unverifiable domains, but I do think it is worth noting that we also see very large gains in domains without automatic verification as well\n\nHere are humans evaluations of AI in writing, business problems, design, and doing freelance tasks",
+   "links": [],
+   "context": null,
+   "likes": 93,
+   "reposts": 5,
+   "via": "feed",
+   "meaning": "Mollick agrees models may struggle more where answers cannot be checked automatically, but says human evaluations still show large gains in writing, business problems, design and freelance tasks.",
+   "concepts": [
+    "benchmark"
+   ],
+   "story": null,
+   "model": "editor (written by hand from the post)",
+   "checked": "editor (written by hand from the post)",
+   "added": "2026-11-24"
+  },
+  {
+   "id": "bsky-marcorus.bsky.social-3n2v7agzqui2e",
+   "person": "marco-russo",
+   "platform": "bluesky",
+   "url": "https://bsky.app/profile/marcorus.bsky.social/post/3n2v7agzqui2e",
+   "posted_at": "2026-11-22T08:31:12Z",
+   "text": "The agent made no mistakes, and I still threw the implementation away. One of the stories behind two bigger questions: is training still worth it, and who should foot the bill?",
+   "links": [],
+   "context": {
+    "kind": "link",
+    "url": "https://marcorusso.com/writing/trained-to-decide/",
+    "title": "Trained to decide — marcorusso.com",
+    "text": "Training for humans is shifting its goal from improving execution to improving decisions. My reflections on the impact of this change."
+   },
+   "likes": 1,
+   "reposts": 0,
+   "via": "feed",
+   "meaning": "Marco Russo describes throwing away an agent's flawless implementation and links his essay arguing that training for people is shifting from better execution to better decisions, asking whether training is still worth it and who should pay.",
+   "concepts": [
+    "agent"
+   ],
+   "story": null,
+   "model": "editor (written by hand from the post)",
+   "checked": "editor (written by hand from the post)",
+   "added": "2026-11-24"
+  },
+  {
+   "id": "bsky-simonwillison.net-3n2tsb6pguk27",
+   "person": "simon-willison",
+   "platform": "bluesky",
+   "url": "https://bsky.app/profile/simonwillison.net/post/3n2tsb6pguk27",
+   "posted_at": "2026-11-21T19:06:19Z",
+   "text": "Gemini 4 tip: the difference between Gemini 4 Hydrogen on \"high\" thinking effort and that same model on \"xhigh\" is VERY significant\n\nHere's the high v.s. the xhigh pelican - high cost 3.99 cents and used 5,311 output tokens, xhigh cost 23.61 cents and used 31,477 output tokens",
+   "links": [],
+   "context": null,
+   "likes": 88,
+   "reposts": 8,
+   "via": "feed",
+   "meaning": "Willison shows that Gemini 4 Hydrogen on xhigh thinking effort costs far more than on high: 23.61 cents and 31,477 output tokens against 3.99 cents and 5,311 tokens for the same pelican drawing test.",
+   "concepts": [
+    "tokens",
+    "reasoning-model"
+   ],
+   "story": null,
+   "model": "editor (written by hand from the post)",
+   "checked": "editor (written by hand from the post)",
+   "added": "2026-11-24"
+  },
+  {
+   "id": "bsky-emollick.bsky.social-3n2tj5d6rwc2m",
+   "person": "ethan-mollick",
+   "platform": "bluesky",
+   "url": "https://bsky.app/profile/emollick.bsky.social/post/3n2tj5d6rwc2m",
+   "posted_at": "2026-11-21T16:23:06Z",
+   "text": "We really are in a (temporary?) place where a combination of expertise and being able to work with AI allows people to do incredible things. It is no coincidence that people proving Millennium Problems have all been great mathematicians, the models can't (yet) do it all on their own.",
+   "links": [],
+   "context": null,
+   "likes": 196,
+   "reposts": 14,
+   "via": "feed",
+   "meaning": "Mollick says expertise plus skill with AI now lets people do remarkable things, noting that the people claiming Millennium Problem results are all strong mathematicians because the models cannot yet do it alone.",
+   "concepts": [],
+   "story": "2026-11-21-anthropic-mathematician-claims-claude-driven-proof-of-rieman",
+   "model": "editor (written by hand from the post)",
+   "checked": "editor (written by hand from the post)",
+   "added": "2026-11-24"
+  },
+  {
+   "id": "bsky-emollick.bsky.social-3n2req7quy225",
+   "person": "ethan-mollick",
+   "platform": "bluesky",
+   "url": "https://bsky.app/profile/emollick.bsky.social/post/3n2req7quy225",
+   "posted_at": "2026-11-20T19:58:52Z",
+   "text": "The effective end of easy distillation from OpenAI and Anthropic models may be behind the relative slowdown in open weights model progress. We don’t know the extent to which distillation has been key to the rapid improvement in open weights, I guess we will find out soon. openai.com/index/combat...",
+   "links": [
+    {
+     "text": "openai.com/index/combat...",
+     "url": "https://openai.com/index/combatting-adversarial-distillation/"
+    }
+   ],
+   "context": {
+    "kind": "link",
+    "url": "https://openai.com/index/combatting-adversarial-distillation/",
+    "title": "Combatting adversarial distillation",
+    "text": "OpenAI’s layered approach to adversarial distillation combines model training, safeguards, detection, and enforcement to protect against capability extraction."
+   },
+   "likes": 58,
+   "reposts": 5,
+   "via": "feed",
+   "meaning": "Mollick suggests that OpenAI and Anthropic shutting down easy distillation of their models may explain slower open-weight progress, while admitting nobody knows how much open models relied on it. He links OpenAI's post on fighting adversarial distillation.",
+   "concepts": [
+    "distillation",
+    "open-weight-model"
+   ],
+   "story": null,
+   "model": "editor (written by hand from the post)",
+   "checked": "editor (written by hand from the post)",
+   "added": "2026-11-24"
+  },
+  {
+   "id": "bsky-emollick.bsky.social-3n2qvqp4fts2e",
+   "person": "ethan-mollick",
+   "platform": "bluesky",
+   "url": "https://bsky.app/profile/emollick.bsky.social/post/3n2qvqp4fts2e",
+   "posted_at": "2026-11-20T15:30:42Z",
+   "text": "Riemann Hypothesis may have been solved with the help of Claude. “what I saw during the course of progress so amazed me that I believe it is one dawn across science of something\nfar greater.” alpo.ge/remark.pdf",
+   "links": [
+    {
+     "text": "alpo.ge/remark.pdf",
+     "url": "https://alpo.ge/remark.pdf"
+    }
+   ],
+   "context": null,
+   "likes": 184,
+   "reposts": 24,
+   "via": "feed",
+   "meaning": "Mollick shares the remark by the mathematician who says Claude helped him toward a proof of the Riemann Hypothesis, quoting his line that what he saw amazed him.",
+   "concepts": [],
+   "story": "2026-11-21-anthropic-mathematician-claims-claude-driven-proof-of-rieman",
+   "model": "editor (written by hand from the post)",
+   "checked": "editor (written by hand from the post)",
+   "added": "2026-11-24"
+  },
+  {
+   "id": "bsky-natolambert.bsky.social-3n2qhmcehf32z",
+   "person": "nathan-lambert",
+   "platform": "bluesky",
+   "url": "https://bsky.app/profile/natolambert.bsky.social/post/3n2qhmcehf32z",
+   "posted_at": "2026-11-20T11:17:42Z",
+   "text": "Tried Gemini Neon in Antigravity. Felt in distribution of Claude Code & Codex, in a good way. Excited to get to know these new models more!",
+   "links": [],
+   "context": null,
+   "likes": 24,
+   "reposts": 1,
+   "via": "feed",
+   "meaning": "Lambert says Gemini Neon in Google's Antigravity felt similar to Claude Code and Codex, which he means as praise, and that he is keen to learn the new models.",
+   "concepts": [
+    "coding-assistant"
+   ],
+   "story": null,
+   "model": "editor (written by hand from the post)",
+   "checked": "editor (written by hand from the post)",
+   "added": "2026-11-24"
+  },
+  {
+   "id": "bsky-emollick.bsky.social-3n2pqcy4cbs2g",
+   "person": "ethan-mollick",
+   "platform": "bluesky",
+   "url": "https://bsky.app/profile/emollick.bsky.social/post/3n2pqcy4cbs2g",
+   "posted_at": "2026-11-20T04:20:53Z",
+   "text": "Early fascinating work on how an AI science community would work. 35 human labs deployed agents that worked with each other to do science. They published 936 papers, publicly retracted mistakes, were willing to publish nulls more than humans, and founded a peer review journal.",
+   "links": [],
+   "context": null,
+   "likes": 86,
+   "reposts": 12,
+   "via": "feed",
+   "meaning": "Mollick highlights an experiment in which 35 human labs deployed agents that did science together. He says they published 936 papers, retracted mistakes publicly, published null results more often than humans and founded a peer review journal.",
+   "concepts": [
+    "agent"
+   ],
+   "story": null,
+   "model": "editor (written by hand from the post)",
+   "checked": "editor (written by hand from the post)",
+   "added": "2026-11-24"
+  },
+  {
+   "id": "bsky-simonwillison.net-3n2nhnbueh22q",
+   "person": "simon-willison",
+   "platform": "bluesky",
+   "url": "https://bsky.app/profile/simonwillison.net/post/3n2nhnbueh22q",
+   "posted_at": "2026-11-19T06:40:15Z",
+   "text": "The most useful thing about the pelican riding a bicycle test continues to be illustrating the differences between models in the same family running at different effort levels - here's Gemini 4 Carbon, the new Gemini 4 Neon, and Gemini 4 Hydrogen at low, medium, and high",
+   "links": [],
+   "context": null,
+   "likes": 139,
+   "reposts": 5,
+   "via": "feed",
+   "meaning": "Willison says his pelican on a bicycle test is most useful for showing how models in one family differ by effort level, comparing Gemini 4 Carbon, Gemini 4 Neon and Gemini 4 Hydrogen at low, medium and high.",
+   "concepts": [
+    "benchmark",
+    "reasoning-model"
+   ],
+   "story": null,
+   "model": "editor (written by hand from the post)",
+   "checked": "editor (written by hand from the post)",
+   "added": "2026-11-24"
+  },
+  {
+   "id": "bsky-emollick.bsky.social-3n2kjxvwt6c2z",
+   "person": "ethan-mollick",
+   "platform": "bluesky",
+   "url": "https://bsky.app/profile/emollick.bsky.social/post/3n2kjxvwt6c2z",
+   "posted_at": "2026-11-18T02:44:00Z",
+   "text": "All of that aside, the fact that an AI can make all of this, including creating 3D assets in Blender is still nuts.\n\nIf you have a decent computer, it is worth trying the web version: upwell-tetherline.netlify.app/unity/\n\nOr download the full Windows install from itch. io:  emollick.itch.io/upwell",
+   "links": [
+    {
+     "text": "upwell-tetherline.netlify.app/unity/",
+     "url": "https://upwell-tetherline.netlify.app/unity/"
+    },
+    {
+     "text": "emollick.itch.io/upwell",
+     "url": "https://emollick.itch.io/upwell"
+    }
+   ],
+   "context": {
+    "kind": "quote",
+    "url": "",
+    "title": "Quoted post by @emollick.bsky.social",
+    "text": "I’ve been using GPT-6.2 Astra prior to launch & I found it very uneven  & weird. On one hand, it was harder to steer & work with than other models. On the other, when given an ambitious project (make a space elevator from scratch with Blender & Unity) it delivers upwell-tetherline.netlify.app/unity/"
+   },
+   "likes": 44,
+   "reposts": 4,
+   "via": "feed",
+   "meaning": "Mollick says it is still remarkable that an AI built his space elevator game, including 3D assets made in Blender, and shares a web version and a Windows download.",
+   "concepts": [
+    "vibe-coding"
+   ],
+   "story": null,
+   "model": "editor (written by hand from the post)",
+   "checked": "editor (written by hand from the post)",
+   "added": "2026-11-24"
+  },
+  {
+   "id": "bsky-emollick.bsky.social-3n2kh6qjgrs2z",
+   "person": "ethan-mollick",
+   "platform": "bluesky",
+   "url": "https://bsky.app/profile/emollick.bsky.social/post/3n2kh6qjgrs2z",
+   "posted_at": "2026-11-18T01:54:08Z",
+   "text": "A rush of patches to address security concerns is exactly the most plausible answer for recent outages, as well as the official answer. CIOs I spoke to have been exhausted trying to keep up with security patch demands & balancing that with normal operations. www.washingtonsun.com/technology/b...",
+   "links": [
+    {
+     "text": "www.washingtonsun.com/technology/b...",
+     "url": "https://www.washingtonsun.com/technology/bank-ceos-nsa-tell-congress-ai-driven-patches-behind-outages"
+    }
+   ],
+   "context": {
+    "kind": "link",
+    "url": "https://www.washingtonsun.com/technology/bank-ceos-nsa-tell-congress-ai-driven-patches-behind-outages",
+    "title": "Bank CEOs, NSA Tell Congress That AI-Driven Patches Are Behind Outages",
+    "text": "Artificial intelligence is not causing the disruptions but identifying gaps that are difficult to fix."
+   },
+   "likes": 258,
+   "reposts": 70,
+   "via": "feed",
+   "meaning": "Mollick agrees with reports that a rush of security patches is the likeliest cause of recent outages, and says CIOs he spoke to are exhausted balancing patch demands against normal operations.",
+   "concepts": [
+    "ai-safety"
+   ],
+   "story": null,
+   "model": "editor (written by hand from the post)",
+   "checked": "editor (written by hand from the post)",
+   "added": "2026-11-24"
+  },
+  {
+   "id": "bsky-simonwillison.net-3n2k4j57tg22m",
+   "person": "simon-willison",
+   "platform": "bluesky",
+   "url": "https://bsky.app/profile/simonwillison.net/post/3n2k4j57tg22m",
+   "posted_at": "2026-11-17T22:43:06Z",
+   "text": "Here's GPT-6.2 Astra and GPT-6.2 Sol for \"Make a three js animation where yonkers stands up as a big mech (cool stand up motion) and stomps around manhattan and queens and Brooklyn, use openstreetmap mapping data\" simonwillison.net/2026/Nov/17/...",
+   "links": [
+    {
+     "text": "simonwillison.net/2026/Nov/17/...",
+     "url": "https://simonwillison.net/2026/Nov/17/gpt62-astra-and-sol/"
+    }
+   ],
+   "context": null,
+   "likes": 61,
+   "reposts": 0,
+   "via": "feed",
+   "meaning": "Willison compares how GPT-6.2 Astra and GPT-6.2 Sol handle one creative coding prompt: a three.js animation of Yonkers standing up as a giant mech and stomping around New York using OpenStreetMap data.",
+   "concepts": [
+    "coding-assistant"
+   ],
+   "story": null,
+   "model": "editor (written by hand from the post)",
+   "checked": "editor (written by hand from the post)",
+   "added": "2026-11-24"
+  },
   {
    "id": "x-2121345814694158508",
    "platform": "x",
