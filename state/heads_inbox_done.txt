@@ -588,3 +588,15 @@
 2026-11-14  https://x.com/gdb/status/2121295213025194172
 2026-11-14  https://x.com/microsoft/status/2121282013600907325
 2026-11-14  https://x.com/msft365status/status/2121266712884416537
+2026-11-24  https://x.com/OpenAI/status/2125334383490105601 | protein design preprint
+2026-11-24  https://x.com/AndrewCurran_/status/2125001971690315858 | VP not VNP proof uploaded without announcement
+2026-11-24  https://x.com/OpenAI/status/2124980590717911527 | Shirudo with Cisco
+2026-11-24  https://x.com/ClaudeDevs/status/2124959436640858475 | Claude Ship
+2026-11-24  https://x.com/GoogleDeepMind/status/2124911073266413634 | Gemini 4 agents and quantum algorithms
+2026-11-24  https://x.com/elonmusk/status/2124875939133751684 | on Jensen Huang reinstatement
+2026-11-24  https://x.com/mustafasuleyman/status/2124663594449318173 | MAI perplexity numbers in reply to the limits proposal
+2026-11-24  https://x.com/alexandr_wang/status/2124636606959345776 | Superintelligence is Arriving essay
+2026-11-24  https://x.com/sama/status/2124551594691932405 | on the Pachocki perplexity essay
+2026-11-24  https://x.com/ylecun/status/2124550037912920090 | on Dario Amodei and open models
+2026-11-24  https://x.com/elonmusk/status/2124464633490850164 | superintelligence claim
+2026-11-24  https://x.com/elonmusk/status/2124213680422387741 | on the Riemann proof claim

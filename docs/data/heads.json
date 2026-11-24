@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-24T21:16:44Z",
+ "updated_at": "2026-11-24T21:29:53Z",
  "window_days": 7,
  "groups": [
   {
@@ -1976,6 +1976,27 @@
  ],
  "posts": [
   {
+   "id": "x-2125334383490105601",
+   "platform": "x",
+   "url": "https://x.com/OpenAI/status/2125334383490105601",
+   "posted_at": "2026-11-24T21:02:58Z",
+   "date_only": false,
+   "text": "We’re sharing a new preprint showing wet lab validation of intrinsic protein design capabilities of the GPT-6 family of models. \n\nOur models can design new protein shapes and sequences using reasoning and code, without calling specialized biology models to generate them.…",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">We’re sharing a new preprint showing wet lab validation of intrinsic protein design capabilities of the GPT-6 family of models. <br><br>Our models can design new protein shapes and sequences using reasoning and code, without calling specialized biology models to generate them.… <a href=\"https://t.co/ov2t24sUCh\">pic.twitter.com/ov2t24sUCh</a></p>&mdash; OpenAI (@OpenAI) <a href=\"https://x.com/OpenAI/status/2125334383490105601?ref_src=twsrc%5Etfw\">November 24, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "x-openai",
+   "note": "protein design preprint",
+   "meaning": "OpenAI says a new preprint shows wet lab validation that its GPT-6 models can design new protein shapes and sequences through reasoning and code, without calling specialized biology models.",
+   "concepts": [
+    "reasoning-model"
+   ],
+   "story": null,
+   "model": "editor (written by hand from the post)",
+   "checked": "editor (written by hand from the post)",
+   "added": "2026-11-24"
+  },
+  {
    "id": "bsky-emollick.bsky.social-3n333h3yyoc2g",
    "person": "ethan-mollick",
    "platform": "bluesky",
@@ -1984,7 +2005,7 @@
    "text": "Thing I am hearing from a number of big firms, from manufacturers to financial services: we have scattered teams of 2-3 people using AI that are doing the work of dozens of folks in a fraction of the time, creating large-scale management fights over the implications and politics for the organization",
    "links": [],
    "context": null,
-   "likes": 150,
+   "likes": 152,
    "reposts": 10,
    "via": "feed",
    "meaning": "Mollick says several large firms tell him small teams of two or three people using AI now do the work of dozens, and that this is causing big internal fights over what it means for the organization.",
@@ -2032,12 +2053,95 @@
     }
    ],
    "context": null,
-   "likes": 87,
+   "likes": 88,
    "reposts": 11,
    "via": "feed",
    "meaning": "Mollick reads a new Anthropic paper as showing that most AI value comes from changing how organizations and roles work, and that worker resistance is widespread. He suggests widening workers' roles and sharing AI gains could help.",
    "concepts": [],
    "story": null,
+   "model": "editor (written by hand from the post)",
+   "checked": "editor (written by hand from the post)",
+   "added": "2026-11-24"
+  },
+  {
+   "id": "x-2125001971690315858",
+   "platform": "x",
+   "url": "https://x.com/AndrewCurran_/status/2125001971690315858",
+   "posted_at": "2026-11-23T23:02:05Z",
+   "date_only": false,
+   "text": "Once again, as with the Exponential Time Hypothesis paper, Claude is the sole author. And once again, an unspecified 'internal research Claude model.' Uploaded with no announcement. https://t.co/5NdMDGz6wi",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">Once again, as with the Exponential Time Hypothesis paper, Claude is the sole author. And once again, an unspecified &#39;internal research Claude model.&#39; Uploaded with no announcement. <a href=\"https://t.co/5NdMDGz6wi\">https://t.co/5NdMDGz6wi</a> <a href=\"https://t.co/ipwrpdVx9F\">pic.twitter.com/ipwrpdVx9F</a></p>&mdash; Andrew Curran (@AndrewCurran_) <a href=\"https://x.com/AndrewCurran_/status/2125001971690315858?ref_src=twsrc%5Etfw\">November 23, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "andrew-curran",
+   "note": "VP not VNP proof uploaded without announcement",
+   "meaning": "Curran notes that, as with an earlier Exponential Time Hypothesis paper, Claude is listed as sole author of the new proof, credited to an unspecified internal research Claude model and uploaded with no announcement.",
+   "concepts": [],
+   "story": "2026-11-24-anthropic-posts-a-claude-written-lean-checked-proof-that-vp",
+   "model": "editor (written by hand from the post)",
+   "checked": "editor (written by hand from the post)",
+   "added": "2026-11-24"
+  },
+  {
+   "id": "x-2124980590717911527",
+   "platform": "x",
+   "url": "https://x.com/OpenAI/status/2124980590717911527",
+   "posted_at": "2026-11-23T21:37:07Z",
+   "date_only": false,
+   "text": "We’re introducing Shirudo, an open-source Linux runtime allowing agents to defend systems without downtime. It lets agents write dynamic eBPF controls to shield systems from exploits, giving defenders more time to test and roll out patches. Built by @cisco together with OpenAI.…",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">We’re introducing Shirudo, an open-source Linux runtime allowing agents to defend systems without downtime. It lets agents write dynamic eBPF controls to shield systems from exploits, giving defenders more time to test and roll out patches. Built by <a href=\"https://x.com/Cisco?ref_src=twsrc%5Etfw\">@cisco</a> together with OpenAI.… <a href=\"https://t.co/FZRZ7O0A9X\">pic.twitter.com/FZRZ7O0A9X</a></p>&mdash; OpenAI (@OpenAI) <a href=\"https://x.com/OpenAI/status/2124980590717911527?ref_src=twsrc%5Etfw\">November 23, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "x-openai",
+   "note": "Shirudo with Cisco",
+   "meaning": "OpenAI introduces Shirudo, an open-source Linux runtime built by Cisco with OpenAI that lets agents write eBPF controls to shield systems from exploits without downtime, buying defenders time to test and roll out patches.",
+   "concepts": [
+    "agent"
+   ],
+   "story": "2026-11-24-openai-and-cisco-open-source-shirudo-an-ebpf-runtime-that-sh",
+   "model": "editor (written by hand from the post)",
+   "checked": "editor (written by hand from the post)",
+   "added": "2026-11-24"
+  },
+  {
+   "id": "x-2124959436640858475",
+   "platform": "x",
+   "url": "https://x.com/ClaudeDevs/status/2124959436640858475",
+   "posted_at": "2026-11-23T20:13:04Z",
+   "date_only": false,
+   "text": "Introducing Claude Ship (beta): Claude can review your pull requests, work on fixes, and approve the ones your team's policy allows.\n\nThe goal is to help you ship code as fast as you can write it.",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">Introducing Claude Ship (beta): Claude can review your pull requests, work on fixes, and approve the ones your team&#39;s policy allows.<br><br>The goal is to help you ship code as fast as you can write it. <a href=\"https://t.co/b9OBAhEBmr\">pic.twitter.com/b9OBAhEBmr</a></p>&mdash; ClaudeDevs (@ClaudeDevs) <a href=\"https://x.com/ClaudeDevs/status/2124959436640858475?ref_src=twsrc%5Etfw\">November 23, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "x-claudedevs",
+   "note": "Claude Ship",
+   "meaning": "Anthropic's developer account announces Claude Ship in beta: Claude reviews pull requests, works on fixes and approves the ones a team's policy allows, with the stated aim of shipping code as fast as it is written.",
+   "concepts": [
+    "coding-assistant",
+    "agent"
+   ],
+   "story": "2026-11-24-anthropic-launches-claude-ship-agents-that-review-fix-and-ca",
+   "model": "editor (written by hand from the post)",
+   "checked": "editor (written by hand from the post)",
+   "added": "2026-11-24"
+  },
+  {
+   "id": "x-2124911073266413634",
+   "platform": "x",
+   "url": "https://x.com/GoogleDeepMind/status/2124911073266413634",
+   "posted_at": "2026-11-23T17:00:53Z",
+   "date_only": false,
+   "text": "Quantum computers could one day transform fusion energy, chemistry, and drug discovery - if we can make the algorithms efficient enough to run on early hardware.\n\nUsing teams of Gemini 4 agents, we’ve built new quantum circuits that cut future simulation costs by up to 10 times.",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">Quantum computers could one day transform fusion energy, chemistry, and drug discovery - if we can make the algorithms efficient enough to run on early hardware.<br><br>Using teams of Gemini 4 agents, we’ve built new quantum circuits that cut future simulation costs by up to 10 times. <a href=\"https://t.co/H6xArBtsvQ\">pic.twitter.com/H6xArBtsvQ</a></p>&mdash; Google DeepMind (@GoogleDeepMind) <a href=\"https://x.com/GoogleDeepMind/status/2124911073266413634?ref_src=twsrc%5Etfw\">November 23, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "x-googledeepmind",
+   "note": "Gemini 4 agents and quantum algorithms",
+   "meaning": "Google DeepMind says teams of Gemini 4 agents built new quantum circuits that cut the cost of future simulations by up to 10 times, which it says matters for running useful algorithms on early quantum hardware.",
+   "concepts": [
+    "agent"
+   ],
+   "story": "2026-11-24-google-deepmind-s-gemini-4-agent-teams-find-cheaper-quantum",
    "model": "editor (written by hand from the post)",
    "checked": "editor (written by hand from the post)",
    "added": "2026-11-24"
@@ -2059,6 +2163,25 @@
     "agent"
    ],
    "story": null,
+   "model": "editor (written by hand from the post)",
+   "checked": "editor (written by hand from the post)",
+   "added": "2026-11-24"
+  },
+  {
+   "id": "x-2124875939133751684",
+   "platform": "x",
+   "url": "https://x.com/elonmusk/status/2124875939133751684",
+   "posted_at": "2026-11-23T14:41:16Z",
+   "date_only": false,
+   "text": "The mistake has been corrected https://t.co/UKvEng9rCD",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">The mistake has been corrected <a href=\"https://t.co/UKvEng9rCD\">https://t.co/UKvEng9rCD</a></p>&mdash; Elon Musk (@elonmusk) <a href=\"https://x.com/elonmusk/status/2124875939133751684?ref_src=twsrc%5Etfw\">November 23, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "elon-musk",
+   "note": "on Jensen Huang reinstatement",
+   "meaning": "Musk posts that the mistake has been corrected. NPR reports the post was about Nvidia's board bringing Jensen Huang back as CEO.",
+   "concepts": [],
+   "story": "2026-11-23-nvidia-s-board-reverses-course-and-reinstates-jensen-huang-a",
    "model": "editor (written by hand from the post)",
    "checked": "editor (written by hand from the post)",
    "added": "2026-11-24"
@@ -2128,6 +2251,115 @@
    "added": "2026-11-24"
   },
   {
+   "id": "x-2124663594449318173",
+   "platform": "x",
+   "url": "https://x.com/mustafasuleyman/status/2124663594449318173",
+   "posted_at": "2026-11-23T00:37:29Z",
+   "date_only": false,
+   "text": "We fully support OpenAI's transparency initiative. Thanks to @merettm @markchen90 @gdb @sama for leading the way. \n\nWe all got into this field to build safe AGI that is genuinely good for humanity. One of the hardest parts of AI safety is coordination, and this is a step in the… https://t.co/JNGT3o3zrK",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">We fully support OpenAI&#39;s transparency initiative. Thanks to <a href=\"https://x.com/merettm?ref_src=twsrc%5Etfw\">@merettm</a> <a href=\"https://x.com/markchen90?ref_src=twsrc%5Etfw\">@markchen90</a> <a href=\"https://x.com/gdb?ref_src=twsrc%5Etfw\">@gdb</a> <a href=\"https://x.com/sama?ref_src=twsrc%5Etfw\">@sama</a> for leading the way. <br><br>We all got into this field to build safe AGI that is genuinely good for humanity. One of the hardest parts of AI safety is coordination, and this is a step in the… <a href=\"https://t.co/JNGT3o3zrK\">https://t.co/JNGT3o3zrK</a> <a href=\"https://t.co/1NbJyxWZtG\">pic.twitter.com/1NbJyxWZtG</a></p>&mdash; Mustafa Suleyman (@mustafasuleyman) <a href=\"https://x.com/mustafasuleyman/status/2124663594449318173?ref_src=twsrc%5Etfw\">November 23, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "mustafa-suleyman",
+   "note": "MAI perplexity numbers in reply to the limits proposal",
+   "meaning": "Suleyman says Microsoft AI fully supports OpenAI's transparency initiative on pretraining progress, thanks OpenAI's leaders, and calls coordination one of the hardest parts of AI safety.",
+   "concepts": [
+    "ai-safety",
+    "pretraining"
+   ],
+   "story": "2026-11-22-openai-publishes-internal-pretraining-perplexity-measurement",
+   "model": "editor (written by hand from the post)",
+   "checked": "editor (written by hand from the post)",
+   "added": "2026-11-24"
+  },
+  {
+   "id": "x-2124636606959345776",
+   "platform": "x",
+   "url": "https://x.com/alexandr_wang/status/2124636606959345776",
+   "posted_at": "2026-11-22T22:50:15Z",
+   "date_only": false,
+   "text": "https://t.co/KwJ13J6zsC",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"zxx\" dir=\"ltr\"><a href=\"https://t.co/KwJ13J6zsC\">https://t.co/KwJ13J6zsC</a></p>&mdash; Alexandr Wang (@alexandr_wang) <a href=\"https://x.com/alexandr_wang/status/2124636606959345776?ref_src=twsrc%5Etfw\">November 22, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "alexandr-wang",
+   "note": "Superintelligence is Arriving essay",
+   "meaning": "Wang shares a long post that The Next Web describes as his essay Superintelligence is Arriving, which argues people may not keep control over unconstrained recursive self-improvement.",
+   "concepts": [
+    "agi",
+    "ai-safety"
+   ],
+   "story": null,
+   "model": "editor (written by hand from the post)",
+   "checked": "editor (written by hand from the post)",
+   "added": "2026-11-24"
+  },
+  {
+   "id": "x-2124551594691932405",
+   "platform": "x",
+   "url": "https://x.com/sama/status/2124551594691932405",
+   "posted_at": "2026-11-22T17:12:27Z",
+   "date_only": false,
+   "text": "This is the most important thing OpenAI has published in awhile.\n\nWe are providing a lot of transparency into our pretraining progress and hope we can agree as a frield to common limits. I think that would be very wise and help ensure safety and control. https://t.co/O3ev9Bs2SH",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">This is the most important thing OpenAI has published in awhile.<br><br>We are providing a lot of transparency into our pretraining progress and hope we can agree as a frield to common limits. I think that would be very wise and help ensure safety and control. <a href=\"https://t.co/O3ev9Bs2SH\">https://t.co/O3ev9Bs2SH</a></p>&mdash; Sam Altman (@sama) <a href=\"https://x.com/sama/status/2124551594691932405?ref_src=twsrc%5Etfw\">November 22, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "sam-altman",
+   "note": "on the Pachocki perplexity essay",
+   "meaning": "Altman calls OpenAI's post on pretraining progress the most important thing it has published in a while, and says he hopes the field can agree on common limits, which he thinks would help safety and control.",
+   "concepts": [
+    "pretraining",
+    "ai-safety"
+   ],
+   "story": "2026-11-22-openai-publishes-internal-pretraining-perplexity-measurement",
+   "model": "editor (written by hand from the post)",
+   "checked": "editor (written by hand from the post)",
+   "added": "2026-11-24"
+  },
+  {
+   "id": "x-2124550037912920090",
+   "platform": "x",
+   "url": "https://x.com/ylecun/status/2124550037912920090",
+   "posted_at": "2026-11-22T17:06:15Z",
+   "date_only": false,
+   "text": "Dario's spiel since GPT-2 has always been about hyping the dangers so that open models would be made illegal and *he* would stay in control.\nHe left OpenAI because he wasn't going to have control.\nIt's like the Ottoman Empire banning the printing press for Arabic so they would…",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">Dario&#39;s spiel since GPT-2 has always been about hyping the dangers so that open models would be made illegal and *he* would stay in control.<br>He left OpenAI because he wasn&#39;t going to have control.<br>It&#39;s like the Ottoman Empire banning the printing press for Arabic so they would…</p>&mdash; Yann LeCun (@ylecun) <a href=\"https://x.com/ylecun/status/2124550037912920090?ref_src=twsrc%5Etfw\">November 22, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "yann-lecun",
+   "note": "on Dario Amodei and open models",
+   "meaning": "LeCun accuses Dario Amodei of hyping AI dangers since GPT-2 so that open models would be banned and he would stay in control, and claims Amodei left OpenAI because he could not have control there.",
+   "concepts": [
+    "open-weight-model",
+    "ai-regulation"
+   ],
+   "story": null,
+   "model": "editor (written by hand from the post)",
+   "checked": "editor (written by hand from the post)",
+   "added": "2026-11-24"
+  },
+  {
+   "id": "x-2124464633490850164",
+   "platform": "x",
+   "url": "https://x.com/elonmusk/status/2124464633490850164",
+   "posted_at": "2026-11-22T11:26:53Z",
+   "date_only": false,
+   "text": "Unequivocal super intelligence has arrived. \n\nWelcome to the Singularity.",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">Unequivocal super intelligence has arrived. <br><br>Welcome to the Singularity.</p>&mdash; Elon Musk (@elonmusk) <a href=\"https://x.com/elonmusk/status/2124464633490850164?ref_src=twsrc%5Etfw\">November 22, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "elon-musk",
+   "note": "superintelligence claim",
+   "meaning": "Musk declares that unequivocal superintelligence has arrived and welcomes people to the Singularity. It is his claim, offered without evidence in the post.",
+   "concepts": [
+    "agi"
+   ],
+   "story": null,
+   "model": "editor (written by hand from the post)",
+   "checked": "editor (written by hand from the post)",
+   "added": "2026-11-24"
+  },
+  {
    "id": "bsky-marcorus.bsky.social-3n2v7agzqui2e",
    "person": "marco-russo",
    "platform": "bluesky",
@@ -2171,6 +2403,25 @@
     "reasoning-model"
    ],
    "story": null,
+   "model": "editor (written by hand from the post)",
+   "checked": "editor (written by hand from the post)",
+   "added": "2026-11-24"
+  },
+  {
+   "id": "x-2124213680422387741",
+   "platform": "x",
+   "url": "https://x.com/elonmusk/status/2124213680422387741",
+   "posted_at": "2026-11-21T18:49:42Z",
+   "date_only": false,
+   "text": "Simple explanation of the usefulness of the Riemann proof (so far) is that it removes the conditional nature of other math theorems dependent upon it. \n\nAnd, of course, is yet another mind-blowing thing achieved by super intelligence …https://t.co/F1sAyxwaSF",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">Simple explanation of the usefulness of the Riemann proof (so far) is that it removes the conditional nature of other math theorems dependent upon it. <br><br>And, of course, is yet another mind-blowing thing achieved by super intelligence …<a href=\"https://t.co/F1sAyxwaSF\">https://t.co/F1sAyxwaSF</a></p>&mdash; Elon Musk (@elonmusk) <a href=\"https://x.com/elonmusk/status/2124213680422387741?ref_src=twsrc%5Etfw\">November 21, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "elon-musk",
+   "note": "on the Riemann proof claim",
+   "meaning": "Musk says the main use of the claimed Riemann proof so far is that it removes the conditional status of theorems that depend on it, and calls it another feat of superintelligence.",
+   "concepts": [],
+   "story": "2026-11-21-anthropic-mathematician-claims-claude-driven-proof-of-rieman",
    "model": "editor (written by hand from the post)",
    "checked": "editor (written by hand from the post)",
    "added": "2026-11-24"
