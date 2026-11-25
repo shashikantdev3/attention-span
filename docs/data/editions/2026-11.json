@@ -13209,50 +13209,6 @@
      "date": "2026-11-19"
     },
     {
-     "title": "House committee says the US approved about 879,000 Nvidia and AMD AI chips for China in six months",
-     "one_liner": "House Foreign Affairs Committee chair Brian Mast released Commerce licensing records showing approvals for about 879,000 Nvidia H200 and AMD MI325X-class chips for Chinese companies, out of 3.4 million requested.",
-     "summary": "Using powers under the Export Control Reform Act, committee chair Brian Mast published Commerce Department licensing records covering December 2025 to May 2026. They show applications for about 3.4 million chips and approvals for about 879,000, including 150,000 for Tencent, 75,000 for Alibaba, 43,000 for Baidu and 4,000 for BYD, all four of which are on the Pentagon's list of alleged Chinese military-linked companies. According to Unite.AI's reading of the records, every approved chip was still unshipped as of May 11, 2026. The release comes amid scrutiny of Nvidia's China sales after Jensen Huang's resignation.",
-     "eli5": "Congress showed how many powerful AI chips the government had said American companies could sell to Chinese firms.",
-     "why_it_matters": "The numbers put a scale on the US-China AI chip debate and will shape the export-control fight in Congress, which affects which chips Chinese labs can build models on.",
-     "topic": "policy",
-     "type": "event",
-     "labs": [
-      "nvidia",
-      "government"
-     ],
-     "concepts": [],
-     "sources": [
-      {
-       "title": "US signed off on sales of nearly 900,000 AI chips to China in six months, committee says",
-       "url": "https://www.thestandard.com.hk/world/article/349075/US-signed-off-on-sales-of-nearly-900000-AI-chips-to-China-in-six-months-committee-says",
-       "name": "The Standard (Reuters)",
-       "kind": "press"
-      },
-      {
-       "title": "Mast Releases NVIDIA and AMD AI Chip License Records for China",
-       "url": "https://www.unite.ai/?p=527451",
-       "name": "Unite.AI",
-       "kind": "press"
-      }
-     ],
-     "buzz": 2,
-     "published": "2026-11-19T15:00:00Z",
-     "editor_reason": "Added by the editor after the nightly run missed it.",
-     "added_by_editor": "2026-11-22",
-     "spotlight": false,
-     "spotlight_reason": "",
-     "new_terms": [],
-     "people": [],
-     "checked": {
-      "model": "editor (written by hand from the source)",
-      "rounds": 1,
-      "hype_flags": []
-     },
-     "id": "2026-11-19-house-committee-says-the-us-approved-about-879-000-nvidia-an",
-     "date": "2026-11-19",
-     "rank": 3
-    },
-    {
      "title": "Claude solves two open problems in black hole physics",
      "one_liner": "An Anthropic researcher used Claude agents to solve two long-standing open problems in the physics of black holes.",
      "summary": "In August, an Anthropic researcher tested Claude's capabilities by asking it to list interesting open problems in theoretical physics. Claude generated 22 candidates, and separate background agents worked on them for about six weeks. The agents successfully solved two problems. First, Claude showed that a phase transition turning hot gas into a black hole is abrupt at tiny scales. Second, Claude Fable 5.2 calculated the precise ceiling for the lightest possible black hole in a simplified theoretical universe and proved it could not be lowered.",
@@ -13301,7 +13257,7 @@
       "hype_flags": []
      },
      "editor_reason": "Anthropic demonstrated Claude solving two unsolved theoretical physics problems regarding black hole dynamics.",
-     "rank": 4,
+     "rank": 3,
      "id": "2026-11-19-claude-solves-two-open-problems-in-black-hole-physics",
      "date": "2026-11-19"
     },
@@ -13356,7 +13312,7 @@
       "hype_flags": []
      },
      "editor_reason": "Google rebranded its Gemini Spark assistant as Tasks and made its automated agent features free to use.",
-     "rank": 5,
+     "rank": 4,
      "id": "2026-11-19-google-rebrands-gemini-spark-to-tasks-and-makes-it-free",
      "date": "2026-11-19"
     },
@@ -13403,7 +13359,7 @@
       "hype_flags": []
      },
      "editor_reason": "Amazon SageMaker HyperPod introduced automated workload recovery to detect GPU faults during large model training.",
-     "rank": 6,
+     "rank": 5,
      "id": "2026-11-19-amazon-introduces-workload-recovery-and-infrastructure-check",
      "date": "2026-11-19"
     },
@@ -13441,15 +13397,15 @@
       "hype_flags": []
      },
      "editor_reason": "Microsoft CEO Satya Nadella predicted that autonomous AI agents will alter the web's ad-driven business models.",
-     "rank": 7,
+     "rank": 6,
      "id": "2026-11-19-microsoft-ceo-satya-nadella-predicts-ai-agents-will-reshuffl",
      "date": "2026-11-19"
     },
     {
-     "title": "Snap Launches Easy Lens CLI for External AI Coding Tools",
-     "one_liner": "Snap launched the Easy Lens CLI on Mac, Windows, and Linux, enabling developers to build AR Lenses using external AI coding tools.",
-     "summary": "Snapchat announced on Wednesday that it is giving Lens creators the ability to build Lenses using AI coding assistants they already use. These tools include Claude Code, Cursor, and Codex. The new release, called Easy Lens CLI, is available on Mac, Windows, and Linux. It lets developers build AR Lenses using these external AI coding tools.",
-     "eli5": "Snap made a new helper tool that lets you build augmented reality camera filters using the same AI coding assistants you already use.",
+     "title": "Snap launches Easy Lens CLI so developers can build Lenses with Claude Code, Codex or Cursor",
+     "one_liner": "Snap released a free command line version of Easy Lens that lets developers build Snapchat AR Lenses from the AI coding assistants they already use.",
+     "summary": "Snap announced Easy Lens CLI, which brings its Easy Lens creation tool to the command line so developers can build Snapchat Lenses with AI coding assistants such as Claude Code, Codex and Cursor. It runs on Mac, Windows and Linux and is free to use with a Snapchat account, Snap says. According to Snap, it comes with more than 100 AR building blocks and more than 50 AI asset generators. Lenses made with it can earn money through Lens+ Payouts, and TechCrunch notes Snap paid $1.8 million to Lens+ creators last month.",
+     "eli5": "Snapchat now lets people ask their AI coding helper to build camera filters for them.",
      "why_it_matters": "External AI coding tools can now be used directly to build AR Lenses.",
      "topic": "dev-tools",
      "type": "product",
@@ -13465,21 +13421,27 @@
      "new_terms": [],
      "sources": [
       {
-       "title": "Snap launches Easy Lens CLI on Mac, Windows, and Linux, letting developers build AR Lenses using external AI coding tools like Claude Code (Aisha Malik/TechCrunch)",
-       "url": "https://www.techmeme.com/261119/p19#a261119p19",
-       "name": "Techmeme",
+       "title": "Introducing Easy Lens CLI: Create Snapchat Lenses with the AI Coding Assistant You Already Use",
+       "url": "https://newsroom.snap.com/introducing-easy-lens-cli",
+       "name": "Snap Newsroom",
+       "kind": "original"
+      },
+      {
+       "title": "Snapchat now lets developers build AR Lenses with AI assistants like Claude Code and Cursor",
+       "url": "https://techcrunch.com/2026/11/18/snapchat-now-lets-developers-build-ar-lenses-with-ai-coding-assistants-like-claude-code-and-cursor/",
+       "name": "TechCrunch",
        "kind": "press"
       }
      ],
      "buzz": 1,
-     "published": "2026-11-19T11:35:01Z",
+     "published": "2026-11-18T19:56:00Z",
      "checked": {
-      "model": "gemini:gemini-3.5-flash-lite",
+      "model": "editor (rewritten by hand from the sources)",
       "rounds": 1,
       "hype_flags": []
      },
      "editor_reason": "Snap released the Easy Lens CLI to help developers build AR Lenses using external AI coding assistants.",
-     "rank": 8,
+     "rank": 7,
      "id": "2026-11-19-snap-launches-easy-lens-cli-for-external-ai-coding-tools",
      "date": "2026-11-19"
     },
@@ -13528,7 +13490,7 @@
       "hype_flags": []
      },
      "editor_reason": "High school students filed a lawsuit after an AI tool misidentified a snack bag as a weapon.",
-     "rank": 9,
+     "rank": 8,
      "id": "2026-11-19-lawsuit-alleges-ai-weapon-detection-mistook-bag-of-chips-for",
      "date": "2026-11-19"
     },
@@ -13573,7 +13535,7 @@
       "hype_flags": []
      },
      "editor_reason": "Google added tool retrieval to the Gemini API, allowing agents to access large tool sets while consuming fewer context tokens.",
-     "rank": 10,
+     "rank": 9,
      "id": "2026-11-19-google-introduces-tool-retrieval-in-the-gemini-api",
      "date": "2026-11-19"
     },
@@ -13615,7 +13577,7 @@
       "hype_flags": []
      },
      "editor_reason": "Google updated Gemini with direct macOS integration, enabling the agent to execute desktop file management and multi-step workflows.",
-     "rank": 11,
+     "rank": 10,
      "id": "2026-11-19-google-brings-computer-use-to-gemini-desktop-app-on-macos",
      "date": "2026-11-19"
     },
@@ -13665,7 +13627,7 @@
       "hype_flags": []
      },
      "editor_reason": "Researchers introduced a previous-token prediction approach for LLM inversion and prompt reconstruction.",
-     "rank": 12,
+     "rank": 11,
      "id": "2026-11-19-new-paper-details-previous-token-prediction-based-llm-invers",
      "date": "2026-11-19"
     },
@@ -13706,14 +13668,14 @@
       "hype_flags": []
      },
      "editor_reason": "Document digitization costs have dropped significantly as open OCR models become cheaper to run at scale.",
-     "rank": 13,
+     "rank": 12,
      "id": "2026-11-19-ocr-model-costs-drop-fivefold-in-18-months",
      "date": "2026-11-19"
     },
     {
-     "title": "Sources Report Sierra Is in Talks to Raise Funding",
-     "one_liner": "Sources report that Bret Taylor's AI customer support startup Sierra is in talks to raise about $1.5 billion at a valuation of about $30 billion.",
-     "summary": "Sierra, an artificial intelligence customer support startup founded by former Salesforce co-CEO Bret Taylor, has been in talks to raise approximately $1.5 billion. The potential funding round would value the company at approximately $30 billion. This valuation marks an increase from $15.8 billion in May. Additionally, the company stated in October that it reached over $400 million in annualized revenue.",
+     "title": "Sierra is in talks to raise about $1.5 billion at a $30 billion valuation, The Information reports",
+     "one_liner": "Bret Taylor's AI customer service startup Sierra is in early talks to raise about $1.5 billion at a valuation of about $30 billion, according to The Information.",
+     "summary": "The Information reports that Sierra, the AI customer service startup founded by former Salesforce co-CEO Bret Taylor, is in talks to raise about $1.5 billion at a valuation of about $30 billion. According to Digital Today's account of the report, the talks are early and the terms could change, and Lightspeed Venture Partners, Greenoaks and Benchmark are among the investors in talks. That would roughly double the more than $15 billion valuation of Sierra's May round. Sierra said in October that its annual recurring revenue had passed $400 million.",
      "eli5": "A company is trying to get a lot of money to grow, similar to how a lemonade stand might get investments to open more stands.",
      "why_it_matters": "Funding rounds of this size show the scale of capital moving into customer support applications built with artificial intelligence.",
      "topic": "industry",
@@ -13730,21 +13692,27 @@
      "new_terms": [],
      "sources": [
       {
-       "title": "Sources: Bret Taylor's Sierra is in talks to raise ~$1.5B at a ~$30B valuation, up from $15.8B in May; it said in October it hit $400M+ in annualized revenue (The Information)",
-       "url": "https://www.techmeme.com/261118/p40#a261118p40",
-       "name": "Techmeme",
+       "title": "Bret Taylor’s Sierra in Talks to Raise at $30 Billion Valuation",
+       "url": "https://www.theinformation.com/articles/bret-taylors-sierra-talks-raise-30-billion-valuation",
+       "name": "The Information",
+       "kind": "press"
+      },
+      {
+       "title": "Sierra AI customer service startup seeks $1.5 billion fundraise at $30 billion valuation",
+       "url": "https://www.digitaltoday.co.kr/en/view/128117/sierra-ai-customer-service-seeks-1-5-billion-fundraise-at-30-billion-valuation",
+       "name": "Digital Today",
        "kind": "press"
       }
      ],
      "buzz": 1,
-     "published": "2026-11-18T21:01:02Z",
+     "published": "2026-11-19T04:26:00Z",
      "checked": {
-      "model": "gemini:gemini-3.5-flash-lite",
+      "model": "editor (rewritten by hand from the sources)",
       "rounds": 1,
       "hype_flags": []
      },
      "editor_reason": "Enterprise agent startup Sierra is in talks to raise $1.5 billion at a $30 billion valuation.",
-     "rank": 14,
+     "rank": 13,
      "id": "2026-11-19-sources-report-sierra-is-in-talks-to-raise-funding",
      "date": "2026-11-19"
     },
@@ -13781,7 +13749,7 @@
       "hype_flags": []
      },
      "editor_reason": "Canva now lets free and paid users disable its built-in generative AI features with a simple toggle.",
-     "rank": 15,
+     "rank": 14,
      "id": "2026-11-19-canva-adds-a-toggle-to-turn-off-generative-ai-features",
      "date": "2026-11-19"
     },
@@ -13817,7 +13785,7 @@
       "hype_flags": []
      },
      "editor_reason": "Anduril co-founder Palmer Luckey warned that AI-powered cyberattacks are moving faster than traditional defenses.",
-     "rank": 16,
+     "rank": 15,
      "id": "2026-11-19-palmer-luckey-warns-ai-cyberattacks-are-outpacing-defenses",
      "date": "2026-11-19"
     },
@@ -13862,7 +13830,7 @@
       "hype_flags": []
      },
      "editor_reason": "A widely discussed technical analysis outlined recurring flaws and bypass techniques in standard LLM safety guardrails.",
-     "rank": 17,
+     "rank": 16,
      "id": "2026-11-19-developer-reports-frustration-with-ai-safeguards-blocking-se",
      "date": "2026-11-19"
     },
@@ -13908,7 +13876,7 @@
       "hype_flags": []
      },
      "editor_reason": "Included automatically: widely discussed (signal 64 (HN 106 pts, 53 comments; industry shift)).",
-     "rank": 18,
+     "rank": 17,
      "id": "2026-11-19-report-details-ai-data-annotation-and-gig-work-conditions",
      "date": "2026-11-19"
     },
@@ -13946,7 +13914,7 @@
       "hype_flags": []
      },
      "editor_reason": "Microsoft CEO Satya Nadella explained his decision to offer buyouts to a large portion of employees.",
-     "rank": 19,
+     "rank": 18,
      "id": "2026-11-19-microsoft-ceo-explains-why-he-offered-buyouts-to-employees",
      "date": "2026-11-19"
     },
@@ -13994,17 +13962,17 @@
       "hype_flags": []
      },
      "editor_reason": "Pete Warden shared practical constraints and design patterns for building local voice interfaces and open models on edge hardware.",
-     "rank": 20,
+     "rank": 19,
      "id": "2026-11-19-pete-warden-discusses-local-ai-open-models-and-hardware",
      "date": "2026-11-19"
     }
    ],
    "stats": {
     "items": 33,
-    "stories": 33,
+    "stories": 19,
     "sources_ok": 42,
     "sources_failed": [],
-    "published": 7,
+    "published": 19,
     "dropped": 1,
     "llm_calls": 25,
     "cache_hits": 0,
@@ -14066,7 +14034,7 @@
   },
   "2026-11-20": {
    "date": "2026-11-20",
-   "generated_at": "2026-11-24T20:40:08Z",
+   "generated_at": "2026-11-25T04:38:30Z",
    "stories": [
     {
      "title": "Global Stock Markets Slump Following Anthropic IPO",
@@ -14426,6 +14394,56 @@
      "date": "2026-11-20"
     },
     {
+     "title": "House committee says the US approved about 879,000 Nvidia and AMD AI chips for China in six months",
+     "one_liner": "House Foreign Affairs Committee chair Brian Mast released Commerce licensing records showing approvals for about 879,000 Nvidia H200 and AMD MI325X-class chips for Chinese companies, out of 3.4 million requested.",
+     "summary": "Using powers under the Export Control Reform Act, House Foreign Affairs Committee chair Brian Mast released Commerce Department licensing records for Nvidia H200 and AMD MI325X chips sought by Chinese companies. The committee says companies asked to sell 3.4 million AI chips to China and the Bureau of Industry and Security approved more than 879,000. Reuters reports the records cover December 2025 to May 2026 and that approvals included 150,000 chips for Tencent, 75,000 for Alibaba, 43,000 for Baidu and 4,000 for BYD, all on the Pentagon list of alleged Chinese military-backed companies. It was not clear how many approvals led to actual shipments, according to Reuters, and Nvidia says it has since stopped shipping H200s to China.",
+     "eli5": "Congress showed how many powerful AI chips the government had said American companies could sell to Chinese firms.",
+     "why_it_matters": "The numbers put a scale on the US-China AI chip debate and will shape the export-control fight in Congress, which affects which chips Chinese labs can build models on.",
+     "topic": "policy",
+     "type": "event",
+     "labs": [
+      "nvidia",
+      "government"
+     ],
+     "people": [],
+     "concepts": [],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "Chairman Brian Mast Exercises Legislative Authority to Publicly Release AI Chip License Information for China",
+       "url": "https://foreignaffairs.house.gov/news/press-releases/chairman-brian-mast-exercises-legislative-authority-to-publicly-release-ai-chip-license-information-for-china",
+       "name": "House Foreign Affairs Committee",
+       "kind": "original"
+      },
+      {
+       "title": "US signed off on sales of nearly 900,000 AI chips to China in six months, committee says",
+       "url": "https://www.thestandard.com.hk/world/article/349075/US-signed-off-on-sales-of-nearly-900000-AI-chips-to-China-in-six-months-committee-says",
+       "name": "The Standard (Reuters)",
+       "kind": "press"
+      },
+      {
+       "title": "Plans to disclose Nvidia’s China chip export licenses as requests hit 3.4 million units",
+       "url": "https://cryptobriefing.com/mast-nvidia-china-chip-export-licenses/",
+       "name": "Crypto Briefing",
+       "kind": "press"
+      }
+     ],
+     "buzz": 2,
+     "published": "2026-11-19T19:35:00Z",
+     "checked": {
+      "model": "editor (rewritten by hand from the sources)",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "Moved from 19 Nov: the earliest timed coverage is 19:35 UTC on 19 Nov, after that edition closed.",
+     "added_by_editor": "2026-11-22",
+     "rank": 9,
+     "id": "2026-11-20-house-committee-says-the-us-approved-about-879-000-nvidia-an",
+     "date": "2026-11-20"
+    },
+    {
      "title": "Chip industry executives warn new US export controls reach well beyond AI chips, Nikkei reports",
      "one_liner": "Executives told Nikkei Asia that the tighter US rules introduced this week also touch chips for everyday mobile and consumer products, and that TSMC has suspended some shipments.",
      "summary": "Nikkei Asia reports that several industry executives say the tighter US export controls introduced on Thursday reach further than first expected. According to the report, the rules go beyond advanced AI chips to chips used in everyday mobile and consumer products, and they also affect chip developers outside China and companies that do not make AI chips. Nikkei reports that TSMC has suspended some shipments. The executives were not named.",
@@ -14465,7 +14483,7 @@
      },
      "editor_reason": "Updated US trade rules expand chip restrictions to include consumer system-on-chip hardware.",
      "added_by_editor": "2026-11-24",
-     "rank": 9,
+     "rank": 10,
      "id": "2026-11-20-chip-industry-executives-warn-new-us-export-controls-reach-w",
      "date": "2026-11-20"
     },
@@ -14514,7 +14532,7 @@
       "hype_flags": []
      },
      "editor_reason": "Microsoft Foundry introduced autonomous enterprise agents with dedicated permissions and management controls in Microsoft 365.",
-     "rank": 10,
+     "rank": 11,
      "id": "2026-11-20-microsoft-foundry-introduces-trusted-autonomous-agents-for-t",
      "date": "2026-11-20"
     },
@@ -14562,7 +14580,7 @@
       "hype_flags": []
      },
      "editor_reason": "AI systems autonomously discovered, designed, and verified a new CPU architecture called Frostbite.",
-     "rank": 11,
+     "rank": 12,
      "id": "2026-11-20-architect-labs-introduces-frostbite-cpu-architecture-designe",
      "date": "2026-11-20"
     },
@@ -14601,7 +14619,7 @@
       "hype_flags": []
      },
      "editor_reason": "Microsoft detailed an iterative workflow for inspecting and updating public evaluation benchmarks.",
-     "rank": 12,
+     "rank": 13,
      "id": "2026-11-20-microsoft-details-audit-of-coding-benchmarks",
      "date": "2026-11-20"
     },
@@ -14643,7 +14661,7 @@
       "hype_flags": []
      },
      "editor_reason": "Amazon Bedrock AgentCore payments now allows autonomous AI agents to pay for AWS Marketplace products using the x402 standard.",
-     "rank": 13,
+     "rank": 14,
      "id": "2026-11-20-amazon-bedrock-agentcore-payments-now-supports-aws-marketpla",
      "date": "2026-11-20"
     },
@@ -14683,7 +14701,7 @@
       "hype_flags": []
      },
      "editor_reason": "Codex CLI 0.171.0 added GPT-6.2 Sol and Astra to its available model catalog.",
-     "rank": 14,
+     "rank": 15,
      "id": "2026-11-20-codex-cli-0-171-0-release-adds-new-models-and-tui-workspace",
      "date": "2026-11-20"
     },
@@ -14728,7 +14746,7 @@
       "hype_flags": []
      },
      "editor_reason": "Amazon SageMaker AI added automated detection for latency drift, unutilized GPUs, and unoptimized settings on active endpoints.",
-     "rank": 15,
+     "rank": 16,
      "id": "2026-11-20-amazon-sagemaker-ai-monitors-inference-endpoints-for-drift-a",
      "date": "2026-11-20"
     },
@@ -14773,7 +14791,7 @@
       "hype_flags": []
      },
      "editor_reason": "Developers can now run Moonshot AI's open-source Kimi Code CLI using models hosted on Amazon Bedrock.",
-     "rank": 16,
+     "rank": 17,
      "id": "2026-11-20-moonshot-ai-adds-native-bedrock-provider-to-kimi-code-cli",
      "date": "2026-11-20"
     },
@@ -14818,7 +14836,7 @@
       "hype_flags": []
      },
      "editor_reason": "Nous Research brings its open-source Hermes Agent to Microsoft Teams to share agent workflows across enterprise teams.",
-     "rank": 17,
+     "rank": 18,
      "id": "2026-11-20-hermes-agent-bringing-collective-wisdom-feature-to-microsoft",
      "date": "2026-11-20"
     },
@@ -14856,7 +14874,7 @@
       "hype_flags": []
      },
      "editor_reason": "Microsoft updated the on-premises data gateway for secure connectivity across cloud and local data sources.",
-     "rank": 18,
+     "rank": 19,
      "id": "2026-11-20-microsoft-fabric-releases-november-2026-on-premises-data-gat",
      "date": "2026-11-20"
     },
@@ -14900,7 +14918,7 @@
       "hype_flags": []
      },
      "editor_reason": "Google employees petitioned management not to penalize school districts that choose not to adopt AI tools.",
-     "rank": 19,
+     "rank": 20,
      "id": "2026-11-20-google-workers-tell-employer-not-to-punish-schools-rejecting",
      "date": "2026-11-20"
     },
@@ -14943,17 +14961,17 @@
       "hype_flags": []
      },
      "editor_reason": "Microsoft announced general availability of Managed Compute in Microsoft Foundry for serving open models.",
-     "rank": 20,
+     "rank": 21,
      "id": "2026-11-20-managed-compute-in-microsoft-foundry-reaches-general-availab",
      "date": "2026-11-20"
     }
    ],
    "stats": {
     "items": 25,
-    "stories": 20,
+    "stories": 21,
     "sources_ok": 42,
     "sources_failed": [],
-    "published": 20,
+    "published": 21,
     "dropped": 0,
     "llm_calls": 19,
     "cache_hits": 0,
