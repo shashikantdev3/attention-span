@@ -1,6 +1,13 @@
 {
  "editions": [
   {
+   "date": "2026-11-25",
+   "file": "2026-11.json",
+   "count": 6,
+   "spotlight": 1,
+   "lead": "OpenAI posts a model-written preprint claiming the matrix multiplication exponent is exactly 9/4"
+  },
+  {
    "date": "2026-11-24",
    "file": "2026-11.json",
    "count": 17,
@@ -337,6 +344,6 @@
    "lead": "Anthropic Releases Claude Haiku 5.5 and AWS Integration"
   }
  ],
- "latest": "2026-11-24",
- "updated": "2026-11-25T19:17:56Z"
+ "latest": "2026-11-25",
+ "updated": "2026-11-25T19:19:14Z"
 }
