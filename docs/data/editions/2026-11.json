@@ -18069,6 +18069,309 @@
     "fallbacks": [],
     "editor": "written by hand from web research"
    }
+  },
+  "2026-11-26": {
+   "date": "2026-11-26",
+   "generated_at": "2026-11-26T12:05:08Z",
+   "stories": [
+    {
+     "title": "Nvidia tells server makers to stop shipping its AI systems to Malaysia, Singapore, Thailand and Indonesia, the FT reports",
+     "one_liner": "Dell and Supermicro have reportedly told customers in the four countries that Nvidia will not approve their orders while it works out how to comply with new US rules.",
+     "summary": "Nvidia has asked its manufacturing partners to pause shipments of servers built with its AI chips to Malaysia, Singapore, Thailand and Indonesia, according to a Financial Times report summarized by The National. Server makers including Dell and Supermicro told customers in the region that Nvidia will not authorize their orders, the FT reports, citing people familiar with the matter. It is not clear whether the halt is temporary; the sources say Nvidia and its partners are seeking clarity on how to comply with Washington's latest export rules. Those rules, introduced the week before, aim to stop Chinese companies from renting computing power from cloud providers that run Nvidia chips. The four countries had become popular places for Chinese AI developers to reach Nvidia's most advanced hardware. One cloud executive told the FT that nobody knows how to apply for the needed licence while a 90-day clock runs. The FT also says Nvidia booked $104 billion of revenue through its Singapore subsidiary in 2025, up 72% from a year earlier.",
+     "eli5": "Nvidia has told the companies that build its computers to stop sending them to four countries in Southeast Asia for now, because the US worries the chips end up helping China.",
+     "why_it_matters": "Southeast Asia is one of Nvidia's biggest sales routes, so a freeze there shows how quickly the new US rules on renting compute are hitting real orders and data center plans.",
+     "topic": "policy",
+     "type": "event",
+     "labs": [
+      "nvidia",
+      "government"
+     ],
+     "people": [],
+     "concepts": [
+      "gpu",
+      "ai-regulation"
+     ],
+     "spotlight": true,
+     "spotlight_reason": "A pause on AI server sales to four major Southeast Asian markets is the clearest sign yet of how hard the new US compute rules bite.",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "Nvidia halts chip shipments to South-East Asia amid US crackdown",
+       "url": "https://www.thenationalnews.com/future/technology/2026/11/26/nvidia-halts-chip-shipments-to-south-east-asia-amid-us-crackdown/",
+       "name": "The National",
+       "kind": "press"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-26T02:04:00Z",
+     "checked": {
+      "model": "editor (written by hand from the sources)",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "Added by the editor from web research.",
+     "added_by_editor": "2026-11-26",
+     "rank": 1,
+     "id": "2026-11-26-nvidia-tells-server-makers-to-stop-shipping-its-ai-systems-t",
+     "date": "2026-11-26"
+    },
+    {
+     "title": "FCC approves SpaceX's plan for up to 1 million Starmind satellites that would run AI data centers in orbit",
+     "one_liner": "Chairman Brendan Carr says solar-powered computing constellations will extend America's lead in AI; Amazon, Viasat and astronomers had asked the agency to deny the application.",
+     "summary": "The US Federal Communications Commission approved SpaceX's application to launch up to 1 million satellites that would work as space-based data centers, FCC Chairman Brendan Carr announced on Wednesday. The constellation, called Starmind, is separate from Starlink, though SpaceX's filing describes possible links between the two. Carr said Starmind and rival constellations would use solar power to extend America's lead in AI. The FCC order notes petitions to deny from Amazon's Kuiper unit, Viasat and the American Astronomical Society; Amazon had called the plan an ambition rather than a real plan. Earthjustice criticized the approval for coming in a holiday week without the environmental review it says federal law requires, while the FCC said it dismissed concerns outside its authority, including environmental ones. TeslaNorth notes that 1 million is the ceiling of the approval, not a deployment schedule, and that Elon Musk has guessed the first Starmind computers could launch in the third quarter of 2027.",
+     "eli5": "The US government said SpaceX may put up to a million satellites in space that act like computer warehouses for AI, powered by sunlight.",
+     "why_it_matters": "Power and land are the main limits on building AI data centers on Earth, and this approval is the first big regulatory green light for moving some of that computing into orbit.",
+     "topic": "industry",
+     "type": "event",
+     "labs": [
+      "other",
+      "government"
+     ],
+     "people": [],
+     "concepts": [
+      "hyperscaler"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "SpaceX wins FCC approval to deploy 1 million orbital data center satellites",
+       "url": "https://www.cnbc.com/2026/11/25/spacex-fcc-satellite-approval.html",
+       "name": "CNBC",
+       "kind": "press"
+      },
+      {
+       "title": "FCC Approves Up to 1 Million SpaceX Satellites for AI Data Centers",
+       "url": "https://teslanorth.com/2026/11/25/fcc-spacex-starmind-million-satellites/",
+       "name": "TeslaNorth",
+       "kind": "press"
+      }
+     ],
+     "buzz": 2,
+     "published": "2026-11-25T18:22:00Z",
+     "checked": {
+      "model": "editor (written by hand from the sources)",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "Added by the editor from web research.",
+     "added_by_editor": "2026-11-26",
+     "rank": 2,
+     "id": "2026-11-26-fcc-approves-spacex-s-plan-for-up-to-1-million-starmind-sate",
+     "date": "2026-11-26"
+    },
+    {
+     "title": "S&P puts Nvidia's AA credit rating under review, citing weak oversight and 'key man' risk after the Huang ouster and return",
+     "one_liner": "A one-notch cut to AA- would keep Nvidia investment grade but could make the loans it guarantees for neoclouds more expensive.",
+     "summary": "S&P Global Ratings is weighing a downgrade of Nvidia's credit rating over management and governance concerns, TechCrunch reports. In its statement, S&P said the removal and reinstatement of CEO Jensen Huang pointed to weak executive oversight, a lack of succession planning and key man risk. The agency expects to finish its review within 90 days and could lower Nvidia from AA to AA-. Nvidia would remain investment grade, but TechCrunch notes that a lower rating could raise its borrowing costs. That matters beyond Nvidia because the company backstops debt for neoclouds and other infrastructure firms with weaker credit. In August Nvidia said it would arrange $500 billion of AI infrastructure financing with six institutions, guaranteeing 25% of the loans, and Bloomberg has reported that lenders already wanted bigger guarantees.",
+     "eli5": "A company that grades how safe it is to lend money to big firms says Nvidia might get a slightly worse grade because its leadership drama looked messy.",
+     "why_it_matters": "Nvidia's balance sheet props up much of the debt behind new AI data centers, so even a small rating cut could raise the cost of the wider build-out.",
+     "topic": "industry",
+     "type": "event",
+     "labs": [
+      "nvidia"
+     ],
+     "people": [],
+     "concepts": [],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "S&P considers Nvidia credit downgrade over governance and 'key man' risks",
+       "url": "https://techcrunch.com/2026/11/25/sp-considers-nvidia-credit-downgrade-over-governance-and-key-man-risks/",
+       "name": "TechCrunch",
+       "kind": "press"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-25T22:44:00Z",
+     "checked": {
+      "model": "editor (written by hand from the sources)",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "Added by the editor from web research.",
+     "added_by_editor": "2026-11-26",
+     "rank": 3,
+     "id": "2026-11-26-s-p-puts-nvidia-s-aa-credit-rating-under-review-citing-weak",
+     "date": "2026-11-26"
+    },
+    {
+     "title": "CBS News: two California firms buying Nvidia's top chips are controlled by Chinese-owned parents",
+     "one_liner": "The investigation, built on filings and research by the nonprofit C4ADS, names Nvidia partners RiCloud AI and Aivres; the US has not accused RiCloud of wrongdoing.",
+     "summary": "Nvidia is selling its most advanced chips to at least two US-based companies that are controlled by Chinese-owned firms, a CBS News investigation reports, based on corporate filings, court records and research by the Washington nonprofit C4ADS. One is RiCloud AI of San Jose, which is on Nvidia's US preferred partner list and whose parent is a Shenzhen-headquartered company listed in Hong Kong. CBS says RiCloud signed a $120 million deal to lease 300 Nvidia B300 servers to a Taiwan company that used to import whisky. The other is Aivres, the renamed US arm of Inspur, whose group companies were blacklisted in 2023; CBS cites a New York Times analysis that Aivres exported at least $5.6 billion of advanced technology to Southeast Asia between April 2024 and February 2026. CBS notes the US government has not accused RiCloud or its parent of wrongdoing, and Aivres itself is not blacklisted; neither Aivres nor the Taiwan lessee responded. Senator Elizabeth Warren said Nvidia's leaders still owe Congress answers on export compliance.",
+     "eli5": "Reporters found that some American companies buying Nvidia's best chips are actually owned by Chinese companies, which raises questions about where those chips end up.",
+     "why_it_matters": "It adds to pressure on Nvidia's export controls just as the US tightens rules on chips reaching China through third countries and partners.",
+     "topic": "policy",
+     "type": "event",
+     "labs": [
+      "nvidia"
+     ],
+     "people": [],
+     "concepts": [
+      "gpu"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "2 California companies are buying Nvidia's most advanced chips. Those companies are actually Chinese-owned, a CBS News investigation reveals.",
+       "url": "https://www.cbsnews.com/news/nvidia-china-ai-chips-computing-sales/",
+       "name": "CBS News",
+       "kind": "press"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-25T23:10:00Z",
+     "checked": {
+      "model": "editor (written by hand from the sources)",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "Added by the editor from web research.",
+     "added_by_editor": "2026-11-26",
+     "rank": 4,
+     "id": "2026-11-26-cbs-news-two-california-firms-buying-nvidia-s-top-chips-are",
+     "date": "2026-11-26"
+    },
+    {
+     "title": "Washington Post: Hegseth weighed the Defense Production Act to press Nvidia's board into reinstating Huang; the Pentagon denies it",
+     "one_liner": "Three sources told the Post officials discussed using the 1950 law to make Nvidia divert capacity to military work unless Huang returned.",
+     "summary": "Defense Secretary Pete Hegseth considered invoking the Defense Production Act of 1950 to pressure Nvidia's board into restoring Jensen Huang as CEO, The Washington Post reported, according to Security Boulevard. Three anonymous sources told the Post that Hegseth and his deputy Steve Feinberg discussed the idea during weekend talks among senior administration officials. One source said officials explored using the law to force Nvidia to shift more manufacturing capacity to military projects unless the board brought Huang back. A Pentagon official denied the account, saying no such conversations took place and no such proposal was made. The report says President Trump and Vice President Vance were involved in the decision, though their exact roles are unclear, and that Trump asked Vance to help broker Huang's return. Nvidia's board reinstated Huang on Monday.",
+     "eli5": "A newspaper says a top US defense official thought about using an old emergency law to push Nvidia into taking back its boss, but the Pentagon says that never happened.",
+     "why_it_matters": "If accurate, it shows how far the government was willing to reach into the boardroom of the company at the center of the AI chip supply.",
+     "topic": "policy",
+     "type": "event",
+     "labs": [
+      "nvidia",
+      "government"
+     ],
+     "people": [],
+     "concepts": [],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "Hegseth Weighed Cold War Law to Force NVIDIA to Reinstate CEO Jensen Huang: Report",
+       "url": "https://securityboulevard.com/2026/11/hegseth-weighed-cold-war-law-to-force-nvidia-to-reinstate-ceo-jensen-huang-report/",
+       "name": "Security Boulevard",
+       "kind": "press"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-25T23:15:03Z",
+     "checked": {
+      "model": "editor (written by hand from the sources)",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "Added by the editor from web research.",
+     "added_by_editor": "2026-11-26",
+     "rank": 5,
+     "id": "2026-11-26-washington-post-hegseth-weighed-the-defense-production-act-t",
+     "date": "2026-11-26"
+    },
+    {
+     "title": "OpenAI says it undercounted GPT-6.2 usage, so ChatGPT and Codex limits now run out up to 40% sooner",
+     "one_liner": "Astra users hit limits 40% faster and Sol users 25% faster; OpenAI is giving paid accounts one banked reset and will move to a shared ChatGPT and Codex allowance in December.",
+     "summary": "OpenAI says it incorrectly discounted usage of GPT-6.2 Astra and Sol for most users when the models launched, Notebookcheck reports. Thibault Sottiaux of OpenAI announced the fix on November 26, saying the same work will now use more of a plan's allowance. Compared with the previous week, users reach their limits 40% faster on Astra and 25% faster on Sol, while other models are unaffected and OpenAI will not charge for past usage. As compensation, each Go, Plus, Pro and Business account gets one banked reset. A day earlier TechCrunch reported that OpenAI had begun putting a small group of Pro subscribers on a single meter shared by Chat and Work, with Instant conversations still unlimited. An OpenAI spokesperson told TechCrunch most users should not see more frequent resets but a small share of heavy users may hit limits sooner, and the shared allowance is due to reach more plans in December.",
+     "eli5": "OpenAI found it was counting how much people used its newest models too gently, so now people will use up their allowance faster.",
+     "why_it_matters": "Usage limits decide how much real work paying subscribers can do with frontier models, and the change lands as users compare plans across OpenAI, Google and Anthropic.",
+     "topic": "products",
+     "type": "product",
+     "labs": [
+      "openai"
+     ],
+     "people": [],
+     "concepts": [
+      "chatbot",
+      "coding-assistant"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "ChatGPT users hit limits up to 40% sooner after OpenAI billing fix",
+       "url": "https://www.notebookcheck.net/ChatGPT-users-hit-limits-up-to-40-sooner-after-OpenAI-billing-fix.1460643.0.html",
+       "name": "Notebookcheck",
+       "kind": "press"
+      },
+      {
+       "title": "OpenAI says heavy ChatGPT users may hit limits sooner as it merges Chat and Work",
+       "url": "https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/",
+       "name": "TechCrunch",
+       "kind": "press"
+      }
+     ],
+     "buzz": 2,
+     "published": "2026-11-25T20:03:00Z",
+     "checked": {
+      "model": "editor (written by hand from the sources)",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "Added by the editor from web research.",
+     "added_by_editor": "2026-11-26",
+     "rank": 6,
+     "id": "2026-11-26-openai-says-it-undercounted-gpt-6-2-usage-so-chatgpt-and-cod",
+     "date": "2026-11-26"
+    },
+    {
+     "title": "Apple pulls MiniMax's Talkie chatbot from the App Store worldwide after reports it sent sexual and abusive messages to children",
+     "one_liner": "Apple confirmed the removal for sexual content; a UK and Australian investigation found characters using degrading language and romantic role-play with minors.",
+     "summary": "Apple has removed Talkie, a companion chatbot app from Shanghai-based MiniMax, from its App Store worldwide, 9to5Mac reports, citing the South China Morning Post. Apple confirmed the app was pulled for including sexual content but did not say whether that related to content shown to minors. The removal follows a joint investigation by the UK's Bureau of Investigative Journalism and Australia's ABC News, which found Talkie characters using degrading language, possessive behavior and romantic role-play in chats with children. In one case cited by the investigation, a chatbot called a 12-year-old girl a pathetic waste of space. MiniMax launched Talkie in 2023 through a Singapore subsidiary, and research firm Unique Research says it had almost 11 million monthly active users in October. The same firm says new downloads fell 32.2% in October after stricter age checks.",
+     "eli5": "Apple took a popular AI chat app off its store because reporters found its characters said cruel and sexual things to kids.",
+     "why_it_matters": "Companion chatbots are under growing legal and political pressure over child safety, and an App Store removal cuts off one of the largest such apps from most of its users.",
+     "topic": "policy",
+     "type": "event",
+     "labs": [
+      "other"
+     ],
+     "people": [],
+     "concepts": [
+      "chatbot",
+      "ai-safety"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "Apple pulls Chinese AI chatbot from the App Store amid child safety concerns",
+       "url": "https://9to5mac.com/2026/11/25/apple-pulls-popular-chinese-ai-chatbot-from-the-app-store-amid-child-safety-concerns/",
+       "name": "9to5Mac",
+       "kind": "press"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-26T02:12:00Z",
+     "checked": {
+      "model": "editor (written by hand from the sources)",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "Added by the editor from web research.",
+     "added_by_editor": "2026-11-26",
+     "rank": 7,
+     "id": "2026-11-26-apple-pulls-minimax-s-talkie-chatbot-from-the-app-store-worl",
+     "date": "2026-11-26"
+    }
+   ],
+   "stats": {
+    "items": 7,
+    "stories": 7,
+    "published": 7,
+    "dropped": 0,
+    "llm_calls": 0,
+    "models": {},
+    "fallbacks": [],
+    "editor": "written by hand from web research"
+   }
   }
  }
 }

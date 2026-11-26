@@ -1,6 +1,13 @@
 {
  "editions": [
   {
+   "date": "2026-11-26",
+   "file": "2026-11.json",
+   "count": 7,
+   "spotlight": 1,
+   "lead": "Nvidia tells server makers to stop shipping its AI systems to Malaysia, Singapore, Thailand and Indonesia, the FT reports"
+  },
+  {
    "date": "2026-11-25",
    "file": "2026-11.json",
    "count": 9,
@@ -344,6 +351,6 @@
    "lead": "Anthropic Releases Claude Haiku 5.5 and AWS Integration"
   }
  ],
- "latest": "2026-11-25",
- "updated": "2026-11-26T12:04:07Z"
+ "latest": "2026-11-26",
+ "updated": "2026-11-26T12:05:08Z"
 }

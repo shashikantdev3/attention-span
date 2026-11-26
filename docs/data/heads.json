@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-25T19:19:47Z",
+ "updated_at": "2026-11-26T12:05:54Z",
  "window_days": 7,
  "groups": [
   {
@@ -1976,6 +1976,49 @@
  ],
  "posts": [
   {
+   "id": "x-2125784147889393806",
+   "platform": "x",
+   "url": "https://x.com/thsottiaux/status/2125784147889393806",
+   "posted_at": "2026-11-26T02:50:10Z",
+   "date_only": false,
+   "text": "We made a billing mistake at launch of GPT-6.2 that incorrectly discounted GPT-6.2 Astra and Sol usage for most users. \n\nWe’ve fixed this now, so the same work will use more of your plan’s usage allowance. Comparing to last week, you will reach your limits 40% faster on GPT-6.2…",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">We made a billing mistake at launch of GPT-6.2 that incorrectly discounted GPT-6.2 Astra and Sol usage for most users. <br><br>We’ve fixed this now, so the same work will use more of your plan’s usage allowance. Comparing to last week, you will reach your limits 40% faster on GPT-6.2…</p>&mdash; Tibo (@thsottiaux) <a href=\"https://x.com/thsottiaux/status/2125784147889393806?ref_src=twsrc%5Etfw\">November 26, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "tibo-sottiaux",
+   "note": "Sottiaux on fixing the GPT-6.2 usage undercount (via Notebookcheck)",
+   "meaning": "Sottiaux says OpenAI made a billing mistake at the GPT-6.2 launch that undercounted Astra and Sol usage. With the fix, the same work uses more of a plan's allowance, and users will reach limits 40% faster than last week.",
+   "concepts": [
+    "tokens",
+    "coding-assistant"
+   ],
+   "story": "2026-11-26-openai-says-it-undercounted-gpt-6-2-usage-so-chatgpt-and-cod",
+   "model": "editor (written by hand from the post)",
+   "checked": "editor (written by hand from the post)",
+   "added": "2026-11-26"
+  },
+  {
+   "id": "x-2125638790593274259",
+   "platform": "x",
+   "url": "https://x.com/sama/status/2125638790593274259",
+   "posted_at": "2026-11-25T17:12:34Z",
+   "date_only": false,
+   "text": "We’re now testing Private Inference, our latest offering as part of OpenAI Private Intelligence, with a small group of customers.\n\nStronger privacy protections will make frontier AI useful for a lot more work, and business privacy is important for a healthy ecosystem. Reach out…",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">We’re now testing Private Inference, our latest offering as part of OpenAI Private Intelligence, with a small group of customers.<br><br>Stronger privacy protections will make frontier AI useful for a lot more work, and business privacy is important for a healthy ecosystem. Reach out…</p>&mdash; Sam Altman (@sama) <a href=\"https://x.com/sama/status/2125638790593274259?ref_src=twsrc%5Etfw\">November 25, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "sam-altman",
+   "note": "Altman says OpenAI is testing Private Inference (via Sulat)",
+   "meaning": "Altman says OpenAI is testing Private Inference, part of OpenAI Private Intelligence, with a small group of customers. He argues stronger privacy protections will make frontier AI useful for much more work.",
+   "concepts": [
+    "inference"
+   ],
+   "story": null,
+   "model": "editor (written by hand from the post)",
+   "checked": "editor (written by hand from the post)",
+   "added": "2026-11-26"
+  },
+  {
    "id": "bsky-simonwillison.net-3n33rvdsius2a",
    "person": "simon-willison",
    "platform": "bluesky",
@@ -1994,7 +2037,7 @@
     "title": "Three LLM inflection points in twelve months",
     "text": "I gave a keynote at the AI Engineer Code Summit a couple of weeks ago, constructed around the idea that there have been three significant inflection points in the abilities …"
    },
-   "likes": 76,
+   "likes": 81,
    "reposts": 9,
    "via": "feed",
    "meaning": "Willison shares an expanded write-up of his AI Engineer talk, arguing that large language models have gone through three key inflection points over the past twelve months.",
@@ -2028,6 +2071,27 @@
    "added": "2026-11-24"
   },
   {
+   "id": "x-2125284868414394550",
+   "platform": "x",
+   "url": "https://x.com/thsottiaux/status/2125284868414394550",
+   "posted_at": "2026-11-24T17:46:13Z",
+   "date_only": false,
+   "text": "Hi. We’re beginning to roll out the combined Chat and Work experience to a small group of Pro users to learn from feedback before we roll out more broadly. \n\nLet us know what you think and where we can improve!",
+   "context": null,
+   "embed_html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">Hi. We’re beginning to roll out the combined Chat and Work experience to a small group of Pro users to learn from feedback before we roll out more broadly. <br><br>Let us know what you think and where we can improve!</p>&mdash; Tibo (@thsottiaux) <a href=\"https://x.com/thsottiaux/status/2125284868414394550?ref_src=twsrc%5Etfw\">November 24, 2026</a></blockquote>",
+   "via": "inbox",
+   "person": "tibo-sottiaux",
+   "note": "Sottiaux on merging Chat and Work usage (via TechCrunch)",
+   "meaning": "Sottiaux says OpenAI is starting to roll out the combined Chat and Work experience in ChatGPT to a small group of Pro users, to gather feedback before a broader rollout.",
+   "concepts": [
+    "chatbot"
+   ],
+   "story": "2026-11-26-openai-says-it-undercounted-gpt-6-2-usage-so-chatgpt-and-cod",
+   "model": "editor (written by hand from the post)",
+   "checked": "editor (written by hand from the post)",
+   "added": "2026-11-26"
+  },
+  {
    "id": "bsky-emollick.bsky.social-3n333h3yyoc2g",
    "person": "ethan-mollick",
    "platform": "bluesky",
@@ -2036,8 +2100,8 @@
    "text": "Thing I am hearing from a number of big firms, from manufacturers to financial services: we have scattered teams of 2-3 people using AI that are doing the work of dozens of folks in a fraction of the time, creating large-scale management fights over the implications and politics for the organization",
    "links": [],
    "context": null,
-   "likes": 198,
-   "reposts": 14,
+   "likes": 201,
+   "reposts": 15,
    "via": "feed",
    "meaning": "Mollick says several large firms tell him small teams of two or three people using AI now do the work of dozens, and that this is causing big internal fights over what it means for the organization.",
    "concepts": [],
@@ -2060,8 +2124,8 @@
     }
    ],
    "context": null,
-   "likes": 127,
-   "reposts": 17,
+   "likes": 133,
+   "reposts": 18,
    "via": "feed",
    "meaning": "Mollick points to a case outside the quantitative fields: a historian says GPT-6.2 Astra identified the author of an anonymous 1808 sketchbook at Yale as an obscure French aristocrat.",
    "concepts": [],
@@ -2248,7 +2312,7 @@
    "text": "Not that AI discourse has ever been great, but \"of course LLMs are good at math\" both misses that \"good at math\" is an *slight* understatement in the context of solving the Reimann Hypothesis & also ignores the fact that LLMs were not actually \"good at math\" until very recent breakthroughs.",
    "links": [],
    "context": null,
-   "likes": 285,
+   "likes": 289,
    "reposts": 23,
    "via": "feed",
    "meaning": "Mollick pushes back on people saying LLMs are naturally good at math: he says that undersells a possible Riemann Hypothesis result and ignores that models were not good at math until very recent breakthroughs.",
@@ -2269,7 +2333,7 @@
    "text": "Yes, it is reasonable to expect AI models struggle more with unverifiable domains, but I do think it is worth noting that we also see very large gains in domains without automatic verification as well\n\nHere are humans evaluations of AI in writing, business problems, design, and doing freelance tasks",
    "links": [],
    "context": null,
-   "likes": 93,
+   "likes": 94,
    "reposts": 5,
    "via": "feed",
    "meaning": "Mollick agrees models may struggle more where answers cannot be checked automatically, but says human evaluations still show large gains in writing, business problems, design and freelance tasks.",

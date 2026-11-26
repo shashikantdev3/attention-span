@@ -600,3 +600,6 @@
 2026-11-24  https://x.com/ylecun/status/2124550037912920090 | on Dario Amodei and open models
 2026-11-24  https://x.com/elonmusk/status/2124464633490850164 | superintelligence claim
 2026-11-24  https://x.com/elonmusk/status/2124213680422387741 | on the Riemann proof claim
+2026-11-26  https://x.com/thsottiaux/status/2125784147889393806 | Sottiaux on fixing the GPT-6.2 usage undercount (via Notebookcheck)
+2026-11-26  https://x.com/sama/status/2125638790593274259 | Altman says OpenAI is testing Private Inference (via Sulat)
+2026-11-26  https://x.com/thsottiaux/status/2125284868414394550 | Sottiaux on merging Chat and Work usage (via TechCrunch)
