@@ -17659,7 +17659,7 @@
   },
   "2026-11-25": {
    "date": "2026-11-25",
-   "generated_at": "2026-11-25T19:19:14Z",
+   "generated_at": "2026-11-26T12:04:07Z",
    "stories": [
     {
      "title": "OpenAI posts a model-written preprint claiming the matrix multiplication exponent is exactly 9/4",
@@ -17753,6 +17753,138 @@
      "date": "2026-11-25"
     },
     {
+     "title": "Microsoft says China's Salt Typhoon and Crystal Typhoon and North Korean groups now use the ARTEX agent framework in intrusions",
+     "one_liner": "Microsoft's new report names six threat groups using the open-source tool and says one campaign produced more than 151,000 failed sign-ins.",
+     "summary": "Microsoft Threat Intelligence published a long report on ARTEX, the agentic hacking framework the FBI warned about earlier this month, and says six threat actors have now built it into their tooling. The new names include the Chinese state-backed groups Salt Typhoon and Crystal Typhoon, which Microsoft says use it for network reconnaissance, credential attacks and web application exploitation, plus the North Korean groups Onyx Sleet and Pearl Sleet. Microsoft describes ARTEX as a system that coordinates LLM agents to move from reconnaissance to privileged access in minutes, while stressing that it adds no new attack techniques and relies on common penetration testing tools. The code was posted on GitHub in July and removed by its developer in October, but forks remain, and Microsoft says a China-based security firm now claims ownership and sells a commercial version. In one Storm-0940 campaign, Microsoft counted more than 151,000 failed sign-ins, peaking at 2,900 a minute. It advises defenders to watch for behavior rather than specific tools.",
+     "eli5": "Microsoft says government hacking teams in China and North Korea are now using an AI tool that runs many hacking steps on its own, very fast.",
+     "why_it_matters": "Earlier warnings were mostly about criminals; Microsoft now ties the same automated tool to major state groups, including the one behind past US telecom breaches.",
+     "topic": "industry",
+     "type": "event",
+     "labs": [
+      "microsoft"
+     ],
+     "people": [],
+     "concepts": [
+      "agent",
+      "red-teaming"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "What defenders need to know about ARTEX, the agentic AI framework threat actors abuse",
+       "url": "https://www.microsoft.com/en-us/security/blog/2026/11/25/what-defenders-need-to-know-artex-agentic-ai-framework-threat-actors-abuse/",
+       "name": "Microsoft Security Blog",
+       "kind": "original"
+      },
+      {
+       "title": "Microsoft: China's Salt Typhoon hackers are using Artex",
+       "url": "https://therecord.media/microsoft-china-salt-typhoon-using-artex-ai-tool",
+       "name": "The Record",
+       "kind": "press"
+      }
+     ],
+     "buzz": 2,
+     "published": "2026-11-25T16:00:00Z",
+     "checked": {
+      "model": "editor (written by hand from the sources)",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "Added by the editor from web research.",
+     "added_by_editor": "2026-11-26",
+     "rank": 3,
+     "id": "2026-11-25-microsoft-says-china-s-salt-typhoon-and-crystal-typhoon-and",
+     "date": "2026-11-25"
+    },
+    {
+     "title": "Google Research posts six Cogentic-written math papers in one day, including a proven subexponential factoring algorithm",
+     "one_liner": "The papers, not yet peer reviewed, also cover discrete logarithms, Nash equilibria and the log-rank conjecture; OfficeChai notes the factoring result does not threaten real encryption.",
+     "summary": "Google researchers added six new papers produced by Cogentic, a multi-agent system for mathematical discovery, to the google-research GitHub repository on November 25. OfficeChai reports that Google says each paper and its Lean 4 proof came entirely from Cogentic with no human input beyond the first prompt. The headline paper describes an algorithm that factors integers with a proven subexponential running time and no unproven assumptions, though OfficeChai says its constant is far worse than the number field sieve and it is not a faster way to break real keys. Other papers claim a proven algorithm for discrete logarithms just below the previous proven bound, a better approximation for Nash equilibria in two-player games, and a tiny improvement on the log-rank conjecture. None of the papers is peer reviewed, and OfficeChai says the Lean formalizations were not released. The repository notes that it is not an official Google product.",
+     "eli5": "A Google AI system wrote six new math papers in a day, including a new, proven way to break big numbers into their factors.",
+     "why_it_matters": "It follows OpenAI's and Anthropic's model-written proofs this week, adding to a fast run of claimed AI results in core theoretical computer science that now need expert checking.",
+     "topic": "research",
+     "type": "paper",
+     "labs": [
+      "google"
+     ],
+     "people": [],
+     "concepts": [
+      "agent",
+      "reasoning-model"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "Google's Cogentic AI Releases Six Math Papers In One Day, Including A Proven Fast Algorithm For Factoring Numbers",
+       "url": "https://officechai.com/ai/googles-cogentic-ai-releases-six-math-papers-in-one-day-including-a-proven-fast-algorithm-for-factoring-numbers/",
+       "name": "OfficeChai",
+       "kind": "press"
+      },
+      {
+       "title": "cogentic_research_papers",
+       "url": "https://github.com/google-research/google-research/tree/master/cogentic_research_papers",
+       "name": "GitHub (google-research)",
+       "kind": "original"
+      }
+     ],
+     "buzz": 2,
+     "published": "2026-11-25T16:00:00Z",
+     "checked": {
+      "model": "editor (written by hand from the sources)",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "Added by the editor from web research.",
+     "added_by_editor": "2026-11-26",
+     "rank": 4,
+     "id": "2026-11-25-google-research-posts-six-cogentic-written-math-papers-in-on",
+     "date": "2026-11-25"
+    },
+    {
+     "title": "Anthropic says Claude rewrote its Messages API in Rust, cutting CPU per request by about 70%",
+     "one_liner": "Anthropic says the hard part was not writing the code but proving it matched production, which it did by replaying shadowed traffic until 99.6% of inputs matched.",
+     "summary": "Anthropic published an engineering post on moving its Messages API from Python to Rust, with most of the work done by Claude. The company says API traffic grew about 1,800 times from early 2024 to fall 2026, and an earlier partial rewrite saved only 8% to 10% of CPU. Claude wrote the first version of the core request path in about a week, and the full rewrite landed in September. Anthropic says verification was the real bottleneck: an audit found more than 100 weakened assertions among the ported tests, and at one point the Rust service passed about 98% of tests while matching production on only about a quarter of inputs. The team then shadowed live traffic and compared each step, grouping mismatches into bug fingerprints, until matching reached 99.6%. Anthropic reports about 70% less CPU and more than 80% less memory per request, and median time to first token down about 20%.",
+     "eli5": "Anthropic had its AI rewrite the program that answers all Claude requests in a faster language, then spent most of its effort checking the new version behaved exactly like the old one.",
+     "why_it_matters": "It is a large, concrete case of an AI lab using its own model to rewrite production infrastructure, and its main lesson is that checking AI-written code now costs more than writing it.",
+     "topic": "dev-tools",
+     "type": "event",
+     "labs": [
+      "anthropic"
+     ],
+     "people": [],
+     "concepts": [
+      "coding-assistant",
+      "agent"
+     ],
+     "spotlight": false,
+     "spotlight_reason": "",
+     "new_terms": [],
+     "sources": [
+      {
+       "title": "Migrating our Messages API to Rust",
+       "url": "https://www.anthropic.com/research/migrating-api-to-rust",
+       "name": "Anthropic",
+       "kind": "original"
+      }
+     ],
+     "buzz": 1,
+     "published": "2026-11-25T17:00:00Z",
+     "checked": {
+      "model": "editor (written by hand from the sources)",
+      "rounds": 1,
+      "hype_flags": []
+     },
+     "editor_reason": "Added by the editor from web research.",
+     "added_by_editor": "2026-11-26",
+     "rank": 5,
+     "id": "2026-11-25-anthropic-says-claude-rewrote-its-messages-api-in-rust-cutti",
+     "date": "2026-11-25"
+    },
+    {
      "title": "Claude can now install artifacts as Mac and Windows apps with their own icons and windows",
      "one_liner": "Anthropic's 'Install as app' beta turns a Claude artifact into a desktop app that can ask for notifications, shortcuts or even full computer access.",
      "summary": "Anthropic is rolling out a beta feature called 'Install as app' in Claude for Mac and Windows that turns an artifact into a standalone desktop app. Installed apps get their own icon and window, can be shared, and must ask before they interact with the computer. Anthropic describes three permission levels: browser-like defaults, app permissions such as notifications and global shortcuts, and full computer access, which is limited to apps made by the user or, on Team and Enterprise, by their organization. Anthropic says it does not review apps before people install them, that requests an app makes to Claude count toward plan usage limits, and that apps need the user to be online and signed in. The feature is on by default for Team plans and off on Enterprise until an owner enables it, and it is not offered to HIPAA-ready organizations or hybrid deployments. SiliconANGLE reports that Anthropic showed internal examples including an image editor, a file manager and a terminal.",
@@ -17794,7 +17926,7 @@
      },
      "editor_reason": "Added by the editor from web research.",
      "added_by_editor": "2026-11-25",
-     "rank": 3,
+     "rank": 6,
      "id": "2026-11-25-claude-can-now-install-artifacts-as-mac-and-windows-apps-wit",
      "date": "2026-11-25"
     },
@@ -17841,7 +17973,7 @@
      },
      "editor_reason": "Added by the editor from web research.",
      "added_by_editor": "2026-11-25",
-     "rank": 4,
+     "rank": 7,
      "id": "2026-11-25-three-xai-co-founders-launch-epochal-with-100-million-and-a",
      "date": "2026-11-25"
     },
@@ -17882,7 +18014,7 @@
      },
      "editor_reason": "Added by the editor from web research.",
      "added_by_editor": "2026-11-25",
-     "rank": 5,
+     "rank": 8,
      "id": "2026-11-25-cloudflare-launches-search-for-agents-a-one-toggle-search-ap",
      "date": "2026-11-25"
     },
@@ -17922,15 +18054,15 @@
      },
      "editor_reason": "Added by the editor from web research.",
      "added_by_editor": "2026-11-25",
-     "rank": 6,
+     "rank": 9,
      "id": "2026-11-25-google-deepmind-launches-humanity-s-first-exam-a-kaggle-benc",
      "date": "2026-11-25"
     }
    ],
    "stats": {
-    "items": 6,
-    "stories": 6,
-    "published": 6,
+    "items": 9,
+    "stories": 9,
+    "published": 9,
     "dropped": 0,
     "llm_calls": 0,
     "models": {},
